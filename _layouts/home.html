@@ -30,6 +30,7 @@ layout: default
         {{ content }}
 
         <!-- Home Post List -->
+        {% for post in site.posts %}
 
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -55,7 +56,6 @@ layout: default
 
         {% endfor %}
 
-        
 
       </div>
     </div>
