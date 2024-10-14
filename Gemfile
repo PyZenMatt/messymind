@@ -10,3 +10,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Aggiungi Webrick per il supporto al server locale
 gem "webrick"
+
+gem "jekyll-sitemap"

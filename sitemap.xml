@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://felicita.matteoricci.net/</loc>
+    <lastmod>2024-10-14T17:45:01+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Pagina About -->
+  <url>
+    <loc>https://felicita.matteoricci.net/about</loc>
+    <lastmod>2024-10-14T17:45:01+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Pagina Contact -->
+  <url>
+    <loc>https://felicita.matteoricci.net/contact</loc>
+    <lastmod>2024-10-14T17:45:01+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Post di esempio -->
+  <url>
+    <loc>https://felicita.matteoricci.net/felicit%C3%A0/benessere/olistico/2024/10/09/la-felicit%C3%A0-autentica.html</loc>
+    <lastmod>2024-10-14T17:45:01+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>
