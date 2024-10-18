@@ -24,9 +24,15 @@
     <priority>0.80</priority>
   </url>
 
-  <!-- Post di esempio -->
+  <!-- Posts -->
   <url>
     <loc>https://felicita.matteoricci.net/felicit%C3%A0/benessere/olistico/2024/10/09/la-felicit%C3%A0-autentica.html</loc>
+    <lastmod>2024-10-14T17:45:01+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+<url>
+    <loc>https://felicita.matteoricci.net/felicit%C3%A0//crescita/2024/10/18/crescita-spirituale-e-personale.html</loc>
     <lastmod>2024-10-14T17:45:01+00:00</lastmod>
     <priority>0.80</priority>
   </url>
