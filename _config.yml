@@ -1,4 +1,3 @@
-safe: false
 
 title:              L'arte della felicità
 email:              info@matteoricci.net
@@ -22,6 +21,7 @@ linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+permalink: /:title/
 
 # Build settings
 markdown:           kramdown
@@ -31,5 +31,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap 
-  - jekyll-admin
 
