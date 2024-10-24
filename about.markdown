@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-background: '/img/bg-about.jpg'
+background: '/img/about/bg-about.jpg'
 ---
 <html lang="it">
 <head>
