@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "md La Trasformazione Interiore: Essere Felici Attraverso la Crescita Personale e Spirituale" 
+title: "La Trasformazione Interiore: Essere Felici Attraverso la Crescita Personale e Spirituale" 
 date: 2024-10-18 
 categories: felicita crescita 
 tags: [benessere, crescita personale, felicità, trasformazione spirituale, meditazione] 
