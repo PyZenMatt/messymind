@@ -6,6 +6,7 @@ tags: [benessere, crescita personale, felicità, trasformazione spirituale, medi
 description: "Esplora il percorso della crescita personale e spirituale e scopri come queste pratiche possono portarti a una felicità più profonda e autentica. Leggi consigli su meditazione, autoconsapevolezza e molto altro." 
 background: '/img/posts/2/acchiappasogni.jpg' 
 author: Matteo Ricci 
+meta: "La felicità non si può trovare solo all'esterno con beni e materialità. La felicità parte da dentro noi stessi. Inizia ora il viaggio dentro te stesso. "
 --- 
 
 # **"Come Trovare la Felicità Attraverso la Crescita Personale e Spirituale"**

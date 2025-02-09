@@ -6,6 +6,7 @@ tags: equilibrio benessere spirituale filosofia buddismo cristianesimo yoga isla
 description: "Esplora come l'equilibrio è essenziale nella vita, attraverso i principi delle tradizioni spirituali e filosofiche, inclusi buddismo, cristianesimo, yoga e islam."
 background: /img/posts/equilibrio/balance.jpeg
 author: "Teo"
+meta: "La via di mezzo dentro di noi. L'equilibrio è  una chiave importante per affrontare e navigare la vita in modo più sereno, vista da diverse filosofie e religioni."
 ---
 
 **L'equilibrio** non consiste nell'eliminare il caos o nel controllare rigidamente le circostanze della vita, ma nell'arte di **coltivare un centro stabile** da cui osservare, comprendere e rispondere agli eventi con saggezza e serenità. 

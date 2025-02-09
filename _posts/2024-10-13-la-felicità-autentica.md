@@ -6,7 +6,7 @@ tags: [benessere interiore, equilibrio vita, crescita personale, salute mentale,
 description: "Scopri come raggiungere una felicità duratura attraverso un approccio olistico che integra corpo, mente e spirito. Leggi consigli pratici e riflessioni per coltivare il tuo benessere interiore e trovare l'equilibrio nella tua vita quotidiana."
 background: /img/posts/1/felicita.jpeg
 author: Matteo Ricci
-meta: "Scoprire la connessione tra mente, corpo e spirito per una vita equilibrata"
+meta: "Riscoprire la connessione tra mente, corpo e spirito per una vita equilibrata, la mia storia attraverso la notte buia dell'anima."
 ---
 
 

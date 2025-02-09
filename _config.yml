@@ -4,20 +4,20 @@ description:        Il blog che celebra l'arte della felicità, esplorando ogni 
 author:             Matteo Ricci
 baseurl:            ""
 url:                "https://www.matteoricci.net"
-background:         "/assets/img/homepage-background.jpg"
+background:         "/img/home/bg-home.jpeg"
 
----
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   
+github_username:   PyZenMatt 
+facebook_username:  
 instagram_username:  
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
-permalink: /:title/
+permalink: /:categories/:title/
+
 
 # Build settings
 markdown:           kramdown

@@ -7,7 +7,8 @@ description: "Scopri come raggiungere una felicità duratura attraverso un appro
 featured_post:  
 author: Matteo Ricci
 meta: Le neuroscienze e il Buddhismo concordano che il Sé è un’illusione. Scopri cosa dice la scienza sulla coscienza e sulla natura della mente.”
-
+background: /img/neuroscienza.jpg
+featured_post: true
 ---
 
 [Le neuroscienze](<https://www.treccani.it/enciclopedia/neuroscienze/>) studiano il cervello e la mente attraverso metodologie sperimentali e tecniche di imaging sempre più sofisticate suggeriscono che il “sé” sia più un costrutto narrativo e dinamico, piuttosto che una entità fissa e immutabile.
