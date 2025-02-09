@@ -1,0 +1,386 @@
+// Layout orizzontale per i post
+.post-horizontal {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 20px;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.post-image {
+  width: 40%;
+  background-size: cover;
+  background-position: center;
+  min-height: 200px; // Puoi regolare l'altezza in base alle tue esigenze
+}
+
+.post-content {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  margin-bottom: 1rem;
+}
+
+.post-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive: per schermi piccoli, disposizione verticale */
+@media (max-width: 768px) {
+  .post-horizontal {
+    flex-direction: column;
+  }
+  .post-image,
+  .post-content {
+    width: 100%;
+  }
+  .post-image {
+    min-height: 250px; // Puoi aumentare l'altezza su mobile se necessario
+  }
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3; /* Linea sottile per separare la navbar */
+}
+
+/* Margine per dare spazio sotto la navbar */
+.navbar + * {
+  margin-top: 20px;
+}
+/* Cambia il colore del testo della navbar */
+.navbar {
+  background-color: white !important; /* Sfondo bianco */
+}
+
+.navbar a,
+.navbar .navbar-brand {
+  color: #333 !important; /* Cambia il colore del testo */
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #007bff !important; /* Cambia il colore quando si passa sopra */
+}
+
+/* Aggiunge spazio in alto per evitare che la navbar copra i contenuti */
+body {
+  padding-top: 80px; /* Regola in base all'altezza della tua navbar */
+}
+
+/* Sfondo grigio attorno al contenitore */
+.main-wrapper {
+  background-color: #f8f9fa; /* Grigio chiaro */
+  padding-top: 50px; /* Distanza tra navbar e contenuto */
+  padding-bottom: 50px;
+}
+
+/* Box centrale con contenuti */
+.content-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenuto del post con margine per distanziarlo */
+.post-content-wrapper {
+  padding: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar-wrapper {
+  padding-left: 30px;
+  
+  @media (max-width: 991px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.post-sidebar {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+  position: sticky;
+  top: 100px;
+
+  .sidebar-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  ul li a {
+    color: #333;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    
+    &:hover {
+      color: #007bff;
+      padding-left: 5px;
+    }
+    
+    i {
+      width: 20px;
+      color: #007bff;
+    }
+  }
+}
+
+/* Adjust main content spacing */
+.post-content-wrapper {
+  padding-right: 30px;
+  
+  @media (max-width: 991px) {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-wrapper {
+    order: -1;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .post-sidebar {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+}
+// Hero Section
+.masthead {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+
+  .site-heading {
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
+
+    .subheading {
+      font-size: 1.5rem;
+      font-weight: 300;
+    }
+  }
+}
+
+// Section Headings
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+// Post Previews
+.post-preview {
+  margin-bottom: 2rem;
+
+  .post-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  .post-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #555;
+  }
+
+  .post-meta {
+    font-size: 0.9rem;
+    color: #777;
+  }
+}
+
+// Sidebar
+.sidebar-wrapper {
+  .post-sidebar {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+    margin-top: 30px;
+    position: sticky;
+    top: 100px;
+
+    .sidebar-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    ul li a {
+      color: #333;
+      transition: all 0.3s ease;
+      font-size: 0.95rem;
+
+      &:hover {
+        color: #007bff;
+        padding-left: 5px;
+      }
+
+      i {
+        width: 20px;
+        color: #007bff;
+      }
+    }
+  }
+}
+
+// Responsive Adjustments
+@media (max-width: 768px) {
+  .masthead {
+    height: 40vh;
+
+    .site-heading {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .subheading {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .post-preview {
+    .post-title {
+      font-size: 1.5rem;
+    }
+
+    .post-subtitle {
+      font-size: 1rem;
+    }
+  }
+}
+// Featured Section
+.post-card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: #007bff;
+    }
+  }
+}
+
+// Section Heading with Button
+.section-heading {
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #007bff;
+  }
+}
+
+// Responsive Adjustments
+@media (max-width: 768px) {
+  .post-card {
+    .row {
+      flex-direction: column;
+    }
+    
+    .col-md-4 {
+      height: 200px;
+    }
+    
+    .card-img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  
+  .section-heading {
+    font-size: 1.5rem;
+    
+    &::after {
+      width: 30px;
+    }
+  }
+  
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 0.375rem 0.75rem;
+  }
+}
+.fa-stack .fa-envelope {
+  position: relative;
+  left: 65%;
+  transform: translateX(-35%);
+}

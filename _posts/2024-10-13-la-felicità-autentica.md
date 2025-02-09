@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "La felicità autentica: Un Approccio Olistico Per Il Benessere Interiore"
-date: 2024-10-09 11:05:42
 categories: benessere
 tags: [benessere interiore, equilibrio vita, crescita personale, salute mentale, mindfulness]
 description: "Scopri come raggiungere una felicità duratura attraverso un approccio olistico che integra corpo, mente e spirito. Leggi consigli pratici e riflessioni per coltivare il tuo benessere interiore e trovare l'equilibrio nella tua vita quotidiana."

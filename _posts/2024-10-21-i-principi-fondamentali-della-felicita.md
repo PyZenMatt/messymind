@@ -1,8 +1,7 @@
 --- 
 layout: post 
 title: "5 Principi Fondamentali della Felicità: Come Raggiungere la Pienezza Interiore" 
-date: 2024-10-21 
-categories: felicita 
+categories: felicita
 tags: [felicita, benessere, autorealizzazione, crescita personale] 
 description: "Scopri i cinque principi fondamentali della felicità che possono trasformare la tua vita e guidarti verso una pienezza interiore autentica. Approfondisci temi come l'accettazione di sé, la gratitudine, e le relazioni positive." 
 background: /img/posts/3/Loto.png

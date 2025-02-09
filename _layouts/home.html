@@ -2,61 +2,92 @@
 layout: default
 ---
 
-<!-- Page Header -->
-{% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-    {% else %}
-  <header class="masthead">
-    {% endif %}
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>{{ site.title }}</h1>
-            {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
+<!-- Hero Section -->
+<header class="masthead" style="background-image: url('{{ site.hero_image | default: '/path/to/default-hero.jpg' }}');">
+  <div class="overlay"></div>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ content }}
-
-        <!-- Home Post List -->
-        {% for post in site.posts %}
-
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-          </a>
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
-          </p>
-        </article>
-
-        <hr>
-
-        {% endfor %}
-
-
+        <div class="site-heading">
+          <h1>{{ site.title }}</h1>
+          <span class="subheading">{{ site.description }}</span>
+        </div>
       </div>
     </div>
   </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+  <!-- Featured Section -->
+  <div class="row mb-5">
+    <div class="col-12">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="section-heading">Articoli in Evidenza</h2>
+        {% if site.featured_category %}
+        <a href="/categories/{{ site.featured_category | slugify }}" class="btn btn-primary">
+          Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+        {% endif %}
+      </div>
+      
+      {% assign featured_posts = site.posts | where: "featured_post", "true" | slice: 0,3 %}
+      {% for post in featured_posts %}
+      <div class="card mb-4 post-card">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img" alt="{{ post.title }}">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <a href="{{ post.url }}" class="text-decoration-none">
+                <h3 class="card-title">{{ post.title }}</h3>
+              </a>
+              <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">
+                  <i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}
+                </small>
+                <a href="{{ post.url }}" class="btn btn-sm btn-outline-primary">Leggi tutto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Latest Posts -->
+  <div class="row">
+    <div class="col-12">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="section-heading">Ultimi Articoli</h2>
+        <a href="/archivio" class="btn btn-primary">
+          Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+      
+      <div class="row">
+        {% for post in site.posts limit:3 %}
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img-top" alt="{{ post.title }}">
+            <div class="card-body">
+              <a href="{{ post.url }}" class="text-decoration-none">
+                <h5 class="card-title">{{ post.title }}</h5>
+              </a>
+              <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+            </div>
+            <div class="card-footer bg-white">
+              <small class="text-muted">
+                <i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}
+              </small>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

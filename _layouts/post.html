@@ -30,14 +30,13 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
+      <!-- Contenuto Principale -->
+      <div class="col-lg-8 col-md-10 mx-auto post-content-wrapper">
         {{ content }}
 
         <hr>
 
         <div class="clearfix">
-
           {% if page.previous.url %}
           <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
               Post</span></a>
@@ -46,9 +45,34 @@ layout: default
           <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
               Post</span> &rarr;</a>
           {% endif %}
-
         </div>
+      </div>
 
+      <!-- Sidebar -->
+      <div class="col-lg-4 sidebar-wrapper">
+        <div class="post-sidebar">
+          <h4 class="sidebar-title">Categorie</h4>
+          <ul class="list-unstyled">
+            {% for category in page.categories %}
+            <li class="mb-2">
+              <a href="/categorie/{{ category | slugify }}" class="text-decoration-none">
+                <i class="fas fa-folder-open mr-2"></i>{{ category }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          
+          <h4 class="sidebar-title mt-4">Ultimi Articoli</h4>
+          <ul class="list-unstyled">
+            {% for post in site.posts limit:5 %}
+            <li class="mb-2">
+              <a href="{{ post.url }}" class="text-decoration-none">
+                <i class="fas fa-chevron-right mr-2"></i>{{ post.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
   </div>

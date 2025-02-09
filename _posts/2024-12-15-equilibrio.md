@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "L'Equilibrio: La Chiave per Navigare nella Vita"
-categories: benessere spirituale filosofia
+categories: benessere 
 tags: equilibrio benessere spirituale filosofia buddismo cristianesimo yoga islam
 description: "Esplora come l'equilibrio è essenziale nella vita, attraverso i principi delle tradizioni spirituali e filosofiche, inclusi buddismo, cristianesimo, yoga e islam."
 background: /img/posts/equilibrio/balance.jpeg

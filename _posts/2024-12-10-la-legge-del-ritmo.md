@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Comprendere meglio se stessi con la legge del ritmo"
-date: 2024-12-10
 description: "Esplora come la legge del ritmo universale influisce sulla vita quotidiana e sulla crescita personale. Scopri tecniche per vivere in armonia con i cicli naturali."
 keywords: [legge del ritmo, crescita personale, spiritualità, equilibrio, cicli naturali, resilienza, filosofie orientali, Taoismo, meditazione]
-categories: [Spiritualità, Crescita Personale]
+categories: spiritualita
 ---
 
 # La Legge del Ritmo: Una Guida Universale alla Vita e all'Armonia

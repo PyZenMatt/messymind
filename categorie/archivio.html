@@ -1,0 +1,44 @@
+---
+layout: default
+title: Archivio
+permalink: /archivio/
+---
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="display-4 mb-4">Tutti gli Articoli</h1>
+      
+      <div class="row">
+        {% for post in site.posts %}
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="{{ post.background | default: '/assets/images/default-post.jpg' }}" 
+                 class="card-img-top" 
+                 alt="{{ post.title }}"
+                 style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <a href="{{ post.url }}" class="text-decoration-none text-dark">
+                <h5 class="card-title">{{ post.title }}</h5>
+              </a>
+              <div class="mb-2">
+                {% for category in post.categories %}
+                <a href="/categorie/{{ category | slugify }}" class="badge bg-primary text-decoration-none">
+                  {{ category }}
+                </a>
+                {% endfor %}
+              </div>
+              <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+            </div>
+            <div class="card-footer bg-white">
+              <small class="text-muted">
+                <i class="far fa-calendar-alt"></i> {{ post.date | date: "%d/%m/%Y" }}
+              </small>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

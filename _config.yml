@@ -1,16 +1,12 @@
-
 title:              L'arte della felicità
 email:              info@matteoricci.net
 description:        Il blog che celebra l'arte della felicità, esplorando ogni sfumatura di gioia e benessere per ispirarti a vivere una vita più serena e appagante.
 author:             Matteo Ricci
 baseurl:            ""
-url:                "https://felicita.matteoricci.net"
+url:                "https://www.matteoricci.net"
 background:         "/assets/img/homepage-background.jpg"
 
-  
-
 ---
-
 
 # Social Profiles
 twitter_username:   SBootstrap
@@ -30,5 +26,29 @@ paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-sitemap 
+  - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories          # Abilita gli archivi per le categorie
+  layouts:
+    category: category    # Indica che per le pagine archivio di categoria verrà usato il layout _layouts/category.html
+  permalinks:
+    category: '/categorie/:name/'  # L'URL sarà, ad esempio, /categorie/benessere/
+  output: true            # Forza la generazione degli archivi (utile per debug)
+
+
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
 

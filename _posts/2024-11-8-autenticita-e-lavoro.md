@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Autenticità e Felicità nel Lavoro: Riflessioni e Strategie"
-date: 2024-11-08
-categories: [Crescita Personale, Spiritualità]
-tags: [autenticità, felicità lavorativa, sviluppo personale, Taoismo, Karma Yoga]
+categories: spiritualita 
+tags: autenticità
 description: "Esplora le strategie per raggiungere l'autenticità e la felicità nel lavoro, ispirate da filosofie antiche come il Taoismo e il Karma Yoga, e scopri come queste possono trasformare la tua carriera e la tua vita quotidiana."
 permalink: /autenticita-e-felicita-nel-lavoro/
 background: '/img/posts/lavoro/lavoro.jpg'
