@@ -7,10 +7,10 @@ layout: default
   <!-- Featured Section -->
   <div class="row mb-5">
     <div class="col-12">
-      <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 class="section-heading">Articoli in Evidenza</h2>
+      <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4"">
+        <h2 class="section-heading mb-2">Articoli in Evidenza</h2>
         {% if site.featured_category %}
-        <a href="/categories/{{ site.featured_category | slugify }}" class="btn btn-primary">
+        <a href="/categories/{{ site.featured_category | slugify }}" class="btn btn-primary category-button">
           Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
         </a>
         {% endif %}
@@ -19,15 +19,15 @@ layout: default
       {% for post in featured_posts %}
       <div class="card mb-4 post-card">
         <div class="row no-gutters">
-          <div class="col-md-4">
-            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img" alt="{{ post.title }}">
+          <div class="col-md-4 d-none d-md-block">
+            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img d-none d-md-block"" alt="{{ post.title }}">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <a href="{{ post.url }}" class="text-decoration-none">
                 <h3 class="card-title">{{ post.title }}</h3>
               </a>
-              <p class="card-text">{{ post.meta | strip_html | truncatewords: 25 }}</p>
+              <p class="card-text d-none d-md-block">{{ post.meta | strip_html | truncatewords: 25 }}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <small class="text-muted">
                   <i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}
@@ -55,12 +55,12 @@ layout: default
         {% for post in site.posts limit:3 %}
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img-top" alt="{{ post.title }}">
+            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="ccard-img d-none d-md-block"" alt="{{ post.title }}">
             <div class="card-body">
               <a href="{{ post.url }}" class="text-decoration-none">
                 <h5 class="card-title">{{ post.title }}</h5>
               </a>
-              <p class="card-text">{{ post.meta | strip_html | truncatewords: 15 }}</p>
+              <p class="card-text d-none d-md-block">{{ post.meta | strip_html | truncatewords: 15 }}</p>
             </div>
             <div class="card-footer bg-white">
               <small class="text-muted">
@@ -75,7 +75,7 @@ layout: default
   </div>
 </div>
 
-<!-- Hero Section -->
+<!-- Hero Section - Spostata in alto -->
 <header class="masthead" style="background-image: url('{{ site.hero_image | default: '/img/home/bg-home.jpeg' }}');">
   <div class="overlay"></div>
   <div class="container">
@@ -89,6 +89,7 @@ layout: default
     </div>
   </div>
 </header>
+
 
 <!-- Sezioni per Categoria (Automatiche) -->
 {% for cat in site.categories %}
@@ -115,15 +116,15 @@ layout: default
         {% for post in top_posts %}
         <div class="card mb-4 post-card">
           <div class="row no-gutters">
-            <div class="col-md-4">
-              <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img" alt="{{ post.title }}">
+            <div class="col-md-4 d-none d-md-block">
+              <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img d-none d-md-block"" alt="{{ post.title }}">
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <a href="{{ post.url }}" class="text-decoration-none">
                   <h3 class="card-title">{{ post.title }}</h3>
                 </a>
-                <p class="card-text">{{ post.meta | strip_html | truncatewords: 25 }}</p>
+                <p class="card-text d-none d-md-block">{{ post.meta | strip_html | truncatewords: 25 }}</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <small class="text-muted">
                     <i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}

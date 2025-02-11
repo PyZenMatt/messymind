@@ -64,7 +64,7 @@ layout: default
           
           <h4 class="sidebar-title mt-4">Ultimi Articoli</h4>
           <ul class="list-unstyled">
-            {% for post in site.posts limit:5 %}
+            {% for post in site.posts limit:3 %}
             <li class="mb-2">
               <a href="{{ post.url }}" class="text-decoration-none">
                 <i class="fas fa-chevron-right mr-2"></i>{{ post.title }}

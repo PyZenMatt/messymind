@@ -242,7 +242,6 @@ La **vera felicità** non è una scoperta esterna, ma un fiorire dall'interno.
 Apri gli occhi del cuore e lascia che la tua luce risplenda nel mondo.
 
 ## Sostieni il mio lavoro
-----------------------
 
 Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. 
 

@@ -384,3 +384,176 @@ body {
   left: 65%;
   transform: translateX(-35%);
 }
+
+/* ====================
+   Mobile Optimization
+   ==================== */
+
+   @media (max-width: 767px) {
+    // Hero Section
+    .masthead {
+      height: 40vh;
+      padding: 20px 0;
+      
+      .site-heading {
+        h1 {
+          font-size: 2rem !important;
+          line-height: 1.2;
+        }
+        
+        .subheading {
+          font-size: 1rem !important;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+  
+    // Cards Layout
+    .card {
+      margin-bottom: 1rem;
+      
+      .row.no-gutters {
+        flex-direction: column;
+        
+        .col-md-4 {
+          width: 100%;
+          height: 200px;
+          
+          img {
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        
+        .col-md-8 {
+          width: 100%;
+          padding: 1rem;
+        }
+      }
+    }
+  
+    // Section Headings
+    .section-heading {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      
+      &::after {
+        width: 30px;
+        height: 2px;
+      }
+    }
+  
+    // Navbar
+    .navbar {
+      padding: 0.5rem 1rem;
+      
+      .navbar-brand {
+        font-size: 1.1rem;
+      }
+      
+      .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+      }
+    }
+  
+    // Content Box
+    .content-box {
+      padding: 15px;
+      margin-top: 20px;
+    }
+  
+    // Post Content
+    .post-content-wrapper {
+      padding: 15px;
+      
+      h1, h2, h3 {
+        font-size: 1.4rem;
+      }
+    }
+  
+    // Sidebar
+    .sidebar-wrapper {
+      padding-left: 0;
+      
+      .post-sidebar {
+        margin-top: 20px;
+        padding: 15px;
+        position: static;
+      }
+    }
+  
+    // Utility Spacing
+    .mb-5, .my-5 {
+      margin-bottom: 2rem !important;
+    }
+    
+    .btn {
+      font-size: 0.9rem;
+      padding: 0.375rem 0.75rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .category-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .category-button {
+      font-size: 14px;
+      padding: 6px 12px;
+      margin-top: 5px; /* Distanza dal titolo */
+      width: auto; /* Evita che il bottone sia troppo grande */
+    }
+  }
+/* ====================
+   Mobile Buttons Optimization
+   ==================== */
+
+   @media (max-width: 768px) {
+    .btn {
+      // Stile generale per tutti i pulsanti
+      padding: 4px 8px !important;
+      font-size: 0.8rem !important;
+      border: none !important;
+      background-color: transparent !important;
+      box-shadow: none !important;
+      
+      // Rimuovi icone Font Awesome
+      i {
+        display: none !important;
+      }
+      
+      // Colore del testo
+      color: #007bff !important; // Colore primario del tema
+      
+      &:hover {
+        background-color: transparent !important;
+        color: #0056b3 !important; // Colore hover
+      }
+    }
+  
+    // Pulsanti specifici
+    .btn-primary, 
+    .btn-outline-primary {
+      // Rimuovi bordo e sfondo
+      border: none !important;
+      background-image: none !important;
+      
+      // Allineamento testo
+      display: inline-block;
+      text-align: left;
+      width: auto;
+      
+      // Effetto hover semplificato
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    // Header delle categorie
+    .category-header .btn {
+      margin-top: 0.5rem;
+      padding-left: 0 !important;
+    }
+  }
