@@ -1,115 +1,120 @@
-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
-<url>
-<loc>https://www.matteoricci.net/</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.matteoricci.net/about/</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.matteoricci.net/contact/</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.matteoricci.net/categorie/benessere/</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/categorie/crescita-personale/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.matteoricci.net/categorie/felicita/</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/categorie/consapevolezza/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/categorie/spiritualita/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.matteoricci.net/categorie/buddismo/</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/buddismo/neuroscienze-e-buddhismo/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/spiritualita/autenticita-e-felicita-nel-lavoro/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/consapevolezza/autoconsapevolezza-e-felicita/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.matteoricci.net/archivio/</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.matteoricci.net/benessere/equilibrio/</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/spiritualita/la-legge-del-ritmo/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/benessere/la-felicit%C3%A0-autentica/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/crescita-personale/crescita-spirituale-e-personale/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>
-https://www.matteoricci.net/felicita/i-principi-fondamentali-della-felicita/
-</loc>
-<lastmod>2025-02-09T15:46:08+00:00</lastmod>
-<priority>0.80</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://www.matteoricci.net/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/about</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/contact</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/categorie/benessere</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/categorie/crescita-personale</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/categorie/felicita</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/categorie/consapevolezza</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/categorie/spiritualita</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/categorie/buddismo</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/benessere/cuore-e-mente-in-armonia/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/buddismo/neuroscienze-e-buddismo/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/spiritualita/autenticita-e-felicita-nel-lavoro/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/archivio</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/benessere/equilibrio/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/benessere/la-felicita-autentica/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/crescita-personale/crescita-spirituale-e-personale/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/felicita/i-principi-fondamentali-della-felicita/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/consapevolezza/autoconsapevolezza-e-felicita/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.matteoricci.net/spiritualita/la-legge-del-ritmo/</loc>
+        <lastmod>2025-02-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
 </urlset>
