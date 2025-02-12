@@ -244,4 +244,4 @@ Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo
 
 Matteo Ricci 
 
-[una mano che tiene una piantina verde piccola che indica crescita]: Aspose.Words.ac71f565-39ce-453d-90c7-339167d2305e.001.png
+
