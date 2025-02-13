@@ -207,23 +207,17 @@ Entrambe quindi ci fanno notare che la nostra identità non è come una realtà 
 
 Se il sé è davvero un'illusione, cosa significa questo per la nostra vita quotidiana? Come possiamo vivere in modo più autentico alla luce di questa consapevolezza?
 
-## Sostieni il mio lavoro
+<h2>Sostieni il mio lavoro</h2>
+<p>Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. Non utilizzo pubblicità per monetizzare i contenuti, ma apprezzo qualsiasi piccolo gesto che mi permetta di continuare a condividere questi pensieri e riflessioni.</p>
 
-Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. 
+<p>Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo con qualcuno a cui potrebbe interessare. Ogni gesto, anche piccolo, conta e mi aiuta a far crescere questo spazio dedicato alla ricerca della felicità.</p>
 
-Non utilizzo pubblicità ne social media per monetizzare i contenuti, ma apprezzo qualsiasi piccolo gesto che mi permetta di continuare a condividere questi pensieri e riflessioni.
+<p><strong>Fai una piccola donazione consapevole con </strong> <a href="https://www.paypal.me/pythonmat" target="_blank" rel="noopener noreferrer"> PayPall </a>
 
-Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo con qualcuno a cui potrebbe interessare. 
+<p><strong>Oppure condividi</strong> questo articolo con i tuoi amici e sui social media. Grazie di cuore!</p>
 
-Ogni gesto, anche piccolo, conta e mi aiuta a far crescere questo spazio dedicato alla ricerca della felicità.
+Matteo Ricci
 
-**Fai una piccola donazione consapevole con** [PayPall](https://www.paypal.me/pythonmat)
-
-**Oppure condividi** questo articolo con i tuoi amici e sui social media. Grazie di cuore!
-
-Grazie 
-
-Teo
 
 
 

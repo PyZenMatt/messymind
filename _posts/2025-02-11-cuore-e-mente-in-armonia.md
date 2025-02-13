@@ -126,4 +126,3 @@ Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo
 Matteo Ricci 
 
 
-[def]: #sostieni-il-mio-lavoro

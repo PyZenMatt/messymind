@@ -97,7 +97,6 @@ Indice
 - [Un Pilastro della felicità:](#un-pilastro-della-felicità)
   - [Relazioni Significative](#relazioni-significative)
   - [Conclusione](#conclusione)
-  - [Sostieni il mio lavoro](#sostieni-il-mio-lavoro)
 
 # Un risveglio interiore
 
@@ -241,18 +240,14 @@ La **vera felicità** non è una scoperta esterna, ma un fiorire dall'interno.
 
 Apri gli occhi del cuore e lascia che la tua luce risplenda nel mondo.
 
-## Sostieni il mio lavoro
+<h2>Sostieni il mio lavoro</h2>
 
-Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. 
+<p>Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. Non utilizzo pubblicità per monetizzare i contenuti, ma apprezzo qualsiasi piccolo gesto che mi permetta di continuare a condividere questi pensieri e riflessioni.</p>
 
-Non utilizzo pubblicità ne social media per monetizzare i contenuti, ma apprezzo qualsiasi piccolo gesto che mi permetta di continuare a condividere questi pensieri e riflessioni.
+<p>Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo con qualcuno a cui potrebbe interessare. Ogni gesto, anche piccolo, conta e mi aiuta a far crescere questo spazio dedicato alla ricerca della felicità.</p>
 
-Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo con qualcuno a cui potrebbe interessare. 
+<p><strong>Fai una piccola donazione consapevole con </strong> <a href="https://www.paypal.me/pythonmat" target="_blank" rel="noopener noreferrer"> PayPall </a>
 
-Ogni gesto, anche piccolo, conta e mi aiuta a far crescere questo spazio dedicato alla ricerca della felicità.
-
-**Fai una piccola donazione consapevole con** [PayPall](https://www.paypal.me/pythonmat)
-
-**Oppure condividi** questo articolo con i tuoi amici e sui social media. Grazie di cuore!
+<p><strong>Oppure condividi</strong> questo articolo con i tuoi amici e sui social media. Grazie di cuore!</p>
 
 Matteo Ricci

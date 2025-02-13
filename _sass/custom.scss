@@ -557,3 +557,66 @@ body {
       padding-left: 0 !important;
     }
   }
+/* Masthead image and content */
+.masthead {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  height: 400px; /* Imposta un'altezza minima per il masthead */
+  color: white;
+  display: flex;
+  justify-content: center; /* Centra il contenuto orizzontalmente */
+  align-items: center; /* Centra il contenuto verticalmente */
+  text-align: center; /* Allinea il testo al centro */
+}
+
+.masthead-image {
+  background-size: cover;
+  background-position: center center;
+}
+
+.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3); /* Sovrapposizione scura per migliorare la leggibilità */
+}
+
+/* Header and title positioning */
+.post-heading h1 {
+  font-size: 2.5rem; /* Dimensione del titolo più piccola */
+  line-height: 1.2;
+  margin: 0;
+  font-weight: bold; /* Per enfatizzare il titolo */
+}
+
+@media (max-width: 768px) {
+  /* For mobile devices, make the masthead image cover the full width */
+  .masthead {
+    height: 250px; /* Imposta l'altezza del masthead su dispositivi mobili */
+    padding-top: 0 !important;; /* Rimuovi il padding top per allinearlo meglio */
+  }
+
+  .post-heading h1 {
+    font-size: 1.8rem; /* Riduci la dimensione del titolo */
+    line-height: 1.2; /* Allineamento più compatto del titolo */
+    margin-top: 0; /* Rimuove il margine superiore */
+    text-align: center; /* Assicurati che il testo sia centrato orizzontalmente */
+  }
+
+
+  /* Ensure title is not overlapping the image */
+  .masthead .container {
+    position: relative;
+    z-index: 10; /* Assicurati che il contenuto non sia nascosto dietro l'immagine */
+  }
+}
+
+/* Nascondi la sezione "Posted by" e la data su dispositivi mobili */
+@media (max-width: 768px) {
+  .post-heading .meta {
+    display: none !important; /* Assicura che venga nascosta su dispositivi mobili */
+  }
+}

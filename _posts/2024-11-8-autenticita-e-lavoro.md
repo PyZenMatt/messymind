@@ -124,9 +124,8 @@ Anche in un **lavoro** che non amiamo pienamente, possiamo essere portatori di l
 
 Essere autentici e felici nel lavoro è possibile. Con consapevolezza e impegno possiamo costruire una carriera che rifletta il nostro vero "**sé**" e nutra il nostro benessere. Con una mente aperta e una sincera motivazione, possiamo costruire una vita lavorativa in cui **successo** e **felicità** si intrecciano armoniosamente.
 
-## Sostieni il mio lavoro
-
-<p>Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. Non utilizzo pubblicità ne social media per monetizzare i contenuti, ma apprezzo qualsiasi piccolo gesto che mi permetta di continuare a condividere questi pensieri e riflessioni.</p>
+<h2>Sostieni il mio lavoro</h2>
+<p>Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. Non utilizzo pubblicità per monetizzare i contenuti, ma apprezzo qualsiasi piccolo gesto che mi permetta di continuare a condividere questi pensieri e riflessioni.</p>
 
 <p>Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo con qualcuno a cui potrebbe interessare. Ogni gesto, anche piccolo, conta e mi aiuta a far crescere questo spazio dedicato alla ricerca della felicità.</p>
 

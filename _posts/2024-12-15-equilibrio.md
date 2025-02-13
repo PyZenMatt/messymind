@@ -283,3 +283,14 @@ Il Potere del Confronto
 Ogni tradizione ci offre una prospettiva unica e, condividendo le nostre esperienze e i nostri strumenti, possiamo arricchirci a vicenda. Quale di questi principi senti più vicino al tuo cuore? Quali pratiche ti aiutano a ritrovare il tuo equilibrio?
 
 Raccontalo e condividilo: il confronto è una fonte preziosa di ispirazione, perché, come l’equilibrio, anche la saggezza cresce attraverso l’apertura e il dialogo.
+
+<h2>Sostieni il mio lavoro</h2>
+<p>Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. Non utilizzo pubblicità per monetizzare i contenuti, ma apprezzo qualsiasi piccolo gesto che mi permetta di continuare a condividere questi pensieri e riflessioni.</p>
+
+<p>Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo con qualcuno a cui potrebbe interessare. Ogni gesto, anche piccolo, conta e mi aiuta a far crescere questo spazio dedicato alla ricerca della felicità.</p>
+
+<p><strong>Fai una piccola donazione consapevole con </strong> <a href="https://www.paypal.me/pythonmat" target="_blank" rel="noopener noreferrer"> PayPall </a>
+
+<p><strong>Oppure condividi</strong> questo articolo con i tuoi amici e sui social media. Grazie di cuore!</p>
+
+Matteo Ricci
