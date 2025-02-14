@@ -7,4 +7,5 @@ Disallow: /guida_django/
 Disallow: /guida_bootstrap/
 Disallow: /guida_js/
 Disallow: /guida_vue/
-Disallow: /guida_bitcoin/
+Disallow: /bitcoin/
+Allow: /
