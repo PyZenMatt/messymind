@@ -4,7 +4,6 @@ title: "Neuroscienze e Buddhismo: L’Illusione del Sé e la Coscienza Umana"
 categories: buddismo
 keywords: [Meditazione e neuroscienze, Mindfulness e cervello, Neuroplasticità e identità, Memoria autobiografica, Daniel Dennett e coscienza, Esperimenti split-brain, Meta-cognizione e sé, Filosofia buddhista, e scienza, Impermanenza (Anicca), Integrazione sensoriale e sé]
 description: "Scopri come raggiungere una felicità duratura attraverso un approccio olistico che integra corpo, mente e spirito. Leggi consigli pratici e riflessioni per coltivare il tuo benessere interiore e trovare l'equilibrio nella tua vita quotidiana."
-featured_post:  
 author: Matteo Ricci
 meta: Le neuroscienze e il Buddhismo concordano che il Sé è un’illusione. Scopri cosa dice la scienza sulla coscienza e sulla natura della mente.”
 background: /img/neuroscienza.jpg
@@ -51,7 +50,6 @@ Queste ricerche suggeriscono che il “sé” sia più un **costrutto narrativo*
   - [La Metafora del Carro](#la-metafora-del-carro)
     - [Il Carro e i Suoi Componenti](#il-carro-e-i-suoi-componenti)
     - [Applicazione al Sé](#applicazione-al-sé)
-  - [Sostieni il mio lavoro](#sostieni-il-mio-lavoro)
 
 
 # L’Illusione del Sé: Buddhismo e Neuroscienze dicono la stessa cosa?

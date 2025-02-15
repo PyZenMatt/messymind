@@ -7,7 +7,7 @@ layout: default
   <!-- Featured Section -->
   <div class="row mb-5">
     <div class="col-12">
-      <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4"">
+      <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
         <h2 class="section-heading mb-2">Articoli in Evidenza</h2>
         {% if site.featured_category %}
         <a href="/categories/{{ site.featured_category | slugify }}" class="btn btn-primary category-button">
@@ -15,12 +15,12 @@ layout: default
         </a>
         {% endif %}
       </div>
-      {% assign featured_posts = site.posts | where: "featured_post", "true" | slice: 0,3 %}
+      {% assign featured_posts = site.posts | where: "featured_post", "true" | slice: 0,5 %}
       {% for post in featured_posts %}
       <div class="card mb-4 post-card">
         <div class="row no-gutters">
           <div class="col-md-4 d-none d-md-block">
-            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img d-none d-md-block"" alt="{{ post.title }}">
+            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img d-none d-md-block" alt="{{ post.title }}">
           </div>
           <div class="col-md-8">
             <div class="card-body">
