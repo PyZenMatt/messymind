@@ -9,11 +9,7 @@ author: Matteo Ricci
 meta: "Riscoprire la connessione tra mente, corpo e spirito per una vita equilibrata, la mia storia attraverso la notte buia dell'anima."
 ---
 
-
------------------------------------------------------------------------------
-
 ## Introduzione
-
 
 Per gran parte della mia vita, mi sono sempre considerato una persona **fortunata**.  
   
