@@ -9,20 +9,23 @@ background: /img/relativita.jpg
 author: Matteo Ricci
 meta: "Un viaggio tra atomi, stelle e il potere nascosto della tua coscienza"
 featured_post: true
-keywords: [Einstein energia realtà, scienza spiritualità crescita personale, fisica quantistica trasformazione personale, consapevolezza energia vibrazionale, meditazione energia cosmica, intenzione e manifestazione scientifica]
-longtail-keywords: [esercizi energia personale , passi per trasformare energia in realtà,come creare la vita che desideri, legge di attrazione fisica quantistica]
-
+keywords: [Einstein, energia, realtà, scienza, spiritualità, crescita personale, fisica quantistica, trasformazione personale, consapevolezza energia vibrazionale, meditazione, energia cosmica, intenzione e manifestazione scientifica]
+longtail-keywords: [esercizi energia personale , passi per trasformare energia in realtà, come creare la vita che desideri, legge di attrazione, fisica quantistica]
 ---
+
 ## Quella Formula che Cambiò Tutto (e che Nessuno Ha Davvero Compreso)
 
 C’è un’equazione che tutti "conoscono": **E=mc²**. 
-Quattro simboli incisi nella storia e scolpiti nel marmo della conoscenza.
 
-Chissà se Albert Einstein immaginava che la sua equazione sarebbe diventata un ponte tra due mondi: quello della fisica e quello dello spirito. Perché se massa ed energia sono intercambiabili, allora tutto ciò che ci circonda — incluso il nostro corpo — è semplicemente luce intrappolata in una forma. 
+Quattro simboli **incisi** nella **storia** e scolpiti nel marmo della **conoscenza**.
+
+Chissà se Albert Einstein immaginava che la sua equazione sarebbe diventata un **ponte tra due mondi**: quello della **fisica** e quello dello **spirito**. 
+
+Perché se massa ed energia sono intercambiabili, allora tutto ciò che ci circonda — incluso il nostro corpo — è semplicemente luce **intrappolata** in una **forma**. 
 
 Ma cosa significa, davvero, vivere questa verità? Come possiamo passare dalla teoria alla pratica, dall’intelletto all’esperienza?
 
-Preparati a un viaggio in cui la meccanica quantistica si fonde con la poesia dell’anima, e dove scoprirai che il vero acceleratore di particelle è la tua mente.
+Preparati a un viaggio in cui la **meccanica** **quantistica** si fonde con la **poesia** **dell’anima**, e dove scoprirai che il vero **acceleratore** di **particelle** è la tua **mente**.
 
 - [Quella Formula che Cambiò Tutto (e che Nessuno Ha Davvero Compreso)](#quella-formula-che-cambiò-tutto-e-che-nessuno-ha-davvero-compreso)
 - [Il Segreto della Sedia (e Perché Tutto Ciò che Tocchi è una Bugia)](#il-segreto-della-sedia-e-perché-tutto-ciò-che-tocchi-è-una-bugia)
@@ -37,7 +40,6 @@ Preparati a un viaggio in cui la meccanica quantistica si fonde con la poesia de
 - [Il Tuo Big Bang Personale (Come Iniziare Oggi)](#il-tuo-big-bang-personale-come-iniziare-oggi)
 - [Ostacoli Comuni (e Come Superarli)](#ostacoli-comuni-e-come-superarli)
 - [Il Tuo Laboratorio Interiore](#il-tuo-laboratorio-interiore)
-
 
 ## Il Segreto della Sedia (e Perché Tutto Ciò che Tocchi è una Bugia)
 
