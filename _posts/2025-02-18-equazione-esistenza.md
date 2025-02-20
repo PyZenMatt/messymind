@@ -4,7 +4,6 @@ title: "L’Equazione dell’Esistenza: Quando Scienza e Spirito Danzano nell’
 categories: consapevolezza
 tags: [benessere interiore, equilibrio vita, crescita personale, salute mentale, mindfulness, consapevolezza]
 description: ""
-keywords: [einstein ] 
 background: /img/relativita.jpg
 author: Matteo Ricci
 meta: "Un viaggio tra atomi, stelle e il potere nascosto della tua coscienza"
