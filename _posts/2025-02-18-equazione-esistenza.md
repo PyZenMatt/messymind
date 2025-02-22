@@ -47,7 +47,9 @@ Sei seduto? Appoggia una mano sulla **superficie** sotto di te. Senti quella **s
 *Persino il marmo dei templi greci, simbolo di eternità, è un fuoco d’artificio cosmico momentaneamente congelato.*
 
 **Einstein ha rivoluzionato la fisica dimostrando che la materia non è solida, ma energia vibrante.**
-La sedia su cui siedi quindi , il telefono che stringi, persino il tuo corpo: tutto è energia condensata. Ogni atomo racchiude una potenza straordinaria. **Un chilo di materia, se convertito, libererebbe l’equivalente di 21 megaton di TNT.**
+La sedia su cui siedi quindi , il telefono che stringi, persino il tuo corpo: tutto è energia condensata. 
+
+Sappi inoltre che ogni atomo racchiude una potenza straordinaria. **Un chilo di materia, se convertito, libererebbe l’equivalente di 21 megaton di TNT.**
 
 Ora leggi bene : *dentro di te c’è più energia che in una bomba nucleare.* 
 Eppure, anziché distruggere, puoi costruire.

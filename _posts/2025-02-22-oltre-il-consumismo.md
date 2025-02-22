@@ -85,6 +85,9 @@ Il paradosso del materialismo moderno è una sfida che ci invita a riscoprire il
 
 È tempo di riscoprire la magia del mondo fisico, e di trovare nella sua bellezza la vera ricchezza.
 
+<h2>Sostieni il mio lavoro</h2>
+<p>Se hai trovato utile questo articolo e desideri supportare il mio lavoro, puoi farlo in modo semplice e consapevole. Non utilizzo pubblicità per monetizzare i contenuti, ma apprezzo qualsiasi piccolo gesto che mi permetta di continuare a condividere questi pensieri e riflessioni.</p>
+
 <p>Puoi offrirmi il valore di un caffè o semplicemente condividere questo articolo con qualcuno a cui potrebbe interessare. Ogni gesto, anche piccolo, conta e mi aiuta a far crescere questo spazio dedicato alla ricerca della felicità.</p>
 
 <p><strong>Fai una piccola donazione consapevole con </strong> <a href="https://www.paypal.me/pythonmat" target="_blank" rel="noopener noreferrer"> PayPall </a>
