@@ -15,7 +15,7 @@ longtail-keywords: [Il significato del materialismo nella società moderna, Come
 
 Al giorno d'oggi viviamo in un’epoca in cui il "**materialismo**" sembra regnare incontrastato, eppure, in modo paradossale, il nostro **rapporto** con la **materia** è più fragile e **distante** che mai. 
 
-In questo articolo, prendo spunto da un discorso di (Alan Watts)[https://www.youtube.com/watch?v=gL7ZJGRpY78], noto filosofo e scrittore britannico conosciuto per le sue riflessioni sulla natura della realtà e negli ambienti filosofici e spirituali.
+In questo articolo, prendo spunto da un discorso di [Alan Watts](https://www.youtube.com/watch?v=gL7ZJGRpY78), noto filosofo e scrittore britannico conosciuto per le sue riflessioni sulla natura della realtà e negli ambienti filosofici e spirituali.
 In questo discorso, Watts ci invita a considerare questa contraddizione: *siamo circondati da oggetti materiali, consumiamo no-stop materia, eppure abbiamo perso il contatto autentico con il mondo materiale.*
 
 Questo grande paradosso non è solo una questione **filosofica**, ma si **manifesta** concretamente nelle nostre vite **quotidiane**, nelle **abitudini**, nel modo in cui **lavoriamo**, **mangiamo** e persino **pensiamo**.
