@@ -8,8 +8,6 @@ background: /img/posts/3/Loto.png
 meta: "I principi fondamentali che ti guideranno verso una felicità autentica, basata su gratitudine, consapevolezza e relazioni profonde."
 ---
 
-
-
 **La felicità** è un concetto che ha affascinato l'umanità per millenni, non può essere definita come un semplice obiettivo da raggiungere o un possesso materiale. 
 
 Piuttosto, essa rappresenta uno **stato d'animo profondo**, una sensazione di completezza e armonia, che scaturisce da una connessione intima con noi stessi e con ciò che ci circonda. 
