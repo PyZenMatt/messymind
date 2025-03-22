@@ -28,6 +28,14 @@ C’è un momento in cui **il tempo smette di essere un alleato** e diventa **un
 
 Viviamo in un’epoca ossessionata dal *fare*, come se il valore delle nostre giornate si misurasse in checkbox spuntate. Io stesso ero diventato **un contabile esistenziale**: 37 anni, 2 promozioni, 1 mutuo, 378 followers. Ma quella mattina, tra l’odore di panino al salame e l’ansia di arrivare tardi, ho sentito chiaramente: **stavo morendo di pienezza**.  
 
+- [Quella volta che ho pianto in metropolitana (e non per colpa del ritardo)](#quella-volta-che-ho-pianto-in-metropolitana-e-non-per-colpa-del-ritardo)
+- [L’inganno della produttività tossica](#linganno-della-produttività-tossica)
+- [La rivincita delle coccole alle 3:17 di notte](#la-rivincita-delle-coccole-alle-317-di-notte)
+- [La saggezza del cactus e altre rivoluzioni silenziose](#la-saggezza-del-cactus-e-altre-rivoluzioni-silenziose)
+- [Come sopravvivere all’era dell’urgenza cronica](#come-sopravvivere-allera-dellurgenza-cronica)
+- [La libertà è una scelta scomoda (ma profumata)](#la-libertà-è-una-scelta-scomoda-ma-profumata)
+
+
 ## L’inganno della produttività tossica  
 
 Il mio ufficio aveva pareti bianche e **un orologio digitale che lampeggiava numeri rossi**. Ricordo ancora il capo che mi diceva: _"Matteo, se non corri resti indietro!"_. Peccato che nessuno mi avesse detto *dove* stessimo correndo.  
