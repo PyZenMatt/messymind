@@ -33,6 +33,16 @@ Per anni, il mio blog era l’equivalente letterario di una tisana insipida: "10
 
 Fu allora che decisi: basta parlare di luce e amore universale. Inizierò a dire che se la materia è energia, allora il tuo corpo è un’esplosione nucleare in mutande. E se qualcuno si offende, **pazienza**.
 
+- [Quella Formula che Cambiò Tutto (e che Nessuno Ha Davvero Compreso)](#quella-formula-che-cambiò-tutto-e-che-nessuno-ha-davvero-compreso)
+- [Il Segreto della Sedia (e Perché Tutto Ciò che Tocchi è una Bugia)](#il-segreto-della-sedia-e-perché-tutto-ciò-che-tocchi-è-una-bugia)
+- [Il Laboratorio Segreto nel Tuo Cervello (e Come Accenderlo Senza Appiccare un Incendio)](#il-laboratorio-segreto-nel-tuo-cervello-e-come-accenderlo-senza-appiccare-un-incendio)
+- [Tre Passi per Diventare Alchimista della Tua Vita (Spoiler: Non Serve un Pentolone)](#tre-passi-per-diventare-alchimista-della-tua-vita-spoiler-non-serve-un-pentolone)
+- [Quando l’Impossibile Diventa Reale (Storie che Persino la Mia Nipote di 5 Anni Trova Esagerate)](#quando-limpossibile-diventa-reale-storie-che-persino-la-mia-nipote-di-5-anni-trova-esagerate)
+- [Il Lato Oscuro dell’Alchimia (Ovvero: Come Non Finire in Manicomio)](#il-lato-oscuro-dellalchimia-ovvero-come-non-finire-in-manicomio)
+- [Il Tuo Big Bang Personale (Spoiler: Non Serve un Esperimento al CERN)](#il-tuo-big-bang-personale-spoiler-non-serve-un-esperimento-al-cern)
+- [Perché Tutto Questo Non è una Cazzata (O Forse Sì)](#perché-tutto-questo-non-è-una-cazzata-o-forse-sì)
+
+
 ## Il Segreto della Sedia (e Perché Tutto Ciò che Tocchi è una Bugia)
 
 Fai un esperimento. Alzati dalla sedia su cui sei seduto (sì, proprio quella che credi così solida). Ora picchietta la superficie. Senti quel legno, quel metallo, quella plastica? **Fuffa**.
