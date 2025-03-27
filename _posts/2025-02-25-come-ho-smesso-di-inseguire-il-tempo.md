@@ -4,7 +4,7 @@ title: "Come Ho Smesso di Inseguire il Tempo: 3 Segreti per Vivere Senza Ansia d
 categories: [crescita personale, mindfulness]
 tags: [gestione dello stress, tecniche mindfulness, vivere il presente, equilibrio vita-lavoro, ridurre l'ansia, consapevolezza quotidiana]
 description: "Scopri come ho trasformato la mia relazione con il tempo: dalla crisi in metropolitana alle piccole rivoluzioni quotidiane che combattono il burnout. Strategie pratiche + la storia del mio cactus maestro di vita."
-background: /img/tempo-liberazione-ansia-presente.jpg
+background: /img/accettazione.png
 author: Matteo Ricci
 meta-title: "Liberarsi dalla Tirannia del Tempo | Esperienza Personale + Soluzioni Pratiche"
 meta-description: "Ansia da produttività? Scopri come ho sostituito lo stress cronico con micro-abitudini mindfulness. Dalla crisi in metro alla saggezza di un cactus: guida non convenzionale per ritrovare il presente."
@@ -20,6 +20,7 @@ keywords:
   - storia personale crescita interiore
 longtail-keywords: ["come ho smesso di sentirmi in ritardo sulla vita", "esercizi pratici per vivere più lentamente", "storia vera di liberazione dallo stress", "tecniche bizzarre per ritrovare il presente"]
 slug: /come-ho-smesso-di-inseguire-il-tempo
+featured_post: 'true'
 ---
   
 ## Quella volta che ho pianto in metropolitana (e non per colpa del ritardo)  

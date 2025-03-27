@@ -1,5 +1,5 @@
 ---
-slug: /come-ritrovare-contatto-materia-oggetti-quotidiani <!-- URL ottimizzato con primary + secondary keyword -->
+slug: /come-ritrovare-contatto-materia-oggetti-quotidiani 
 title: "Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo Consapevole" 
 description: "Scopri 5 metodi concreti per riconquistare il rapporto con gli oggetti quotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di mindfulness tattile." 
 author: Matteo Ricci
@@ -36,6 +36,8 @@ schema:
       "@type": Person
       name: "Matteo Ricci"
     description: "Guida pratica al materialismo consapevole con esercizi e riflessioni filosofiche"
+featured_post: 'true'
+background: "img/materialismo.jpg"
 ---
 
 # La strana storia di come abbiamo smesso di sentire le cose

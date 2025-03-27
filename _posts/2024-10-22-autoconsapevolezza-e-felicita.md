@@ -3,9 +3,9 @@ layout: post
 title: "Autoconsapevolezza e Autenticità: Come Vivere una Vita Piena e Significativa" 
 description: "Scopri come l'autoconsapevolezza e l'autenticità possono trasformare la tua vita in un percorso di felicità e realizzazione personale. Leggi le nostre riflessioni e consigli pratici." 
 categories: [consapevolezza]
-featured_post: true
+featured_post: false
 tags: \[autoconsapevolezza, autenticità, felicità, sviluppo personale, vita significativa\] 
-background: '/img/posts/4/vita.jpg' 
+background: '/img/vita.jpg' 
 author: "Matteo Ricci" 
 meta: "Autoconsapevolezza e autenticità sono i due tesori nascosti che, se coltivati con cura, ci permettono di vivere una vita più ricca, profonda e appagante."
 ---

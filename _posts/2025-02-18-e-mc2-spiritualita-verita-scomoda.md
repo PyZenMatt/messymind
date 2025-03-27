@@ -2,6 +2,7 @@
 title: "E=mc² e Spiritualità: La Verità Scomoda che Einstein Non Ti Ha Detto (Con Umorismo)"
 date: 2024-03-15T08:00:00+01:00
 draft: false
+background: "/img/relativita.jpg"
 description: "Scopri come la formula più famosa della fisica nasconde un manuale di alchimia moderna. Un viaggio irriverente tra scienza quantistica, risate e verità scomode sul tuo potere nascosto."
 categories: ["Scienza e Spiritualità", "Crescita Personale", "Fisica Quantistica"]
 tags: ["Einstein", "E=mc²", "alchimia moderna", "meditazione quantistica", "pensiero creativo", "fisica delle possibilità"]
@@ -13,13 +14,7 @@ keywords:
   - umorismo e scienza
   - blog crescita personale anticonvenzionale
 canonical_url: "https://matteoricci.net/e-mc2-spiritualita-verita-scomoda"
-meta: 
-  - name: "og:type"
-    content: "article"
-  - name: "article:author"
-    content: "Matteo Ricci"
-  - name: "article:published_time"
-    content: "2025-02-18"
+featured_post: 'true'
 ---
 
 ## Quella Formula che Cambiò Tutto (e che Nessuno Ha Davvero Compreso)

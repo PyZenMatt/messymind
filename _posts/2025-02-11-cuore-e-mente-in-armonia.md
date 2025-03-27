@@ -8,7 +8,7 @@ featured_post:  true
 author: Matteo Ricci
 meta: il cuore possiede una saggezza innata, spesso trascurata a favore della mente razionale, sintonizziati con la sua sfera emotiva e interiore.
 background: /img/cuore.jpg
-featured_post: true
+featured_post: false
 ---
 
 Ormai, quasi senza accorgercene, ci siamo adattati a un’esistenza scandita dalla **routine e dalle convinzioni** che ci tengono ancorati a una visione limitata della realtà. 

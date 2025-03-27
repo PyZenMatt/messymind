@@ -1,7 +1,7 @@
 ---  
 title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"  
-description: "Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint."  
-date: 2023-10-15  
+description: "Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint." 
+background: /img/lavoro.jpg
 url: /autenticita-e-lavoro 
 canonical: https://matteoricci.net/autenticita-e-lavoro
 tags:  
@@ -27,7 +27,8 @@ keywords:
   - ambiente di lavoro positivo  
   - equilibrio vita-lavoro  
 
-focus_keyword: "autenticità sul lavoro"  
+focus_keyword: "autenticità sul lavoro" 
+featured_post: 'true' 
 ---  
 ## Perché fingiamo tutti di adorare le riunioni?  
 

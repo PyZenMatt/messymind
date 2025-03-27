@@ -2,38 +2,15 @@
 layout: post
 title: "La Felicità Non è un LinkedIn Post: Come Milano Mi Ha Insegnato a Vivere"
 categories: [crescita-personale, benessere-mentale]
-tags:  
-  - ricerca-felicità  
-  - cambiamento-vita  
-  - equilibrio-interiore  
-  - relazioni-autentiche  
-  - mindfulness-urbana  
-  - crisi-dei-30  
-  - felicità  
-
+tags: [ricerca-felicità, cambiamento-vita, equilibrio-interiore,relazioni-autentiche, mindfulness-urbana, crisi-dei-30 ,felicità] 
 description: "Da manager milanese a cercatore di senso: vuoi scoprire come un libro mi ha cambiato la vita? Una storia su soldi, successo e piccole rivoluzioni quotidiane."  
-
-background: /img/posts/1/felicita-autentica-milano-siddhartha.jpg  
+background: /img/felicita.jpeg
 author: Matteo Ricci  
-author_bio: "Ex manager convertito alla scrittura vulnerabile. Scrivo di felicità imperfetta, libri che fanno male (in senso buono) e come sopravvivere alla vita adulta senza perdere l'anima."  
-
-meta:  
-  og:  
-    title: "Quando ho Capito che la Felicità Non Stava nel Mio CV"  
-    description: "La storia cruda di un milanese che scambiava lusso per vita vera. Spoiler: il finale ti sorprenderà. #ricercadellafelicità"  
-    image: /img/posts/1/felicita.jpeg
-    url: https://matteoricci.net/la-felicita-non-e-un-linkedin-post  
-    type: article  
-  twitter:  
-    card: summary_large_image  
-    site: "@tuoprofilo"  
-
-slug: felicita-manager-milano  
-date: 2023-11-15  
+author_bio: "Ex manager convertito alla scrittura vulnerabile. Scrivo di felicità imperfetta, libri che fanno male (in senso buono) e come sopravvivere alla vita adulta senza perdere l'anima."
+featured_post: 'true'
 ---
 
-
-**La Felicità Non Sta Nel CV: La Mia Rivoluzione Sotto Casa**  
+## La Felicità Non Sta Nel CV: La Mia Rivoluzione Sotto Casa
 
 Ciao amico, ti ricordi quando mi vedevi sempre in giro per Milano con quell’aria da *manager rampante*? Macchina aziendale, cene nei locali alla moda, viaggi che sembravano usciti da Instagram… Beh, c’è una cosa che non sapevi: **dentro ero un deserto**.  
 

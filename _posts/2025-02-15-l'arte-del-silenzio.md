@@ -8,7 +8,7 @@ keywords: [silenzio interiore, benefici della solitudine, come trovare se stessi
 background: /img/silenzio.jpg
 author: Matteo Ricci
 meta: "Scopri come trasformare la solitudine in un alleato per la crescita interiore. Impara l’arte del silenzio e ritrova la pienezza che è già dentro di te."
-featured_post: true
+featured_post: false
 ---
 
 

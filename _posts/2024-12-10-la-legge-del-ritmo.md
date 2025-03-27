@@ -6,6 +6,7 @@ keywords: [legge del ritmo, crescita personale, spiritualità, equilibrio, cicli
 categories: spiritualita
 background: /img/ritmo.jpg
 meta: La Legge del Ritmo governa l'aspetto della nostra esistenza. Tutto si muove secondo un andamento ciclico. E tutte le filosife e religioni ne parlano. leggi e scoprila anche tu!
+featured_post: 'false'
 ---
 
 

@@ -4,11 +4,12 @@ title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E Io Ho Sbagliato S
 categories: crescita-personale
 tags: [benessere, meditazione, autoconsapevolezza, umorismo, fallimenti, storie personali, esercizi pratici, autenticità] 
 description: "Scopri come ho imparato a trovare la felicità sbagliando strada, contando i rumori del frigorifero e ballando come un fenicottero in cucina. Guida pratica (con errori inclusi) alla crescita personale."
-background: '/img/posts/2/acchiappasogni.jpg'
+background: '/img/acchiappasogni.jpg'
 author: Matteo Ricci
 meta: "Felicità ≠ ricette magiche. La mia storia tra meditazioni fallite, guru improvvisati e lezioni rubate ai piccoli disastri quotidiani. Con esercizi per ridere di sé."
 keywords: [felicità imperfetta, crescita personale umoristica, meditazione per principianti, come perdonare sé stessi, errori che insegnano, esercizi pratici spirituali, storie di trasformazione reale]
 longtail-keywords: [come trovare la felicità attraverso gli errori, esercizi pratici per il perdono interiore, crescita personale con umorismo, meditazione per chi non riesce a meditare, storie reali di trasformazione interiore, come smettere di inseguire la perfezione]
+featured_post: 'true'
 ---
 
 Ricordo quella volta in cui, dopo aver comprato l’ennesimo corso online su "Come Essere Felici in 7 Giorni", mi ritrovai a fissare lo schermo del computer con lo stesso vuoto di prima. 
