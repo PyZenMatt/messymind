@@ -37,7 +37,7 @@ schema:
       name: "Matteo Ricci"
     description: "Guida pratica al materialismo consapevole con esercizi e riflessioni filosofiche"
 featured_post: 'true'
-background: "img/materialismo.jpg"
+background: "/img/materialismo.jpg"
 ---
 
 # La strana storia di come abbiamo smesso di sentire le cose

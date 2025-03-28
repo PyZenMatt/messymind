@@ -1,6 +1,6 @@
 ﻿---
 title: "Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io? Neuroscienze e Buddhismo a Confronto"
-background: "img/testesso.png"
+background: "/img/testesso.png"
 description: "Scopri come antiche intuizioni spirituali e scanner cerebrali dicono la stessa cosa: il tuo 'io' è una fantasia ben orchestrata. Tra esperimenti split-brain, metafore di carri smontati e crisi esistenziali da parcheggio."
 url: "/neuroscienze-buddhismo-illusione-del-se"
 featured_image: 
