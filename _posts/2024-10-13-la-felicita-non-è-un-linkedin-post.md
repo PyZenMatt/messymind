@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La Felicità Non è un LinkedIn Post: Come Milano Mi Ha Insegnato a Vivere"
+title: "La Felicità Non è un Post LinkedIn: Come Milano Mi Ha Insegnato a Vivere"
 categories: [crescita-personale, benessere-mentale]
 tags: [ricerca-felicità, cambiamento-vita, equilibrio-interiore,relazioni-autentiche, mindfulness-urbana, crisi-dei-30 ,felicità] 
 description: "Da manager milanese a cercatore di senso: vuoi scoprire come un libro mi ha cambiato la vita? Una storia su soldi, successo e piccole rivoluzioni quotidiane."  

@@ -10,8 +10,6 @@ featured_post: 'true'
 keywords: "Felicità autentica, Crescita personale ironica, Autoironia, Mindfulness ironica ,Psicologia umoristica, Accettazione di sé con humor, Relazioni positive, Benessere emotivo, Consapevolezza quotidiana, Filosofia pratica, Come trovare la felicità nelle piccole cose, Esercizi di gratitudine divertenti, Vivere nel presente con ironia, Gestire i fallimenti con autoironia, Self-help senza prendersi sul serio, Coltivare relazioni autentiche senza sforzo, Mindfulness per chi odia meditare, sicologia positiva per scettici, Libri crescita personale non banali, Come smettere di cercare la felicità perfetta"
 ---
 
-## La felicità? Quella che cerchi scrollando Instagram mentre mangi un kebab alle 2 di notte 
-
 La felicità è come il Wi-Fi: tutti la cercano, ma pochi sanno dove sia il router. Ci hanno provato **Platone** con il mito della caverna, **Schopenhauer** con il pessimismo, e pure quel tizio al bar che giura che la risposta sia nel kefir. 
 
 Io, invece, ho scoperto che **inizia** **accettando** di essere quel tipo di persona che compra libri sulla crescita personale e li usa come fermaporte. 
@@ -22,7 +20,6 @@ Carl Jung diceva: *"Chi guarda fuori sogna; chi guarda dentro si sveglia"*. Gius
 
 Il diario della gratitudine? **Funziona**. Giorno 1: "Grazie per il caffè che mi tiene in vita". Giorno 3: "Grazie per il collega che non ha mangiato il mio panino". Giorno 7: "Grazie a chi ha inventato il tasto 'snooze'". 
 
-- [La felicità? Quella che cerchi scrollando Instagram mentre mangi un kebab alle 2 di notte](#la-felicità-quella-che-cerchi-scrollando-instagram-mentre-mangi-un-kebab-alle-2-di-notte)
 - [Amicizia: quando condividi un meme e loro capiscono che stai morendo dentro](#amicizia-quando-condividi-un-meme-e-loro-capiscono-che-stai-morendo-dentro)
 - [Valori: la mia bussola punta verso il divano](#valori-la-mia-bussola-punta-verso-il-divano)
 - [Mindfulness: ovvero come meditare tra una notifica e l’altra](#mindfulness-ovvero-come-meditare-tra-una-notifica-e-laltra)
