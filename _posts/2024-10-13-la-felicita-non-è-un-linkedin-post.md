@@ -1,13 +1,25 @@
 ---
-layout: post
-title: "La Felicità Non è un Post LinkedIn: Come Milano Mi Ha Insegnato a Vivere"
-categories: [crescita-personale, benessere-mentale]
-tags: [ricerca-felicità, cambiamento-vita, equilibrio-interiore,relazioni-autentiche, mindfulness-urbana, crisi-dei-30 ,felicità] 
-description: "Da manager milanese a cercatore di senso: vuoi scoprire come un libro mi ha cambiato la vita? Una storia su soldi, successo e piccole rivoluzioni quotidiane."  
-background: /img/felicita.jpeg
-author: Matteo Ricci  
-author_bio: "Ex manager convertito alla scrittura vulnerabile. Scrivo di felicità imperfetta, libri che fanno male (in senso buono) e come sopravvivere alla vita adulta senza perdere l'anima."
-featured_post: 'true'
+layout: post  
+title: "Equilibrio Spirituale: Ironia e Saggezza tra Buddha, Yoga e Social Media"  
+categories: [spiritualità, crescita-personale, umorismo]  
+tags: [buddhismo, yoga, cristianesimo, islam, mindfulness, meditazione, comicità, vita-equilibrata]  
+description: "Come trovare l'equilibrio interiore tra spiritualità e caos quotidiano? Un viaggio irriverente tra Buddha, WhatsApp e posizioni yoga fallite. Per chi sogna la pace interiore ma deve affrontare l'ufficio open-space."  
+background: /img/posts/equilibrio-spirituale.jpg  
+author: "Teo"  
+meta: "Scopri come ridere dello stress con le tradizioni spirituali. Ironia, consigli pratici e riflessioni su buddhismo, cristianesimo e yoga per sopravvivere al mondo moderno."  
+featured_post: true  
+canonical_url: "https://iltuosite.com/equilibrio-spirituale-umorismo"  
+seo:  
+  keywords:  
+    - equilibrio spirituale  
+    - buddhismo ironico  
+    - yoga per principianti  
+    - crescita personale divertente  
+    - come meditare senza addormentarsi  
+    - spiritualità moderna  
+    - umorismo e mindfulness  
+  og_image: /img/posts/equilibrio-spirituale-social.jpg  
+  twitter_card: summary_large_image  
 ---
 
 ## La Felicità Non Sta Nel CV: La Mia Rivoluzione Sotto Casa

@@ -113,7 +113,7 @@ Inizia così:
 
 Questo blog era un manualetto insipido sulla felicità. Ora è un diario di un (ex)-fallito che ha scoperto che **ridere della propria ansia** è l’unico modo per non affogarci.
 
-Se vuoi, sostienimi con un caffè (lo berrò mentre piango su statistiche di click). O condividi l’articolo con quell’amico che condivide robe su "vibrazioni astrali" mentre fuma 20 sigarette.
+Se vuoi, sostienimi con un [caffè](https://www.paypal.me/pythonmat) (lo berrò mentre piango su statistiche di click). O condividi l’articolo con quell’amico che condivide robe su "vibrazioni astrali" mentre fuma 20 sigarette.
 
 Perché alla fine, siamo tutti energia. E l’energia migliore è quella che non si prende troppo sul serio.
 

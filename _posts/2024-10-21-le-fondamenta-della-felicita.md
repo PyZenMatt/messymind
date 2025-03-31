@@ -56,7 +56,7 @@ Creare l’**Albero dei Valori** è molto utile, ma attenzione: se le radici son
 
 ## Sostieni il mio lavoro 
 
-Se questo articolo ti ha fatto sorridere più della tua ultima conversazione con l’assistenza clienti TIM, offrimi un caffè. 
+Se questo articolo ti ha fatto sorridere più della tua ultima conversazione con l’assistenza clienti TIM, [offrimi un caffè.](https://www.paypal.me/pythonmat) 
 O condividilo con chi ha bisogno di sapere che non siamo soli a cercare la felicità tra tazze sporche e buoni propositi abbandonati. 
 
 Perché la felicità, alla fine, è come una risata in autobus: contagiosa, imbarazzante, e ti fa sembrare un po’ pazzo.
