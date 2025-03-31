@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Saggezza del Cuore: Come Non Farti Fregare dalla Tua Mente (Manuale per Ex Buddha in Saldo)"
-categories: [crescita-personale, sopravvivenza-spirituale]
+categories: [spiritualita]
 date: 2023-10-15
 author: Matteo "Il Mistico del Metaverso" Ricci
 background: /img/cuore.jpg

@@ -2,9 +2,7 @@
 layout: post  
 title: "Equilibrio Interiore: La Guida per Chi Cade spesso dal Trampolino della vita (Spoiler: Tutti)"  
 author: Matteo Ricci  
-categories:  
-  - Crescita Personale  
-  - Spiritualità Pratica  
+categories: [spiritualita]  
 tags:  
   - equilibrio interiore  
   - filosofia quotidiana  

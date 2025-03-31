@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Spiritualità
-permalink: /categorie/consapevolezza/
+permalink: /categorie/scienza-e-spiritualita/
 ---
 
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="display-4 mb-4">Categoria: Consapevolezza</h1>
+      <h1 class="display-4 mb-4">Categoria: Scienza e Spiritualita</h1>
       <div class="row">
-        {% for post in site.categories.consapevolezza %}
+        {% for post in site.categories.filosofia %}
         <div class="col-lg-6 mb-4">
           <div class="card h-100 shadow-sm">
             <div class="row g-0">

@@ -4,7 +4,7 @@ date: 2024-03-15T08:00:00+01:00
 draft: false
 background: "/img/relativita.jpg"
 description: "Scopri come la formula più famosa della fisica nasconde un manuale di alchimia moderna. Un viaggio irriverente tra scienza quantistica, risate e verità scomode sul tuo potere nascosto."
-categories: ["Scienza e Spiritualità", "Crescita Personale", "Fisica Quantistica"]
+categories: ["scienza-e-spiritualita"]
 tags: ["Einstein", "E=mc²", "alchimia moderna", "meditazione quantistica", "pensiero creativo", "fisica delle possibilità"]
 keywords: 
   - significato spirituale E=mc²

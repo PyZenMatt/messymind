@@ -2,10 +2,7 @@
 title: "Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere Cactus Emotivi"  
 permalink: /ricerca-felicita-autenticita-panini-notturni/  
 date: 2024-05-20  
-categories:  
-  - Crescita Personale  
-  - Autoconsapevolezza  
-  - Autenticità  
+categories: [auto-consapevolezza]
 tags:  
   - come trovare la felicità interiore  
   - esercizi di meditazione quotidiana  

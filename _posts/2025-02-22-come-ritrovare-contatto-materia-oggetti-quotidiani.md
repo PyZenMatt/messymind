@@ -3,6 +3,7 @@ slug: /come-ritrovare-contatto-materia-oggetti-quotidiani
 title: "Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo Consapevole" 
 description: "Scopri 5 metodi concreti per riconquistare il rapporto con gli oggetti quotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di mindfulness tattile." 
 author: Matteo Ricci
+categories: [auto-consapevolezza]
 meta_robots: 
   - index
   - follow

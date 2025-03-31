@@ -19,7 +19,7 @@ Dopo innumerevoli chilometri percorsi nell’incessante ricerca di **successo**,
 È una voce sottile come il vento tra le foglie, ma carica della forza di un’antica verità.  
 
 Quando questo accade, lo fa in un solo istante.  
-
+1
 È l’istante che i buddhisti chiamano **bodhi**, il momento del **risveglio spirituale**.  
 
 È il richiamo alla **libertà interiore**, lo svincolo dalle catene e dagli ostacoli.  

@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Spiritualità
-permalink: /categorie/filosofia/
+permalink: /categorie/autoconsapevolezza/
 ---
 
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="display-4 mb-4">Categoria: Filosofia</h1>
+      <h1 class="display-4 mb-4">Categoria: Autoconsapevolezza</h1>
       <div class="row">
-        {% for post in site.categories.filosofia %}
+        {% for post in site.categories.consapevolezza %}
         <div class="col-lg-6 mb-4">
           <div class="card h-100 shadow-sm">
             <div class="row g-0">

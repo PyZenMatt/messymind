@@ -25,7 +25,8 @@ keywords:
   - gestire colleghi difficili  
   - trovare vocazione  
   - ambiente di lavoro positivo  
-  - equilibrio vita-lavoro  
+  - equilibrio vita-lavoro 
+categories: [crescita-personale] 
 
 focus_keyword: "autenticità sul lavoro" 
 featured_post: 'true' 
