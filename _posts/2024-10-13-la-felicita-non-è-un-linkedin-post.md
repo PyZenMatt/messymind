@@ -8,7 +8,7 @@ background: /img/equilibrio-spirituale.jpg
 author: "Teo"  
 meta: "Scopri come ridere dello stress con le tradizioni spirituali. Ironia, consigli pratici e riflessioni su buddhismo, cristianesimo e yoga per sopravvivere al mondo moderno."  
 featured_post: true  
-canonical_url: "https://iltuosite.com/equilibrio-spirituale-umorismo"  
+canonical_url: "https://matteoricci.net/equilibrio-spirituale-umorismo"  
 seo:  
   keywords:  
     - equilibrio spirituale  
@@ -17,9 +17,7 @@ seo:
     - crescita personale divertente  
     - come meditare senza addormentarsi  
     - spiritualità moderna  
-    - umorismo e mindfulness  
-  og_image: /img/posts/equilibrio-spirituale-social.jpg  
-  twitter_card: summary_large_image  
+    - umorismo e mindfulness   
 ---
 
 ## La Felicità Non Sta Nel CV: La Mia Rivoluzione Sotto Casa
