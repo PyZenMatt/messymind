@@ -8,6 +8,7 @@ meta_description: "Cosa succede quando la Kundalini si risveglia? Brividi metafi
 slug: risveglio-kundalini-viaggio-spirituale   
 canonical_url: https://tuesempio.com/blog/risveglio-kundalini-viaggio-spirituale  
 robots: index, follow  
+featured_post: 'true'
 ---
 
 - [**Il Risveglio della Kundalini: Ovvero, Quando il Tuo Corpo Decide di Fare lo Sciopero della Fame Emotiva (E Tu Devi Trattare con Uno Yeti Interiore)**](#il-risveglio-della-kundalini-ovvero-quando-il-tuo-corpo-decide-di-fare-lo-sciopero-della-fame-emotiva-e-tu-devi-trattare-con-uno-yeti-interiore)
