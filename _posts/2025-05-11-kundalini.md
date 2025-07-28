@@ -6,6 +6,7 @@ author: Teuss
 categories: [spiritualita]
 tags: [kundalini yoga, risveglio spirituale, chakra, meditazione ironica, crisi esistenziale, energia interiore]  
 meta_description: "Cosa succede quando la Kundalini si risveglia? Brividi metafisici, dialoghi con le piante grasse e la scoperta che Netflix non cura l'anima. Guida pratica (e umoristica) al caos illuminato."  
+background: /img/amore.png
 slug: risveglio-kundalini-viaggio-spirituale   
 robots: index, follow  
 featured_post: 'true'
