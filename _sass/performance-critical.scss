@@ -5,13 +5,13 @@
 body{font-family:'Open Sans',sans-serif;line-height:1.5;margin:0;color:#212529;background:#fff}
 .container{max-width:1140px;margin:0 auto;padding:0 15px}
 
-// Grid minimale
-.row{display:flex;flex-wrap:wrap;margin:0 -15px}
-.col-12{flex:0 0 100%;max-width:100%;padding:0 15px}
-.col-md-8{flex:0 0 66.666667%;max-width:66.666667%;padding:0 15px}
-.col-md-4{flex:0 0 33.333333%;max-width:33.333333%;padding:0 15px}
-.col-lg-4{flex:0 0 33.333333%;max-width:33.333333%;padding:0 15px}
-.col-md-6{flex:0 0 50%;max-width:50%;padding:0 15px}
+// Grid minimale con altezze FISSE anti-CLS
+.row{display:flex;flex-wrap:wrap;margin:0 -15px;min-height:2rem}
+.col-12{flex:0 0 100%;max-width:100%;padding:0 15px;min-height:inherit}
+.col-md-8{flex:0 0 66.666667%;max-width:66.666667%;padding:0 15px;min-height:inherit}
+.col-md-4{flex:0 0 33.333333%;max-width:33.333333%;padding:0 15px;min-height:inherit}
+.col-lg-4{flex:0 0 33.333333%;max-width:33.333333%;padding:0 15px;min-height:300px}
+.col-md-6{flex:0 0 50%;max-width:50%;padding:0 15px;min-height:300px}
 
 // Layout critico
 .masthead{position:relative;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:50vh;padding:4rem 0;color:#fff;text-align:center}
@@ -24,16 +24,25 @@ body{font-family:'Open Sans',sans-serif;line-height:1.5;margin:0;color:#212529;b
 .navbar-nav{display:flex;list-style:none;margin:0;padding:0}
 .nav-link{color:#fff;text-decoration:none;padding:0.5rem 1rem}
 
-// Cards stabili - anti CLS  
-.card{border:1px solid rgba(0,0,0,0.125);border-radius:0.25rem;min-height:200px;background:#fff}
-.card-body{padding:1.25rem;min-height:150px}
-.card-title{margin-bottom:0.75rem;font-weight:600}
-.card-text{margin-bottom:1rem;color:#6c757d}
-.card-footer{padding:0.5rem 1.25rem;background:rgba(0,0,0,0.03);border-top:1px solid rgba(0,0,0,0.125)}
+// Cards stabili - anti CLS - DIMENSIONI FISSE SPECIFICHE
+.card{border:1px solid rgba(0,0,0,0.125);border-radius:0.25rem;min-height:280px;background:#fff;overflow:hidden}
+.card-body{padding:1.25rem;min-height:180px;display:flex;flex-direction:column;justify-content:space-between}
+.card-title{margin-bottom:0.75rem;font-weight:600;font-size:1.25rem;line-height:1.2;min-height:3rem}
+.card-text{margin-bottom:1rem;color:#6c757d;flex-grow:1;line-height:1.4}
+.card-footer{padding:0.5rem 1.25rem;background:rgba(0,0,0,0.03);border-top:1px solid rgba(0,0,0,0.125);height:3rem;display:flex;align-items:center}
 
-// Immagini responsive con aspect-ratio
-img{max-width:100%;height:auto}
-.card-img,.card-img-top{aspect-ratio:16/9;object-fit:cover;border-radius:calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0}
+// Post cards specifiche con dimensioni riservate
+.post-card{min-height:320px;margin-bottom:2rem}
+.post-card .card-img{height:200px;object-fit:cover}
+.post-card .card-body{min-height:120px}
+
+// Immagini responsive con aspect-ratio FISSO per CLS
+img{max-width:100%;height:auto;display:block}
+.card-img,.card-img-top{aspect-ratio:16/9;object-fit:cover;border-radius:calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;width:100%;height:200px}
+
+// Loading state per immagini lazy - EVITA CLS
+img[loading="lazy"]{background:#f8f9fa;border:1px solid #dee2e6}
+img[loading="lazy"]:not([src]){min-height:200px;background:linear-gradient(45deg,#f8f9fa 25%,transparent 25%),linear-gradient(-45deg,#f8f9fa 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#f8f9fa 75%),linear-gradient(-45deg,transparent 75%,#f8f9fa 75%);background-size:20px 20px;background-position:0 0,0 10px,10px -10px,-10px 0px}
 
 // Typography essenziale
 h1,h2,h3,h4,h5,h6{font-family:'Lora',serif;font-weight:700;line-height:1.2;margin-top:0;margin-bottom:0.5rem}
