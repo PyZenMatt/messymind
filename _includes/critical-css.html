@@ -9,7 +9,6 @@ body {
 .masthead {
   position: relative;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  background-image: url('/img/home/bg-home.webp');
   background-size: cover;
   background-position: center;
   min-height: 50vh;
@@ -18,8 +17,13 @@ body {
   text-align: center;
 }
 
+/* Carica background dopo */
+.masthead.loaded {
+  background-image: url('/img/home/bg-home.webp');
+}
+
 /* Fallback per browser senza WebP */
-.no-webp .masthead {
+.no-webp .masthead.loaded {
   background-image: url('/img/home/bg-home.jpeg');
 }
 
@@ -52,12 +56,13 @@ h1, h2, h3 {
   line-height: 1.1;
 }
 
-/* Card layout */
+/* Card layout ottimizzato per CLS */
 .post-card {
   border: 1px solid #e3e3e3;
   border-radius: 0.375rem;
   overflow: hidden;
   transition: box-shadow 0.15s ease-in-out;
+  min-height: 200px; /* Altezza fissa per evitare shift */
 }
 
 .post-card:hover {

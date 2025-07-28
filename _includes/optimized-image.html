@@ -1,13 +1,18 @@
 <!-- Componente per immagini ottimizzate -->
-{% assign img_path = include.src %}
-{% assign img_alt = include.alt | default: include.title %}
+{% assign img_path = include.src | default: '/img/default-post.jpg' %}
+{% assign img_alt = include.alt | default: include.title | default: 'Immagine articolo' %}
 {% assign img_class = include.class | default: "img-fluid" %}
+
+{% comment %} Solo crea WebP se il file esiste {% endcomment %}
+{% assign webp_path = img_path | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' | replace: '.png', '.webp' %}
 
 <picture>
   <!-- WebP per browser moderni -->
+  {% if img_path and img_path != '' %}
   <source 
-    srcset="{{ img_path | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' | replace: '.png', '.webp' }}" 
+    srcset="{{ webp_path }}" 
     type="image/webp">
+  {% endif %}
   
   <!-- Fallback originale -->
   <img 
