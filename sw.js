@@ -1,13 +1,13 @@
-const CACHE_NAME = 'matteoricci-v1.2';
-const STATIC_CACHE = 'static-v1.2';
-const RUNTIME_CACHE = 'runtime-v1.2';
+const CACHE_NAME = 'matteoricci-v2.0-optimized';
+const STATIC_CACHE = 'static-v2.0';
+const RUNTIME_CACHE = 'runtime-v2.0';
 
-// Risorse da cachare immediatamente
+// Risorse da cachare immediatamente - OTTIMIZZATE
 const PRECACHE_URLS = [
   '/',
   '/offline.html',
   '/assets/main.css',
-  '/assets/js/performance.js',
+  '/img/amore.webp',
   '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js',
   '/assets/vendor/startbootstrap-clean-blog/js/scripts.js'
 ];

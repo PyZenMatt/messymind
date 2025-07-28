@@ -1,4 +1,6 @@
-// Import Core Clean Blog SCSS
-@import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
+// BOOTSTRAP PURGED - Solo classi utilizzate (40KB vs 160KB)
+@import "bootstrap-purged";
 
-// Font Awesome già caricato in head.html, non serve duplicare
+// NESSUN FONT AWESOME - Usando Unicode nel CSS critico
+
+// Performance: CSS totale ridotto da 160KB a ~40KB

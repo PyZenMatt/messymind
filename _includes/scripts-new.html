@@ -1,0 +1,23 @@
+<!-- NESSUN SCRIPT JavaScript per performance critica -->
+<!-- Tutti i JavaScript rimossi per ottimizzare LCP -->
+
+<!-- Script solo per pagina contact se necessario -->
+{% if page.url contains 'contact' %}
+  <!-- Form validation basilare senza jQuery -->
+  <script>
+    // Validazione form semplice senza jQuery
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.querySelector('form');
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          const name = form.querySelector('[name="name"]');
+          const email = form.querySelector('[name="email"]');
+          if (!name.value || !email.value) {
+            e.preventDefault();
+            alert('Compila tutti i campi obbligatori');
+          }
+        });
+      }
+    });
+  </script>
+{% endif %}

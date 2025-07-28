@@ -33,9 +33,6 @@
   <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
   <meta name="twitter:image" content="{{ page.og_image | default: page.background | default: '/img/home/bg-home.jpg' | absolute_url }}">
 
-  <!-- Critical CSS inline per performance -->
-  {% include critical-css.html %}
-
   <!-- Schema.org markup per SEO -->
   {% include schema-markup.html %}
 
@@ -44,7 +41,10 @@
   
   <!-- NESSUN FONT PRELOAD - Usare font di sistema -->
   
-  <!-- Preload risorse critiche -->
+  <!-- CSS CRITICO INLINE - FASE 1 OTTIMIZZAZIONE -->
+  {% include critical-css.html %}
+  
+  <!-- CSS NON-CRITICO CARICATO ASINCRONO - PERFORMANCE -->
   <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
   
@@ -53,9 +53,7 @@
   <link rel="preload" href="/img/amore.webp" as="image" type="image/webp" fetchpriority="high">
   {% endif %}
   
-  <!-- Font Awesome con defer per non bloccare rendering -->
-  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></noscript>
+  <!-- NESSUN FONT AWESOME - Per LCP critico -->
 
   <!-- NESSUN GOOGLE FONTS - Font di sistema per velocità estrema -->
 
