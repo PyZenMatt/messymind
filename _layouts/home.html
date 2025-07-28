@@ -25,7 +25,8 @@ layout: default
                alt=post.title 
                class="card-img d-none d-md-block"
                width="400"
-               height="300" %}
+               height="300" 
+               loading="eager" %}
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -60,7 +61,13 @@ layout: default
         {% for post in site.posts limit:3 %}
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="ccard-img d-none d-md-block"" alt="{{ post.title }}">
+            {% include optimized-image.html 
+               src=post.background 
+               alt=post.title 
+               class="card-img-top"
+               width="400"
+               height="250"
+               loading="lazy" %}
             <div class="card-body">
               <a href="{{ post.url }}" class="text-decoration-none">
                 <h5 class="card-title">{{ post.title }}</h5>

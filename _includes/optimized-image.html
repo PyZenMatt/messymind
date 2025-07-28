@@ -14,8 +14,9 @@
     src="{{ img_path }}" 
     alt="{{ img_alt }}" 
     class="{{ img_class }}"
-    loading="lazy"
+    loading="{{ include.loading | default: 'lazy' }}"
     decoding="async"
     {% if include.width %}width="{{ include.width }}"{% endif %}
-    {% if include.height %}height="{{ include.height }}"{% endif %}>
+    {% if include.height %}height="{{ include.height }}"{% endif %}
+    {% if include.width and include.height %}style="aspect-ratio: {{ include.width }}/{{ include.height }};"{% endif %}>
 </picture>

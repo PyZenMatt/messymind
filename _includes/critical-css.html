@@ -9,10 +9,27 @@ body {
 .masthead {
   position: relative;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url('/img/home/bg-home.webp');
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  background-position: center;
+  min-height: 50vh;
+  padding: 4rem 0;
   color: white;
+  text-align: center;
+}
+
+/* Fallback per browser senza WebP */
+.no-webp .masthead {
+  background-image: url('/img/home/bg-home.jpeg');
+}
+
+.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33, 37, 41, 0.5);
 }
 
 .navbar {
@@ -47,10 +64,34 @@ h1, h2, h3 {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-/* Images responsive */
+/* Images responsive e aspect-ratio per CLS */
 img {
   max-width: 100%;
   height: auto;
+  vertical-align: middle;
+}
+
+.card-img {
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-img-top {
+  aspect-ratio: 16/10;
+  object-fit: cover;
+}
+
+/* Loading skeleton per performance percepita */
+img[loading="lazy"] {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 
 /* Loading state for images */

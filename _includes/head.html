@@ -49,6 +49,10 @@
   <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
   
+  <!-- Preload immagine hero per LCP -->
+  <link rel="preload" href="/img/home/bg-home.webp" as="image" type="image/webp">
+  <link rel="preload" href="/img/home/bg-home.jpeg" as="image" type="image/jpeg">
+  
   <!-- Font preload per evitare FOIT -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"></noscript>
