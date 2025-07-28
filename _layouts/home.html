@@ -8,7 +8,7 @@ layout: default
   <div class="row mb-5">
     <div class="col-12">
       <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
-        <h2 class="section-heading mb-2">Articoli in Evidenza</h2>
+        <h1 class="section-heading mb-2">Articoli in Evidenza</h1>
         {% if site.featured_category %}
         <a href="/categories/{{ site.featured_category | slugify }}" class="btn btn-primary category-button">
           Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
@@ -98,7 +98,7 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="site-heading">
-          <h1>{{ site.title }}</h1>
+          <h2>{{ site.title }}</h2>
           <span class="subheading">{{ site.description }}</span>
         </div>
       </div>
