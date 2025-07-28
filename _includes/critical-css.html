@@ -56,13 +56,26 @@ h1, h2, h3 {
   line-height: 1.1;
 }
 
-/* Card layout ottimizzato per CLS */
+/* Card layout ottimizzato per CLS - DIMENSIONI FISSE */
 .post-card {
   border: 1px solid #e3e3e3;
   border-radius: 0.375rem;
   overflow: hidden;
   transition: box-shadow 0.15s ease-in-out;
-  min-height: 200px; /* Altezza fissa per evitare shift */
+  min-height: 240px; /* Altezza fissa per evitare shift */
+}
+
+.card-img {
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  width: 100%;
+  height: 200px; /* Altezza fissa per evitare CLS */
+}
+
+.card-img-top {
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  height: 160px; /* Altezza fissa per evitare CLS */
 }
 
 .post-card:hover {
@@ -87,21 +100,9 @@ img {
   object-fit: cover;
 }
 
-/* Loading skeleton per performance percepita */
-img[loading="lazy"] {
-  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
-  background-size: 200% 100%;
-  animation: loading 1.5s infinite;
-}
-
-@keyframes loading {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
-}
-
-/* Loading state for images */
+/* Loading state semplice per immagini lazy */
 img[loading="lazy"] {
   background: #f8f9fa;
-  min-height: 200px;
+  min-height: 160px;
 }
 </style>
