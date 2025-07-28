@@ -55,6 +55,12 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - "*.bak"
+  - "*.backup"
+  - "*.tmp"
+  - "*_backup.*"
+  - performance-results/
+  - build-report-*.md
 
 jekyll-archives:
   enabled:

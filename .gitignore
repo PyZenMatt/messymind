@@ -37,10 +37,14 @@ WORKFLOW.md
 # Windows
 Thumbs.db
 
-# Editor temporanei
+# Editor temporanei e backup
 *~
 *.swp
 *.swo
+*.bak
+*.backup
+*.tmp
+*_backup.*
 
 # Log files
 *.log
