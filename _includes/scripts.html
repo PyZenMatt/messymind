@@ -1,7 +1,8 @@
-<!-- JavaScript minimo per navbar responsive -->
+<!-- JavaScript minimo DEFERITO per performance -->
 <script>
-  // Navbar toggle senza jQuery - Performance ottimizzata
-  document.addEventListener('DOMContentLoaded', function() {
+  // Script critici caricati DOPO il DOM ready
+  function initCriticalScripts() {
+    // Navbar toggle senza jQuery - Performance ottimizzata
     const navbarToggler = document.querySelector('.navbar-toggler');
     const navbarCollapse = document.querySelector('.navbar-collapse');
     
@@ -18,26 +19,34 @@
         });
       });
     }
-  });
+  }
+  
+  // Carica script solo quando il DOM è pronto - Non blocca il rendering
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCriticalScripts);
+  } else {
+    initCriticalScripts();
+  }
 </script>
 
-<!-- Script solo per pagina contact se necessario -->
+<!-- Form validation solo per pagina contact -->
 {% if page.url contains 'contact' %}
-  <!-- Form validation basilare senza jQuery -->
-  <script>
-    // Validazione form semplice senza jQuery
-    document.addEventListener('DOMContentLoaded', function() {
-      const form = document.querySelector('form');
-      if (form) {
-        form.addEventListener('submit', function(e) {
-          const name = form.querySelector('[name="name"]');
-          const email = form.querySelector('[name="email"]');
-          if (!name.value || !email.value) {
-            e.preventDefault();
-            alert('Compila tutti i campi obbligatori');
-          }
-        });
-      }
-    });
-  </script>
+<script>
+  function initContactForm() {
+    const form = document.querySelector('form');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        const name = form.querySelector('[name="name"]');
+        const email = form.querySelector('[name="email"]');
+        if (!name.value || !email.value) {
+          e.preventDefault();
+          alert('Compila tutti i campi obbligatori');
+        }
+      });
+    }
+  }
+  
+  // Carica form validation post-load per non bloccare rendering
+  window.addEventListener('load', initContactForm);
+</script>
 {% endif %}

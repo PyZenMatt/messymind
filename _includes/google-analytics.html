@@ -1,10 +1,25 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<!-- Google Analytics OTTIMIZZATO - Caricamento Post-Load -->
 <script>
+// Carica Google Analytics solo dopo che la pagina è completamente caricata
+window.addEventListener('load', function() {
+  // Carica script gtag.js in modo asincrono
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MLB32YW721';
+  document.head.appendChild(script);
+  
+  // Inizializza dataLayer
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.google_analytics }}');
+  
+  // Configura Analytics quando lo script è caricato
+  script.onload = function() {
+    gtag('js', new Date());
+    gtag('config', 'G-MLB32YW721', {
+      'send_page_view': true,
+      'anonymize_ip': true // Per GDPR compliance
+    });
+  };
+});
 </script>
 

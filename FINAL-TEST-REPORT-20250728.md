@@ -21,6 +21,9 @@
 - **jQuery rimosso**: navbar toggle vanilla JS
 - **Script minimali**: solo funzionalità essenziali
 - **Service worker aggiornato**: cache ottimizzata
+- **🚀 Analytics Post-Load**: Google Analytics caricato DOPO window.onload
+- **🚀 Scripts Deferred**: JavaScript critico non blocca rendering
+- **🚀 Main Thread liberato**: Eliminato blocking JavaScript dal critical path
 
 ## 🎯 **PROBLEMI RISOLTI**
 
