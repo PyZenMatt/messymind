@@ -53,8 +53,9 @@
   <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
   
-  <!-- Preload SOLO immagine LCP WebP ottimizzata -->
+  <!-- Preload CRITICO per LCP - immagini hero immediate -->
   {% if page.url == '/' %}
+  <link rel="preload" href="/img/home/bg-home.webp" as="image" type="image/webp" fetchpriority="high">
   <link rel="preload" href="/img/amore.webp" as="image" type="image/webp" fetchpriority="high">
   {% endif %}
   
