@@ -40,45 +40,30 @@
   {% include schema-markup.html %}
 
   
-  <!-- Preconnect per performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <!-- NESSUN PRECONNECT - Performance ottimizzata con font di sistema -->
   
-  <!-- Preload font critici per evitare FOIT/CLS -->
-  <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVQUwaEQbjwN71k.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="https://fonts.gstatic.com/s/lora/v32/0QIvMX1D_JOuMw_hLdO6T2wV9KnW-MoFkHi0.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- NESSUN FONT PRELOAD - Usare font di sistema -->
   
   <!-- Preload risorse critiche -->
   <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
   
-  <!-- Preload CRITICO per LCP - immagini hero immediate -->
+  <!-- Preload SOLO immagine LCP ottimizzata -->
   {% if page.url == '/' %}
-  <link rel="preload" href="/img/home/bg-home.webp" as="image" type="image/webp" fetchpriority="high">
   <link rel="preload" href="/img/amore.webp" as="image" type="image/webp" fetchpriority="high">
   {% endif %}
-  
-  <!-- Font preload per evitare FOIT ottimizzato -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"></noscript>
   
   <!-- Font Awesome con defer per non bloccare rendering -->
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></noscript>
+
+  <!-- NESSUN GOOGLE FONTS - Font di sistema per velocità estrema -->
 
   <link rel="icon" type="image/png" href="{{ '/img/favicon/favicon.ico' | relative_url }}">
   <!-- CSS NON-BLOCKING: main.css già preloaded sopra -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-  <!-- jQuery necessario per Bootstrap e script tema -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- NESSUN JAVASCRIPT NEL HEAD - Performance ottimizzata -->
   
-  <!-- Bootstrap JS per tooltip e altre funzionalità -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  
-  <!-- Performance Scripts con defer per non bloccare -->
-  <script src="{{ '/assets/js/performance.js' | relative_url }}" defer></script>
-
 </head>
