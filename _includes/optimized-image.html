@@ -15,13 +15,17 @@
   {% endif %}
   
   <!-- Fallback originale -->
+  <!-- Fallback originale -->
   <img 
     src="{{ img_path }}" 
-    alt="{{ img_alt }}" 
-    class="{{ img_class }}"
-    loading="{{ include.loading | default: 'lazy' }}"
+    alt="{{ include.alt | default: 'Image' }}" 
+    {% if include.class %}class="{{ include.class }}"{% endif %}
+    {% if include.loading %}loading="{{ include.loading }}"{% else %}loading="lazy"{% endif %}
+    {% if include.loading == 'eager' %}fetchpriority="high"{% endif %}
     decoding="async"
-    {% if include.width %}width="{{ include.width }}"{% endif %}
-    {% if include.height %}height="{{ include.height }}"{% endif %}
-    {% if include.width and include.height %}style="aspect-ratio: {{ include.width }}/{{ include.height }};"{% endif %}>
+    {% if include.width and include.height %}
+    width="{{ include.width }}"
+    height="{{ include.height }}"
+    style="aspect-ratio: {{ include.width }}/{{ include.height }};"
+    {% endif %}>
 </picture>

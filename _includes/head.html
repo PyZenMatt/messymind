@@ -49,10 +49,9 @@
   <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
   
-  <!-- Preload immagine LCP della homepage -->
+  <!-- Preload SOLO immagine LCP WebP ottimizzata -->
   {% if page.url == '/' %}
-  <link rel="preload" href="/img/amore.webp" as="image" type="image/webp">
-  <link rel="preload" href="/img/amore.png" as="image" type="image/png">
+  <link rel="preload" href="/img/amore.webp" as="image" type="image/webp" fetchpriority="high">
   {% endif %}
   
   <!-- Font preload per evitare FOIT -->
