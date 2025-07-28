@@ -29,10 +29,16 @@ layout: default
   </header>
 
   <div class="container">
+    <!-- Breadcrumb Navigation -->
+    {% include breadcrumb.html %}
+    
     <div class="row">
       <!-- Contenuto Principale -->
       <div class="col-lg-8 col-md-10 mx-auto post-content-wrapper">
         {{ content }}
+
+        <!-- Related Posts -->
+        {% include related-posts.html %}
 
         <hr>
       

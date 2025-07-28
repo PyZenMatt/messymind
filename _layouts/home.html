@@ -20,7 +20,12 @@ layout: default
       <div class="card mb-4 post-card">
         <div class="row no-gutters">
           <div class="col-md-4 d-none d-md-block">
-            <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img d-none d-md-block" alt="{{ post.title }}">
+            {% include optimized-image.html 
+               src=post.background 
+               alt=post.title 
+               class="card-img d-none d-md-block"
+               width="400"
+               height="300" %}
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -117,7 +122,12 @@ layout: default
         <div class="card mb-4 post-card">
           <div class="row no-gutters">
             <div class="col-md-4 d-none d-md-block">
-              <img src="{{ post.background | default: '/path/to/default-image.jpg' }}" class="card-img d-none d-md-block"" alt="{{ post.title }}">
+              {% include optimized-image.html 
+                 src=post.background 
+                 alt=post.title 
+                 class="card-img d-none d-md-block"
+                 width="400"
+                 height="300" %}
             </div>
             <div class="col-md-8">
               <div class="card-body">

@@ -1,0 +1,28 @@
+# Performance optimizations for Jekyll
+plugins:
+  - jekyll-redirect-from
+
+# Headers per GitHub Pages (funziona tramite Jekyll)  
+defaults:
+  - scope:
+      path: "img/**/*.webp"
+    values:
+      layout: null
+      cache-control: "public, max-age=31536000"
+      content-type: "image/webp"
+  
+  - scope:
+      path: "**/*.{jpg,jpeg,png,gif}"
+    values:
+      layout: null
+      cache-control: "public, max-age=31536000"
+
+# Compressione per produzione
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false

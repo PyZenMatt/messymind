@@ -1,5 +1,6 @@
 ---
 title: "Risveglio Interiore e Successo: Perché la Spiritualità Moderna è Come un GPS Rotto (Con Esempi Pratici di Sopravvivenza)"
+seo_title: "Risveglio Interiore e Successo [...]"
 featured: "true"
 description: "Scopri come smettere di inseguire il successo tradizionale e trovare l'autenticità tra meme, metafore surreali e consigli pratici per chi ha provato a meditare solo una volta. Un viaggio tra filosofia spicciola, umorismo esistenziale e studi finti dell'Università di Urbino."
 categories: [benessere]

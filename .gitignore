@@ -1,5 +1,46 @@
-_site
-.sass-cache
-node_modules
-Gemfile.lock
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Gem files
 *.gem
+.bundle/
+vendor/
+Gemfile.lock
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Performance reports (opzionale: puoi tenerli se vuoi)
+performance-reports/
+
+# Backup immagini (durante ottimizzazione)
+img_backup/
+*_optimized.*
+
+# Scripts di sviluppo e documentazione interna
+scripts/
+WORKFLOW.md
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor temporanei
+*~
+*.swp
+*.swo
+
+# Log files
+*.log

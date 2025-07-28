@@ -1,0 +1,21 @@
+<!-- Componente per immagini ottimizzate -->
+{% assign img_path = include.src %}
+{% assign img_alt = include.alt | default: include.title %}
+{% assign img_class = include.class | default: "img-fluid" %}
+
+<picture>
+  <!-- WebP per browser moderni -->
+  <source 
+    srcset="{{ img_path | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' | replace: '.png', '.webp' }}" 
+    type="image/webp">
+  
+  <!-- Fallback originale -->
+  <img 
+    src="{{ img_path }}" 
+    alt="{{ img_alt }}" 
+    class="{{ img_class }}"
+    loading="lazy"
+    decoding="async"
+    {% if include.width %}width="{{ include.width }}"{% endif %}
+    {% if include.height %}height="{{ include.height }}"{% endif %}>
+</picture>

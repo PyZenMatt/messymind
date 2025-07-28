@@ -1,5 +1,6 @@
 ---
 title: "E=mc² e Spiritualità: La Verità Scomoda che Einstein Non Ti Ha Detto (Con Umorismo)"
+seo_title: "E=mc² e Spiritualità [...]"
 date: 2024-03-15T08:00:00+01:00
 draft: false
 background: "/img/relativita.jpg"

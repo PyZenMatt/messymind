@@ -1,0 +1,67 @@
+<!-- Breadcrumb Navigation per SEO e UX -->
+<nav aria-label="breadcrumb" class="breadcrumb-container">
+  <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      <a href="{{ site.baseurl }}/" itemprop="item" itemtype="http://schema.org/WebPage">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+    
+    {% if page.categories %}
+      {% assign category = page.categories | first %}
+      <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="{{ site.baseurl }}/categorie/{{ category | slugify }}/" itemprop="item" itemtype="http://schema.org/WebPage">
+          <span itemprop="name">{{ category | capitalize | replace: '-', ' ' }}</span>
+        </a>
+        <meta itemprop="position" content="2" />
+      </li>
+    {% endif %}
+    
+    {% if page.layout == 'post' %}
+      <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <span itemprop="name">{{ page.title | truncate: 50 }}</span>
+        <meta itemprop="position" content="3" />
+      </li>
+    {% elsif page.title and page.title != site.title %}
+      <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <span itemprop="name">{{ page.title }}</span>
+        <meta itemprop="position" content="{% if page.categories %}3{% else %}2{% endif %}" />
+      </li>
+    {% endif %}
+  </ol>
+</nav>
+
+<style>
+.breadcrumb-container {
+  background: transparent;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "›";
+  color: #6c757d;
+  margin: 0 0.5rem;
+}
+
+.breadcrumb-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+</style>

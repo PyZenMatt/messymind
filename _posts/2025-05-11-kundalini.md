@@ -1,6 +1,7 @@
 ---
 layout: post  
 title: "Risveglio Kundalini: Viaggio Tra Crisi Esistenziali, Yeti Interiori e Yoga da Bagno"  
+seo_title: "Risveglio Kundalini [...]"
 author: Teuss  
 categories: [spiritualita]
 tags: [kundalini yoga, risveglio spirituale, chakra, meditazione ironica, crisi esistenziale, energia interiore]  

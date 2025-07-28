@@ -1,0 +1,54 @@
+<!-- Related Posts con linking interno automatico -->
+{% if page.categories %}
+  {% assign related_posts = site.posts | where_exp: "post", "post.categories contains page.categories.first" | where_exp: "post", "post.url != page.url" | limit: 3 %}
+  
+  {% if related_posts.size > 0 %}
+    <div class="related-posts-section mt-5 pt-4 border-top">
+      <h3 class="mb-4">📚 Articoli Correlati</h3>
+      <div class="row">
+        {% for related_post in related_posts %}
+          <div class="col-md-4 mb-3">
+            <div class="card h-100">
+              {% if related_post.background %}
+                {% include optimized-image.html 
+                   src=related_post.background 
+                   alt=related_post.title 
+                   class="card-img-top"
+                   width="300"
+                   height="200" %}
+              {% endif %}
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">
+                  <a href="{{ related_post.url }}" class="text-decoration-none">
+                    {{ related_post.title | truncate: 60 }}
+                  </a>
+                </h5>
+                <p class="card-text flex-grow-1">
+                  {{ related_post.description | default: related_post.excerpt | strip_html | truncate: 100 }}
+                </p>
+                <div class="mt-auto">
+                  <small class="text-muted">
+                    <i class="far fa-calendar-alt"></i> {{ related_post.date | date: '%d/%m/%Y' }}
+                  </small>
+                  <a href="{{ related_post.url }}" class="btn btn-sm btn-outline-primary float-right">
+                    Leggi tutto
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
+
+<!-- Link "Torna alla categoria" -->
+{% if page.categories %}
+  {% assign category = page.categories | first %}
+  <div class="category-navigation mt-4 text-center">
+    <a href="{{ site.baseurl }}/categorie/{{ category | slugify }}/" class="btn btn-secondary">
+      <i class="fas fa-arrow-left"></i> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
+    </a>
+  </div>
+{% endif %}

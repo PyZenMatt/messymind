@@ -23,11 +23,38 @@ permalink: /:categories/:title/
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/posts/page:num/"
+
+# Optimizations
+sass:
+  style: compressed
+  
+# Plugins per performance e SEO
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-compress-images
+
+# Compressione HTML in produzione
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: []
+
+# Exclude da build per velocizzare
+exclude:
+  - scripts/
+  - node_modules/
+  - vendor/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 jekyll-archives:
   enabled:

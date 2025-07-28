@@ -1,5 +1,6 @@
 ---
 title: "Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Rompere i Mobili)"
+seo_title: "Legge del Ritmo [...]"
 description: "Esplora il ritmo universale tra filosofia, comicità e vita reale: dagli insegnamenti della Kabbalah agli autobus in ritardo, una guida anticonvenzionale per sopravvivere ai cicli esistenziali con ironia e 3 caffè al giorno."
 categories: [spiritualita]
 keywords: 

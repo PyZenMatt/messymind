@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Come Ho Smesso di Inseguire il Tempo: 3 Segreti per Vivere Senza Ansia da Produttività"
+seo_title: "Come Ho Smesso di Inseguire il Tempo [...]"
 categories: [crescita-personale]
 tags: [gestione dello stress, tecniche mindfulness, vivere il presente, equilibrio vita-lavoro, ridurre l'ansia, consapevolezza quotidiana]
 description: "Scopri come ho trasformato la mia relazione con il tempo: dalla crisi in metropolitana alle piccole rivoluzioni quotidiane che combattono il burnout. Strategie pratiche + la storia del mio cactus maestro di vita."
