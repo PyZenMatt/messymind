@@ -26,6 +26,8 @@
     {% if include.width and include.height %}
     width="{{ include.width }}"
     height="{{ include.height }}"
-    style="aspect-ratio: {{ include.width }}/{{ include.height }};"
+    style="aspect-ratio: {{ include.width }}/{{ include.height }}; max-width: 100%; height: auto;"
+    {% else %}
+    style="max-width: 100%; height: auto; aspect-ratio: 16/9;"
     {% endif %}>
 </picture>

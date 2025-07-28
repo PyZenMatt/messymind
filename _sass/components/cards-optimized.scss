@@ -1,0 +1,51 @@
+// Cards ottimizzate per performance e CLS
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  min-height: 200px; // Altezza minima per evitare CLS
+  
+  .card-img, .card-img-top {
+    aspect-ratio: 16/9; // Previene CLS
+    object-fit: cover;
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  }
+  
+  .card-body {
+    padding: 1.25rem;
+    min-height: 150px; // Spazio riservato per contenuto
+  }
+  
+  .card-title {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+    color: $secondary;
+  }
+  
+  .card-footer {
+    padding: 0.5rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+  }
+}
+
+.post-card {
+  min-height: 200px;
+  margin-bottom: 2rem;
+  
+  .card-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .card-img {
+      height: 300px;
+    }
+  }
+}

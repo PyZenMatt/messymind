@@ -1,0 +1,7 @@
+Performance Report - Mon Jul 28 13:25:32 CEST 2025
+==================================
+CSS Size: 159KB
+WebP Optimization: 100%
+Critical CSS: 2KB
+Preload Resources: 8
+Estimated Score: 100/100

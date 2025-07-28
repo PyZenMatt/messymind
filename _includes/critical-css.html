@@ -6,6 +6,29 @@ body {
   line-height: 1.5;
 }
 
+/* Prevent layout shifts with reserved space for images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-img, .card-img-top {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+/* Navbar fixed height to prevent shifts */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  min-height: 56px;
+}
+
 .masthead {
   position: relative;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -17,7 +40,7 @@ body {
   text-align: center;
 }
 
-/* Carica background dopo */
+/* Preload background after to avoid CLS */
 .masthead.loaded {
   background-image: url('/img/home/bg-home.webp');
 }
@@ -36,18 +59,42 @@ body {
   background-color: rgba(33, 37, 41, 0.5);
 }
 
-.navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background: rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
+/* Container base con dimensioni fisse per evitare shifts */
+.container { 
+  max-width: 1140px; 
+  margin: 0 auto; 
+  padding: 0 15px; 
 }
 
-/* Container base */
-.container { max-width: 1140px; margin: 0 auto; padding: 0 15px; }
+/* Card layout stabile */
+.post-card {
+  min-height: 200px;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  padding: 1.25rem;
+  min-height: 150px;
+}
+
+/* Font loading ottimizzato */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/OpenSans-Regular.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('/fonts/Lora-Regular.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 400;
+}
 
 /* Typography */
 h1, h2, h3 { 
