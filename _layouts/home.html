@@ -20,13 +20,17 @@ layout: default
       <div class="card mb-4 post-card">
         <div class="row no-gutters">
           <div class="col-md-4 d-none d-md-block">
+            {% assign loading_type = 'lazy' %}
+            {% if forloop.first %}
+              {% assign loading_type = 'eager' %}
+            {% endif %}
             {% include optimized-image.html 
                src=post.background 
                alt=post.title 
                class="card-img d-none d-md-block"
                width="400"
                height="300" 
-               loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" %}
+               loading=loading_type %}
           </div>
           <div class="col-md-8">
             <div class="card-body">
