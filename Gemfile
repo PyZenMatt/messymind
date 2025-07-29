@@ -14,3 +14,5 @@ gem "webrick"
 gem "jekyll-sitemap"
 
 gem "jekyll-archives"
+
+gem "jekyll-redirect-from"

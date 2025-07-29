@@ -35,6 +35,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-compress-images
+  - jekyll-redirect-from
+
 
 # Compressione HTML in produzione
 compress_html:
