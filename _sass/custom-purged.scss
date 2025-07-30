@@ -1,40 +1,88 @@
 /*!
  * Custom PURGED - Solo stili necessari per matteoricci.net
  * Ridotto da 712 righe a ~150 righe per performance
+ * Con supporto tema scuro leggero
  */
+
+// === CSS VARIABLES PER TEMA SCURO/CHIARO ===
+:root {
+  --bg-color: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --text-color: #333333;
+  --text-muted: #777777;
+  --border-color: #e3e3e3;
+  --card-bg: #ffffff;
+  --navbar-bg: #ffffff;
+  --overlay-bg: rgba(0, 0, 0, 0.3);
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --text-color: #e0e0e0;
+  --text-muted: #b0b0b0;
+  --border-color: #404040;
+  --card-bg: #2a2a2a;
+  --navbar-bg: #1f1f1f;
+  --overlay-bg: rgba(0, 0, 0, 0.6);
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
 
 // === LAYOUT PRINCIPALE ===
 body {
   padding-top: 80px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .main-wrapper {
-  background-color: #f8f9fa;
+  background-color: var(--bg-secondary);
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .content-box {
-  background-color: white;
+  background-color: var(--card-bg);
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow);
 }
 
 // === NAVBAR CUSTOM ===
 .navbar {
-  background-color: white !important;
-  border-bottom: 1px solid #e3e3e3;
+  background-color: var(--navbar-bg) !important;
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.3s ease;
 }
 
 .navbar a,
 .navbar .navbar-brand {
-  color: #333 !important;
+  color: var(--text-color) !important;
   font-weight: 600;
+  transition: color 0.3s ease;
 }
 
 .navbar a:hover {
   color: #007bff !important;
+}
+
+.navbar-toggler {
+  border-color: var(--border-color);
+  color: var(--text-color) !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+}
+
+.navbar-toggler .fa-bars {
+  color: var(--text-color);
 }
 
 // === MASTHEAD ===
@@ -56,7 +104,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--overlay-bg);
 }
 
 .site-heading {
@@ -79,7 +127,7 @@ body {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2rem;
-  color: #333;
+  color: var(--text-color);
   position: relative;
   padding-bottom: 0.5rem;
 }
@@ -97,9 +145,10 @@ body {
 // === CARDS OTTIMIZZATE ===
 .post-card {
   border: none;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow);
   transition: transform 0.3s ease;
   margin-bottom: 2rem;
+  background-color: var(--card-bg);
 }
 
 .post-card:hover {
@@ -109,12 +158,44 @@ body {
 .post-card .card-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #333;
+  color: var(--text-color);
   transition: color 0.3s ease;
 }
 
 .post-card .card-title:hover {
   color: #007bff;
+}
+
+// === CARD GENERICHE ===
+.card {
+  background-color: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.card-title,
+.card-title a {
+  color: var(--text-color) !important;
+  transition: color 0.3s ease;
+}
+
+.card-title a:hover {
+  color: #007bff !important;
+  text-decoration: none;
+}
+
+.card-body {
+  color: var(--text-color);
+}
+
+.card-text {
+  color: var(--text-muted);
+}
+
+.card-footer {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
 }
 
 // === CATEGORY HEADER ===
@@ -134,7 +215,7 @@ body {
 .post-preview .post-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #333;
+  color: var(--text-color);
   transition: color 0.3s ease;
 }
 
@@ -145,12 +226,12 @@ body {
 .post-preview .post-subtitle {
   font-size: 1.2rem;
   font-weight: 300;
-  color: #555;
+  color: var(--text-muted);
 }
 
 .post-preview .post-meta {
   font-size: 0.9rem;
-  color: #777;
+  color: var(--text-muted);
 }
 
 // === TYPOGRAPHY ===
@@ -263,4 +344,58 @@ body {
   position: relative; 
   left: 65%; 
   transform: translateX(-35%); 
+}
+
+// === THEME TOGGLE ===
+#theme-toggle {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+// === THEME SPECIFIC ADJUSTMENTS ===
+[data-theme="dark"] .card {
+  background-color: var(--card-bg);
+  border-color: var(--border-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .card-body {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .card-title,
+[data-theme="dark"] .card-title a {
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .card-footer {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color);
+  color: var(--text-muted);
+}
+
+[data-theme="dark"] .text-muted {
+  color: var(--text-muted) !important;
+}
+
+[data-theme="dark"] .text-dark {
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .text-decoration-none {
+  color: var(--text-color) !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: var(--card-bg) !important;
+}
+
+[data-theme="dark"] .navbar-toggler {
+  color: var(--text-color) !important;
+  border-color: var(--border-color) !important;
 }
