@@ -2,40 +2,67 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
-  {% if page.layout == 'post' %}
-  "headline": "{{ page.title }}",
-  "description": "{{ page.excerpt | strip_html | normalize_whitespace | truncate: 155 }}",
-  "image": "{{ page.og_image | default: page.background | default: '/img/home/bg-home.jpg' | absolute_url }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ page.author | default: site.author }}"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ '/img/favicon/favicon.png' | absolute_url }}"
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ '/img/favicon/favicon.png' | absolute_url }}"
+      },
+      "sameAs": [
+        {% if site.github_username %}"https://github.com/{{ site.github_username }}"{% endif %}
+        {% if site.twitter_username %},"https://twitter.com/{{ site.twitter_username }}"{% endif %}
+        {% if site.linkedin_username %},"https://linkedin.com/in/{{ site.linkedin_username }}"{% endif %}
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#author",
+      "name": "{{ site.author }}",
+      "jobTitle": "Content Creator & Mindfulness Writer",
+      "worksFor": {
+        "@id": "{{ site.url }}/#organization"
+      }
+    },
+    {
+      "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
+      {% if page.layout == 'post' %}
+      "headline": "{{ page.title }}",
+      "description": "{{ page.excerpt | strip_html | normalize_whitespace | truncate: 155 }}",
+      "image": "{{ page.og_image | default: page.background | default: '/img/home/bg-home.jpg' | absolute_url }}",
+      "author": {
+        "@id": "{{ site.url }}/#author"
+      },
+      "publisher": {
+        "@id": "{{ site.url }}/#organization"
+      },
+      "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date: '%Y-%m-%d' }}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | absolute_url }}"
+      },
+      "articleSection": "{{ page.categories | first | capitalize }}",
+      "keywords": [{% for keyword in page.keywords %}"{{ keyword }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+      "wordCount": "{{ content | strip_html | number_of_words }}",
+      "timeRequired": "PT{{ content | strip_html | number_of_words | divided_by: 200 | plus: 1 }}M"
+      {% else %}
+      "name": "{{ site.title }}",
+      "description": "{{ site.description }}",
+      "url": "{{ site.url }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ site.url }}/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+      {% endif %}
     }
-  },
-  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
-  "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ page.url | absolute_url }}"
-  },
-  "articleSection": "{{ page.categories | first }}",
-  "keywords": "{{ page.keywords | join: ', ' }}",
-  {% else %}
-  "name": "{{ site.title }}",
-  "description": "{{ site.description }}",
-  "url": "{{ site.url }}",
-  {% endif %}
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "{{ site.url }}/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
+  ]
 }
 </script>

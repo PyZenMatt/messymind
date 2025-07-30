@@ -1,27 +1,11 @@
 User-agent: *
-Disallow: /guida_linux/
-Disallow: /guida_python/
-Disallow: /guida_css/
-Disallow: /guida_html/
-Disallow: /guida_django/
-Disallow: /guida_bootstrap/
-Disallow: /guida_js/
-Disallow: /guida_vue/
-Disallow: /bitcoin/
-Disallow: /guida_git/
-Disallow: /argomenti-avanzati/
-Disallow: /django-forms/
-Disallow: /automazione-e-integrazione/
-Disallow: /testing-di-applicazione/
-Disallow: /lavorare-in-team/
-Disallow: /concetti-fondamentali-vue.js/
-Disallow: /form-e-input-in-vue.js/
-Disallow: /comandi-avanzati-git/
-Disallow: /routing-in-vue/
-Disallow: /setup-vue.js/
-Disallow: /creare-componenti-vue.js/
-Disallow: /colori-e-background/
-Disallow: /introduzione-css/
-Disallow: /specificita-a-cascata/
-
 Allow: /
+
+# Blocca solo cartelle tecniche non rilevanti per il SEO
+Disallow: /assets/node_modules/
+Disallow: /_site/
+Disallow: /bin/
+Disallow: /scripts/
+
+# Consenti l'accesso alla sitemap
+Sitemap: https://www.matteoricci.net/sitemap.xml
