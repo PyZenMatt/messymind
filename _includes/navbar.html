@@ -20,21 +20,6 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/archivio" | relative_url }}" title="Archivio completo - Tutti gli articoli">Archivio</a>
         </li>
-          <!-- Dropdown per le categorie -->
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategorie" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Categorie articoli - Esplora per argomento">
-    Argomenti
-  </a>
-  <div class="dropdown-menu" aria-labelledby="navbarDropdownCategorie">
-    {% for category in site.categories %}
-      {% assign category_name = category[0] %}
-      {% assign category_slug = category_name | slugify %}
-      <a class="dropdown-item" href="{{ '/categorie/' | append: category_slug | relative_url }}" title="Articoli categoria {{ category_name | capitalize }}">
-        {{ category_name | capitalize }}
-      </a>
-    {% endfor %}
-  </div>
-</li>
       </ul>
     </div>
   </div>
