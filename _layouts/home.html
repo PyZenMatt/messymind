@@ -61,7 +61,7 @@ layout: default
     <div class="col-12">
       <div class="d-flex justify-content-between align-items-center mb-4">
         <h2 class="section-heading">Ultimi Articoli</h2>
-        <a href="/archivio" class="btn btn-primary">
+        <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">
           Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
         </a>
       </div>
@@ -78,7 +78,7 @@ layout: default
                loading="lazy" %}
             <div class="card-body">
               <a href="{{ post.url }}" class="text-decoration-none">
-                <h5 class="card-title">{{ post.title }}</h5>
+                <h3 class="card-title">{{ post.title }}</h3>
               </a>
               {% if post.description %}
               <p class="card-text">{{ post.description }}</p>
@@ -151,7 +151,7 @@ layout: default
             <div class="col-md-8">
               <div class="card-body">
                 <a href="{{ post.url }}" class="text-decoration-none">
-                  <h3 class="card-title">{{ post.title }}</h3>
+                  <h2 class="card-title">{{ post.title }}</h2>
                 </a>
                 {% if post.description %}
                 <p class="card-text">{{ post.description }}</p>

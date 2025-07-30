@@ -122,6 +122,31 @@ body {
   font-weight: 300;
 }
 
+// === ACCESSIBILITY - BUTTONS HIGH CONTRAST ===
+.btn-primary {
+  background-color: #0056b3 !important; /* Blu più scuro per contrasto */
+  border-color: #0056b3 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #004085 !important;
+  border-color: #004085 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-primary {
+  color: #0056b3 !important;
+  border-color: #0056b3 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+  color: #ffffff !important;
+}
+
 // === SECTION HEADINGS ===
 .section-heading {
   font-size: 2rem;
@@ -196,6 +221,19 @@ body {
 .card-footer {
   background-color: var(--bg-secondary);
   border-color: var(--border-color);
+}
+
+// === HEADING HIERARCHY FIXES ===
+.card-title h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-title h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 // === POST DESCRIPTION IN CARDS ===
