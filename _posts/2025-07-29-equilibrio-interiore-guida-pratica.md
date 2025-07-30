@@ -11,7 +11,7 @@ tags:
   - tecniche spirituali  
   - meditazione pratica  
   - crescita personale  
-description: "Strategie concrete per ritrovare il tuo centro tra notifiche, ritardi e imprevisti. Tecniche di respirazione, journaling e approcci spirituali demistificati per chi non ha tempo per l'illuminazione."  
+description: "Equilibrio interiore senza incenso e mantra in sanscrito? Tecniche anti-caos per chi ha 5 minuti tra notifiche. Meditazione per disperati inclusa."  
 keywords:  
   - come trovare equilibrio interiore  
   - silenzio interiore  

@@ -198,6 +198,15 @@ body {
   border-color: var(--border-color);
 }
 
+// === POST DESCRIPTION IN CARDS ===
+.card-body .card-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #666666; /* Grigio scuro per tema chiaro */
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
 // === CATEGORY HEADER ===
 .category-header {
   display: flex;
@@ -398,4 +407,8 @@ body {
 [data-theme="dark"] .navbar-toggler {
   color: var(--text-color) !important;
   border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .card-body .card-text {
+  color: #e0e0e0 !important; /* Bianco per tema scuro */
 }

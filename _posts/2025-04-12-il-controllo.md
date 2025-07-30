@@ -1,7 +1,7 @@
 ---
 title: "Il Manuale di Sopravvivenza per Chi Vuole Controllare Tutto (e Fallisce)"  
 seo_title: "Il Manuale di Sopravvivenza per Chi Vuole Controllare T"
-description: "Perché programmare la vita come un robot ansioso non funziona? una ricetta segreta per la libertà: lasciar andare il controllo ossessivo."  
+description: "Vuoi controllare tutto e fallisci sempre? Benvenuto nel club! Manuale di sopravvivenza per ex-robot ansiosi che vogliono mollare la presa."  
 keywords: "crescita senza controllo, spiritualità moderna, paradosso della produttività, lasciar andare, umorismo esistenziale"  
 tags:  
   - ossessione del controllo  
