@@ -1,38 +1,29 @@
-title: "L'Arte della Felicità"
-email:             "info@matteoricci.net"
-description:        "Istruzioni per Naufraghi, Sognatori e Chi Ha Appena Bruciato la Cena. Per chi sa che la gioia vera ha le unghie sporche e ride di meme alle 3 di notte. Benvenut* nella palestra emotiva dove si sollevano dubbi e si abbracciano fallimenti con stile."
-author:             Matteo Ricci
-baseurl:            ""
-url:                "https://www.matteoricci.net"
+title: "Messy Mind"
+email: "info@messymind.it"
+description: "Equilibrio interiore senza prendersi troppo sul serio. Spiritualità pratica per vite moderne e caotiche, senza guru e senza fuffa."
+author: Matteo Ricci
+baseurl: ""
+url: "https://messymind.it"
+background: "/img/home/bg-home.jpeg"
 
 # Environment specific settings
-# Assicuriamoci che in produzione usi sempre il dominio corretto
-host:               "0.0.0.0"
-port:               4000 "L’Arte della Felicità"
-email:             "info@matteoricci.net"
-description:        "Istruzioni per Naufraghi, Sognatori e Chi Ha Appena Bruciato la Cena. Per chi sa che la gioia vera ha le unghie sporche e ride di meme alle 3 di notte. Benvenut* nella palestra emotiva dove si sollevano dubbi e si abbracciano fallimenti con stile."
-author:             Matteo Ricci
-baseurl:            ""
-url:                "https://www.matteoricci.net"
-background:         "/img/home/bg-home.jpeg"
-
+host: "0.0.0.0"
+port: 4000
 
 # Social Profiles
-twitter_username:   
-github_username:   PyZenMatt 
-facebook_username:  
-instagram_username:  
+twitter_username: 
+github_username: PyZenMatt 
+facebook_username: 
+instagram_username: 
 linkedin_username:
 
-# Add your google-analytics ID here to activate google analytics
-# google_analytics configurato in _includes/google-analytics.html con G-MLB32YW721
+# Google Analytics configurato in _includes/google-analytics.html con G-MLB32YW721
 permalink: /:categories/:title/
 
-
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 
 # Optimizations
 sass:
@@ -46,7 +37,6 @@ plugins:
   - jekyll-archives
   - jekyll-compress-images
   - jekyll-redirect-from
-
 
 # Compressione HTML in produzione
 compress_html:
@@ -76,14 +66,12 @@ exclude:
 
 jekyll-archives:
   enabled:
-    - categories          # Abilita gli archivi per le categorie
+    - categories
   layouts:
-    category: category    # Indica che per le pagine archivio di categoria verrà usato il layout _layouts/category.html
+    category: category
   permalinks:
-    category: '/categorie/:name/'  # L'URL sarà, ad esempio, /categorie/benessere/
-  output: true            # Forza la generazione degli archivi (utile per debug)
-
-
+    category: '/categorie/:name/'
+  output: true
 
 collections:
   pages:
@@ -96,4 +84,3 @@ defaults:
       type: pages
     values:
       layout: default
-

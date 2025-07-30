@@ -2,7 +2,7 @@
 layout: post
 title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E Io Ho Sbagliato Strada Più Volte)"
 seo_title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E "
-categories: [crescita-personale]
+categories: [crescita-autentica]
 tags: [benessere, meditazione, autoconsapevolezza, umorismo, fallimenti, storie personali, esercizi pratici, autenticità] 
 description: "Scopri come ho imparato a trovare la felicità sbagliando strada, contando i rumori del frigorifero e ballando come un fenicottero in cucina. Guida pratica (con errori inclusi) alla crescita personale."
 background: '/img/acchiappasogni.jpg'

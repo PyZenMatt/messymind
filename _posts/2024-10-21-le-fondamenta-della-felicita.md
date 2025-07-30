@@ -2,7 +2,7 @@
 layout: post 
 title: "La felicità? Quella che cerchi scrollando Instagram mentre mangi un kebab alle 2 di notte"   
 seo_title: "La felicità? Quella che cerchi scrollando Instagram me"
-categories: [felicita]
+categories: [equilibrio-interiore]
 tags: [felicita, benessere, autorealizzazione, crescita personale] 
 meta: "Scopri come coltivare la felicità attraverso l'autoironia, la consapevolezza e relazioni autentiche. Un viaggio tra psicologia e battute da bar, con esempi pratici per migliorare il tuo benessere quotidiano." 
 background: /img/Loto.png

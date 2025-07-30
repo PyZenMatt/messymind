@@ -2,7 +2,7 @@
 layout: post  
 title: "Equilibrio Spirituale: Ironia e Saggezza tra Buddha, Yoga e Social Media"  
 seo_title: "Equilibrio Spirituale [...]"
-categories: [crescita-personale]  
+categories: [crescita-autentica]  
 tags: [buddhismo, yoga, cristianesimo, islam, mindfulness, meditazione, comicità, vita-equilibrata]  
 description: "Come trovare l'equilibrio interiore tra spiritualità e caos quotidiano? Un viaggio irriverente tra Buddha, WhatsApp e posizioni yoga fallite. Per chi sogna la pace interiore ma deve affrontare l'ufficio open-space."  
 background: /img/equilibrio-spirituale.jpg  

@@ -27,7 +27,7 @@ keywords:
   - trovare vocazione  
   - ambiente di lavoro positivo  
   - equilibrio vita-lavoro 
-categories: [crescita-personale] 
+categories: [crescita-autentica] 
 
 focus_keyword: "autenticità sul lavoro" 
 featured_post: 'true' 

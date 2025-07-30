@@ -3,7 +3,7 @@ layout: post
 title: "Equilibrio Interiore per Disperati: Guida Anti-Caos per Chi Non Sopporta l'Incenso"  
 seo_title: "Equilibrio Interiore: Guida Pratica per Caotici Cronici"  
 author: Matteo Ricci  
-categories: [spiritualita] 
+categories: [equilibrio-interiore] 
 background: /img/yoga.jpg  
 tags:  
   - equilibrio interiore  

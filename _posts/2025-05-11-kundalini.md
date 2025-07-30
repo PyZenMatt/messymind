@@ -3,7 +3,7 @@ layout: post
 title: "Risveglio Kundalini: Viaggio Tra Crisi Esistenziali, Yeti Interiori e Yoga da Bagno"  
 seo_title: "Risveglio Kundalini [...]"
 author: Teuss  
-categories: [spiritualita]
+categories: [spiritualita-pratica]
 tags: [kundalini yoga, risveglio spirituale, chakra, meditazione ironica, crisi esistenziale, energia interiore]  
 meta_description: "Cosa succede quando la Kundalini si risveglia? Brividi metafisici, dialoghi con le piante grasse e la scoperta che Netflix non cura l'anima. Guida pratica (e umoristica) al caos illuminato."  
 background: /img/amore.png

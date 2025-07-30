@@ -4,7 +4,7 @@ title: "Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialism
 seo_title: "Come Ritrovare il Contatto con la Materia | Guida Prati"
 description: "Scopri 5 metodi concreti per riconquistare il rapporto con gli oggetti quotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di mindfulness tattile." 
 author: Matteo Ricci
-categories: [auto-consapevolezza]
+categories: [mindfulness]
 meta_robots: 
   - index
   - follow

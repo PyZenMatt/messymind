@@ -8,4 +8,4 @@ Disallow: /bin/
 Disallow: /scripts/
 
 # Consenti l'accesso alla sitemap
-Sitemap: https://www.matteoricci.net/sitemap.xml
+Sitemap: https://messymind.it/sitemap.xml

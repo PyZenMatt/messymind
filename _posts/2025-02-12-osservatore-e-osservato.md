@@ -2,7 +2,7 @@
 title: "Sei il Cielo, Non le Nuvole: Come Scoprire Chi Sei Davvero (Spoiler: Non Sono i Tuoi Pensieri)"  
 seo_title: "Sei il Cielo, Non le Nuvole [...]"
 description: "Mente che frulla, ansie che tornano, dubbi che ti perseguitano? Un viaggio ironico e concreto per smettere di credere alle favole che ti racconti. Spoiler: la libertà è più vicina di quel che pensi."
-categories: [auto-consapevolezza]  
+categories: [mindfulness]  
 keywords:  
   - consapevolezza  
   - meditazione  
