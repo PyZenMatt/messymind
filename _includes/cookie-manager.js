@@ -14,9 +14,11 @@ const cookieManager = {
 
     // Inizializzazione
     init() {
+        console.log('🍪 Cookie Manager initializing...');
         this.checkExistingConsent();
         this.bindEvents();
         this.showBannerIfNeeded();
+        console.log('🍪 Cookie Manager initialized');
     },
 
     // Controlla se esiste già un consenso
@@ -37,13 +39,21 @@ const cookieManager = {
     // Mostra il banner se necessario
     showBannerIfNeeded() {
         const consent = this.getCookie(this.config.cookieName);
+        console.log('🍪 Cookie consent check:', consent);
         if (!consent) {
+            console.log('🍪 No consent found, showing banner...');
             setTimeout(() => {
                 const banner = document.getElementById('cookie-banner');
+                console.log('🍪 Banner element:', banner);
                 if (banner) {
                     banner.classList.add('show');
+                    console.log('🍪 Banner shown successfully');
+                } else {
+                    console.error('🍪 Banner element not found!');
                 }
             }, 1000); // Ritardo di 1 secondo per UX migliore
+        } else {
+            console.log('🍪 Consent already exists, banner not shown');
         }
     },
 
