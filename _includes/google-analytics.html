@@ -1,25 +1,8 @@
-<!-- Google Analytics OTTIMIZZATO - Caricamento Post-Load -->
+<!-- Google Analytics GDPR-Compliant - Caricato solo con consenso -->
+<!-- Il caricamento è gestito da cookie-manager.js basato sul consenso utente -->
 <script>
-// Carica Google Analytics solo dopo che la pagina è completamente caricata
-window.addEventListener('load', function() {
-  // Carica script gtag.js in modo asincrono
-  var script = document.createElement('script');
-  script.async = true;
-  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-MLB32YW721';
-  document.head.appendChild(script);
-  
-  // Inizializza dataLayer
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  
-  // Configura Analytics quando lo script è caricato
-  script.onload = function() {
-    gtag('js', new Date());
-    gtag('config', 'G-MLB32YW721', {
-      'send_page_view': true,
-      'anonymize_ip': true // Per GDPR compliance
-    });
-  };
-});
+// Google Analytics viene caricato dinamicamente dal cookie manager
+// solo se l'utente ha dato il consenso per i cookie di analytics
+console.log('Google Analytics: caricamento condizionato al consenso cookie');
 </script>
 

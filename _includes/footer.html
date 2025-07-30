@@ -68,6 +68,18 @@
           </li>
           {% endif %}
         </ul>
+        
+        <!-- Links Privacy e Cookie -->
+        <div class="text-center mb-3">
+          <small>
+            <a href="/privacy-policy/" class="text-muted">Privacy Policy</a>
+            •
+            <a href="/cookie-policy/" class="text-muted">Cookie Policy</a>
+            •
+            <a href="javascript:void(0)" onclick="cookieManager.revokeConsent()" class="text-muted">Gestisci Cookie</a>
+          </small>
+        </div>
+        
         <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
       </div>
     </div>
