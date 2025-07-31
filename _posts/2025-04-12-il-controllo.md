@@ -3,6 +3,8 @@ title: "Il Manuale di Sopravvivenza per Chi Vuole Controllare Tutto (e Fallisce)
 seo_title: "Il Manuale di Sopravvivenza per Chi Vuole Controllare T"
 description: "Vuoi controllare tutto e fallisci sempre? Benvenuto nel club! Manuale di sopravvivenza per ex-robot ansiosi che vogliono mollare la presa."  
 keywords: "crescita senza controllo, spiritualità moderna, paradosso della produttività, lasciar andare, umorismo esistenziale"  
+categories:
+  - "crescita-personale"
 tags:  
   - ossessione del controllo  
   - spiritualità moderna  
