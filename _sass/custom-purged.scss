@@ -17,7 +17,7 @@
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-[data-theme="dark"] {
+html.dark {
   --bg-color: #1a1a1a;
   --bg-secondary: #2d2d2d;
   --text-color: #e0e0e0;
@@ -405,48 +405,48 @@ body {
 }
 
 // === THEME SPECIFIC ADJUSTMENTS ===
-[data-theme="dark"] .card {
+html.dark .card {
   background-color: var(--card-bg);
   border-color: var(--border-color);
   color: var(--text-color);
 }
 
-[data-theme="dark"] .card-body {
+html.dark .card-body {
   color: var(--text-color);
 }
 
-[data-theme="dark"] .card-title,
-[data-theme="dark"] .card-title a {
+html.dark .card-title,
+html.dark .card-title a {
   color: var(--text-color) !important;
 }
 
-[data-theme="dark"] .card-footer {
+html.dark .card-footer {
   background-color: var(--card-bg) !important;
   border-color: var(--border-color);
   color: var(--text-muted);
 }
 
-[data-theme="dark"] .text-muted {
+html.dark .text-muted {
   color: var(--text-muted) !important;
 }
 
-[data-theme="dark"] .text-dark {
+html.dark .text-dark {
   color: var(--text-color) !important;
 }
 
-[data-theme="dark"] .text-decoration-none {
+html.dark .text-decoration-none {
   color: var(--text-color) !important;
 }
 
-[data-theme="dark"] .bg-white {
+html.dark .bg-white {
   background-color: var(--card-bg) !important;
 }
 
-[data-theme="dark"] .navbar-toggler {
+html.dark .navbar-toggler {
   color: var(--text-color) !important;
   border-color: var(--border-color) !important;
 }
 
-[data-theme="dark"] .card-body .card-text {
+html.dark .card-body .card-text {
   color: #e0e0e0 !important; /* Bianco per tema scuro */
 }

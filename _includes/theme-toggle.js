@@ -3,30 +3,37 @@
  * Leggero e performante con localStorage
  */
 
+
 const themeManager = {
-    // Inizializzazione
     init() {
-        this.loadTheme();
+        this.applyTheme();
         this.bindEvents();
     },
 
-    // Carica il tema salvato o usa la preferenza di sistema
-    loadTheme() {
-        const savedTheme = localStorage.getItem('theme');
-        const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        const theme = savedTheme || systemTheme;
-        
-        this.setTheme(theme);
+    // Applica il tema corretto
+    applyTheme() {
+        const saved = localStorage.getItem('theme');
+        let theme;
+        if (saved === 'dark' || saved === 'light') {
+            theme = saved;
+        } else {
+            theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        this.setTheme(theme, false);
     },
 
-    // Imposta il tema
-    setTheme(theme) {
-        document.documentElement.setAttribute('data-theme', theme);
+    // Imposta la classe 'dark' su <html>
+    setTheme(theme, save = true) {
+        const html = document.documentElement;
+        if (theme === 'dark') {
+            html.classList.add('dark');
+        } else {
+            html.classList.remove('dark');
+        }
         this.updateIcon(theme);
-        localStorage.setItem('theme', theme);
+        if (save) localStorage.setItem('theme', theme);
     },
 
-    // Aggiorna l'icona del toggle
     updateIcon(theme) {
         const icon = document.getElementById('theme-icon');
         if (icon) {
@@ -34,28 +41,25 @@ const themeManager = {
         }
     },
 
-    // Toggle tra temi
     toggleTheme() {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        this.setTheme(newTheme);
+        const isDark = document.documentElement.classList.contains('dark');
+        const newTheme = isDark ? 'light' : 'dark';
+        this.setTheme(newTheme, true);
     },
 
-    // Bind eventi
     bindEvents() {
         const toggle = document.getElementById('theme-toggle');
         if (toggle) {
             toggle.addEventListener('click', () => this.toggleTheme());
         }
-
-        // Ascolta cambi preferenze di sistema
+        // Cambia tema se la preferenza di sistema cambia, solo se l'utente non ha scelto manualmente
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
             if (!localStorage.getItem('theme')) {
-                this.setTheme(e.matches ? 'dark' : 'light');
+                this.setTheme(e.matches ? 'dark' : 'light', false);
             }
         });
     }
 };
 
-// Inizializza immediatamente per evitare flash
+// Inizializza subito
 themeManager.init();
