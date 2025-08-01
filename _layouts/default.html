@@ -5,7 +5,7 @@
 {% include head.html %}
 {% include navbar.html %}
 
-<body>
+<body{% if page.url == '/contact.html' or page.permalink == '/contact/' or page.title contains 'Contact' %} class="page-contact"{% endif %}>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <div class="main-wrapper">
     <div class="container content-box">

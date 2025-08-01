@@ -1,3 +1,90 @@
+// Spaziatura extra per la pagina contatti
+body.page-contact .content-box {
+  margin-top: 48px;
+}
+// === CONTACT FORM MODERNO ===
+.contact-box form,
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 500px;
+  margin: 32px auto 0 auto;
+  background: none;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  color: var(--text-color);
+  font-size: 1rem;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#contactForm input[type="text"]:focus,
+#contactForm input[type="email"]:focus,
+#contactForm textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  background: #eaf4ff;
+}
+
+html.dark #contactForm input[type="text"],
+html.dark #contactForm input[type="email"],
+html.dark #contactForm textarea {
+  background: #23272b;
+  color: #e0e0e0;
+  border-color: #444;
+}
+html.dark #contactForm input[type="text"]:focus,
+html.dark #contactForm input[type="email"]:focus,
+html.dark #contactForm textarea:focus {
+  background: #181c1f;
+  border-color: #3399ff;
+}
+
+#contactForm textarea {
+  min-height: 120px;
+  max-height: 320px;
+}
+
+#contactForm button[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 8px;
+}
+#contactForm button[type="submit"]:hover,
+#contactForm button[type="submit"]:focus {
+  background: #0056b3;
+  color: #fff;
+}
+html.dark #contactForm button[type="submit"] {
+  background: #3399ff;
+  color: #181c1f;
+}
+html.dark #contactForm button[type="submit"]:hover,
+html.dark #contactForm button[type="submit"]:focus {
+  background: #007bff;
+  color: #fff;
+}
+
+#contactForm input[name="honeypot"] {
+  display: none !important;
+}
 /*!
  * Custom PURGED - Solo stili necessari per matteoricci.net
  * Ridotto da 712 righe a ~150 righe per performance

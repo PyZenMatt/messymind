@@ -9,5 +9,32 @@ form: true
 <div class="content-box">
     <h2 class="section-heading"><i class="fas fa-envelope"></i> Contattami</h2>
     <p class="post-description">Hai domande o vuoi collaborare? Compila il modulo qui sotto e ti risponderò al più presto!</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgQ_r2fLLJ7UcHyVBgfca3vkeoZ9y0-qSXt12phvghM3Z9uA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe>
+    <form id="contactForm" style="max-width:500px;margin:auto">
+      <input type="text" name="name" placeholder="Nome" required style="width:100%;margin-bottom:10px;padding:10px;">
+      <input type="email" name="email" placeholder="Email" required style="width:100%;margin-bottom:10px;padding:10px;">
+      <textarea name="message" placeholder="Messaggio" required style="width:100%;margin-bottom:10px;padding:10px;"></textarea>
+      <!-- Honeypot anti-spam -->
+      <input type="text" name="honeypot" style="display:none">
+      <button type="submit" style="width:100%;padding:10px 0;background:#007bff;color:#fff;border:none;border-radius:4px;font-size:1.1rem;">Invia</button>
+    </form>
+
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = {
+        name: form.name.value,
+        email: form.email.value,
+        message: form.message.value,
+        honeypot: form.honeypot.value
+      };
+      const response = await fetch("https://PyZenMatt.pythonanywhere.com/api/contact/submit/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+      const result = await response.json();
+      alert(result.success ? "Messaggio inviato!" : "Errore: " + result.error);
+    });
+    </script>
   </div>
