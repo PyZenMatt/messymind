@@ -18,7 +18,7 @@ keywords:
 image: 
   url: "/img/accettazione.jpg"
   alt: "Una persona suduta su un altalena mentre guarda l'infinito"
-slug: "/risveglio-interiore-successo-autentico-umorismo-esistenziale"
+permalink: "/risveglio-interiore-successo-autentico-umorismo-esistenziale"
 ---
 *Nota dell’autore: Nessun Buddha è stato maltrattato nella stesura di questo articolo. Solo qualche cliché del benessere è finito nel trita documenti. Namasté, ovviamente.*
 

@@ -9,7 +9,7 @@ background: /img/equilibrio-spirituale.jpg
 author: "Teo"  
 meta: "Scopri come ridere dello stress con le tradizioni spirituali. Ironia, consigli pratici e riflessioni su buddhismo, cristianesimo e yoga per sopravvivere al mondo moderno."  
 featured_post: true  
-canonical_url: "https://matteoricci.net/equilibrio-spirituale-umorismo"  
+canonical_url: "https://messymind.it/equilibrio-spirituale-umorismo"  
 seo:  
   keywords:  
     - equilibrio spirituale  

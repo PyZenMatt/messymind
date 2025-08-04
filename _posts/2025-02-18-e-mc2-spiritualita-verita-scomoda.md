@@ -14,7 +14,7 @@ keywords:
   - esercizi pratici di alchimia mentale
   - umorismo e scienza
   - blog crescita personale anticonvenzionale
-canonical_url: "https://matteoricci.net/e-mc2-spiritualita-verita-scomoda"
+canonical_url: "messymind.it/e-mc2-spiritualita-verita-scomoda"
 featured_post: 'true'
 ---
 

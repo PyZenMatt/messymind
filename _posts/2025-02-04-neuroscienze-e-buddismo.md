@@ -32,19 +32,19 @@ structured_data: |
     "headline": "Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io?",
     "description": "Un viaggio irriverente tra fMRI e insegnamenti buddhisti per scoprire perché il tuo 'io' è più effimero di una storia di Instagram",
     "image": [
-      "https://www.tuosito.com/images/neuro-buddha-mind.png"
+      "https://www.messymind.it/images/neuro-buddha-mind.png"
      ],
     "author": {
       "@type": "Person",
       "name": "Matteo Ricci",
-      "url": "https://www.tuosito.com/author/matteo-ricci"
+      "url": "https://www.messymind.it/about"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Psichedelia Razionale",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.tuosito.com/images/logo.png"
+        "url": "https://messymind.it/images/logo.png"
       }
     },
     "datePublished": "2023-11-15",

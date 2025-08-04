@@ -11,7 +11,7 @@ tags:
   - tecniche spirituali  
   - meditazione pratica  
   - crescita personale  
-description: "Equilibrio interiore senza incenso e mantra in sanscrito? Tecniche anti-caos per chi ha 5 minuti tra notifiche. Meditazione per disperati inclusa."  
+description: "Strategie concrete per ritrovare il tuo centro tra notifiche, ritardi e imprevisti. Tecniche di respirazione, journaling e approcci spirituali demistificati per chi non ha tempo per l'illuminazione."  
 keywords:  
   - come trovare equilibrio interiore  
   - silenzio interiore  
@@ -24,7 +24,7 @@ keywords:
   - tecniche di consapevolezza per chi vive nel caos moderno
   - equilibrio emotivo quotidiano
   - micro-meditazione quotidiana
-canonical_url: "https://www.matteoricci.net/spiritualita/equilibrio-interiore-guida-pratica"  
+canonical_url: "https://www.messymind.it/spiritualita/equilibrio-interiore-guida-pratica"  
 background: /img/yoga.jpg  
 alt: "Donna pratica equilibrio interiore meditando freneticamente in città"  
 og_type: article  
@@ -64,7 +64,7 @@ Quella frazione di secondo in cui, durante una litigata col partner, anziché sp
 
 **E già che parliamo di treni e viaggi** (sì, proprio quello che hai perso stamattina mentre cercavi le chiavi): ma tu lo sapevi che la **felicità** è un **viaggio** e non una stazione? Che ci credi o no, che l'abbia letto su un libro o scoperto a suon di gomitate nella metro, questa verità rimane scomoda come un sedile del Frecciarossa con la climatizzazione rotta. 
 
-Se l'idea di un "equilibrio dinamico" ti ha stuzzicato, forse questo [articolo su come la felicità sia un viaggio continuo](https://matteoricci.net/crescita-personale/la-felicita-e-un-viaggio/) (sempre scritto dal medesimo me, tra una lavatrice squilibrata e un caffè versato sulla tastiera) potrebbe piacerti. O almeno, potrebbe farti sentire meno solo nel tuo vagone sballottato dal destino.
+Se l'idea di un "equilibrio dinamico" ti ha stuzzicato, forse questo [articolo su come la felicità sia un viaggio continuo](https://messymind.it/crescita-personale/la-felicita-e-un-viaggio/) (sempre scritto dal medesimo me, tra una lavatrice squilibrata e un caffè versato sulla tastiera) potrebbe piacerti. O almeno, potrebbe farti sentire meno solo nel tuo vagone sballottato dal destino.
 
 ## ❓ FAQ Equilibrio Interiore (Domande da Caotici Cronici)
 
@@ -128,7 +128,7 @@ R: Assolutamente sì. Queste tecniche funzionano pure in coda alla posta o mentr
 
 Qui arriva la parte difficile: **resistere alla tentazione di riaprire lo sportello**. Quel bicchiere storto che ti fissa? È lo stesso meccanismo che ti fa controllare l'ex su Facebook "solo per vedere".  
 
-La verità è che **il controllo è una droga spirituale** - ci dà l'illusione di padroneggiare il caos mentre in realtà ci stiamo solo mordendo le unghie. Se questa lotta ti è familiare, ho scritto un [articolo sulla tirannia del controllo](http://matteoricci.net/il-controllo/) che è come un gruppo di sostegno per maniaci del micro-management.
+La verità è che **il controllo è una droga spirituale** - ci dà l'illusione di padroneggiare il caos mentre in realtà ci stiamo solo mordendo le unghie. Se questa lotta ti è familiare, ho scritto un [articolo sulla tirannia del controllo](http://messymind.it/il-controllo/) che è come un gruppo di sostegno per maniaci del micro-management.
 
 [Wu Wei spiegato da Stanford](https://plato.stanford.edu/entries/taoism/) 
 
@@ -142,7 +142,7 @@ Quello che chiamano "risveglio" è più simile a quando:
 1. Ti accorgi che stai trattenendo il respiro mentre leggi una mail irritante... e **sciogli le spalle**  
 2. **Noti che il tuo primo pensiero al risveglio non è "che schifo" ma "vediamo cosa succede oggi"**  
 
-Se questa versione "terra terra" della Kundalini ti ha incuriosito, ho approfondito il tema in questo [viaggio spirituale tra lacrime sul latto versato e intuizioni improvvise](http://matteoricci.net/spiritualita/risveglio-kundalini-viaggio-spirituale/). Niente mantra in sanscrito, solo cadute e risalite sul tappeto della consapevolezza.
+Se questa versione "terra terra" della Kundalini ti ha incuriosito, ho approfondito il tema in questo [viaggio spirituale tra lacrime sul latto versato e intuizioni improvvise](http://messymind.it/spiritualita/risveglio-kundalini-viaggio-spirituale/). Niente mantra in sanscrito, solo cadute e risalite sul tappeto della consapevolezza.
 
 ## Kit di Pronto Soccorso Emotivo (Per Quando Cadi dal Trampolino)
 
@@ -185,6 +185,6 @@ Ecco una check list pratica da scaricare (per scaricare intendo copiare con cart
  
 
 **Altri articoli utili:**  
-- [Cuore vs Mente: manuale anti-stronzi](https://www.matteoricci.net//cuore-vs-mente-manuale-antistronzi/a)  
-- [Silenzio Interiore: 7 Step Antieroici per Sopravvivere al Caos Digitale (Senza Diventare Guru)](https://www.matteoricci.net//crescita-personale/l'arte-del-silenzio/)  
-- [Come Ho Smesso di Inseguire il Tempo: 3 Segreti per Vivere Senza Ansia da Produttività](https://www.matteoricci.net//crescita-personale/come-ho-smesso-di-inseguire-il-tempo/)
+- [Cuore vs Mente: manuale anti-stronzi](https://www.messymind.it//cuore-vs-mente-manuale-antistronzi/a)  
+- [Silenzio Interiore: 7 Step Antieroici per Sopravvivere al Caos Digitale (Senza Diventare Guru)](https://www.messymind.it//crescita-personale/l'arte-del-silenzio/)  
+- [Come Ho Smesso di Inseguire il Tempo: 3 Segreti per Vivere Senza Ansia da Produttività](https://www.messymind.it//crescita-personale/come-ho-smesso-di-inseguire-il-tempo/)

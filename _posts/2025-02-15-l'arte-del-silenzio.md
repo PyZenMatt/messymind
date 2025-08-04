@@ -14,7 +14,7 @@ keywords:
   - produttività tossica
   - relazioni con il rumore mentale
   - autoconsapevolezza per millennial
-canonical: https://www.matteoricci.net/silenzio-interiore-guida-sopravvivenza
+canonical: https://www.messymind.it/silenzio-interiore-guida-sopravvivenza
 og_title: "La Meditazione per Chi Odia Dire 'Namasté' - Guida Cynic alla Pace Interiore"
 og_description: "Se pensi che il silenzio interiore sia roba da hippie con l'incenso, questo articolo è il tuo manuale di sopravvivenza all'epoca delle notifiche tossiche. Con bonus: come licenziare mentalmente il tuo capo."
 background: /img/silenzio.jpg

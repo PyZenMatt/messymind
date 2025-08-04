@@ -49,3 +49,6 @@ Thumbs.db
 
 # Log files
 *.log
+
+#virtual environments
+venv/   
