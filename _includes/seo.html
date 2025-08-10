@@ -1,0 +1,23 @@
+{% comment %}
+SEO meta tags, canonical, robots, Open Graph, reading from front matter
+{% endcomment %}
+<title>{{ page.seo_title | default: page.title }}</title>
+<meta name="description" content="{{ page.seo_description | default: page.description }}">
+<meta name="keywords" content="{{ page.seo_keywords | default: page.keywords | join: ', ' }}">
+{% if page.canonical_url %}
+  <link rel="canonical" href="{{ page.canonical_url }}">
+{% endif %}
+{% if page.noindex %}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %}
+{% if page.meta %}
+  <meta name="meta" content="{{ page.meta }}">
+{% endif %}
+{%- assign og_title = page.og_title | default: page.seo_title | default: page.title -%}
+{%- assign og_description = page.og_description | default: page.seo_description | default: page.description -%}
+{%- assign og_image = page.og_image | default: page.background -%}
+<meta property="og:title" content="{{ og_title }}">
+<meta property="og:description" content="{{ og_description }}">
+{% if og_image %}
+  <meta property="og:image" content="{{ og_image }}">
+{% endif %}
