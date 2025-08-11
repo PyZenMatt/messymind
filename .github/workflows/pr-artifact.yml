@@ -1,0 +1,46 @@
+name: PR Jekyll Build & Artifact
+
+on:
+  pull_request:
+    branches: [ main ]   # builda quando la PR punta a main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-preview-${{ github.event.number }}
+  cancel-in-progress: true
+
+jobs:
+  build-artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install system deps (images compression)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick jpegoptim optipng gifsicle
+          # opzionale, se vuoi comprimere anche SVG:
+          # sudo npm -g install svgo
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          # Se hai .ruby-version nel repo, usa:
+          # ruby-version: .ruby-version
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build Jekyll (production)
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --trace
+
+      - name: Upload _site as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jekyll-site
+          path: _site/
+          retention-days: 7

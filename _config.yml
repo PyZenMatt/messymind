@@ -1,44 +1,64 @@
+# ===== Site basics =====
 title: "Messy Mind"
 email: "info@messymind.it"
 description: "Equilibrio interiore senza prendersi troppo sul serio. Spiritualità pratica per vite moderne e caotiche, senza guru e senza fuffa."
 author: Matteo Ricci
-baseurl: ""
 url: "https://messymind.it"
+baseurl: ""                 # dominio custom → lascia vuoto
 background: "/img/home/bg-home.jpeg"
 
-# Environment specific settings
+# ===== Locale / time =====
+lang: it
+timezone: "Europe/Rome"
+title_separator: " — "
+
+# ===== Dev serve (locale) =====
 host: "0.0.0.0"
 port: 4000
 
-# Social Profiles
-twitter_username: 
-github_username: PyZenMatt 
-facebook_username: 
-instagram_username: 
+# ===== Social =====
+twitter_username:
+github_username: PyZenMatt
+facebook_username:
+instagram_username:
 linkedin_username:
 
-# Google Analytics configurato in _includes/google-analytics.html con G-MLB32YW721
+# ===== Search / Analytics / Verification =====
+google_analytics: G-MLB32YW721         # GA4 (se usi include custom, ok lo stesso)
+google_site_verification: ""           # incolla il token di Search Console se lo hai
+bing_site_verification: ""             # opzionale
+
+# ===== Permalink =====
+# Usa categorie nello slug (coerente con export del Blog Manager: categories -> slug)
 permalink: /:categories/:title/
 
-# Build settings
+# ===== Markdown / Build =====
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  toc_levels: 1..2
 paginate: 5
 paginate_path: "/posts/page:num/"
+future: false                   # non pubblicare articoli "nel futuro"
+strict_front_matter: true
 
-# Optimizations
+# ===== Performance / Assets =====
 sass:
   style: compressed
-  
-# Plugins per performance e SEO
+
+# ===== Plugins (Actions-friendly) =====
+# Con GitHub Actions puoi usare anche plugin non whitelisted (es. compress-images)
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-archives
-  - jekyll-compress-images
+  - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-compress-images
 
-# Compressione HTML in produzione
+# ===== HTML compress (solo in prod) =====
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -49,7 +69,56 @@ compress_html:
   profile: false
   startings: []
 
-# Exclude da build per velocizzare
+# ===== Archives (categorie) =====
+jekyll-archives:
+  enabled:
+    - categories
+  layouts:
+    category: category
+  permalinks:
+    category: "/categorie/:name/"
+  output: true
+
+# ===== Collections =====
+# I post sono la collection di default; qui aggiungi "pages" se usi _pages/
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# ===== Defaults =====
+defaults:
+  # Pagine (se usi _pages/)
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      image: "/img/og-default.jpg"      # fallback og:image
+      noindex: false
+      sitemap: true
+
+  # Post
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: "/img/og-default.jpg"
+      noindex: false
+      sitemap: true
+      redirect_from: []                 # il Blog Manager può popolarlo quando cambia slug
+      seo:
+        type: "article"                 # hint per jekyll-seo-tag
+
+# ===== Feed =====
+feed:
+  path: feed.xml
+
+# ===== Include / Exclude =====
+include:
+  - .well-known
+
 exclude:
   - scripts/
   - node_modules/
@@ -63,24 +132,9 @@ exclude:
   - "*_backup.*"
   - performance-results/
   - build-report-*.md
-
-jekyll-archives:
-  enabled:
-    - categories
-  layouts:
-    category: category
-  permalinks:
-    category: '/categorie/:name/'
-  output: true
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - .github/
+  - docs/
+  - LICENSE
