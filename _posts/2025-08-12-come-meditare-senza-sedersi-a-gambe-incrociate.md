@@ -7,14 +7,15 @@ tags: meditazione pratica, mindfulness mindfulness ironica, tecniche di rilassam
 categories:
 - equlibrio-interiore
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,w_1600,h_720/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
 canonical: https://messymind.it/equilibrio-interiore/come-meditare-senza-sederti-a-gambe-incrociate/
 meta_title: Come Meditare Senza Sedersi a Gambe Incrociate
 meta_description: Scena iniziale con numerino Sono alla Posta, biglietto A842, chiamano B3 da venti minuti. Davanti a me un signore discute del bollo auto del 1998 con lo zelo d…
 meta_keywords: meditare nella vita quotidiana, meditare nella vita quotidiana, mindfulness senza incenso, meditazione pratica, tecniche di rilassamento, equilibrio interiore, mindfulness ironica, micro-rituali mindfulness, meditare in coda, meditazione per principianti
 og_title: Come meditare nella vita quotidiana (senza sederti a gambe incrociate
 og_description: 'Mindfulness pratica e senza incenso: 3 micro-rituali da fare in coda, sul tram e mentre bolle la pasta. Niente pose di loto, solo vita vera.'
-og_image: 'https://res.cloudinary.com/dkoc4knvv/image/upload/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg'
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
+)'
 noindex: false
 ---
 # Come **meditare** senza sederti a *gambe incrociate*
@@ -105,3 +106,4 @@ Benvenutə nel club. Ogni ritorno al respiro è **ripetizione utile**: è lì ch
 
 
 Se questo pezzo ti ha regalato *un minuto d’ossigeno*, **iscriviti alla newsletter**: niente mantra impossibili, solo *verità scomode* e pratiche *replicabili*.
+
