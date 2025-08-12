@@ -3,11 +3,22 @@ layout: default
 ---
 
 <!-- Page Header -->
-{% if page.background %}
-<header class="masthead masthead-image" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
+{%- assign hero_raw = page.image | default: page.background | default: site.hero_image -%}
+{%- if hero_raw -%}
+  {%- comment -%}
+  Se URL assoluto (http/https) o protocol-relative (//), usalo com'è.
+  Altrimenti rendilo assoluto rispetto al sito.
+  {%- endcomment -%}
+  {%- if hero_raw contains '://' or hero_raw | slice: 0, 2 == '//' -%}
+    {%- assign hero_url = hero_raw -%}
+  {%- else -%}
+    {%- assign hero_url = hero_raw | absolute_url -%}
+  {%- endif -%}
+  <header class="masthead masthead-image" style="background-image:url('{{ hero_url }}')">
+    <span class="visually-hidden">{{ page.title }}</span>
+{%- else -%}
   <header class="masthead">
-    {% endif %}
+{%- endif -%}
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
