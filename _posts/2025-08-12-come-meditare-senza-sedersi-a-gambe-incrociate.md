@@ -6,7 +6,7 @@ description: 'Meditazione pratica e *senza incenso*: micro-rituali da fare in co
 tags: meditazione pratica, mindfulness mindfulness ironica, tecniche di rilassamento, equilibrio interiore, meditare nella vita quotidiana
 categories:
 - equlibrio-interiore
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:9,w_1920,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
+image:[ https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:9,w_1920,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg](https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_pad,b_auto:predominant,ar_21:9,w_1920,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg)
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
 canonical: https://messymind.it/equilibrio-interiore/come-meditare-senza-sederti-a-gambe-incrociate/
 meta_title: Come Meditare Senza Sedersi a Gambe Incrociate
@@ -105,6 +105,7 @@ Benvenutə nel club. Ogni ritorno al respiro è **ripetizione utile**: è lì ch
 
 
 Se questo pezzo ti ha regalato *un minuto d’ossigeno*, **iscriviti alla newsletter**: niente mantra impossibili, solo *verità scomode* e pratiche *replicabili*.
+
 
 
 
