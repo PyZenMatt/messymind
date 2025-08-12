@@ -5,7 +5,7 @@ seo_title: "Saggezza del Cuore [...]"
 categories: [spiritualita-pratica]
 date: 2023-10-15
 author: Matteo "Il Mistico del Metaverso" Ricci
-background: /img/cuore.jpg
+image: /img/cuore.jpg
 featured_post: false
 permalink: /cuore-vs-mente-manuale-antistronzi/
 meta_description: "Scopri come smettere di ascoltare la mente che ti vuole infilare in un ufficio open space dell'anima. Esercizi pratici per ex illuminati in crisi e aspiranti poeti falliti."

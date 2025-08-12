@@ -23,7 +23,7 @@
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{% if page.seo_title %}{{ page.seo_title }} - {{ site.title }}{% elsif page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
-    {%- assign og_raw = page.og_image | default: page.image | default: site.og_image -%}
+    {%- assign og_raw = page.og_image | default: page.image | default: site.image | default: site.og_image -%}
     {%- if og_raw -%}
       {%- if og_raw contains '://' or og_raw | slice: 0, 2 == '//' -%}
         {%- assign og_url = og_raw -%}

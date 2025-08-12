@@ -14,7 +14,7 @@ tags:
   - umorismo esistenziale  
   - autocritica ironica  
 meta_description: "Scopri come la felicità si nasconde tra cactus emotivi e panini notturni. Guida ironica per chi cerca autenticità, ha pianto davanti a uno spot e nasconde ketchup nel portafoglio. Con citazioni da Brené Brown, Frida Kahlo e consigli pratici."  
-background: "/img/velo.png"
+image: "/img/velo.png"
 alt_image: "Un velo che copre due visi. Il velo è l'illusione del titolo che copre la verità"  
 ---
 

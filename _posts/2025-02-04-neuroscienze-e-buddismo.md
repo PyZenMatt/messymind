@@ -1,7 +1,7 @@
 ﻿---
 title: "Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io? Neuroscienze e Buddhismo a Confronto"
 seo_title: "Cervello vs Buddha [...]"
-background: "/img/testesso.png"
+image: "/img/testesso.png"
 description: "Cervello vs Buddha: entrambi dicono che il tuo 'io' è una fantasia! Scanner cerebrali, carri smontati e crisi da parcheggio incluse."
 url: "/neuroscienze-buddhismo-illusione-del-se"
 meta:  "Il cervello dice che l'Io è un'illusione, il Buddha annuisce... e tu resti lì a chiederti chi dei due ha ragione. Neuroscienze e buddismo si sfidano a colpi di neuroni e meditazione: preparati a scoprire che la tua mente inganna di un prestigiatore in un villaggio turistico"

@@ -2,7 +2,7 @@
 title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"  
 seo_title: "Lavoro e Autenticità [...]"
 description: "Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint." 
-background: /img/lavoro.jpg
+image: /img/lavoro.jpg
 url: /autenticita-e-lavoro 
 canonical: https://messymind.it/autenticita-e-lavoro
 tags:  

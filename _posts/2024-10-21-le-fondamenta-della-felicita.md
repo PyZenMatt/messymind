@@ -5,7 +5,7 @@ seo_title: "La felicità? Quella che cerchi scrollando Instagram me"
 categories: [equilibrio-interiore]
 tags: [felicita, benessere, autorealizzazione, crescita personale] 
 meta: "Scopri come coltivare la felicità attraverso l'autoironia, la consapevolezza e relazioni autentiche. Un viaggio tra psicologia e battute da bar, con esempi pratici per migliorare il tuo benessere quotidiano." 
-background: /img/Loto.png
+image: /img/Loto.png
 description: "Dai diari della gratitudine ai gatti che sabotano la meditazione: come trovare la felicità senza prendersi troppo sul serio."
 featured_post: 'true'
 keywords: "Felicità autentica, Crescita personale ironica, Autoironia, Mindfulness ironica ,Psicologia umoristica, Accettazione di sé con humor, Relazioni positive, Benessere emotivo, Consapevolezza quotidiana, Filosofia pratica, Come trovare la felicità nelle piccole cose, Esercizi di gratitudine divertenti, Vivere nel presente con ironia, Gestire i fallimenti con autoironia, Self-help senza prendersi sul serio, Coltivare relazioni autentiche senza sforzo, Mindfulness per chi odia meditare, sicologia positiva per scettici, Libri crescita personale non banali, Come smettere di cercare la felicità perfetta"

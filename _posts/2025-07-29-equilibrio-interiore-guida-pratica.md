@@ -25,7 +25,7 @@ keywords:
   - equilibrio emotivo quotidiano
   - micro-meditazione quotidiana
 canonical_url: "https://www.messymind.it/spiritualita/equilibrio-interiore-guida-pratica"  
-background: /img/yoga.jpg  
+image: /img/yoga.jpg  
 alt: "Donna pratica equilibrio interiore meditando freneticamente in città"  
 og_type: article  
 og_title: "Equilibrio Interiore per Gente con la Sveglia: Guida per Sopravvivere al Caos"  

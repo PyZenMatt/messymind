@@ -12,7 +12,7 @@ keywords:
   - cicli naturali
   - comicità autocritica
   - lifehack paradossali
-background: "/img/ritmo.jpg"
+image: "/img/ritmo.jpg"
 alt: "dei ballerini che sembrano sfuocati ma che in realta sono sfuocati perche si stanno muovendo"
 domande_frequenti:
     - "Come applicare la legge del ritmo alla vita quotidiana?"

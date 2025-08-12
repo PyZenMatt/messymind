@@ -12,7 +12,7 @@ keywords:
   - mindfulness ironica  
   - gestione ansia  
   - autoironia e crescita personale  
-background: "/img/osservatore.jpg" 
+image: "/img/osservatore.jpg" 
 featured: "true"
 alt: "Donna che guarda attraverso un bicchiere ricevendo e riflettendo un immagine distorta di se stessa e della realtà"  
 canonical_url: "https://www.messymind.it/osservatore-e-osservato"  
