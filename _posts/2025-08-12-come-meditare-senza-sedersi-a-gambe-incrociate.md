@@ -15,7 +15,6 @@ meta_keywords: meditare nella vita quotidiana, meditare nella vita quotidiana, m
 og_title: Come meditare nella vita quotidiana (senza sederti a gambe incrociate
 og_description: 'Mindfulness pratica e senza incenso: 3 micro-rituali da fare in coda, sul tram e mentre bolle la pasta. Niente pose di loto, solo vita vera.'
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
-)'
 noindex: false
 ---
 # Come **meditare** senza sederti a *gambe incrociate*
@@ -106,4 +105,5 @@ Benvenutə nel club. Ogni ritorno al respiro è **ripetizione utile**: è lì ch
 
 
 Se questo pezzo ti ha regalato *un minuto d’ossigeno*, **iscriviti alla newsletter**: niente mantra impossibili, solo *verità scomode* e pratiche *replicabili*.
+
 
