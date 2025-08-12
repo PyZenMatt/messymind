@@ -5,6 +5,7 @@ seo_title: "Equilibrio Interiore: Guida Pratica per Caotici Cronici"
 author: Matteo Ricci  
 categories: [equilibrio-interiore] 
 background: /img/yoga.jpg  
+image: /img/yoga.jpg  
 tags:  
   - equilibrio interiore  
   - gestione ansia  

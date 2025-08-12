@@ -6,6 +6,7 @@ categories: [crescita-autentica]
 tags: [benessere, meditazione, autoconsapevolezza, umorismo, fallimenti, storie personali, esercizi pratici, autenticità] 
 description: "Scopri come ho imparato a trovare la felicità sbagliando strada, contando i rumori del frigorifero e ballando come un fenicottero in cucina. Guida pratica (con errori inclusi) alla crescita personale."
 image: '/img/acchiappasogni.jpg'
+background: '/img/acchiappasogni.jpg'
 author: Matteo Ricci
 meta: "Felicità ≠ ricette magiche. La mia storia tra meditazioni fallite, guru improvvisati e lezioni rubate ai piccoli disastri quotidiani. Con esercizi per ridere di sé."
 keywords: [felicità imperfetta, crescita personale umoristica, meditazione per principianti, come perdonare sé stessi, errori che insegnano, esercizi pratici spirituali, storie di trasformazione reale]

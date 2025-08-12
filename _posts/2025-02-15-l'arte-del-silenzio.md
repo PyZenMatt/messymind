@@ -18,6 +18,7 @@ canonical: https://www.messymind.it/silenzio-interiore-guida-sopravvivenza
 og_title: "La Meditazione per Chi Odia Dire 'Namasté' - Guida Cynic alla Pace Interiore"
 og_description: "Se pensi che il silenzio interiore sia roba da hippie con l'incenso, questo articolo è il tuo manuale di sopravvivenza all'epoca delle notifiche tossiche. Con bonus: come licenziare mentalmente il tuo capo."
 image: /img/silenzio.jpg
+background: /img/silenzio.jpg
 author: Matteo Ricci
 author_bio: "Scrivo manuali di sopravvivenza spirituale per generazioni cresciute a pane e buffer del video. Ex esperto di ansia da produttività, ora insegno l'arte del non fare (con moderazione)."
 ---

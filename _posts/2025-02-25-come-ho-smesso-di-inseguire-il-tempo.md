@@ -6,6 +6,7 @@ categories: [crescita-autentica]
 tags: [gestione dello stress, tecniche mindfulness, vivere il presente, equilibrio vita-lavoro, ridurre l'ansia, consapevolezza quotidiana]
 description: "Scopri come ho trasformato la mia relazione con il tempo: dalla crisi in metropolitana alle piccole rivoluzioni quotidiane che combattono il burnout. Strategie pratiche + la storia del mio cactus maestro di vita."
 image: /img/accettazione.png
+background: /img/accettazione.png
 author: Matteo Ricci
 meta-title: "Liberarsi dalla Tirannia del Tempo | Esperienza Personale + Soluzioni Pratiche"
 meta-description: "Ansia da produttività? Scopri come ho sostituito lo stress cronico con micro-abitudini mindfulness. Dalla crisi in metro alla saggezza di un cactus: guida non convenzionale per ritrovare il presente."

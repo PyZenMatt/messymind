@@ -16,6 +16,7 @@ keywords:
   - "filosofia quotidiana"
   - "libertà interiore pratica"
 image: "/img/accettazione.jpg"
+background: "/img/accettazione.jpg"
 alt: "Una persona suduta su un altalena mentre guarda l'infinito"
 permalink: "/risveglio-interiore-successo-autentico-umorismo-esistenziale"
 ---

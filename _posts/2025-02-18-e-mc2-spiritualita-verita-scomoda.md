@@ -4,6 +4,7 @@ seo_title: "E=mc² e Spiritualità [...]"
 date: 2024-03-15T08:00:00+01:00
 draft: false
 image: "/img/relativita.jpg"
+background: "/img/relativita.jpg"
 description: "E=mc² come manuale di alchimia? Einstein ci ha nascosto il segreto! Scienza quantistica, risate e verità scomode sul tuo potere interiore."
 categories: ["scienza-e-spiritualita"]
 tags: ["Einstein", "E=mc²", "alchimia moderna", "meditazione quantistica", "pensiero creativo", "fisica delle possibilità"]

@@ -7,6 +7,7 @@ categories: [spiritualita-pratica]
 tags: [kundalini yoga, risveglio spirituale, chakra, meditazione ironica, crisi esistenziale, energia interiore]  
 description: "Kundalini risvegliata = dialoghi con piante grasse e Netflix che non basta più. Guida umoristica ai brividi metafisici e agli yeti interiori."
 image: /img/amore.png
+background: /img/amore.png
 slug: risveglio-kundalini-viaggio-spirituale   
 robots: index, follow  
 featured_post: 'true'
