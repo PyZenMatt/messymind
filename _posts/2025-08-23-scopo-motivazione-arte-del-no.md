@@ -24,7 +24,7 @@ La notifica vibra proprio mentre avevi trovato il filo. Apri “solo un attimo�
 
 Ci hanno insegnato a “caricarci”. Peccato che la vita vera non aspetti: scadenze, figli, lavatrici, colleghi. La motivazione è un picco emotivo: utile, ma instabile. Quando la insegui, finisci a riorganizzare la scrivania pur di sentire un briciolo di entusiasmo. Lo scopo è meno seducente, ma più efficiente: è la frase che ti ricordi quando il cervello sbadiglia. “Pubblicare un articolo il lunedì”, “Allenarmi 20 minuti tre volte a settimana”, “Imparare cinque vocaboli al giorno”. Direzione chiara, frizione bassa.
 
-> Correlati: [Digital detox per esseri umani normali](/digital-detox-umani/) · [Burnout pratico: come ricaricare senza fughe esotiche](/burnout-pratico/) · [Mindfulness ironica per chi odia meditare](/mindfulness-ironica/)
+> Correlati: [Come ho smesso di inseguire il tempo](https://messymind.it/crescita-autentica/come-ho-smesso-di-inseguire-il-tempo/] · [Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)](/burnout-pratico/](https://messymind.it/crescita-autentica/autenticita-e-lavoro/) · [Meditazioni per chi odia meditare][/mindfulness-ironica/](https://messymind.it/equlibrio-interiore/come-meditare-senza-sedersi-a-gambe-incrociate/)
 
 ## Scopo + confini: un binario semplice
 
@@ -91,17 +91,15 @@ Sì. Riparti dalla soglia dei 120 secondi e da una finestra protetta. La regola 
 - Niente colpe: riprendi dal micro-passo successivo e tieni viva la striscia di X.
 
 ## CTA
-
-Iscriviti alla newsletter di MessyMind: nessun mantra impossibile, solo pratiche sotto i 10 minuti che liberano spazio mentale e ti riportano sul binario giusto.
+Coming soon la nostra newsletter! Fammi sapere se ti interessa con un [messaggio](https://messymind.it/contact/) inserisci la tua email e scrivimi newsletter! ogni mese una pillola pratica da ingoiare senza acqua!! 
 
 ---
 
-**Link interni suggeriti**
+**Potrebbero Piacerti**
 
-- [Digital detox per esseri umani normali](/digital-detox-umani/)
-- [Burnout pratico: come ricaricare senza fughe esotiche](/burnout-pratico/)
-- [Mindfulness ironica per chi odia meditare](/mindfulness-ironica/)
-- [Routine minime per giornate piene](/routine-minime/)
+- [Equilibrio Interiore per Disperati: Guida Anti-Caos per Chi Non Sopporta l'Incenso](https://messymind.it/equilibrio-interiore/equilibrio-interiore-guida-pratica/)
+- [Sei il Cielo, Non le Nuvole: Come Scoprire Chi Sei Davvero (Spoiler: Non Sono i Tuoi Pensieri)](https://messymind.it/mindfulness/osservatore-e-osservato/)
+- [Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io? Neuroscienze e Buddhismo a Confronto](https://messymind.it/spiritualita-pratica/neuroscienze-e-buddismo/)
 
 <script type="application/ld+json">
 {
@@ -143,6 +141,7 @@ Iscriviti alla newsletter di MessyMind: nessun mantra impossibile, solo pratiche
   ]
 }
 </script>
+
 
 
 
