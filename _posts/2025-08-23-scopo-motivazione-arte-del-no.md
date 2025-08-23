@@ -8,12 +8,12 @@ slug: scopo-motivazione-arte-del-no
 lang: it
 categories: ["Mindfulness ironica"]
 tags: ["scopo","motivazione","attenzione","confini gentili","rituali brevi","digital detox","togli non moderare"]
-author: "Matteo Ricci"
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954729/motivazione_600_u1bxps.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954730/motivane_1600_cd7kp8.webp
-image_alt: "Un post-it con scritto “NO” accanto a una tazza: metafora dei confini gentili"
+author: "MessyMind"
+image: [/assets/img/cover/scopo-no.webp](https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954729/motivazione_600_u1bxps.webp)
+image_alt: "un messaggio su una bottiglia che ti ricorda di agire verso quello che vuoi e smettere solo di sperarci"
 canonical_url: "https://messymind.it/scopo-motivazione-arte-del-no/"
-last_modified_at: 2025-08-23 17:00:00 +0200
+last_modified_at: 2025-08-23 14:00:00 +0200
+show_title: false
 reading_time: 6
 ---
 
@@ -120,5 +120,25 @@ Iscriviti alla newsletter di MessyMind: nessun mantra impossibile, solo pratiche
       "name": "Lo scopo non mi “accende”, è un problema?",
       "acceptedAnswer": {
         "@type": "Answer",
-
-        "text": "Non deve. Serve a orientarti, non a emozionarti. L’emoz
+        "text": "Non deve. Serve a orientarti, non a emozionarti. L’emozione arriva spesso dopo che inizi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come dico “no” senza bruciare i ponti?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Riconosci, dichiara il vincolo, proponi alternativa. Cortese, breve, in anticipo quando puoi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Se salto una settimana, ha senso ricominciare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì. Riparti dalla soglia dei 120 secondi e da una finestra protetta. La regola è: non saltare due giorni di fila."
+      }
+    }
+  ]
+}
+</script>
