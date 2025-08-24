@@ -25,7 +25,9 @@
     <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
     {%- assign og_raw = page.og_image | default: page.image | default: site.image | default: site.og_image -%}
     {%- if og_raw -%}
-      {%- if og_raw contains '://' or og_raw | slice: 0, 2 == '//' -%}
+      {%- assign og_is_absolute = og_raw contains '://' -%}
+      {%- assign og_prefix = og_raw | slice: 0, 2 -%}
+      {%- if og_is_absolute or og_prefix == '//' -%}
         {%- assign og_url = og_raw -%}
       {%- else -%}
         {%- assign og_url = og_raw | absolute_url -%}

@@ -5,36 +5,128 @@ layout: default
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="display-4 mb-4">Categoria: {{ page.title }}</h1>
-      
+      <h1 class="display-4 mb-3">{{ page.title }}</h1>
+
+      {% if page.description %}
+      <p class="lead text-muted mb-4">{{ page.description }}</p>
+      {% endif %}
+
+      <!-- Promessa / valore rapido -->
+      <div class="mb-4">
+        {% if page.promise %}
+        <p class="fs-5">{{ page.promise }}</p>
+        {% endif %}
+      </div>
+
       <div class="row">
-        {% assign category_posts = site.categories[page.category] %}
-        {% for post in category_posts %}
-        <div class="col-lg-6 mb-4">
-          <div class="card h-100 shadow-sm">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="{{ post.background | default: '/assets/images/default-post.jpg' }}" 
-                     class="img-fluid rounded-start" 
-                     alt="{{ post.title }}"
-                     style="height: 150px; object-fit: cover;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
+        <div class="col-lg-8">
+          <!-- Guide essenziali (cornerstone) -->
+          <section class="mb-5">
+            <h2>Guide essenziali</h2>
+            <div class="list-group mb-3">
+              {% assign cat_posts = site.categories[page.category] | sort: 'date' | reverse %}
+              {% assign guides = cat_posts | where_exp: "p", "p.tags contains 'cornerstone'" %}
+              {% if guides.size > 0 %}
+                {% for post in guides limit:5 %}
+                <a class="list-group-item list-group-item-action" href="{{ post.url }}">{{ post.title }}</a>
+                {% endfor %}
+              {% else %}
+                <p class="text-muted">Nessuna guida segnata come cornerstone. Verranno qui mostrate le guide principali della categoria.</p>
+              {% endif %}
+            </div>
+          </section>
+
+          <!-- Ultimi articoli -->
+          <section class="mb-5">
+            <h2>Ultimi articoli</h2>
+            <div class="row">
+              {% for post in cat_posts limit:12 %}
+              <div class="col-md-6 mb-4">
+                <div class="card h-100">
                   <a href="{{ post.url }}" class="text-decoration-none text-dark">
-                    <h5 class="card-title">{{ post.title }}</h5>
+                    <img src="{{ post.background | default: '/assets/images/default-post.jpg' }}" class="card-img-top" alt="{{ post.title }}" style="height:160px;object-fit:cover;">
                   </a>
-                  <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-                  <p class="text-muted small mb-0">
-                    <i class="far fa-calendar-alt"></i> {{ post.date | date: "%d/%m/%Y" }}
-                  </p>
+                  <div class="card-body">
+                    <a href="{{ post.url }}" class="text-decoration-none text-dark"><h5 class="card-title">{{ post.title }}</h5></a>
+                    <p class="card-text">{{ post.excerpt | strip_html | truncatewords:18 }}</p>
+                    <p class="text-muted small mb-0">{{ post.date | date: "%d/%m/%Y" }}</p>
+                  </div>
                 </div>
               </div>
+              {% endfor %}
+            </div>
+          </section>
+
+          <!-- FAQ se presente in front matter -->
+          {% if page.faq and page.faq.size > 0 %}
+          <section class="mb-5">
+            <h2>FAQ</h2>
+            <div class="accordion" id="categoryFaq">
+              {% for item in page.faq %}
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeading{{ forloop.index }}">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse{{ forloop.index }}" aria-expanded="false" aria-controls="faqCollapse{{ forloop.index }}">{{ item.question }}</button>
+                </h3>
+                <div id="faqCollapse{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="faqHeading{{ forloop.index }}" data-bs-parent="#categoryFaq">
+                  <div class="accordion-body">{{ item.answer }}</div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </section>
+          {% endif %}
+
+        </div>
+
+        <aside class="col-lg-4">
+          <!-- Strumenti / Template -->
+          <div class="mb-4">
+            <h3>Strumenti e template</h3>
+            <ul class="list-unstyled">
+              {% for t in site.data.tools[page.category] limit:10 %}
+              <li><a href="{{ t.url }}">{{ t.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <!-- CTA Newsletter -->
+          <div class="card border-primary mb-4">
+            <div class="card-body">
+              <h4>Iscriviti alla newsletter</h4>
+              <p class="small text-muted">Ricevi consigli pratici e template ogni settimana. Nessun hype, solo cose utili.</p>
+              <form action="/subscribe" method="post">
+                <div class="mb-2"><input type="email" name="email" class="form-control" placeholder="La tua email"></div>
+                <button class="btn btn-primary w-100">Iscriviti</button>
+              </form>
             </div>
           </div>
-        </div>
-        {% endfor %}
+
+        </aside>
       </div>
+
+      <!-- JSON-LD CollectionPage + ItemList -->
+      {% assign json_items = "" %}
+      {% assign idx = 0 %}
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": {{ page.title | jsonify }},
+        "description": {{ page.description | default: page.excerpt | strip_html | truncate:160 | jsonify }},
+        "mainEntity": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {% for post in cat_posts limit:20 %}
+            {
+              "@type": "ListItem",
+              "position": {{ forloop.index }},
+              "url": "{{ site.url }}{{ post.url }}"
+            }{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+          ]
+        }
+      }
+      </script>
     </div>
   </div>
 </div>

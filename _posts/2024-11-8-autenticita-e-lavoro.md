@@ -2,7 +2,8 @@
 title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"  
 seo_title: "Lavoro e Autenticità [...]"
 description: "Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint." 
-image: /img/lavoro.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro_ms380g.webp
 url: /autenticita-e-lavoro 
 canonical: https://messymind.it/autenticita-e-lavoro
 tags:  
@@ -27,10 +28,12 @@ keywords:
   - trovare vocazione  
   - ambiente di lavoro positivo  
   - equilibrio vita-lavoro 
-categories: [crescita-autentica] 
-
+categories: [Burnout e lavoro] 
 focus_keyword: "autenticità sul lavoro" 
-featured_post: 'true' 
+featured_post: 'true'
+image_author: energepic.com 
+image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/
+
 ---  
 ## Perché fingiamo tutti di adorare le riunioni?  
 

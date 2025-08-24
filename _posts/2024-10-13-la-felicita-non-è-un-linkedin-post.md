@@ -5,8 +5,8 @@ seo_title: "Equilibrio Spirituale [...]"
 categories: [crescita-autentica]  
 tags: [buddhismo, yoga, cristianesimo, islam, mindfulness, meditazione, comicità, vita-equilibrata]  
 description: "Buddha avrebbe odiato LinkedIn? Tra posizioni yoga fallite e notifiche WhatsApp, la mia guida irriverente per trovare l'equilibrio senza diventare guru da TikTok."  
-image: /img/equilibrio-spirituale.jpg
-background: /img/equilibrio-spirituale.jpg    
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044485/social_600_hbnbdw.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044484/social_1600_nrkirb.webp  
 author: "Teo"  
 meta: "Scopri come ridere dello stress con le tradizioni spirituali. Ironia, consigli pratici e riflessioni su buddhismo, cristianesimo e yoga per sopravvivere al mondo moderno."  
 featured_post: true  

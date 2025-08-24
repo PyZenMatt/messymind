@@ -1,7 +1,16 @@
 ---
 layout: category
-title: "Spiritualità Pratica"
+title: "Filosofia pratica"
 category: spiritualita-pratica
-permalink: /categorie/spiritualita-pratica/
-description: "Spiritualità moderna e pratica per la vita quotidiana. Senza misticismi, con i piedi per terra."
+permalink: /filosofia-pratica/
+description: "Idee chiare e azionabili da usare lunedì mattina: principi e cornici mentali per decisioni più semplici."
+og_image: /img/categories/filosofia-pratica-cover.webp
+canonical: https://messymind.it/filosofia-pratica/
+promise: "Modelli mentali e regole operative per affrontare scelte quotidiane con meno rumore."
+excerpt: "Stoicismo applicato e principi pratici per vivere con più chiarezza e meno indecisione."
+faq:
+  - question: "Che tipo di filosofia pratica trovi qui?"
+    answer: "Cornici mentali e regole semplici da usare nella vita e nel lavoro."
 ---
+
+Riflessioni pratiche e strumenti per decisioni più chiare.

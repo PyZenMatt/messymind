@@ -3,7 +3,7 @@ title: "Risveglio Interiore e Successo: Perché la Spiritualità Moderna è Come
 seo_title: "Risveglio Interiore e Successo [...]"
 featured: "true"
 description: "Scopri come smettere di inseguire il successo tradizionale e trovare l'autenticità tra meme, metafore surreali e consigli pratici per chi ha provato a meditare solo una volta. Un viaggio tra filosofia spicciola, umorismo esistenziale e studi finti dell'Università di Urbino."
-categories: [benessere]
+categories: [Mindfulness]
 date: 2023-10-15
 author: "Matteo Ricci"
 keywords: 
@@ -15,8 +15,8 @@ keywords:
   - "self-help parodia"
   - "filosofia quotidiana"
   - "libertà interiore pratica"
-image: "/img/accettazione.jpg"
-background: "/img/accettazione.jpg"
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042381/bussola_n7zsmf.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042380/bussola_qhogkd.png
 alt: "Una persona suduta su un altalena mentre guarda l'infinito"
 permalink: "/risveglio-interiore-successo-autentico-umorismo-esistenziale"
 ---

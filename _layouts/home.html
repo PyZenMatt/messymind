@@ -119,6 +119,7 @@ layout: default
 {% for cat in site.categories %}
   {% assign category = cat[0] %}
   {% assign posts = cat[1] %}
+  {% assign mapped = site.data.category_slugs[category] | default: '/categorie/' | prepend: '' %}
   {%- comment -%}
     Se desideri escludere determinate categorie, ad esempio quelle già gestite in altri blocchi,
     puoi inserire una condizione come:
@@ -132,11 +133,11 @@ layout: default
       <div class="col-12">
         <div class="d-flex justify-content-between align-items-center mb-4">
           <h2 class="section-heading">Argomento: {{ category }}</h2>
-          <a href="/categorie/{{ category | slugify }}" class="btn btn-primary">
+          <a href="{{ mapped }}" class="btn btn-primary">
             Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
           </a>
         </div>
-        {% assign top_posts = posts | slice: 0, 3 %}
+  {% assign top_posts = posts | slice: 0, 3 %}
         {% for post in top_posts %}
         <div class="card mb-4 post-card">
           <div class="row no-gutters">

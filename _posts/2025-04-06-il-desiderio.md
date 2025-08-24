@@ -2,7 +2,7 @@
 title: "Il Paradosso del Desiderio: Perché Voler Smettere di Desiderare è Come Essere uno Yeti in Palestra"
 seo_title: "Il Paradosso del Desiderio [...]"
 description: "Cosa c'entrano uno yeti depilato, un maestro zen e il peccato originale dell'ansia? Un viaggio irriverente nel paradosso del desiderio di Alan Watts, tra metafore assurde e satira sulla spiritualità moderna. Per chi è stanco del solito self-help."
-date: 2023-10-15
+date: 2025-04-06
 keywords:
   - "Paradosso del desiderio"
   - "Alan Watts"
@@ -16,6 +16,8 @@ keywords:
   - "psicologia buddhista"
 categories:
   - "crescita-personale"
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045099/lust_600_scqaga.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045110/lust_1600_zdh2f3.webp
 author: "Matteo Ricci l'antiguru"
 slug: "paradosso-desiderio-yeti-palestra-alan-watts"
 ---

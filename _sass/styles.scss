@@ -20,3 +20,19 @@
 // NESSUN FONT AWESOME - Usando Unicode nel CSS critico
 
 // Performance: CSS totale ridotto da 160KB a ~40KB
+
+/* Credito foto sotto 'Posted by' - piccolo, corsivo e a capo */
+.photo-credit {
+	display: block; /* forza a capo */
+	margin-top: 0.25rem;
+	font-size: 0.875rem; /* leggermente più piccolo */
+	font-style: italic;
+		color: #fff; /* testo bianco per maggior contrasto */
+		text-shadow: 0 1px 0 rgba(0,0,0,0.45); /* leggero bordo per leggibilità su immagini */
+}
+
+.photo-credit a {
+	color: inherit; /* link ereditano il colore bianco */
+	text-decoration: underline; /* indicare chiaramente che è cliccabile */
+}
+

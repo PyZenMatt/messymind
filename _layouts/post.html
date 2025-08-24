@@ -9,7 +9,8 @@ layout: default
   Se URL assoluto (http/https) o protocol-relative (//), usalo com'è.
   Altrimenti rendilo assoluto rispetto al sito.
   {%- endcomment -%}
-  {%- if hero_raw contains '://' or hero_raw | slice: 0, 2 == '//' -%}
+  {%- assign hero_prefix = hero_raw | slice: 0, 2 -%}
+  {%- if hero_raw contains '://' or hero_prefix == '//' -%}
     {%- assign hero_url = hero_raw -%}
   {%- else -%}
     {%- assign hero_url = hero_raw | absolute_url -%}
@@ -33,6 +34,17 @@ layout: default
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
               content=page.content %}
             </span>
+            {%- if page.image_author or page.image_author_url -%}
+            <span class="meta photo-credit">Foto:&nbsp;
+              {%- if page.image_author and page.image_author_url -%}
+                <a href="{{ page.image_author_url }}" target="_blank" rel="noopener">{{ page.image_author }}</a>
+              {%- elsif page.image_author -%}
+                {{ page.image_author }}
+              {%- elsif page.image_author_url -%}
+                <a href="{{ page.image_author_url }}" target="_blank" rel="noopener">Fonte immagine</a>
+              {%- endif -%}
+            </span>
+            {%- endif -%}
           </div>
         </div>
       </div>
