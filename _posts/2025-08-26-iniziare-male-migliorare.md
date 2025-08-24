@@ -4,7 +4,7 @@ title: "Non serve il momento perfetto: inizia male e migliora"
 description: "Smetti di aspettare l’epifania. Inizia anche male: pazienza attiva, micro-iterazioni e log del bambù per sbloccare perfezionismo e procrastinazione."
 permalink: "/iniziare-male-migliorare/"
 slug: "iniziare-male-migliorare"
-date: "2025-08-24"
+date: "2025-08-26"
 lang: "it"
 categories: ["Mindfulness","Abitudini"]
 tags: ["perfezionismo","procrastinazione","pazienza attiva","micro-abitudini","miglioramento continuo","kaizen","compounding","disciplina gentile"]
