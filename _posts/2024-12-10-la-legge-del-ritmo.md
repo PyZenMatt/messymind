@@ -1,6 +1,7 @@
 ---
 title: "Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Rompere i Mobili)"
 seo_title: "Legge del Ritmo [...]"
+seo_description: "Guida pratica e ironica alla legge del ritmo: come riconoscere i cicli della vita, gestire le oscillazioni emotive e trovare resilienza quotidiana con piccoli rituali e tanto umorismo."
 description: "Esplora il ritmo universale tra filosofia, comicità e vita reale: dagli insegnamenti della Kabbalah agli autobus in ritardo, una guida anticonvenzionale per sopravvivere ai cicli esistenziali con ironia e 3 caffè al giorno."
 categories: [spiritualita-pratica]
 keywords: 

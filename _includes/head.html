@@ -9,20 +9,14 @@
     {% else %}{{ site.title | escape }}{% endif %}
   </title>
 
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="description" content="{{ page.seo_description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  {% if page.keywords %}
-  <meta name="keywords" content="{{ page.keywords | join: ', ' }}">
-  {% endif %}
-
-  {% if page.longtail_keywords %}
-  <meta name="longtail-keywords" content="{{ page.longtail_keywords | join: ', ' }}">
-  {% endif %}
+  <!-- meta keywords removed (deprecated) -->
 
   <!-- Open Graph / Facebook -->
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{% if page.seo_title %}{{ page.seo_title }} - {{ site.title }}{% elsif page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
+  <meta property="og:description" content="{{ page.seo_description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
     {%- assign og_raw = page.og_image | default: page.image | default: site.image | default: site.og_image -%}
     {%- if og_raw -%}
       {%- assign og_is_absolute = og_raw contains '://' -%}
@@ -40,7 +34,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.seo_title %}{{ page.seo_title }} - {{ site.title }}{% elsif page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
+  <meta name="twitter:description" content="{{ page.seo_description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
   <meta name="twitter:image" content="{{ page.og_image | default: page.background | default: '/img/home/bg-home.jpg' | absolute_url }}">
 
   <!-- Schema.org markup per SEO -->

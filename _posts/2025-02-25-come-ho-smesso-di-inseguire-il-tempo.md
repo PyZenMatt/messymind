@@ -12,6 +12,7 @@ meta-title: "Liberarsi dalla Tirannia del Tempo | Esperienza Personale + Soluzio
 meta-description: "Ansia da produttività? Scopri come ho sostituito lo stress cronico con micro-abitudini mindfulness. Dalla crisi in metro alla saggezza di un cactus: guida non convenzionale per ritrovare il presente."
 featured_post: true
 featured_image_alt: "Donna che medita vicino a cactus con orologi rotti sullo sfondo"
+seo_description: "Strategie pratiche e micro-abitudini per smettere di inseguire il tempo: esercizi quotidiani, storie personali e tecniche anti-burnout per vivere più presenti."
 keywords: 
   - come ridurre l'ansia da tempo
   - tecniche mindfulness pratiche

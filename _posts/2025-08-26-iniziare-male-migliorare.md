@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Non serve il momento perfetto: inizia male e migliora"
+seo_description: "Smetti di aspettare il momento perfetto: strategie pratiche e gentili per superare perfezionismo e procrastinazione con micro-azioni quotidiane e pazienza attiva."
 description: "Smetti di aspettare l’epifania. Inizia anche male: pazienza attiva, micro-iterazioni e log del bambù per sbloccare perfezionismo e procrastinazione."
 permalink: "/iniziare-male-migliorare/"
 slug: "iniziare-male-migliorare"
@@ -119,7 +120,7 @@ Salute, studio, lavoro creativo, relazioni: sono **giochi infiniti**. Non hanno 
 ### FAQ
 
 ### Come smetto di rimandare senza abbassare la qualità?
-
+seo_description: "Smetti di aspettare l'epifania: strategie pratiche per vincere perfezionismo e procrastinazione con micro-azioni quotidiane e pazienza attiva."
 Separa **valore minimo funzionante** da rifinitura. Prima dai utilità, poi lucidi. La qualità nasce dall’iterazione, non dall’attesa.
 
 ### E se mi manca la motivazione?

@@ -4,6 +4,7 @@ title: "Mindfulness ironica"
 category: mindfulness
 permalink: /mindfulness-ironica/
 description: "Presenza quotidiana senza spiritualismo: tecniche micro e ironiche per recuperare attenzione nel lavoro."
+seo_description: "Raccolta di articoli per una mindfulness ironica e pratica: esercizi rapidi e riflessioni per restare presenti senza trasformarsi in guru." 
 og_image: /img/categories/mindfulness-ironica-cover.webp
 canonical: https://messymind.it/mindfulness-ironica/
 promise: "Pratiche brevi, concrete e non-da-poster per integrare la presenza nella giornata di lavoro."

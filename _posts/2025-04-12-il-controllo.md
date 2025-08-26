@@ -1,6 +1,7 @@
 ---
 title: "Il Manuale di Sopravvivenza per Chi Vuole Controllare Tutto (e Fallisce)"  
 seo_title: "Il Manuale di Sopravvivenza per Chi Vuole Controllare T"
+seo_description: "Manuale pratico e ironico per smettere di sovraccaricarsi di controllo: esercizi quotidiani, esempi e spunti per lasciare andare senza perdere dignità."  
 description: "Vuoi controllare tutto e fallisci sempre? Benvenuto nel club! Manuale di sopravvivenza per ex-robot ansiosi che vogliono mollare la presa."  
 keywords: "crescita senza controllo, spiritualità moderna, paradosso della produttività, lasciar andare, umorismo esistenziale"  
 categories:

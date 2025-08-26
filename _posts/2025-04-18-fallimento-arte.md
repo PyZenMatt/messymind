@@ -1,5 +1,6 @@
 ---
 title: "Fallire è un'arte (e io sono il Picasso degli scivoloni)"  
+seo_description: "Racconto ironico e pratico sul fallimento come strumento di crescita: esercizi, storie e consigli per trasformare gli scivoloni in opportunità creative."  
 description: "Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti e l'arte di non fare i compiti."  
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045412/fail_600_dbf17q.jpg
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045411/fail_1600_ceuie0.webp

@@ -1,7 +1,8 @@
 ---  
-title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"  
-seo_title: "Lavoro e Autenticità [...]"
-description: "Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint." 
+title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"
+seo_title: "Lavoro e Autenticità: sopravvivere all'ufficio con ironia e pratica"
+seo_description: "Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita."
+description: "Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint."
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro_ms380g.webp
 url: /autenticita-e-lavoro 

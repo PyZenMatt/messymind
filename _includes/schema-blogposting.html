@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "headline": "{{ page.seo_title | default: page.title | escape }}",
+  "description": "{{ page.seo_description | default: page.excerpt | default: page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
+  {%- assign og_img = page.og_image | default: page.image | default: page.background | default: site.image -%}
+  {%- if og_img -%}
+  "image": "{{ og_img | absolute_url }}",
+  {%- endif -%}
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: site.author | default: site.title | escape }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title | escape }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | default: '/img/favicon/favicon.ico' | absolute_url }}"
+    }
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+}
+</script>

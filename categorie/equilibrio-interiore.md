@@ -4,6 +4,7 @@ title: "Burnout e lavoro"
 category: Burnout e lavoro
 permalink: /burnout-e-lavoro/
 description: "Prevenzione e recupero realistici per chi lavora con il cervello: confini, ritmi sostenibili e strategie di recupero."
+seo_description: "Risorse pratiche per prevenire e recuperare dal burnout: consigli su ritmi, confini e strategie per ricaricare energia mentale senza retoriche vuote." 
 og_image: /img/categories/burnout-e-lavoro-cover.webp
 canonical: https://messymind.it/burnout-e-lavoro/
 promise: "Strategie concrete per evitare il burnout e recuperare energia senza false promesse."
