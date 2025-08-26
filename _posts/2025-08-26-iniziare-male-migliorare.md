@@ -6,10 +6,11 @@ permalink: "/iniziare-male-migliorare/"
 slug: "iniziare-male-migliorare"
 date: "2025-08-26"
 lang: "it"
-categories: ["Mindfulness","Abitudini"]
+categories: ["Mindfulness"]
 tags: ["perfezionismo","procrastinazione","pazienza attiva","micro-abitudini","miglioramento continuo","kaizen","compounding","disciplina gentile"]
 author: "Matteo Ricci"
-image: "https://messymind.it/assets/img/cover/bambu-radici-crescita.webp"
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756192777/radici_1920_etnsz5.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756192777/radici_600_yhtq3e.webp
 image_alt: "Bambù: radici invisibili che si accumulano prima dello slancio in altezza"
 canonical_url: "https://messymind.it/iniziare-male-migliorare/"
 image_author: "Matteo Ricci"
