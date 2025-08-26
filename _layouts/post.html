@@ -83,12 +83,20 @@ layout: default
           <h4 class="sidebar-title">Categorie</h4>
           <ul class="list-unstyled">
             {% for category in page.categories %}
-            <li class="mb-2">
-              <a href="/categorie/{{ category | slugify }}" class="text-decoration-none">
-                <i class="fas fa-folder-open mr-2"></i>{{ category }}
-              </a>
-            </li>
-            {% endfor %}
+              <li class="mb-2">
+                {% assign key = category | downcase %}
+                {% assign mapped = site.data.category_slugs[key] %}
+                {% if mapped %}
+                  <a href="{{ mapped }}" class="text-decoration-none">
+                    <i class="fas fa-folder-open mr-2"></i>{{ category }}
+                  </a>
+                {% else %}
+                  <a href="/{{ category | slugify }}/" class="text-decoration-none">
+                    <i class="fas fa-folder-open mr-2"></i>{{ category }}
+                  </a>
+                {% endif %}
+              </li>
+              {% endfor %}
           </ul>
           
           <h4 class="sidebar-title mt-4">Ultimi Articoli</h4>

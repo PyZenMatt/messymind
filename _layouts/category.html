@@ -5,7 +5,13 @@ layout: default
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="display-4 mb-3">{{ page.title }}</h1>
+      {% assign cat_key = page.category | downcase %}
+      {% if cat_key == 'spiritualita-pratica' or cat_key == 'filosofia-pratica' %}
+        {% assign display_title = 'Filosofia pratica' %}
+      {% else %}
+        {% assign display_title = page.title | default: page.category | replace: '-', ' ' | capitalize %}
+      {% endif %}
+      <h1 class="display-4 mb-3">{{ display_title }}</h1>
 
       {% if page.description %}
       <p class="lead text-muted mb-4">{{ page.description }}</p>
@@ -58,11 +64,26 @@ layout: default
           </section>
 
           <!-- FAQ se presente in front matter -->
-          {% if page.faq and page.faq.size > 0 %}
+          {% comment %} Prefer page.faq, fallback to site.data.category_faqs using normalized key {% endcomment %}
+          {% assign faq_items = nil %}
+          {% comment %} allow legacy key 'spiritualita-pratica' to use 'filosofia-pratica' FAQs {% endcomment %}
+          {% assign faq_key = cat_key %}
+          {% if cat_key == 'spiritualita-pratica' %}
+            {% assign faq_key = 'filosofia-pratica' %}
+          {% endif %}
+          {% comment %} Prefer centralized data file first; fall back to page.faq if data absent {% endcomment %}
+          {% assign faq_items = site.data.category_faqs[faq_key] %}
+          {% if faq_items == nil or faq_items == empty or faq_items.size == 0 %}
+            {% if page.faq and page.faq.size > 0 %}
+              {% assign faq_items = page.faq %}
+            {% endif %}
+          {% endif %}
+
+          {% if faq_items and faq_items.size > 0 %}
           <section class="mb-5">
             <h2>FAQ</h2>
             <div class="accordion" id="categoryFaq">
-              {% for item in page.faq %}
+              {% for item in faq_items %}
               <div class="accordion-item">
                 <h3 class="accordion-header" id="faqHeading{{ forloop.index }}">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse{{ forloop.index }}" aria-expanded="false" aria-controls="faqCollapse{{ forloop.index }}">{{ item.question }}</button>
@@ -74,7 +95,72 @@ layout: default
               {% endfor %}
             </div>
           </section>
+
+          {%- comment -%} JSON-LD FAQPage for rich results {%- endcomment -%}
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {% for item in faq_items %}
+              {
+                "@type": "Question",
+                "name": {{ item.question | jsonify }},
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": {{ item.answer | jsonify }}
+                }
+              }{% if forloop.last == false %},{% endif %}
+              {% endfor %}
+            ]
+          }
+          </script>
           {% endif %}
+          
+          <!-- Small JS fallback to make accordion work without Bootstrap JS -->
+          <script>
+          (function(){
+            // If Bootstrap's collapse is available, prefer it.
+            if (typeof bootstrap !== 'undefined' && bootstrap && bootstrap.Collapse) return;
+
+            function findClosest(el, sel){
+              while(el && el.nodeType===1){ if(el.matches(sel)) return el; el = el.parentElement; } return null;
+            }
+
+            document.addEventListener('click', function(e){
+              var btn = e.target.closest && e.target.closest('.accordion-button');
+              if(!btn) return;
+              // respect native links
+              if (btn.tagName === 'A' && btn.href) return;
+
+              var targetSel = btn.getAttribute('data-bs-target') || ('#' + btn.getAttribute('aria-controls'));
+              if(!targetSel) return;
+              var target = document.querySelector(targetSel);
+              if(!target) return;
+
+              var accordion = findClosest(btn, '.accordion');
+              // close other open items in same accordion (accordion behavior)
+              if(accordion){
+                var openItems = accordion.querySelectorAll('.accordion-collapse.show');
+                openItems.forEach(function(it){ if(it !== target){ it.classList.remove('show'); var relatedBtn = accordion.querySelector('[data-bs-target="#'+it.id+'"]'); if(relatedBtn){ relatedBtn.classList.add('collapsed'); relatedBtn.setAttribute('aria-expanded','false'); } }});
+              }
+
+              // toggle target
+              var isOpen = target.classList.contains('show');
+              if(isOpen){
+                target.classList.remove('show');
+                btn.classList.add('collapsed');
+                btn.setAttribute('aria-expanded','false');
+              } else {
+                target.classList.add('show');
+                btn.classList.remove('collapsed');
+                btn.setAttribute('aria-expanded','true');
+              }
+
+              e.preventDefault();
+            });
+          })();
+          </script>
 
         </div>
 
@@ -89,15 +175,13 @@ layout: default
             </ul>
           </div>
 
-          <!-- CTA Newsletter -->
+          <!-- CTA Newsletter (semplificata: istruzioni verso contatti) -->
           <div class="card border-primary mb-4">
             <div class="card-body">
               <h4>Iscriviti alla newsletter</h4>
               <p class="small text-muted">Ricevi consigli pratici e template ogni settimana. Nessun hype, solo cose utili.</p>
-              <form action="/subscribe" method="post">
-                <div class="mb-2"><input type="email" name="email" class="form-control" placeholder="La tua email"></div>
-                <button class="btn btn-primary w-100">Iscriviti</button>
-              </form>
+              <p class="small text-muted">Per iscriverti, usa la pagina dei contatti e indica nel messaggio che vuoi iscriverti alla newsletter; specifica il tuo <strong>nome</strong> e la tua <strong>email</strong>.</p>
+              <a href="/contact" class="btn btn-primary w-100" title="Vai ai contatti">Vai alla pagina Contatti</a>
             </div>
           </div>
 

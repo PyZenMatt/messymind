@@ -15,9 +15,13 @@ permalink: /categorie/
           <div class="card h-100 shadow-sm">
             <div class="card-body">
               <h2 class="h4">
-                <a href="/categorie/{{ category[0] | slugify }}" class="text-decoration-none">
-                  {{ category[0] | capitalize }}
-                </a>
+                {% assign key = category[0] | downcase %}
+                {% assign mapped = site.data.category_slugs[key] %}
+                {% if mapped %}
+                  <a href="{{ mapped }}" class="text-decoration-none">{{ category[0] | replace: '-', ' ' | capitalize }}</a>
+                {% else %}
+                  <a href="/{{ category[0] | slugify }}/" class="text-decoration-none">{{ category[0] | replace: '-', ' ' | capitalize }}</a>
+                {% endif %}
               </h2>
               <p class="text-muted">{{ category[1].size }} articoli</p>
               <div class="list-group">

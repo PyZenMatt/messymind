@@ -9,11 +9,19 @@
     </li>
     
     {% if page.categories %}
-      {% assign category = page.categories | first %}
+  {% assign category = page.categories | first %}
+  {% assign key = category | downcase %}
+  {% assign mapped = site.data.category_slugs[key] %}
       <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-        <a href="{{ site.baseurl }}/categorie/{{ category | slugify }}/" itemprop="item" itemtype="http://schema.org/WebPage">
-          <span itemprop="name">{{ category | capitalize | replace: '-', ' ' }}</span>
-        </a>
+        {% if mapped %}
+          <a href="{{ mapped }}" itemprop="item" itemtype="http://schema.org/WebPage">
+            <span itemprop="name">{{ category | capitalize | replace: '-', ' ' }}</span>
+          </a>
+        {% else %}
+          <a href="{{ site.baseurl }}/{{ category | slugify }}/" itemprop="item" itemtype="http://schema.org/WebPage">
+            <span itemprop="name">{{ category | capitalize | replace: '-', ' ' }}</span>
+          </a>
+        {% endif %}
         <meta itemprop="position" content="2" />
       </li>
     {% endif %}

@@ -15,8 +15,14 @@ permalink: /categorie/
           <div class="card h-100 shadow-sm">
             <div class="card-body">
               <h2 class="h4">
-                {% assign mapped = site.data.category_slugs[category[0]] | default: '/categorie/' %}
-                <a href="{{ mapped }}" class="text-decoration-none">
+                {% assign key = category[0] | downcase %}
+                {% assign mapped = site.data.category_slugs[key] %}
+                {% if mapped %}
+                  {% assign cat_url = mapped %}
+                {% else %}
+                  {% assign cat_url = '/' | append: category[0] | slugify | append: '/' %}
+                {% endif %}
+                <a href="{{ cat_url }}" class="text-decoration-none">
                   {{ category[0] | replace: '-', ' ' | capitalize }}
                 </a>
               </h2>

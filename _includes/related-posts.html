@@ -23,8 +23,16 @@
 {% if page.categories %}
   {% assign category = page.categories | first %}
   <div class="category-navigation mt-4 text-center">
-    <a href="{{ site.baseurl }}/categorie/{{ category | slugify }}/" class="btn btn-secondary">
-      <i class="fas fa-arrow-left"></i> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
-    </a>
+    {% assign key = category | downcase %}
+    {% assign mapped = site.data.category_slugs[key] %}
+    {% if mapped %}
+      <a href="{{ mapped }}" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
+      </a>
+    {% else %}
+      <a href="{{ site.baseurl }}/{{ category | slugify }}/" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
+      </a>
+    {% endif %}
   </div>
 {% endif %}

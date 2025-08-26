@@ -5,7 +5,7 @@ slug: come-meditare-senza-sedersi-a-gambe-incrociate
 description: 'Meditazione pratica e *senza incenso*: micro-rituali da fare in coda,sul tram e mentre bolle la pasta. Niente pose di loto, solo vita vera.'
 tags: meditazione pratica, mindfulness mindfulness ironica, tecniche di rilassamento, equilibrio interiore, meditare nella vita quotidiana
 categories:
-- equlibrio-interiore
+- equilibrio-interiore
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_pad,b_auto:predominant,ar_21:9,w_1920,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
 canonical: https://messymind.it/equilibrio-interiore/come-meditare-senza-sederti-a-gambe-incrociate/
