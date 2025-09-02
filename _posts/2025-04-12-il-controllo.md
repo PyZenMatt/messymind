@@ -30,7 +30,8 @@ schema:
     - question: "Come smettere di controllare tutto?"  
       answer: "Accettare che il controllo è un’illusione e sperimentare il fallimento senza paura."  
     - question: "Perché il self-help tradizionale non funziona?"  
-      answer: "Perché spesso alimenta la stessa ossessione che dice di voler curare: il controllo su sé stessi."  
+      answer: "Perché spesso alimenta la stessa ossessione che dice di voler curare: il controllo su sé stessi."
+lang: "it"  
 ---
 ## Il Manuale di Sopravvivenza per Chi Vuole Controllare il Mare con un Colino
 

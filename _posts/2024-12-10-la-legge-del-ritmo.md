@@ -33,6 +33,8 @@ meta_extra:
     region: IT
     placename: Trento
   meta_robots: index, follow
+lang: "it"
+
 ---
 
 ## Introduzione: Il Ritmo Esistenziale tra Caffè e Caos 

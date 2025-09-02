@@ -25,7 +25,9 @@ tags:
   - Taoismo  
   - produttività  
   - autosabotaggio creativo  
-  - spiritualità demistificata  
+  - spiritualità demistificata
+lang: "it"
+  
 ---
 
 **“Fallire è un’arte (e io sono il Picasso degli scivoloni)”**  

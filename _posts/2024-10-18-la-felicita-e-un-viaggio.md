@@ -11,7 +11,9 @@ author: Matteo Ricci
 meta: "Felicità ≠ ricette magiche. La mia storia tra meditazioni fallite, guru improvvisati e lezioni rubate ai piccoli disastri quotidiani. Con esercizi per ridere di sé."
 keywords: [felicità imperfetta, crescita personale umoristica, meditazione per principianti, come perdonare sé stessi, errori che insegnano, esercizi pratici spirituali, storie di trasformazione reale]
 longtail-keywords: [come trovare la felicità attraverso gli errori, esercizi pratici per il perdono interiore, crescita personale con umorismo, meditazione per chi non riesce a meditare, storie reali di trasformazione interiore, come smettere di inseguire la perfezione]
-featured_post: 'true'
+featured_post: 'false'
+lang: "it"
+
 ---
 
 Ricordo quella volta in cui, dopo aver comprato l’ennesimo corso online su "Come Essere Felici in 7 Giorni", mi ritrovai a fissare lo schermo del computer con lo stesso vuoto di prima. 

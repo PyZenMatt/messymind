@@ -16,6 +16,8 @@ canonical_url: "https://messymind.it/scopo-motivazione-arte-del-no/"
 last_modified_at: "2025-08-23 14:00:00 +0200"
 show_title: false
 reading_time: 6
+lang: "it"
+featured: "true"
 ---
 
 La notifica vibra proprio mentre avevi trovato il filo. Apri “solo un attimo” e tre minuti dopo hai perso il punto, l’umore e la voglia. La motivazione fa così: arriva a caso, se ne va in fretta. Lo scopo, invece, è quieto e testardo. Non ti promette l’epica, ma ti tiene in carreggiata quando hai sonno, quando piove, quando il mondo reclama attenzione. Qui niente frasi motivate: si lavora di sottrazione, toni bassi, due abitudini misurabili.

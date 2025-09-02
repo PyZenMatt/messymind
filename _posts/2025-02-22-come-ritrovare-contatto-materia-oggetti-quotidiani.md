@@ -42,6 +42,8 @@ schema:
 featured_post: 'true'
 image: "/img/materialismo.jpg"
 background: "/img/materialismo.jpg"
+lang: "it"
+
 
 ---
 

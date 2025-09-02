@@ -52,6 +52,8 @@ structured_data: |
     "dateModified": "2023-11-15"
   }
 featured_post: 'true'
+lang: "it"
+
 ---
 
 ## Quando il Cervello Incontra Buddha: Storie (Impermanenti) di Chi Crediamo di Essere

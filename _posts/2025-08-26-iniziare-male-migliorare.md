@@ -18,6 +18,8 @@ image_author: "Matteo Ricci"
 robots: "index,follow"
 sitemap: true
 image_author_url: "https://link-al-profilo-o-fonte"
+lang: "it"
+featured: "true"
 ---
 
 # Non serve il momento perfetto: inizia male e migliora

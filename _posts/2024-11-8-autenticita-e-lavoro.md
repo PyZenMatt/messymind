@@ -34,6 +34,7 @@ focus_keyword: "autenticità sul lavoro"
 featured_post: 'true'
 image_author: energepic.com 
 image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/
+lang: "it"
 
 ---  
 ## Perché fingiamo tutti di adorare le riunioni?  

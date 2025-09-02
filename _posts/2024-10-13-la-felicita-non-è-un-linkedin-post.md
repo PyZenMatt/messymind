@@ -20,7 +20,9 @@ seo:
     - crescita personale divertente  
     - come meditare senza addormentarsi  
     - spiritualità moderna  
-    - umorismo e mindfulness   
+    - umorismo e mindfulness
+lang: "it"
+   
 ---
 
 ## La Felicità Non Sta Nel CV: La Mia Rivoluzione Sotto Casa

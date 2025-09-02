@@ -8,8 +8,10 @@ meta: "Scopri come coltivare la felicità attraverso l'autoironia, la consapevol
 image: /img/Loto.png
 background: /img/Loto.png
 description: "Dai diari della gratitudine ai gatti che sabotano la meditazione: come trovare la felicità senza prendersi troppo sul serio."
-featured_post: 'true'
+featured_post: 'false'
 keywords: "Felicità autentica, Crescita personale ironica, Autoironia, Mindfulness ironica ,Psicologia umoristica, Accettazione di sé con humor, Relazioni positive, Benessere emotivo, Consapevolezza quotidiana, Filosofia pratica, Come trovare la felicità nelle piccole cose, Esercizi di gratitudine divertenti, Vivere nel presente con ironia, Gestire i fallimenti con autoironia, Self-help senza prendersi sul serio, Coltivare relazioni autentiche senza sforzo, Mindfulness per chi odia meditare, sicologia positiva per scettici, Libri crescita personale non banali, Come smettere di cercare la felicità perfetta"
+lang: "it"
+
 ---
 
 La felicità è come il Wi-Fi: tutti la cercano, ma pochi sanno dove sia il router. Ci hanno provato **Platone** con il mito della caverna, **Schopenhauer** con il pessimismo, e pure quel tizio al bar che giura che la risposta sia nel kefir. 

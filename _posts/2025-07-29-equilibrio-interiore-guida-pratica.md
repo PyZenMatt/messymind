@@ -31,7 +31,9 @@ background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_x
 alt: "Donna pratica equilibrio interiore meditando freneticamente in città"  
 og_type: article  
 og_title: "Equilibrio Interiore per Gente con la Sveglia: Guida per Sopravvivere al Caos"  
-og_description: "Tra scadenze, notifiche e imprevisti: come ritrovare il centro senza diventare monaci. Tecniche rapide ispirate a buddismo, taoismo e vita reale."  
+og_description: "Tra scadenze, notifiche e imprevisti: come ritrovare il centro senza diventare monaci. Tecniche rapide ispirate a buddismo, taoismo e vita reale." 
+lang: "it"
+
 ---
 
 <em>«L'equilibrio è per chi non ha il mutuo»</em>, pensavo stamattina mentre cercavo le chiavi con una scarpa sola, il telefono che vibrava per la notifica delle 8:47, e il cane che mi guardava come per dire: «Ecco un altro giorno di gloria». Eppure trovare **l'equilibrio interiore** è possibile anche con 47 notifiche non lette.

@@ -19,6 +19,8 @@ image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042381/bussola_n7z
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042380/bussola_qhogkd.png
 alt: "Una persona suduta su un altalena mentre guarda l'infinito"
 permalink: "/risveglio-interiore-successo-autentico-umorismo-esistenziale"
+lang: "it"
+
 ---
 *Nota dell’autore: Nessun Buddha è stato maltrattato nella stesura di questo articolo. Solo qualche cliché del benessere è finito nel trita documenti. Namasté, ovviamente.*
 

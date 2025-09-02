@@ -11,6 +11,8 @@ background: /img/amore.png
 slug: risveglio-kundalini-viaggio-spirituale   
 robots: index, follow  
 featured_post: 'true'
+lang: "it"
+
 ---
 
 ## **Il Risveglio della Kundalini: Ovvero, Quando il Tuo Corpo Decide di Fare lo Sciopero della Fame Emotiva (E Tu Devi Trattare con Uno Yeti Interiore)**  

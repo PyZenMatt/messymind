@@ -1,6 +1,6 @@
 <!-- Componente per immagini ottimizzate -->
 {% assign img_path = include.src | default: '/img/default-post.jpg' %}
-{% assign img_alt = include.alt | default: include.title | default: 'Immagine articolo' %}
+{% assign img_alt = include.alt | default: include.title | default: page.title | default: site.title | default: 'Immagine articolo' %}
 {% assign img_class = include.class | default: "img-fluid" %}
 
 {% comment %} Solo crea WebP se il file esiste {% endcomment %}
@@ -18,7 +18,7 @@
   <!-- Fallback originale -->
   <img 
     src="{{ img_path }}" 
-    alt="{{ include.alt | default: 'Image' }}" 
+    alt="{{ img_alt }}" 
     {% if include.class %}class="{{ include.class }}"{% endif %}
     {% if include.loading %}loading="{{ include.loading }}"{% else %}loading="lazy"{% endif %}
     {% if include.loading == 'eager' %}fetchpriority="high"{% endif %}

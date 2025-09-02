@@ -16,6 +16,8 @@ tags:
 meta_description: "Scopri come la felicità si nasconde tra cactus emotivi e panini notturni. Guida ironica per chi cerca autenticità, ha pianto davanti a uno spot e nasconde ketchup nel portafoglio. Con citazioni da Brené Brown, Frida Kahlo e consigli pratici."  
 image: "/img/velo.png"
 alt_image: "Un velo che copre due visi. Il velo è l'illusione del titolo che copre la verità"  
+lang: "it"
+
 ---
 
 ## La ricerca della felicità (o come ho imparato a smettere di correre e ad amare il panino al salame alle 3 di notte)  

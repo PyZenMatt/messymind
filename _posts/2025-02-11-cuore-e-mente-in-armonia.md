@@ -14,6 +14,8 @@ excerpt: "Tra Excel esistenziali e riunioni Zoom con l'ansia: guida sarcastica p
 keywords: "saggezza del cuore per procrastinatori, meditazione per pigri, come non diventare uno zombie da ufficio, detox spirituale low cost, ribellione alla mente razionale"
 emoji_tema: 💼🔥🙏😂
 warning: "Attenzione: questo articolo potrebbe far venire voglia di licenziare la tua ansia e sposare un cactus simbolico"
+lang: "it"
+
 ---
 
 ## La Saggezza del Cuore (e di Quella Volta che Credevo di Essere Buddha in Versione Discount)

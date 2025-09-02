@@ -3,6 +3,7 @@ title: "Silenzio Interiore: 7 Step Antieroici per Sopravvivere al Caos Digitale 
 seo_title: "Silenzio Interiore [...]"
 description: "Doomscrolling, notifiche tossiche e ansia da produttività: guida sarcastica alla pace interiore per chi medita solo quando crasha WhatsApp. Con esercizi pratici per pigri spirituali."
 categories: [crescita-autentica]
+lang: "it"
 keywords: 
   - silenzio interiore
   - meditazione per procrastinatori
