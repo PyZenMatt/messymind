@@ -19,7 +19,6 @@ keywords:
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042381/bussola_n7zsmf.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042380/bussola_qhogkd.png
 alt: "Una persona suduta su un altalena mentre guarda l'infinito"
-permalink: "/risveglio-interiore-successo-autentico-umorismo-esistenziale"
 lang: "it"
 related: 
  - "paradosso-desiderio-yeti-palestra-alan-watts"

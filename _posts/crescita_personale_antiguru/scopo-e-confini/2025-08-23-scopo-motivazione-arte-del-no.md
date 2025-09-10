@@ -2,8 +2,6 @@
 layout: post
 title: "Smetti di rincorrere la motivazione: trova lo scopo e impara a dire no"
 description: "Anti-guru: smetti di rincorrere la motivazione. Chiarisci lo scopo e difendilo con un \"no\" gentile + 2 rituali sotto i 10 minuti per proteggere l'attenzione."
-permalink: /scopo-motivazione-arte-del-no/
-slug: scopo-motivazione-arte-del-no
 lang: it
 categories: [crescita-personale-anti-guru]
 subcluster: scopo-e-confini
@@ -13,7 +11,6 @@ author: "Matteo Ricci"
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954730/motivane_1600_cd7kp8.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954729/motivazione_600_u1bxps.webp
 image_alt: "Un messaggio su una bottiglia che ti ricorda di agire verso quello che vuoi e smettere solo che speri che accada senza fare niente"
-canonical_url: "https://messymind.it/scopo-motivazione-arte-del-no/"
 last_modified_at: "2025-08-23 14:00:00 +0200"
 show_title: false
 reading_time: 6

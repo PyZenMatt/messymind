@@ -10,8 +10,6 @@ subcluster: spiritualita-prudente
 tags: ["kundalini", "risveglio spirituale", "yoga", "insonnia", "benessere"]
 image: "/img/amore.png"
 image_alt: "Illustrazione stilizzata dell’energia Kundalini che sale lungo la colonna"
-permalink: /spiritualita/risveglio-kundalini/
-canonical_url: "https://www.messymind.it/spiritualita/risveglio-kundalini/"
 lang: "it"
 robots: "index, follow"
 featured_post: true

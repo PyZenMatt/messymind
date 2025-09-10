@@ -14,7 +14,6 @@ keywords:
   - esercizi mindfulness anti-guru
   - ansia da notifiche
   - spiritualità 2.0
-canonical: https://www.messymind.it/silenzio-interiore-guida-sopravvivenza
 og_title: "Esercizi per il Silenzio Interiore: pratiche anti-guru"
 og_description: "5 esercizi semplici e ironici per coltivare il silenzio interiore senza diventare monaco zen. Sopravvivenza urbana alla portata di tutti."
 image: /img/silenzio.jpg

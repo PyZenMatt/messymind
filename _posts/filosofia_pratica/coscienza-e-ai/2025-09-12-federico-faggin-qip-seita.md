@@ -5,8 +5,6 @@ layout: post
 title: "Federico Faggin e QIP: coscienza, séità e critiche"
 description: "Cos’è il QIP di Faggin? Coscienza fondamentale, ‘séità’, basi quantistiche (no-cloning/Holevo), differenze da IIT e critiche, con fonti."
 excerpt: "QIP di Faggin spiegato semplice: coscienza fondamentale, séità, basi quantistiche e confronto con IIT — con critiche e fonti verificate."
-permalink: "/federico-faggin-qip-seita/"
-canonical_url: "https://messymind.it/federico-faggin-qip-seita"
 date: "2025-09-12T09:00:00+02:00"
 last_modified_at: "2025-09-12T09:00:00+02:00"
 lang: "it-IT"

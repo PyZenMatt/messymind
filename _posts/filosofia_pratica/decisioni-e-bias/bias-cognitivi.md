@@ -6,9 +6,6 @@ author: "Redazione MessyMind"
 date: "2025-09-09"
 last_modified_at: "2025-09-09"
 lang: "it"
-slug: "bias-cognitivi"
-permalink: "/bias-cognitivi/"
-canonical: "https://messymind.blog/bias-cognitivi"
 image: "/images/bias-cognitivi-2025-og.jpg"
 categories: [filosofia-pratica]
 subcluster: decisioni-e-bias

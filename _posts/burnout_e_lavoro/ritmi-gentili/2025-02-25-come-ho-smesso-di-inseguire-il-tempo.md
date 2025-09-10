@@ -23,7 +23,6 @@ keywords:
   - micro-abitudini anti-burnout
   - storia personale crescita interiore
 longtail-keywords: ["come ho smesso di sentirmi in ritardo sulla vita", "esercizi pratici per vivere più lentamente", "storia vera di liberazione dallo stress", "tecniche bizzarre per ritrovare il presente"]
-slug: /come-ho-smesso-di-inseguire-il-tempo
 featured_post: 'true'
 lang: "it"
 

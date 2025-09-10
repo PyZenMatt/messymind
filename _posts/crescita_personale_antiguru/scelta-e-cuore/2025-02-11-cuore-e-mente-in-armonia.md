@@ -9,7 +9,6 @@ author: Matteo "Il Mistico del Metaverso" Ricci
 image: /img/cuore.jpg
 background: /img/cuore.jpg
 featured_post: false
-permalink: /cuore-vs-mente-manuale-antistronzi/
 meta_description: "Scopri come smettere di ascoltare la mente che ti vuole infilare in un ufficio open space dell'anima. Esercizi pratici per ex illuminati in crisi e aspiranti poeti falliti."
 excerpt: "Tra Excel esistenziali e riunioni Zoom con l'ansia: guida sarcastica per chi credeva di essere Buddha ma fa fatica a staccare le notifiche."
 keywords: "saggezza del cuore per procrastinatori, meditazione per pigri, come non diventare uno zombie da ufficio, detox spirituale low cost, ribellione alla mente razionale"

@@ -10,10 +10,8 @@ keywords:
   - intenzionalità
   - grounding semantico
   - QIP e IA
-categories: ["Filosofia pratica", "Etica & AI"]
+categories: filosofia-pratica
 tags: ["Faggin", "QIP", "coscienza", "IA", "filosofia della mente"]
-permalink: /faggin-ia-non-cosciente/
-canonical_url: https://messymind.it/faggin-ia-non-cosciente/
 image: /assets/images/faggin-ia-cosciente.jpg
 image_alt: "Federico Faggin e la tesi sull'IA non cosciente"
 author: "MessyMind"

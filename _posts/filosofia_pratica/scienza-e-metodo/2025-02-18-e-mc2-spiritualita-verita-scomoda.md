@@ -18,7 +18,6 @@ keywords:
   - formula della felicità einstein
   - E=mc2 spiegazione
   - equivalenza massa energia
-canonical_url: "https://matteoricci.net/e-mc2-spiritualita-verita-scomoda"
 featured_post: true
 ---
  

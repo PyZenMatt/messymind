@@ -11,7 +11,6 @@ keywords:
   - mindfulness ironica  
   - crescita personale autentica  
   - benessere emotivo reale  
-canonical: https://www.messymind.it/about  
 og:  
   title: "Messy Mind: Il Rifugio per Menti Disordinate"  
   description: "Non troverai incenso o sorrisi finti. Solo mindfulness vera per vite imperfette, spiritualità pratica e meditazione per chi odia meditare."  

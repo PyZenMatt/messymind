@@ -3,9 +3,7 @@
 title: "Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)"
 description: "Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche."
 keywords: \["libero arbitrio", "determinismo", "compatibilismo", "incompatibilismo", "esperimento di Libet", "readiness potential", "casi di Frankfurt", "principio possibilità alternative", "Dennett", "Kane", "Schurger"]
-slug: "libero-arbitrio-determinismo"
 tags: \["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
-canonical\_url: "[https://messymind.it/libero-arbitrio-determinismo/](https://messymind.it/libero-arbitrio-determinismo/)"
 categories: [filosofia-pratica]
 subcluster: decisioni-e-bias
 lang: "it"

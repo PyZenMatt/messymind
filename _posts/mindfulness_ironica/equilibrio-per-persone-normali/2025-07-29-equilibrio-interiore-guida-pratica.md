@@ -23,7 +23,6 @@ keywords:
   - armonia interiore  
   - esercizi equilibrio interiore  
   - ricercare pace spirituale  
-canonical_url: "https://www.messymind.it/spiritualita/equilibrio/"  
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
 alt: "Simbolo equilibrio interiore yin-yang"  

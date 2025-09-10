@@ -20,7 +20,6 @@ subcluster: "desiderio-e-rinuncia"
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045099/lust_600_scqaga.jpg
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045110/lust_1600_zdh2f3.webp
 author: "Matteo Ricci l'antiguru"
-slug: "paradosso-desiderio-yeti-palestra-alan-watts"
 lang: "it"
 related: 
  - "risveglio-interiore-successo-autentico-umorismo-esistenziale"

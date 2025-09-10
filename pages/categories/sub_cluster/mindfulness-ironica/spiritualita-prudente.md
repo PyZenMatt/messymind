@@ -3,7 +3,6 @@ layout: subcluster
 title: "Spiritualita Prudente: pratica reale, ma attenzione ad attraversare la strada"
 seo_title: "Spiritualita Prudente: Tecniche Brevi per Cittadini Normali ed Accorti"
 meta_description: Spiritualita da 5–10 minuti senza ritiri. Guide essenziali, camminata consapevole e micro-esercizi da ufficio."
-permalink: "/mindfulness-ironica/spiritualita-prudente/"
 cluster: "mindfulness-ironica"
 cluster_name: "Mindfulness ironica"
 subcluster: "spiritualita-prudente"

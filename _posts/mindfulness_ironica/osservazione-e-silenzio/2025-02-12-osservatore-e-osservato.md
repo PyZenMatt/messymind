@@ -17,7 +17,6 @@ image: "/img/osservatore.jpg"
 background: "/img/osservatore.jpg"  
 featured: "true"
 alt: "Donna che guarda attraverso un bicchiere ricevendo e riflettendo un immagine distorta di se stessa e della realtà"  
-canonical_url: "https://www.messymind.it/osservatore-e-osservato"  
 og:  
   title: "Quello che le Nuvole nella Tua Testa Non Ti Dicono (E il Cielo Segreto che C'è Sotto)"  
   description: "La guida anti-spiritualista per chi vuole smettere di prendersi troppo sul serio. Con esempi pratici: dal traffico di Roma ai rutti filosofici."    

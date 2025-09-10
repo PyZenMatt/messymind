@@ -2,7 +2,6 @@
 layout: page
 title: "Cookie Policy"
 description: "Informativa dettagliata sull'uso dei cookie su Messy Mind"
-permalink: /cookie-policy/
 ---
 
 # Cookie Policy

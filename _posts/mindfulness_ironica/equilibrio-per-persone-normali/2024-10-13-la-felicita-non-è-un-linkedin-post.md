@@ -15,8 +15,6 @@ cornerstone: true
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044485/social\_600\_hbnbdw.jpg
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044484/social\_1600\_nrkirb.webp
 author: "Teo"
-canonical\_url: "[https://www.messymind.blog/equilibrio-interiore-5-mosse-pratiche](https://www.messymind.blog/equilibrio-interiore-5-mosse-pratiche)" # self-referential
-permalink: /equilibrio-interiore-5-mosse-pratiche/
 featured\_post: true
 lang: "it"
 update: 2025-09-09

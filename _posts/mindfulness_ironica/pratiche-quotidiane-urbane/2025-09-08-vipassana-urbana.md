@@ -7,9 +7,6 @@ lang: it
 categories: [mindfulness-ironica]
 subcluster: pratiche-quotidiane-urbane
 tags: ["Vipassana", "Mindfulness", "Antiguru", "Città"]
-permalink: "/mindfulness/vipassana-urbana/"
-slug: "vipassana-urbana"
-canonical_url: "https://messymind.it/mindfulness/vipassana-urbana/"
 date: 2025-09-08T09:00:00+02:00
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_600_igow0o.webp"

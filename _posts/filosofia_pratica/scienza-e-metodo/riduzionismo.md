@@ -14,12 +14,10 @@ keywords:
   author: "Redazione MessyMind"
   date: 2024-03-15
   lastmod: 2025-09-09
-  slug: "limiti-riduzionismo-vs-olismo-emergentismo"
   tags:
  filosofia pratica
  mindfulness ironica
   sistemi complessi
-canonical\_url: "[https://messymind.it/limiti-riduzionismo-vs-olismo-emergentismo/](https://messymind.it/limiti-riduzionismo-vs-olismo-emergentismo/)"
 image: "/assets/cover/riduzionismo-olismo.jpg"
 lang: it
 robots: "index, follow"

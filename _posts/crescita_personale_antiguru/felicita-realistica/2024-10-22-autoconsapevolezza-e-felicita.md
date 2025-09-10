@@ -1,7 +1,6 @@
 ---
 title: "Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere Cactus Emotivi"  
 seo_title: "Ricerca della Felicità [...]"
-permalink: /ricerca-felicita-autenticita-panini-notturni/  
 date: 2024-05-20  
 categories: [crescita-personale-anti-guru]
 subcluster: "felicita-realistica"

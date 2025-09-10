@@ -4,7 +4,6 @@ title: Equilibrio Interiore Per Persone Normali
 seo_title: Equilibrio Interiore Per Persone Normali
 meta_description: Hub del sotto-cluster Equilibrio Interiore Per Persone Normali —
   guide essenziali e articoli.
-permalink: "/mindfulness-ironica/equilibrio-interiore-per-persone-normali/"
 cluster: mindfulness-ironica
 cluster_name: Mindfulness Ironica
 subcluster: equilibrio-interiore-per-persone-normali

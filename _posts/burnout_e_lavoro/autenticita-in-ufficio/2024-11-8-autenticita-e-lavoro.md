@@ -1,43 +1,50 @@
----  
+---
 title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"
-seo_title: "Lavoro e Autenticità: sopravvivere all'ufficio con ironia e pratica"
-seo_description: "Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita."
+seo\_title: "Lavoro e Autenticità: sopravvivere all'ufficio con ironia e pratica"
+seo\_description: "Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita."
 description: "Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint."
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro_ms380g.webp
-url: /autenticita-e-lavoro 
-canonical: https://messymind.it/autenticita-e-lavoro
-tags:  
-  - autenticità sul lavoro  
-  - felicità lavorativa  
-  - spiritualità nel lavoro  
-  - Dharma professionale  
-  - Taoismo e lavoro  
-  - Kabbalah applicata  
-  - crescita personale  
-  - work-life balance  
-  - umorismo aziendale  
-  - strategie pratiche lavoro  
-keywords:  
-  - come essere autentici al lavoro  
-  - trovare felicità nel lavoro  
-  - filosofia orientale applicata al lavoro  
-  - strategie anti-burnout  
-  - umorismo sul lavoro  
-  - crescita spirituale professionale  
-  - gestire colleghi difficili  
-  - trovare vocazione  
-  - ambiente di lavoro positivo  
-  - equilibrio vita-lavoro 
-categories: [burnout-lavoro] 
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro\_1600\_jkqmrs.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro\_ms380g.webp
+categories: \[burnout-lavoro]
 subcluster: "autenticita-in-ufficio"
-focus_keyword: "autenticità sul lavoro" 
-featured_post: 'true'
-image_author: energepic.com 
-image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/
+tags:
+- autenticità sul lavoro
+- felicità lavorativa
+- spiritualità nel lavoro
+- Dharma professionale
+- Taoismo e lavoro
+- Kabbalah applicata
+- crescita personale
+- work-life balance
+- umorismo aziendale
+- strategie pratiche lavoro
+keywords:
+- come essere autentici al lavoro
+- trovare felicità nel lavoro
+- filosofia orientale applicata al lavoro
+- strategie anti-burnout
+- umorismo sul lavoro
+- crescita spirituale professionale
+- gestire colleghi difficili
+- trovare vocazione
+- ambiente di lavoro positivo
+- equilibrio vita-lavoro
+focus_keyword: "autenticità sul lavoro"
+featured_post: true
+image_author: "energepic.com"
+image_author_url: "https://www.pexels.com/it-it/@energepic-com-27411/"
 lang: "it"
+---
+
+---
+
+**Note rapide:**
+
+* Se il tuo layout usa `canonical` (non `canonical_url`), puoi lasciare un alias nel layout o reintrodurre `canonical` copiando lo stesso valore.
+* Mantieni lo schema `/burnout-lavoro/:slug/` anche per gli altri articoli del cluster e collega dai sub-cluster via breadcrumb e box “Esplora il sub-cluster”.
 
 ---  
+
 ## Perché fingiamo tutti di adorare le riunioni?  
 
 Ok, ammettiamolo: se stai leggendo questo articolo mentre sorseggi il terzo caffè della mattina cercando di non pensare alla riunione delle 11, probabilmente *il tuo rapporto col lavoro assomiglia più a un cattivo match su Tinder che a una storia d’amore.*
