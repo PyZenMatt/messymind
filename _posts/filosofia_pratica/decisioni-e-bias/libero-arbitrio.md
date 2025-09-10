@@ -1,25 +1,26 @@
 ---
-title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
+categories:
+- filosofia-pratica
 description: Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura
   di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche.
+image: /assets/libero-arbitrio-cover.webp
 keywords: \["libero arbitrio", "determinismo", "compatibilismo", "incompatibilismo",
   "esperimento di Libet", "readiness potential", "casi di Frankfurt", "principio possibilità
   alternative", "Dennett", "Kane", "Schurger"]
-tags: \["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
-categories:
-- filosofia-pratica
-subcluster: decisioni-e-bias
 lang: it
-robots: index,follow
-updated: '2025-09-08'
-image: /assets/libero-arbitrio-cover.webp
-og\_title: Libero arbitrio e determinismo spiegati semplice
 og\_description: Dennett, Frankfurt, Libet e Schurger senza paroloni. Esempi e FAQ.
 og\_image: /assets/libero-arbitrio-cover.webp
-twitter\_card: summary large image
-schema\_type: BlogPosting
+og\_title: Libero arbitrio e determinismo spiegati semplice
 redirect_from:
 - /libero-arbitrio-e-determinismo-guida-semplice-compatibilismo-libet-schurger/
+- /libero-arbitrio-determinismo/
+robots: index,follow
+schema\_type: BlogPosting
+subcluster: decisioni-e-bias
+tags: \["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
+title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
+twitter\_card: summary large image
+updated: '2025-09-08'
 ---
 ------------------------
 

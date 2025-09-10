@@ -1,34 +1,14 @@
 ---
-layout: post
-title: 'Come Ho Smesso di Inseguire il Tempo: 3 Segreti per Vivere Senza Ansia da
-  Produttività'
-seo_title: Come Ho Smesso di Inseguire il Tempo [...]
+author: Matteo Ricci
+background: /img/accettazione.png
 categories:
 - burnout-lavoro
-subcluster: ritmi-gentili
-tags:
-- gestione dello stress
-- tecniche mindfulness
-- vivere il presente
-- equilibrio vita-lavoro
-- ridurre l'ansia
-- consapevolezza quotidiana
 description: 'Scopri come ho trasformato la mia relazione con il tempo: dalla crisi
   in metropolitana alle piccole rivoluzioni quotidiane che combattono il burnout.
   Strategie pratiche + la storia del mio cactus maestro di vita.'
-image: /img/accettazione.png
-background: /img/accettazione.png
-author: Matteo Ricci
-meta-title: Liberarsi dalla Tirannia del Tempo | Esperienza Personale + Soluzioni
-  Pratiche
-meta-description: 'Ansia da produttività? Scopri come ho sostituito lo stress cronico
-  con micro-abitudini mindfulness. Dalla crisi in metro alla saggezza di un cactus:
-  guida non convenzionale per ritrovare il presente.'
-featured_post: 'true'
 featured_image_alt: Donna che medita vicino a cactus con orologi rotti sullo sfondo
-seo_description: 'Strategie pratiche e micro-abitudini per smettere di inseguire il
-  tempo: esercizi quotidiani, storie personali e tecniche anti-burnout per vivere
-  più presenti.'
+featured_post: 'true'
+image: /img/accettazione.png
 keywords:
 - come ridurre l'ansia da tempo
 - tecniche mindfulness pratiche
@@ -37,14 +17,35 @@ keywords:
 - staccare dalla produttività tossica
 - micro-abitudini anti-burnout
 - storia personale crescita interiore
+lang: it
+layout: post
 longtail-keywords:
 - come ho smesso di sentirmi in ritardo sulla vita
 - esercizi pratici per vivere più lentamente
 - storia vera di liberazione dallo stress
 - tecniche bizzarre per ritrovare il presente
-lang: it
+meta-description: 'Ansia da produttività? Scopri come ho sostituito lo stress cronico
+  con micro-abitudini mindfulness. Dalla crisi in metro alla saggezza di un cactus:
+  guida non convenzionale per ritrovare il presente.'
+meta-title: Liberarsi dalla Tirannia del Tempo | Esperienza Personale + Soluzioni
+  Pratiche
 redirect_from:
 - /come-ho-smesso-di-inseguire-il-tempo-3-segreti-per-vivere-senza-ansia-da-produttivita/
+- //come-ho-smesso-di-inseguire-il-tempo/
+seo_description: 'Strategie pratiche e micro-abitudini per smettere di inseguire il
+  tempo: esercizi quotidiani, storie personali e tecniche anti-burnout per vivere
+  più presenti.'
+seo_title: Come Ho Smesso di Inseguire il Tempo [...]
+subcluster: ritmi-gentili
+tags:
+- gestione dello stress
+- tecniche mindfulness
+- vivere il presente
+- equilibrio vita-lavoro
+- ridurre l'ansia
+- consapevolezza quotidiana
+title: 'Come Ho Smesso di Inseguire il Tempo: 3 Segreti per Vivere Senza Ansia da
+  Produttività'
 ---
   
 ## Quella volta che ho pianto in metropolitana (e non per colpa del ritardo)  

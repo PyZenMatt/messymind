@@ -3,6 +3,7 @@ categories:
 - filosofia-pratica
 redirect_from:
 - /riduzionismo/
+- /limiti-riduzionismo-vs-olismo-emergentismo/
 ---
 layout: post
 title: "Limiti del Riduzionismo: Quando Smontare Tutto Non Basta"

@@ -1,17 +1,24 @@
 ---
-title: 'Risveglio della Kundalini: cos’è, sintomi, rischi e insonnia'
+categories:
+- mindfulness-ironica
+date: 2025-05-11 08:00:00+02:00
 description: 'Guida chiara e prudente al risveglio della Kundalini: definizione, segnali,
   possibili rischi e consigli per gestire insonnia e ansia, con FAQ e fonti.'
+featured_post: true
+image: /img/amore.png
+image_alt: Illustrazione stilizzata dell’energia Kundalini che sale lungo la colonna
 keywords:
 - risveglio della kundalini
 - sintomi kundalini
 - kundalini insonnia
 - rischi kundalini
-seo_title: 'Risveglio della Kundalini: cos’è, sintomi, rischi e come gestire l’insonnia'
-date: 2025-05-11 08:00:00+02:00
+lang: it
 last_modified_at: 2025-09-05 11:45:00+02:00
-categories:
-- mindfulness-ironica
+redirect_from:
+- /risveglio-della-kundalini-cose-sintomi-rischi-e-insonnia/
+- /spiritualita/risveglio-kundalini/
+robots: index, follow
+seo_title: 'Risveglio della Kundalini: cos’è, sintomi, rischi e come gestire l’insonnia'
 subcluster: spiritualita-prudente
 tags:
 - kundalini
@@ -19,14 +26,8 @@ tags:
 - yoga
 - insonnia
 - benessere
-image: /img/amore.png
-image_alt: Illustrazione stilizzata dell’energia Kundalini che sale lungo la colonna
-lang: it
-robots: index, follow
-featured_post: true
+title: 'Risveglio della Kundalini: cos’è, sintomi, rischi e insonnia'
 toc: true
-redirect_from:
-- /risveglio-della-kundalini-cose-sintomi-rischi-e-insonnia/
 ---
 La Kundalini non è un supereroe in lycra che arriva a salvarti dal lunedì. È un tema YMYL (implica corpo e mente), quindi lo trattiamo senza incenso negli occhi: chiaro, utile, zero fuffa. Niente promesse miracolose: solo ciò che può aiutarti **senza farti male**.
 

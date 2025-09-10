@@ -1,15 +1,13 @@
 ---
-layout: post
-title: Fallire è un'arte (e io sono il Picasso degli scivoloni)
-seo_description: 'Racconto ironico e pratico sul fallimento come strumento di crescita:
-  esercizi, storie e consigli per trasformare gli scivoloni in opportunità creative.'
+author: Teo, Il Filosofo Sgualcito
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045412/fail_600_dbf17q.jpg
+categories:
+- crescita-personale-anti-guru
+date: 2023-11-15
 description: 'Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una
   guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti
   e l''arte di non fare i compiti.'
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045412/fail_600_dbf17q.jpg
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045411/fail_1600_ceuie0.webp
-date: 2023-11-15
-author: Teo, Il Filosofo Sgualcito
 keywords:
 - fallimento consapevole
 - crescita personale ironica
@@ -18,16 +16,19 @@ keywords:
 - successo fallimento
 - errori voluti
 - anti-guru
-og_image: /images/nietzsche-cactus-con-occhiali-da-sole.jpg
+lang: it
+layout: post
 og_alt: Cactus in vaso di terracotta con occhiali da sole e cartello 'Resisto ergo
   sum'
-categories:
-- crescita-personale-anti-guru
-subcluster: antifragilita-e-perfezionismo
-tags: cornerstone
-lang: it
+og_image: /images/nietzsche-cactus-con-occhiali-da-sole.jpg
 redirect_from:
 - /fallire-e-un-arte-e-io-sono-il-picasso-degli-scivoloni/
+- //fallire-arte-picasso-scivoloni/
+seo_description: 'Racconto ironico e pratico sul fallimento come strumento di crescita:
+  esercizi, storie e consigli per trasformare gli scivoloni in opportunità creative.'
+subcluster: antifragilita-e-perfezionismo
+tags: cornerstone
+title: Fallire è un'arte (e io sono il Picasso degli scivoloni)
 ---
 **“Fallire è un’arte (e io sono il Picasso degli scivoloni)”**  
 

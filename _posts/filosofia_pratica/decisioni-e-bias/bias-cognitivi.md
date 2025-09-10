@@ -1,7 +1,11 @@
 ---
-title: 'Bias Cognitivi: 10 Esempi Quotidiani e Come Smontarli (2025)'
+author: Redazione MessyMind
+categories:
+- filosofia-pratica
+date: '2025-09-09'
 description: Definizione chiara, 10 esempi reali e 3 tecniche di debiasing pratiche
   per riconoscere le illusioni mentali che influenzano le decisioni.
+image: /images/bias-cognitivi-2025-og.jpg
 keywords:
 - bias cognitivi
 - illusioni cognitive
@@ -11,26 +15,23 @@ keywords:
 - bias di conferma
 - effetto ancoraggio
 - distorsioni cognitive
-author: Redazione MessyMind
-date: '2025-09-09'
-last_modified_at: '2025-09-09'
 lang: it
-image: /images/bias-cognitivi-2025-og.jpg
-categories:
-- filosofia-pratica
+last_modified_at: '2025-09-09'
+og_description: Definizione, 10 esempi reali e 3 tecniche di debiasing pratiche.
+og_image: https://messymind.blog/images/bias-cognitivi-2025-og.jpg
+og_title: 'Bias cognitivi: 10 esempi e come smontarli (2025)'
+redirect_from:
+- /bias-cognitivi-10-esempi-quotidiani-e-come-smontarli-2025/
+- /bias-cognitivi/
+robots: index,follow
 subcluster: decisioni-e-bias
 tags:
 - pensiero critico
 - metacognizione
 - euristiche
 - decisioni
-og_title: 'Bias cognitivi: 10 esempi e come smontarli (2025)'
-og_description: Definizione, 10 esempi reali e 3 tecniche di debiasing pratiche.
-og_image: https://messymind.blog/images/bias-cognitivi-2025-og.jpg
+title: 'Bias Cognitivi: 10 Esempi Quotidiani e Come Smontarli (2025)'
 twitter_card: summary_large_image
-robots: index,follow
-redirect_from:
-- /bias-cognitivi-10-esempi-quotidiani-e-come-smontarli-2025/
 ---
 **In breve** — I bias cognitivi sono scorciatoie mentali che velocizzano le decisioni sacrificando precisione. Qui trovi 10 bias comuni con esempi "metropolitani", 3 tecniche di debiasing validate e un'analisi sul legame con il libero arbitrio. Niente guru, solo esempi pratici.
 
