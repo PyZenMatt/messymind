@@ -3,7 +3,6 @@ layout: subcluster
 title: Scopo E Confini
 seo_title: Scopo E Confini
 meta_description: Hub del sotto-cluster Scopo E Confini — guide essenziali e articoli.
-permalink: "/crescita-personale-anti-guru/scopo-e-confini/"
 cluster: crescita-personale-anti-guru
 cluster_name: Crescita Personale Anti Guru
 subcluster: scopo-e-confini

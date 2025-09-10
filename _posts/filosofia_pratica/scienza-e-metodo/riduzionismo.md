@@ -1,29 +1,30 @@
 ---
-
+categories:
+- filosofia-pratica
+redirect_from:
+- /riduzionismo/
+---
 layout: post
 title: "Limiti del Riduzionismo: Quando Smontare Tutto Non Basta"
 description: "Riduzionismo vs olismo ed emergentismo: cos'è, dove funziona e dove si rompe. Proprietà emergenti spiegate semplice con esempi pratici (traffico, team, stormi)."
 categories: [filosofia-pratica]
 keywords:
- riduzionismo
- olismo
- emergentismo
- proprietà emergenti
- sistemi complessi
- mindfulness pratica
-  author: "Redazione MessyMind"
-  date: 2024-03-15
-  lastmod: 2025-09-09
-  slug: "limiti-riduzionismo-vs-olismo-emergentismo"
-  tags:
- filosofia pratica
- mindfulness ironica
-  sistemi complessi
-canonical\_url: "[https://messymind.it/limiti-riduzionismo-vs-olismo-emergentismo/](https://messymind.it/limiti-riduzionismo-vs-olismo-emergentismo/)"
+  - riduzionismo
+  - olismo
+  - emergentismo
+  - proprietà emergenti
+  - sistemi complessi
+  - mindfulness pratica
+author: "Redazione MessyMind"
+date: 2024-03-15
+lastmod: 2025-09-09
+tags:
+  - filosofia pratica
+  - mindfulness ironica
+  - sistemi complessi
 image: "/assets/cover/riduzionismo-olismo.jpg"
 lang: it
 robots: "index, follow"
-categories: [filosofia-pratica]
 subcluster: scienza-e-metodo
 
 ---

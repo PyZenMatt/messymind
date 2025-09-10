@@ -2,7 +2,6 @@
 layout: page
 title: "Privacy Policy"
 description: "Informativa sulla privacy e protezione dei dati personali di Messy Mind"
-permalink: /privacy-policy/
 ---
 
 # Privacy Policy

@@ -1,23 +1,33 @@
 ---
-title: "Risveglio della Kundalini: cos’è, sintomi, rischi e insonnia"
-description: "Guida chiara e prudente al risveglio della Kundalini: definizione, segnali, possibili rischi e consigli per gestire insonnia e ansia, con FAQ e fonti."
-keywords: ["risveglio della kundalini", "sintomi kundalini", "kundalini insonnia", "rischi kundalini"]
-seo_title: "Risveglio della Kundalini: cos’è, sintomi, rischi e come gestire l’insonnia"
-date: 2025-05-11T08:00:00+02:00
-last_modified_at: 2025-09-05T11:45:00+02:00
-categories: [mindfulness-ironica]
+title: 'Risveglio della Kundalini: cos’è, sintomi, rischi e insonnia'
+description: 'Guida chiara e prudente al risveglio della Kundalini: definizione, segnali,
+  possibili rischi e consigli per gestire insonnia e ansia, con FAQ e fonti.'
+keywords:
+- risveglio della kundalini
+- sintomi kundalini
+- kundalini insonnia
+- rischi kundalini
+seo_title: 'Risveglio della Kundalini: cos’è, sintomi, rischi e come gestire l’insonnia'
+date: 2025-05-11 08:00:00+02:00
+last_modified_at: 2025-09-05 11:45:00+02:00
+categories:
+- mindfulness-ironica
 subcluster: spiritualita-prudente
-tags: ["kundalini", "risveglio spirituale", "yoga", "insonnia", "benessere"]
-image: "/img/amore.png"
-image_alt: "Illustrazione stilizzata dell’energia Kundalini che sale lungo la colonna"
-permalink: /spiritualita/risveglio-kundalini/
-canonical_url: "https://www.messymind.it/spiritualita/risveglio-kundalini/"
-lang: "it"
-robots: "index, follow"
+tags:
+- kundalini
+- risveglio spirituale
+- yoga
+- insonnia
+- benessere
+image: /img/amore.png
+image_alt: Illustrazione stilizzata dell’energia Kundalini che sale lungo la colonna
+lang: it
+robots: index, follow
 featured_post: true
 toc: true
+redirect_from:
+- /risveglio-della-kundalini-cose-sintomi-rischi-e-insonnia/
 ---
-
 La Kundalini non è un supereroe in lycra che arriva a salvarti dal lunedì. È un tema YMYL (implica corpo e mente), quindi lo trattiamo senza incenso negli occhi: chiaro, utile, zero fuffa. Niente promesse miracolose: solo ciò che può aiutarti **senza farti male**.
 
 **In breve (≈50 parole).**  

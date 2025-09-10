@@ -1,29 +1,34 @@
 ---
-title: "Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere Cactus Emotivi"  
-seo_title: "Ricerca della Felicità [...]"
-permalink: /ricerca-felicita-autenticita-panini-notturni/  
-date: 2024-05-20  
-categories: [crescita-personale-anti-guru]
-subcluster: "felicita-realistica"
-tags:  
-  - come trovare la felicità interiore  
-  - esercizi di meditazione quotidiana  
-  - vulnerabilità come forza  
-  - Brené Brown filosofia  
-  - Frida Kahlo ispirazione  
-  - Eckhart Tolle cambiamento  
-  - umorismo esistenziale  
-  - autocritica ironica  
-meta_description: "Scopri come la felicità si nasconde tra cactus emotivi e panini notturni. Guida ironica per chi cerca autenticità, ha pianto davanti a uno spot e nasconde ketchup nel portafoglio. Con citazioni da Brené Brown, Frida Kahlo e consigli pratici."  
-image: "/img/velo.png"
-alt_image: "Un velo che copre due visi. Il velo è l'illusione del titolo che copre la verità"  
-lang: "it"
+title: 'Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere
+  Cactus Emotivi'
+seo_title: Ricerca della Felicità [...]
+date: 2024-05-20
+categories:
+- crescita-personale-anti-guru
+subcluster: felicita-realistica
+tags:
+- come trovare la felicità interiore
+- esercizi di meditazione quotidiana
+- vulnerabilità come forza
+- Brené Brown filosofia
+- Frida Kahlo ispirazione
+- Eckhart Tolle cambiamento
+- umorismo esistenziale
+- autocritica ironica
+meta_description: Scopri come la felicità si nasconde tra cactus emotivi e panini
+  notturni. Guida ironica per chi cerca autenticità, ha pianto davanti a uno spot
+  e nasconde ketchup nel portafoglio. Con citazioni da Brené Brown, Frida Kahlo e
+  consigli pratici.
+image: /img/velo.png
+alt_image: Un velo che copre due visi. Il velo è l'illusione del titolo che copre
+  la verità
+lang: it
 related:
- - "la-felicita-e-un-viaggio"
- - "le-fonmdamenta-della-felicita"
-
+- la-felicita-e-un-viaggio
+- le-fonmdamenta-della-felicita
+redirect_from:
+- /ricerca-della-felicita-autenticita-panini-notturni-e-il-coraggio-di-essere-cactus-emotivi/
 ---
-
 ## La ricerca della felicità (o come ho imparato a smettere di correre e ad amare il panino al salame alle 3 di notte)  
 
 Viviamo in un’epoca che definirei “dell’ansia per procura”: **corriamo** come levrieri dopati, con in tasca un **telefono** che vibra più di un sex toy in saldo su Amazon, e poi ci chiediamo perché la **felicità** sembri sempre in **ritardo**, come l’autobus delle 8.15. Ma se vi dicessi che il segreto non è correre più veloci, ma **fermarsi** a guardare sotto il tappeto del nostro caos interiore? Sì, proprio lì, accanto alle briciole dei biscotti mangiati di nascosto e ai rimorsi per quell’abbonamento a Netflix che paga solo la tua dolce metà.  

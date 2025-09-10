@@ -1,32 +1,38 @@
 ---
 layout: post
 lang: it-IT
-title: "IA cosciente? Per Faggin è un’illusione (2025)"   # 
-description: "Perché secondo Federico Faggin l'IA non capirà mai davvero: significato vs sintassi, intenzionalità, corpo ed esperienza. Spiegazione semplice con esempi, obiezioni e fonti 2025."
+title: IA cosciente? Per Faggin è un’illusione (2025)
+description: 'Perché secondo Federico Faggin l''IA non capirà mai davvero: significato
+  vs sintassi, intenzionalità, corpo ed esperienza. Spiegazione semplice con esempi,
+  obiezioni e fonti 2025.'
 keywords:
-  - Faggin IA cosciente
-  - perché l'IA non capisce
-  - simboli vs significati AI
-  - intenzionalità
-  - grounding semantico
-  - QIP e IA
-categories: ["Filosofia pratica", "Etica & AI"]
-tags: ["Faggin", "QIP", "coscienza", "IA", "filosofia della mente"]
-permalink: /faggin-ia-non-cosciente/
-canonical_url: https://messymind.it/faggin-ia-non-cosciente/
-image: /assets/images/faggin-ia-cosciente.jpg
-image_alt: "Federico Faggin e la tesi sull'IA non cosciente"
-author: "MessyMind"
+- Faggin IA cosciente
+- perché l'IA non capisce
+- simboli vs significati AI
+- intenzionalità
+- grounding semantico
+- QIP e IA
+categories:
+- filosofia-pratica
+tags:
+- Faggin
+- QIP
+- coscienza
+- IA
+- filosofia della mente
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757489886/ai-robot-1920_qsdxot.webp
+image_alt: rappresentazioni di una mano robotica che tocca il dito di una mano umana
+  come il quadro di Michelangelo la creazione di Adamo
+author: MessyMind
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757489915/ai-robot-600_ji6s2p.webp
-image_alt: "rappresentazioni di una mano robotica che tocca il dito di una mano umana come il quadro di Michelangelo la creazione di Adamo"
-image_author: cottonbro 
+image_author: cottonbro
 image_author_url: https://www.pexels.com/it-it/@cottonbro/
 featured_post: true
 twitter_card: summary_large_image
 og_type: article
+redirect_from:
+- /ia-cosciente-per-faggin-e-unillusione-2025/
 ---
-
 # IA Cosciente? Per Faggin è un'Illusione: Cosa Manca Davvero alle Macchine
 
 *Aggiornato il 8 settembre 2025 · Lettura: ~7 min*

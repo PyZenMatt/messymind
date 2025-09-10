@@ -1,38 +1,39 @@
 ---
-layout: post  
-title: "Equilibrio interiore e spirituale: significato, simboli ed esercizi pratici"  
-seo_title: "Equilibrio interiore e spirituale: simboli ed esercizi quotidiani"  
-author: Matteo Ricci  
-categories: [mindfulness-ironica]
+layout: post
+title: 'Equilibrio interiore e spirituale: significato, simboli ed esercizi pratici'
+seo_title: 'Equilibrio interiore e spirituale: simboli ed esercizi quotidiani'
+author: Matteo Ricci
+categories:
+- mindfulness-ironica
 subcluster: equilibrio-interiore-per-persone-normali
-background: /img/yoga.jpg  
-image: /img/yoga.jpg  
-tags:  
-  - equilibrio interiore  
-  - equilibrio spirituale  
-  - simbolo equilibrio interiore  
-  - gestione ansia  
-  - tecniche spirituali  
-  - meditazione pratica  
-  - crescita personale  
-description: "Equilibrio interiore e spirituale: guida pratica con simboli universali ed esercizi quotidiani per coltivare armonia e pace."  
-keywords:  
-  - equilibrio interiore  
-  - equilibrio spirituale  
-  - simbolo equilibrio interiore  
-  - armonia interiore  
-  - esercizi equilibrio interiore  
-  - ricercare pace spirituale  
-canonical_url: "https://www.messymind.it/spiritualita/equilibrio/"  
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
-alt: "Simbolo equilibrio interiore yin-yang"  
-og_type: article  
-og_title: "Equilibrio interiore e spirituale: simboli ed esercizi quotidiani"  
-og_description: "Scopri come coltivare equilibrio interiore e spirituale con simboli universali ed esercizi pratici e accessibili." 
-lang: "it"
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
+tags:
+- equilibrio interiore
+- equilibrio spirituale
+- simbolo equilibrio interiore
+- gestione ansia
+- tecniche spirituali
+- meditazione pratica
+- crescita personale
+description: 'Equilibrio interiore e spirituale: guida pratica con simboli universali
+  ed esercizi quotidiani per coltivare armonia e pace.'
+keywords:
+- equilibrio interiore
+- equilibrio spirituale
+- simbolo equilibrio interiore
+- armonia interiore
+- esercizi equilibrio interiore
+- ricercare pace spirituale
+alt: Simbolo equilibrio interiore yin-yang
+og_type: article
+og_title: 'Equilibrio interiore e spirituale: simboli ed esercizi quotidiani'
+og_description: Scopri come coltivare equilibrio interiore e spirituale con simboli
+  universali ed esercizi pratici e accessibili.
+lang: it
+redirect_from:
+- /equilibrio-interiore-e-spirituale-significato-simboli-ed-esercizi-pratici/
 ---
-
 ## Un vaso rotto e l’arte di non buttarsi via  
 
 L’altro giorno ho rotto un vaso. Non un cimelio etrusco da museo, ma quel vasetto anonimo dell’Ikea che teneva in vita (si fa per dire) una pianta già in burnout. Mentre raccoglievo i cocci mi è venuta addosso una verità scomoda: così finisco anch’io quando perdo l’**equilibrio interiore**. Mi sbatto per tenere tutto insieme – lavoro, relazioni, mutuo, notifiche, perfino il gatto che decide di vomitare proprio sul tappeto buono – e poi basta una piccola spinta, e crack.  

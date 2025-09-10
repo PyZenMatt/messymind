@@ -4,9 +4,6 @@ SEO meta tags, canonical, robots, Open Graph, reading from front matter
 <title>{{ page.seo_title | default: page.title }}</title>
 <meta name="description" content="{{ page.seo_description | default: page.description }}">
 <!-- meta keywords removed (deprecated / inconsistent) -->
-{% if page.canonical_url %}
-  <link rel="canonical" href="{{ page.canonical_url }}">
-{% endif %}
 {% if page.noindex %}
   <meta name="robots" content="noindex, nofollow">
 {% endif %}

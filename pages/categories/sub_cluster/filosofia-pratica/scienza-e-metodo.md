@@ -3,7 +3,6 @@ layout: subcluster
 title: Scienza E Metodo
 seo_title: Scienza E Metodo
 meta_description: Hub del sotto-cluster Scienza E Metodo — guide essenziali e articoli.
-permalink: "/filosofia-pratica/scienza-e-metodo/"
 cluster: filosofia-pratica
 cluster_name: Filosofia Pratica
 subcluster: scienza-e-metodo

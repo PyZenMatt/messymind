@@ -1,23 +1,27 @@
 ---
-
-title: "Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)"
-description: "Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche."
-keywords: \["libero arbitrio", "determinismo", "compatibilismo", "incompatibilismo", "esperimento di Libet", "readiness potential", "casi di Frankfurt", "principio possibilità alternative", "Dennett", "Kane", "Schurger"]
-slug: "libero-arbitrio-determinismo"
+title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
+description: Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura
+  di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche.
+keywords: \["libero arbitrio", "determinismo", "compatibilismo", "incompatibilismo",
+  "esperimento di Libet", "readiness potential", "casi di Frankfurt", "principio possibilità
+  alternative", "Dennett", "Kane", "Schurger"]
 tags: \["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
-canonical\_url: "[https://messymind.it/libero-arbitrio-determinismo/](https://messymind.it/libero-arbitrio-determinismo/)"
-categories: [filosofia-pratica]
+categories:
+- filosofia-pratica
 subcluster: decisioni-e-bias
-lang: "it"
-robots: "index,follow"
-updated: "2025-09-08"
-image: "/assets/libero-arbitrio-cover.webp"
-og\_title: "Libero arbitrio e determinismo spiegati semplice"
-og\_description: "Dennett, Frankfurt, Libet e Schurger senza paroloni. Esempi e FAQ."
-og\_image: "/assets/libero-arbitrio-cover.webp"
-twitter\_card: "summary\_large\_image"
-schema\_type: "BlogPosting"
----------------------------
+lang: it
+robots: index,follow
+updated: '2025-09-08'
+image: /assets/libero-arbitrio-cover.webp
+og\_title: Libero arbitrio e determinismo spiegati semplice
+og\_description: Dennett, Frankfurt, Libet e Schurger senza paroloni. Esempi e FAQ.
+og\_image: /assets/libero-arbitrio-cover.webp
+twitter\_card: summary large image
+schema\_type: BlogPosting
+redirect_from:
+- /libero-arbitrio-e-determinismo-guida-semplice-compatibilismo-libet-schurger/
+---
+------------------------
 
 # Libero Arbitrio e Determinismo: Davvero Non Possiamo Scegliere?
 

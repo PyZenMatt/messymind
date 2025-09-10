@@ -1,4 +1,70 @@
+# (Removed duplicate/invalid top block) 
+# ===== Locale / time =====
+
+lang: it
+timezone: "Europe/Rome"
+title_separator: " — "
+
+# ===== Dev serve (locale) =====
+
+host: "0.0.0.0"
+port: 4000
+
+# ===== Social =====
+
+twitter_username:
+github_username: PyZenMatt
+facebook_username:
+instagram_username:
+linkedin_username: teo-dev
+
 # ===== Site basics =====
+
+title: "Messy Mind"
+email: "info@messymind.it"
+description: "Equilibrio interiore senza prendersi troppo sul serio. Spiritualità pratica per vite moderne e caotiche, senza guru e senza fuffa."
+author: "Matteo Ricci"
+url: "https://messymind.it"
+baseurl: ""                         # dominio custom → lascia vuoto
+background: "/img/home/bg-home.jpeg"
+# ===== Search  Analytics  Verification =====
+google_analytics: "G-MLB32YW721"   # GA4 (se usi include custom, ok lo stesso)
+google_site_verification: ""       # token Search Console (opzionale)
+bing_site_verification: ""         # opzionale
+
+# ===== Permalink (URL a 2 segmenti: cluster/slug, stabili e leggibili) =====
+
+permalink: "/:categories/:title/"
+slugify: "latin"                   # rimuove accenti, spazi e caratteri speciali
+
+# ===== Markdown / Build =====
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+input: GFM
+
+# ===== Performance / Assets =====
+
+sass:
+style: compressed
+
+# ===== Plugins =====
+
+plugins:
+
+-  jekyll-feed
+-  jekyll-sitemap
+-  jekyll-seo-tag
+-  jekyll-compress-images
+
+jekyll-archives:
+enabled: []          # disattiva gli archivi di categoria/tag
+output: false
+
+# ===== Collections =====
+# ===== Site basics =====
+
 title: "Messy Mind"
 email: "info@messymind.it"
 description: "Equilibrio interiore senza prendersi troppo sul serio. Spiritualità pratica per vite moderne e caotiche, senza guru e senza fuffa."
@@ -8,30 +74,36 @@ baseurl: ""                         # dominio custom → lascia vuoto
 background: "/img/home/bg-home.jpeg"
 
 # ===== Locale / time =====
+
 lang: it
 timezone: "Europe/Rome"
 title_separator: " — "
 
 # ===== Dev serve (locale) =====
+
 host: "0.0.0.0"
 port: 4000
 
 # ===== Social =====
-twitter_username:
-github_username: PyZenMatt
-facebook_username:
-instagram_username:
-linkedin_username:
+
+twitter_username: ""
+github_username: "PyZenMatt"
+facebook_username: ""
+instagram_username: ""
+linkedin_username: "teo-dev"
 
 # ===== Search / Analytics / Verification =====
 google_analytics: "G-MLB32YW721"   # GA4 (se usi include custom, ok lo stesso)
 google_site_verification: ""       # token Search Console (opzionale)
 bing_site_verification: ""         # opzionale
 
-# ===== Permalink (URL puliti, indipendenti da cartelle e categorie) =====
-permalink: "/:slug/"
+# ===== Permalink (URL a 2 segmenti: cluster/slug, stabili e leggibili) =====
+
+permalink: "/:categories/:title/"
+slugify: "latin"                   # rimuove accenti, spazi e caratteri speciali
 
 # ===== Markdown / Build =====
+
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -43,30 +115,36 @@ future: false
 strict_front_matter: true
 
 # ===== Performance / Assets =====
+
 sass:
   style: compressed
 
 # ===== Plugins =====
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-compress-images
-  # Se vuoi paginare liste custom (categorie, ecc.) valuta jekyll-paginate-v2
+
+# Se vuoi paginare liste custom (categorie, ecc.) valuta jekyll-paginate-v2
 
 # ===== Disattiva archivi auto (evita duplicati tipo /categories/slug/) =====
+
 jekyll-archives:
   enabled: []          # disattiva gli archivi di categoria/tag
   output: false
 
 # ===== Collections =====
+
 collections:
   pages:
     output: true
     permalink: "/:path/"
 
 # ===== Defaults =====
+
 defaults:
   # Pagine
   - scope:
@@ -109,7 +187,6 @@ compress_html:
 # ===== Include / Exclude =====
 include:
   - .well-known
-
 exclude:
   - scripts/
   - node_modules/
@@ -117,12 +194,12 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-  - "*.bak"
-  - "*.backup"
-  - "*.tmp"
-  - "*_backup.*"
+  - ".bak"
+  - ".backup"
+  - ".tmp"
+  - "_backup.-"
   - performance-results/
-  - build-report-*.md
+  - build-report-- .md
   - .sass-cache
   - .jekyll-cache
   - .jekyll-metadata

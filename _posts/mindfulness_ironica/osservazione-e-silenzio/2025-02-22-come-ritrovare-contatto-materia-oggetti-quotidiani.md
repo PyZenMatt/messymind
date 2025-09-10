@@ -1,53 +1,56 @@
 ---
-slug: /come-ritrovare-contatto-materia-oggetti-quotidiani
-title: "Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo Consapevole" 
-seo_title: "Come Ritrovare il Contatto con la Materia | Guida Prati"
-description: "Scopri 5 metodi concreti per riconquistare il rapporto con gli oggetti quotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di mindfulness tattile." 
-seo_description: "Guida pratica al materialismo consapevole: 5 esercizi per ritrovare il contatto con gli oggetti quotidiani e vivere con più presenza." 
+title: Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo Consapevole
+seo_title: Come Ritrovare il Contatto con la Materia | Guida Prati
+description: Scopri 5 metodi concreti per riconquistare il rapporto con gli oggetti
+  quotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di
+  mindfulness tattile.
+seo_description: 'Guida pratica al materialismo consapevole: 5 esercizi per ritrovare
+  il contatto con gli oggetti quotidiani e vivere con più presenza.'
 author: Matteo Ricci
-categories: [mindfulness-ironica]
+categories:
+- mindfulness-ironica
 subcluster: osservazione-e-silenzio
-meta_robots: 
-  - index
-  - follow
-  - max-image-preview:large
+meta_robots:
+- index
+- follow
+- max-image-preview:large
 og:
-  title: "Il Segreto per Smettere di Vivere in Modalità Autopilo | Guida Pratica"
+  title: Il Segreto per Smettere di Vivere in Modalità Autopilo | Guida Pratica
   type: article
 keywords:
-  - contatto con la materia
-  - materialismo consapevole
-  - lavoro manuale benefici
-  - mindfulness tattile
-  - rapporto con oggetti quotidiani
-longtail_keywords: 
-  - "come ritrovare il contatto con la realtà"
-  - "esercizi pratici per apprezzare gli oggetti"
-  - "perché non sentiamo più le cose che tocchiamo"
-  - "benefici psicologici del lavoro manuale"
-  - "filosofia materialismo moderno"
-cornerstone: false 
-tags: 
-  - consapevolezza
-  - filosofia moderna
-  - psicologia degli oggetti
-  - minimalismo
-  - artigianato
-schema: 
-  - "@type": Article
-    headline: "Come Ritrovare il Contatto con la Materia"
-    author: 
-      "@type": Person
-      name: "Matteo Ricci"
-    description: "Guida pratica al materialismo consapevole con esercizi e riflessioni filosofiche"
+- contatto con la materia
+- materialismo consapevole
+- lavoro manuale benefici
+- mindfulness tattile
+- rapporto con oggetti quotidiani
+longtail_keywords:
+- come ritrovare il contatto con la realtà
+- esercizi pratici per apprezzare gli oggetti
+- perché non sentiamo più le cose che tocchiamo
+- benefici psicologici del lavoro manuale
+- filosofia materialismo moderno
+cornerstone: false
+tags:
+- consapevolezza
+- filosofia moderna
+- psicologia degli oggetti
+- minimalismo
+- artigianato
+schema:
+- '@type': Article
+  headline: Come Ritrovare il Contatto con la Materia
+  author:
+    '@type': Person
+    name: Matteo Ricci
+  description: Guida pratica al materialismo consapevole con esercizi e riflessioni
+    filosofiche
 featured_post: 'true'
-image: "/img/materialismo.jpg"
-background: "/img/materialismo.jpg"
-lang: "it"
-
-
+image: /img/materialismo.jpg
+background: /img/materialismo.jpg
+lang: it
+redirect_from:
+- /come-ritrovare-il-contatto-con-la-materia-guida-pratica-al-materialismo-consapevole/
 ---
-
 # La strana storia di come abbiamo smesso di sentire le cose
 
 Apri quel cassetto. Quello dove butti le chiavi, i tappi delle penne, le monete polacche che non sai dove spendere. Quanti oggetti ci stanno? Cento? Duecento? Eppure, se ti chiedo di descrivere la **consistenza** del portafoglio che tocchi ogni giorno, ti viene da ridere. Viviamo immersi in un mare di **plastica** e **metallo**, ma abbiamo le dita anestetizzate.

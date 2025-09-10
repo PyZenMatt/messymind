@@ -1,3 +1,9 @@
+---
+categories:
+- crescita-personale-antiguru
+redirect_from:
+- /la-felicita-e-un-viaggio/
+---
 ﻿---
 layout: post
 title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E Io Ho Sbagliato Strada Più Volte)"
