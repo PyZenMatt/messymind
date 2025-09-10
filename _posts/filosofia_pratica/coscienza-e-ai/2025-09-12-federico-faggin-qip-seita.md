@@ -1,40 +1,49 @@
 ---
-
 layout: post
-
-title: "Federico Faggin e QIP: coscienza, séità e critiche"
-description: "Cos’è il QIP di Faggin? Coscienza fondamentale, ‘séità’, basi quantistiche (no-cloning/Holevo), differenze da IIT e critiche, con fonti."
-excerpt: "QIP di Faggin spiegato semplice: coscienza fondamentale, séità, basi quantistiche e confronto con IIT — con critiche e fonti verificate."
-date: "2025-09-12T09:00:00+02:00"
-last_modified_at: "2025-09-12T09:00:00+02:00"
-lang: "it-IT"
-author: "MessyMind"
-categories: [filosofia-pratica]
+title: 'Federico Faggin e QIP: coscienza, séità e critiche'
+description: Cos’è il QIP di Faggin? Coscienza fondamentale, ‘séità’, basi quantistiche
+  (no-cloning/Holevo), differenze da IIT e critiche, con fonti.
+excerpt: 'QIP di Faggin spiegato semplice: coscienza fondamentale, séità, basi quantistiche
+  e confronto con IIT — con critiche e fonti verificate.'
+date: '2025-09-12T09:00:00+02:00'
+last_modified_at: '2025-09-12T09:00:00+02:00'
+lang: it-IT
+author: MessyMind
+categories:
+- filosofia-pratica
 subcluster: coscienza-e-ai
-tags: ["Federico Faggin","QIP","Coscienza","Fisica quantistica","IIT","Séità"]
+tags:
+- Federico Faggin
+- QIP
+- Coscienza
+- Fisica quantistica
+- IIT
+- Séità
 keywords:
-  - "teoria coscienza Federico Faggin"
-  - "QIP"
-  - "séità"
-  - "campi quantistici coscienti"
-  - "critiche Faggin"
-  - "IIT vs QIP"
-  - "non-clonazione quantistica"
-  - "limite di Holevo"
-image: "/assets/images/faggin-qip-og.jpg"
-image_alt: "Federico Faggin e il QIP: coscienza fondamentale, séità e basi quantistiche"
-og_title: "Federico Faggin e QIP: coscienza, séità e critiche"
-og_description: "Cos’è il QIP di Faggin? Coscienza fondamentale, séità, basi quantistiche (no-cloning/Holevo), confronto con IIT e critiche — con fonti."
-og_type: "article"
-og_image: "/assets/images/faggin-qip-og.jpg"
-twitter_card: "summary_large_image"
-robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
+- teoria coscienza Federico Faggin
+- QIP
+- séità
+- campi quantistici coscienti
+- critiche Faggin
+- IIT vs QIP
+- non-clonazione quantistica
+- limite di Holevo
+image: /assets/images/faggin-qip-og.jpg
+image_alt: 'Federico Faggin e il QIP: coscienza fondamentale, séità e basi quantistiche'
+og_title: 'Federico Faggin e QIP: coscienza, séità e critiche'
+og_description: Cos’è il QIP di Faggin? Coscienza fondamentale, séità, basi quantistiche
+  (no-cloning/Holevo), confronto con IIT e critiche — con fonti.
+og_type: article
+og_image: /assets/images/faggin-qip-og.jpg
+twitter_card: summary_large_image
+robots: index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
 sitemap: true
 priority: 0.8
-changefreq: "monthly"
-schema_type: "BlogPosting"
+changefreq: monthly
+schema_type: BlogPosting
+redirect_from:
+- /federico-faggin-e-qip-coscienza-seita-e-critiche/
 ---
-
 # Federico Faggin, QIP e Séità: La Teoria della Coscienza che Sfida il Mainstream
 
 Se pensate che la coscienza sia quel simpatico effetto collaterale che il vostro cervello produce mentre cercate le chiavi dell'auto, Federico Faggin – l'ingegnere che guidò il design del primo microprocessore commerciale (Intel 4004) e ne è co-inventore – ha una notizia per voi: state sottovalutando il problema. La sua idea, radicale? La coscienza non *emerge* dalla materia. È esattamente il contrario: è lei il mattone fondamentale dell'universo. Pronti a farvi venire il mal di testa?

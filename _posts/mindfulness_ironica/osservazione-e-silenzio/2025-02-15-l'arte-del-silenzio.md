@@ -1,27 +1,34 @@
 ---
-title: "Esercizi per il Silenzio Interiore: 5 pratiche anti-guru per sopravvivere al caos"
-seo_title: "Esercizi per il Silenzio Interiore: pratiche anti-guru"
-description: "Scopri 5 esercizi pratici per il silenzio interiore: spegnere notifiche, camminare senza cuffie, respirare meglio. Mindfulness ironica e zero fuffa."
-categories: [mindfulness-ironica]
+title: 'Esercizi per il Silenzio Interiore: 5 pratiche anti-guru per sopravvivere
+  al caos'
+seo_title: 'Esercizi per il Silenzio Interiore: pratiche anti-guru'
+description: 'Scopri 5 esercizi pratici per il silenzio interiore: spegnere notifiche,
+  camminare senza cuffie, respirare meglio. Mindfulness ironica e zero fuffa.'
+categories:
+- mindfulness-ironica
 subcluster: osservazione-e-silenzio
-lang: "it"
-keywords: 
-  - esercizi per il silenzio interiore
-  - pratiche di quiete mentale
-  - silenzio interiore
-  - meditazione per procrastinatori
-  - crescita personale ironica
-  - esercizi mindfulness anti-guru
-  - ansia da notifiche
-  - spiritualità 2.0
-og_title: "Esercizi per il Silenzio Interiore: pratiche anti-guru"
-og_description: "5 esercizi semplici e ironici per coltivare il silenzio interiore senza diventare monaco zen. Sopravvivenza urbana alla portata di tutti."
+lang: it
+keywords:
+- esercizi per il silenzio interiore
+- pratiche di quiete mentale
+- silenzio interiore
+- meditazione per procrastinatori
+- crescita personale ironica
+- esercizi mindfulness anti-guru
+- ansia da notifiche
+- spiritualità 2.0
+og_title: 'Esercizi per il Silenzio Interiore: pratiche anti-guru'
+og_description: 5 esercizi semplici e ironici per coltivare il silenzio interiore
+  senza diventare monaco zen. Sopravvivenza urbana alla portata di tutti.
 image: /img/silenzio.jpg
 background: /img/silenzio.jpg
 author: Matteo Ricci
-author_bio: "Scrivo manuali di sopravvivenza spirituale per generazioni cresciute a pane e buffer del video. Ex esperto di ansia da produttività, ora insegno l'arte del non fare (con moderazione)."
+author_bio: Scrivo manuali di sopravvivenza spirituale per generazioni cresciute a
+  pane e buffer del video. Ex esperto di ansia da produttività, ora insegno l'arte
+  del non fare (con moderazione).
+redirect_from:
+- /esercizi-per-il-silenzio-interiore-5-pratiche-anti-guru-per-sopravvivere-al-caos/
 ---
-
 ## Il Silenzio Interiore: Un Manuale per Sopravvissuti all’Epoca del Doomscrolling  
 
 C’è un momento, ogni giorno, in cui il mio cervello assomiglia alla home di TikTok: video di gattini, tutorial su come stirare le camicie con la piastra per capelli, e quella canzone maledetta che ti entra nell’ipofisi. È lì, tra una notifica di LinkedIn e lo story di un ex che medita su una spiaggia thailandese, che mi chiedo: *ma se spegnessi tutto, diventerei un Buddha o semplicemente mi annoierei come una cozza fuori dall’acqua?*  

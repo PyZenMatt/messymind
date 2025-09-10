@@ -1,27 +1,39 @@
 ---
 layout: post
-title: "Non serve il momento perfetto: inizia male e migliora"
-seo_description: "Smetti di aspettare il momento perfetto: strategie pratiche e gentili per superare perfezionismo e procrastinazione con micro-azioni quotidiane e pazienza attiva."
-description: "Smetti di aspettare l’epifania. Inizia anche male: pazienza attiva, micro-iterazioni e log del bambù per sbloccare perfezionismo e procrastinazione."
-date: "2025-08-26"
-lang: "it"
-categories: [crescita-personale-anti-guru]
-subcluster: "antifragilita-e-perfezionismo"
-tags: ["perfezionismo","procrastinazione","pazienza attiva","micro-abitudini","miglioramento continuo","kaizen","compounding","disciplina gentile"]
-author: "Matteo Ricci"
+title: 'Non serve il momento perfetto: inizia male e migliora'
+seo_description: 'Smetti di aspettare il momento perfetto: strategie pratiche e gentili
+  per superare perfezionismo e procrastinazione con micro-azioni quotidiane e pazienza
+  attiva.'
+description: 'Smetti di aspettare l’epifania. Inizia anche male: pazienza attiva,
+  micro-iterazioni e log del bambù per sbloccare perfezionismo e procrastinazione.'
+date: '2025-08-26'
+lang: it
+categories:
+- crescita-personale-anti-guru
+subcluster: antifragilita-e-perfezionismo
+tags:
+- perfezionismo
+- procrastinazione
+- pazienza attiva
+- micro-abitudini
+- miglioramento continuo
+- kaizen
+- compounding
+- disciplina gentile
+author: Matteo Ricci
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756192777/radici_1920_etnsz5.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756192777/radici_600_yhtq3e.webp
-image_alt: "Bambù: radici invisibili che si accumulano prima dello slancio in altezza"
-image_author: "Matteo Ricci"
-robots: "index,follow"
+image_alt: 'Bambù: radici invisibili che si accumulano prima dello slancio in altezza'
+image_author: Matteo Ricci
+robots: index,follow
 sitemap: true
-image_author_url: "https://link-al-profilo-o-fonte"
-lang: "it"
-featured: "true"
-related: 
-  - fallire-arte-picasso-scivoloni 
+image_author_url: https://link-al-profilo-o-fonte
+featured: 'true'
+related:
+- fallire-arte-picasso-scivoloni
+redirect_from:
+- /non-serve-il-momento-perfetto-inizia-male-e-migliora/
 ---
-
 # Non serve il momento perfetto: inizia male e migliora
 
   <script type="application/ld+json">

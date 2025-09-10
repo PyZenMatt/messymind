@@ -1,29 +1,30 @@
 ---
 layout: post
-title: "Equilibrio Interiore: 5 Mosse Pratiche (Senza Guru e con Ironia)"
-seo\_title: "Equilibrio Interiore: Guida Pratica Anti-Guru in 10 Minuti"
-description: "Cos'è l'equilibrio interiore e come trovarlo senza santini o slogan: una guida pratica, ironica e senza dogmi per chi ha poco tempo e tanto sarcasmo."
-categories: [mindfulness-ironica]
+title: 'Equilibrio Interiore: 5 Mosse Pratiche (Senza Guru e con Ironia)'
+seo\_title: 'Equilibrio Interiore: Guida Pratica Anti-Guru in 10 Minuti'
+description: 'Cos''è l''equilibrio interiore e come trovarlo senza santini o slogan:
+  una guida pratica, ironica e senza dogmi per chi ha poco tempo e tanto sarcasmo.'
+categories:
+- mindfulness-ironica
 subcluster: equilibrio-interiore-per-persone-normali
-tags: 
- - mindfulness-ironica 
- - meditazione-10-minuti 
- - spiritualità-moderna 
- - benessere-psicofisico
- - cornerstone
+tags:
+- mindfulness-ironica
+- meditazione-10-minuti
+- spiritualità-moderna
+- benessere-psicofisico
+- cornerstone
 cornerstone: true
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044485/social\_600\_hbnbdw.jpg
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044484/social\_1600\_nrkirb.webp
-author: "Teo"
+author: Teo
 featured\_post: true
-lang: "it"
+lang: it
 update: 2025-09-09
 last\_modified\_at: 2025-09-09
 is_cornerstone: true
-
-
+redirect_from:
+- /equilibrio-interiore-5-mosse-pratiche-senza-guru-e-con-ironia/
 ---
-
 **In breve —** Equilibrio interiore ≠ illuminazione su un monte. È la capacità di non mandare a quel paese il collega che ti ruba il caffè. È uno stato di non-reattività cronica. In questa guida pratica e ironica, trovi una definizione chiara, 5 esercizi da fare in 10 minuti (anche in ufficio) e la rassicurazione che non serve diventare monaci. Solo umani un po' più funzionali.
 
 > **Definizione breve —** L’equilibrio interiore è la capacità di **non reagire in automatico** e scegliere risposte utili sotto stress, allineando mente e corpo (equilibrio psicofisico).

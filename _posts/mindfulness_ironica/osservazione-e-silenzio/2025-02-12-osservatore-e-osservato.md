@@ -1,36 +1,43 @@
----  
-title: "Sei il Cielo, Non le Nuvole: Come Scoprire Chi Sei Davvero (Spoiler: Non Sono i Tuoi Pensieri)"  
-seo_title: "Sei il Cielo, Non le Nuvole [...]"
-description: "Mente che frulla, ansie che tornano, dubbi che ti perseguitano? Un viaggio ironico e concreto per smettere di credere alle favole che ti racconti. Spoiler: la libertà è più vicina di quel che pensi."
-categories: [mindfulness-ironica]
-subcluster: osservazione-e-silenzio  
-keywords:  
-  - consapevolezza  
-  - meditazione  
-  - mente e pensieri  
-  - libertà interiore  
-  - vivere il presente  
-  - mindfulness ironica  
-  - gestione ansia  
-  - autoironia e crescita personale  
-image: "/img/osservatore.jpg"
-background: "/img/osservatore.jpg"  
-featured: "true"
-alt: "Donna che guarda attraverso un bicchiere ricevendo e riflettendo un immagine distorta di se stessa e della realtà"  
-og:  
-  title: "Quello che le Nuvole nella Tua Testa Non Ti Dicono (E il Cielo Segreto che C'è Sotto)"  
-  description: "La guida anti-spiritualista per chi vuole smettere di prendersi troppo sul serio. Con esempi pratici: dal traffico di Roma ai rutti filosofici."    
-  title: "Sei il Cielo, Non le Nuvole: Manuale di Sopravvivenza alla Propria Mente"  
-  description: "Per chi è stanco di farsi prendere per il culo dai propri pensieri. Lezioni apprese tra supermercati e stazioni."  
-  image: "/images/cielo-nuvole-twitter.jpg"  
-robots: "index, follow"  
-breadcrumbs:  
-  - name: "Blog"  
-    path: "/blog/"  
-  - name: "Crescita Personale"  
-    path: "/blog/crescita-personale"  
-lang: "it"  
----  
+---
+title: 'Sei il Cielo, Non le Nuvole: Come Scoprire Chi Sei Davvero (Spoiler: Non Sono
+  i Tuoi Pensieri)'
+seo_title: Sei il Cielo, Non le Nuvole [...]
+description: 'Mente che frulla, ansie che tornano, dubbi che ti perseguitano? Un viaggio
+  ironico e concreto per smettere di credere alle favole che ti racconti. Spoiler:
+  la libertà è più vicina di quel che pensi.'
+categories:
+- mindfulness-ironica
+subcluster: osservazione-e-silenzio
+keywords:
+- consapevolezza
+- meditazione
+- mente e pensieri
+- libertà interiore
+- vivere il presente
+- mindfulness ironica
+- gestione ansia
+- autoironia e crescita personale
+image: /img/osservatore.jpg
+background: /img/osservatore.jpg
+featured: 'true'
+alt: Donna che guarda attraverso un bicchiere ricevendo e riflettendo un immagine
+  distorta di se stessa e della realtà
+og:
+  title: 'Sei il Cielo, Non le Nuvole: Manuale di Sopravvivenza alla Propria Mente'
+  description: Per chi è stanco di farsi prendere per il culo dai propri pensieri.
+    Lezioni apprese tra supermercati e stazioni.
+  image: /images/cielo-nuvole-twitter.jpg
+robots: index, follow
+breadcrumbs:
+- name: Blog
+  path: /blog/
+- name: Crescita Personale
+  path: /blog/crescita-personale
+lang: it
+redirect_from:
+- /sei-il-cielo-non-le-nuvole-come-scoprire-chi-sei-davvero-spoiler-non-sono-i-tuoi-pensieri/
+---
+  
 
 
 ## Sei il cielo, non le nuvole  

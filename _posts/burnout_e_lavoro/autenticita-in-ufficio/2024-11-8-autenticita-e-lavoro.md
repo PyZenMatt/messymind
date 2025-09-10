@@ -1,12 +1,18 @@
 ---
-title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"
-seo\_title: "Lavoro e Autenticità: sopravvivere all'ufficio con ironia e pratica"
-seo\_description: "Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita."
-description: "Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint."
+title: 'Lavoro e Autenticità: Come Sopravvivere all''Ufficio Senza Perdere l''Anima
+  (e la Sanità Mentale)'
+seo\_title: 'Lavoro e Autenticità: sopravvivere all''ufficio con ironia e pratica'
+seo\_description: 'Strategie pratiche e ironiche per restare autentici al lavoro:
+  micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare
+  le riunioni in momenti di crescita.'
+description: Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space
+  a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro
+  i colleghi tossici e Yoga per sopravvivere agli sprint.
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro\_1600\_jkqmrs.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro\_ms380g.webp
-categories: \[burnout-lavoro]
-subcluster: "autenticita-in-ufficio"
+categories:
+- burnout-lavoro
+subcluster: autenticita-in-ufficio
 tags:
 - autenticità sul lavoro
 - felicità lavorativa
@@ -29,13 +35,14 @@ keywords:
 - trovare vocazione
 - ambiente di lavoro positivo
 - equilibrio vita-lavoro
-focus_keyword: "autenticità sul lavoro"
+focus_keyword: autenticità sul lavoro
 featured_post: true
-image_author: "energepic.com"
-image_author_url: "https://www.pexels.com/it-it/@energepic-com-27411/"
-lang: "it"
+image_author: energepic.com
+image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/
+lang: it
+redirect_from:
+- /lavoro-e-autenticita-come-sopravvivere-all-ufficio-senza-perdere-l-anima-e-la-sanita-mentale/
 ---
-
 ---
 
 **Note rapide:**

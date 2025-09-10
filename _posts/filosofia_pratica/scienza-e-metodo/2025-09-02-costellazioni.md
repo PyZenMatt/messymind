@@ -1,26 +1,35 @@
 ---
 layout: post
-title: "Costellazioni familiari: sfogo teatrale o terapia?"
-description: "Le costellazioni familiari non sono terapia, ma psicodramma catartico. Scopri origini, rischi ed esperienze reali per gestire famiglie tossiche."
-date: "2025-09-02"
-last_modified_at: "2025-09-02"
-lang: "it"
-categories: [filosofia-pratica]
+title: 'Costellazioni familiari: sfogo teatrale o terapia?'
+description: Le costellazioni familiari non sono terapia, ma psicodramma catartico.
+  Scopri origini, rischi ed esperienze reali per gestire famiglie tossiche.
+date: '2025-09-02'
+last_modified_at: '2025-09-02'
+lang: it
+categories:
+- filosofia-pratica
 subcluster: scienza-e-metodo
-tags: ["blog","seo","costellazioni familiari","psicodramma","campo morfico","guru spirituali","famiglie tossiche"]
-author: "Matteo Ricci"
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801899/nonni_1920_u8uutf.webp"
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801804/nonni_600_dbw4ie.webp"
-image_alt: "Rappresentazione di un nonno e una nonna mentre hanno in braccio i nipoti"
-robots: "index,follow"
+tags:
+- blog
+- seo
+- costellazioni familiari
+- psicodramma
+- campo morfico
+- guru spirituali
+- famiglie tossiche
+author: Matteo Ricci
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801899/nonni_1920_u8uutf.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801804/nonni_600_dbw4ie.webp
+image_alt: Rappresentazione di un nonno e una nonna mentre hanno in braccio i nipoti
+robots: index,follow
 sitemap: true
 draft: false
-lang: "it"
-image_author: pixabay 
+image_author: pixabay
 image_author_url: https://pixabay.com
-featured: "true"
+featured: 'true'
+redirect_from:
+- /costellazioni-familiari-sfogo-teatrale-o-terapia/
 ---
-
 # Costellazioni familiari: tra catarsi teatrale e illusione terapeutica
 
 ## Un po’ di storia: chi ha inventato le costellazioni familiari

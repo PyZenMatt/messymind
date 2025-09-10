@@ -1,25 +1,33 @@
 ---
 layout: post
-title: "Saggezza del Cuore: Come Non Farti Fregare dalla Tua Mente (Manuale per Ex Buddha in Saldo)"
-seo_title: "Saggezza del Cuore [...]"
-categories: [crescita-personale-anti-guru]
-subcluster: "scelta-e-cuore"
+title: 'Saggezza del Cuore: Come Non Farti Fregare dalla Tua Mente (Manuale per Ex
+  Buddha in Saldo)'
+seo_title: Saggezza del Cuore [...]
+categories:
+- crescita-personale-anti-guru
+subcluster: scelta-e-cuore
 date: 2023-10-15
 author: Matteo "Il Mistico del Metaverso" Ricci
 image: /img/cuore.jpg
 background: /img/cuore.jpg
 featured_post: false
-meta_description: "Scopri come smettere di ascoltare la mente che ti vuole infilare in un ufficio open space dell'anima. Esercizi pratici per ex illuminati in crisi e aspiranti poeti falliti."
-excerpt: "Tra Excel esistenziali e riunioni Zoom con l'ansia: guida sarcastica per chi credeva di essere Buddha ma fa fatica a staccare le notifiche."
-keywords: "saggezza del cuore per procrastinatori, meditazione per pigri, come non diventare uno zombie da ufficio, detox spirituale low cost, ribellione alla mente razionale"
+meta_description: Scopri come smettere di ascoltare la mente che ti vuole infilare
+  in un ufficio open space dell'anima. Esercizi pratici per ex illuminati in crisi
+  e aspiranti poeti falliti.
+excerpt: 'Tra Excel esistenziali e riunioni Zoom con l''ansia: guida sarcastica per
+  chi credeva di essere Buddha ma fa fatica a staccare le notifiche.'
+keywords: saggezza del cuore per procrastinatori, meditazione per pigri, come non
+  diventare uno zombie da ufficio, detox spirituale low cost, ribellione alla mente
+  razionale
 emoji_tema: 💼🔥🙏😂
-warning: "Attenzione: questo articolo potrebbe far venire voglia di licenziare la tua ansia e sposare un cactus simbolico"
-lang: "it"
+warning: 'Attenzione: questo articolo potrebbe far venire voglia di licenziare la
+  tua ansia e sposare un cactus simbolico'
+lang: it
 related:
- - ""
-
+- ''
+redirect_from:
+- /saggezza-del-cuore-come-non-farti-fregare-dalla-tua-mente-manuale-per-ex-buddha-in-saldo/
 ---
-
 ## La Saggezza del Cuore (e di Quella Volta che Credevo di Essere Buddha in Versione Discount)
 
 Avevo iniziato questo articolo come **l’ennesimo** post rimasticato, riscritto e impacchettato con la solita aria da guru improvvisato. Immaginate: io, in pigiama, con la tazza di tè freddo e l’espressione ispirata di uno che ha appena scoperto l’acqua calda. *"Scriverò della saggezza del cuore!*", pensavo, gonfio di un entusiasmo da novello **Siddhartha** sotto l’albero del Wi-Fi. Poi, ovvio, la realtà: tre bozze cancellate, la playlist su Spotify che passa da Mozart a Fedez, e la consapevolezza che forse, forse, non sono **l’illuminato** che credevo.

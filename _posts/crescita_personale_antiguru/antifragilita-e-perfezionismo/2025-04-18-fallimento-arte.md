@@ -1,35 +1,34 @@
 ---
 layout: post
-title: "Fallire è un'arte (e io sono il Picasso degli scivoloni)"  
-seo_description: "Racconto ironico e pratico sul fallimento come strumento di crescita: esercizi, storie e consigli per trasformare gli scivoloni in opportunità creative."  
-description: "Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti e l'arte di non fare i compiti."  
+title: Fallire è un'arte (e io sono il Picasso degli scivoloni)
+seo_description: 'Racconto ironico e pratico sul fallimento come strumento di crescita:
+  esercizi, storie e consigli per trasformare gli scivoloni in opportunità creative.'
+description: 'Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una
+  guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti
+  e l''arte di non fare i compiti.'
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045412/fail_600_dbf17q.jpg
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045411/fail_1600_ceuie0.webp
-date: 2023-11-15  
-author: Teo, Il Filosofo Sgualcito  
-keywords:  
-  - fallimento consapevole  
-  - crescita personale ironica  
-  - Thoreau moderno  
-  - Wu Wei quotidiano  
-  - successo fallimento  
-  - errori voluti  
-  - anti-guru
-og_image: /images/nietzsche-cactus-con-occhiali-da-sole.jpg  
-og_alt: "Cactus in vaso di terracotta con occhiali da sole e cartello 'Resisto ergo sum'"  
-categories: [crescita-personale-anti-guru]
-subcluster: "antifragilita-e-perfezionismo"
-tags:  
-  - fallimento  
-  - Thoreau  
-  - Taoismo  
-  - produttività  
-  - autosabotaggio creativo  
-  - spiritualità demistificata
+date: 2023-11-15
+author: Teo, Il Filosofo Sgualcito
+keywords:
+- fallimento consapevole
+- crescita personale ironica
+- Thoreau moderno
+- Wu Wei quotidiano
+- successo fallimento
+- errori voluti
+- anti-guru
+og_image: /images/nietzsche-cactus-con-occhiali-da-sole.jpg
+og_alt: Cactus in vaso di terracotta con occhiali da sole e cartello 'Resisto ergo
+  sum'
+categories:
+- crescita-personale-anti-guru
+subcluster: antifragilita-e-perfezionismo
 tags: cornerstone
-lang: "it"
+lang: it
+redirect_from:
+- /fallire-e-un-arte-e-io-sono-il-picasso-degli-scivoloni/
 ---
-
 **“Fallire è un’arte (e io sono il Picasso degli scivoloni)”**  
 
 Se c’è una cosa che ho imparato a 37 anni, single, con un cactus che sopravvive più a lungo delle mie relazioni, è questa: la società ci divide in due categorie. Quelli che vincono (CEO a 25 anni, foto su Forbes con sfondo sfocato tipo ritratto del Rinascimento) e quelli che perdono (io, che ieri ho comprato il latte scaduto al discount perché era in offerta).  

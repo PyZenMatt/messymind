@@ -1,3 +1,9 @@
+---
+categories:
+- filosofia-pratica
+redirect_from:
+- /neuroscienze-e-buddismo/
+---
 ﻿---
 title: "Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io? Neuroscienze e Buddhismo a Confronto"
 seo_title: "Cervello vs Buddha [...]"
