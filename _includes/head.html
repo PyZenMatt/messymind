@@ -7,7 +7,7 @@
   {% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}
 </title>
 <meta name="description" content="{{ page.seo_description | default: page.description | strip_html | truncate: 160 }}">
-<link rel="canonical" href="{{ page.canonical | default: page.url | absolute_url }}">
+{% seo %}
 <meta property="og:title" content="{{ page.seo_title | default: page.title }}">
 <meta property="og:description" content="{{ page.seo_description | default: page.description }}">
 <meta property="og:image" content="{{ page.og_image | absolute_url }}">
@@ -39,7 +39,6 @@
 
   <link rel="icon" type="image/png" href="{{ '/img/favicon/favicon.ico' | relative_url }}">
   <!-- CSS NON-BLOCKING: main.css già preloaded sopra -->
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
   <!-- NESSUN JAVASCRIPT NEL HEAD - Performance ottimizzata -->
