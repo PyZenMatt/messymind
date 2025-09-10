@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+{%- assign cluster = page.cluster | downcase | strip -%}
+{%- assign sub = page.subcluster | downcase | strip -%}
+
+{%- comment -%}
+  Recupero post del sotto-cluster
+{%- endcomment -%}
+{%- assign scoped = site.posts
+  | where_exp: "p","p.categories contains cluster"
+  | where: "subcluster", sub
+  | sort: "date","last"
+-%}
+
+<div class="container mt-5">
+  <header class="cluster-hero mb-4">
+    <h1>{{ page.title | escape }}</h1>
+    {%- if page.intro -%}<p class="intro">{{ page.intro }}</p>{%- endif -%}
+  </header>
+
+  <section class="cornerstones mb-4">
+    <h2>Guide essenziali</h2>
+    <ul class="cards list-unstyled d-flex flex-column gap-3">
+      {%- assign corner = scoped | where: "is_cornerstone", true | slice: 0, 3 -%}
+      {%- for post in corner -%}
+        <li class="card p-3">
+          <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+            <h3 class="h5 mb-1">{{ post.title }}</h3>
+            <p class="mb-0">{{ post.description }}</p>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+
+  <section class="listing mb-4">
+    <h2>Tutti gli articoli</h2>
+
+    {%- comment -%}
+      Opzione A: senza plugin, mostra gli ultimi N
+    {%- endcomment -%}
+    {%- assign posts_to_show = scoped -%}
+    {%- if site.paginate_subcluster != true -%}
+      {%- assign posts_to_show = scoped | slice: 0, 24 -%}
+    {%- endif -%}
+
+    <ul class="cards list-unstyled">
+      {%- for post in posts_to_show -%}
+        <li class="card mb-3 p-3">
+          <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+            <h3 class="h6 mb-1">{{ post.title }}</h3>
+            <p class="mb-1">{{ post.description }}</p>
+          </a>
+          <small class="text-muted">{{ post.date | date: "%-d %b %Y" }}</small>
+        </li>
+      {%- endfor -%}
+    </ul>
+
+    {%- comment -%}
+      Opzione B: con jekyll-paginate-v2 su una collezione virtuale
+    {%- endcomment -%}
+  </section>
+
+  {%- if page.faq and page.faq.size > 0 -%}
+  <section class="faq mb-4">
+    <h2>FAQ</h2>
+    {%- for item in page.faq -%}
+      <details class="mb-2">
+        <summary>{{ item.q }}</summary>
+        <p class="mb-0">{{ item.a }}</p>
+      </details>
+    {%- endfor -%}
+  </section>
+  {%- endif -%}
+
+  {%- comment -%}
+    JSON-LD: BreadcrumbList + CollectionPage con ItemList
+  {%- endcomment -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "item": { "@id": "{{ "/" | absolute_url }}", "name": "Home" }, "position": 1 },
+  { "item": { "@id": "{{ "/" | append: cluster | append: "/" | absolute_url }}", "name": "{{ page.cluster_name | default: cluster | capitalize }}" }, "position": 2 },
+      { "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ page.title | escape }}" }, "position": 3 }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "{{ page.seo_title | default: page.title | escape }}",
+    "description": "{{ page.meta_description | default: page.description | escape }}",
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {%- for post in scoped limit:24 -%}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "url": "{{ post.url | absolute_url }}",
+          "name": "{{ post.title | escape }}"
+        }{%- if forloop.last == false -%},{%- endif -%}
+        {%- endfor -%}
+      ]
+    }
+  }
+  </script>
+</div>

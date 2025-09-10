@@ -4,38 +4,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    {% if page.seo_title %}{{ page.seo_title | escape }} - {{ site.title | escape }}
-    {% elsif page.title %}{{ page.title | escape }} - {{ site.title | escape }}
-    {% else %}{{ site.title | escape }}{% endif %}
-  </title>
-
-  <meta name="description" content="{{ page.seo_description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
-  <!-- meta keywords removed (deprecated) -->
-
-  <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
-    <meta property="og:title" content="{% if page.seo_title %}{{ page.seo_title }} - {{ site.title }}{% elsif page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{{ page.seo_description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
-    {%- assign og_raw = page.og_image | default: page.image | default: site.image | default: site.og_image -%}
-    {%- if og_raw -%}
-      {%- assign og_is_absolute = og_raw contains '://' -%}
-      {%- assign og_prefix = og_raw | slice: 0, 2 -%}
-      {%- if og_is_absolute or og_prefix == '//' -%}
-        {%- assign og_url = og_raw -%}
-      {%- else -%}
-        {%- assign og_url = og_raw | absolute_url -%}
-      {%- endif -%}
-      <meta property="og:image" content="{{ og_url }}">
-    {%- endif -%}
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-  
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.seo_title %}{{ page.seo_title }} - {{ site.title }}{% elsif page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{{ page.seo_description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 155 }}">
-  <meta name="twitter:image" content="{{ page.og_image | default: page.background | default: '/img/home/bg-home.jpg' | absolute_url }}">
+  {% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }}{% endif %} | {{ site.title }}
+</title>
+<meta name="description" content="{{ page.seo_description | default: page.description | strip_html | truncate: 160 }}">
+<link rel="canonical" href="{{ page.canonical | default: page.url | absolute_url }}">
+<meta property="og:title" content="{{ page.seo_title | default: page.title }}">
+<meta property="og:description" content="{{ page.seo_description | default: page.description }}">
+<meta property="og:image" content="{{ page.og_image | absolute_url }}">
+<meta name="twitter:card" content="{{ page.twitter_card | default: 'summary_large_image' }}">
 
   <!-- Schema.org markup per SEO -->
   {% include schema-markup.html %}

@@ -62,6 +62,21 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto post-content-wrapper">
         {{ content }}
 
+        <!-- Prossimi passi: link a hub subcluster e cluster -->
+        {% if page.subcluster and page.categories %}
+          {% assign cluster = page.categories | first %}
+          <aside class="post-next my-4 p-3 border rounded">
+            <p class="mb-1">Continua nel sotto-cluster</p>
+            <a class="d-block mb-2" href="{{ '/' | append: cluster | append: '/' | append: page.subcluster | append: '/' | relative_url }}">
+              Vai all’hub “{{ page.subcluster | replace: '-', ' ' | capitalize }}"
+            </a>
+            <p class="mb-1">Oppure esplora l’hub del cluster</p>
+            <a class="d-block" href="{{ '/' | append: cluster | append: '/' | relative_url }}">
+              Hub “{{ cluster | replace: '-', ' ' | capitalize }}”
+            </a>
+          </aside>
+        {% endif %}
+
         <!-- Related Posts -->
         {% include related-posts.html %}
 

@@ -1,0 +1,13 @@
+---
+layout: subcluster
+title: Pratiche Quotidiane Urbane
+seo_title: Pratiche Quotidiane Urbane
+meta_description: Hub del sotto-cluster Pratiche Quotidiane Urbane — guide essenziali
+  e articoli.
+permalink: "/mindfulness-ironica/pratiche-quotidiane-urbane/"
+cluster: mindfulness-ironica
+cluster_name: Mindfulness Ironica
+subcluster: pratiche-quotidiane-urbane
+intro: 'Hub: raccolta di guide e articoli su Pratiche Quotidiane Urbane.'
+---
+

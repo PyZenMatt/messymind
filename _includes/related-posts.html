@@ -1,7 +1,18 @@
 <!-- Related Posts SEMPLIFICATI - Solo titoli -->
 {% if page.categories %}
-  {% assign related_posts = site.posts | where_exp: "post", "post.categories contains page.categories.first" | where_exp: "post", "post.url != page.url" | limit: 5 %}
-  
+  {% comment %} Find posts in same category, exclude current page and those in same subcluster, limit to 3 {% endcomment %}
+  {% assign related_candidates = site.posts | where_exp: "post", "post.categories contains page.categories.first" | where_exp: "post", "post.url != page.url" %}
+  {% assign related_posts = "" | split: "" %}
+  {% for p in related_candidates %}
+    {% if page.subcluster and p.subcluster and p.subcluster == page.subcluster %}
+      {% continue %}
+    {% endif %}
+    {% assign related_posts = related_posts | push: p %}
+    {% if related_posts.size == 3 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
   {% if related_posts.size > 0 %}
     <div class="related-posts-section mt-5 pt-4 border-top">
       <h3 class="mb-4">📚 Articoli Correlati</h3>

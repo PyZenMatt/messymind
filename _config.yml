@@ -2,9 +2,9 @@
 title: "Messy Mind"
 email: "info@messymind.it"
 description: "Equilibrio interiore senza prendersi troppo sul serio. Spiritualità pratica per vite moderne e caotiche, senza guru e senza fuffa."
-author: Matteo Ricci
+author: "Matteo Ricci"
 url: "https://messymind.it"
-baseurl: ""                 # dominio custom → lascia vuoto
+baseurl: ""                         # dominio custom → lascia vuoto
 background: "/img/home/bg-home.jpeg"
 
 # ===== Locale / time =====
@@ -24,13 +24,12 @@ instagram_username:
 linkedin_username:
 
 # ===== Search / Analytics / Verification =====
-google_analytics: G-MLB32YW721         # GA4 (se usi include custom, ok lo stesso)
-google_site_verification: ""           # incolla il token di Search Console se lo hai
-bing_site_verification: ""             # opzionale
+google_analytics: "G-MLB32YW721"   # GA4 (se usi include custom, ok lo stesso)
+google_site_verification: ""       # token Search Console (opzionale)
+bing_site_verification: ""         # opzionale
 
-# ===== Permalink =====
-# Usa categorie nello slug (coerente con export del Blog Manager: categories -> slug)
-permalink: /:categories/:title/
+# ===== Permalink (URL puliti, indipendenti da cartelle e categorie) =====
+permalink: "/:slug/"
 
 # ===== Markdown / Build =====
 markdown: kramdown
@@ -40,61 +39,42 @@ kramdown:
   toc_levels: 1..2
 paginate: 5
 paginate_path: "/posts/page:num/"
-future: false                   # non pubblicare articoli "nel futuro"
+future: false
 strict_front_matter: true
 
 # ===== Performance / Assets =====
 sass:
   style: compressed
 
-# ===== Plugins (Actions-friendly) =====
-# Con GitHub Actions puoi usare anche plugin non whitelisted (es. compress-images)
+# ===== Plugins =====
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-archives
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-compress-images
+  # Se vuoi paginare liste custom (categorie, ecc.) valuta jekyll-paginate-v2
 
-# ===== HTML compress (solo in prod) =====
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [development]
-  blanklines: false
-  profile: false
-  startings: []
-
-# ===== Archives (categorie) =====
+# ===== Disattiva archivi auto (evita duplicati tipo /categories/slug/) =====
 jekyll-archives:
-  enabled:
-    - categories
-  layouts:
-    category: category
-  permalinks:
-    category: "/categorie/:name/"
-  output: true
+  enabled: []          # disattiva gli archivi di categoria/tag
+  output: false
 
 # ===== Collections =====
-# I post sono la collection di default; qui aggiungi "pages" se usi _pages/
 collections:
   pages:
     output: true
-    permalink: /:path/
+    permalink: "/:path/"
 
 # ===== Defaults =====
 defaults:
-  # Pagine (se usi _pages/)
+  # Pagine
   - scope:
       path: ""
       type: pages
     values:
       layout: default
-      image: "/img/og-default.jpg"      # fallback og:image
+      image: "/img/og-default.jpg"
       noindex: false
       sitemap: true
 
@@ -107,13 +87,24 @@ defaults:
       image: "/img/og-default.jpg"
       noindex: false
       sitemap: true
-      redirect_from: []                 # il Blog Manager può popolarlo quando cambia slug
+      redirect_from: []             # utile per migrazioni di URL
       seo:
-        type: "article"                 # hint per jekyll-seo-tag
+        type: "article"
 
 # ===== Feed =====
 feed:
   path: feed.xml
+
+# ===== HTML compress (solo in prod) =====
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: []
 
 # ===== Include / Exclude =====
 include:
