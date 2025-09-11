@@ -2,7 +2,7 @@
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro\_ms380g.webp 
 canonical: https://messymind.it/burnout-lavoro/autenticita-lavoro-guida-pratica/ 
 canonical_url: https://messymind.it/burnout-lavoro/autenticita-lavoro-guida-pratica/ 
-categories: \[burnout-lavoro] 
+categories: burnout-e-lavoro
 description: Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint. 
 featured_post: true 
 focus_keyword: autenticità sul lavoro 
@@ -19,9 +19,9 @@ keywords:
 - trovare vocazione - ambiente di lavoro positivo 
 - equilibrio vita-lavoro 
 lang: it 
-permalink: /burnout-lavoro/autenticita-lavoro-guida-pratica/ 
+permalink: /burnout-e-lavoro/autenticita-lavoro-guida-pratica/ 
 redirect_from: 
-- /burnout-lavoro/
+- /burnout-e-lavoro/
 - autenticita-lavoro-guida-pratica/ 
 seo_description: 'Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita.' 
 seo_title: 'Lavoro e Autenticità: sopravvivere all''ufficio con ironia e pratica' 

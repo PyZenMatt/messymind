@@ -82,19 +82,26 @@
 
 {%- assign category_url = nil -%}
 {%- assign subcluster_url = nil -%}
-{%- if page.categories and page.categories.first -%}
-  {%- assign category_key = page.categories.first | downcase | replace: ' ', '-' -%}
+{%- if page.category or (page.categories and page.categories.first) -%}
+  {%- assign category_key = page.category | default: page.categories.first | downcase | replace: ' ', '-' -%}
   {%- assign mapped = site.data.category_slugs[category_key] | default: nil -%}
   {%- if mapped -%}
     {%- assign category_url = mapped | absolute_url -%}
   {%- else -%}
-    {%- assign category_url = site.url | append: '/' | append: category_key | append: '/' -%}
+    {%- assign category_url = site.url | append: '/categorie/' | append: category_key | append: '/' -%}
   {%- endif -%}
 {%- endif -%}
 
-{%- if page.subcluster and category_url -%}
-  {%- assign subslug = page.subcluster | downcase | replace: ' ', '-' -%}
-  {%- assign subcluster_url = category_url | append: subslug | append: '/' -%}
+  {%- if page.subcluster and category_url -%}
+  {%- assign cleaned_sub = page.subcluster | downcase | replace: ' ', '-' | strip -%}
+  {%- assign subkey = category_key | append: ':' | append: cleaned_sub -%}
+  {%- assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil -%}
+  {%- if mapped_sub -%}
+    {%- assign subcluster_url = mapped_sub | absolute_url -%}
+  {%- else -%}
+    {%- comment -%} fallback: always build under /categorie/{category}/{subcluster}/ {%- endcomment -%}
+    {%- assign subcluster_url = site.url | append: '/categorie/' | append: category_key | append: '/' | append: cleaned_sub | append: '/' -%}
+  {%- endif -%}
 {%- endif -%}
 
 <!-- BreadcrumbList Schema -->

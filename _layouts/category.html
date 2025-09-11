@@ -69,7 +69,7 @@ layout: default
                 {% for s in page.featured_slugs %}
                   {% assign p = cat_posts | where: 'slug', s | first %}
                   {% if p %}
-                    <a class="list-group-item list-group-item-action" href="{{ p.url | relative_url }}" title="Leggi: {{ p.title | escape }}">{{ p.title }}</a>
+                    <li><a class="text-decoration-none" href="{{ p.url | relative_url }}" title="Leggi: {{ p.title | escape }}">{{ p.title }}</a></li>
                   {% endif %}
                 {% endfor %}
               {% endcapture %}
@@ -121,7 +121,7 @@ layout: default
               {% if unique_guides and unique_guides.size > 0 %}
                 {% capture items %}
                   {% for post in unique_guides limit:5 %}
-                    <a class="list-group-item list-group-item-action" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    <li><a class="text-decoration-none" href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
                   {% endfor %}
                 {% endcapture %}
               {% endif %}
@@ -131,12 +131,12 @@ layout: default
             {% if items == '' %}
               {% capture items %}
                 {% for post in cat_posts limit:5 %}
-                  <a class="list-group-item list-group-item-action" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  <li><a class="text-decoration-none" href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
                 {% endfor %}
               {% endcapture %}
             {% endif %}
 
-            <div class="list-group mb-3">{{ items }}</div>
+            <ul class="mb-3 list-unstyled">{{ items }}</ul>
           </section>
 
           <!-- Categorie affini (se presente) -->
@@ -145,10 +145,18 @@ layout: default
           <section class="mb-5">
             <h2>Categorie affini</h2>
             {% for sc in subclusters %}
-              {% if sc %}
-                  <h3 class="h5 mt-3">
-                  <a href="{{ '/' | append: cat_slug | append: '/' | append: sc | append: '/' | relative_url }}">{{ sc | replace: '-', ' ' | capitalize }}</a>
-                </h3>
+                {% if sc %}
+                    {%- comment -%} Resolve subcluster canonical URL via site.data.subcluster_slugs when available {%- endcomment -%}
+                    {% assign subkey = cat_slug | append: ':' | append: sc | downcase | replace: ' ', '-' %}
+                    {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
+                    {% if mapped_sub %}
+                      {% assign sub_href = mapped_sub | relative_url %}
+                    {% else %}
+                      {% assign sub_href = '/categorie/' | append: cat_slug | append: '/' | append: sc | append: '/' | relative_url %}
+                    {% endif %}
+                    <h3 class="h5 mt-3">
+                    <a href="{{ sub_href }}">{{ sc | replace: '-', ' ' | capitalize }}</a>
+                  </h3>
                 {% assign group = cat_posts | where: "subcluster", sc | sort: "date" | reverse %}
                 <ul class="mb-2">
                   {% for p in group limit:4 %}

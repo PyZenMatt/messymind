@@ -10,7 +10,7 @@ layout: default
       <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
         <h1 class="site-title mb-2">Messy Mind — mindfulness ironica e crescita personale</h1>
         {% if site.featured_category %}
-        <a href="/categories/{{ site.featured_category | slugify }}" class="btn btn-primary category-button">
+  <a href="{{ '/categories/' | append: site.featured_category | slugify | append: '/' | relative_url }}" class="btn btn-primary category-button">
           Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
         </a>
         {% endif %}
@@ -121,10 +121,10 @@ layout: default
   {% assign posts = cat[1] %}
   {% assign key = category | downcase %}
   {% assign mapped = site.data.category_slugs[key] %}
-  {% if mapped %}
-    {% assign mapped_url = mapped %}
+    {% if mapped %}
+    {% assign mapped_url = mapped | relative_url %}
   {% else %}
-    {% assign mapped_url = '/' | append: category | slugify | append: '/' %}
+    {% assign mapped_url = '/' | append: category | slugify | append: '/' | relative_url %}
   {% endif %}
   {%- comment -%}
     Se desideri escludere determinate categorie, ad esempio quelle già gestite in altri blocchi,

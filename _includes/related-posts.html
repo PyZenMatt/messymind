@@ -37,11 +37,11 @@
     {% assign key = category | downcase %}
     {% assign mapped = site.data.category_slugs[key] %}
     {% if mapped %}
-      <a href="{{ mapped }}" class="btn btn-secondary">
+      <a href="{{ mapped | relative_url }}" class="btn btn-secondary">
         <i class="fas fa-arrow-left"></i> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
       </a>
     {% else %}
-      <a href="{{ site.baseurl }}/{{ category | slugify }}/" class="btn btn-secondary">
+  <a href="{{ '/' | append: category | slugify | append: '/' | relative_url }}" class="btn btn-secondary">
         <i class="fas fa-arrow-left"></i> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
       </a>
     {% endif %}

@@ -8,5 +8,6 @@ cluster: crescita-personale-anti-guru
 cluster_name: Crescita Personale Anti Guru
 subcluster: antifragilita-e-perfezionismo
 intro: 'Hub: raccolta di guide e articoli su Antifragilita E Perfezionismo.'
+permalink: categorie/crescita-personale-antiguru/antifragilita-e-perfezionismo/
 ---
 

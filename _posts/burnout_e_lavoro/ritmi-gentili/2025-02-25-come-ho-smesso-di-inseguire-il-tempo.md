@@ -1,8 +1,7 @@
 ---
 author: Matteo Ricci
 background: /img/accettazione.png
-categories:
-- burnout-lavoro
+categories: burnout-e-lavoro
 description: 'Scopri come ho trasformato la mia relazione con il tempo: dalla crisi
   in metropolitana alle piccole rivoluzioni quotidiane che combattono il burnout.
   Strategie pratiche + la storia del mio cactus maestro di vita.'

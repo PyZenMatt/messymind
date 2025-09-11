@@ -7,5 +7,6 @@ cluster: crescita-personale-anti-guru
 cluster_name: Crescita Personale Anti Guru
 subcluster: scopo-e-confini
 intro: 'Hub: raccolta di guide e articoli su Scopo E Confini.'
+permalink: categorie/crescita-personale-antiguru/scopo-e-confini
 ---
 

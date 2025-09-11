@@ -1,29 +1,61 @@
 ---
 layout: default
 ---
-
-{%- assign cluster = page.cluster | downcase | strip -%}
-{%- assign sub = page.subcluster | downcase | strip -%}
+{%- assign cluster = nil -%}
+{%- if page.category -%}
+  {%- assign cluster = page.category | downcase | replace: ' ', '-' | strip -%}
+{%- elsif page.categories and page.categories.first -%}
+  {%- assign cluster = page.categories.first | downcase | replace: ' ', '-' | strip -%}
+{%- endif -%}
+{%- assign sub = page.subcluster | downcase | replace: ' ', '-' | strip -%}
 
 {%- comment -%}
-  Recupero post del sotto-cluster
+  Recupero post del sotto-cluster in modo robusto:
+  - normalizza il valore `sub` e confronta con `post.subcluster` normalizzato
+  - se la pagina definisce `category` (cluster) filtra anche per quella categoria
+  - ordina per data decrescente
 {%- endcomment -%}
-{%- assign scoped = site.posts
-  | where_exp: "p","p.categories contains cluster"
-  | where: "subcluster", sub
-  | sort: "date","last"
--%}
 
-<div class="container mt-5">
-  <header class="cluster-hero mb-4">
-    <h1>{{ page.title | escape }}</h1>
-    {%- if page.intro -%}<p class="intro">{{ page.intro }}</p>{%- endif -%}
-  </header>
+{%- assign scoped = '' | split: ',' -%}
+{%- for p in site.posts -%}
+  {%- assign p_sub = p.subcluster | default: '' | downcase | replace: ' ', '-' | strip -%}
+  {%- if p_sub == sub -%}
+    {%- if cluster == nil or cluster == '' or p.categories contains cluster -%}
+      {%- assign scoped = scoped | push: p -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} Ordina per data decrescente {%- endcomment -%}
+{%- assign scoped = scoped | sort: 'date' | reverse -%}
+
+{%- comment -%}
+  Costruisco lista `corner` (guide essenziali) prendendo i post in `scoped` con flag/tag cornerstone
+{%- endcomment -%}
+{%- assign corner = '' | split: ',' -%}
+{%- for p in scoped -%}
+  {%- if p.is_cornerstone == true or p.is_cornerstone == 'true' or p.cornerstone == true or p.cornerstone == 'true' -%}
+    {%- assign corner = corner | push: p -%}
+  {%- else -%}
+    {%- if p.tags -%}
+      {%- assign tagstr = p.tags | join: '|' | downcase -%}
+      {%- if tagstr contains 'cornerstone' -%}
+        {%- assign corner = corner | push: p -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign corner = corner | uniq -%}
+
+{%- comment -%}
+  Expose collection_posts for global schema includes and possible pagination
+{%- endcomment -%}
+{%- assign page.collection_posts = scoped -%}
 
   <section class="cornerstones mb-4">
     <h2>Guide essenziali</h2>
     <ul class="cards list-unstyled d-flex flex-column gap-3">
-      {%- assign corner = scoped | where: "is_cornerstone", true | slice: 0, 3 -%}
+    {%- if page.description -%}<p class="intro">{{ page.description }}</p>{%- elsif page.intro -%}<p class="intro">{{ page.intro }}</p>{%- endif -%}
       {%- for post in corner -%}
         <li class="card p-3">
           <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
@@ -84,8 +116,31 @@ layout: default
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "item": { "@id": "{{ "/" | absolute_url }}", "name": "Home" }, "position": 1 },
-  { "item": { "@id": "{{ "/" | append: cluster | append: "/" | absolute_url }}", "name": "{{ page.cluster_name | default: cluster | capitalize }}" }, "position": 2 },
-      { "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ page.title | escape }}" }, "position": 3 }
+      {%- comment -%}
+        Resolve canonical category URL: prefer mapping in site.data.category_slugs, otherwise build under /categorie/
+      {%- endcomment -%}
+      {%- assign category_key = cluster -%}
+      {%- assign mapped_cat = site.data.category_slugs[category_key] | default: nil -%}
+      {%- if mapped_cat -%}
+        {%- assign category_id = mapped_cat | absolute_url -%}
+      {%- else -%}
+        {%- assign category_id = site.url | append: '/categorie/' | append: category_key | append: '/' -%}
+      {%- endif -%}
+      { "item": { "@id": "{{ category_id }}", "name": "{{ page.cluster_name | default: cluster | capitalize }}" }, "position": 2 },
+      {%- if page.subcluster -%}
+        {%- assign cleaned_sub = page.subcluster | downcase | replace: ' ', '-' | strip -%}
+        {%- assign sub_key = category_key | append: ':' | append: cleaned_sub -%}
+        {%- assign mapped_sub = site.data.subcluster_slugs[sub_key] | default: nil -%}
+        {%- if mapped_sub -%}
+          {%- assign sub_id = mapped_sub | absolute_url -%}
+        {%- else -%}
+          {%- assign sub_id = site.url | append: '/categorie/' | append: category_key | append: '/' | append: cleaned_sub | append: '/' -%}
+        {%- endif -%}
+        { "item": { "@id": "{{ sub_id }}", "name": "{{ page.subcluster | replace: '-', ' ' | capitalize }}" }, "position": 3 },
+        { "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ page.title | escape }}" }, "position": 4 }
+      {%- else -%}
+        { "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ page.title | escape }}" }, "position": 3 }
+      {%- endif -%}
     ]
   }
   </script>

@@ -18,9 +18,9 @@ permalink: /categorie/
                 {% assign key = category[0] | downcase %}
                 {% assign mapped = site.data.category_slugs[key] %}
                 {% if mapped %}
-                  {% assign cat_url = mapped %}
+                  {% assign cat_url = mapped | relative_url %}
                 {% else %}
-                  {% assign cat_url = '/' | append: category[0] | slugify | append: '/' %}
+                  {% assign cat_url = '/' | append: category[0] | slugify | append: '/' | relative_url %}
                 {% endif %}
                 <a href="{{ cat_url }}" class="text-decoration-none">
                   {{ category[0] | replace: '-', ' ' | capitalize }}

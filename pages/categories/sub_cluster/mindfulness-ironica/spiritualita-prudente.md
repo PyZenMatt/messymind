@@ -12,4 +12,5 @@ faq:
     a: "No. Una sedia e 5 minuti bastano per iniziare."
   - q: "Posso farla camminando?"
     a: "Sì: la camminata consapevole è un’ottima porta di ingresso, ma fai attenzione ad attraversare la strada!"
+permalink: categorie/mindfulness-ironica/spiritualita-prudente
 ---

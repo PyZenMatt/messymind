@@ -8,5 +8,6 @@ cluster: mindfulness-ironica
 cluster_name: Mindfulness Ironica
 subcluster: osservazione-e-silenzio
 intro: 'Hub: raccolta di guide e articoli su Osservazione E Silenzio.'
+permalink: categorie/mindfulness-ironica/osservazione-e-silenzio
 ---
 

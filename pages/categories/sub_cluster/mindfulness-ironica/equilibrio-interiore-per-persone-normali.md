@@ -8,5 +8,6 @@ cluster: mindfulness-ironica
 cluster_name: Mindfulness Ironica
 subcluster: equilibrio-interiore-per-persone-normali
 intro: 'Hub: raccolta di guide e articoli su Equilibrio Interiore Per Persone Normali.'
+permalink: categorie/mindfulness-ironica/equilibrio-interiore-per-persone-normali
 ---
 

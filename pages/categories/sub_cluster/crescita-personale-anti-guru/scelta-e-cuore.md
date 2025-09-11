@@ -7,5 +7,6 @@ cluster: crescita-personale-anti-guru
 cluster_name: Crescita Personale Anti Guru
 subcluster: scelta-e-cuore
 intro: 'Hub: raccolta di guide e articoli su Scelta E Cuore.'
+permalink: categorie/crescita-personale-antiguru/scelta-e-cuore
 ---
 
