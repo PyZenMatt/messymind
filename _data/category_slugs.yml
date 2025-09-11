@@ -1,8 +1,18 @@
 
-mindfulness: /mindfulness-ironica/
-crescita-autentica: /crescita-personale-anti-guru/
-spiritualita-pratica: /filosofia-pratica/
-scienza-e-spiritualita: /filosofia-pratica/scienza-e-spiritualita/
-# Mappa esplicita: mantiene URL di categoria dedicati
-equilibrio-interiore: /equilibrio-interiore/
+# Map category keys to their /categorie/ permalinks (used by breadcrumb include)
+mindfulness: /categorie/mindfulness-ironica/
+crescita-autentica: /categorie/crescita-personale-anti-guru/
+spiritualita-pratica: /categorie/filosofia-pratica/
+scienza-e-spiritualita: /categorie/filosofia-pratica/scienza-e-spiritualita/
+equilibrio-interiore: /categorie/equilibrio-interiore/
+
+# Primary clusters
+burnout-lavoro: /categorie/burnout-lavoro/
+filosofia-pratica: /categorie/filosofia-pratica/
+mindfulness-ironica: /categorie/mindfulness-ironica/
+
+# Variants / legacy keys -> keep to avoid broken breadcrumbs
+crescita-personale-anti-guru: /categorie/crescita-personale-anti-guru/
+crescita-personale-antiguru: /categorie/crescita-personale-anti-guru/
+
 

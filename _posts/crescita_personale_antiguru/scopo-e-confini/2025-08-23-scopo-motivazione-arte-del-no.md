@@ -93,7 +93,7 @@ Arriverà il giorno in cui scorrerai 20 minuti senza accorgertene o dirai “sì
 No. Togliere tentazioni stanca meno che resistere mille volte. Due rituali brevi valgono più di un piano complicato.
 
 **Lo scopo non mi “accende”, è un problema?**  
-Non deve. Serve a orientarti, non a emozionarti. L’emozione arriva spesso **dopo** che inizi.
+Non deve. Serve a orientarti, non a emozionarti. L’emozione arriva spesso dopo che inizi.
 
 **Come dico “no” senza bruciare i ponti?**  
 Riconosci, dichiara il vincolo, proponi alternativa. Cortese, breve, in anticipo quando puoi.
@@ -120,46 +120,8 @@ Coming soon la nostra newsletter! Fammi sapere se ti interessa con un [messaggio
 - [Sei il Cielo, Non le Nuvole: Come Scoprire Chi Sei Davvero (Spoiler: Non Sono i Tuoi Pensieri)](https://messymind.it/mindfulness/osservatore-e-osservato/)
 - [Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io? Neuroscienze e Buddhismo a Confronto](https://messymind.it/spiritualita-pratica/neuroscienze-e-buddismo/)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Serve forza di volontà sovrumana?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Togliere tentazioni stanca meno che resistere mille volte. Due rituali brevi valgono più di un piano complicato."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Lo scopo non mi “accende”, è un problema?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Non deve. Serve a orientarti, non a emozionarti. L’emozione arriva spesso dopo che inizi."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Come dico “no” senza bruciare i ponti?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Riconosci, dichiara il vincolo, proponi alternativa. Cortese, breve, in anticipo quando puoi."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Se salto una settimana, ha senso ricominciare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì. Riparti dalla soglia dei 120 secondi e da una finestra protetta. La regola è: non saltare due giorni di fila."
-      }
-    }
-  ]
-}
-</script>
+{%- comment -%} Inline JSON-LD removed; use `_includes/schema-blogposting.html` and `_includes/schema-faq.html` (when `faqs` exist in front matter).
+{%- endcomment -%}
 
 
 

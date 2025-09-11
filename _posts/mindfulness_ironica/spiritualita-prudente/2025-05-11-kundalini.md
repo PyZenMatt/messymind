@@ -153,31 +153,5 @@ Il risveglio non è un film d’azione. È manutenzione ordinaria dell’anima: 
 
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Cos’è il risveglio della Kundalini in parole semplici?",
-      "acceptedAnswer": { "@type": "Answer", "text": "È un periodo in cui corpo e mente diventano ipersensibili: più energia, più introspezione, a volte crisi. Non è una performance, è un processo da gestire." }
-    },
-    {
-      "@type": "Question",
-      "name": "Quali sono i sintomi più comuni?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Calore o brividi lungo la colonna, tremori, insonnia, emotività alta, bisogno di solitudine e riorganizzazione della vita." }
-    },
-    {
-      "@type": "Question",
-      "name": "La Kundalini può causare insonnia?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Può essere associata a sonno disturbato. Si parte da igiene del sonno, respirazione dolce e routine. Se persiste o peggiora, confrontati con professionisti." }
-    },
-    {
-      "@type": "Question",
-      "name": "È pericoloso forzare il risveglio?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Sì. Forzare pratiche intense può destabilizzare. Meglio gradualità, supervisione e regole di sicurezza." }
-    }
-  ]
-}
-</script>
+{%- comment -%} Inline BlogPosting/FAQ JSON-LD removed. BlogPosting will be rendered by `_includes/schema-blogposting.html`. If this post has FAQs, add them to front matter as `faqs` to render via `_includes/schema-faq.html`.
+{%- endcomment -%}

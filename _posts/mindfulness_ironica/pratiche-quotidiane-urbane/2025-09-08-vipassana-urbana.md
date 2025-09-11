@@ -145,44 +145,5 @@ Iscriviti alla newsletter **MessyMind**: niente mantra impossibili, solo **verit
 
 ---
 
-<!-- FAQ Schema JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Si può praticare la Vipassana senza un ritiro di 10 giorni?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì. Il ritiro intensivo aiuta, ma la regolarità quotidiana anche di 5–10 minuti è sufficiente per iniziare a costruire consapevolezza."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Il rumore della città non è un ostacolo?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Il rumore diventa materiale di pratica: clacson e voci sono oggetti di consapevolezza. Li noti e torni al focus (respiro o sensazioni dei piedi)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quanto tempo serve ogni giorno per iniziare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Bastano 5–10 minuti. Meglio poco e spesso che lunghe sessioni sporadiche."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Posso praticare Vipassana camminando o in ufficio?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì: la camminata consapevole e tre respiri prima di inviare un’email sono ottimi modi per portare Vipassana nella vita lavorativa quotidiana."
-      }
-    }
-  ]
-}
-</script>
+{%- comment -%} FAQ JSON-LD removed. To include FAQ structured data, declare `faqs` in the post front matter and `_includes/schema-faq.html` will render it.
+{%- endcomment -%}

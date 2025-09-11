@@ -1,68 +1,166 @@
-<!-- Schema.org JSON-LD per SEO -->
+<!-- Inline JSON-LD per layout globale (Jekyll default.html) -->
+<!-- Organization Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "{{ site.url }}/#organization",
-      "name": "{{ site.title }}",
-      "url": "{{ site.url }}",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{ '/img/favicon/favicon.png' | absolute_url }}"
-      },
-      "sameAs": [
-        {% if site.github_username %}"https://github.com/{{ site.github_username }}"{% endif %}
-        {% if site.twitter_username %},"https://twitter.com/{{ site.twitter_username }}"{% endif %}
-        {% if site.linkedin_username %},"https://linkedin.com/in/{{ site.linkedin_username }}"{% endif %}
-      ]
+  "@type": "Organization",
+  "@id": "{{ site.url }}/#organization",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ site.logo | default: '/img/favicon/favicon.png' | absolute_url }}"
+  },
+  "description": "{{ site.description }}",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{ site.email }}",
+    "contactType": "Customer Service"
+  }{% if site.social.links %},
+  "sameAs": {{ site.social.links | jsonify }}{% elsif site.github_username or site.twitter_username or site.linkedin_username %},
+  "sameAs": [
+    {% if site.github_username %}"https://github.com/{{ site.github_username }}"{% endif %}
+    {% if site.twitter_username %}{% if site.github_username %},{% endif %}"https://twitter.com/{{ site.twitter_username }}"{% endif %}
+    {% if site.linkedin_username %}{% if site.github_username or site.twitter_username %},{% endif %}"https://linkedin.com/in/{{ site.linkedin_username }}"{% endif %}
+  ]{% endif %}
+}
+</script>
+
+<!-- WebSite + SearchAction Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ site.url }}/#website",
+  "url": "{{ site.url }}",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "publisher": {
+    "@id": "{{ site.url }}/#organization"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ site.url }}/search?q={search_term_string}"
     },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- WebPage Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{ page.url | absolute_url }}#webpage",
+  "url": "{{ page.url | absolute_url }}",
+  "name": "{{ page.title }}",
+  "description": "{{ page.seo_description | default: page.description | default: page.excerpt | strip_html | truncate: 160 }}",
+  "isPartOf": {
+    "@id": "{{ site.url }}/#website"
+  },
+  "about": {
+    "@id": "{{ site.url }}/#organization"
+  },
+  "datePublished": "{{ page.date | default: site.time | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}"
+}
+</script>
+
+{% if page.layout == 'post' %}
+{%- comment -%}
+  BlogPosting schema removed from this global include to avoid duplication.
+  Use `_includes/schema-blogposting.html` (included in `_layouts/post.html`) as the single BlogPosting source.
+{%- endcomment -%}
+{%- comment -%}
+  Precompute canonical URLs to avoid inline nested filters that produced malformed values.
+  category_url: prefer mapping from `site.data.category_slugs`, otherwise build from `site.url` + slugified category.
+  subcluster_url: if subcluster present, append to category_url safely.
+{%- endcomment -%}
+
+{%- assign category_url = nil -%}
+{%- assign subcluster_url = nil -%}
+{%- if page.categories and page.categories.first -%}
+  {%- assign category_key = page.categories.first | downcase | replace: ' ', '-' -%}
+  {%- assign mapped = site.data.category_slugs[category_key] | default: nil -%}
+  {%- if mapped -%}
+    {%- assign category_url = mapped | absolute_url -%}
+  {%- else -%}
+    {%- assign category_url = site.url | append: '/' | append: category_key | append: '/' -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if page.subcluster and category_url -%}
+  {%- assign subslug = page.subcluster | downcase | replace: ' ', '-' -%}
+  {%- assign subcluster_url = category_url | append: subslug | append: '/' -%}
+{%- endif -%}
+
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {%- assign pos = 1 -%}
     {
-      "@type": "Person",
-      "@id": "{{ site.url }}/#author",
-      "name": "{{ site.author }}",
-      "jobTitle": "Content Creator & Mindfulness Writer",
-      "worksFor": {
-        "@id": "{{ site.url }}/#organization"
-      }
-    },
+      "@type": "ListItem",
+      "position": {{ pos }},
+      "name": "Home",
+      "item": "{{ site.url | strip_newlines | strip }}"
+    }
+    {%- if category_url -%},{% assign pos = pos | plus: 1 %}
     {
-      "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
-      {% if page.layout == 'post' %}
-      "headline": "{{ page.title }}",
-      "description": "{{ page.excerpt | strip_html | normalize_whitespace | truncate: 155 }}",
-      "image": "{{ page.og_image | default: page.background | default: '/img/home/bg-home.jpg' | absolute_url }}",
-      "author": {
-        "@id": "{{ site.url }}/#author"
-      },
-      "publisher": {
-        "@id": "{{ site.url }}/#organization"
-      },
-      "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
-      "dateModified": "{{ page.last_modified_at | default: page.date | date: '%Y-%m-%d' }}",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{ page.url | absolute_url }}"
-      },
-      "articleSection": "{{ page.categories | first | capitalize }}",
-      "keywords": [{% for keyword in page.keywords %}"{{ keyword }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
-      "wordCount": "{{ content | strip_html | number_of_words }}",
-      "timeRequired": "PT{{ content | strip_html | number_of_words | divided_by: 200 | plus: 1 }}M"
-      {% else %}
-      "name": "{{ site.title }}",
-      "description": "{{ site.description }}",
-      "url": "{{ site.url }}",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "{{ site.url }}/search?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-      {% endif %}
+      "@type": "ListItem",
+      "position": {{ pos }},
+      "name": "{{ page.categories.first | capitalize }}",
+      "item": "{{ category_url | strip_newlines | strip }}"
+    }
+    {%- endif -%}
+    {%- if subcluster_url -%},{% assign pos = pos | plus: 1 %}
+    {
+      "@type": "ListItem",
+      "position": {{ pos }},
+      "name": "{{ page.subcluster | replace: '-', ' ' | capitalize }}",
+      "item": "{{ subcluster_url | strip_newlines | strip }}"
+    }
+    {%- endif -%},{% assign pos = pos | plus: 1 %}
+    {
+      "@type": "ListItem",
+      "position": {{ pos }},
+      "name": "{{ page.title | escape }}",
+      "item": "{{ page.url | absolute_url | strip_newlines | strip }}"
     }
   ]
 }
 </script>
+
+{% if page.collection_posts and page.collection_posts.size > 0 %}
+<!-- CollectionPage + ItemList Schema (per pagine categoria) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ page.url | absolute_url }}#collectionpage",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ page.collection_posts.size }},
+    "itemListElement": [
+      {% for post in page.collection_posts limit: 10 %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ post.url | absolute_url }}",
+        "name": "{{ post.title }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
+{% endif %}
+
+{% endif %}

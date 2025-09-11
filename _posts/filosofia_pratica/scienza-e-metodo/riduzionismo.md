@@ -120,69 +120,7 @@ La prossima volta che qualcuno ti offre la risposta semplice, quella che smonta 
 
 *Fonti: Treccani, Enciclopedia di filosofia, Wikipedia (voci "Riduzionismo", "Olismo", "Proprietà emergenti")*
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Limiti del Riduzionismo: Quando Smontare Tutto Non Basta",
-  "description": "Riduzionismo vs olismo ed emergentismo: cos'è, dove funziona e dove si rompe. Proprietà emergenti spiegate semplice con esempi pratici (traffico, team, stormi).",
-  "inLanguage": "it",
-  "author": {
-    "@type": "Person",
-    "name": "Redazione MessyMind"
-  },
-  "datePublished": "2024-03-15",
-  "dateModified": "2025-09-09",
-  "mainEntityOfPage": "https://messymind.it/limiti-riduzionismo-vs-olismo-emergentismo/",
-  "image": "https://messymind.it/assets/cover/riduzionismo-olismo.jpg",
-  "keywords": ["riduzionismo", "olismo", "emergentismo", "proprietà emergenti", "sistemi complessi", "mindfulness pratica"],
-  "about": [
-    {"@type": "Thing", "name": "Riduzionismo"},
-    {"@type": "Thing", "name": "Olismo"},
-    {"@type": "Thing", "name": "Emergentismo"},
-    {"@type": "Thing", "name": "Proprietà emergenti"},
-    {"@type": "Thing", "name": "Sistemi complessi"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Cos'è il riduzionismo in parole semplici?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "L'idea che per capire qualcosa di complesso bisogna smontarlo nei suoi pezzi più piccoli e studiare quelli."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quali sono i limiti principali del riduzionismo?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Fallisce con i sistemi complessi dove emergono proprietà nuove non presenti nelle parti singole (mente, società, ecosistemi)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Qual è la differenza tra riduzionismo e olismo?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Il riduzionismo studia le parti separatamente, l'olismo studia il sistema nel suo insieme senza scomporlo."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Cosa sono le proprietà emergenti?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Caratteristiche di un sistema complesso che compaiono solo quando tutte le parti interagiscono tra loro, e che non esistono nei componenti isolati."
-      }
-    }
-  ]
-}
-</script>
+<!--
+{%- comment -%} Inline BlogPosting/FAQ JSON-LD removed; use `_includes/schema-blogposting.html` for post schema and `_includes/schema-faq.html` when `faqs` exist in front matter.
+{%- endcomment -%}
+-->

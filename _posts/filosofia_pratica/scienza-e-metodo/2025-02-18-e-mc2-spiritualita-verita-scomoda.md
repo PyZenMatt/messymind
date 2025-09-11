@@ -147,38 +147,8 @@ Esistono **due note del 1922** con consigli di vita e una **battuta del 1929**: 
 **E=mc² in parole semplici?**  
 Massa ed energia sono due forme della stessa realtà fisica: una piccola quantità di massa corrisponde a una grande quantità di energia (per via di c²). ([Britannica](https://www.britannica.com/science/E-mc2-equation))
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Einstein ha davvero detto “Tutto è energia, basta allineare la frequenza”?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. È una falsa attribuzione. E=mc² afferma l’equivalenza massa-energia; non è una massima motivazionale."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Esiste una “formula della felicità” di Einstein?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì, in senso lato: due brevi note private scritte a Tokyo nel 1922 con consigli di vita e una battuta del 1929 (A = X + Y + Z: lavoro, gioco, e tenere la bocca chiusa). Non sono leggi fisiche."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Come si spiega E=mc² in modo semplice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Massa ed energia sono due forme della stessa realtà fisica: una piccola quantità di massa corrisponde a una grande quantità di energia (per via di c²)."
-      }
-    }
-  ]
-}
-</script>
+<!-- {%- comment -%} Inline BlogPosting/FAQ JSON-LD removed. BlogPosting included via `_includes/schema-blogposting.html`; add `faqs` in front matter to render FAQ JSON-LD via `_includes/schema-faq.html`.
+{%- endcomment -%} -->
 
 ---
 

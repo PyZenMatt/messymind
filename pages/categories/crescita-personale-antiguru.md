@@ -2,6 +2,7 @@
 layout: category
 title: "Crescita personale anti-guru"
 category: crescita-personale-anti-guru
+permalink: /categorie/crescita-personale-anti-guru/
 seo_title: "Crescita personale anti-guru: disciplina minima, risultati reali"
 seo_description: "Abitudini minime, confini gentili e produttività senza hype. Guide, strumenti e casi reali per migliorare ogni giorno senza guru."
 description: "Strategie pratiche e senza fronzoli per migliorare ogni giorno con abitudini minime, confini gentili e scelte consapevoli."

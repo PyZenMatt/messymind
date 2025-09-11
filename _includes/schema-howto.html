@@ -1,0 +1,20 @@
+{%- if page.howto -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": {{ page.howto.name | jsonify }},
+  "description": {{ page.howto.description | jsonify }},
+  "totalTime": {{ page.howto.totalTime | jsonify }},
+  "step": [
+    {%- for s in page.howto.step -%}
+    {
+      "@type": "HowToStep",
+      "name": {{ s.name | jsonify }},
+      "text": {{ s.text | jsonify }}
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}

@@ -10,10 +10,9 @@
 <!-- SEO-TAG-START -->
 {% seo %}
 <!-- SEO-TAG-END -->
-<meta property="og:title" content="{{ page.seo_title | default: page.title }}">
-<meta property="og:description" content="{{ page.seo_description | default: page.description }}">
-<meta property="og:image" content="{{ page.og_image | absolute_url }}">
-<meta name="twitter:card" content="{{ page.twitter_card | default: 'summary_large_image' }}">
+{%- comment -%} Open Graph and Twitter tags are emitted by jekyll-seo-tag (`{% seo %}`) and by `_includes/seo.html`.
+  Avoid duplicating them here. If you need overrides, set `page.og_*` or `page.twitter_card` in front matter and let the seo include render them.
+{%- endcomment -%}
 
   <!-- Schema.org markup per SEO -->
   {% include schema-markup.html %}

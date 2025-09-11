@@ -10,18 +10,18 @@
     
     {% if page.categories %}
   {% assign category = page.categories | first %}
-  {% assign key = category | downcase %}
-  {% assign mapped = site.data.category_slugs[key] %}
+  {% assign key = category | downcase | replace: ' ', '-' %}
+  {%- comment -%} Compute canonical category URL: prefer explicit mapping, otherwise build a safe path and make it absolute{%- endcomment -%}
+  {% assign mapped = site.data.category_slugs[key] | default: nil %}
+  {% if mapped %}
+    {% assign category_url = mapped | absolute_url %}
+  {% else %}
+    {% assign category_url = site.url | append: '/' | append: key | append: '/' %}
+  {% endif %}
       <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-        {% if mapped %}
-          <a href="{{ mapped }}" itemprop="item" itemtype="http://schema.org/WebPage">
-            <span itemprop="name">{{ category | capitalize | replace: '-', ' ' }}</span>
-          </a>
-        {% else %}
-          <a href="{{ site.baseurl }}/{{ category | slugify }}/" itemprop="item" itemtype="http://schema.org/WebPage">
-            <span itemprop="name">{{ category | capitalize | replace: '-', ' ' }}</span>
-          </a>
-        {% endif %}
+        <a href="{{ category_url }}" itemprop="item" itemtype="http://schema.org/WebPage">
+          <span itemprop="name">{{ category | capitalize | replace: '-', ' ' }}</span>
+        </a>
         <meta itemprop="position" content="2" />
       </li>
     {% endif %}

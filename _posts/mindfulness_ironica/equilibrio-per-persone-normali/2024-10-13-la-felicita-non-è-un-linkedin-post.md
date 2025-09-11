@@ -105,82 +105,10 @@ Iscriviti alla newsletter **MessyMind** per ricevere altre guide ironiche e zero
 
 <!-- FAQPage JSON-LD -->
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Cos\u00e8 l\u2019equilibrio interiore?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "L\u2019equilibrio interiore \u00e8 uno stato di benessere psicofisico in cui non sei in balia degli eventi esterni. Non sei immune allo stress, ma lo gestisci senza farti travolgere. \u00c8 praticit\u00e0, non magia."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Come trovare l'equilibrio spirituale senza religione?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Concentrandoti sulla pratica, non sulla fede. Esercizi di respirazione, consapevolezza, journaling e relazione autentica sono strumenti laici utili per migliorare la vita interiore, al di l\u00e0 di qualsiasi dogmatismo."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Come meditare ogni giorno 10 minuti?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Scegli un orario fisso, siediti comodo, imposta un timer e segui il respiro. Quando la mente vaga, riportala dolcemente indietro. Conta la costanza, non la perfezione."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Mindfulness e religione: sono compatibili?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "S\u00ec. La mindfulness \u00e8 una pratica di allenamento dell\u2019attenzione secolarizzata, compatibile con qualsiasi fede o convinzione personale."
-      }
-    }
-  ]
-}
-</script>
+{%- comment -%} Inline BlogPosting/FAQ JSON-LD removed. Use `_includes/schema-blogposting.html` for the post and `_includes/schema-faq.html` when adding `faqs` to front matter.
+{%- endcomment -%}
 
 <!-- HowTo JSON-LD -->
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "Equilibrio interiore in 10 minuti: 5 mosse anti-guru",
-  "description": "Cinque esercizi brevi per allenare la non-reattivit\u00e0 e migliorare l\u2019equilibrio psicofisico in contesti urbani.",
-  "totalTime": "PT10M",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Camminata consapevole",
-      "text": "Per 5 minuti concentra l\u2019attenzione su appoggio dei piedi, aria sulla pelle e rumore dei passi."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "10 minuti di respiro",
-      "text": "Quando senti salire la reattivit\u00e0: inspira 4, trattieni 2, espira 6; ripeti per alcuni cicli."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Journaling spiccio",
-      "text": "Scrivi per 5 minuti pensieri senza filtri, poi chiudi il quaderno per interrompere la ruminazione."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Regola dei 3 No",
-      "text": "D\u00ec no a tre impegni drenanti a settimana per proteggere i confini personali."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Pausa digitale",
-      "text": "Un\u2019ora al giorno in modalit\u00e0 aereo: disintossica e recupera attenzione."
-    }
-  ]
-}
-</script>
+{%- comment -%} Inline HowTo JSON-LD removed. To enable HowTo structured data, add a `howto` object in the post front matter with `name`, `description`, `totalTime` and `step` array; the layout will render `_includes/schema-howto.html`.
+{%- endcomment -%}

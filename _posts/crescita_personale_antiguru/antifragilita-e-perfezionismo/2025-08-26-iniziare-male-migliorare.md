@@ -37,20 +37,8 @@ title: 'Non serve il momento perfetto: inizia male e migliora'
 ---
 # Non serve il momento perfetto: inizia male e migliora
 
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"BlogPosting",
-    "headline":"Non serve il momento perfetto: inizia male e migliora",
-    "description":"Smetti di aspettare l’epifania. Inizia anche male: pazienza attiva, micro-iterazioni e log del bambù per sbloccare perfezionismo e procrastinazione.",
-    "author":{"@type":"Person","name":"Matteo Ricci"},
-    "datePublished":"2025-08-24",
-    "dateModified":"2025-08-24",
-    "mainEntityOfPage":{"@type":"WebPage","@id":"https://messymind.it/iniziare-male-migliorare/"},
-    "image":"https://messymind.it/assets/img/cover/bambu-radici-crescita.webp",
-    "publisher":{"@type":"Organization","name":"MessyMind"}
-  }
-  </script>
+  {%- comment -%} BlogPosting JSON-LD removed: use `_includes/schema-blogposting.html` (single source). If you need to add FAQ structured data, add `faqs` in front matter and we'll render via an include.
+  {%- endcomment -%}
 
   La moka borbotta, il cursore lampeggia, il perfezionismo sussurra: “Quando avrai tempo…”. Nel frattempo scorre via l’ennesimo giorno. Il momento perfetto è un mito comodo: mentre lo aspetti, non cresci. L’alternativa è concreta e gentile: fai un passo **ridicolmente piccolo**, rendilo visibile (una riga di log), miglioralo domani. Questa è **pazienza attiva**.
 

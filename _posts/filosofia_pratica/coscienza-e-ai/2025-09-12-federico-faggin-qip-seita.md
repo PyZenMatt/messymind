@@ -118,41 +118,5 @@ R: Tutt'altro. Il suo è un punto di vista minoritario ma rispettato, che sta al
 
 **Questo viaggio nel QIP ti ha stordito o illuminato?** Iscriviti alla newsletter MessyMind per esplorare con noi le frontiere più folli e affascinanti della scienza e della spiritualità. E se hai un'opinione su Faggin, lasciaci un commento: sei più team "coscienza emergente" o team "campi quantistici coscienti"?
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Federico Faggin, QIP e Séità: La Teoria della Coscienza che Sfida il Mainstream",
-  "description": "Cos'è il QIP di Faggin? Definizione chiara, 'séità', basi quantistiche (non-clonazione/Holevo), differenze da IIT e critiche. Libri 2022-2024 e fonti.",
-  "author": {
-    "@type": "Person",
-    "name": "MessyMind"
-  },
-  "datePublished": "2025-09-08",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://messymind.it/federico-faggin-qip-seita"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "MessyMind",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://messymind.it/assets/logo.png"
-    }
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"FAQPage",
-  "mainEntity":[
-    {"@type":"Question","name":"Cos'è il QIP in due parole?","acceptedAnswer":{"@type":"Answer","text":"Un'ipotesi che la coscienza sia una proprietà fondamentale dell'universo, legata all'informazione quantistica, e che i campi quantistici siano dotati di una forma base di libero arbitrio."}},
-    {"@type":"Question","name":"'Séità' è solo un modo complicato per dire 'anima'?","acceptedAnswer":{"@type":"Answer","text":"Può assomigliarci, ma Faggin la intende come un concetto più astratto e informazionale: è l'identità unica di un sistema cosciente, la sua prospettiva singolare sul mondo."}},
-    {"@type":"Question","name":"Esistono esperimenti che provano il QIP?","acceptedAnswer":{"@type":"Answer","text":"Non ancora. La teoria è ancora giovane e il suo principale punto di debolezza è proprio la mancanza di un test sperimentale che la confermi in modo inequivocabile."}},
-    {"@type":"Question","name":"Quindi il cervello 'riceve' la coscienza? Ma come?","acceptedAnswer":{"@type":"Answer","text":"È la metafora proposta (cervello come trasduttore), ma il 'meccanismo' con cui questo avverrebbe è proprio il cuore irrisolto della teoria. È un'ipotesi suggestiva, non un fatto dimostrato."}}
-  ]
-}
-</script>
+{%- comment -%} Inline BlogPosting/FAQ JSON-LD removed from this post. BlogPosting is provided by `_includes/schema-blogposting.html` in the post layout. Add `faqs` front matter to render FAQ JSON-LD via `_includes/schema-faq.html`.
+{%- endcomment -%}

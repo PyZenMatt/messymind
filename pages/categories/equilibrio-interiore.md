@@ -2,6 +2,7 @@
 layout: category
 title: "Equilibrio interiore"
 category: equilibrio-interiore
+permalink: /categorie/equilibrio-interiore/
 description: "Strategie concrete per ritrovare il tuo centro tra notifiche, ritardi e imprevisti: respirazione, journaling e pratiche semplici."
 seo_description: "Guide pratiche per ritrovare equilibrio interiore nella vita quotidiana: tecniche rapide, esercizi e riflessioni senza retorica."
 og_image: /img/categories/equilibrio-interiore-cover.webp

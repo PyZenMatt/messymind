@@ -72,6 +72,13 @@ author: "Matteo Ricci"
 url: "https://messymind.it"
 baseurl: ""                         # dominio custom → lascia vuoto
 background: "/img/home/bg-home.jpeg"
+logo: "/img/favicon/favicon.png"    # Logo per schema Organization
+
+# ===== Social Links per Schema.org =====
+social:
+  links:
+    - "https://github.com/PyZenMatt"
+    - "https://linkedin.com/in/teo-dev"
 
 # ===== Locale / time =====
 
@@ -84,7 +91,7 @@ title_separator: " — "
 host: "0.0.0.0"
 port: 4000
 
-# ===== Social =====
+# ===== Social (legacy) =====
 
 twitter_username: ""
 github_username: "PyZenMatt"
