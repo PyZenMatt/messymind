@@ -6,11 +6,11 @@ categories:
 cornerstone: true
 description: 'Cos''è l''equilibrio interiore e come trovarlo senza santini o slogan:
   una guida pratica, ironica e senza dogmi per chi ha poco tempo e tanto sarcasmo.'
-featured\_post: true
+featured_post: true
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044485/social\_600\_hbnbdw.jpg
 is_cornerstone: true
 lang: it
-last\_modified\_at: 2025-09-09
+last_modified\_at: 2025-09-09
 layout: post
 redirect_from:
 - /equilibrio-interiore-5-mosse-pratiche-senza-guru-e-con-ironia/

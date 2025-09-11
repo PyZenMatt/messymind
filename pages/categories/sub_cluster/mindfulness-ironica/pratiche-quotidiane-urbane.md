@@ -8,6 +8,6 @@ cluster: mindfulness-ironica
 cluster_name: Mindfulness Ironica
 subcluster: pratiche-quotidiane-urbane
 intro: 'Hub: raccolta di guide e articoli su Pratiche Quotidiane Urbane.'
-permalink: categorie/mindfulness-ironica/pratiche-quotidiane-urbane
+permalink: categorie/mindfulness-ironica/pratiche-quotidiane-urbane/
 ---
 
