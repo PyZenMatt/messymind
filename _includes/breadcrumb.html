@@ -14,9 +14,11 @@
   {%- comment -%} Compute canonical category URL: prefer explicit mapping, otherwise build a safe path and make it absolute{%- endcomment -%}
   {% assign mapped = site.data.category_slugs[key] | default: nil %}
   {% if mapped %}
-    {% assign category_url = mapped | absolute_url %}
+    <!-- Use relative_url so local server keeps links local; mapped may already be a full path. -->
+    {% assign category_url = mapped | relative_url %}
   {% else %}
-    {% assign category_url = site.url | append: '/' | append: key | append: '/' %}
+    <!-- Fallback: build a relative path under /categorie/ to avoid pointing to site.url in dev -->
+    {% assign category_url = '/categorie/' | append: key | append: '/' | relative_url %}
   {% endif %}
       <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
         <a href="{{ category_url }}" itemprop="item" itemtype="http://schema.org/WebPage">
