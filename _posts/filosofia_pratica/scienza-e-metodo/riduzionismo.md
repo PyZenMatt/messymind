@@ -1,10 +1,4 @@
 ---
-categories:
-- filosofia-pratica
-redirect_from:
-- /riduzionismo/
-- /limiti-riduzionismo-vs-olismo-emergentismo/
----
 layout: post
 title: "Limiti del Riduzionismo: Quando Smontare Tutto Non Basta"
 description: "Riduzionismo vs olismo ed emergentismo: cos'è, dove funziona e dove si rompe. Proprietà emergenti spiegate semplice con esempi pratici (traffico, team, stormi)."
@@ -27,7 +21,6 @@ image: "/assets/cover/riduzionismo-olismo.jpg"
 lang: it
 robots: "index, follow"
 subcluster: scienza-e-metodo
-
 ---
 
 # Limiti del riduzionismo: quando smontare tutto non basta
@@ -120,7 +113,4 @@ La prossima volta che qualcuno ti offre la risposta semplice, quella che smonta 
 
 *Fonti: Treccani, Enciclopedia di filosofia, Wikipedia (voci "Riduzionismo", "Olismo", "Proprietà emergenti")*
 
-<!--
-{%- comment -%} Inline BlogPosting/FAQ JSON-LD removed; use `_includes/schema-blogposting.html` for post schema and `_includes/schema-faq.html` when `faqs` exist in front matter.
-{%- endcomment -%}
--->
+

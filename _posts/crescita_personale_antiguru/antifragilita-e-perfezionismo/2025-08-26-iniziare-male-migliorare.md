@@ -37,12 +37,9 @@ title: 'Non serve il momento perfetto: inizia male e migliora'
 ---
 # Non serve il momento perfetto: inizia male e migliora
 
-  {%- comment -%} BlogPosting JSON-LD removed: use `_includes/schema-blogposting.html` (single source). If you need to add FAQ structured data, add `faqs` in front matter and we'll render via an include.
-  {%- endcomment -%}
+La moka borbotta, il cursore lampeggia, il perfezionismo sussurra: “Quando avrai tempo…”. Nel frattempo scorre via l’ennesimo giorno. Il momento perfetto è un mito comodo: mentre lo aspetti, non cresci. L’alternativa è concreta e gentile: fai un passo **ridicolmente piccolo**, rendilo visibile (una riga di log), miglioralo domani. Questa è **pazienza attiva**.
 
-  La moka borbotta, il cursore lampeggia, il perfezionismo sussurra: “Quando avrai tempo…”. Nel frattempo scorre via l’ennesimo giorno. Il momento perfetto è un mito comodo: mentre lo aspetti, non cresci. L’alternativa è concreta e gentile: fai un passo **ridicolmente piccolo**, rendilo visibile (una riga di log), miglioralo domani. Questa è **pazienza attiva**.
-
-  > *“Il momento perfetto è un mito comodo.”*
+> *“Il momento perfetto è un mito comodo.”*
 
 ### Indice dei contenuti
 

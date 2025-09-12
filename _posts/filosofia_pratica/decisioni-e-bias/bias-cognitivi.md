@@ -11,9 +11,8 @@ keywords:
 - illusioni cognitive
 - debiasing
 - euristiche
+--- 
 
-{%- comment -%} Inline BlogPosting/FAQ JSON-LD removed. BlogPosting will be rendered by `_includes/schema-blogposting.html`. To render FAQs, add `faqs` array in front matter and `_includes/schema-faq.html` will output JSON-LD.
-{%- endcomment -%}
 <h3 id="effetto-alone">Effetto Alone: Il Bello e Competente</h3>
 **Cosa fa:** Generalizzi una caratteristica positiva (bellezza, simpatia) a tutto il resto.  
 **Esempio metropolitano:** Quel collega affascinante non è necessariamente più competente. Solo più bravo a vendersi.  
