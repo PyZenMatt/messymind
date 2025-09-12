@@ -3,8 +3,6 @@ author: MessyMind
 canonical_url: https://messymind.it/federico-faggin-qip-seita
 categories:
 - filosofia-pratica
-changefreq: monthly
-date: '2025-09-12T09:00:00+02:00'
 description: Cos’è il QIP di Faggin? Coscienza fondamentale, ‘séità’, basi quantistiche
   (no-cloning/Holevo), differenze da IIT e critiche, con fonti.
 excerpt: 'QIP di Faggin spiegato semplice: coscienza fondamentale, séità, basi quantistiche
@@ -21,7 +19,6 @@ keywords:
 - non-clonazione quantistica
 - limite di Holevo
 lang: it-IT
-last_modified_at: '2025-09-12T09:00:00+02:00'
 layout: post
 og_description: Cos’è il QIP di Faggin? Coscienza fondamentale, séità, basi quantistiche
   (no-cloning/Holevo), confronto con IIT e critiche — con fonti.
@@ -45,6 +42,10 @@ tags:
 - Séità
 title: 'Federico Faggin e QIP: coscienza, séità e critiche'
 twitter_card: summary_large_image
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757660503/cosciena_1920_aewa7k.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757660502/cosciena_600_kapszz.webp
+image_author: Vie Studio
+image_author_url: https://www.pexels.com/it-it/@vie-studio/
 ---
 
 # Federico Faggin, QIP e Séità: La Teoria della Coscienza che Sfida il Mainstream
