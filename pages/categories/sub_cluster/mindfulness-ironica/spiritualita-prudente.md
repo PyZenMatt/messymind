@@ -13,4 +13,5 @@ faq:
   - q: "Posso farla camminando?"
     a: "Sì: la camminata consapevole è un’ottima porta di ingresso, ma fai attenzione ad attraversare la strada!"
 permalink: categorie/mindfulness-ironica/spiritualita-prudente/
+category: mindfulness-ironica
 ---

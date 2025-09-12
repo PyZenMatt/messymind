@@ -3,6 +3,8 @@ title: "Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io? Neuroscienze e Budd
 seo_title: "Cervello vs Buddha [...]"
 image: "/img/testesso.png"
 background: "/img/testesso.png"
+og_image: "/img/testesso.png"
+lcp_image: "/img/testesso.png"
 description: "Cervello vs Buddha: entrambi dicono che il tuo 'io' è una fantasia! Scanner cerebrali, carri smontati e crisi da parcheggio incluse."
 url: "/neuroscienze-buddhismo-illusione-del-se"
 meta:  "Il cervello dice che l'Io è un'illusione, il Buddha annuisce... e tu resti lì a chiederti chi dei due ha ragione. Neuroscienze e buddismo si sfidano a colpi di neuroni e meditazione: preparati a scoprire che la tua mente inganna di un prestigiatore in un villaggio turistico"
@@ -23,35 +25,6 @@ keywords:
   - "esperimenti split-brain"
   - "meditazione e neuroplasticità"
 meta_robots: "index, follow, max-image-preview:large"
-structured_data: |
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://www.tuosito.com/neuroscienze-buddhismo-illusione-del-se"
-    },
-    "headline": "Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io?",
-    "description": "Un viaggio irriverente tra fMRI e insegnamenti buddhisti per scoprire perché il tuo 'io' è più effimero di una storia di Instagram",
-    "image": [
-      "https://www.tuosito.com/images/neuro-buddha-mind.png"
-     ],
-    "author": {
-      "@type": "Person",
-      "name": "Matteo Ricci",
-      "url": "https://www.tuosito.com/author/matteo-ricci"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Psichedelia Razionale",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.tuosito.com/images/logo.png"
-      }
-    },
-    "datePublished": "2023-11-15",
-    "dateModified": "2023-11-15"
-  }
 featured_post: 'true'
 lang: "it"
 ---

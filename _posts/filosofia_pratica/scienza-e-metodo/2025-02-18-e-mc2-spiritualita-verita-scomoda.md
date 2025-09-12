@@ -7,6 +7,8 @@ last_modified_at: 2025-09-05 09:00:00+02:00
 draft: false
 lang: it
 image: /img/relativita.jpg
+og_image: /img/relativita.jpg
+lcp_image: /img/relativita.jpg
 image_alt: Albert Einstein e la formula E=mc²
 background: /img/relativita.jpg
 description: 'Einstein spiegato semplice: cosa significa davvero “siamo energia” e

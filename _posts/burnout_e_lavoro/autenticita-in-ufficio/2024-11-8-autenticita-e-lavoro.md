@@ -1,52 +1,25 @@
 ---
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro_ms380g.webp 
-canonical: https://messymind.it/burnout-lavoro/autenticita-lavoro-guida-pratica/ 
-canonical_url: https://messymind.it/burnout-lavoro/autenticita-lavoro-guida-pratica/ 
+layout: post
+title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"
+seo_title: "Lavoro e Autenticità: sopravvivere all'ufficio con ironia e pratica"
+seo_description: "Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita."
 categories: burnout-e-lavoro
-description: Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint. 
-featured_post: true 
-focus_keyword: autenticità sul lavoro 
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp 
-image_author: energepic.com 
-image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/ 
-keywords: 
-- come essere autentici al lavoro 
-- trovare felicità nel lavoro 
-- filosofia orientale applicata al lavoro
-- strategie anti-burnout 
-- umorismo sul lavoro 
-- crescita spirituale professionale - gestire colleghi difficili 
-- trovare vocazione - ambiente di lavoro positivo 
-- equilibrio vita-lavoro 
-lang: it 
-permalink: /burnout-e-lavoro/autenticita-lavoro-guida-pratica/ 
-redirect_from: 
-- /burnout-e-lavoro/
-- autenticita-lavoro-guida-pratica/ 
-seo_description: 'Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita.' 
-seo_title: 'Lavoro e Autenticità: sopravvivere all''ufficio con ironia e pratica' 
-slug: autenticita-lavoro-guida-pratica 
-subcluster: autenticita-in-ufficio 
-tags: 
-- autenticità sul lavoro 
-- felicità lavorativa - spiritualità nel lavoro 
-- Dharma professionale 
-- Taoismo e lavoro 
-- Kabbalah applicata - crescita personale 
-- work-life balance 
-- umorismo aziendale - strategie pratiche 
-cornerstone: true
-is_cornerstone: true
+subcluster: autenticita-in-ufficio
+permalink: /burnout-e-lavoro/autenticita-lavoro-guida-pratica/
+slug: autenticita-lavoro-guida-pratica
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
 tags:
    - cornerstone
    - autenticità sul lavoro
-   - felicità lavorativa - spiritualità nel lavoro
+   - felicità lavorativa
    - Dharma professionale
    - Taoismo e lavoro
-   - Kabbalah applicata - crescita personale
+   - Kabbalah applicata
    - work-life balance
-   - umorismo aziendale - strategie pratiche
-lavoro title: 'Lavoro e Autenticità: Come Sopravvivere all''Ufficio Senza Perdere l''Anima (e la Sanità Mentale)'
+   - umorismo aziendale
+featured_post: true
 ---
 
 # Lavoro e Autenticità: Come Sopravvivere all’Ufficio Senza Perdere l’Anima (e la Sanità Mentale)

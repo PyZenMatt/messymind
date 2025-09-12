@@ -3,8 +3,12 @@
   <div class="container">
     <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i class="fa fa-bars"></i>
+      <span class="sr-only">Menu</span>
+      <svg class="icon icon-menu" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+        <rect y="4" width="24" height="2" rx="1"></rect>
+        <rect y="11" width="24" height="2" rx="1"></rect>
+        <rect y="18" width="24" height="2" rx="1"></rect>
+      </svg>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">

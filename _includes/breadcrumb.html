@@ -8,15 +8,25 @@
       <meta itemprop="position" content="1" />
     </li>
     
-    {% if page.categories or page.category %}
-  {% assign category = page.category | default: page.categories | first %}
-  {% assign key = category | downcase | replace: ' ', '-' %}
+    {% if page.categories or page.category or page.cluster or page.cluster_name %}
+  {% assign category = nil %}
+  {% if page.category and page.category != "" %}
+    {% assign category = page.category %}
+  {% elsif page.categories and page.categories.size > 0 %}
+    {% assign category = page.categories[0] %}
+  {% elsif page.cluster and page.cluster != "" %}
+    {% assign category = page.cluster %}
+  {% elsif page.cluster_name and page.cluster_name != "" %}
+    {% assign category = page.cluster_name %}
+  {% endif %}
+  {% assign key = category | default: '' | downcase | slugify %}
   {%- comment -%} Compute canonical category URL: prefer explicit mapping, otherwise build a safe path under /categorie/ {%- endcomment -%}
   {% assign mapped = site.data.category_slugs[key] | default: nil %}
   {% if mapped %}
-    {% assign category_url = mapped | relative_url %}
+    {% assign category_url = mapped | absolute_url %}
   {% else %}
-    {% assign category_url = '/' | append: 'categorie/' | append: key | append: '/' | relative_url %}
+      {% assign category_path = '/categorie/' | append: key | append: '/' %}
+      {% assign category_url = category_path | absolute_url %}
   {% endif %}
       <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
         <a href="{{ category_url }}" itemprop="item" itemtype="http://schema.org/WebPage">
@@ -28,12 +38,14 @@
         Handle optional subcluster in page front-matter: try to resolve via site.data.subcluster_slugs
       {%- endcomment -%}
       {% if page.subcluster %}
-        {% assign subkey = key | append: ':' | append: page.subcluster | downcase | replace: ' ', '-' %}
+        {% assign sub_clean = page.subcluster | downcase | slugify | strip %}
+        {% assign subkey = key | append: ':' | append: sub_clean %}
         {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
         {% if mapped_sub %}
-          {% assign sub_url = mapped_sub | relative_url %}
+          {% assign sub_url = mapped_sub | absolute_url %}
         {% else %}
-          {% assign sub_url = '/categorie/' | append: key | append: '/' | append: page.subcluster | append: '/' | relative_url %}
+          {% assign sub_path = '/categorie/' | append: key | append: '/' | append: sub_clean | append: '/' %}
+          {% assign sub_url = sub_path | absolute_url %}
         {% endif %}
         <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
           <a href="{{ sub_url }}" itemprop="item" itemtype="http://schema.org/WebPage">

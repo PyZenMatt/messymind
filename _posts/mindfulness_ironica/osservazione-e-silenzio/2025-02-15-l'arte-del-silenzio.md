@@ -21,6 +21,8 @@ og_title: 'Esercizi per il Silenzio Interiore: pratiche anti-guru'
 og_description: 5 esercizi semplici e ironici per coltivare il silenzio interiore
   senza diventare monaco zen. Sopravvivenza urbana alla portata di tutti.
 image: /img/silenzio.jpg
+og_image: /img/silenzio.jpg
+lcp_image: /img/silenzio.jpg
 background: /img/silenzio.jpg
 author: Matteo Ricci
 author_bio: Scrivo manuali di sopravvivenza spirituale per generazioni cresciute a

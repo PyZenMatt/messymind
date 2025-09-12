@@ -8,6 +8,8 @@ description: 'Scopri cos''è la Vipassana urbana e come praticarla ogni giorno: 
   consapevole, pausa caffè e mindfulness anti-guru senza ritiri e senza incenso.'
 featured: 'true'
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
 image_alt: foto in bianco e nero di una Persona che medita seduta sotto un palazzo
   vicino una fontana con dei palazzi intorno
 image_author: pixabay

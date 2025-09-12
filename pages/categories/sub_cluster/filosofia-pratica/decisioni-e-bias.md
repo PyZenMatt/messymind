@@ -6,6 +6,7 @@ meta_description: Hub del sotto-cluster Decisioni E Bias — guide essenziali e 
 cluster: filosofia-pratica
 cluster_name: Filosofia Pratica
 subcluster: decisioni-e-bias
+category: filosofia-pratica
 intro: 'Hub: raccolta di guide e articoli su Decisioni E Bias.'
 permalink: categorie/filosofia-pratica/decisioni-e-bias
 ---

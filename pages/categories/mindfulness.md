@@ -17,9 +17,5 @@ redirect_to: /categorie/mindfulness-ironica/
     <p>Redirecting to <a href="/categorie/mindfulness-ironica/">/categorie/mindfulness-ironica/</a></p>
   </body>
 </html>
----
-layout: default
-redirect_to: /categorie/mindfulness-ironica/
----
 
 <!-- Redirect page: permanent 301 from /categorie/mindfulness -> /categorie/mindfulness-ironica/ -->

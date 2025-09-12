@@ -21,6 +21,8 @@ redirect_from:
 robots: index,follow
 sitemap: true
 subcluster: scienza-e-metodo
+og_image: /img/costellazioni.jpg
+lcp_image: /img/costellazioni.jpg
 tags:
 - blog
 - seo

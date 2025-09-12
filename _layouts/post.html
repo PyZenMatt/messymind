@@ -51,7 +51,15 @@ layout: default
     </div>
   </header>
 
+  {%- comment -%}
+    BlogPosting JSON-LD: rendered only for post pages via the include.
+    `_includes/schema-blogposting.html` already guards rendering by checking
+    `page.layout`, `page.collection` or `page.schema_type`.
+    We set a transient flag here so other includes or custom templates can
+    detect that BlogPosting has been emitted and avoid rendering it again.
+  {%- endcomment -%}
   {% include schema-blogposting.html %}
+  {%- assign page._blogposting_rendered = true -%}
   {%- comment -%} FAQ structured data: render if `faqs` front matter exists (array of {question, answer}). Centralizes FAQ JSON-LD.
   {%- endcomment -%}
   {% include schema-faq.html %}
@@ -75,7 +83,7 @@ layout: default
             Resolve canonical category and subcluster URLs.
             Prefer mappings in `site.data.category_slugs` and `site.data.subcluster_slugs`.
           {%- endcomment -%}
-          {% assign category_key = cluster | downcase | replace: ' ', '-' %}
+          {% assign category_key = cluster | downcase | slugify %}
           {% assign mapped_cat = site.data.category_slugs[category_key] | default: nil %}
           {% if mapped_cat %}
             {% assign category_url = mapped_cat | relative_url %}
@@ -83,7 +91,7 @@ layout: default
             {% assign category_url = '/categorie/' | append: category_key | append: '/' | relative_url %}
           {% endif %}
 
-          {% assign subslug = page.subcluster | downcase | replace: ' ', '-' %}
+          {% assign subslug = page.subcluster | downcase | slugify %}
           {% assign subkey = category_key | append: ':' | append: subslug %}
           {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
           {% if mapped_sub %}
@@ -132,11 +140,11 @@ layout: default
                 {% assign mapped = site.data.category_slugs[key] %}
                 {% if mapped %}
                   <a href="{{ mapped | relative_url }}" class="text-decoration-none">
-                    <i class="fas fa-folder-open mr-2"></i>{{ category }}
+                    <svg class="icon icon-folder" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-right:0.5rem"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z" fill="#666"/></svg>{{ category }}
                   </a>
                 {% else %}
-                  <a href="{{ '/' | append: category | slugify | append: '/' | relative_url }}" class="text-decoration-none">
-                    <i class="fas fa-folder-open mr-2"></i>{{ category }}
+                  <a href="{{ '/categorie/' | append: category | slugify | append: '/' | relative_url }}" class="text-decoration-none">
+                    <svg class="icon icon-folder" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-right:0.5rem"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z" fill="#666"/></svg>{{ category }}
                   </a>
                 {% endif %}
               </li>
@@ -147,8 +155,8 @@ layout: default
           <ul class="list-unstyled">
             {% for post in site.posts limit:3 %}
             <li class="mb-2">
-              <a href="{{ post.url }}" class="text-decoration-none">
-                <i class="fas fa-chevron-right mr-2"></i>{{ post.title }}
+                <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                <svg class="icon icon-chevron-right" width="12" height="12" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-right:0.5rem"><path d="M9 6l6 6-6 6" fill="#666"/></svg>{{ post.title }}
               </a>
             </li>
             {% endfor %}

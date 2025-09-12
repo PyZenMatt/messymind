@@ -9,9 +9,9 @@ layout: default
     <div class="col-12">
       <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
         <h1 class="site-title mb-2">Messy Mind — mindfulness ironica e crescita personale</h1>
-        {% if site.featured_category %}
-  <a href="{{ '/categories/' | append: site.featured_category | slugify | append: '/' | relative_url }}" class="btn btn-primary category-button">
-          Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
+    {% if site.featured_category %}
+          <a href="{{ '/categorie/' | append: site.featured_category | slugify | append: '/' | relative_url }}" class="btn btn-primary category-button">
+          Vedi tutti <svg class="icon icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-left:0.5rem"><path d="M9 6l6 6-6 6" fill="#fff"/></svg>
         </a>
         {% endif %}
       </div>
@@ -34,7 +34,7 @@ layout: default
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <a href="{{ post.url }}" class="text-decoration-none">
+              <a href="{{ post.url | relative_url }}" class="text-decoration-none">
                 <h3 class="card-title">{{ post.title }}</h3>
               </a>
               {% if post.description %}
@@ -44,9 +44,9 @@ layout: default
               {% endif %}
               <div class="d-flex justify-content-between align-items-center">
                 <small class="text-muted">
-                  <i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}
+                  <svg class="icon icon-calendar" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: '%d/%m/%Y' }}
                 </small>
-                <a href="{{ post.url }}" class="btn btn-sm btn-outline-primary">Leggi tutto</a>
+                <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">Leggi tutto</a>
               </div>
             </div>
           </div>
@@ -61,8 +61,8 @@ layout: default
     <div class="col-12">
       <div class="d-flex justify-content-between align-items-center mb-4">
         <h2 class="section-heading">Ultimi Articoli</h2>
-        <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">
-          Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
+          <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">
+          Vedi tutti <svg class="icon icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-left:0.5rem"><path d="M9 6l6 6-6 6" fill="#fff"/></svg>
         </a>
       </div>
       <div class="row">
@@ -88,7 +88,7 @@ layout: default
             </div>
             <div class="card-footer bg-white">
               <small class="text-muted">
-                <i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}
+                <svg class="icon icon-calendar" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: '%d/%m/%Y' }}
               </small>
             </div>
           </div>
@@ -123,8 +123,8 @@ layout: default
   {% assign mapped = site.data.category_slugs[key] %}
     {% if mapped %}
     {% assign mapped_url = mapped | relative_url %}
-  {% else %}
-    {% assign mapped_url = '/' | append: category | slugify | append: '/' | relative_url %}
+    {% else %}
+    {% assign mapped_url = '/categorie/' | append: category | slugify | append: '/' | relative_url %}
   {% endif %}
   {%- comment -%}
     Se desideri escludere determinate categorie, ad esempio quelle già gestite in altri blocchi,
@@ -139,8 +139,8 @@ layout: default
       <div class="col-12">
         <div class="d-flex justify-content-between align-items-center mb-4">
           <h2 class="section-heading">Argomento: {{ category }}</h2>
-          <a href="{{ mapped_url }}" class="btn btn-primary">
-            Vedi tutti <i class="fas fa-arrow-right ml-2"></i>
+            <a href="{{ mapped_url }}" class="btn btn-primary">
+            Vedi tutti <svg class="icon icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-left:0.5rem"><path d="M9 6l6 6-6 6" fill="#fff"/></svg>
           </a>
         </div>
   {% assign top_posts = posts | slice: 0, 3 %}
@@ -157,7 +157,7 @@ layout: default
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <a href="{{ post.url }}" class="text-decoration-none">
+                <a href="{{ post.url | relative_url }}" class="text-decoration-none">
                   <h2 class="card-title">{{ post.title }}</h2>
                 </a>
                 {% if post.description %}
@@ -167,9 +167,9 @@ layout: default
                 {% endif %}
                 <div class="d-flex justify-content-between align-items-center">
                   <small class="text-muted">
-                    <i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}
+                    <svg class="icon icon-calendar" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: '%d/%m/%Y' }}
                   </small>
-                  <a href="{{ post.url }}" class="btn btn-sm btn-outline-primary">Leggi tutto</a>
+                  <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">Leggi tutto</a>
                 </div>
               </div>
             </div>

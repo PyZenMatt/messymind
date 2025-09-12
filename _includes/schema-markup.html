@@ -1,53 +1,10 @@
 <!-- Inline JSON-LD per layout globale (Jekyll default.html) -->
-<!-- Organization Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "{{ site.url }}/#organization",
-  "name": "{{ site.title }}",
-  "url": "{{ site.url }}",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "{{ site.logo | default: '/img/favicon/favicon.png' | absolute_url }}"
-  },
-  "description": "{{ site.description }}",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "{{ site.email }}",
-    "contactType": "Customer Service"
-  }{% if site.social.links %},
-  "sameAs": {{ site.social.links | jsonify }}{% elsif site.github_username or site.twitter_username or site.linkedin_username %},
-  "sameAs": [
-    {% if site.github_username %}"https://github.com/{{ site.github_username }}"{% endif %}
-    {% if site.twitter_username %}{% if site.github_username %},{% endif %}"https://twitter.com/{{ site.twitter_username }}"{% endif %}
-    {% if site.linkedin_username %}{% if site.github_username or site.twitter_username %},{% endif %}"https://linkedin.com/in/{{ site.linkedin_username }}"{% endif %}
-  ]{% endif %}
-}
-</script>
-
-<!-- WebSite + SearchAction Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "{{ site.url }}/#website",
-  "url": "{{ site.url }}",
-  "name": "{{ site.title }}",
-  "description": "{{ site.description }}",
-  "publisher": {
-    "@id": "{{ site.url }}/#organization"
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "{{ site.url }}/search?q={search_term_string}"
-    },
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
+{%- comment -%}
+  Organization and WebSite JSON-LD are emitted by `jekyll-seo-tag` via `{% seo %}`.
+  To avoid duplicate Organization/WebSite entities (and Rich Results warnings),
+  this include now provides only page-scoped schema: WebPage, BreadcrumbList and
+  CollectionPage (when relevant). BlogPosting is kept in `_includes/schema-blogposting.html`.
+{%- endcomment -%}
 
 <!-- WebPage Schema -->
 <script type="application/ld+json">
@@ -82,25 +39,37 @@
 
 {%- assign category_url = nil -%}
 {%- assign subcluster_url = nil -%}
-{%- if page.category or (page.categories and page.categories.first) -%}
-  {%- assign category_key = page.category | default: page.categories.first | downcase | replace: ' ', '-' -%}
+{%- if page.category or (page.categories and page.categories.first) or page.cluster or page.cluster_name -%}
+    {%- assign category_key = nil -%}
+    {%- if page.category and page.category != "" -%}
+      {%- assign category_key = page.category -%}
+    {%- elsif page.categories and page.categories.size > 0 -%}
+      {%- assign category_key = page.categories[0] -%}
+    {%- elsif page.cluster and page.cluster != "" -%}
+      {%- assign category_key = page.cluster -%}
+    {%- elsif page.cluster_name and page.cluster_name != "" -%}
+      {%- assign category_key = page.cluster_name -%}
+    {%- endif -%}
+    {%- assign category_key = category_key | default: '' | downcase | slugify -%}
   {%- assign mapped = site.data.category_slugs[category_key] | default: nil -%}
   {%- if mapped -%}
     {%- assign category_url = mapped | absolute_url -%}
   {%- else -%}
-    {%- assign category_url = site.url | append: '/categorie/' | append: category_key | append: '/' -%}
+  {%- assign category_path = '/categorie/' | append: category_key | append: '/' -%}
+  {%- assign category_url = category_path | absolute_url -%}
   {%- endif -%}
 {%- endif -%}
 
   {%- if page.subcluster and category_url -%}
-  {%- assign cleaned_sub = page.subcluster | downcase | replace: ' ', '-' | strip -%}
+  {%- assign cleaned_sub = page.subcluster | downcase | slugify | strip -%}
   {%- assign subkey = category_key | append: ':' | append: cleaned_sub -%}
   {%- assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil -%}
   {%- if mapped_sub -%}
     {%- assign subcluster_url = mapped_sub | absolute_url -%}
   {%- else -%}
     {%- comment -%} fallback: always build under /categorie/{category}/{subcluster}/ {%- endcomment -%}
-    {%- assign subcluster_url = site.url | append: '/categorie/' | append: category_key | append: '/' | append: cleaned_sub | append: '/' -%}
+  {%- assign sub_path = '/categorie/' | append: category_key | append: '/' | append: cleaned_sub | append: '/' -%}
+  {%- assign subcluster_url = sub_path | absolute_url -%}
   {%- endif -%}
 {%- endif -%}
 

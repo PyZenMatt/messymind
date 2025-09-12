@@ -147,7 +147,7 @@ layout: default
             {% for sc in subclusters %}
                 {% if sc %}
                     {%- comment -%} Resolve subcluster canonical URL via site.data.subcluster_slugs when available {%- endcomment -%}
-                    {% assign subkey = cat_slug | append: ':' | append: sc | downcase | replace: ' ', '-' %}
+                    {% assign subkey = cat_slug | append: ':' | append: sc | downcase | slugify %}
                     {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
                     {% if mapped_sub %}
                       {% assign sub_href = mapped_sub | relative_url %}

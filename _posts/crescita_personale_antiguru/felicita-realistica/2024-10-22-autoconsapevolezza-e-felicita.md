@@ -13,6 +13,8 @@ meta_description: Scopri come la felicità si nasconde tra cactus emotivi e pani
 redirect_from:
 - /ricerca-della-felicita-autenticita-panini-notturni-e-il-coraggio-di-essere-cactus-emotivi/
 - /ricerca-felicita-autenticita-panini-notturni/
+og_image: /img/felicita.jpg
+lcp_image: /img/felicita.jpg
 related:
 - la-felicita-e-un-viaggio
 - le-fonmdamenta-della-felicita

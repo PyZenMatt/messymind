@@ -1,3 +1,15 @@
+{%- comment -%}
+  Render BlogPosting JSON-LD only for actual post pages.
+  This avoids duplicate BlogPosting output when other includes or global
+  schema fragments are rendered (e.g. `_includes/schema-markup.html`).
+
+  Conditions where BlogPosting will render:
+  - `page.layout == 'post'`
+  - OR page is from the `posts` collection (`page.collection == 'posts'`)
+  - OR front matter explicitly sets `schema_type: BlogPosting`
+{%- endcomment -%}
+
+{%- if page.layout == 'post' or page.collection == 'posts' or page.schema_type == 'BlogPosting' -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -28,3 +40,6 @@
   "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
 }
 </script>
+{%- else -%}
+{%- comment -%} Skip BlogPosting: this page is not a post or explicitly requests no BlogPosting {%- endcomment -%}
+{%- endif -%}

@@ -3,25 +3,41 @@
 {% assign img_alt = include.alt | default: include.title | default: page.title | default: site.title | default: 'Immagine articolo' %}
 {% assign img_class = include.class | default: "img-fluid" %}
 
-{% comment %} Solo crea WebP se il file esiste {% endcomment %}
+{%- comment -%} WebP candidate path (simple replacement). Keep original if webp not present on server.
+{%- endcomment -%}
 {% assign webp_path = img_path | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' | replace: '.png', '.webp' %}
 
+{%- comment -%}
+  Determine if this image is the page LCP candidate.
+  Priority: explicit `include.lcp` or `include.lcp_image`, then `page.lcp_image` matching.
+{%- endcomment -%}
+{%- assign is_lcp = false -%}
+{%- if include.lcp == true or include.lcp == 'true' or include.lcp_image %}
+  {%- assign is_lcp = true -%}
+{%- elsif page.lcp_image == img_path or page.lcp_image == webp_path or page.lcp_image == webp_path | absolute_url -%}
+  {%- assign is_lcp = true -%}
+{%- endif -%}
+
+{%- comment -%} choose loading and fetchpriority based on LCP or explicit loading param {%- endcomment -%}
+{%- if is_lcp or include.loading == 'eager' or include.loading == 'auto' -%}
+  {%- assign loading_attr = 'eager' -%}
+  {%- assign fetchprio = 'fetchpriority="high"' -%}
+{%- else -%}
+  {%- assign loading_attr = 'lazy' -%}
+  {%- assign fetchprio = '' -%}
+{%- endif -%}
+
 <picture>
-  <!-- WebP per browser moderni -->
-  {% if img_path and img_path != '' %}
-  <source 
-    srcset="{{ webp_path }}" 
-    type="image/webp">
+  {% if webp_path and webp_path != '' %}
+    <source srcset="{{ webp_path | absolute_url }}" type="image/webp">
   {% endif %}
-  
-  <!-- Fallback originale -->
-  <!-- Fallback originale -->
-  <img 
-    src="{{ img_path }}" 
-    alt="{{ img_alt }}" 
+
+  <img
+    src="{{ img_path | absolute_url }}"
+    alt="{{ img_alt }}"
     {% if include.class %}class="{{ include.class }}"{% endif %}
-    {% if include.loading %}loading="{{ include.loading }}"{% else %}loading="lazy"{% endif %}
-    {% if include.loading == 'eager' %}fetchpriority="high"{% endif %}
+    loading="{{ loading_attr }}"
+    {{ fetchprio }}
     decoding="async"
     {% if include.width and include.height %}
     width="{{ include.width }}"

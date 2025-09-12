@@ -168,9 +168,6 @@ body {
   background-image: none;
 }
 
-.navbar-toggler .fa-bars {
-  color: var(--text-color);
-}
 
 // === MASTHEAD ===
 .masthead {
@@ -468,17 +465,7 @@ body {
   }
 }
 
-// === ICONS UNICODE (sostituiscono Font Awesome) ===
-.fa-bars::before { content: "☰"; }
-.fa-envelope::before { content: "✉"; }
-.fas.fa-calendar-alt:before,
-.far.fa-calendar-alt:before { content: "📅"; }
-.fas.fa-arrow-right:before { content: "→"; }
-.fa-stack .fa-envelope { 
-  position: relative; 
-  left: 65%; 
-  transform: translateX(-35%); 
-}
+/* Icon fonts removed: using inline SVGs instead */
 
 // === THEME TOGGLE ===
 #theme-toggle {

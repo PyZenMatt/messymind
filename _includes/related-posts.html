@@ -19,7 +19,7 @@
       <div class="simple-related-list">
         {% for related_post in related_posts %}
           <div class="related-item mb-2">
-            <a href="{{ related_post.url }}" class="text-decoration-none d-block" title="Leggi: {{ related_post.title }}">
+            <a href="{{ related_post.url | relative_url }}" class="text-decoration-none d-block" title="Leggi: {{ related_post.title }}">
               <h6 class="mb-1 text-primary">{{ related_post.title }}</h6>
               <small class="text-muted">{{ related_post.date | date: '%d/%m/%Y' }}</small>
             </a>
@@ -38,11 +38,11 @@
     {% assign mapped = site.data.category_slugs[key] %}
     {% if mapped %}
       <a href="{{ mapped | relative_url }}" class="btn btn-secondary">
-        <i class="fas fa-arrow-left"></i> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
+        <svg class="icon icon-arrow-left" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M14 7l-5 5 5 5V7z" fill="#fff"/></svg> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
       </a>
     {% else %}
-  <a href="{{ '/' | append: category | slugify | append: '/' | relative_url }}" class="btn btn-secondary">
-        <i class="fas fa-arrow-left"></i> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
+      <a href="{{ '/categorie/' | append: category | slugify | append: '/' | relative_url }}" class="btn btn-secondary">
+        <svg class="icon icon-arrow-left" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M14 7l-5 5 5 5V7z" fill="#fff"/></svg> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
       </a>
     {% endif %}
   </div>

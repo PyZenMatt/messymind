@@ -26,7 +26,7 @@ permalink: /categorie/
               <p class="text-muted">{{ category[1].size }} articoli</p>
               <div class="list-group">
                 {% for post in category[1] limit:3 %}
-                <a href="{{ post.url }}" class="list-group-item list-group-item-action">
+                <a href="{{ post.url | relative_url }}" class="list-group-item list-group-item-action">
                   {{ post.title }}
                 </a>
                 {% endfor %}

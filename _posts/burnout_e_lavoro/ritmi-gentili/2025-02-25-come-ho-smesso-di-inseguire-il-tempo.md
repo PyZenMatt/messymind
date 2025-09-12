@@ -8,6 +8,8 @@ description: 'Scopri come ho trasformato la mia relazione con il tempo: dalla cr
 featured_image_alt: Donna che medita vicino a cactus con orologi rotti sullo sfondo
 featured_post: 'true'
 image: /img/accettazione.png
+og_image: /img/accettazione.png
+lcp_image: /img/accettazione.png
 keywords:
 - come ridurre l'ansia da tempo
 - tecniche mindfulness pratiche

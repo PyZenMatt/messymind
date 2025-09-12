@@ -2,12 +2,16 @@
 layout: default
 ---
 {%- assign cluster = nil -%}
-{%- if page.category -%}
-  {%- assign cluster = page.category | downcase | replace: ' ', '-' | strip -%}
-{%- elsif page.categories and page.categories.first -%}
-  {%- assign cluster = page.categories.first | downcase | replace: ' ', '-' | strip -%}
+{%- if page.category and page.category != "" -%}
+  {%- assign cluster = page.category | downcase | slugify | strip -%}
+{%- elsif page.categories and page.categories.size > 0 and page.categories[0] != "" -%}
+  {%- assign cluster = page.categories[0] | downcase | slugify | strip -%}
+{%- elsif page.cluster and page.cluster != "" -%}
+  {%- assign cluster = page.cluster | downcase | slugify | strip -%}
+{%- elsif page.cluster_name and page.cluster_name != "" -%}
+  {%- assign cluster = page.cluster_name | downcase | slugify | strip -%}
 {%- endif -%}
-{%- assign sub = page.subcluster | downcase | replace: ' ', '-' | strip -%}
+{%- assign sub = page.subcluster | downcase | slugify | strip -%}
 
 {%- comment -%}
   Recupero post del sotto-cluster in modo robusto:
@@ -18,13 +22,13 @@ layout: default
 {%- comment -%} build scoped list and cornerstones {%- endcomment -%}
 {%- assign scoped = '' | split: ',' -%}
 {%- for p in site.posts -%}
-  {%- assign p_sub = p.subcluster | default: '' | downcase | replace: ' ', '-' | strip -%}
+                {%- assign p_sub = p.subcluster | default: '' | downcase | slugify | strip -%}
   {%- if p_sub == sub -%}
     {%- if cluster -%}
       {%- assign in_cat = false -%}
       {%- if p.categories -%}
         {%- for c in p.categories -%}
-          {%- assign ckey = c | downcase | replace: ' ', '-' | strip -%}
+          {%- assign ckey = c | downcase | slugify | strip -%}
           {%- if ckey == cluster -%}
             {%- assign in_cat = true -%}
           {%- endif -%}
@@ -87,7 +91,7 @@ layout: default
                     <p class="card-text mb-3 d-none d-md-block">{{ post.meta | strip_html | truncatewords: 25 }}</p>
                   {%- endif -%}
                   <div class="mt-auto d-flex justify-content-between align-items-center">
-                    <small class="text-muted"><i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}</small>
+                    <small class="text-muted"><svg class="icon icon-calendar" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: '%d/%m/%Y' }}</small>
                     <span class="btn btn-sm btn-outline-primary">Leggi tutto</span>
                   </div>
                 </div>
@@ -171,7 +175,7 @@ layout: default
       {%- endif -%}
       { "item": { "@id": "{{ category_id }}", "name": "{{ page.cluster_name | default: cluster | capitalize }}" }, "position": 2 },
       {%- if page.subcluster -%}
-        {%- assign cleaned_sub = page.subcluster | downcase | replace: ' ', '-' | strip -%}
+  {%- assign cleaned_sub = page.subcluster | downcase | slugify | strip -%}
         {%- assign sub_key = category_key | append: ':' | append: cleaned_sub -%}
         {%- assign mapped_sub = site.data.subcluster_slugs[sub_key] | default: nil -%}
         {%- if mapped_sub -%}

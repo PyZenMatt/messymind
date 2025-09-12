@@ -6,6 +6,7 @@ meta_description: Hub del sotto-cluster Ritmi Gentili — guide essenziali e art
 cluster: burnout-e-lavoro
 cluster_name: Burnout Lavoro
 subcluster: ritmi-gentili
+category: burnout-e-lavoro
 intro: 'Hub: raccolta di guide e articoli su Ritmi Gentili.'
 permalink: categorie/burnout-e-lavoro/ritmi-gentili/
 ---
