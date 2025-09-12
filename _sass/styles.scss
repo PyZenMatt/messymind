@@ -36,3 +36,16 @@
 	text-decoration: underline; /* indicare chiaramente che è cliccabile */
 }
 
+/* FAQ spacing and styling */
+.faq dt.faq-question {
+	margin-top: 1rem; /* space above question */
+}
+.faq dt.faq-question strong {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 0.5rem; /* space between question and answer */
+}
+.faq dd.faq-answer {
+	margin: 0 0 1rem 0; /* space after answer */
+}
+

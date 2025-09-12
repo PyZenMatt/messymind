@@ -1,251 +1,115 @@
-**Titolo Risposta:** Strategia “Burnout e lavoro” — mappa hub → sottocluster → articoli (con query pronte)
+Checklist applicabile (To-Do per 14 giorni):
 
-**Sintesi Iniziale:**
+Settimana 1 — Cluster: Burnout & lavoro
 
-* Hai già due ancore solide nei sottocluster “Autenticità in ufficio” e “Ritmi gentili”; vanno trasformate in mini-ecosistemi con 4–6 pezzi di supporto ciascuno, interlinkati e governati da una pagina hub “Burnout e lavoro”. &#x20;
-* Obiettivo: 1 head term per l’hub, 2 head term (uno per sottocluster), + long-tail per ogni articolo. Interlink e FAQ mirate per intercettare People Also Ask.
+Pillar di cluster (crea/aggiorna):
 
-**Checklist concettuale (priorità 3–7)**
+Titolo: “Burnout: cos’è davvero e come riconoscerlo (senza incenso)”
 
-* Definisci 1 head term per l’hub (“burnout lavoro”) e 1 per ogni sottocluster (“autenticità sul lavoro”, “ritmi gentili / slow productivity”).
-* Per ogni sottocluster: 1 articolo cornerstone (ce l’hai) + 4–6 supporti long-tail.
-* Interlink triangolato: articolo ↔ sottocluster ↔ hub, con CTA coerenti.
-* Ogni articolo: 1 keyword primaria + 3–5 varianti affini + 3 PAA (FAQ) integrate in pagina.
-* Schema: CollectionPage/ItemList su hub e sottocluster; BlogPosting + FAQ/HowTo sugli articoli.
-* Monitoraggio: GSC → raffina varianti e titoli (A/B su title/description).
+Sotto-cluster: nessuno (vive a livello cluster).
 
-**Checklist operativa**
+Azioni: definizione semplice (≤150 parole), 3 FAQ, grafico stagionalità/Trends come immagine ottimizzata; CTA verso sotto-cluster.
 
-* Crea/aggiorna la pagina hub “Burnout e lavoro” con: intro breve (80–120 parole), box “Guide essenziali”, sezione “Esplora per sottocluster”, ultimi articoli (max 12), FAQ mirate.
-* Crea le due pagine sottocluster con intro (60–100 parole), elenco articoli del cluster filtrati per `subcluster`, e 3 FAQ ciascuna.
-* Per i due articoli esistenti: affina title/meta attorno alle query assegnate, aggiungi 2 link cross-sottocluster (quando pertinente), inserisci 3–4 FAQ operative e 1 HowTo dove sensato. &#x20;
-* Imposta in tutti i pezzi: `categories: burnout-e-lavoro` + `subcluster: autenticita-in-ufficio` o `ritmi-gentili` coerenti con la tassonomia.
+Sotto-cluster: Autenticità in ufficio
 
----
+HowTo #1: “Burnout al lavoro: 7 segnali che stai sottovalutando”
 
-## Mappa completa: hub → sottocluster → articoli (query, intenti, PAA)
+HowTo #2: “Confini gentili al lavoro: 5 micro-strategie giornaliere”
 
-### HUB — “Burnout e lavoro”
+Azioni: inserisci 2 link interni (→ Pillar cluster, → HowTo “fratello”).
 
-* Intento: informativo + guida pratica.
-* Query primaria: burnout lavoro
-* Varianti affini: sintomi burnout lavoro; prevenire burnout lavorativo; recupero burnout lavoro; stress lavoro cronico
-* PAA da coprire:
-  • Quali sono i segnali del burnout sul lavoro?
-  • Come si esce dal burnout lavorativo?
-  • Qual è la differenza tra stress e burnout?
+Sotto-cluster: Ritmi gentili
 
-Proposte SEO:
+HowTo #1: “Come uscire dal burnout: ritmi gentili e confini che funzionano”
 
-* Titolo (SERP): Burnout e Lavoro: segnali, cause e come uscirne (guida 2025)
-* Meta description: Segnali precoci, test rapido, cause comuni e 10 azioni concrete per prevenire e uscire dal burnout lavorativo. Strumenti pratici, zero dogmi.
-* H1: Burnout e lavoro: guida pratica (segnali, cause, soluzioni)
-* Slug consigliato: `/burnout-e-lavoro/`
+HowTo #2: “Stress o burnout? Le differenze che ti salvano la settimana”
 
-Contenuto (outline breve):
+Azioni: inserisci 2 link interni (→ Pillar cluster, → HowTo “fratello”).
 
-* Cos’è il burnout lavorativo (definizione chiara in 70–90 parole)
-* Segnali e autovalutazione (micro-checklist)
-* Cause tipiche in azienda
-* Prevenzione (ritmi gentili) e gestione (autenticità/limiti)
-* Box “Esplora per sottocluster” → Autenticità in ufficio • Ritmi gentili
-* Box “Guide essenziali” (3 cornerstone, inclusi i tuoi 2 attuali)
-* FAQ (3–4 domande PAA)
+Tecnico (site-wide, rapidi):
 
----
+Attiva FAQ/HowTo schema su questi 5 post, breadcrumb coerente cluster/sotto-cluster, immagine LCP ottimizzata e lazy per le altre.
 
-### SOTTOCLUSTER 1 — “Autenticità in ufficio”
+Slug descrittivi: .../burnout-lavoro/ (cluster), .../burnout-lavoro/autenticita-ufficio/, .../burnout-lavoro/ritmi-gentili/.
 
-* Intento: come-fare + trasformativo soft-skills.
-* Query pilastro: autenticità sul lavoro
-* Varianti affini: essere se stessi al lavoro; assertività in ufficio; come dire no al lavoro; confini al lavoro; colleghi tossici come gestire
+Settimana 2 — Cluster: Mindfulness ironica
 
-Pagina sottocluster
+Pillar di cluster: “Mindfulness ironica: guida pratica (zero incenso, massima realtà)”
 
-* Titolo (SERP): Autenticità in ufficio: essere se stessi al lavoro (senza bruciarsi)
-* Meta description: Come portare valori, limiti e assertività in azienda: frasi pronte, confini gentili e gestione colleghi difficili. Guida pratica anti-burnout.
-* H1: Autenticità in ufficio: guida pratica
-* Slug: `/burnout-e-lavoro/autenticita-in-ufficio/`
-* FAQ:
-  • Come essere autentici senza sembrare “contro”?
-  • Quali frasi assertive usare con capi/colleghi?
-  • Quando NON conviene spingere sull’autenticità?
+Sotto-cluster proposti:
 
-Articoli del sottocluster (con la tua ancora già esistente)
+Mindfulness al lavoro → HowTo: “Meditazione da scrivania in 5 minuti (senza figuracce)”
 
-1. Cornerstone esistente
+Tecniche rapide → HowTo: “Respiri d’emergenza per riunioni tossiche”
 
-   * Titolo attuale file: “Lavoro e Autenticità: Come Sopravvivere all’Ufficio…” (ottimo nucleo)&#x20;
-   * Query primaria: autenticità sul lavoro
-   * Varianti: essere se stessi al lavoro; come essere autentici in azienda; assertività al lavoro
-   * PAA:
-     • Cosa significa essere autentici al lavoro?
-     • Come dire “no” con professionalità?
-     • Come gestire colleghi/capi tossici?
+FAQ trasversali: “Funziona anche se non credo?”, “Quanto praticare per vedere effetti?”, “È utile con il burnout?”
 
-   Suggerimenti rapidi on-page (senza stravolgere): evidenzia “autenticità sul lavoro” nei primi 100 caratteri; aggiungi 3–4 FAQ in fondo; link interni: Hub + Sottocluster + 2 articoli sorella (assertività; confini).&#x20;
+Settimana 2 (in parallelo, leggero) — Cluster: Filosofia pratica
 
-2. Supporto: Assertività: 15 frasi pronte per dire “no” (senza sensi di colpa)
+Pillar di cluster: “Filosofia pratica: stoicismo e taoismo per sopravvivere alla settimana lavorativa”
 
-   * Query primaria: frasi assertive lavoro
-   * Varianti: come dire no al lavoro; esempi assertività in ufficio; script assertivi
-   * PAA: frasi per dire no a richieste extra; come rinegoziare una scadenza; come chiedere risorse
+Sotto-cluster: Stoicismo moderno (HowTo: “Dicrotizzare il controllo: che cosa dipende da te al lavoro”), Taoismo quotidiano (HowTo: “Wu-Wei per la produttività non tossica”).
 
-3. Supporto: Confini gentili al lavoro: come impostarli e farli rispettare
+Interlink: incrocia con Burnout & Mindfulness (ritmi gentili, confini, pause attive).
 
-   * Query primaria: confini al lavoro
-   * Varianti: limiti in ufficio; proteggere deep work; confini orari email
-   * PAA: come comunicare i confini; esempi di policy personali; cosa fare se non vengono rispettati
+Tracking & manutenzione (ricorrente, ogni lunedì)
 
-4. Supporto: Colleghi tossici: segnali e protocollo in 5 passi
+Rilancio Trends (90 giorni) → aggiorna titoli con la variante vincente; se appare un Breakout, pubblica uno “spike post” breve che punta ai Pillar.
 
-   * Query primaria: colleghi tossici come gestire
-   * Varianti: gestire capo tossico; difendersi da manipolazioni in ufficio
-   * PAA: come documentare; quando coinvolgere HR; frasi utili
+GSC: controlla query/CTR; A/B test di title/description sui 2 Pillar maggiori.
 
-5. Supporto: One-to-one con il manager: script per chiedere tempo/risorse
+Esempio di contenuto ottimizzato (Pillar cluster “Burnout & lavoro”):
 
-   * Query primaria: one to one con il manager
-   * Varianti: come chiedere risorse; come rinegoziare priorità
-   * PAA: struttura dell’incontro; esempi di richieste
+Titolo SEO: Burnout: cos’è davvero e come riconoscerlo (senza incenso)
 
----
+Meta Title: Burnout al lavoro: definizione, segnali e cosa fare (2025)
 
-### SOTTOCLUSTER 2 — “Ritmi gentili”
+Meta Description: Burnout spiegato semplice: cos’è, segnali reali e prime azioni utili. Niente mantra impossibili, solo strumenti pratici per tornare a respirare.
 
-* Intento: informativo+how-to su tempo/ritmi → anti-burnout.
-* Query pilastro: ritmi gentili
-* Varianti affini: slow productivity; vivere più lentamente; ansia da tempo; smettere di inseguire il tempo; micro-abitudini anti stress
+H1: Burnout: cos’è davvero (e come accorgertene in tempo)
 
-Pagina sottocluster
+Struttura paragrafi:
 
-* Titolo (SERP): Ritmi gentili: slow productivity per lavorare meglio (e vivere più calmi)
-* Meta description: Tecniche semplici per rallentare il ritmo, ridurre l’ansia da tempo e recuperare energie. Micro-abitudini, deep work gentile e detox notifiche.
-* H1: Ritmi gentili al lavoro
-* Slug: `/burnout-e-lavoro/ritmi-gentili/`
-* FAQ:
-  • Cosa sono i “ritmi gentili”?
-  • Differenza tra slow productivity e “andare piano”?
-  • Come iniziare in 7 giorni?
+In breve (≤120 parole) → definizione, perché non è solo “stress”.
 
-Articoli del sottocluster (con la tua ancora già esistente)
+Segnali “lenti” vs “acuti” → 5 esempi reali in ufficio.
 
-1. Cornerstone esistente
+Perché ora (fattori organizzativi + stagionalità da Trends in 1 grafico).
 
-   * Titolo attuale: “Come Ho Smesso di Inseguire il Tempo: 3 Segreti…” (story-driven, ottima base)&#x20;
-   * Query primaria: smettere di inseguire il tempo
-   * Varianti: ansia da produttività; vivere nel presente esercizi; micro-abitudini anti burnout
-   * PAA:
-     • Come ridurre l’ansia da tempo?
-     • Tecniche rapide per vivere più lentamente?
-     • Cos’è la slow productivity?
+Primo soccorso (ritmi gentili, confini, micro-pause guidate).
 
-   Suggerimenti rapidi on-page: anticipa la keyword primaria nel primo paragrafo; aggiungi sezione “Protocollo 7 giorni” (HowTo); link a detox notifiche e rituali di decompressione.&#x20;
+Interlink: → “Autenticità in ufficio”, → “Ritmi gentili”.
 
-2. Supporto: Slow productivity in azienda: 7 principi applicati alla settimana tipo
+FAQ (3): “Quanto dura?”, “Si guarisce senza cambiare lavoro?”, “Burnout o ansia?”
 
-   * Query primaria: slow productivity lavoro
-   * Varianti: lavorare meglio meno ore; priorità essenziali
-   * PAA: differenze con time-blocking; esempi pratici
+CTA ironica: “Iscriviti: zero dogmi, solo strumenti per resistere ai meeting del lunedì.”
 
-3. Supporto: Detox notifiche (7 giorni): protocollo passo-passo
+Suggerimenti strategici (medio-lungo termine):
 
-   * Query primaria: detox notifiche
-   * Varianti: ridurre distrazioni lavoro; come disattivare notifiche smart
-   * PAA: cosa silenziare; come misurare il beneficio; strumenti
+Triade per cluster: 1 Pillar di cluster + 1 Pillar per sotto-cluster + 3–5 HowTo → struttura a stella con rami brevi e aggiornabili.
 
-4. Supporto: Rituali di decompressione post-lavoro in 10 minuti
+E-E-A-T: pagina Autore con credenziali/esperienza e “Metodologia” (fonti, limiti, tono anti-guru).
 
-   * Query primaria: rituale fine giornata lavoro
-   * Varianti: staccare dal lavoro; routine dopo il lavoro
-   * PAA: 10 minuti bastano? esempi a bassa frizione
+Calendario T-minus: pubblica 10–14 giorni prima dei picchi stagionali individuati su 5 anni; aggiorna snippet e titoli al bisogno.
 
-5. Supporto: Deep work gentile: come lavorare concentrati senza esaurirsi
+Cross-canale: replica la stessa keyword vincenti su YouTube (shorts pratici), embedding nel post.
 
-   * Query primaria: deep work lavoro
-   * Varianti: sessioni focus brevi; pomodori “soft”
-   * PAA: durata ideale; come difendere i blocchi
+Note tecniche (on-page e performance):
 
-6. Supporto: Micro-abitudini da 1 minuto contro lo stress
+Schema: BlogPosting su ogni articolo; attiva FAQ su tutti i post e HowTo dove ci sono step concreti.
 
-   * Query primaria: micro abitudini anti stress
-   * Varianti: esercizi 60 secondi; break consapevoli
-   * PAA: quante al giorno; esempi al desk
+Breadcrumb & tassonomia: mai URL hardcoded; struttura: /{cluster}/{sotto-cluster?}/{slug}/.
 
----
+CWV: immagine LCP in formato moderno + pre-caricamento mirato; tutte le altre immagini lazy; CSS critico in head.
 
-## Ottimizzazione rapida dei due articoli esistenti (senza riscriverli)
+Slug & canonical: slugs stabili e parlanti; canonical unico; evitare duplicati di schema o meta.
 
-1. Autenticità e lavoro (cornerstone “Autenticità in ufficio”)
+Interlink: in coda a ogni articolo: link al Pillar del cluster, alla pagina del sotto-cluster e a 1 correlato (related posts come rete di sicurezza).
 
-   * Title SERP proposto: Autenticità sul lavoro: 7 mosse pratiche per essere te stesso (senza bruciarti)
-   * Meta description: Autenticità sul lavoro spiegata semplice: frasi assertive pronte, confini gentili e tecniche anti-burnout. Esempi reali + FAQ utili.
-   * H1 (ok se resta l’attuale), ma inserisci la keyword “autenticità sul lavoro” nelle prime 2–3 righe.
-   * Aggiungi 3–4 FAQ (PAA sopra) + box “Risorse correlate”.&#x20;
+Autocorrezione (2 punti):
 
-2. Come ho smesso di inseguire il tempo (cornerstone “Ritmi gentili”)
+Ho semplificato i sotto-cluster proposti: se nella tua tassonomia ne esistono già di diversi, rinominali 1:1 senza cambiare la logica.
 
-   * Title SERP proposto: Smettere di inseguire il tempo: 3 segreti (slow productivity + esercizi)
-   * Meta description: Meno ansia da tempo, più presenza: protocollo 7 giorni, micro-abitudini e slow productivity. Storia personale + soluzioni pratiche.
-   * Inserisci “smettere di inseguire il tempo” nelle prime 2–3 righe del racconto + sezione HowTo finale.&#x20;
+Ho assunto che gli include tecnici (FAQ/HowTo/Breadcrumb/Immagini ottimizzate) siano già integrati: se uno manca, lo aggiungiamo prima dei contenuti.
 
-Interlink minimi da aggiungere subito (in entrambi i pezzi):
-
-* Link all’hub “Burnout e lavoro”.
-* Link alla pagina del rispettivo sottocluster.
-* 2 link verso articoli sorella pianificati (anche come “in arrivo” se in bozza).
-
----
-
-## Esempi pronti (hub + sottocluster) — titoli, meta, H1, outline
-
-HUB “Burnout e lavoro”
-
-* Titolo: Burnout e Lavoro: Segnali, Cause e Come Uscirne (Guida 2025)
-* Meta title: Burnout e lavoro: guida completa (segnali, cause, soluzioni)
-* Meta description: Riconosci i segnali del burnout lavorativo e previenilo con strategie semplici: checklist, ritmi gentili, autenticità in ufficio e piani 7 giorni.
-* H1: Burnout e lavoro: guida pratica
-* Outline: definizione; segnali/auto-test; cause; prevenzione (ritmi gentili); gestione (autenticità/limiti); risorse; FAQ.
-
-Sottocluster “Autenticità in ufficio”
-
-* Titolo: Autenticità in Ufficio: Essere Se Stessi al Lavoro (Senza Bruciarsi)
-* Meta description: Assertività, confini gentili e gestione colleghi difficili. Script pronti e micro-pratiche per portare valore e limiti in azienda.
-* H1: Autenticità in ufficio: guida pratica
-* Outline: cos’è; perché protegge dal burnout; frasi pronte; confini; casi tipici; risorse; FAQ.
-
-Sottocluster “Ritmi gentili”
-
-* Titolo: Ritmi Gentili e Slow Productivity: Lavorare Meglio, Vivere Più Calmi
-* Meta description: Riduci l’ansia da tempo con micro-abitudini, detox notifiche e deep work gentile. Protocollo 7 giorni + routine di decompressione.
-* H1: Ritmi gentili al lavoro
-* Outline: principi; protocollo 7 giorni; detox notifiche; deep work gentile; decompressione; risorse; FAQ.
-
----
-
-## Suggerimenti strategici (medio-lungo termine)
-
-* Cornerstone tagging: marca i 2 articoli come “cornerstone” a livello di sottocluster e riproponili nelle card “Guide essenziali”. &#x20;
-* Pagine elenco ricche: hub/sottocluster come CollectionPage con ItemList+FAQ per aumentare copertura PAA.
-* Aggiorna trimestralmente: arricchisci i cornerstone con “cosa è cambiato/nuove FAQ” e mantieni i supporti evergreen.
-* A/B test su title/description delle ancore (CTA implicite diverse: “7 mosse” vs “10 mosse”, “protocollo 7 giorni” vs “3 segreti”).
-
----
-
-## Note tecniche
-
-* Front matter coerente: `categories: burnout-e-lavoro` + `subcluster:` (`autenticita-in-ufficio` | `ritmi-gentili`), `seo_title`, `seo_description`, `featured_post` solo dove serve. &#x20;
-* Interlink: usa link relativi e breadcrumb; chiudi ogni articolo con un blocco “Continua su…” (hub + 2 sorelle).
-* Schema:
-  • Hub/sottocluster → `ItemList` + `FAQPage`
-  • Articoli → `BlogPosting` + (facoltativo) `FAQPage`/`HowTo` per sezioni operative.
-* Performance: immagini `.webp`, `loading="lazy"`, dimensioni dichiarate; niente immagini >1200px se non hero.
-
----
-
-## Autocorrezione
-
-* Ho proposto 4–6 articoli per sottocluster: adatta il numero alla tua capacità editoriale mensile.
-* Le query sono “seed”: vanno rifinite con i dati reali di GSC dopo 14–30 giorni.
-
-**Prossimo step:** scegliamo un sottocluster (consiglio: “Autenticità in ufficio”), e ti preparo le patch on-page dell’articolo cornerstone + la scheda tecnica del primo supporto (“Assertività: 15 frasi pronte”). Poi passiamo a “Ritmi gentili” con il “Protocollo 7 giorni”.
+Prossimo step: esegui la Settimana 1 (5 post totali: 1 Pillar cluster + 4 HowTo su due sotto-cluster) con interlink e FAQ. Poi passiamo a Mindfulness ironica replicando la stessa architettura.

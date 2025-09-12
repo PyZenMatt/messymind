@@ -1,0 +1,10 @@
+<div class="faq">
+  {% if page.faqs %}
+    <dl>
+      {% for f in page.faqs %}
+        <dt class="faq-question"><strong>{{ f.question }}</strong></dt>
+        <dd class="faq-answer">{{ f.answer }}</dd>
+      {% endfor %}
+    </dl>
+  {% endif %}
+</div>

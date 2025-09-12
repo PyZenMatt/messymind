@@ -1,0 +1,20 @@
+{% comment %} Minimal howto include: renders front-matter `howto` as HTML and includes schema via existing schema-howto if present {% endcomment %}
+{% if page.howto %}
+  <div class="howto-wrapper">
+    <h2>{{ page.howto.name }}</h2>
+    <p>{{ page.howto.description }}</p>
+    <ol>
+      {% for s in page.howto.step %}
+        <li>
+          <strong>{{ s.name }}</strong>
+          <p>{{ s.text }}</p>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+{% endif %}
+
+{% comment %} if a schema-howto include exists, include it to produce JSON-LD; otherwise noop {% endcomment %}
+{% if site.includes | where: "name", "schema-howto.html" | size > 0 %}
+  {% include schema-howto.html %}
+{% endif %}
