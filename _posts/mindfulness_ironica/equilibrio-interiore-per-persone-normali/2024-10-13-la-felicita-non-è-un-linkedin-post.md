@@ -1,13 +1,13 @@
 ---
 author: Teo
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044484/social\_1600\_nrkirb.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044484/social_1600_nrkirb.webp
 categories:
 - mindfulness-ironica
 cornerstone: true
 description: 'Cos''è l''equilibrio interiore e come trovarlo senza santini o slogan:
   una guida pratica, ironica e senza dogmi per chi ha poco tempo e tanto sarcasmo.'
 featured_post: true
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044485/social\_600\_hbnbdw.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044485/social_600_hbnbdw.jpg
 is_cornerstone: true
 lang: it
 last_modified\_at: 2025-09-09

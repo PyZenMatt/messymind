@@ -10,6 +10,7 @@ equilibrio-interiore: /categorie/equilibrio-interiore/
 burnout-lavoro: /categorie/burnout-lavoro/
 filosofia-pratica: /categorie/filosofia-pratica/
 mindfulness-ironica: /categorie/mindfulness-ironica/
+burnout-e-lavoro: /categorie/burnout-e-lavoro/
 
 # Variants / legacy keys -> keep to avoid broken breadcrumbs
 crescita-personale-anti-guru: /categorie/crescita-personale-anti-guru/

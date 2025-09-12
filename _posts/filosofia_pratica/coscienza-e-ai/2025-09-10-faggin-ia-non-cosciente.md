@@ -32,6 +32,7 @@ twitter_card: summary_large_image
 og_type: article
 redirect_from:
 - /ia-cosciente-per-faggin-e-unillusione-2025/
+subcluster: coscienza-e-ai
 ---
 # IA Cosciente? Per Faggin è un'Illusione: Cosa Manca Davvero alle Macchine
 

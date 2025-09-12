@@ -15,56 +15,89 @@ layout: default
   - se la pagina definisce `category` (cluster) filtra anche per quella categoria
   - ordina per data decrescente
 {%- endcomment -%}
-
+{%- comment -%} build scoped list and cornerstones {%- endcomment -%}
 {%- assign scoped = '' | split: ',' -%}
 {%- for p in site.posts -%}
   {%- assign p_sub = p.subcluster | default: '' | downcase | replace: ' ', '-' | strip -%}
   {%- if p_sub == sub -%}
-    {%- if cluster == nil or cluster == '' or p.categories contains cluster -%}
+    {%- if cluster -%}
+      {%- assign in_cat = false -%}
+      {%- if p.categories -%}
+        {%- for c in p.categories -%}
+          {%- assign ckey = c | downcase | replace: ' ', '-' | strip -%}
+          {%- if ckey == cluster -%}
+            {%- assign in_cat = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- if in_cat -%}
+        {%- assign scoped = scoped | push: p -%}
+      {%- endif -%}
+    {%- else -%}
       {%- assign scoped = scoped | push: p -%}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
-
-{%- comment -%} Ordina per data decrescente {%- endcomment -%}
 {%- assign scoped = scoped | sort: 'date' | reverse -%}
 
-{%- comment -%}
-  Costruisco lista `corner` (guide essenziali) prendendo i post in `scoped` con flag/tag cornerstone
-{%- endcomment -%}
+{%- comment -%} collect cornerstones from scoped {%- endcomment -%}
 {%- assign corner = '' | split: ',' -%}
 {%- for p in scoped -%}
-  {%- if p.is_cornerstone == true or p.is_cornerstone == 'true' or p.cornerstone == true or p.cornerstone == 'true' -%}
+  {%- if p.is_cornerstone or p.cornerstone or p.tags contains 'cornerstone' -%}
     {%- assign corner = corner | push: p -%}
-  {%- else -%}
-    {%- if p.tags -%}
-      {%- assign tagstr = p.tags | join: '|' | downcase -%}
-      {%- if tagstr contains 'cornerstone' -%}
-        {%- assign corner = corner | push: p -%}
-      {%- endif -%}
-    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign corner = corner | uniq -%}
+  <h2>Guide essenziali</h2>
+    {%- if page.description -%}
+      <p class="intro mb-3">{{ page.description }}</p>
+    {%- elsif page.intro -%}
+      <p class="intro mb-3">{{ page.intro }}</p>
+    {%- endif -%}
 
-{%- comment -%}
-  Expose collection_posts for global schema includes and possible pagination
-{%- endcomment -%}
-{%- assign page.collection_posts = scoped -%}
-
-  <section class="cornerstones mb-4">
-    <h2>Guide essenziali</h2>
-    <ul class="cards list-unstyled d-flex flex-column gap-3">
-    {%- if page.description -%}<p class="intro">{{ page.description }}</p>{%- elsif page.intro -%}<p class="intro">{{ page.intro }}</p>{%- endif -%}
+    <style>
+    /* Scoped helper: ensure two-column layout for cornerstones on md+ */
+    @media (min-width:768px){
+      .cornerstones .col-md-6{flex:0 0 50% !important;max-width:50% !important;}
+    }
+    </style>
+    <div class="row gx-3 gy-3 cornerstones">
       {%- for post in corner -%}
-        <li class="card p-3">
-          <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
-            <h3 class="h5 mb-1">{{ post.title }}</h3>
-            <p class="mb-0">{{ post.description }}</p>
+        <div class="col-12 col-md-6">
+          <a href="{{ post.url | relative_url }}" class="d-block h-100 text-decoration-none text-dark">
+            <div class="card mb-4 post-card h-100">
+            <div class="row no-gutters">
+              <div class="col-md-4 d-none d-md-block">
+                {%- assign img_src = post.background | default: post.image -%}
+                {%- if img_src -%}
+                  {% include optimized-image.html
+                     src=img_src
+                     alt=post.title
+                     class="card-img d-none d-md-block"
+                     width=400
+                     height=300
+                     loading="lazy" %}
+                {%- endif -%}
+              </div>
+              <div class="col-md-8">
+                <div class="card-body d-flex flex-column h-100">
+                  <h3 class="card-title mb-2">{{ post.title }}</h3>
+                  {%- if post.description -%}
+                    <p class="card-text mb-3">{{ post.description }}</p>
+                  {%- else -%}
+                    <p class="card-text mb-3 d-none d-md-block">{{ post.meta | strip_html | truncatewords: 25 }}</p>
+                  {%- endif -%}
+                  <div class="mt-auto d-flex justify-content-between align-items-center">
+                    <small class="text-muted"><i class="far fa-calendar-alt"></i> {{ post.date | date: '%d/%m/%Y' }}</small>
+                    <span class="btn btn-sm btn-outline-primary">Leggi tutto</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           </a>
-        </li>
+        </div>
       {%- endfor -%}
-    </ul>
+    </div>
   </section>
 
   <section class="listing mb-4">
@@ -74,6 +107,16 @@ layout: default
       Opzione A: senza plugin, mostra gli ultimi N
     {%- endcomment -%}
     {%- assign posts_to_show = scoped -%}
+    {%- comment -%} Remove cornerstones from the main listing to avoid duplication {%- endcomment -%}
+    {%- if corner and corner.size > 0 -%}
+      {%- assign filtered = '' | split: ',' -%}
+      {%- for p in posts_to_show -%}
+        {%- unless corner contains p -%}
+          {%- assign filtered = filtered | push: p -%}
+        {%- endunless -%}
+      {%- endfor -%}
+      {%- assign posts_to_show = filtered -%}
+    {%- endif -%}
     {%- if site.paginate_subcluster != true -%}
       {%- assign posts_to_show = scoped | slice: 0, 24 -%}
     {%- endif -%}

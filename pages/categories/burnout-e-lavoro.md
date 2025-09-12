@@ -1,25 +1,35 @@
 ---
 layout: category
 title: "Burnout e lavoro"
-category: Burnut e lavoro
+category: burnout-e-lavoro
 permalink: /categorie/burnout-e-lavoro/
 redirect_from:
-  - /crescita-personale-anti-guru/
-  - /crescita-personale-anti-guru
-seo_title: "Crescita personale anti-guru: disciplina minima, risultati reali"
-seo_description: "Abitudini minime, confini gentili e produttività senza hype. Guide, strumenti e casi reali per migliorare ogni giorno senza guru."
-description: "Strategie pratiche e senza fronzoli per migliorare ogni giorno con abitudini minime, confini gentili e scelte consapevoli."
-promise: "Focus su disciplina quotidiana sostenibile, micro-abitudini da 3–10 minuti e strumenti semplici che funzionano nel mondo reale."
-og_image: /img/categories/crescita-anti-guru-cover.webp
+  - /burnout-lavoro/
+  - /burnout/
+seo_title: "Burnout e lavoro — segnali, prevenzione e strategie pratiche"
+seo_description: "Guida pratica al burnout lavorativo: segnali precoci, strategie quotidiane per prevenire e strumenti concreti per recuperare energia senza rituali inutili."
+description: "Strategie pratiche, micro-abitudini e confini concreti per prevenire e uscire dal burnout sul lavoro. Testate in contesti reali, senza fuffa."
+promise: "Azioni reali da provare questa settimana per ridurre stress, recuperare tempo e riappropriarsi di energie mentali e fisiche."
+og_image: /img/categories/burnout-cover.webp
 twitter_card: summary_large_image
+featured_slugs:
+  - autenticita-e-lavoro
+  - come-ho-smesso-di-inseguire-il-tempo
+  - ritmi-gentili
 faq:
-  - question: "Cosa significa crescita personale anti-guru?"
-    answer: "Un approccio concreto che preferisce la disciplina ripetuta alla motivazione momentanea. Zero dogmi, solo ciò che è sostenibile."
-  - question: "Come costruire abitudini che durano?"
-    answer: "Parti micro (2–5 minuti), ancora l’abitudine a un evento quotidiano e misura solo la continuità (non la perfezione)."
-  - question: "Motivazione o disciplina?"
-    answer: "La motivazione accende, la disciplina mantiene. Crea un contesto che renda la scelta giusta la scelta facile."
+  - question: "Come capisco se sto andando verso il burnout?"
+    answer: "Segnali comuni: distacco emotivo dal lavoro, esaurimento persistente, ridotta efficacia. Se queste cose durano settimane e non migliorano con il riposo, è un campanello d'allarme." 
+  - question: "Posso recuperare senza cambiare lavoro?"
+    answer: "Sì: spesso serve combinare confini chiari, micro-abitudini (sonno, pause programmate) e supporto (colloqui con manager o terapia). Il cambiamento graduale spesso funziona meglio del gesto epico."
+  - question: "Qual è la prima cosa concreta da fare domani mattina?"
+    answer: "Prendi due pause programmate di 10 minuti: una a metà mattina e una a metà pomeriggio. Spegni notifiche non urgenti in quei 20 minuti e fai un micro-esercizio di respirazione o camminata." 
 ---
 
 
-Articoli, esperimenti e template per la crescita concreta.
+Sei stanco di sentirti in loop: sveglia, caffè, lavoro, scroll, crollo, repeat? Benvenuto nel club — qui non vendiamo soluzioni spirituali a prezzo pieno, vendiamo cose che funzionano nel caos.
+
+Questa è la bacheca pratica per chi lavora troppo e si sente sfracellato: guide terse, micro-abitudini da provare subito e frasi pronte per dire al capo quel che serve (senza sembrare un meme). Il mantra è semplice: meno sceneggiata, più tattica.
+
+Prova una cosa questa settimana: programma due pause da 10 minuti. Spegni le notifiche, cammina, respira, mangia una cosa che non è schiacciata in auto. Se dopo una settimana non senti nulla, ne proviamo un'altra. Dosi piccole, effetti cumulativi.
+
+Vuoi materiali pratici (checklist 7 giorni, template per parlare con il manager, mini-plan per recuperare il sonno)? Li metto in fondo come download—pratici, zero fuffa.

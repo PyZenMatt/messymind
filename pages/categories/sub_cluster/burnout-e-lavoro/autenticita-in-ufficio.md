@@ -4,6 +4,7 @@ title: Autenticita In Ufficio
 seo_title: Autenticita In Ufficio
 meta_description: Hub del sotto-cluster Autenticita In Ufficio — guide essenziali
   e articoli.
+category: burnout-e-lavoro
 cluster: burnout-e-lavoro
 cluster_name: Burnout Lavoro
 subcluster: autenticita-in-ufficio

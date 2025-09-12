@@ -1,12 +1,12 @@
 ---
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro\_ms380g.webp 
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043561/lavoro_ms380g.webp 
 canonical: https://messymind.it/burnout-lavoro/autenticita-lavoro-guida-pratica/ 
 canonical_url: https://messymind.it/burnout-lavoro/autenticita-lavoro-guida-pratica/ 
 categories: burnout-e-lavoro
 description: Guida (sarcastica) e spirituale per trasformare il lavoro da incubo open-space a palestra di crescita personale. Taoismo per chi odia le riunioni, Kabbalah contro i colleghi tossici e Yoga per sopravvivere agli sprint. 
 featured_post: true 
 focus_keyword: autenticità sul lavoro 
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro\_1600\_jkqmrs.webp 
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp 
 image_author: energepic.com 
 image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/ 
 keywords: 
@@ -35,6 +35,17 @@ tags:
 - Kabbalah applicata - crescita personale 
 - work-life balance 
 - umorismo aziendale - strategie pratiche 
+cornerstone: true
+is_cornerstone: true
+tags:
+   - cornerstone
+   - autenticità sul lavoro
+   - felicità lavorativa - spiritualità nel lavoro
+   - Dharma professionale
+   - Taoismo e lavoro
+   - Kabbalah applicata - crescita personale
+   - work-life balance
+   - umorismo aziendale - strategie pratiche
 lavoro title: 'Lavoro e Autenticità: Come Sopravvivere all''Ufficio Senza Perdere l''Anima (e la Sanità Mentale)'
 ---
 
@@ -139,7 +150,7 @@ La prossima volta che Excel ti crasha, prova questo mantra: "Om mani padme hum..
 
 Se questo articolo ti ha fatto ridere/storcere la bocca/pensare "ma che ca\*\*\*o ho appena letto?", considera di:
 
-* Offrirmi un caffè virtuale con <a href="https://www.paypal.me/pythonmat" target="_blank" rel="noopener noreferrer">PayPal</a> (ne berrò uno reale, promesso)
+* Offrirmi un caffè virtuale con [PayPal](https://www.paypal.me/pythonmat) (ne berrò uno reale, promesso)
 * Condividerlo con quel collega che ancora crede negli unicorni aziendali
 * Inviarmi la tua miglior storia horror/spirituale da ufficio. La più folle vince un mandarino energetico (vero, mica virtuale).
 
