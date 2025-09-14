@@ -19,7 +19,7 @@ keywords:
 image: "/assets/img/burnout-riconoscere.webp"  
 image_alt: "Illustrazione del burnout: come riconoscerlo"
 lcp_image: "/assets/img/burnout-riconoscere.webp"
-canonical_url: "[https://messymind.it/burnout-cose-davvero-e-come-riconoscerlo-senza-incenso/](https://messymind.it/burnout-cose-davvero-e-come-riconoscerlo-senza-incenso/)"
+canonical_url: "https://messymind.it/burnout-cos-e-davvero-e-come-riconoscerlo/"
 robots: "index,follow"
 sitemap: true
 draft: false
