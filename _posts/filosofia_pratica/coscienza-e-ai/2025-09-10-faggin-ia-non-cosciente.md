@@ -15,6 +15,7 @@ keywords:
 categories:
 - filosofia-pratica
 tags:
+- cornerstone
 - Faggin
 - QIP
 - coscienza

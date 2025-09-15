@@ -5,7 +5,6 @@ seo_title: 'Equilibrio interiore e spirituale: simboli ed esercizi quotidiani'
 author: Matteo Ricci
 categories:
 - mindfulness-ironica
-subcluster: equilibrio-interiore-per-persone-normali
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
 tags:

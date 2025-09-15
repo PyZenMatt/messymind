@@ -3,7 +3,7 @@ title: Come Meditare Senza Sedersi a Gambe Incrociate
 date: '2025-08-12T12:46:52+00:00'
 description: 'Meditazione pratica e *senza incenso*: micro-rituali da fare in coda,sul
   tram e mentre bolle la pasta. Niente pose di loto, solo vita vera.'
-tags: meditazione pratica, mindfulness mindfulness ironica, tecniche di rilassamento,
+tags: meditazione pratica, mindfulness mindfulness ironica, tecniche di rilassamento
   equilibrio interiore, meditare nella vita quotidiana
 categories:
 - mindfulness-ironica

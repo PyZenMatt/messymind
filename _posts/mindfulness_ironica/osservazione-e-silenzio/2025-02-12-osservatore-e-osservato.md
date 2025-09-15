@@ -17,6 +17,7 @@ keywords:
 - mindfulness ironica
 - gestione ansia
 - autoironia e crescita personale
+- -cornerstone
 image: /img/osservatore.jpg
 background: /img/osservatore.jpg
 featured: 'true'
