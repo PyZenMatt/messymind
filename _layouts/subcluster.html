@@ -2,35 +2,37 @@
 layout: default
 ---
 {%- assign cluster = nil -%}
-{%- if page.category and page.category != "" -%}
+{%- if page.category and page.category != '' -%}
   {%- assign cluster = page.category | downcase | slugify | strip -%}
-{%- elsif page.categories and page.categories.size > 0 and page.categories[0] != "" -%}
+{%- elsif page.categories and page.categories.size > 0 and page.categories[0] != '' -%}
   {%- assign cluster = page.categories[0] | downcase | slugify | strip -%}
-{%- elsif page.cluster and page.cluster != "" -%}
+{%- elsif page.cluster and page.cluster != '' -%}
   {%- assign cluster = page.cluster | downcase | slugify | strip -%}
-{%- elsif page.cluster_name and page.cluster_name != "" -%}
+{%- elsif page.cluster_name and page.cluster_name != '' -%}
   {%- assign cluster = page.cluster_name | downcase | slugify | strip -%}
 {%- endif -%}
-{%- assign sub = page.subcluster | downcase | slugify | strip -%}
+{%- assign sub = page.subcluster | default: '' | downcase | slugify | strip -%}
 
-{%- comment -%}
-  Recupero post del sotto-cluster in modo robusto:
-  - normalizza il valore `sub` e confronta con `post.subcluster` normalizzato
-  - se la pagina definisce `category` (cluster) filtra anche per quella categoria
-  - ordina per data decrescente
-{%- endcomment -%}
-{%- comment -%} build scoped list and cornerstones {%- endcomment -%}
+{%- comment -%} Build scoped posts robustly, normalizing categories {%- endcomment -%}
 {%- assign scoped = '' | split: ',' -%}
 {%- for p in site.posts -%}
-                {%- assign p_sub = p.subcluster | default: '' | downcase | slugify | strip -%}
+  {%- assign p_sub = p.subcluster | default: '' | downcase | slugify | strip -%}
   {%- if p_sub == sub -%}
     {%- if cluster -%}
       {%- assign in_cat = false -%}
       {%- if p.categories -%}
-        {%- for c in p.categories -%}
+        {%- assign cats = p.categories -%}
+        {%- if cats contains ',' -%}
+          {%- assign cats = cats | split: ',' -%}
+        {%- endif -%}
+        {%- if cats and cats[0] == nil -%}
+          {%- assign cats = cats | split: '|' -%}
+        {%- endif -%}
+        {%- for c in cats -%}
           {%- assign ckey = c | downcase | slugify | strip -%}
           {%- if ckey == cluster -%}
             {%- assign in_cat = true -%}
+            {%- break -%}
           {%- endif -%}
         {%- endfor -%}
       {%- endif -%}
@@ -44,173 +46,156 @@ layout: default
 {%- endfor -%}
 {%- assign scoped = scoped | sort: 'date' | reverse -%}
 
-{%- comment -%} collect cornerstones from scoped {%- endcomment -%}
+{%- comment -%} Collect cornerstones from scoped (robust checks) {%- endcomment -%}
 {%- assign corner = '' | split: ',' -%}
 {%- for p in scoped -%}
-  {%- if p.is_cornerstone or p.cornerstone or p.tags contains 'cornerstone' -%}
-    {%- assign corner = corner | push: p -%}
+  {%- assign is_corner = false -%}
+  {%- if p.is_cornerstone == true or p.is_cornerstone == 'true' -%}{%- assign is_corner = true -%}{%- endif -%}
+  {%- if p.cornerstone == true or p.cornerstone == 'true' -%}{%- assign is_corner = true -%}{%- endif -%}
+  {%- if p.tags -%}
+    {%- if p.tags contains 'cornerstone' -%}
+      {%- assign is_corner = true -%}
+    {%- else -%}
+      {%- assign tagstr = p.tags | join: '|' | downcase -%}
+      {%- if tagstr contains 'cornerstone' -%}{%- assign is_corner = true -%}{%- endif -%}
+    {%- endif -%}
   {%- endif -%}
+  {%- if is_corner -%}{%- assign corner = corner | push: p -%}{%- endif -%}
 {%- endfor -%}
-  <h2>Guide essenziali</h2>
-    {%- if page.description -%}
-      <p class="intro mb-3">{{ page.description }}</p>
-    {%- elsif page.intro -%}
-      <p class="intro mb-3">{{ page.intro }}</p>
-    {%- endif -%}
 
-    <style>
-    /* Scoped helper: ensure two-column layout for cornerstones on md+ */
-    @media (min-width:768px){
-      .cornerstones .col-md-6{flex:0 0 50% !important;max-width:50% !important;}
-    }
-    </style>
-    <div class="row gx-3 gy-3 cornerstones">
-      {%- for post in corner -%}
-        <div class="col-12 col-md-6">
-          <a href="{{ post.url | relative_url }}" class="d-block h-100 text-decoration-none text-dark">
-            <div class="card mb-4 post-card h-100">
-            <div class="row no-gutters">
-              <div class="col-md-4 d-none d-md-block">
-                {%- assign img_src = post.background | default: post.image -%}
-                {%- if img_src -%}
-                  {% include optimized-image.html
-                     src=img_src
-                     alt=post.title
-                     class="card-img d-none d-md-block"
-                     width=400
-                     height=300
-                     loading="lazy" %}
-                {%- endif -%}
-              </div>
-              <div class="col-md-8">
-                <div class="card-body d-flex flex-column h-100">
-                  <h3 class="card-title mb-2">{{ post.title }}</h3>
-                  {%- if post.description -%}
-                    <p class="card-text mb-3">{{ post.description }}</p>
-                  {%- else -%}
-                    <p class="card-text mb-3 d-none d-md-block">{{ post.meta | strip_html | truncatewords: 25 }}</p>
-                  {%- endif -%}
-                  <div class="mt-auto d-flex justify-content-between align-items-center">
-                    <small class="text-muted"><svg class="icon icon-calendar" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: '%d/%m/%Y' }}</small>
-                    <span class="btn btn-sm btn-outline-primary">Leggi tutto</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </a>
-        </div>
-      {%- endfor -%}
-    </div>
-  </section>
+<div class="mt-4">
+  <div class="row">
+    <div class="col-12">
 
-  <section class="listing mb-4">
-    <h2>Tutti gli articoli</h2>
+      <h1 class="h3 mb-2">{{ page.title | default: page.subcluster | replace: '-', ' ' | capitalize }}</h1>
 
-    {%- comment -%}
-      Opzione A: senza plugin, mostra gli ultimi N
-    {%- endcomment -%}
-    {%- assign posts_to_show = scoped -%}
-    {%- comment -%} Remove cornerstones from the main listing to avoid duplication {%- endcomment -%}
-    {%- if corner and corner.size > 0 -%}
-      {%- assign filtered = '' | split: ',' -%}
-      {%- for p in posts_to_show -%}
-        {%- unless corner contains p -%}
-          {%- assign filtered = filtered | push: p -%}
-        {%- endunless -%}
-      {%- endfor -%}
-      {%- assign posts_to_show = filtered -%}
-    {%- endif -%}
-    {%- if site.paginate_subcluster != true -%}
-      {%- assign posts_to_show = scoped | slice: 0, 24 -%}
-    {%- endif -%}
-
-    <ul class="cards list-unstyled">
-      {%- for post in posts_to_show -%}
-        <li class="card mb-3 p-3">
-          <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
-            <h3 class="h6 mb-1">{{ post.title }}</h3>
-            <p class="mb-1">{{ post.description }}</p>
-          </a>
-          <small class="text-muted">{{ post.date | date: "%-d %b %Y" }}</small>
-        </li>
-      {%- endfor -%}
-    </ul>
-
-    {%- comment -%}
-      Opzione B: con jekyll-paginate-v2 su una collezione virtuale
-    {%- endcomment -%}
-  </section>
-
-  {%- if page.faq and page.faq.size > 0 -%}
-  <section class="faq mb-4">
-    <h2>FAQ</h2>
-    {%- for item in page.faq -%}
-      <details class="mb-2">
-        <summary>{{ item.q }}</summary>
-        <p class="mb-0">{{ item.a }}</p>
-      </details>
-    {%- endfor -%}
-  </section>
-  {%- endif -%}
-
-  {%- comment -%}
-    JSON-LD: BreadcrumbList + CollectionPage con ItemList
-  {%- endcomment -%}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "item": { "@id": "{{ "/" | absolute_url }}", "name": "Home" }, "position": 1 },
-      {%- comment -%}
-        Resolve canonical category URL: prefer mapping in site.data.category_slugs, otherwise build under /categorie/
-      {%- endcomment -%}
-      {%- assign category_key = cluster -%}
-      {%- assign mapped_cat = site.data.category_slugs[category_key] | default: nil -%}
-      {%- if mapped_cat -%}
-        {%- assign category_id = mapped_cat | absolute_url -%}
-      {%- else -%}
-        {%- assign category_id = site.url | append: '/categorie/' | append: category_key | append: '/' -%}
+      {%- if page.description -%}
+        <p class="lead text-muted mb-3">{{ page.description }}</p>
+      {%- elsif page.intro -%}
+        <p class="lead text-muted mb-3">{{ page.intro }}</p>
       {%- endif -%}
-      { "item": { "@id": "{{ category_id }}", "name": "{{ page.cluster_name | default: cluster | capitalize }}" }, "position": 2 },
-      {%- if page.subcluster -%}
-  {%- assign cleaned_sub = page.subcluster | downcase | slugify | strip -%}
-        {%- assign sub_key = category_key | append: ':' | append: cleaned_sub -%}
-        {%- assign mapped_sub = site.data.subcluster_slugs[sub_key] | default: nil -%}
-        {%- if mapped_sub -%}
-          {%- assign sub_id = mapped_sub | absolute_url -%}
-        {%- else -%}
-          {%- assign sub_id = site.url | append: '/categorie/' | append: category_key | append: '/' | append: cleaned_sub | append: '/' -%}
+
+      <!-- Cornerstones (simple list) -->
+      {% if corner and corner.size > 0 %}
+      <section class="cornerstones mb-4">
+        <h2>Guide essenziali</h2>
+        <ul class="list-unstyled mb-0">
+          {% for post in corner %}
+            <li class="mb-3">
+              <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+                <strong>{{ post.title }}</strong>
+              </a>
+              {% if post.description %}
+                <div class="text-muted small">{{ post.description }}</div>
+              {% endif %}
+              <div><small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small></div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+
+      <!-- Listing -->
+      <section class="listing mb-4">
+        <h2>Tutti gli articoli</h2>
+
+        {%- assign posts_to_show = scoped -%}
+
+        {%- if corner and corner.size > 0 -%}
+          {%- assign filtered = '' | split: ',' -%}
+          {%- for p in posts_to_show -%}
+            {%- unless corner contains p -%}
+              {%- assign filtered = filtered | push: p -%}
+            {%- endunless -%}
+          {%- endfor -%}
+          {%- assign posts_to_show = filtered -%}
         {%- endif -%}
-        { "item": { "@id": "{{ sub_id }}", "name": "{{ page.subcluster | replace: '-', ' ' | capitalize }}" }, "position": 3 },
-        { "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ page.title | escape }}" }, "position": 4 }
-      {%- else -%}
-        { "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ page.title | escape }}" }, "position": 3 }
-      {%- endif -%}
-    ]
-  }
-  </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "{{ page.seo_title | default: page.title | escape }}",
-    "description": "{{ page.meta_description | default: page.description | escape }}",
-    "mainEntity": {
-      "@type": "ItemList",
-      "itemListElement": [
-        {%- for post in scoped limit:24 -%}
-        {
-          "@type": "ListItem",
-          "position": {{ forloop.index }},
-          "url": "{{ post.url | absolute_url }}",
-          "name": "{{ post.title | escape }}"
-        }{%- if forloop.last == false -%},{%- endif -%}
+        {%- if site.paginate_subcluster != true -%}
+          {%- assign posts_to_show = posts_to_show | slice: 0, 24 -%}
+        {%- endif -%}
+
+        <ul class="cards list-unstyled">
+          {%- for post in posts_to_show -%}
+            <li class="card mb-3 p-3">
+              <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+                <h3 class="h6 mb-1">{{ post.title }}</h3>
+                <p class="mb-1">{{ post.description }}</p>
+              </a>
+              <small class="text-muted">{{ post.date | date: "%-d %b %Y" }}</small>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+
+      {%- if page.faq and page.faq.size > 0 -%}
+      <section class="faq mb-4">
+        <h2>FAQ</h2>
+        {%- for item in page.faq -%}
+          <details class="mb-2">
+            <summary>{{ item.q }}</summary>
+            <p class="mb-0">{{ item.a }}</p>
+          </details>
         {%- endfor -%}
-      ]
-    }
-  }
-  </script>
+      </section>
+      {%- endif -%}
+
+      <!-- JSON-LD BreadcrumbList -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "item": { "@id": "{{ "/" | absolute_url }}", "name": "Home" }, "position": 1 },
+          {%- assign category_key = cluster -%}
+          {%- assign mapped_cat = site.data.category_slugs[category_key] | default: nil -%}
+          {%- if mapped_cat -%}
+            {%- assign category_id = mapped_cat | absolute_url -%}
+          {%- else -%}
+            {%- assign category_id = site.url | append: '/categorie/' | append: category_key | append: '/' -%}
+          {%- endif -%}
+          { "item": { "@id": "{{ category_id }}", "name": "{{ page.cluster_name | default: cluster | capitalize }}" }, "position": 2 },
+          {%- if page.subcluster -%}
+            {%- assign cleaned_sub = page.subcluster | downcase | slugify | strip -%}
+            {%- assign sub_key = category_key | append: ':' | append: cleaned_sub -%}
+            {%- assign mapped_sub = site.data.subcluster_slugs[sub_key] | default: nil -%}
+            {%- if mapped_sub -%}
+              {%- assign sub_id = mapped_sub | absolute_url -%}
+            {%- else -%}
+              {%- assign sub_id = site.url | append: '/categorie/' | append: category_key | append: '/' | append: cleaned_sub | append: '/' -%}
+            {%- endif -%}
+            { "item": { "@id": "{{ sub_id }}", "name": "{{ page.subcluster | replace: '-', ' ' | capitalize }}" }, "position": 3 },
+            { "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ page.title | escape }}" }, "position": 4 }
+          {%- else -%}
+            { "item": { "@id": "{{ page.url | absolute_url }}", "name": "{{ page.title | escape }}" }, "position": 3 }
+          {%- endif -%}
+        ]
+      }
+      </script>
+
+      <!-- JSON-LD CollectionPage -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "{{ page.seo_title | default: page.title | escape }}",
+        "description": "{{ page.meta_description | default: page.description | escape }}",
+        "mainEntity": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {%- for post in scoped limit:24 -%}
+            {
+              "@type": "ListItem",
+              "position": {{ forloop.index }},
+              "url": "{{ post.url | absolute_url }}",
+              "name": "{{ post.title | escape }}"
+            }{%- if forloop.last == false -%},{%- endif -%}
+            {%- endfor -%}
+          ]
+        }
+      }
+      </script>
+
+    </div>
+  </div>
 </div>

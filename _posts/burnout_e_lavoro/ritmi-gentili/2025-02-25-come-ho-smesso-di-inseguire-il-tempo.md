@@ -32,7 +32,7 @@ meta-title: Liberarsi dalla Tirannia del Tempo | Esperienza Personale + Soluzion
   Pratiche
 redirect_from:
 - /come-ho-smesso-di-inseguire-il-tempo-3-segreti-per-vivere-senza-ansia-da-produttivita/
-- //come-ho-smesso-di-inseguire-il-tempo/
+- /come-ho-smesso-di-inseguire-il-tempo/
 seo_description: 'Strategie pratiche e micro-abitudini per smettere di inseguire il
   tempo: esercizi quotidiani, storie personali e tecniche anti-burnout per vivere
   più presenti.'
@@ -45,6 +45,7 @@ tags:
 - equilibrio vita-lavoro
 - ridurre l'ansia
 - consapevolezza quotidiana
+- cornerstone
 title: 'Come Ho Smesso di Inseguire il Tempo: 3 Segreti per Vivere Senza Ansia da
   Produttività'
 ---

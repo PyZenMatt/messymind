@@ -4,6 +4,7 @@
 
 const themeManager = {
     init() {
+        console.debug('themeManager: init');
         this.applyTheme();
         this.bindEvents();
     },
@@ -12,6 +13,8 @@ const themeManager = {
         let theme;
         if (saved === 'dark' || saved === 'light') {
             theme = saved;
+        } else if (saved === 'auto') {
+            theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         } else {
             theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -36,24 +39,55 @@ const themeManager = {
     toggleTheme() {
         const isDark = document.documentElement.classList.contains('dark');
         const newTheme = isDark ? 'light' : 'dark';
+        console.debug('themeManager: toggleTheme ->', newTheme);
         this.setTheme(newTheme, true);
     },
     bindEvents() {
         const toggle = document.getElementById('theme-toggle');
         if (toggle) {
-            toggle.addEventListener('click', () => this.toggleTheme());
-        }
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme')) {
-                this.setTheme(e.matches ? 'dark' : 'light', false);
+            if (!toggle.dataset.themeAttached) {
+                toggle.addEventListener('click', (e) => {
+                // shift+click = reset to 'auto' (follow system)
+                if (e.shiftKey) {
+                    try { localStorage.setItem('theme', 'auto'); } catch (err){}
+                    this.applyTheme();
+                    console.debug('themeManager: reset to auto via shift+click');
+                    return;
+                }
+                this.toggleTheme();
+                });
+                toggle.dataset.themeAttached = '1';
             }
-        });
+        }
+        const mq = window.matchMedia('(prefers-color-scheme: dark)');
+        if (mq && typeof mq.addEventListener === 'function') {
+            mq.addEventListener('change', (e) => {
+                const saved = localStorage.getItem('theme');
+                if (saved === null || saved === 'auto') {
+                    this.setTheme(e.matches ? 'dark' : 'light', false);
+                    console.debug('themeManager: system preference changed ->', e.matches ? 'dark' : 'light');
+                }
+            });
+        }
     }
 };
 
 // Expose a small API for optional external attach
 window.themeToggle = {
-    attach: function(el){ if (!el) return; el.addEventListener('click', function(){ themeManager.toggleTheme(); }); },
+    attach: function(el){
+        if (!el) return;
+        if (el.dataset && el.dataset.themeAttached) return;
+        el.addEventListener('click', function(e){
+            if (e.shiftKey) {
+                try { localStorage.setItem('theme','auto'); } catch(err){}
+                themeManager.applyTheme();
+                console.debug('themeToggle.attach: reset to auto via shift+click');
+                return;
+            }
+            themeManager.toggleTheme();
+        });
+        try { el.dataset.themeAttached = '1'; } catch(e){}
+    },
     init: function(){ themeManager.init(); }
 };
 

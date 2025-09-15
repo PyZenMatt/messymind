@@ -75,13 +75,26 @@
             if (window.themeToggle && typeof window.themeToggle.attach === 'function') {
               try { window.themeToggle.attach(toggle); } catch(e){ console.debug('themeToggle.attach error', e); }
             } else {
-              // fallback simple toggle
-              toggle.addEventListener('click', function(){
+              // fallback simple toggle — use class 'dark' to match CSS selectors
+              toggle.addEventListener('click', function(e){
                 try {
-                  var current = document.documentElement.getAttribute('data-theme') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                  var next = current === 'dark' ? 'light' : 'dark';
-                  document.documentElement.setAttribute('data-theme', next);
-                  try { localStorage.setItem('theme', next); } catch(e){}
+                  if (e.shiftKey) {
+                    try { localStorage.setItem('theme', 'auto'); } catch(err){}
+                    // apply system preference
+                    var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    if (systemDark) document.documentElement.classList.add('dark'); else document.documentElement.classList.remove('dark');
+                    console.debug('theme toggle fallback: reset to auto');
+                    return;
+                  }
+                  var isDark = document.documentElement.classList.contains('dark') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                  var nextIsDark = !isDark;
+                  if (nextIsDark) {
+                    document.documentElement.classList.add('dark');
+                    try { localStorage.setItem('theme', 'dark'); } catch(e){}
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                    try { localStorage.setItem('theme', 'light'); } catch(e){}
+                  }
                 } catch(e){ console.debug('theme toggle fallback error', e); }
               });
             }

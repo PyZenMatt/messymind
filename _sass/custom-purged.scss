@@ -260,6 +260,11 @@ body {
   background-color: var(--card-bg);
 }
 
+/* Allow content to expand inside post-card (prevent clipping) */
+.post-card {
+  overflow: visible;
+}
+
 .post-card:hover {
   transform: translateY(-5px);
 }
