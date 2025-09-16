@@ -16,6 +16,7 @@ tags:
   - "Daniel Dennett"
   - "Buddhismo Anatta"
   - "Neuroplasticità"
+  - cornerstone
 keywords:
   - "illusione dell'io neuroscienze"
   - "buddhismo e cervello"

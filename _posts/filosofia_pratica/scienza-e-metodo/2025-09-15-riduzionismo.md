@@ -11,7 +11,6 @@ keywords:
   - sistemi complessi
   - mindfulness pratica
 author: "Redazione MessyMind"
-date: 2024-03-15
 lastmod: 2025-09-09
 tags:
   - filosofia pratica
