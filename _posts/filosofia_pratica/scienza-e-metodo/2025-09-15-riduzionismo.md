@@ -10,19 +10,36 @@ keywords:
   - proprietà emergenti
   - sistemi complessi
   - mindfulness pratica
-author: "Redazione MessyMind"
+author: "MessyMind"
 lastmod: 2025-09-09
 tags:
   - filosofia pratica
   - mindfulness ironica
   - sistemi complessi
-image: "/assets/cover/riduzionismo-olismo.jpg"
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090614/schemda-madre-600_ugny08.webp
 lang: it
 robots: "index, follow"
 subcluster: scienza-e-metodo
+image_author_url: https://www.pexels.com/it-it/@paduret/
+image_author: Dan Cristian Pădureț
+read_time: "7 min"
+cornerstone: false
+faq: true
+faq_items:
+question: "Cos'è il riduzionismo in parole semplici?"
+answer: "È l’idea che per capire qualcosa di complesso lo smonti nei pezzi più piccoli e studi quelli."
+question: "Quali sono i limiti principali del riduzionismo?"
+answer: "Fallisce con i sistemi complessi, dove emergono proprietà nuove non presenti nelle parti singole (mente, società, ecosistemi)."
+question: "Qual è la differenza tra riduzionismo e olismo?"
+answer: "Il riduzionismo studia le parti separatamente; l’olismo guarda al sistema nel suo insieme e ai pattern di interazione."
+question: "Cosa sono le proprietà emergenti?"
+answer: "Caratteristiche che compaiono quando le parti interagiscono (es. traffico, stormi, cultura) e non esistono nei componenti isolati."
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp 
+image_alt: "una scheda madre di un computer smontata pezzo per pezzo"
 ---
 
-# Limiti del riduzionismo: quando smontare tutto non basta
 
 **In breve** — Il riduzionismo spiega bene le macchine e spesso male le persone. Funziona quando il sistema è lineare e stabile; va in crisi con mente, team e città (sistemi complessi). L'olismo guarda all'insieme; l'emergentismo mostra proprietà nuove (es. stormi, traffico, cultura) che non sono nei singoli pezzi. Qui trovi definizioni rapide, differenze chiare e 5 esempi pratici per scegliere lo strumento giusto senza cadere nel "tutto è semplice".
 
@@ -81,19 +98,8 @@ Per una settimana, prova a notare una cosa complessa nella tua vita che non puoi
 
 Non cercare di controllarlo. Osserva solo come emerge qualcosa di unico e imprevedibile dall'interazione di tutte le parti. Prendi appunti. Non serviranno a prevedere il prossimo incontro, ma a ricordarti che la vita non è un Lego.
 
-## FAQ: Domande Frequenti sul Riduzionismo
+{% include faq.html %}
 
-**Cos'è il riduzionismo in parole semplici?**
-L'idea che per capire qualcosa di complesso bisogna smontarlo nei suoi pezzi più piccoli e studiare quelli.
-
-**Quali sono i limiti principali del riduzionismo?**
-Fallisce con i sistemi complessi dove emergono proprietà nuove non presenti nelle parti singole (mente, società, ecosistemi).
-
-**Qual è la differenza tra riduzionismo e olismo?**
-Il riduzionismo studia le parti separatamente, l'olismo studia il sistema nel suo insieme senza scomporlo.
-
-**Cosa sono le proprietà emergenti?**
-Caratteristiche di un sistema complesso che compaiono solo quando tutte le parti interagiscono tra loro, e che non esistono nei componenti isolati.
 
 ## Conclusione: Un Invito ad Abbracciare la Confusione
 

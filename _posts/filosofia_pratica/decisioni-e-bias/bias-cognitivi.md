@@ -7,10 +7,8 @@ date: "2025-09-09"
 last_modified_at: "2025-09-09"
 lang: "it"
 slug: "bias-cognitivi"
-permalink: "/bias-cognitivi/"
-canonical: "https://messymind.blog/bias-cognitivi"
-image: "/images/bias-cognitivi-2025-og.jpg"
-categories: ["Filosofia pratica", "Mindfulness ironica"]
+categories: filosofia-pratica
+subcluster: decisioni-e-bias
 tags: ["pensiero critico", "metacognizione", "euristiche", "decisioni"]
 # Open Graph / Twitter (jekyll-seo-tag userà title/description/image; questi sono opzionali)
 og_title: "Bias cognitivi: 10 esempi e come smontarli (2025)"
