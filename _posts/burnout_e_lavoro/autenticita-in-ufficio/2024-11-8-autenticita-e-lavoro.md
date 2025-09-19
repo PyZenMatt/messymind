@@ -5,7 +5,6 @@ seo_title: "Lavoro e Autenticità: sopravvivere all'ufficio con ironia e pratica
 seo_description: "Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita."
 categories: burnout-e-lavoro
 subcluster: autenticita-in-ufficio
-permalink: /burnout-e-lavoro/autenticita-lavoro-guida-pratica/
 slug: autenticita-lavoro-guida-pratica
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp

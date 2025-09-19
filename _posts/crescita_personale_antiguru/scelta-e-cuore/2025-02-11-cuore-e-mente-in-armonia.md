@@ -22,7 +22,7 @@ redirect_from:
 - /cuore-vs-mente-manuale-antistronzi/
 related:
 - ''
-seo_title: Saggezza del Cuore [...]
+
 subcluster: scelta-e-cuore
 title: 'Saggezza del Cuore: Come Non Farti Fregare dalla Tua Mente (Manuale per Ex
   Buddha in Saldo)'

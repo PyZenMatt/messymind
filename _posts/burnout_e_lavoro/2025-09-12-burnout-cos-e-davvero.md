@@ -27,7 +27,6 @@ image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757707488/burnout-192
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757707488/burnout_600_hmpbg4.webp
 image_author: Nataliya Vaitkevich
 image_author_url: https://nvoitkevich.com/
-
 faqs:
 - question: "Quanto dura il burnout?"
   answer: "Non c'è una durata fissa. Dipende dalla gravità, dal contesto lavorativo e dalle azioni intraprese. Può richiedere settimane o mesi di cambiamenti concreti e, in alcuni casi, supporto professionale. Le ferie da sole raramente bastano."
