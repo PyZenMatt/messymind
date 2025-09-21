@@ -2,20 +2,23 @@
 title: "Bias Cognitivi: 10 Esempi Quotidiani e Come Smontarli (2025)"
 description: "Definizione chiara, 10 esempi reali e 3 tecniche di debiasing pratiche per riconoscere le illusioni mentali che influenzano le decisioni."
 keywords: ["bias cognitivi", "illusioni cognitive", "debiasing", "euristiche", "libero arbitrio", "bias di conferma", "effetto ancoraggio", "distorsioni cognitive"]
-author: "Redazione MessyMind"
+author: "MessyMind"
 date: "2025-09-09"
 last_modified_at: "2025-09-09"
 lang: "it"
-slug: "bias-cognitivi"
 categories: filosofia-pratica
 subcluster: decisioni-e-bias
-tags: ["pensiero critico", "metacognizione", "euristiche", "decisioni"]
+tags: ["pensiero critico", "metacognizione", "euristiche", "decisioni", "cornerstone"]
 # Open Graph / Twitter (jekyll-seo-tag userà title/description/image; questi sono opzionali)
 og_title: "Bias cognitivi: 10 esempi e come smontarli (2025)"
 og_description: "Definizione, 10 esempi reali e 3 tecniche di debiasing pratiche."
 og_image: "https://messymind.blog/images/bias-cognitivi-2025-og.jpg"
 twitter_card: "summary_large_image"
 robots: "index,follow"
+image_author: Charlyzona
+image_author_url: https://commons.wikimedia.org/wiki/User:Charlyzona
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758432325/bias_1920_pi6izc.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758432325/bias_600_tbqua3.webp
 ---
 
 **In breve** — I bias cognitivi sono scorciatoie mentali che velocizzano le decisioni sacrificando precisione. Qui trovi 10 bias comuni con esempi "metropolitani", 3 tecniche di debiasing validate e un'analisi sul legame con il libero arbitrio. Niente guru, solo esempi pratici.
@@ -65,7 +68,7 @@ Ecco i più comuni, con esempi concreti e contromosse pratiche. Non serve memori
 
 <h3 id="fallacia-giocatore">Fallacia del Giocatore: La Macchina Rossa</h3>
 **Cosa fa:** Credi che eventi passati influenzino quelli futuri in sequenze casuali.  
-**Esempio metropolitano:** "Esce sempre nero alla roulette, ora deve uscire rosso!" (spoiler: no). O: "Ho perso 10 volte a testa o croce, ora vinco!".  
+**Esempio metropolitano:** "Esce sempre nero alla roulette, ora deve uscire rosso!" (sorpresa: no). O: "Ho perso 10 volte a testa o croce, ora vinco!".  
 **Contromossa:** Ricorda: le monete non hanno memoria.
 
 <h3 id="hindsight-bias">Hindsight Bias: "Lo Sapevo!"</h3>

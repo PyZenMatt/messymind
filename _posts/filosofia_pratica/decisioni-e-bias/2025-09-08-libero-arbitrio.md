@@ -3,26 +3,30 @@ categories:
 - filosofia-pratica
 description: Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura
   di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche.
-image: /assets/libero-arbitrio-cover.webp
-keywords: \["libero arbitrio", "determinismo", "compatibilismo", "incompatibilismo",
+image: assets/libero-arbitrio-cover.webp
+keywords: ["libero arbitrio", "determinismo", "compatibilismo", "incompatibilismo",
   "esperimento di Libet", "readiness potential", "casi di Frankfurt", "principio possibilità
   alternative", "Dennett", "Kane", "Schurger"]
 lang: it
-og\_description: Dennett, Frankfurt, Libet e Schurger senza paroloni. Esempi e FAQ.
-og\_image: /assets/libero-arbitrio-cover.webp
-og\_title: Libero arbitrio e determinismo spiegati semplice
+og_description: Dennett, Frankfurt, Libet e Schurger senza paroloni. Esempi e FAQ.
+og_image: 
+og_title: Libero arbitrio e determinismo spiegati semplice
 redirect_from:
-- /libero-arbitrio-e-determinismo-guida-semplice-compatibilismo-libet-schurger/
-- /libero-arbitrio-determinismo/
+- libero-arbitrio-e-determinismo-guida-semplice-compatibilismo-libet-schurger/
+- libero-arbitrio-determinismo/
 robots: index,follow
-schema\_type: BlogPosting
+schema_type: BlogPosting
 subcluster: decisioni-e-bias
-tags: \["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
+tags: ["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
 title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
-twitter\_card: summary large image
+twitter_card: summary large image
 updated: '2025-09-08'
+image_author: cottonbro
+image_author_url: https://www.pexels.com/it-it/@cottonbro/
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-1920_uycfxp.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-600_fmjsoy.webp
 ---
-------------------------
+
 
 # Libero Arbitrio e Determinismo: Davvero Non Possiamo Scegliere?
 
@@ -42,16 +46,18 @@ Sei seduto al bar, indeciso tra un cornetto alla crema e uno alla marmellata. Pe
 
 ## In questa guida
 
-- [Compatibilismo vs incompatibilismo: differenze in 2 minuti](#compatibilismo-vs-incompatibilismo-differenze-in-2-minuti)
-  - [La Squadra Incompatibilista: "Scegliete una Fazione!"](#la-squadra-incompatibilista-scegliete-una-fazione)
-  - [La Squadra Compatibilista: "Calmi, Si Può Fare!"](#la-squadra-compatibilista-calmi-si-può-fare)
-  - [Glossario lampo (definizioni veloci)](#glossario-lampo-definizioni-veloci)
-- [PAP (possibilità alternative) e casi di Frankfurt: responsabilità senza 'potevo fare altro?'](#pap-possibilità-alternative-e-casi-di-frankfurt-responsabilità-senza-potevo-fare-altro)
-- [Esperimento di Libet: cos’è il readiness potential (spiegazione semplice)](#esperimento-di-libet-cosè-il-readiness-potential-spiegazione-semplice)
-- [Schurger 2012: perché il readiness potential non uccide il libero arbitrio](#schurger-2012-perché-il-readiness-potential-non-uccide-il-libero-arbitrio)
-- [FAQ: Domande da Bar tra un Cornetto e l'Altro](#faq-domande-da-bar-tra-un-cornetto-e-laltro)
-- [Il Ponte con MessyMind: Dalla Teoria alla (Auto)Pratica](#il-ponte-con-messymind-dalla-teoria-alla-autopratica)
-- [Fonti rapide](#fonti-rapide)
+- [Libero Arbitrio e Determinismo: Davvero Non Possiamo Scegliere?](#libero-arbitrio-e-determinismo-davvero-non-possiamo-scegliere)
+  - [In questa guida](#in-questa-guida)
+  - [Compatibilismo vs incompatibilismo: differenze in 2 minuti](#compatibilismo-vs-incompatibilismo-differenze-in-2-minuti)
+    - [La Squadra Incompatibilista: "Scegliete una Fazione!"](#la-squadra-incompatibilista-scegliete-una-fazione)
+    - [La Squadra Compatibilista: "Calmi, Si Può Fare!"](#la-squadra-compatibilista-calmi-si-può-fare)
+    - [Glossario lampo (definizioni veloci)](#glossario-lampo-definizioni-veloci)
+  - [PAP (possibilità alternative) e casi di Frankfurt: responsabilità senza 'potevo fare altro?'](#pap-possibilità-alternative-e-casi-di-frankfurt-responsabilità-senza-potevo-fare-altro)
+  - [Esperimento di Libet: cos’è il readiness potential (spiegazione semplice)](#esperimento-di-libet-cosè-il-readiness-potential-spiegazione-semplice)
+  - [Schurger 2012: perché il readiness potential non uccide il libero arbitrio](#schurger-2012-perché-il-readiness-potential-non-uccide-il-libero-arbitrio)
+  - [FAQ: Domande da Bar tra un Cornetto e l'Altro](#faq-domande-da-bar-tra-un-cornetto-e-laltro)
+  - [Il Ponte: Dalla Teoria alla (Auto)Pratica](#il-ponte-dalla-teoria-alla-autopratica)
+  - [Fonti rapide](#fonti-rapide)
 
 ---
 
@@ -151,23 +157,13 @@ R. La libertà che conta è quella che emerge da capacità come previsione, auto
 
 ---
 
-## Il Ponte con MessyMind: Dalla Teoria alla (Auto)Pratica
+## Il Ponte: Dalla Teoria alla (Auto)Pratica
 
 Queste teorie non servono per assolverci o condannarci, ma per **osservare con più humour e meno ansia il meccanismo delle nostre scelte**.
 
-1. **Notare l'Impulso:** La pratica di **Vipassana** o della mindfulness ci allena a notare gli impulsi (*il "RP" della rabbia, della voglia di cioccolato*) *prima* che si trasformino in azione automatica. Non per bloccarli, ma per crearci uno spazio di risposta.
-2. **Scelte Consapevoli vs. Automatiche:** Molte nostre scelte sono determinate dal "pilota automatico" (abitudini, bias). Prenderne atto è il primo passo per *riprogrammare* quel pilota. Scegliere di disattivare le notifiche è un'azione *compatibilista*: usi la tua ragione per modificare un ambiente che determina le tue distrazioni.
+1. **Notare l'Impulso:** La pratica di [Vipassana](/mindfulness-ironica/vipassana-urbana/) o della mindfulness ci allena a notare gli impulsi (*il "RP" della rabbia, della voglia di cioccolato*) *prima* che si trasformino in azione automatica. Non per bloccarli, ma per crearci uno spazio di risposta.
+2. **Scelte Consapevoli vs. Automatiche:** Molte nostre scelte sono determinate dal "pilota automatico", abitudini e [bias](/filosofia-pratica/bias-cognitivi). Prenderne atto è il primo passo per *riprogrammare* quel pilota. Scegliere di disattivare le notifiche è un'azione *compatibilista*: usi la tua ragione per modificare un ambiente che determina le tue distrazioni.
 3. **La Responsabilità Ironicamente Presa:** Sapere che le nostre azioni hanno cause non ci esime dalla responsabilità di lavorare su quelle cause. Anzi, ci dà un potere pratico: agire sulle condizioni che ci determinano (ambiente, informazioni, abitudini).
-
-**Link utili (interlinking):**
-
-* [Vipassana urbana](/vipassana-urbana/)
-* [Mindfulness in città](/mindfulness-urbana/)
-* [Bias cognitivi](/bias-cognitivi/)
-* [Decisioni consapevoli](/decisioni-consapevoli/)
-* [Pilota automatico e lavoro](/burnout-lavoro/)
-
----
 
 ## Fonti rapide
 
@@ -178,13 +174,6 @@ Queste teorie non servono per assolverci o condannarci, ma per **osservare con p
 * Kane, R. (1996). *The Significance of Free Will.*
 * Harris, S. (2012). *Free Will.*
 
----
-
 *Disclaimer: Questo articolo è una panoramica divulgativa. Il dibattito sul libero arbitrio è tecnicamente complesso e coinvolge decine di posizioni filosofiche sottili qui necessariamente semplificate per ragioni di spazio e chiarezza.*
 
-**Ti ha stordito o illuminato?** Iscriviti alla newsletter MessyMind per altri scontri (compatibili) con la vita reale. Oppure continua qui: **[Mindfulness e decisioni: spegnere il pilota automatico in 5 mosse](/decisioni-consapevoli/)**.
-
----
-
-{%- comment -%} Inline BlogPosting/FAQ JSON-LD removed. Use `_includes/schema-blogposting.html` for BlogPosting and add `faqs` in front matter to render FAQ JSON-LD via `_includes/schema-faq.html`.
-{%- endcomment -%}
+**Ti ha stordito o illuminato?** Iscriviti alla newsletter MessyMind per altri scontri (compatibili) con la vita reale. Oppure continua qui: [La Verità Scomoda che Einstein Non Ci Ha Detto](/filosofia-pratica/e-mc2-spiritualita-verita-scomoda)

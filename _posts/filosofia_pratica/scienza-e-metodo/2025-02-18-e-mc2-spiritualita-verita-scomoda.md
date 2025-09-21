@@ -43,7 +43,7 @@ redirect_from:
 - [Quella Formula che Cambiò Tutto (e che Nessuno Ha Davvero Compreso)](#quella-formula-che-cambiò-tutto-e-che-nessuno-ha-davvero-compreso)
 - [Il Segreto della Sedia](#il-segreto-della-sedia)
 - [Il Laboratorio Segreto nel Tuo Cervello (senza abuso di fisica)](#il-laboratorio-segreto-nel-tuo-cervello-senza-abuso-di-fisica)
-- [Tre Passi per Diventare Alchimista della Tua Vita (Spoiler: Non Serve un Pentolone)](#tre-passi-per-diventare-alchimista-della-tua-vita-spoiler-non-serve-un-pentolone)
+- [Tre Passi per Diventare Alchimista della Tua Vita (Non Serve un Pentolone)](#tre-passi-per-diventare-alchimista-della-tua-vita-non-serve-un-pentolone)
 - [Il Lato Oscuro dell’Alchimia](#il-lato-oscuro-dellalchimia)
 - [Il Tuo Big Bang Personale](#il-tuo-big-bang-personale)
 - [FAQ + markup](#faq--markup)
@@ -108,7 +108,7 @@ Scienza e spiritualità possono **dialogare**: la prima ti chiede prove, la seco
 
 ---
 
-## Tre Passi per Diventare Alchimista della Tua Vita (Spoiler: Non Serve un Pentolone)
+## Tre Passi per Diventare Alchimista della Tua Vita (Non Serve un Pentolone)
 
 1. **Tratta l’attenzione come energia preziosa.**  
    Taglia i micro-sprechi: 15 notifiche, 8 tab aperti, 0 decisioni concluse. Blocchi di 25 minuti, un obiettivo, telefono a pancia in giù.
