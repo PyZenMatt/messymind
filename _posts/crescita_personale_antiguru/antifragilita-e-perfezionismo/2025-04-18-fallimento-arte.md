@@ -1,34 +1,21 @@
 ---
-author: Teo, Il Filosofo Sgualcito
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045412/fail_600_dbf17q.jpg
-categories:
-- crescita-personale-anti-guru
-date: 2023-11-15
-description: 'Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una
-  guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti
-  e l''arte di non fare i compiti.'
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045411/fail_1600_ceuie0.webp
-keywords:
-- fallimento consapevole
-- crescita personale ironica
-- Thoreau moderno
-- Wu Wei quotidiano
-- successo fallimento
-- errori voluti
-- anti-guru
-lang: it
 layout: post
-og_alt: Cactus in vaso di terracotta con occhiali da sole e cartello 'Resisto ergo
-  sum'
-og_image: /images/nietzsche-cactus-con-occhiali-da-sole.jpg
+title: Fallire è un'arte (e io sono il Picasso degli scivoloni)
+seo_title: Fallire è un'arte (e io sono il Picasso degli scivoloni)
+description: "Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti e l'arte di non fare i compiti a casa"
+seo_description: "Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti e l'arte di non fare i compiti a casa"
+date: 2025-04-18
+categories: crescita-personale-anti-guru
+subcluster: antifragilita-e-perfezionismo
+tags: cornerstone
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756045411/fail_1600_ceuie0.webp
+lcp_image_alt: bollette bianche con la scritta "scaduta" sopra e una bottiglia di birra aperta e altri fogli accartociati
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756045411/fail_1600_ceuie0.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_900/v1756045412/fail_600_dbf17q.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1756045412/v1756045411/fail_1600_ceuie0.webp
 redirect_from:
 - /fallire-e-un-arte-e-io-sono-il-picasso-degli-scivoloni/
 - //fallire-arte-picasso-scivoloni/
-seo_description: 'Racconto ironico e pratico sul fallimento come strumento di crescita:
-  esercizi, storie e consigli per trasformare gli scivoloni in opportunità creative.'
-subcluster: antifragilita-e-perfezionismo
-tags: cornerstone
-title: Fallire è un'arte (e io sono il Picasso degli scivoloni)
 ---
 **“Fallire è un’arte (e io sono il Picasso degli scivoloni)”**  
 

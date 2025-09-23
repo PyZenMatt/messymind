@@ -2,31 +2,19 @@
 layout: post
 title: "Burnout: cos'è davvero e come riconoscerlo (senza incenso)"
 description: "Burnout spiegato semplice: definizione, 7 segnali reali e cosa fare subito. Zero guru, solo strumenti pratici per respirare di nuovo al lavoro."
+seo_title: "Burnout: cos'è davvero e come riconoscerlo (senza incenso)"
+seo_description: "Burnout spiegato semplice: definizione, 7 segnali reali e cosa fare subito. Zero guru, solo strumenti pratici per respirare di nuovo al lavoro."
+categories: "burnout-e-lavoro"
+tags: ["burnout", "ritmi-gentili", "mindfulness-ironica"]
 date: "2025-09-12"
 last_modified_at: "2025-09-12"
-lang: "it"
-categories:
-- "burnout-e-lavoro"
-tags:
-- "burnout"
-- "ritmi-gentili"
-- "mindfulness-ironica"
-keywords:
-- "burnout"
-- "sindrome da burnout"
-- "stress lavoro"
-- "come riconoscere burnout"
-image: "/assets/img/burnout-riconoscere.webp"  
-image_alt: "Illustrazione del burnout: come riconoscerlo"
-lcp_image: "/assets/img/burnout-riconoscere.webp"
-canonical_url: "https://messymind.it/burnout-cos-e-davvero-e-come-riconoscerlo/"
-robots: "index,follow"
-sitemap: true
-draft: false
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757707488/burnout-1920_gggfbb.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757707488/burnout_600_hmpbg4.webp
 image_author: Nataliya Vaitkevich
 image_author_url: https://nvoitkevich.com/
+lcp_image_alt: donna con la testa in messo alle braccia in segno di disperazione davanti un laptop aziendale
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/uploadf_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757707488/burnout-1920_gggfbb.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/uploadf_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757707488/burnout-1920_gggfbb.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/uploadf_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1757707488/burnout_600_hmpbg4.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200//v1757707488/burnout-1920_gggfbb.webp
 faqs:
 - question: "Quanto dura il burnout?"
   answer: "Non c'è una durata fissa. Dipende dalla gravità, dal contesto lavorativo e dalle azioni intraprese. Può richiedere settimane o mesi di cambiamenti concreti e, in alcuni casi, supporto professionale. Le ferie da sole raramente bastano."

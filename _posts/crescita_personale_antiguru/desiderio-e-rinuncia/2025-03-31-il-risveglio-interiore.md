@@ -1,35 +1,19 @@
 ---
-alt: Una persona suduta su un altalena mentre guarda l'infinito
-author: Matteo Ricci
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042380/bussola_qhogkd.png
-categories:
-- crescita-personale-anti-guru
-date: 2023-10-15
-description: Scopri come smettere di inseguire il successo tradizionale e trovare
-  l'autenticità tra meme, metafore surreali e consigli pratici per chi ha provato
-  a meditare solo una volta. Un viaggio tra filosofia spicciola, umorismo esistenziale
-  e studi finti dell'Università di Urbino.
-featured: 'true'
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042381/bussola_n7zsmf.webp
-keywords:
-- risveglio interiore
-- successo autentico
-- crescita personale ironica
-- spiritualità moderna
-- umorismo esistenziale
-- self-help parodia
-- filosofia quotidiana
-- libertà interiore pratica
-lang: it
+layout: post
+title: 'Risveglio Interiore e Successo: Perché la Spiritualità Moderna è Come un GPS Rotto (Con Esempi Pratici di Sopravvivenza)'
+seo_title: 'Risveglio Interiore e Successo: Perché la Spiritualità Moderna è Come un GPS Rotto (Con Esempi Pratici di Sopravvivenza)'
+description: Scopri come smettere di inseguire il successo tradizionale e trovare l'autenticità tra meme, metafore surreali e consigli pratici per chi ha provato a meditare solo una volta. Un viaggio tra filosofia spicciola, umorismo esistenziale e studi finti dell'Università di Urbino.
+seo_description: Scopri come smettere di inseguire il successo tradizionale e trovare l'autenticità tra meme, metafore surreali e consigli pratici per chi ha provato a meditare solo una volta. Un viaggio tra filosofia spicciola, umorismo esistenziale e studi finti dell'Università di Urbino.
+categories: crescita-personale-anti-guru
+subcluster: desiderio-e-rinuncia
+date: 2025-03-31
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/bussola_n7zsmf.webp
+lcp_image_alt: Una persona suduta su un altalena mentre guarda l'infinito
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/bussola_n7zsmf.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756042380/bussola_qhogkd.png
 redirect_from:
 - /risveglio-interiore-e-successo-perche-la-spiritualita-moderna-e-come-un-gps-rotto-con-esempi-pratici-di-sopravvivenza/
 - /risveglio-interiore-successo-autentico-umorismo-esistenziale
-related:
-- paradosso-desiderio-yeti-palestra-alan-watts
-seo_title: Risveglio Interiore e Successo [...]
-subcluster: desiderio-e-rinuncia
-title: 'Risveglio Interiore e Successo: Perché la Spiritualità Moderna è Come un GPS
-  Rotto (Con Esempi Pratici di Sopravvivenza)'
 ---
 *Nota dell’autore: Nessun Buddha è stato maltrattato nella stesura di questo articolo. Solo qualche cliché del benessere è finito nel trita documenti. Namasté, ovviamente.*
 

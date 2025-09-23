@@ -1,19 +1,17 @@
 ---
 layout: post
 title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E Io Ho Sbagliato Strada Più Volte)"
-seo_title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E "
+seo_title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E Io Ho Sbagliato Strada Più Volte)"
+description: "Scopri come ho imparato a trovare la felicità sbagliando strada, contando i rumori del frigorifero e ballando come un fenicottero in cucina. Guida pratica (con errori inclusi) alla crescita personale."
+seo_description: "Scopri come ho imparato a trovare la felicità sbagliando strada, contando i rumori del frigorifero e ballando come un fenicottero in cucina. Guida pratica (con errori inclusi) alla crescita personale."
 categories: [crescita-personale-anti-guru]
 subcluster: "felicita-realistica"
+date: 2024-10-18
 tags: [benessere, meditazione, autoconsapevolezza, umorismo, fallimenti, storie personali, esercizi pratici, autenticità] 
-description: "Scopri come ho imparato a trovare la felicità sbagliando strada, contando i rumori del frigorifero e ballando come un fenicottero in cucina. Guida pratica (con errori inclusi) alla crescita personale."
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042406/vita_bxb3tp.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042406/vita_bxb3tp.webp
-author: Matteo Ricci
-meta: "Felicità ≠ ricette magiche. La mia storia tra meditazioni fallite, guru improvvisati e lezioni rubate ai piccoli disastri quotidiani. Con esercizi per ridere di sé."
-keywords: [felicità imperfetta, crescita personale umoristica, meditazione per principianti, come perdonare sé stessi, errori che insegnano, esercizi pratici spirituali, storie di trasformazione reale]
-longtail-keywords: [come trovare la felicità attraverso gli errori, esercizi pratici per il perdono interiore, crescita personale con umorismo, meditazione per chi non riesce a meditare, storie reali di trasformazione interiore, come smettere di inseguire la perfezione]
-featured_post: 'false'
-lang: "it"
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042406/vita_bxb3tp.webp
+lcp_image_alt: donna affacciata su un belvedere di montagna in quota
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042406/vita_bxb3tp.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756042406/vita_bxb3tp.webp
 ---
 
 Ricordo quella volta in cui, dopo aver comprato l’ennesimo corso online su "Come Essere Felici in 7 Giorni", mi ritrovai a fissare lo schermo del computer con lo stesso vuoto di prima. 

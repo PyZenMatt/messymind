@@ -1,38 +1,22 @@
 ---
-author: Matteo Ricci l'antiguru
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045099/lust_600_scqaga.jpg
-categories:
-- crescita-personale-anti-guru
+layout: post
+title: 'Il Paradosso del Desiderio: Perché Voler Smettere di Desiderare è Come Essere uno Yeti in Palestra'
+seo_title: 'Il Paradosso del Desiderio: Perché Voler Smettere di Desiderare è Come Essere uno Yeti in Palestra'
+description: Cosa c'entrano uno yeti depilato, un maestro zen e il peccato originale dell'ansia? Un viaggio irriverente nel paradosso del desiderio di Alan Watts, tra metafore assurde e satira sulla spiritualità moderna. Per chi è stanco del solito self-help.
+seo_description: Cosa c'entrano uno yeti depilato, un maestro zen e il peccato originale dell'ansia? Un viaggio irriverente nel paradosso del desiderio di Alan Watts, tra metafore assurde e satira sulla spiritualità moderna. Per chi è stanco del solito self-help.
 date: 2025-04-06
-description: Cosa c'entrano uno yeti depilato, un maestro zen e il peccato originale
-  dell'ansia? Un viaggio irriverente nel paradosso del desiderio di Alan Watts, tra
-  metafore assurde e satira sulla spiritualità moderna. Per chi è stanco del solito
-  self-help.
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756045110/lust_1600_zdh2f3.webp
-keywords:
-- Paradosso del desiderio
-- Alan Watts
-- spiritualità anti-guru
-- crescita personale
-- ansia da produttività
-- meditazione ironica
-- self-help satirico
-- libertà dall'ansia
-- metafore umoristiche
-- psicologia buddhista
-lang: it
+categories: crescita-personale-anti-guru
+subcluster: desiderio-e-rinuncia
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756045110/lust_1600_zdh2f3.webp
+lcp_image_alt: scritta lust con le lettere domino
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756045110/lust_1600_zdh2f3.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756045099/lust_600_scqaga.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_900/v1756045110/lust_1600_zdh2f3.webp
 redirect_from:
 - /il-paradosso-del-desiderio-perche-voler-smettere-di-desiderare-e-come-essere-uno-yeti-in-palestra/
 - /paradosso-desiderio-yeti-palestra-alan-watts/
-related:
-- risveglio-interiore-successo-autentico-umorismo-esistenziale
-seo_description: 'Riflessione ironica sul desiderio: come riconoscerlo, smontarlo
-  e trasformarlo in azioni pratiche per una vita meno ossessionata.'
-seo_title: Il Paradosso del Desiderio [...]
-subcluster: desiderio-e-rinuncia
-title: 'Il Paradosso del Desiderio: Perché Voler Smettere di Desiderare è Come Essere
-  uno Yeti in Palestra'
 ---
+
 ## Il Dilemma dello Yeti che Voleva Iscriversi in Palestra  
 
 Immaginate di essere uno yeti. Peloso, goffo, con un’aria perennemente stupita come se vi avessero appena svelato che le montagne su cui vivete sono, in realtà, giganti addormentati. Un giorno, vi convincete che la **felicità** stia nel diventare un yeti *glabro*. Comprate rasoi a 5 lame, creme depilatorie alla lavanda himalayana, seguite corsi di yoga per contorcervi e raggiungere quei peli ribelli tra le scapole. Ma più vi impegnate, più vi accorgete che la ricerca della glabrezza è… beh, un altro tipo di peluria mentale.  

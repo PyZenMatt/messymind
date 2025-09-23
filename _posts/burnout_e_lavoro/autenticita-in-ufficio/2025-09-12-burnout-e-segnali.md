@@ -1,23 +1,21 @@
 ---
 layout: post
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757839184/burnout_2_600_x1k4nf.webp
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757839184/burnout_2_1920_uii5jq.webp
-image_alt: "Persona alla scrivania, stanchezza evidente: segnali di burnout"
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757839184/burnout_2_1920_uii5jq.webp
-image_author: Anna Tarazevich
-image_author_url: https://annatarazevich.com/
-layout: post
 title: "Burnout al lavoro: 7 segnali che stai sottovalutando"
+seo_title: "Burnout al lavoro: 7 segnali che stai sottovalutando"
 description: "Stanchezza che non passa, cinismo e nebbia mentale. Ecco 7 segnali reali del burnout e micro-azioni da 60 secondi per sbloccare la giornata."
+seo_description: "Stanchezza che non passa, cinismo e nebbia mentale. Ecco 7 segnali reali del burnout e micro-azioni da 60 secondi per sbloccare la giornata."
 date: "2025-09-12"
 last_modified_at: "2025-09-12"
-lang: "it"
 categories: ["burnout-e-lavoro"]
 subcluster: "autenticita-in-ufficio"
 tags: ["burnout","segnali-burnout","autenticita-in-ufficio"]
-keywords: ["segnali burnout","sintomi burnout lavoro","come riconoscere burnout","esaurimento emotivo","cinismo lavorativo"]
-sitemap: true
-draft: false
+image_author: Anna Tarazevich
+image_author_url: https://annatarazevich.com/
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1757839184/burnout_2_1920_uii5jq.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1757839184/burnout_2_600_x1k4nf.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757839184/burnout_2_1920_uii5jq.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757839184/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/burnout_2_1920_uii5jq.webpv1757839184/burnout_2_1920_uii5jq.webp
+image_alt: "Persona alla scrivania, stanchezza evidente: segnali di burnout"
 faqs:
 - question: "Come capire se ho il burnout?"
   answer: "Riconosci un pattern di esaurimento emotivo, cinismo e inefficacia professionale per più settimane. Se i segnali interferiscono con la vita quotidiana, consulta un professionista."

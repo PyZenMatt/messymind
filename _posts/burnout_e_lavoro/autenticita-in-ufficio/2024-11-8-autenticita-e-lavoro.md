@@ -14,6 +14,7 @@ image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1756045412/v1756043562/lavoro_1600_jkqmrs.webp
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756043562/lavoro_1600_jkqmrs.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756043562/lavoro_1600_jkqmrs.webp
+lcp_image_alt: donna con le mani ai capelli davanti al suo computer mentre lavora
 featured_post: true
 howto:
   name: "Come essere autentici al lavoro in 7 micro mosse pratiche"
