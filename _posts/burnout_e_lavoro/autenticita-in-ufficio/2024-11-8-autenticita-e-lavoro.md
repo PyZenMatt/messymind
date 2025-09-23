@@ -3,22 +3,55 @@ layout: post
 title: "Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)"
 seo_title: "Lavoro e Autenticità: sopravvivere all'ufficio con ironia e pratica"
 seo_description: "Strategie pratiche e ironiche per restare autentici al lavoro: micro-pratiche di mindfulness, gestione dei colleghi tossici e consigli per trasformare le riunioni in momenti di crescita."
+date: 2024-11-8
+last_modified_at: 2025-09-23
 categories: burnout-e-lavoro
 subcluster: autenticita-in-ufficio
-slug: autenticita-lavoro-guida-pratica
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756043562/lavoro_1600_jkqmrs.webp
-tags:
-   - cornerstone
-   - autenticità sul lavoro
-   - felicità lavorativa
-   - Dharma professionale
-   - Taoismo e lavoro
-   - Kabbalah applicata
-   - work-life balance
-   - umorismo aziendale
+tags: ["cornerstone", "autenticità sul lavoro", "felicità lavorativa", "Dharma professionale", "Taoismo e lavoro", "Kabbalah applicata", "work-life balance", "umorismo aziendale"]
+image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/
+image_author: energepic
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756043562/lavoro_1600_jkqmrs.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1756045412/v1756043562/lavoro_1600_jkqmrs.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756043562/lavoro_1600_jkqmrs.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756043562/lavoro_1600_jkqmrs.webp
 featured_post: true
+howto:
+  name: "Come essere autentici al lavoro in 7 micro mosse pratiche"
+  description: 
+  totalTime: "PT5M"
+  step:
+    - name: "Chiarisci 3 valori non negoziabili"
+      text: >
+        Esempio: "onestà, tempo di deep work, rispetto dei limiti".
+        Scrivili e condividili con te stesso/a.
+    - name: "Scegli due frasi assertive pronte"
+      text: |
+        - "In questo momento sono su [priorità]. Possiamo rivederlo domani alle 11?"
+        - "Senza [risorsa X] rischio un lavoro mediocre. Preferisci qualità o velocità?"
+    - name: "Imposta confini gentili"
+      text: >
+        Blocchi di deep work (2×/settimana), notifica al team e motivo legato al beneficio collettivo.
+    - name: "Micro-pratica 4-4-6"
+      text: "Inspira 4, trattieni 4, espira 6. Due volte al giorno, 3 minuti."
+    - name: "Gestire colleghi difficili"
+      text: "Metodo sandwich (riconoscimento del problema → richiesta chiara al capo → beneficio per il team)."
+    - name: "Giornale di bordo settimanale"
+      text: "Tre righe (cosa ha funzionato / cosa no / micro-esperimento)."
+    - name: "One-to-one con il manager"
+      text: "Tre esempi di impatto sulla tua produttività + una richiesta specifica (non generica)."
+faqs:
+- question: "Come essere se stessi al lavoro senza sembrare «contro»?"
+  answer: Rendi espliciti valori e limiti, proponi alternative concrete e
+         temporalizza le richieste (es. «domani alle 11»). Autenticità =
+         chiarezza + collaborazione.
+- question: "Quali frasi usare per dire «no» con professionalità?"
+  answer: "Al momento sono su [priorità]. Possiamo rivederlo domani alle 11? Per farlo bene mi serve [risorsa/tempo]. Possiamo rinegoziare la scadenza?"
+- qustion: "Cosa fare con un collega o capo tossico?"
+  answer: Documenta gli episodi, imposta confini scritti, indirizza la conversazione sul lavoro da fare e coinvolgi HR se necessario. Procedi a micro-passi, evita scontri frontali.
+- question: "Quando NON conviene spingere sull’autenticità?"
+  answer: "In contesti a bassa sicurezza psicologica: procedi per gradi, costruisci alleanze, mostra valore misurabile e allarga il raggio gradualmente."
+- question: "Equilibrio vita–lavoro: 3 azioni in 7 giorni?"
+  answer: Disattiva le notifiche fuori orario. Pianifica 2 slot di deep work. Introduci un rituale di decompressione di 10 minuti post-lavoro.
 ---
 
 # Lavoro e Autenticità: Come Sopravvivere all’Ufficio Senza Perdere l’Anima (e la Sanità Mentale)
@@ -75,42 +108,12 @@ Per anni ho cercato la mia "missione divina" come se fosse l’ultimo pezzo di p
 
 Il mio momento "eureka"? Quando ho trasformato una noiosissima analisi dati in una storia fantasy (i KPI diventarono draghi, le metriche pozioni magiche). Il capo mi guardò come se avessi il cervello fuso. Ma due settimane dopo, il cliente ci ringraziò per "l’approccio visionario".
 
-## Come essere autentici al lavoro: 7 mosse pratiche (HowTo)
+{% include howto.html %}
 
-1. **Chiarisci 3 valori non negoziabili**: esempio “onestà, tempo di deep work, rispetto dei limiti”. Scrivili e condividili in 1:1.
-2. **Scegli due frasi assertive pronte**:
-   • “In questo momento sono su \[priorità]. Possiamo rivederlo domani alle 11?”
-   • “Senza \[risorsa X] rischio un lavoro mediocre. Preferisci qualità o velocità?”
-3. **Imposta confini gentili**: blocchi di deep work (2×/settimana), notifica al team e motivo legato al beneficio collettivo.
-4. **Micro-pratica 4-4-6**: inspira 4, tieni 4, espira 6. Due volte al giorno, 3 minuti.
-5. **Colleghi difficili: metodo sandwich** (riconoscimento → richiesta chiara → beneficio per il team).
-6. **Giornale di bordo settimanale**: 3 righe (cosa ha funzionato / cosa no / micro-esperimento).
-7. **One-to-one con il manager**: 3 esempi di impatto + 1 richiesta specifica (non generica).
+## FAQ
 
-## FAQ — Autenticità in azienda (risposte rapide)
+{% include faq.html %}
 
-**Come essere se stessi al lavoro senza sembrare “contro”?**
-Rendi espliciti valori e limiti, proponi alternative pratiche e temporalizza le richieste (“domani alle 11”). Autenticità = chiarezza + collaborazione.
-
-**Quali frasi usare per dire “no” con professionalità?**
-“Al momento sono su \[priorità]. Posso prendermene cura dopo \[ora/data]?”
-“Per farlo bene mi serve \[risorsa/tempo]. Possiamo rinegoziare la scadenza?”
-
-**Cosa fare con un collega/capo tossico?**
-Documenta gli episodi, imposta confini scritti, indirizza la conversazione sul lavoro da fare e coinvolgi HR se serve. Micro-passi, non scontri frontali.
-
-**Quando NON conviene spingere sull’autenticità?**
-In contesti a bassa sicurezza psicologica: procedi per gradi, costruisci alleanze, dimostra valore misurabile e poi amplia il raggio.
-
-**Equilibrio vita-lavoro: prime 3 azioni in 7 giorni?**
-Spegni notifiche dopo l’orario; pianifica 2 slot di deep work; definisci un rituale di decompressione di 10 minuti post-lavoro.
-
-## Risorse correlate (per saperne di più)
-
-* Burnout da lavoro: segnali precoci e come uscirne (link interno al cluster)
-* Assertività: 15 frasi pronte per dire “no” con gentilezza (sub-cluster Autenticità)
-* Mindfulness al lavoro: pratiche da 5 minuti per giornate assurde (cluster Mindfulness ironica)
-* Equilibrio vita-lavoro: guida pratica in 10 passi (cluster Burnout e lavoro)
 
 ## Conclusione
 
@@ -127,26 +130,6 @@ Se questo articolo ti ha fatto ridere/storcere la bocca/pensare "ma che ca\*\*\*
 * Inviarmi la tua miglior storia horror/spirituale da ufficio. La più folle vince un mandarino energetico (vero, mica virtuale).
 
 E soprattutto grazie per essere arrivato fin qui.
+
 Matteo Ricci
 
----
-
-**Suggerimenti strategici (medium-term):**
-
-* Crea subito l’articolo “Assertività: 15 frasi pronte per dire no” e linkalo dalla sezione HowTo.
-* Aggiungi breadcrumb e box “Esplora il sub-cluster” in fondo.
-* A/B test meta title (“7” vs “10 mosse”) e description (beneficio diverso).
-* Inserisci JSON-LD `FAQPage` e `HowTo` nel layout (o inline) coerenti con le sezioni.
-
-**Note tecniche rapide:**
-
-* Immagini `.webp`, `width/height` dichiarati, `loading="lazy"` sotto la prima fold.
-* Eventi GA4: click su “copia frase assertiva” (se aggiungi pulsante copy), scroll depth 75%.
-* Interlink: 2 link al cluster Burnout e 2 al sub-cluster Autenticità; evita 404, crea gli slug prima.
-
-**Autocorrezione:**
-
-* Ho mantenuto il tuo tono ironico spostando l’ottimizzazione sui titoli e sulle sezioni pratiche.
-* Non ho inserito JSON-LD inline per non appesantire il file; consigliato inserirlo nel layout globale.
-
-**Prossimo step:** pubblica questa versione, crea la pagina “15 frasi assertive” e collega le 4 “Risorse correlate”. Monitora GSC (14 giorni) su query: “autenticità sul lavoro”, “essere se stessi al lavoro”, “come dire no al lavoro”.

@@ -35,8 +35,8 @@
   {%- endcomment -%}
   {%- assign lcp_candidate = page.lcp_image | default: page.og_image | default: page.image | default: page.background | default: site.image -%}
   {%- if lcp_candidate -%}
-    {%- assign lcp_webp = lcp_candidate | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' | replace: '.png', '.webp' -%}
-    <link rel="preload" href="{{ lcp_webp | absolute_url }}" as="image" type="image/webp" fetchpriority="high">
+    <!-- Preload LCP as-is to avoid Cloudinary double-fetch when using f_auto -->
+    <link rel="preload" as="image" href="{{ lcp_candidate | absolute_url }}" fetchpriority="high">
   {%- endif -%}
   
   <!-- NESSUN FONT AWESOME - Per LCP critico -->

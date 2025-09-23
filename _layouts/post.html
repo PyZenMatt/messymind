@@ -29,9 +29,9 @@ layout: default
             {% if page.subtitle %}
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
-            <span class="meta">Posted by
-              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
+            <span class="meta">Scritto da
+              <a href="{{ page.author_url | default: site.author_url | default: 'https://matteoricci.net' }}">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+              il <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time> &middot; {% include read_time.html
               content=page.content %}
             </span>
             {%- if page.image_author or page.image_author_url -%}
@@ -74,7 +74,8 @@ layout: default
     <div class="row">
       <!-- Contenuto Principale -->
       <div class="col-lg-8 col-md-10 mx-auto post-content-wrapper">
-        {{ content }}
+  {{ content }}
+
 
         <!-- Prossimi passi: link a hub subcluster e cluster -->
         {% if page.subcluster and page.categories %}
@@ -99,32 +100,47 @@ layout: default
           {% else %}
             {% assign sub_url = category_url | append: subslug | append: '/' | relative_url %}
           {% endif %}
-
+            <hr class="rule">
+            <style>
+            .rule{border:0;height:1px;background:#e5e7eb;margin:2rem 0;}
+            </style>
           <aside class="post-next my-4 p-3 border rounded">
-            <p class="mb-1">Continua nel sotto-cluster</p>
+            <p class="mb-1">Continua a leggere articoli simili su</p>
             <a class="d-block mb-2" href="{{ sub_url }}">
-              Vai all’hub “{{ page.subcluster | replace: '-', ' ' | capitalize }}"
+              “{{ page.subcluster | replace: '-', ' ' | capitalize }}"
             </a>
-            <p class="mb-1">Oppure esplora l’hub del cluster</p>
+            <p class="mb-1">Oppure esplora l'intera categotia</p>
             <a class="d-block" href="{{ category_url }}">
-              Hub “{{ cluster | replace: '-', ' ' | capitalize }}”
+              “{{ cluster | replace: '-', ' ' | capitalize }}”
             </a>
           </aside>
         {% endif %}
-
+            <hr class="rule">
+            <style>
+            .rule{border:0;height:1px;background:#e5e7eb;margin:2rem 0;}
+            </style>
         <!-- Related Posts -->
         {% include related-posts.html %}
+
+        {% if page.related_links %}
+          <div class="related-editorial-wrap mt-3">
+            <h3>Link consigliati</h3>
+            <ul class="related-editorial list-unstyled">
+              {% for url in page.related_links %}
+                <li><a href="{{ url | relative_url }}">{{ url }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
 
         <hr>
       
         <div class="clearfix">
-      {% if page.previous.url %}
-      <a class="btn btn-primary float-left" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
-        Post</span></a>
+      {% if page.previous and page.previous.url %}
+      <a class="btn btn-primary float-left" href="{{ page.previous.url | relative_url }}" rel="prev" aria-label="Articolo precedente: {{ page.previous.title }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Articolo precedente<span class="d-none d-md-inline"> Post</span></a>
           {% endif %}
-          {% if page.next.url %}
-      <a class="btn btn-primary float-right" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
-        Post</span> &rarr;</a>
+          {% if page.next and page.next.url %}
+      <a class="btn btn-primary float-right" href="{{ page.next.url | relative_url }}" rel="next" aria-label="Articolo successivo: {{ page.next.title }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Articolo successivo<span class="d-none d-md-inline"> Post</span> &rarr;</a>
           {% endif %}
         </div>
       </div>

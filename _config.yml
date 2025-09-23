@@ -69,6 +69,7 @@ title: "Messy Mind"
 email: "info@messymind.it"
 description: "Equilibrio interiore senza prendersi troppo sul serio. Spiritualità pratica per vite moderne e caotiche, senza guru e senza fuffa."
 author: "Matteo Ricci"
+author_url: "https://matteoricci.net"
 url: "https://messymind.it"
 baseurl: ""                         # dominio custom → lascia vuoto
 background: "/img/home/bg-home.jpeg"

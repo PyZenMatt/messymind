@@ -20,18 +20,20 @@
     {% assign category = page.cluster_name %}
   {% endif %}
   {% assign key = category | default: '' | downcase | slugify %}
-  {%- comment -%} Compute canonical category URL: prefer explicit mapping, otherwise build a safe path under /categorie/ {%- endcomment -%}
+  {%- comment -%} Compute canonical category path/url: prefer explicit mapping, otherwise build a safe path under /categorie/ {%- endcomment -%}
   {% assign mapped = site.data.category_slugs[key] | default: nil %}
   {% if mapped %}
-    {% assign category_url = mapped | absolute_url %}
+    {% assign category_path = mapped %}
   {% else %}
-      {% assign category_path = '/categorie/' | append: key | append: '/' %}
-      {% assign category_url = category_path | absolute_url %}
+    {% assign category_path = '/categorie/' | append: key | append: '/' %}
   {% endif %}
+  {% assign category_url_abs = category_path | absolute_url %}
+  {% assign category_url_rel = category_path | relative_url %}
       <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-        <a href="{{ category_url }}" itemprop="item" itemtype="http://schema.org/WebPage">
+        <a href="{{ category_url_rel }}" itemtype="http://schema.org/WebPage">
           <span itemprop="name">{{ category | replace: '-', ' ' | capitalize }}</span>
         </a>
+        <meta itemprop="item" content="{{ category_url_abs }}" />
         <meta itemprop="position" content="2" />
       </li>
       {%- comment -%}
@@ -42,15 +44,17 @@
         {% assign subkey = key | append: ':' | append: sub_clean %}
         {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
         {% if mapped_sub %}
-          {% assign sub_url = mapped_sub | absolute_url %}
+          {% assign sub_path = mapped_sub %}
         {% else %}
           {% assign sub_path = '/categorie/' | append: key | append: '/' | append: sub_clean | append: '/' %}
-          {% assign sub_url = sub_path | absolute_url %}
         {% endif %}
+        {% assign sub_url_abs = sub_path | absolute_url %}
+        {% assign sub_url_rel = sub_path | relative_url %}
         <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="{{ sub_url }}" itemprop="item" itemtype="http://schema.org/WebPage">
+          <a href="{{ sub_url_rel }}" itemtype="http://schema.org/WebPage">
             <span itemprop="name">{{ page.subcluster | replace: '-', ' ' | capitalize }}</span>
           </a>
+          <meta itemprop="item" content="{{ sub_url_abs }}" />
           <meta itemprop="position" content="3" />
         </li>
       {% endif %}
