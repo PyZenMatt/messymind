@@ -57,6 +57,4 @@ Se questo articolo ti è piaciuto, immagina quanto sarei grato se mi offrissi un
 
 Ma hey, se non lo fai, pace. L’illuminazione non ha affiliate link.  
 
-[Firma: Un ex consumatore di self-help ora convertito al culto del “Basta, Oggi Mi Faccio Le Patatine”]  
-  
 

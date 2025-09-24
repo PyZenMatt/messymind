@@ -1,39 +1,24 @@
 ---
 layout: post
-title: La felicità? Quella che cerchi scrollando Instagram mentre mangi un kebab alle
-  2 di notte
-seo_title: La felicità? Quella che cerchi scrollando Instagram me
-categories:
-- crescita-personale-anti-guru
+title: La felicità? Quella che cerchi scrollando Instagram mentre mangi un kebab alle 2 di notte
+seo_title: La felicità? Quella che cerchi scrollando Instagram mentre mangi un kebab alle 2 di notte
+description: 'Dai diari della gratitudine ai gatti che sabotano la meditazione: come trovare la felicità senza prendersi troppo sul serio.'
+seo_description: 'Dai diari della gratitudine ai gatti che sabotano la meditazione: come trovare la felicità senza prendersi troppo sul serio.'
+date: 21-10-2024
+categories: crescita-personale-anti-guru
 subcluster: felicita-realistica
-tags:
-- felicita
-- benessere
-- autorealizzazione
-- crescita personale
-meta: Scopri come coltivare la felicità attraverso l'autoironia, la consapevolezza
-  e relazioni autentiche. Un viaggio tra psicologia e battute da bar, con esempi pratici
-  per migliorare il tuo benessere quotidiano.
+tags: ["felicita", "benessere", "autorealizzazione", "crescita personale"]
+image_author_url: https://pixabay.com
+image_author: pixabay
+lcp_image: 
+lcp_image_alt:
 image: /img/Loto.png
 background: /img/Loto.png
-description: 'Dai diari della gratitudine ai gatti che sabotano la meditazione: come
-  trovare la felicità senza prendersi troppo sul serio.'
 featured_post: 'false'
-keywords: Felicità autentica, Crescita personale ironica, Autoironia, Mindfulness
-  ironica ,Psicologia umoristica, Accettazione di sé con humor, Relazioni positive,
-  Benessere emotivo, Consapevolezza quotidiana, Filosofia pratica, Come trovare la
-  felicità nelle piccole cose, Esercizi di gratitudine divertenti, Vivere nel presente
-  con ironia, Gestire i fallimenti con autoironia, Self-help senza prendersi sul serio,
-  Coltivare relazioni autentiche senza sforzo, Mindfulness per chi odia meditare,
-  sicologia positiva per scettici, Libri crescita personale non banali, Come smettere
-  di cercare la felicità perfetta
-lang: it
-related:
-- la-felicita-e-un-viaggio
-- ricerca-felicita-autenticita-panini-notturni
 redirect_from:
 - /la-felicita-quella-che-cerchi-scrollando-instagram-mentre-mangi-un-kebab-alle-2-di-notte/
 ---
+
 La felicità è come il Wi-Fi: tutti la cercano, ma pochi sanno dove sia il router. Ci hanno provato **Platone** con il mito della caverna, **Schopenhauer** con il pessimismo, e pure quel tizio al bar che giura che la risposta sia nel kefir. 
 
 Io, invece, ho scoperto che **inizia** **accettando** di essere quel tipo di persona che compra libri sulla crescita personale e li usa come fermaporte. 

@@ -7,11 +7,15 @@ layout: default
 {%- if hero_raw -%}
   {%- comment -%}
   Se URL assoluto (http/https) o protocol-relative (//), usalo com'è.
-  Altrimenti rendilo assoluto rispetto al sito.
+  Se è un path a partire da `/...` (risorsa interna), usa `relative_url` per la UI
+  (evita mismatch host in sviluppo). Altrimenti rendilo assoluto rispetto al sito.
   {%- endcomment -%}
   {%- assign hero_prefix = hero_raw | slice: 0, 2 -%}
+  {%- assign hero_first = hero_raw | slice: 0, 1 -%}
   {%- if hero_raw contains '://' or hero_prefix == '//' -%}
     {%- assign hero_url = hero_raw -%}
+  {%- elsif hero_first == '/' -%}
+    {%- assign hero_url = hero_raw | relative_url -%}
   {%- else -%}
     {%- assign hero_url = hero_raw | absolute_url -%}
   {%- endif -%}
