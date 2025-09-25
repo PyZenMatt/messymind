@@ -38,6 +38,7 @@ schema:
 lang: it
 redirect_from:
 - /il-manuale-di-sopravvivenza-per-chi-vuole-controllare-tutto-e-fallisce/
+- /il-controllo/
 ---
 ## Il Manuale di Sopravvivenza per Chi Vuole Controllare il Mare con un Colino
 
