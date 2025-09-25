@@ -48,6 +48,7 @@ tags:
 - cornerstone
 title: 'Come Ho Smesso di Inseguire il Tempo: 3 Segreti per Vivere Senza Ansia da
   Produttività'
+redirect_from: /crescita-personale/come-ho-smesso-di-inseguire-il-tempo/
 ---
   
 ## Quella volta che ho pianto in metropolitana (e non per colpa del ritardo)  

@@ -26,6 +26,8 @@ noindex: false
 lang: it
 redirect_from:
 - /come-meditare-senza-sedersi-a-gambe-incrociate/
+- /spiritualita/meditazione-per-chi-odia-meditare/
+- /meditazione-per-chi-odia-meditare
 ---
 # Come **meditare** senza sederti a *gambe incrociate*
 

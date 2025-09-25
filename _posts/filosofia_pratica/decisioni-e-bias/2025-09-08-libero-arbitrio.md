@@ -25,6 +25,7 @@ image_author: cottonbro
 image_author_url: https://www.pexels.com/it-it/@cottonbro/
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-1920_uycfxp.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-600_fmjsoy.webp
+redirect_from: /libero-arbitrio-determinismo
 ---
 
 

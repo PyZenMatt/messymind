@@ -7,9 +7,8 @@ categories: ["mindfulness-ironica"]
 subcluster: "pratiche-quotidiane-urbane"
 tags: ["anapanasati", "respirazione consapevole", "mindful breathing", "meditazione respiro", "satipatthana"]
 date: 2025-09-22T12:45:00+02:00
-schema_type: BlogPosting
-lcp_image: "/images/anapanasati-ufficio.webp"
-lcp_image_alt: "Persona in ufficio che pratica anapanasati"
+lcp_image: 
+lcp_image_alt: 
 howto:
   name: "Praticare l’Ānāpānasati in 5 step"
   description: "Guida rapida per respirare consapevoli: luogo, postura, respiro lungo/corto, corpo e calma."
@@ -36,10 +35,8 @@ faqs:
     answer: "No: basta uno spazio relativamente quieto. L’abilità è tornare al respiro nonostante i rumori."
   - question: "Meglio per la calma o per l’insight?"
     answer: "Entrambe. Se resti sul flusso calmi la mente (samatha). Se osservi il cambiamento, coltivi insight (vipassanā)."
+redirect_from: /spiritualita/respirazione-consapevole/
 ---
-
-{% include breadcrumb.html %}
-{% include read_time.html content=content %}
 
 L’odore del caffè stantio si mischia al ronzio del computer in standby. Sono le 17:34 e la tua mente è un browser con cento tab aperti. **Respirazione consapevole**? Sembra l'ultimo dei tuoi problemi. E invece è l’unico che puoi risolvere subito, senza strumenti, senza budget, senza dover cambiare posto.
 
@@ -81,30 +78,13 @@ Puoi alternarle. Puoi sceglierne una. L'importante è partire dal passo 3.
 
 Prima di correre via, prova questo. Ci vuole un minuto.
 
-1.  Appoggia i piedi a terra.
-2.  Raddrizza la schiena.
-3.  Fai **tre respiri** consapevoli.
-4.  Al terzo, chiediti: "È lungo o è corto?".
-5.  Riprendi quello che stavi facendo.
+{% include howto.htm %}
 
 Gestisci il respiro, non farti gestire da lui.
 
 ### Domande Rapide (per i scettici)
 
-**Dove devo guardare l'attenzione? Sul naso o sulla pancia?**
-Dove la senti di più. All'inizio, il naso o il torace sono più facili da percepire. Poi, come da istruzioni, allarga la consapevolezza a tutto il corpo.
-
-**Devo controllare il respiro?**
-Assolutamente no. **Mindful breathing** significa osservare, non dirigere. Lascia che il respiro sia naturale. Tu limitati a notarne le caratteristiche.
-
-**Quanto deve durare una sessione?**
-Per iniziare, bastano 5 minuti. La costanza batte sempre la durata. Meglio 5 minuti ogni giorno che un'ora ogni morte di papa.
-
-**Serve il silenzio assoluto?**
-No. Serve uno spazio *relativamente* quieto. L'abilità sta proprio nel tornare al respiro ogni volta che un rumore o un pensiero ti distrae. È l'esercizio, non il contesto.
-
-**È meglio per la calma o per l'introspezione?**
-Entrambe. Dipende da dove metti l'enfasi. Se resti sulla sensazione tattile, calmi la mente. Se osservi il cambiamento continuo del respiro, sviluppi insight.
+{% include faq.html}
 
 ---
 
@@ -123,5 +103,4 @@ Prima di chiudere, ecco l'idea da portarti a casa: il respiro è sempre lì, gra
   </ul>
 </div>
 
-{% include faq.html %}
 {% include related-posts.html %}

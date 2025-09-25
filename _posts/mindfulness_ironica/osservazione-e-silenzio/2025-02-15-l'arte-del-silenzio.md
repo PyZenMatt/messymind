@@ -30,6 +30,7 @@ author_bio: Scrivo manuali di sopravvivenza spirituale per generazioni cresciute
   del non fare (con moderazione).
 redirect_from:
 - /esercizi-per-il-silenzio-interiore-5-pratiche-anti-guru-per-sopravvivere-al-caos/
+- /crescita-autentica/esercizi-silenzio-interiore/
 ---
 ## Il Silenzio Interiore: Un Manuale per Sopravvissuti all’Epoca del Doomscrolling  
 

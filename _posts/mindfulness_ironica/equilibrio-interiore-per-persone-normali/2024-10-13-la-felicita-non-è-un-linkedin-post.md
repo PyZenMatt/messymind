@@ -15,6 +15,7 @@ layout: post
 redirect_from:
 - /equilibrio-interiore-5-mosse-pratiche-senza-guru-e-con-ironia/
 - /equilibrio-interiore-5-mosse-pratiche/
+- /filosofia-pratica/felicita-non-e-un-linkedin-post/
 seo\_title: 'Equilibrio Interiore: Guida Pratica Anti-Guru in 10 Minuti'
 subcluster: equilibrio-interiore-per-persone-normali
 tags:

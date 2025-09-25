@@ -12,6 +12,9 @@ lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_a
 lcp_image_alt: donna affacciata su un belvedere di montagna in quota
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042406/vita_bxb3tp.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756042406/vita_bxb3tp.webp
+redirect_from: 
+- /crescita-autentica/la-felicita-e-un-viaggio/
+- /equilibrio-interiore/felicita-e-un-viaggio/
 ---
 
 Ricordo quella volta in cui, dopo aver comprato l’ennesimo corso online su "Come Essere Felici in 7 Giorni", mi ritrovai a fissare lo schermo del computer con lo stesso vuoto di prima. 

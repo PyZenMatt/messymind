@@ -10,6 +10,10 @@ cluster_name: Burnout Lavoro
 subcluster: autenticita-in-ufficio
 intro: 'Hub: raccolta di guide e articoli su Autenticita In Ufficio.'
 permalink: categorie/burnout-e-lavoro/autenticita-in-ufficio/
+redirect_from: 
+- /burnout-sopravvivenza
+- /burnout-lavoro/autenticita-e-lavoro/
+- /burnout/autenticita-e-lavoro/
 
 ---
 

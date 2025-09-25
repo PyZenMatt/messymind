@@ -53,6 +53,7 @@ faqs:
   answer: "In contesti a bassa sicurezza psicologica: procedi per gradi, costruisci alleanze, mostra valore misurabile e allarga il raggio gradualmente."
 - question: "Equilibrio vita–lavoro: 3 azioni in 7 giorni?"
   answer: Disattiva le notifiche fuori orario. Pianifica 2 slot di deep work. Introduci un rituale di decompressione di 10 minuti post-lavoro.
+redirect_from: /burnout e lavoro/autenticita-e-lavoro/
 ---
 
 # Lavoro e Autenticità: Come Sopravvivere all’Ufficio Senza Perdere l’Anima (e la Sanità Mentale)

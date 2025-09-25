@@ -17,6 +17,7 @@ background: /img/Loto.png
 featured_post: 'false'
 redirect_from:
 - /la-felicita-quella-che-cerchi-scrollando-instagram-mentre-mangi-un-kebab-alle-2-di-notte/
+- /equilibrio-interiore/fondamenta-della-felicita/
 ---
 
 La felicità è come il Wi-Fi: tutti la cercano, ma pochi sanno dove sia il router. Ci hanno provato **Platone** con il mito della caverna, **Schopenhauer** con il pessimismo, e pure quel tizio al bar che giura che la risposta sia nel kefir. 

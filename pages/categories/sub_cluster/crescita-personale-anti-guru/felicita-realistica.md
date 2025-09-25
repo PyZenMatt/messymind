@@ -9,5 +9,6 @@ subcluster: felicita-realistica
 category: crescita-personale-anti-guru
 intro: 'Hub: raccolta di guide e articoli su Felicita Realistica.'
 permalink: categorie/crescita-personale-antiguru/felicita-realistica
+redirect_from: /filosofia-pratica/autoconsapevolezza-e-felicita/
 ---
 
