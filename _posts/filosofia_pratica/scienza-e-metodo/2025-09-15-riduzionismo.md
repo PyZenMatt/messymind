@@ -1,30 +1,19 @@
 ---
 layout: post
 title: "Limiti del Riduzionismo: Quando Smontare Tutto Non Basta"
+seo_title: "Limiti del Riduzionismo: Quando Smontare Tutto Non Basta"
 description: "Riduzionismo vs olismo ed emergentismo: cos'è, dove funziona e dove si rompe. Proprietà emergenti spiegate semplice con esempi pratici (traffico, team, stormi)."
+seo_description: "Riduzionismo vs olismo ed emergentismo: cos'è, dove funziona e dove si rompe. Proprietà emergenti spiegate semplice con esempi pratici (traffico, team, stormi)."
 categories: [filosofia-pratica]
-keywords:
-  - riduzionismo
-  - olismo
-  - emergentismo
-  - proprietà emergenti
-  - sistemi complessi
-  - mindfulness pratica
-author: "MessyMind"
-lastmod: 2025-09-09
-tags:
-  - filosofia pratica
-  - mindfulness ironica
-  - sistemi complessi
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090614/schemda-madre-600_ugny08.webp
-lang: it
-robots: "index, follow"
 subcluster: scienza-e-metodo
+tags: ["filosofia pratica", "mindfulness ironica", "sistemi complessi"]
 image_author_url: https://www.pexels.com/it-it/@paduret/
 image_author: Dan Cristian Pădureț
-read_time: "7 min"
-cornerstone: false
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090614/schemda-madre-600_ugny08.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp 
+image_alt: "una scheda madre di un computer smontata pezzo per pezzo"
 faq: true
 faq_items:
 question: "Cos'è il riduzionismo in parole semplici?"
@@ -35,11 +24,7 @@ question: "Qual è la differenza tra riduzionismo e olismo?"
 answer: "Il riduzionismo studia le parti separatamente; l’olismo guarda al sistema nel suo insieme e ai pattern di interazione."
 question: "Cosa sono le proprietà emergenti?"
 answer: "Caratteristiche che compaiono quando le parti interagiscono (es. traffico, stormi, cultura) e non esistono nei componenti isolati."
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp 
-image_alt: "una scheda madre di un computer smontata pezzo per pezzo"
 ---
-
 
 **In breve** — Il riduzionismo spiega bene le macchine e spesso male le persone. Funziona quando il sistema è lineare e stabile; va in crisi con mente, team e città (sistemi complessi). L'olismo guarda all'insieme; l'emergentismo mostra proprietà nuove (es. stormi, traffico, cultura) che non sono nei singoli pezzi. Qui trovi definizioni rapide, differenze chiare e 5 esempi pratici per scegliere lo strumento giusto senza cadere nel "tutto è semplice".
 

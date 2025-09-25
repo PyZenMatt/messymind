@@ -1,47 +1,19 @@
 ---
-title: 'Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Rompere
-  i Mobili)'
-seo_title: Legge del Ritmo [...]
-seo_description: 'Guida pratica e ironica alla legge del ritmo: come riconoscere i
-  cicli della vita, gestire le oscillazioni emotive e trovare resilienza quotidiana
-  con piccoli rituali e tanto umorismo.'
-description: 'Esplora il ritmo universale tra filosofia, comicità e vita reale: dagli
-  insegnamenti della Kabbalah agli autobus in ritardo, una guida anticonvenzionale
-  per sopravvivere ai cicli esistenziali con ironia e 3 caffè al giorno.'
-categories:
-- mindfulness-ironica
+layout: post
+title: 'Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Rompere i Mobili)'
+seo_title: 'Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Rompere i Mobili)'
+seo_description: 'Guida pratica e ironica alla legge del ritmo: come riconoscere i cicli della vita, gestire le oscillazioni emotive e trovare resilienza quotidiana con piccoli rituali e tanto umorismo.'
+seo_description: 'Guida pratica e ironica alla legge del ritmo: come riconoscere i cicli della vita, gestire le oscillazioni emotive e trovare resilienza quotidiana con piccoli rituali e tanto umorismo.'
+categories: mindfulness-ironica
 subcluster: equilibrio-interiore-per-persone-normali
-keywords:
-- legge del ritmo
-- crescita personale umoristica
-- filosofia quotidiana
-- resilienza pratica
-- umorismo esistenziale
-- cicli naturali
-- comicità autocritica
-- lifehack paradossali
 image: /img/ritmo.jpg
-alt: dei ballerini che sembrano sfuocati ma che in realta sono sfuocati perche si
-  stanno muovendo
-domande_frequenti:
+alt: dei ballerini che sembrano sfuocati ma che in realta sono sfuocati perche si stanno muovendo
+faq:
 - Come applicare la legge del ritmo alla vita quotidiana?
 - Esempi pratici di resilienza con umorismo
 - Significato moderno della Ruota della Fortuna
 - Come sopravvivere a Mercurio retrogrado
 - Kabbalah per principianti pigri
-internal_links:
-- title: 'Resilienza per Overthinker: Guida alla Sopravvivenza'
-  url: /resilienza-overthinker
-- title: 'Filosofia del Caffè: Da Socrate alla Moka'
-  url: /filosofia-caffe
-meta_extra:
-  lingua: it
-  autore: Matteo 'Il Filosofo del Sofà' Ricci
-  geo:
-    region: IT
-    placename: Trento
-  meta_robots: index, follow
-lang: it
 redirect_from:
 - /legge-del-ritmo-come-ballare-sul-caos-della-vita-quotidiana-senza-rompere-i-mobili/
 ---

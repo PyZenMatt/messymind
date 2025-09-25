@@ -1,20 +1,14 @@
 ---
+layout: post
 title: "Bias Cognitivi: 10 Esempi Quotidiani e Come Smontarli (2025)"
+seo_title: "Bias Cognitivi: 10 Esempi Quotidiani e Come Smontarli (2025)"
 description: "Definizione chiara, 10 esempi reali e 3 tecniche di debiasing pratiche per riconoscere le illusioni mentali che influenzano le decisioni."
-keywords: ["bias cognitivi", "illusioni cognitive", "debiasing", "euristiche", "libero arbitrio", "bias di conferma", "effetto ancoraggio", "distorsioni cognitive"]
-author: "MessyMind"
+seo_description: "Definizione chiara, 10 esempi reali e 3 tecniche di debiasing pratiche per riconoscere le illusioni mentali che influenzano le decisioni."
 date: "2025-09-09"
-last_modified_at: "2025-09-09"
-lang: "it"
 categories: filosofia-pratica
 subcluster: decisioni-e-bias
 tags: ["pensiero critico", "metacognizione", "euristiche", "decisioni", "cornerstone"]
-# Open Graph / Twitter (jekyll-seo-tag userà title/description/image; questi sono opzionali)
-og_title: "Bias cognitivi: 10 esempi e come smontarli (2025)"
-og_description: "Definizione, 10 esempi reali e 3 tecniche di debiasing pratiche."
 og_image: "https://messymind.blog/images/bias-cognitivi-2025-og.jpg"
-twitter_card: "summary_large_image"
-robots: "index,follow"
 image_author: Charlyzona
 image_author_url: https://commons.wikimedia.org/wiki/User:Charlyzona
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758432325/bias_1920_pi6izc.webp

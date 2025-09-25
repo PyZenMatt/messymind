@@ -1,36 +1,23 @@
 ---
-alt_image: Un velo che copre due visi. Il velo è l'illusione del titolo che copre
-  la verità
-categories:
-- crescita-personale-anti-guru
+layout: post
+title: 'Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere Cactus Emotivi'
+seo_title: 'Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere Cactus Emotivi'
+description: Scopri come la felicità si nasconde tra cactus emotivi e panininotturni. Guida ironica per chi cerca autenticità, ha pianto davanti a uno spote nasconde ketchup nel portafoglio. Con citazioni da Brené Brown, Frida Kahlo e consigli pratici.
+seo_description: Scopri come la felicità si nasconde tra cactus emotivi e panininotturni. Guida ironica per chi cerca autenticità, ha pianto davanti a uno spote nasconde ketchup nel portafoglio. Con citazioni da Brené Brown, Frida Kahlo e consigli pratici.
 date: 2024-05-20
+categories: crescita-personale-anti-guru
+subcluster: felicita-realistica
+tags: ["come trovare la felicità interiore", "esercizi di meditazione quotidiana", "vulnerabilità come forza", "Brené Brown filosofia", "Frida Kahlo ispirazione", "Eckhart Tolle cambiamento", "umorismo esistenziale", "autocritica ironica"]
+lcp_image: /img/felicita.jpg
+lcp_alt_image: Un velo che copre due visi. Il velo è l'illusione del titolo che copre la verità
 image: /img/velo.png
-lang: it
-meta_description: Scopri come la felicità si nasconde tra cactus emotivi e panini
-  notturni. Guida ironica per chi cerca autenticità, ha pianto davanti a uno spot
-  e nasconde ketchup nel portafoglio. Con citazioni da Brené Brown, Frida Kahlo e
-  consigli pratici.
+og_image: /img/felicita.jpg
 redirect_from:
 - /ricerca-della-felicita-autenticita-panini-notturni-e-il-coraggio-di-essere-cactus-emotivi/
 - /ricerca-felicita-autenticita-panini-notturni/
-og_image: /img/felicita.jpg
-lcp_image: /img/felicita.jpg
 related:
 - la-felicita-e-un-viaggio
 - le-fonmdamenta-della-felicita
-seo_title: Ricerca della Felicità [...]
-subcluster: felicita-realistica
-tags:
-- come trovare la felicità interiore
-- esercizi di meditazione quotidiana
-- vulnerabilità come forza
-- Brené Brown filosofia
-- Frida Kahlo ispirazione
-- Eckhart Tolle cambiamento
-- umorismo esistenziale
-- autocritica ironica
-title: 'Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere
-  Cactus Emotivi'
 ---
 ## La ricerca della felicità (o come ho imparato a smettere di correre e ad amare il panino al salame alle 3 di notte)  
 

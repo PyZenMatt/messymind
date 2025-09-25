@@ -1,34 +1,23 @@
 ---
+layout: post
 title: Come Meditare Senza Sedersi a Gambe Incrociate
-date: '2025-08-12T12:46:52+00:00'
-description: 'Meditazione pratica e *senza incenso*: micro-rituali da fare in coda,sul
-  tram e mentre bolle la pasta. Niente pose di loto, solo vita vera.'
-tags: meditazione pratica, mindfulness mindfulness ironica, tecniche di rilassamento
-  equilibrio interiore, meditare nella vita quotidiana
-categories:
-- mindfulness-ironica
+seo_title: Come Meditare Senza Sedersi a Gambe Incrociate
+description: 'Meditazione pratica e *senza incenso*: micro-rituali da fare in coda,sul tram e mentre bolle la pasta. Niente pose di loto, solo vita vera.'
+seo_description: 'Meditazione pratica e *senza incenso*: micro-rituali da fare in coda,sul tram e mentre bolle la pasta. Niente pose di loto, solo vita vera.'
+categories: mindfulness-ironica
 subcluster: pratiche-quotidiane-urbane
+tags: ["meditazione pratica", "mindfulness", "mindfulness ironica", "tecniche di rilassamento", "equilibrio interiore", "meditare nella vita quotidiana"]
+lcp_alt_image: Donna che medita in piedi in natura
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_pad,b_auto:predominant,ar_21:9,w_1920,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_pad,b_auto:predominant,ar_21:9,w_1920,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
-meta_title: Come Meditare Senza Sedersi a Gambe Incrociate
-meta_description: Scena iniziale con numerino Sono alla Posta, biglietto A842, chiamano
-  B3 da venti minuti. Davanti a me un signore discute del bollo auto del 1998 con
-  lo zelo d…
-meta_keywords: meditare nella vita quotidiana, meditare nella vita quotidiana, mindfulness
-  senza incenso, meditazione pratica, tecniche di rilassamento, equilibrio interiore,
-  mindfulness ironica, micro-rituali mindfulness, meditare in coda, meditazione per
-  principianti
-og_title: Come meditare nella vita quotidiana (senza sederti a gambe incrociate
-og_description: 'Mindfulness pratica e senza incenso: 3 micro-rituali da fare in coda,
-  sul tram e mentre bolle la pasta. Niente pose di loto, solo vita vera.'
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1754991098/donna-che-medita-in-piedi-nella-natura_clmifr.jpg
-noindex: false
-lang: it
 redirect_from:
 - /come-meditare-senza-sedersi-a-gambe-incrociate/
 - /spiritualita/meditazione-per-chi-odia-meditare/
 - /meditazione-per-chi-odia-meditare
 ---
+
 # Come **meditare** senza sederti a *gambe incrociate*
 
 > _“Meditare è come cercare il telecomando nel divano: pensi di sapere dov’è, ma trovi una graffetta e i resti di un biscotto.”_

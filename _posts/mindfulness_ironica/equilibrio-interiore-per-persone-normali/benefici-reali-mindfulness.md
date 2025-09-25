@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Benefici reali della mindfulness (senza incenso)"
 seo_title: "Benefici reali della mindfulness (senza incenso)"

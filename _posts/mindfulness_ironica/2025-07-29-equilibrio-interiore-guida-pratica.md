@@ -2,34 +2,13 @@
 layout: post
 title: 'Equilibrio interiore e spirituale: significato, simboli ed esercizi pratici'
 seo_title: 'Equilibrio interiore e spirituale: simboli ed esercizi quotidiani'
-author: Matteo Ricci
-categories:
-- mindfulness-ironica
+seo_description: 'Equilibrio interiore e spirituale: guida pratica con simboli universali ed esercizi quotidiani per coltivare armonia e pace.'
+categories: mindfulness-ironica
+lcp_image_alt: Una persona in penombra intenta a meditare
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
-tags:
-- equilibrio interiore
-- equilibrio spirituale
-- simbolo equilibrio interiore
-- gestione ansia
-- tecniche spirituali
-- meditazione pratica
-- crescita personale
-description: 'Equilibrio interiore e spirituale: guida pratica con simboli universali
-  ed esercizi quotidiani per coltivare armonia e pace.'
-keywords:
-- equilibrio interiore
-- equilibrio spirituale
-- simbolo equilibrio interiore
-- armonia interiore
-- esercizi equilibrio interiore
-- ricercare pace spirituale
-alt: Simbolo equilibrio interiore yin-yang
-og_type: article
-og_title: 'Equilibrio interiore e spirituale: simboli ed esercizi quotidiani'
-og_description: Scopri come coltivare equilibrio interiore e spirituale con simboli
-  universali ed esercizi pratici e accessibili.
-lang: it
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
+tags: [ "equilibrio interiore", "equilibrio spirituale", "simbolo equilibrio interiore", "gestione ansia", "tecniche spirituali","meditazione pratica", "crescita personale"]
 redirect_from:
 - /equilibrio-interiore-e-spirituale-significato-simboli-ed-esercizi-pratici/
 - /equilibrio-interiore-guida-pratica/

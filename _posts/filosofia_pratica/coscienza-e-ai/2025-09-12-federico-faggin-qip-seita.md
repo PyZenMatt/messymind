@@ -1,51 +1,21 @@
 ---
-author: MessyMind
-canonical_url: https://messymind.it/federico-faggin-qip-seita
-categories:
-- filosofia-pratica
-description: Cos’è il QIP di Faggin? Coscienza fondamentale, ‘séità’, basi quantistiche
-  (no-cloning/Holevo), differenze da IIT e critiche, con fonti.
-excerpt: 'QIP di Faggin spiegato semplice: coscienza fondamentale, séità, basi quantistiche
-  e confronto con IIT — con critiche e fonti verificate.'
-image: /assets/images/faggin-qip-og.jpg
-image_alt: 'Federico Faggin e il QIP: coscienza fondamentale, séità e basi quantistiche'
-keywords:
-- teoria coscienza Federico Faggin
-- QIP
-- séità
-- campi quantistici coscienti
-- critiche Faggin
-- IIT vs QIP
-- non-clonazione quantistica
-- limite di Holevo
-lang: it-IT
 layout: post
-og_description: Cos’è il QIP di Faggin? Coscienza fondamentale, séità, basi quantistiche
-  (no-cloning/Holevo), confronto con IIT e critiche — con fonti.
-og_image: /assets/images/faggin-qip-og.jpg
-og_title: 'Federico Faggin e QIP: coscienza, séità e critiche'
-og_type: article
-permalink: /federico-faggin-qip-seita/
-priority: 0.8
-redirect_from:
-- /federico-faggin-qip-seita/
-robots: index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
-schema_type: BlogPosting
-sitemap: true
-subcluster: coscienza-e-ai
-tags:
-- Federico Faggin
-- QIP
-- Coscienza
-- Fisica quantistica
-- IIT
-- Séità
 title: 'Federico Faggin e QIP: coscienza, séità e critiche'
-twitter_card: summary_large_image
+seo_title: 'Federico Faggin e QIP: coscienza, séità e critiche'
+description: Cos’è il QIP di Faggin? Coscienza fondamentale, ‘séità’, basi quantistiche (no-cloning/Holevo), differenze da IIT e critiche, con fonti.
+seo_description: Cos’è il QIP di Faggin? Coscienza fondamentale, ‘séità’, basi quantistiche (no-cloning/Holevo), differenze da IIT e critiche, con fonti.
+categories: filosofia-pratica
+subcluster: coscienza-e-ai
+tags: ["Federico Faggin", "QIP", "Coscienza", "Fisica quantistica", "IIT","Séità"]
+image_alt: 'Federico Faggin e il QIP: coscienza fondamentale, séità e basi quantistiche'
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757660503/cosciena_1920_aewa7k.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757660503/cosciena_1920_aewa7k.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757660502/cosciena_600_kapszz.webp
 image_author: Vie Studio
 image_author_url: https://www.pexels.com/it-it/@vie-studio/
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757660502/cosciena_600_kapszz.webp
+redirect_from:
+- /federico-faggin-qip-seita/
 ---
 
 # Federico Faggin, QIP e Séità: La Teoria della Coscienza che Sfida il Mainstream

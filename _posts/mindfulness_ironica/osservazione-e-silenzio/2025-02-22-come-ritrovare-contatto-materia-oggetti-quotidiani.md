@@ -1,56 +1,20 @@
 ---
-author: Matteo Ricci
+layout: post
+title: Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo Consapevole
+seo_title: Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo Consapevole
+description: Scopri 5 metodi concreti per riconquistare il rapporto con gli oggettiquotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi dimindfulness tattile.
+seo_description: Scopri 5 metodi concreti per riconquistare il rapporto con gli oggettiquotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di mindfulness tattile.
 background: /img/materialismo.jpg
-categories:
-- mindfulness-ironica
+categories: mindfulness-ironica
+subcluster: osservazione-e-silenzio
 cornerstone: false
-description: Scopri 5 metodi concreti per riconquistare il rapporto con gli oggetti
-  quotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di
-  mindfulness tattile.
 featured_post: 'true'
 image: /img/materialismo.jpg
-keywords:
-- contatto con la materia
-- materialismo consapevole
-- lavoro manuale benefici
-- mindfulness tattile
-- rapporto con oggetti quotidiani
-lang: it
-longtail_keywords:
-- come ritrovare il contatto con la realtà
-- esercizi pratici per apprezzare gli oggetti
-- perché non sentiamo più le cose che tocchiamo
-- benefici psicologici del lavoro manuale
-- filosofia materialismo moderno
-meta_robots:
-- index
-- follow
-- max-image-preview:large
-og:
-  title: Il Segreto per Smettere di Vivere in Modalità Autopilo | Guida Pratica
-  type: article
 redirect_from:
 - /come-ritrovare-il-contatto-con-la-materia-guida-pratica-al-materialismo-consapevole/
 - //come-ritrovare-contatto-materia-oggetti-quotidiani/
-schema:
-- '@type': Article
-  author:
-    '@type': Person
-    name: Matteo Ricci
-  description: Guida pratica al materialismo consapevole con esercizi e riflessioni
-    filosofiche
-  headline: Come Ritrovare il Contatto con la Materia
-seo_description: 'Guida pratica al materialismo consapevole: 5 esercizi per ritrovare
-  il contatto con gli oggetti quotidiani e vivere con più presenza.'
-seo_title: Come Ritrovare il Contatto con la Materia | Guida Prati
-subcluster: osservazione-e-silenzio
-tags:
-- consapevolezza
-- filosofia moderna
-- psicologia degli oggetti
-- minimalismo
-- artigianato
-title: Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo Consapevole
+tags: ["consapevolezza", "filosofia moderna", "psicologia degli oggetti", "minimalismo", "artigianato"]
+
 ---
 # La strana storia di come abbiamo smesso di sentire le cose
 

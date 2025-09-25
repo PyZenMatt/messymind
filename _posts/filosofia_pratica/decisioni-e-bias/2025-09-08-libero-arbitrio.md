@@ -1,33 +1,24 @@
 ---
-categories:
-- filosofia-pratica
-description: Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura
-  di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche.
-image: assets/libero-arbitrio-cover.webp
-keywords: ["libero arbitrio", "determinismo", "compatibilismo", "incompatibilismo",
-  "esperimento di Libet", "readiness potential", "casi di Frankfurt", "principio possibilità
-  alternative", "Dennett", "Kane", "Schurger"]
-lang: it
-og_description: Dennett, Frankfurt, Libet e Schurger senza paroloni. Esempi e FAQ.
-og_image: 
-og_title: Libero arbitrio e determinismo spiegati semplice
-redirect_from:
-- libero-arbitrio-e-determinismo-guida-semplice-compatibilismo-libet-schurger/
-- libero-arbitrio-determinismo/
-robots: index,follow
-schema_type: BlogPosting
+layout: post
+title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
+seo_title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
+description: Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche.
+seo_description: Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche.
+categories: filosofia-pratica
 subcluster: decisioni-e-bias
 tags: ["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
-title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
-twitter_card: summary large image
 updated: '2025-09-08'
 image_author: cottonbro
 image_author_url: https://www.pexels.com/it-it/@cottonbro/
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-1920_uycfxp.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-1920_uycfxp.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-600_fmjsoy.webp
-redirect_from: /libero-arbitrio-determinismo
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-600_fmjsoy.webp
+redirect_from:
+- libero-arbitrio-e-determinismo-guida-semplice-compatibilismo-libet-schurger/
+- /libero-arbitrio-determinismo/
+- /libero-arbitrio-determinismo
 ---
-
 
 # Libero Arbitrio e Determinismo: Davvero Non Possiamo Scegliere?
 

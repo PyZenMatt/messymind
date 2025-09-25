@@ -1,52 +1,26 @@
 ---
-author: '{{ site.author | default: ''MessyMind'' }}'
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_600_igow0o.webp
-categories:
-- mindfulness-ironica
-date: 2025-09-08 09:00:00+02:00
-description: 'Scopri cos''è la Vipassana urbana e come praticarla ogni giorno: camminata
-  consapevole, pausa caffè e mindfulness anti-guru senza ritiri e senza incenso.'
-featured: 'true'
+layout: post
+title: 'Vipassana Urbana: meditazione pratica per trovare calma in città'
+seo_title: 'Vipassana Urbana: meditazione pratica per trovare calma in città'
+description: 'Scopri cos''è la Vipassana urbana e come praticarla ogni giorno: camminata consapevole, pausa caffè e mindfulness anti-guru senza ritiri e senza incenso.'
+seo_description: 'Scopri cos''è la Vipassana urbana e come praticarla ogni giorno: camminata consapevole, pausa caffè e mindfulness anti-guru senza ritiri e senza incenso.'
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
-image_alt: foto in bianco e nero di una Persona che medita seduta sotto un palazzo
-  vicino una fontana con dei palazzi intorno
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_600_igow0o.webp
+categories: mindfulness-ironica
+date: 2025-09-08 
+featured: 'true'
+image_alt: foto in bianco e nero di una Persona che medita seduta sotto un palazzo vicino una fontana con dei palazzi intorno
 image_author: pixabay
 image_author_url: https://pixabay.com
-keywords:
-- Vipassana urbana
-- Vipassana camminata
-- mindfulness urbana
-- meditazione in città
-- Vipassana significato
-lang: it
-layout: post
-open_graph:
-  description: Mindfulness anti-guru, esercizi semplici per meditare nel traffico,
-    in ufficio e in metro.
-  image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_600_igow0o.webp
-  locale: it_IT
-  title: 'Vipassana Urbana: meditazione pratica per trovare calma in città'
-  type: article
-reading_time: 8 min
 redirect_from:
 - /vipassana-urbana-meditazione-pratica-per-trovare-calma-in-citta/
 - /mindfulness/vipassana-urbana/
 robots: index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1
 subcluster: pratiche-quotidiane-urbane
-tags:
-- cornerstone
-- Vipassana
-- Mindfulness
-- Antiguru
-- Città
-title: 'Vipassana Urbana: meditazione pratica per trovare calma in città'
-twitter:
-  card: summary_large_image
-  description: Esercizi di Vipassana camminata e pausa caffè consapevole per la vita
-    reale.
-  title: 'Vipassana Urbana: meditazione pratica per trovare calma in città'
+tags: ["cornerstone", "Vipassana", "Mindfulness Antiguru", "Città"]
+
 ---
 # Vipassana Urbana: come meditare in città (senza ritiri e senza incenso)
 

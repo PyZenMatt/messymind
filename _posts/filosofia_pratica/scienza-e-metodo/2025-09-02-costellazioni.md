@@ -1,43 +1,26 @@
 ---
-
+layout: post
 title: "Costellazioni familiari opinioni: esperienze reali e rischi"
 seo_title: "Costellazioni familiari opinioni: esperienze reali e rischi (senza favole)"
 description: "Opinioni sulle costellazioni familiari: tra catarsi emotiva e illusioni pericolose. Esperienze, pareri esperti e alternative serie. Leggi la verità."
 seo_description: "Opinioni sulle costellazioni familiari: esperienze vere, pro e contro, rischi del business e alternative serie (TCC, IFS, terapia di famiglia)."
-keywords: ["costellazioni familiari opinioni", "esperienze costellazioni familiari", "parere costellazioni familiari"]
-categories: ["filosofia-pratica"]
+categories: "filosofia-pratica"
 subcluster: "scienza-e-metodo"
-lang: it
-last_modified_at: "2025-09-16"
-faq: true
-faqs:
-author: Matteo Ricci
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801804/nonni_600_dbw4ie.webp
-date: '2025-09-02'
+date: 2025-09-02
 featured: 'true'
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801899/nonni_1920_u8uutf.webp
-image_alt: Rappresentazione di un nonno e una nonna mentre hanno in braccio i nipoti
 image_author: pixabay
 image_author_url: https://pixabay.com
-lang: it
-last_modified_at: '2025-09-02'
-layout: post
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801804/nonni_600_dbw4ie.webp
+image_alt: "Dei nonni con i nipoti, simbolo di familia e di eredità karmica"
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801804/nonni_600_dbw4ie.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801899/nonni_1920_u8uutf.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801899/nonni_1920_u8uutf.webp
 redirect_from:
 - /costellazioni-familiari-sfogo-teatrale-o-terapia/
 - /costellazioni-familiari-sfogo-o-terapia/
-robots: index,follow
-sitemap: true
-subcluster: scienza-e-metodo
-tags:
-- blog
-- seo
-- costellazioni familiari
-- psicodramma
-- campo morfico
-- guru spirituali
-- famiglie tossiche
+tags: ["costellazioni familiari", "psicodramma", "campo morfico", "guru spirituali", "famiglie tossiche"]
+faq: true
 faqs:
-
 question: "Costellazioni familiari opinioni: cosa ne pensa davvero chi le prova?"
 answer: "Le testimonianze sono contrastanti: molti riportano uno sfogo emotivo e un sollievo temporaneo, pochi riferiscono cambiamenti stabili o terapeutici."
 question: "Le costellazioni familiari sono una terapia riconosciuta?"
@@ -48,10 +31,6 @@ question: "Quali sono i rischi?"
 answer: "Suggestione, spese elevate, consigli inappropriati da conduttori non formati, possibile manipolazione. In mano a un professionista serio il rischio principale è economico/di aspettative."
 question: "Quali alternative serie esistono?"
 answer: "Terapia familiare sistemica, Terapia Cognitivo-Comportamentale (TCC), Internal Family Systems (IFS), confini chiari e rete di supporto reale."
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801804/nonni_600_dbw4ie.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801899/nonni_1920_u8uutf.webp 
-image_alt: "Dei nonni con i nipoti, simbolo di familia e di eredità karmica"
-
 ---
 
 # Costellazioni familiari: opinioni, esperienze e la realtà dietro il rito

@@ -1,32 +1,12 @@
 ---
+layout: post
 title: Il Manuale di Sopravvivenza per Chi Vuole Controllare Tutto (e Fallisce)
-seo_title: Il Manuale di Sopravvivenza per Chi Vuole Controllare T
-seo_description: 'Manuale pratico e ironico per smettere di sovraccaricarsi di controllo:
-  esercizi quotidiani, esempi e spunti per lasciare andare senza perdere dignità.'
-description: Vuoi controllare tutto e fallisci sempre? Benvenuto nel club! Manuale
-  di sopravvivenza per ex-robot ansiosi che vogliono mollare la presa.
-keywords: crescita senza controllo, spiritualità moderna, paradosso della produttività,
-  lasciar andare, umorismo esistenziale
-categories:
-- crescita-personale-anti-guru
+seo_title: Il Manuale di Sopravvivenza per Chi Vuole Controllare Tutto (e Fallisce)
+seo_description: 'Manuale pratico e ironico per smettere di sovraccaricarsi di controllo: esercizi quotidiani, esempi e spunti per lasciare andare senza perdere dignità.'
+description: 'Manuale pratico e ironico per smettere di sovraccaricarsi di controllo: esercizi quotidiani, esempi e spunti per lasciare andare senza perdere dignità.'
+categories: crescita-personale-anti-guru
 subcluster: scelta-e-cuore
-tags:
-- ossessione del controllo
-- spiritualità moderna
-- produttività tossica
-- lasciar andare
-- satira self-help
-- umorismo esistenziale
-url: /controllo-ossessivo-paradosso-self-help
-seo:
-  internal_links:
-  - text: Perché Produttività e Mindfulness ti Rendeno Solo Più Bracco
-    url: /come-ho-smesso-di-inseguire-il-tempo
-  keyword_density:
-    controllo ossessivo: 3
-    lasciar andare: 4
-    libertà senza sforzo: 2
-    fallimento come strategia: 1
+tags: ["ossessione del controllo", "spiritualità moderna", "produttività tossica", "lasciar andare", "satira self-help", "umorismo esistenziale"]
 schema:
   faq:
   - question: Come smettere di controllare tutto?
@@ -35,12 +15,12 @@ schema:
   - question: Perché il self-help tradizionale non funziona?
     answer: 'Perché spesso alimenta la stessa ossessione che dice di voler curare:
       il controllo su sé stessi.'
-lang: it
 redirect_from:
 - /il-manuale-di-sopravvivenza-per-chi-vuole-controllare-tutto-e-fallisce/
 - /il-controllo/
 - //crescita-personale/il-controllo/
 ---
+
 ## Il Manuale di Sopravvivenza per Chi Vuole Controllare il Mare con un Colino
 
 Perché ci ostiniamo a **programmare** la vita come un weekend su Airbnb?
@@ -73,4 +53,5 @@ Morale: smettila di cercare l’illuminazione in un mondo che brilla di pixel. L
 
 PS: Se questo articolo ti è piaciuto, non supportarmi su Patreon. Piuttosto, regalami un commento passivo-aggressivo su qualche social (che non ho). O ignorami. Vedi? Sto già esercitandomi a lasciar andare.
 
+{% include faq.html %}
 Teo

@@ -1,14 +1,12 @@
 ---
 layout: post
 title: "Ansia e pensiero catastrofico: come smontare la catastrofizzazione (senza favole)"
-meta_title: "Pensiero catastrofico: cos’è, perché succede e come fermarlo (CBT in 5 passi)"
+seo_title: "Pensiero catastrofico: cos’è, perché succede e come fermarlo (CBT in 5 passi)"
 description: "Cos’è il pensiero catastrofico e come ridurne l’impatto: definizione APA, intolleranza dell’incertezza e checklist anti-catastrofe in 5 passi basata su CBT."
+seo_description: "Cos’è il pensiero catastrofico e come ridurne l’impatto: definizione APA, intolleranza dell’incertezza e checklist anti-catastrofe in 5 passi basata su CBT."
 categories: filosofia-pratica
 subcluster: decisioni-e-bias
-author: "MessyMind"
 date: 2025-09-15
-lang: it
-robots: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091305/catastrofe-600_yoozux.webp
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091306/catastrofe-1920_c3vq8t.webp"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091306/catastrofe-1920_c3vq8t.webp"
@@ -24,20 +22,7 @@ tags:
  intolleranza dell’incertezza
  mindfulness pratica
  filosofia pratica
-keywords:
- pensiero catastrofico
- catastrofizzazione
- come fermare il pensiero catastrofico
- distorsioni cognitive
- intolleranza dell’incertezza
- cbt ansia
- tecniche anti-rumination
-og_title: "Pensiero catastrofico: definizione, cause e 5 passi per fermarlo"
-og_description: "Dalla definizione APA alla pratica: riconosci l’intolleranza dell’incertezza e applica la checklist anti-catastrofe in 5 passi."
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091306/catastrofe-1920_c3vq8t.webp
-twitter_card: "summary_large_image"
-read_time: "7 min"
-cornerstone: false
 faq: true
 faq_items:
 question: "Qual è la differenza tra preoccupazione normale e catastrofizzazione?"

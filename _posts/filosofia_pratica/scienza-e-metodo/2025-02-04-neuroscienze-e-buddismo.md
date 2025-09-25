@@ -1,33 +1,17 @@
 ---
+layout: post
 title: "Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io? Neuroscienze e Buddhismo a Confronto"
-seo_title: "Cervello vs Buddha [...]"
+seo_title: "Cervello vs Buddha: Chi Smaschera l'Inganno dell'Io? Neuroscienze e Buddhismo a Confronto"
+description: "Cervello vs Buddha: entrambi dicono che il tuo 'io' è una fantasia! Scanner cerebrali, carri smontati e crisi da parcheggio incluse."
+seo_description: "Cervello vs Buddha: entrambi dicono che il tuo 'io' è una fantasia! Scanner cerebrali, carri smontati e crisi da parcheggio incluse."
+categories: [filosofia-pratica]
+subcluster: scienza-e-metodo
 image: "/img/testesso.png"
 background: "/img/testesso.png"
 og_image: "/img/testesso.png"
 lcp_image: "/img/testesso.png"
-description: "Cervello vs Buddha: entrambi dicono che il tuo 'io' è una fantasia! Scanner cerebrali, carri smontati e crisi da parcheggio incluse."
-url: "/neuroscienze-buddhismo-illusione-del-se"
-meta:  "Il cervello dice che l'Io è un'illusione, il Buddha annuisce... e tu resti lì a chiederti chi dei due ha ragione. Neuroscienze e buddismo si sfidano a colpi di neuroni e meditazione: preparati a scoprire che la tua mente inganna di un prestigiatore in un villaggio turistico"
-categories: [filosofia-pratica]
-subcluster: scienza-e-metodo
-tags:
-  - "Consapevolezza"
-  - "Mind Hacking"
-  - "Daniel Dennett"
-  - "Buddhismo Anatta"
-  - "Neuroplasticità"
-  - cornerstone
-keywords:
-  - "illusione dell'io neuroscienze"
-  - "buddhismo e cervello"
-  - "chi siamo veramente"
-  - "sé narrativo"
-  - "libero arbitrio cervello"
-  - "esperimenti split-brain"
-  - "meditazione e neuroplasticità"
-meta_robots: "index, follow, max-image-preview:large"
+tags: ["Consapevolezza", "Mind Hacking", "Daniel Dennett", "Buddhismo Anatta","Neuroplasticità","cornerstone"]
 featured_post: 'true'
-lang: "it"
 ---
 
 ## Quando il Cervello Incontra Buddha: Storie (Impermanenti) di Chi Crediamo di Essere

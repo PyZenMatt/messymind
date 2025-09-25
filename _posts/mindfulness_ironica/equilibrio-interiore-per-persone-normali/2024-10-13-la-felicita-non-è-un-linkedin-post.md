@@ -1,31 +1,20 @@
 ---
-author: Teo
+layout: post
+title: 'Equilibrio Interiore: 5 Mosse Pratiche (Senza Guru e con Ironia)'
+seo_title: 'Equilibrio Interiore: 5 Mosse Pratiche (Senza Guru e con Ironia)'
+description: 'Cos''è l''equilibrio interiore e come trovarlo senza santini o slogan: una guida pratica, ironica e senza dogmi per chi ha poco tempo e tanto sarcasmo.'
+seo_description: 'Cos''è l''equilibrio interiore e come trovarlo senza santini o slogan: una guida pratica, ironica e senza dogmi per chi ha poco tempo e tanto sarcasmo.'
+categories: mindfulness-ironica
+subcluster: equilibrio-interiore-per-persone-normali
+date: 2024-10-13
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044484/social_1600_nrkirb.webp
-categories:
-- mindfulness-ironica
-cornerstone: true
-description: 'Cos''è l''equilibrio interiore e come trovarlo senza santini o slogan:
-  una guida pratica, ironica e senza dogmi per chi ha poco tempo e tanto sarcasmo.'
 featured_post: true
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044485/social_600_hbnbdw.jpg
-is_cornerstone: true
-lang: it
-last_modified\_at: 2025-09-09
-layout: post
 redirect_from:
 - /equilibrio-interiore-5-mosse-pratiche-senza-guru-e-con-ironia/
 - /equilibrio-interiore-5-mosse-pratiche/
 - /filosofia-pratica/felicita-non-e-un-linkedin-post/
-seo\_title: 'Equilibrio Interiore: Guida Pratica Anti-Guru in 10 Minuti'
-subcluster: equilibrio-interiore-per-persone-normali
-tags:
-- mindfulness-ironica
-- meditazione-10-minuti
-- spiritualità-moderna
-- benessere-psicofisico
-- cornerstone
-title: 'Equilibrio Interiore: 5 Mosse Pratiche (Senza Guru e con Ironia)'
-update: 2025-09-09
+tags: ["mindfulness-ironica", "meditazione-10-minuti","spiritualità-moderna", "benessere-psicofisico", "cornerstone"]
 ---
 **In breve —** Equilibrio interiore ≠ illuminazione su un monte. È la capacità di non mandare a quel paese il collega che ti ruba il caffè. È uno stato di non-reattività cronica. In questa guida pratica e ironica, trovi una definizione chiara, 5 esercizi da fare in 10 minuti (anche in ufficio) e la rassicurazione che non serve diventare monaci. Solo umani un po' più funzionali.
 

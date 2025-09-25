@@ -1,41 +1,21 @@
 ---
-author: Matteo Ricci
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954729/motivazione_600_u1bxps.webp
-categories:
-- crescita-personale-anti-guru
-description: 'Anti-guru: smetti di rincorrere la motivazione. Chiarisci lo scopo e
-  difendilo con un "no" gentile + 2 rituali sotto i 10 minuti per proteggere l''attenzione.'
-featured: 'true'
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954730/motivane_1600_cd7kp8.webp
-image_alt: Un messaggio su una bottiglia che ti ricorda di agire verso quello che
-  vuoi e smettere solo che speri che accada senza fare niente
-keywords:
-- scopo
-- motivazione
-- dire no
-- attenzione
-- confini gentili
-- rituali brevi
-- digital detox
-- togli non moderare
-lang: it
-last_modified_at: 2025-08-23 14:00:00 +0200
 layout: post
-reading_time: 6
+title: 'Smetti di rincorrere la motivazione: trova lo scopo e impara a dire no'
+seo_title: 'Smetti di rincorrere la motivazione: trova lo scopo e impara a dire no'
+description: 'Anti-guru: smetti di rincorrere la motivazione. Chiarisci lo scopo edifendilo con un "no" gentile + 2 rituali sotto i 10 minuti per proteggere la tua attenzione'
+seo_description: 'Anti-guru: smetti di rincorrere la motivazione. Chiarisci lo scopo edifendilo con un "no" gentile + 2 rituali sotto i 10 minuti per proteggere la tua attenzione'
+categories: crescita-personale-anti-guru
+subcluster: scopo-e-confini
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954730/motivane_1600_cd7kp8.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954730/motivane_1600_cd7kp8.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1755954729/motivazione_600_u1bxps.webp
+featured: 'true'
+image_alt: Un messaggio su una bottiglia che ti ricorda di agire verso quello che vuoi e smettere solo che speri che accada senza fare niente
+last_modified_at: 2025-08-23 14:00:00 +0200
 redirect_from:
 - /smetti-di-rincorrere-la-motivazione-trova-lo-scopo-e-impara-a-dire-no/
 - /scopo-motivazione-arte-del-no/
-show_title: false
-subcluster: scopo-e-confini
-tags:
-- scopo
-- motivazione
-- attenzione
-- confini gentili
-- rituali brevi
-- digital detox
-- togli non moderare
-title: 'Smetti di rincorrere la motivazione: trova lo scopo e impara a dire no'
+tags: ["scopo", "motivazione", "attenzione", "confini gentili","rituali brevi", "digital detox", "togli non moderare"]
 ---
 La notifica vibra proprio mentre avevi trovato il filo. Apri “solo un attimo” e tre minuti dopo hai perso il punto, l’umore e la voglia. La motivazione fa così: arriva a caso, se ne va in fretta. Lo scopo, invece, è quieto e testardo. Non ti promette l’epica, ma ti tiene in carreggiata quando hai sonno, quando piove, quando il mondo reclama attenzione. Qui niente frasi motivate: si lavora di sottrazione, toni bassi, due abitudini misurabili.
 

@@ -1,33 +1,15 @@
 ---
-title: 'Esercizi per il Silenzio Interiore: 5 pratiche anti-guru per sopravvivere
-  al caos'
-seo_title: 'Esercizi per il Silenzio Interiore: pratiche anti-guru'
-description: 'Scopri 5 esercizi pratici per il silenzio interiore: spegnere notifiche,
-  camminare senza cuffie, respirare meglio. Mindfulness ironica e zero fuffa.'
-categories:
-- mindfulness-ironica
+layout: post
+title: 'Esercizi per il Silenzio Interiore: 5 pratiche anti-guru per sopravvivere al caos'
+seo_title: 'Esercizi per il Silenzio Interiore: 5 pratiche anti-guru per sopravvivere al caos'
+description: 'Scopri 5 esercizi pratici per il silenzio interiore: spegnere notifiche, camminare senza cuffie, respirare meglio. Mindfulness ironica e zero fuffa.'
+seo_description: 'Scopri 5 esercizi pratici per il silenzio interiore: spegnere notifiche, camminare senza cuffie, respirare meglio. Mindfulness ironica e zero fuffa.'
+categories: mindfulness-ironica
 subcluster: osservazione-e-silenzio
-lang: it
-keywords:
-- esercizi per il silenzio interiore
-- pratiche di quiete mentale
-- silenzio interiore
-- meditazione per procrastinatori
-- crescita personale ironica
-- esercizi mindfulness anti-guru
-- ansia da notifiche
-- spiritualità 2.0
-og_title: 'Esercizi per il Silenzio Interiore: pratiche anti-guru'
-og_description: 5 esercizi semplici e ironici per coltivare il silenzio interiore
-  senza diventare monaco zen. Sopravvivenza urbana alla portata di tutti.
 image: /img/silenzio.jpg
 og_image: /img/silenzio.jpg
 lcp_image: /img/silenzio.jpg
 background: /img/silenzio.jpg
-author: Matteo Ricci
-author_bio: Scrivo manuali di sopravvivenza spirituale per generazioni cresciute a
-  pane e buffer del video. Ex esperto di ansia da produttività, ora insegno l'arte
-  del non fare (con moderazione).
 redirect_from:
 - /esercizi-per-il-silenzio-interiore-5-pratiche-anti-guru-per-sopravvivere-al-caos/
 - /crescita-autentica/esercizi-silenzio-interiore/
