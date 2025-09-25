@@ -44,6 +44,7 @@ faqs:
     answer: "In alcuni casi è possibile moderarlo: focalizzandosi su grounding, attività concrete, tecniche di rilassamento e limiti alle pratiche energetiche."
   - question: "Qual è la differenza tra risveglio spontaneo e indotto?"
     answer: "Il risveglio indotto è promosso da pratiche come yoga, tantra, meditazione; il spontaneo avviene senza causa definita. Il contesto, l’intensità e l’integrazione possono differire molto."
+redirect_from: /spiritualita/risveglio-kundalini/
 ---
 La Kundalini non è un supereroe in lycra che arriva a salvarti dal lunedì. È un tema YMYL (implica corpo e mente), quindi lo trattiamo senza incenso negli occhi: chiaro, utile, zero fuffa. Niente promesse miracolose: solo ciò che può aiutarti **senza farti male**.
 
