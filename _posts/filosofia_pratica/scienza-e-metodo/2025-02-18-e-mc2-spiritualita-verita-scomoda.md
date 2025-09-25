@@ -33,6 +33,7 @@ keywords:
 featured_post: true
 redirect_from:
 - /e-mc2-e-spiritualita-la-verita-scomoda-che-einstein-non-ti-ha-detto-con-umorismo/
+- /e-mc2-spiritualita-verita-scomoda/
 ---
  
 **In Breve**  *“Siamo energia” non è una citazione autentica di Einstein: E=mc² afferma l’equivalenza massa-energia, non una massima motivazionale. La sua “formula della felicità” è legata a due brevi note scritte a Tokyo nel 1922 e a una battuta del 1929: **A = X + Y + Z** (lavoro, gioco e… tacere).*

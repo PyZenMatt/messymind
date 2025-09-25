@@ -32,6 +32,7 @@ og_description: Scopri come coltivare equilibrio interiore e spirituale con simb
 lang: it
 redirect_from:
 - /equilibrio-interiore-e-spirituale-significato-simboli-ed-esercizi-pratici/
+- /equilibrio-interiore-guida-pratica/
 ---
 ## Un vaso rotto e l’arte di non buttarsi via  
 
