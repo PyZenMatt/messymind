@@ -54,4 +54,4 @@ Thumbs.db
 *.log
 
 #virtual environments
-venv/   
+/home/teo/.venvs/messymind  

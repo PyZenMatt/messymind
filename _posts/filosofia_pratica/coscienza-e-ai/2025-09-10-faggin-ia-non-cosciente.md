@@ -17,6 +17,7 @@ image_author_url: https://www.pexels.com/it-it/@cottonbro/
 featured_post: true
 redirect_from:
 - /ia-cosciente-per-faggin-e-unillusione-2025/
+- /faggin-ia-non-cosciente/
 ---
 # IA Cosciente? Per Faggin è un'Illusione: Cosa Manca Davvero alle Macchine
 

@@ -9,6 +9,7 @@ redirect_from:
 - /categorie/mindfulness/
 - /mindfulness-ironica
 - /mindfulness-ironica/
+- /pages/categories/mindfulness-ironica/
 ---
 
 

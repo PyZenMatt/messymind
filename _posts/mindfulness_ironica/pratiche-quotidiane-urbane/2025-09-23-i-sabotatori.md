@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "I 5 Sabotatori della Tua Meditazione (E Come Ribaltare la Partita)"
 seo_title: "I 5 ostacoli alla meditazione (e come superarli davvero)"
 description: "Ti siedi, chiudi gli occhi e parte il circo. La mente che vaga, la schiena che duole, il dubbio che assale. Non sei tu a sbagliare, sono loro. Ecco come riconoscerli."
