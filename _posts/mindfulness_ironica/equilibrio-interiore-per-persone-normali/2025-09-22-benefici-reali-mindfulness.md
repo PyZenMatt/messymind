@@ -7,8 +7,10 @@ seo_description: "Mindfulness senza dogmi: benefici concreti per calma, concentr
 categories: [mindfulness-ironica]
 subcluster: equilibrio-interiore-per-persone-normali
 tags: [benefici mindfulness, concentrazione, calma, equanimità, vita-quotidiana]
-lcp_image: 
-og_image: 
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042377/balance_x5qxrc.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042377/balance_x5qxrc.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756042377/balance_x5qxrc.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1756042377/balance_x5qxrc.jpg
 faqs:
 question: "Quanto ci vuole per vedere benefici?"
 answer: "I primi segnali (meno ‘scroll mentali’, più presenza) arrivano in pochi giorni con pratica breve ma costante. Non è una pillola: l’effetto cresce con la regolarità."

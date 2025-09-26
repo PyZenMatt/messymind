@@ -7,6 +7,10 @@ description: 'Manuale pratico e ironico per smettere di sovraccaricarsi di contr
 categories: crescita-personale-anti-guru
 subcluster: scelta-e-cuore
 tags: ["ossessione del controllo", "spiritualità moderna", "produttività tossica", "lasciar andare", "satira self-help", "umorismo esistenziale"]
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/caos_thuw8i.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/caos_thuw8i.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756042381/caos_thuw8i.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1756042381/caos_thuw8i.webp
 schema:
   faq:
   - question: Come smettere di controllare tutto?

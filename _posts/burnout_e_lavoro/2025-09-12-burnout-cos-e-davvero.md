@@ -10,11 +10,11 @@ date: "2025-09-12"
 last_modified_at: "2025-09-12"
 image_author: Nataliya Vaitkevich
 image_author_url: https://nvoitkevich.com/
-lcp_image_alt: donna con la testa in messo alle braccia in segno di disperazione davanti un laptop aziendale
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/uploadf_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757707488/burnout-1920_gggfbb.webp
-image: https://res.cloudinary.com/dkoc4knvv/image/uploadf_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757707488/burnout-1920_gggfbb.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/uploadf_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1757707488/burnout_600_hmpbg4.webp
-og_image: https://res.cloudinary.com/dkoc4knvv/image/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200//v1757707488/burnout-1920_gggfbb.webp
+lcp_image_alt: donna con la testa in mezzo alle braccia in segno di disperazione davanti un laptop aziendale
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757707488/burnout-1920_gggfbb.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757707488/burnout-1920_gggfbb.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1757707488/burnout-1920_gggfbb.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1757707488/burnout-1920_gggfbb.webp
 faqs:
 - question: "Quanto dura il burnout?"
   answer: "Non c'è una durata fissa. Dipende dalla gravità, dal contesto lavorativo e dalle azioni intraprese. Può richiedere settimane o mesi di cambiamenti concreti e, in alcuni casi, supporto professionale. Le ferie da sole raramente bastano."

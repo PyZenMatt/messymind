@@ -16,14 +16,24 @@ redirect_from:
 - /smetti-di-rincorrere-la-motivazione-trova-lo-scopo-e-impara-a-dire-no/
 - /scopo-motivazione-arte-del-no/
 tags: ["scopo", "motivazione", "attenzione", "confini gentili","rituali brevi", "digital detox", "togli non moderare"]
+faqs:
+- question: "**Serve forza di volontà sovrumana?**"  
+  answer: "No. Togliere tentazioni stanca meno che resistere mille volte. Due rituali brevi valgono più di un piano complicato."
+- question: "**Lo scopo non mi “accende”, è un problema?**  "
+  answer: "Non deve. Serve a orientarti, non a emozionarti. L’emozione arriva spesso dopo che inizi."
+- question: "**Come dico “no” senza bruciare i ponti?**" 
+  answer: "Riconosci, dichiara il vincolo, proponi alternativa. Cortese, breve, in anticipo quando puoi."
+- question: "**Se salto una settimana, ha senso ricominciare?**"
+  answer: "Sì. Riparti dalla soglia dei 120 secondi e da una finestra protetta. La regola è: non saltare due giorni di fila."
 ---
+
 La notifica vibra proprio mentre avevi trovato il filo. Apri “solo un attimo” e tre minuti dopo hai perso il punto, l’umore e la voglia. La motivazione fa così: arriva a caso, se ne va in fretta. Lo scopo, invece, è quieto e testardo. Non ti promette l’epica, ma ti tiene in carreggiata quando hai sonno, quando piove, quando il mondo reclama attenzione. Qui niente frasi motivate: si lavora di sottrazione, toni bassi, due abitudini misurabili.
 
 ## Il paradosso della motivazione
 
 Ci hanno insegnato a “caricarci”. Peccato che la vita vera non aspetti: scadenze, figli, lavatrici, colleghi. La motivazione è un picco emotivo: utile, ma instabile. Quando la insegui, finisci a riorganizzare la scrivania pur di sentire un briciolo di entusiasmo. Lo scopo è meno seducente, ma più efficiente: è la frase che ti ricordi quando il cervello sbadiglia. “Pubblicare un articolo il lunedì”, “Allenarmi 20 minuti tre volte a settimana”, “Imparare cinque vocaboli al giorno”. Direzione chiara, frizione bassa.
 
-> Correlati: [Come ho smesso di inseguire il tempo](https://messymind.it/crescita-autentica/come-ho-smesso-di-inseguire-il-tempo/] · [Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)](/burnout-pratico/](https://messymind.it/crescita-autentica/autenticita-e-lavoro/) · [Meditazioni per chi odia meditare][/mindfulness-ironica/](https://messymind.it/equlibrio-interiore/come-meditare-senza-sedersi-a-gambe-incrociate/)
+> Correlati: [Come ho smesso di inseguire il tempo](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/) · [Lavoro e Autenticità: Come Sopravvivere all'Ufficio Senza Perdere l'Anima (e la Sanità Mentale)](/categorie/burnout-e-lavoro/autenticita-in-ufficio) · [Meditazioni per chi odia meditare](/mindfulness-ironica/come-meditare-senza-sedersi-a-gambe-incrociate/)
 
 ## Scopo + confini: un binario semplice
 
@@ -69,17 +79,7 @@ Arriverà il giorno in cui scorrerai 20 minuti senza accorgertene o dirai “sì
 
 ## FAQ
 
-**Serve forza di volontà sovrumana?**  
-No. Togliere tentazioni stanca meno che resistere mille volte. Due rituali brevi valgono più di un piano complicato.
-
-**Lo scopo non mi “accende”, è un problema?**  
-Non deve. Serve a orientarti, non a emozionarti. L’emozione arriva spesso dopo che inizi.
-
-**Come dico “no” senza bruciare i ponti?**  
-Riconosci, dichiara il vincolo, proponi alternativa. Cortese, breve, in anticipo quando puoi.
-
-**Se salto una settimana, ha senso ricominciare?**  
-Sì. Riparti dalla soglia dei 120 secondi e da una finestra protetta. La regola è: non saltare due giorni di fila.
+{% include faq.html %}
 
 ## Ricapitolando
 

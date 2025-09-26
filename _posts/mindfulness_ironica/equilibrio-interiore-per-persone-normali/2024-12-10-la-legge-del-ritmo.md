@@ -7,6 +7,8 @@ seo_description: 'Guida pratica e ironica alla legge del ritmo: come riconoscere
 categories: mindfulness-ironica
 subcluster: equilibrio-interiore-per-persone-normali
 image: /img/ritmo.jpg
+lcp_image: /img/ritmo.jpg
+background: /img/ritmo.jpg
 alt: dei ballerini che sembrano sfuocati ma che in realta sono sfuocati perche si stanno muovendo
 faq:
 - Come applicare la legge del ritmo alla vita quotidiana?

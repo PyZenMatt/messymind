@@ -11,7 +11,9 @@ tags: ["come trovare la felicità interiore", "esercizi di meditazione quotidian
 lcp_image: /img/felicita.jpg
 lcp_alt_image: Un velo che copre due visi. Il velo è l'illusione del titolo che copre la verità
 image: /img/velo.png
-og_image: /img/felicita.jpg
+background: /img/velo.png
+lcp_image: /img/velo.png
+og_image: /img/velo.jpg
 redirect_from:
 - /ricerca-della-felicita-autenticita-panini-notturni-e-il-coraggio-di-essere-cactus-emotivi/
 - /ricerca-felicita-autenticita-panini-notturni/

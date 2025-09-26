@@ -8,9 +8,9 @@ lang: "it"
 categories: "burnout-e-lavoro"
 subcluster: "ritmi-gentili"
 tags: ["burnout", "ritmi-gentili", "confini", "smart-working", "mindfulness-ironica"]
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757916097/burnout_31_920_h7ktbv.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757916097/burnout_3_600_zykttg.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757916096/burnout_3_600_zykttg.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757916097/burnout_31_920_h7ktbv.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757916097/burnout_3_600_zykttg.webp
 image_alt: uno scheletro che lavora al computer, sintomo di burnout, sottointeso come persona bruciata viva.
 image_author_url: https://www.pexels.com/it-it/@tara-winstead/
 image_author: tara-winstead

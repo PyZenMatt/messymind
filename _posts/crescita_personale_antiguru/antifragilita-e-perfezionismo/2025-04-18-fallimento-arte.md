@@ -16,6 +16,7 @@ og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_au
 redirect_from:
 - /fallire-e-un-arte-e-io-sono-il-picasso-degli-scivoloni/
 - //fallire-arte-picasso-scivoloni/
+ - /fallimento-arte/
 ---
 **“Fallire è un’arte (e io sono il Picasso degli scivoloni)”**  
 
