@@ -151,7 +151,24 @@ a {
   }
 }
 
-// Main wrapper - responsive discrete padding following best practices
+// MOBILE-FIRST CONTAINER SYSTEM
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+  // Responsive gutters
+  @media (min-width: 576px) {
+    padding: 0 1.5rem;
+  }
+  
+  @media (min-width: 992px) {
+    padding: 0 2rem;
+  }
+}
+
+// Content containers with consistent spacing
 .main-wrapper {
   background: transparent !important;
   padding: 1rem 0 !important; // Mobile-first: 1rem top/bottom, 0 left/right
@@ -254,6 +271,38 @@ html.dark {
     @media (min-width: 1200px) {
       padding: 3rem 0 !important;
     }
+  }
+  
+  // Dark mode for tables
+  table {
+    th {
+      background-color: rgba(79, 138, 139, 0.2) !important; // Dark primary background
+      color: #4F8A8B !important;
+    }
+    
+    tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+    
+    th, td {
+      border-color: #404040 !important;
+    }
+  }
+  
+  // Dark mode for code blocks
+  pre {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-color: #404040 !important;
+  }
+  
+  code {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    color: #4F8A8B !important;
+  }
+  
+  // Dark mode for figures
+  figcaption {
+    color: #b0b0b0 !important;
   }
 }
 
