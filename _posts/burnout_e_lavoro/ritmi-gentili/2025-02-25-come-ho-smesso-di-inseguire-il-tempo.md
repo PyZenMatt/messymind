@@ -14,8 +14,8 @@ og_image: /img/accettazione.png
 redirect_from:
 - /come-ho-smesso-di-inseguire-il-tempo-3-segreti-per-vivere-senza-ansia-da-produttivita/
 - /come-ho-smesso-di-inseguire-il-tempo/
+- /crescita-personale/come-ho-smesso-di-inseguire-il-tempo/
 tags: ["gestione dello stress", "tecniche mindfulness", "vivere il presente", "equilibrio vita-lavoro", "ridurre l'ansia", "consapevolezza quotidiana", "cornerstone"]
-redirect_from: /crescita-personale/come-ho-smesso-di-inseguire-il-tempo/
 ---
   
 ## Quella volta che ho pianto in metropolitana (e non per colpa del ritardo)  
@@ -30,6 +30,7 @@ Viviamo in un’epoca ossessionata dal *fare*, come se il valore delle nostre gi
 - [La saggezza del cactus e altre rivoluzioni silenziose](#la-saggezza-del-cactus-e-altre-rivoluzioni-silenziose)
 - [Come sopravvivere all’era dell’urgenza cronica](#come-sopravvivere-allera-dellurgenza-cronica)
 - [La libertà è una scelta scomoda (ma profumata)](#la-libertà-è-una-scelta-scomoda-ma-profumata)
+- [Vuoi sostenere questa rivoluzione gentile?](#vuoi-sostenere-questa-rivoluzione-gentile)
 
 
 ## L’inganno della produttività tossica  
