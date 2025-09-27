@@ -19,8 +19,6 @@ body {
 
 // Override heading styles with MessyMind fonts and colors
 h1, h2, h3, h4, h5, h6,
-.site-heading h1,
-.post-heading h1,
 .section-heading,
 .post-title,
 .card-title {
@@ -29,7 +27,7 @@ h1, h2, h3, h4, h5, h6,
   font-weight: $font-weight-semibold !important;
 }
 
-// Site heading specific styling
+// Site heading specific styling - white for masthead
 .site-heading h1 {
   color: white !important; // Keep white for masthead
   font-family: $font-heading !important;
@@ -38,6 +36,20 @@ h1, h2, h3, h4, h5, h6,
 .site-heading .subheading {
   font-family: $font-accent !important;
   color: rgba(255, 255, 255, 0.9) !important;
+}
+
+// Post heading specific styling - white for masthead with hero image
+.post-heading h1,
+.post-heading h2.subheading {
+  color: white !important; // Keep white for masthead with hero image
+  font-family: $font-heading !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6) !important;
+}
+
+.post-heading .meta {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-family: $font-primary !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) !important;
 }
 
 // Card styling with MessyMind colors
@@ -165,6 +177,43 @@ a {
   
   @media (min-width: 992px) {
     padding: 0 2rem;
+  }
+}
+
+// Page Layout Specific Fixes for smartphone overflow
+.page-heading,
+.masthead {
+  // Ensure page layout containers are mobile-friendly
+  .container {
+    @media (max-width: 576px) {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      max-width: 100% !important;
+    }
+  }
+}
+
+// Mobile-first grid system fixes for pages
+@media (max-width: 576px) {
+  .row {
+    margin-left: -0.5rem !important;
+    margin-right: -0.5rem !important;
+  }
+  
+  .col-lg-8,
+  .col-md-10,
+  .col-12 {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+  
+  // Extra protection for page content
+  .container > .row > div {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
   }
 }
 

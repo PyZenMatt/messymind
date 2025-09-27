@@ -134,7 +134,65 @@ code {
   }
 }
 
-// Long URLs and text overflow protection
+// Page Layout - Mobile-First Protection
+.page-content,
+.post-content,
+.content {
+  width: 100%;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  
+  // Prevent any element from breaking out
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  // Extra protection for common problematic elements
+  img, video, iframe, embed, object {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  // Long text protection
+  p, li, td, th, div {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  // URL protection
+  a {
+    word-break: break-all;
+    
+    @media (min-width: 768px) {
+      word-break: normal;
+      overflow-wrap: break-word;
+    }
+  }
+  
+  // Heading protection
+  h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.2;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  // List protection
+  ul, ol {
+    padding-left: 1.5rem;
+    margin-left: 0;
+    
+    @media (max-width: 576px) {
+      padding-left: 1rem;
+    }
+  }
+}
+
+// Breadcrumb Mobile-First", "oldString": "// Long URLs and text overflow protection
 .content,
 .post-content,
 .page-content {
@@ -272,7 +330,74 @@ form {
   }
 }
 
-// Photo credit (existing component, keeping as is)
+// Breadcrumb Mobile-First
+.breadcrumb-container {
+  background: transparent;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  width: 100%;
+  overflow: hidden; // Prevent horizontal scroll
+  
+  // Extra spacing after post masthead on mobile
+  @media (max-width: 576px) {
+    margin-top: 1rem; /* Additional spacing after post hero on mobile */
+    padding: 0.75rem 0;
+  }
+}
+
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  
+  @media (max-width: 576px) {
+    font-size: 0.8rem;
+  }
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  
+  + .breadcrumb-item::before {
+    content: "›";
+    color: $muted;
+    margin: 0 0.3rem;
+    flex-shrink: 0;
+    
+    @media (max-width: 576px) {
+      margin: 0 0.2rem;
+    }
+  }
+  
+  a {
+    color: $primary;
+    text-decoration: none;
+    word-break: break-word;
+    hyphens: auto;
+    line-height: 1.3;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  &.active {
+    color: $muted;
+  }
+  
+  span {
+    word-break: break-word;
+    hyphens: auto;
+  }
+}
+
+// Photo credit (existing component, keeping as is)", "oldString": "// Photo credit (existing component, keeping as is)"}
 .photo-credit {
   display: block;
   margin-top: 0.25rem;
