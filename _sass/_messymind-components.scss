@@ -1,0 +1,132 @@
+// MessyMind Components
+// ====================
+
+// Cards
+.card {
+  background-color: $card;
+  color: $card-foreground;
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: 1.5rem;
+  box-shadow: $shadow-sm;
+  transition: box-shadow 0.2s ease;
+  
+  &:hover {
+    box-shadow: $shadow-md;
+  }
+}
+
+// Buttons (keeping existing Bootstrap buttons but adding MessyMind variants)
+.btn-messymind-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: $primary-foreground;
+  
+  &:hover {
+    background-color: darken($primary, 10%);
+    border-color: darken($primary, 10%);
+    color: $primary-foreground;
+  }
+}
+
+.btn-messymind-accent {
+  background-color: $accent;
+  border-color: $accent;
+  color: $accent-foreground;
+  
+  &:hover {
+    background-color: darken($accent, 10%);
+    border-color: darken($accent, 10%);
+    color: $accent-foreground;
+  }
+}
+
+// Photo credit (existing component, keeping as is)
+.photo-credit {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: $text-sm;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.45);
+  
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
+
+// FAQ styling (existing, keeping as is)
+.faq {
+  dt.faq-question {
+    margin-top: 1rem;
+    
+    strong {
+      font-weight: $font-weight-bold;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  dd.faq-answer {
+    margin: 0 0 1rem 0;
+  }
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $messymind-neutral;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $messymind-primary;
+  border-radius: 4px;
+  
+  &:hover {
+    background: $messymind-accent;
+  }
+}
+
+// Prose/article styling
+.prose {
+  color: $foreground;
+  max-width: none;
+  
+  h2, h3 {
+    color: $primary;
+    font-family: $font-heading;
+    font-weight: $font-weight-semibold;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  p {
+    margin-bottom: 1.25rem;
+    line-height: 1.75;
+  }
+  
+  ul {
+    margin: 1.25rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  blockquote {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid $accent;
+    background: rgba($secondary, 0.1);
+    font-style: normal;
+  }
+}

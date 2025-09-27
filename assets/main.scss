@@ -1,5 +1,12 @@
 ---
 ---
 
+// MessyMind Design System
+@import "messymind-variables";
+@import "messymind-base";
+@import "messymind-utilities";
+@import "messymind-components";
+
+// Existing styles (keeping backward compatibility)
 @import "styles";
 @import "custom-purged";

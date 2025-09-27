@@ -17,9 +17,12 @@
   {% include schema-markup.html %}
 
   
-  <!-- NESSUN PRECONNECT - Performance ottimizzata con font di sistema -->
+  <!-- PRECONNECT optimized for MessyMind fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
-  <!-- NESSUN FONT PRELOAD - Usare font di sistema -->
+  <!-- MessyMind fonts with performance optimization -->
+  {% include messymind-fonts.html %}
   
   <!-- CSS CRITICO INLINE - FASE 1 OTTIMIZZAZIONE -->
   {% include critical-css.html %}
@@ -41,7 +44,7 @@
   
   <!-- NESSUN FONT AWESOME - Per LCP critico -->
 
-  <!-- NESSUN GOOGLE FONTS - Font di sistema per velocità estrema -->
+  <!-- MessyMind design system with performance optimization -->
 
   <link rel="icon" type="image/png" href="{{ '/img/favicon/favicon.ico' | relative_url }}">
   <!-- CSS NON-BLOCKING: main.css già preloaded sopra -->
