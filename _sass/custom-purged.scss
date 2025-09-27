@@ -118,23 +118,17 @@ html.dark {
 
 // === LAYOUT PRINCIPALE ===
 body {
-  padding-top: 80px;
+  padding-top: 60px; /* Minimal clearance for fixed navbar */
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.main-wrapper {
-  background-color: var(--bg-secondary);
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 .content-box {
   background-color: var(--card-bg);
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 // === NAVBAR CUSTOM ===
@@ -169,17 +163,18 @@ body {
 }
 
 
-// === MASTHEAD ===
+// === MASTHEAD - RESPONSIVE BEST PRACTICES ===
 .masthead {
   position: relative;
   background-size: cover;
   background-position: center center;
-  height: 400px;
+  height: 180px; /* Discrete and proportional height */
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 2rem; /* Consistent spacing after masthead */
 }
 
 .masthead .overlay {
@@ -377,11 +372,12 @@ body {
   text-align: center;
 }
 
-// === RESPONSIVE ===
+// === RESPONSIVE - CONSISTENT SPACING ===
 @media (max-width: 768px) {
   .masthead {
-    height: 40vh;
-    padding: 20px 0;
+    height: 140px; /* Proportional mobile height */
+    padding: 15px 0;
+    margin-bottom: 1.5rem; /* Adjusted mobile spacing */
   }
 
   .masthead .site-heading h1 {
@@ -439,8 +435,9 @@ body {
 
 @media (max-width: 576px) {
   .masthead {
-    min-height: 35vh;
-    padding: 20px 0;
+    min-height: 120px; /* Minimal but comfortable height */
+    padding: 15px 0;
+    margin-bottom: 1rem; /* Compact spacing for small screens */
   }
 
   .site-heading h1 {

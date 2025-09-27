@@ -23,8 +23,8 @@
   color: $primary-foreground;
   
   &:hover {
-    background-color: darken($primary, 10%);
-    border-color: darken($primary, 10%);
+    background-color: #3a6d6e; // Slightly darker teal
+    border-color: #3a6d6e;
     color: $primary-foreground;
   }
 }
@@ -35,8 +35,8 @@
   color: $accent-foreground;
   
   &:hover {
-    background-color: darken($accent, 10%);
-    border-color: darken($accent, 10%);
+    background-color: #e66a3c; // Slightly darker orange
+    border-color: #e66a3c;
     color: $accent-foreground;
   }
 }

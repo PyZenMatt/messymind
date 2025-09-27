@@ -1,0 +1,281 @@
+// MessyMind Design System Overrides
+// =================================
+// Override existing Bootstrap and custom styles with MessyMind design tokens
+
+// Body and main typography with consistent spacing
+body {
+  font-family: $font-primary !important;
+  background-color: $background !important;
+  color: $foreground !important;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding-top: 56px; // Consistent navbar clearance
+  
+  // Responsive navbar clearance
+  @media (min-width: 768px) {
+    padding-top: 60px;
+  }
+}
+
+// Override heading styles with MessyMind fonts and colors
+h1, h2, h3, h4, h5, h6,
+.site-heading h1,
+.post-heading h1,
+.section-heading,
+.post-title,
+.card-title {
+  font-family: $font-heading !important;
+  color: $primary !important;
+  font-weight: $font-weight-semibold !important;
+}
+
+// Site heading specific styling
+.site-heading h1 {
+  color: white !important; // Keep white for masthead
+  font-family: $font-heading !important;
+}
+
+.site-heading .subheading {
+  font-family: $font-accent !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+// Card styling with MessyMind colors
+.card,
+.post-card {
+  background-color: $card !important;
+  border: 1px solid $border !important;
+  border-radius: $radius !important;
+  box-shadow: $shadow-md !important;
+  
+  .card-title,
+  .card-title a {
+    color: $primary !important;
+    font-family: $font-heading !important;
+  }
+  
+  .card-text {
+    color: rgba($foreground, 0.8) !important;
+  }
+}
+
+// Content box - transparent container without styling
+.content-box {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+// Navigation
+.navbar {
+  background-color: rgba($card, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid $border !important;
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: $foreground !important;
+    font-family: $font-heading !important;
+    font-weight: $font-weight-medium !important;
+    
+    &:hover {
+      color: $accent !important;
+    }
+  }
+}
+
+// Buttons with MessyMind styling
+.btn-primary,
+.btn-outline-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  color: $primary-foreground !important;
+  font-family: $font-heading !important;
+  font-weight: $font-weight-medium !important;
+  border-radius: $radius !important;
+  padding: 0.75rem 1.5rem !important;
+  
+  &:hover,
+  &:focus {
+    background-color: $accent !important;
+    border-color: $accent !important;
+    color: $accent-foreground !important;
+    transform: translateY(-2px);
+    box-shadow: $shadow-lg !important;
+  }
+}
+
+.btn-outline-primary {
+  background-color: transparent !important;
+  color: $primary !important;
+  
+  &:hover,
+  &:focus {
+    background-color: $primary !important;
+    color: $primary-foreground !important;
+  }
+}
+
+// Links
+a {
+  color: $primary !important;
+  
+  &:hover {
+    color: $accent !important;
+  }
+}
+
+// Post preview styling
+.post-preview {
+  .post-title {
+    font-family: $font-heading !important;
+    color: $primary !important;
+    font-weight: $font-weight-semibold !important;
+    
+    &:hover {
+      color: $accent !important;
+    }
+  }
+  
+  .post-subtitle {
+    font-family: $font-accent !important;
+    color: rgba($foreground, 0.7) !important;
+    font-size: $text-lg !important;
+  }
+  
+  .post-meta {
+    color: rgba($foreground, 0.6) !important;
+    font-size: $text-sm !important;
+  }
+}
+
+// Main wrapper - responsive discrete padding following best practices
+.main-wrapper {
+  background: transparent !important;
+  padding: 1rem 0 !important; // Mobile-first: 1rem top/bottom, 0 left/right
+  
+  // Desktop: increase to 2rem for better visual hierarchy
+  @media (min-width: 768px) {
+    padding: 2rem 0 !important;
+  }
+  
+  // Large screens: comfortable 3rem spacing
+  @media (min-width: 1200px) {
+    padding: 3rem 0 !important;
+  }
+}
+
+// Remove any dark mode background for main-wrapper
+html.dark .main-wrapper {
+  background: transparent !important;
+}
+
+// Masthead overlay
+.masthead .overlay {
+  background: linear-gradient(135deg, 
+    rgba($messymind-contrast, 0.6) 0%, 
+    rgba($primary, 0.4) 100%) !important;
+}
+
+// Section headings
+.section-heading {
+  font-family: $font-heading !important;
+  color: $primary !important;
+  
+  &::after {
+    background: linear-gradient(90deg, $accent 0%, $secondary 100%) !important;
+  }
+}
+
+// Form styling
+input, textarea, select {
+  border: 2px solid $border !important;
+  border-radius: $radius !important;
+  padding: 0.75rem 1rem !important;
+  font-family: $font-primary !important;
+  background-color: $input-background !important;
+  color: $foreground !important;
+  
+  &:focus {
+    border-color: $primary !important;
+    box-shadow: 0 0 0 3px rgba($primary, 0.1) !important;
+    outline: none !important;
+  }
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $accent !important;
+  background: linear-gradient(90deg, 
+    rgba($secondary, 0.1) 0%, 
+    rgba($secondary, 0.05) 100%) !important;
+  padding: 1.5rem !important;
+  border-radius: $radius !important;
+  font-family: $font-accent !important;
+  font-size: $text-lg !important;
+  
+  p {
+    margin-bottom: 0 !important;
+  }
+}
+
+// Dark mode adjustments with proper colors and consistent spacing
+html.dark {
+  // Use proper dark colors instead of darken() functions
+  body {
+    background-color: #1a1a1a !important; // Pure dark gray
+    color: #e0e0e0 !important;
+    padding-top: 56px; // Same navbar clearance as light mode
+    
+    @media (min-width: 768px) {
+      padding-top: 60px;
+    }
+  }
+  
+  .card, .post-card, .content-box {
+    background-color: #2a2a2a !important; // Dark gray cards
+    border-color: #404040 !important;
+  }
+  
+  .navbar {
+    background-color: rgba(31, 31, 31, 0.95) !important; // Dark navbar
+  }
+  
+  // Ensure consistent main-wrapper spacing in dark mode
+  .main-wrapper {
+    padding: 1rem 0 !important;
+    
+    @media (min-width: 768px) {
+      padding: 2rem 0 !important;
+    }
+    
+    @media (min-width: 1200px) {
+      padding: 3rem 0 !important;
+    }
+  }
+}
+
+// Add some MessyMind-specific animations
+.card, .post-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  
+  &:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: $shadow-lg !important;
+  }
+}
+
+// Typography improvements
+p {
+  line-height: 1.7 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+// Add some personality with the accent font
+.masthead .subheading,
+.post-subtitle,
+blockquote {
+  font-family: $font-accent !important;
+}

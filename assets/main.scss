@@ -1,12 +1,15 @@
 ---
 ---
 
-// MessyMind Design System
+// Base styles first
+@import "styles";
+@import "custom-purged";
+
+// MessyMind Design System (loaded last for higher specificity)
 @import "messymind-variables";
 @import "messymind-base";
 @import "messymind-utilities";
 @import "messymind-components";
 
-// Existing styles (keeping backward compatibility)
-@import "styles";
-@import "custom-purged";
+// MessyMind overrides (final layer - highest specificity)
+@import "messymind-overrides";

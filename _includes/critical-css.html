@@ -3,22 +3,29 @@
 /* RESET & BASE ESSENZIALE */
 *,*::before,*::after{box-sizing:border-box}
 html{line-height:1.15;-webkit-text-size-adjust:100%}
-body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background:#fff;padding-top:37px}
+body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background:#fff}
 
-/* CONTAINER LAYOUT CRITICO */
-.container{width:100%;padding:0 15px;margin:0 auto;max-width:1140px}
-.main-wrapper{background:#f8f9fa;padding:50px 0}
-.content-box{background:#fff;padding:30px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1)}
+/* CONTAINER LAYOUT CRITICO - RESPONSIVE PADDING BEST PRACTICES */
+.container{width:100%;padding:0 1rem;margin:0 auto;max-width:1140px}
+.content-box{background:transparent;padding:0}
 
-/* GRID SYSTEM ESSENZIALE */
-.row{display:flex;flex-wrap:wrap;margin:0 -15px}
-.col-12{flex:0 0 100%;max-width:100%;padding:0 15px}
-.col-md-4{position:relative;width:100%;padding:0 15px}
+/* RESPONSIVE CONTAINER PADDING */
+@media (min-width:576px){.container{padding:0 1.5rem}}
+@media (min-width:992px){.container{padding:0 2rem}}
+
+/* GRID SYSTEM ESSENZIALE - RESPONSIVE GUTTERS */
+.row{display:flex;flex-wrap:wrap;margin:0 -0.75rem}
+.col-12{flex:0 0 100%;max-width:100%;padding:0 0.75rem}
+.col-md-4{position:relative;width:100%;padding:0 0.75rem}
 .no-gutters{margin:0}.no-gutters>.col-md-4{padding:0}
+
+/* RESPONSIVE GRID GUTTERS */
+@media (min-width:768px){.row{margin:0 -1rem}.col-12,.col-md-4{padding:0 1rem}}
+@media (min-width:1200px){.row{margin:0 -1.25rem}.col-12,.col-md-4{padding:0 1.25rem}}
 
 /* NAVBAR FIXED - ABOVE FOLD - PERFETTAMENTE ALLINEATA */
 .navbar{position:relative;width:100%;background:#fff!important;border-bottom:1px solid #e3e3e3;padding:0;min-height:auto;display:flex;align-items:center}
-.navbar .container{display:flex;align-items:center;justify-content:space-between;padding:0 15px;width:100%;min-height:35px}
+.navbar .container{display:flex;align-items:center;justify-content:space-between;padding:0 1rem;width:100%;min-height:35px}
 .navbar-brand{font-weight:600;color:#333!important;text-decoration:none;padding:0;margin:0;font-size:1.1rem;line-height:1.2;display:flex;align-items:center}
 .navbar-nav{display:flex;align-items:center;margin:0}
 .navbar-nav .nav-link{padding:2px 8px;margin:0;display:flex;align-items:center}
@@ -51,7 +58,7 @@ h1,h2,h3{margin:0 0 0.5rem;font-weight:600;line-height:1.2}
 .navbar-brand{font-size:1rem}
 }
 
-/* UTILITIES CRITICAL PATH */
+/* UTILITIES CRITICAL PATH - RESPONSIVE SPACING */
 .mb-2{margin-bottom:0.5rem!important}
 .mb-4{margin-bottom:1.5rem!important}
 .mb-5{margin-bottom:3rem!important}
@@ -59,6 +66,11 @@ h1,h2,h3{margin:0 0 0.5rem;font-weight:600;line-height:1.2}
 .flex-wrap{flex-wrap:wrap!important}
 .justify-content-between{justify-content:space-between!important}
 .align-items-center{align-items:center!important}
+
+/* SECTION SPACING - RESPONSIVE BEST PRACTICES */
+section{margin-bottom:2rem}
+@media (min-width:768px){section{margin-bottom:3rem}}
+@media (min-width:1200px){section{margin-bottom:4rem}}
 
 /* RELATED POSTS SEMPLIFICATI */
 .simple-related-list{list-style:none;padding:0}
@@ -76,4 +88,11 @@ a:hover{color:#004085!important}
 .nav-link:hover{color:#0056b3!important}
 
 /* Icon fonts removed: using inline SVGs instead */
+
+/* DARK MODE SUPPORT FOR CRITICAL CSS */
+html.dark body{background:var(--bg-color, #1a1a1a)!important;color:var(--text-color, #e0e0e0)!important}
+html.dark .content-box{background:transparent!important}
+html.dark .navbar{background:var(--navbar-bg, #1f1f1f)!important;border-color:var(--border-color, #404040)!important}
+html.dark .card{background:var(--card-bg, #2a2a2a)!important}
+html.dark .section-heading{color:var(--text-color, #e0e0e0)!important}
 </style>
