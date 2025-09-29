@@ -86,7 +86,7 @@ Gestisci il respiro, non farti gestire da lui.
 
 ### Domande Rapide (per i scettici)
 
-{% include faq.html}
+{% include faq.html %}
 
 ---
 
