@@ -40,7 +40,7 @@ faqs:
 redirect_from: /spiritualita/respirazione-consapevole/
 ---
 
-L’odore del caffè stantio si mischia al ronzio del computer in standby. Sono le 17:34 e la tua mente è un browser con cento tab aperti. **Respirazione consapevole**? Sembra l'ultimo dei tuoi problemi. E invece è l’unico che puoi risolvere subito, senza strumenti, senza budget, senza dover cambiare posto.
+L’odore del caffè stantio si mischia al ronzio del computer in standby. La tua mente è un browser con cento tab aperti. **Respirazione consapevole**? Sembra l'ultimo dei tuoi problemi. E invece è l’unico che puoi risolvere subito, senza strumenti, senza budget, senza dover cambiare posto.
 
 Il Buddha – che di mente affollata se ne intendeva – non ha inventato niente di astruso. Ha solo preso un atto visceralmente semplice e lo ha reso un'**ancora di salvezza**. Chiamava questa pratica **ānāpānasati** (o **mindful breathing**, se preferisci l'inglese), un "antidoto alla distrazione". Niente di più, niente di meno.
 
