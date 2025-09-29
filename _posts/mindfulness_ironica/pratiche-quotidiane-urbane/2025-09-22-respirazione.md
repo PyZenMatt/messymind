@@ -80,7 +80,7 @@ Puoi alternarle. Puoi sceglierne una. L'importante è partire dal passo 3.
 
 Prima di correre via, prova questo. Ci vuole un minuto.
 
-{% include howto.htm %}
+{% include howto.html %}
 
 Gestisci il respiro, non farti gestire da lui.
 
