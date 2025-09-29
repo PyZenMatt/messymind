@@ -1,6 +1,8 @@
 // MessyMind Components
 // ====================
 
+@import "messymind-variables";
+
 // Cards
 .card {
   background-color: $card;
@@ -484,5 +486,184 @@ form {
     border-left: 4px solid $accent;
     background: rgba($secondary, 0.1);
     font-style: normal;
+  }
+}
+
+// Logo System - Theme-aware and Responsive
+// =========================================
+
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none !important;
+  
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.logo {
+  height: 32px;
+  width: auto;
+  display: none; // Hide all logos by default
+  transition: opacity 0.2s ease;
+  
+  // Pixel snapping per nitidezza SVG
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+// Desktop: wordmark visibile, symbol nascosto
+@media (min-width: 640px) {
+  .logo--wordmark {
+    display: inline-block;
+  }
+  
+  .logo--symbol {
+    display: none !important;
+  }
+}
+
+// Mobile: symbol visibile, wordmark nascosto
+@media (max-width: 639.98px) {
+  .logo--wordmark {
+    display: none !important;
+  }
+  
+  .logo--symbol {
+    display: inline-block;
+  }
+}
+
+// Theme Light (default - sfondo chiaro)
+.logo--light {
+  display: inline-block;
+}
+
+.logo--dark {
+  display: none;
+}
+
+// Preferenza sistema: dark mode
+@media (prefers-color-scheme: dark) {
+  .logo--light {
+    display: none;
+  }
+  
+  .logo--dark {
+    display: inline-block;
+  }
+}
+
+// Toggle tema manuale con data-theme su html
+html[data-theme='light'] {
+  .logo--light {
+    display: inline-block !important;
+  }
+  
+  .logo--dark {
+    display: none !important;
+  }
+}
+
+html[data-theme='dark'] {
+  .logo--light {
+    display: none !important;
+  }
+  
+  .logo--dark {
+    display: inline-block !important;
+  }
+}
+
+// Combinazioni responsive + theme
+@media (min-width: 640px) {
+  // Desktop wordmark - Light theme
+  .logo--light.logo--wordmark {
+    display: inline-block;
+  }
+  
+  .logo--dark.logo--wordmark {
+    display: none;
+  }
+  
+  // Desktop wordmark - Dark theme (sistema)
+  @media (prefers-color-scheme: dark) {
+    .logo--light.logo--wordmark {
+      display: none;
+    }
+    
+    .logo--dark.logo--wordmark {
+      display: inline-block;
+    }
+  }
+}
+
+// Desktop wordmark - Theme manuale light
+@media (min-width: 640px) {
+  html[data-theme='light'] {
+    .logo--light.logo--wordmark {
+      display: inline-block !important;
+    }
+    
+    .logo--dark.logo--wordmark {
+      display: none !important;
+    }
+  }
+  
+  html[data-theme='dark'] {
+    .logo--light.logo--wordmark {
+      display: none !important;
+    }
+    
+    .logo--dark.logo--wordmark {
+      display: inline-block !important;
+    }
+  }
+}
+
+@media (max-width: 639.98px) {
+  // Mobile symbol - Light theme
+  .logo--light.logo--symbol {
+    display: inline-block;
+  }
+  
+  .logo--dark.logo--symbol {
+    display: none;
+  }
+  
+  // Mobile symbol - Dark theme (sistema)  
+  @media (prefers-color-scheme: dark) {
+    .logo--light.logo--symbol {
+      display: none;
+    }
+    
+    .logo--dark.logo--symbol {
+      display: inline-block;
+    }
+  }
+}
+
+// Mobile symbol - Theme manuale
+@media (max-width: 639.98px) {
+  html[data-theme='light'] {
+    .logo--light.logo--symbol {
+      display: inline-block !important;
+    }
+    
+    .logo--dark.logo--symbol {
+      display: none !important;
+    }
+  }
+  
+  html[data-theme='dark'] {
+    .logo--light.logo--symbol {
+      display: none !important;
+    }
+    
+    .logo--dark.logo--symbol {
+      display: inline-block !important;
+    }
   }
 }

@@ -7,6 +7,8 @@ categories: ["mindfulness-ironica"]
 subcluster: "pratiche-quotidiane-urbane"
 tags: ["anapanasati", "respirazione consapevole", "mindful breathing", "meditazione respiro", "satipatthana"]
 date: 2025-09-22T12:45:00+02:00
+image_author:
+image_author
 lcp_image: 
 lcp_image_alt: 
 howto:

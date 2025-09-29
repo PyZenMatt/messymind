@@ -46,7 +46,22 @@
 
   <!-- MessyMind design system with performance optimization -->
 
-  <link rel="icon" type="image/png" href="{{ '/img/favicon/favicon.ico' | relative_url }}">
+  <!-- SVG favicons first with sizes="any" for Chrome compatibility -->
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/favicon-light.svg' | relative_url }}?v=6" media="(prefers-color-scheme: light)" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/favicon-dark.svg' | relative_url }}?v=6" media="(prefers-color-scheme: dark)" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/favicon-light.svg' | relative_url }}?v=6" sizes="any">
+  
+  <!-- PNG fallbacks with transparency -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/logo/favicon-32.png' | relative_url }}?v=3">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/images/logo/android-chrome-192.png' | relative_url }}?v=3">
+  <link rel="shortcut icon" href="{{ '/assets/images/logo/favicon.ico' | relative_url }}?v=3">
+  
+  <!-- Apple touch icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/logo/apple-touch-icon.png' | relative_url }}?v=3">
+  
+  <!-- Web app manifest -->
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  
   <!-- CSS NON-BLOCKING: main.css già preloaded sopra -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
