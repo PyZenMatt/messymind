@@ -1,8 +1,4 @@
 ---
-title: Ānāpānasati in 5 step: La Guida alla Respirazione Consapevole per Chi Non Ha Tempo (Ma Vuole Ritrovare un Minuto di Calma)
----
-
----
 layout: post
 title: "Ānāpānasati in 5 step: La Guida alla Respirazione Consapevole per Chi Non Ha Tempo (Ma Vuole Ritrovare un Minuto di Calma)"
 seo_title: "Ānāpānasati in 5 step: guida alla respirazione consapevole"
