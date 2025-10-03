@@ -8,7 +8,7 @@ subcluster: "pratiche-quotidiane-urbane"
 tags: ["anapanasati", "respirazione consapevole", "mindful breathing", "meditazione respiro", "satipatthana"]
 date: 2025-09-22T12:45:00+02:00
 image_author:
-image_author
+image_author:
 lcp_image: 
 lcp_image_alt: 
 howto:
@@ -80,15 +80,14 @@ Puoi alternarle. Puoi sceglierne una. L'importante è partire dal passo 3.
 
 Prima di correre via, prova questo. Ci vuole un minuto.
 
-{% include howto.htm %}
+{% include howto.html %}
 
 Gestisci il respiro, non farti gestire da lui.
 
 ### Domande Rapide (per i scettici)
 
-{% include faq.html}
+{% include faq.html %}
 
----
 
 Prima di chiudere, ecco l'idea da portarti a casa: il respiro è sempre lì, gratis. Usalo.
 

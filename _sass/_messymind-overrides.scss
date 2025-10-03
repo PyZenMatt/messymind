@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6,
   
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: $foreground !important;
+    color: $primary !important;
     font-family: $font-heading !important;
     font-weight: $font-weight-medium !important;
     
@@ -96,6 +96,14 @@ h1, h2, h3, h4, h5, h6,
       color: $accent !important;
     }
   }
+}
+
+// Fixed logo container to avoid CLS
+.site-logo {
+  display: inline-block;
+  width: 200px; /* fixed width to avoid layout shift; adjust if needed */
+  height: 40px; /* fixed height matching logo intrinsic size */
+  overflow: hidden;
 }
 
 // Buttons with MessyMind styling
@@ -180,6 +188,41 @@ a {
   }
 }
 
+// Ensure archive cards align and have equal height on grid
+@media (min-width: 768px) {
+  .row.equalize > [class*="col-"] {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .row.equalize .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .row.equalize .card .card-body {
+    flex: 1 1 auto; /* allow body to grow to push footer to bottom */
+  }
+}
+
+// Card footer: avoid white background in dark mode and make icon/text visible
+html.dark {
+  .card-footer.bg-white {
+    background-color: transparent !important;
+    border-top: 1px solid rgba(255,255,255,0.06) !important;
+  }
+
+  .card-footer .text-muted {
+    color: rgba(255,255,255,0.75) !important;
+  }
+
+  /* Make inline SVGs inherit color for easy theming */
+  .card-footer svg[path] {
+    fill: currentColor !important;
+  }
+}
+
 // Page Layout Specific Fixes for smartphone overflow
 .page-heading,
 .masthead {
@@ -230,6 +273,31 @@ a {
   // Large screens: comfortable 3rem spacing
   @media (min-width: 1200px) {
     padding: 3rem 0 !important;
+  }
+}
+
+// Dark theme specific overrides: ensure card text is readable (white)
+html.dark {
+  .card,
+  .post-card {
+    background-color: $card !important;
+    color: #ffffff !important; /* general fallback */
+
+    .card-title,
+    .card-title a {
+      color: $primary !important; /* keep titles brand-colored in dark mode */
+    }
+
+    .card-text,
+    .card-body,
+    .post-card .card-text {
+      color: #ffffff !important;
+    }
+  }
+
+  // Ensure muted/text-muted is lighter in dark mode
+  .text-muted {
+    color: rgba(255,255,255,0.75) !important;
   }
 }
 
@@ -352,6 +420,20 @@ html.dark {
   // Dark mode for figures
   figcaption {
     color: #b0b0b0 !important;
+  }
+
+  // Ensure blockquote text is fully legible in dark mode
+  blockquote {
+    color: #ffffff !important;
+  }
+
+  // Dark-mode: color hamburger (mobile) with accent color
+  @media (max-width: 991px) {
+    .navbar-toggler svg.icon-menu rect,
+    .navbar-toggler .icon-menu rect {
+      fill: $accent !important;
+    }
+    .navbar-toggler svg.icon-menu { color: $accent !important; }
   }
 }
 

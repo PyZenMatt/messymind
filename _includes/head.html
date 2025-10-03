@@ -46,18 +46,22 @@
 
   <!-- MessyMind design system with performance optimization -->
 
-  <!-- SVG favicons first with sizes="any" for Chrome compatibility -->
-  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/favicon-light.svg' | relative_url }}?v=6" media="(prefers-color-scheme: light)" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/favicon-dark.svg' | relative_url }}?v=6" media="(prefers-color-scheme: dark)" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/favicon-light.svg' | relative_url }}?v=6" sizes="any">
-  
-  <!-- PNG fallbacks with transparency -->
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/logo/favicon-32.png' | relative_url }}?v=3">
-  <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/images/logo/android-chrome-192.png' | relative_url }}?v=3">
-  <link rel="shortcut icon" href="{{ '/assets/images/logo/favicon.ico' | relative_url }}?v=3">
-  
-  <!-- Apple touch icon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/logo/apple-touch-icon.png' | relative_url }}?v=3">
+  {%- assign fv = site.github.build_revision | default: site.time | date: "%s" -%}
+  <!-- Favicons: only light/dark SVG selectors + single legacy PNG fallback -->
+  <!-- Order: light (media) -> dark (media) -> legacy fallback (no media) -->
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/fav_icon_light.svg' | relative_url }}?v={{ fv }}" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/fav_icon_dark.svg' | relative_url }}?v={{ fv }}" media="(prefers-color-scheme: dark)">
+
+  <!-- Legacy fallback (PNG 32x32). Use relative_url so baseurl is respected. -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/logo/favicon-32.png' | relative_url }}?v={{ fv }}">
+
+  <!-- Safari pinned tab (mask-icon) for pinned tabs; color must be a brand color -->
+  <link rel="mask-icon" href="{{ '/assets/images/logo/fav_icon_light.svg' | relative_url }}?v={{ fv }}" color="#4f8a8b">
+
+  <!-- Indicate the page supports both color schemes and provide theme-color hints -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
   
   <!-- Web app manifest -->
   <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">

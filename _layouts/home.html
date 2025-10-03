@@ -8,11 +8,21 @@ layout: default
   <div class="row mb-5">
     <div class="col-12">
       <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
-        <h1 class="site-title mb-2">Messy Mind — mindfulness ironica e crescita personale</h1>
-    {% if site.featured_category %}
-          <a href="{{ '/categorie/' | append: site.featured_category | slugify | append: '/' | relative_url }}" class="btn btn-primary category-button">
-          Vedi tutti <svg class="icon icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-left:0.5rem"><path d="M9 6l6 6-6 6" fill="#fff"/></svg>
-        </a>
+        {% unless page.hide_home_title %}
+            <h1 class="site-title mb-2">
+              {{ page.h1 | default: site.home_h1 | default: site.title }}
+            </h1>
+          {% else %}
+            <h1 class="sr-only" style="position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;border:0!important;">
+              {{ page.h1 | default: site.home_h1 | default: site.title }}
+            </h1>
+          {% endunless %}
+          <h2 class="section-heading">In evidenza</h2>
+              {% if site.featured_category %}
+          
+          <!-- Make the featured block visually match other sections but without the action button -->
+          
+        </div>
         {% endif %}
       </div>
       {% assign featured_posts = site.posts | where: "featured_post", "true" | slice: 0,5 %}
@@ -62,10 +72,13 @@ layout: default
       <div class="d-flex justify-content-between align-items-center mb-4">
         <h2 class="section-heading">Ultimi Articoli</h2>
           <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">
-          Vedi tutti <svg class="icon icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-left:0.5rem"><path d="M9 6l6 6-6 6" fill="#fff"/></svg>
+            Vedi tutti
+            <svg class="icon icon-arrow-right" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
         </a>
       </div>
-      <div class="row">
+  <div class="row equalize">
         {% for post in site.posts limit:3 %}
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
@@ -135,12 +148,16 @@ layout: default
     {% endif %}
   {%- endcomment -%}
   {% if posts.size > 0 %}
+  <div class="container">
     <div class="row mb-5">
       <div class="col-12">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-          <h2 class="section-heading">Argomento: {{ category }}</h2>
-            <a href="{{ mapped_url }}" class="btn btn-primary">
-            Vedi tutti <svg class="icon icon-arrow-right" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-left:0.5rem"><path d="M9 6l6 6-6 6" fill="#fff"/></svg>
+  <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
+          <h2 class="section-heading"><span class="label-argomento">Argomento:</span> <span class="category-name">{{ category | replace: '-', ' ' | replace: '_', ' ' | strip }}</span></h2>
+            <a href="{{ mapped_url }}" class="btn btn-primary btn-small">
+              <span class="btn-text">Vedi tutti</span>
+                <svg class="icon icon-arrow-right" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
           </a>
         </div>
   {% assign top_posts = posts | slice: 0, 3 %}
@@ -178,5 +195,6 @@ layout: default
         {% endfor %}
       </div>
     </div>
+  </div>
   {% endif %}
 {% endfor %}
