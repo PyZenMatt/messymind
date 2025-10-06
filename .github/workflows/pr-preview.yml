@@ -76,18 +76,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Fetch latest gh-pages if it exists
-          git fetch origin gh-pages || true
+          # Use authenticated remote so pushes from the runner use the GITHUB_TOKEN
+          AUTH_REMOTE="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          git remote set-url origin "$AUTH_REMOTE" || true
 
+          # Fetch latest gh-pages if it exists and create a local branch that matches remote
+          git fetch origin gh-pages || true
           if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
-            # If gh-pages exists remotely, check it out (create local tracking branch if needed)
-            if git show-ref --verify --quiet refs/heads/gh-pages; then
-              git checkout gh-pages
-            else
-              git checkout -b gh-pages origin/gh-pages
-            fi
-            # Reset working tree to remote tip (keep local working copy but update index)
-            git reset --mixed origin/gh-pages
+            # Ensure our local gh-pages matches remote (force-create local branch from remote)
+            git checkout -B gh-pages origin/gh-pages
           else
             # No remote gh-pages yet: create orphan branch
             git checkout --orphan gh-pages
@@ -118,12 +115,13 @@ jobs:
             git rebase --rebase-merges origin/gh-pages || true
           fi
 
+          # Try push; if rejected, rebase and then try force-with-lease
           if ! git push origin gh-pages; then
             echo "Push rejected; attempting to pull --rebase and push again"
             git pull --rebase origin gh-pages || true
             if ! git push origin gh-pages; then
               echo "Push still rejected; attempting force-with-lease"
-              git push --force-with-lease origin gh-pages
+              git push --force-with-lease origin gh-pages || true
             fi
           fi
 
