@@ -27,9 +27,17 @@
   <!-- CSS CRITICO INLINE - FASE 1 OTTIMIZZAZIONE -->
   {% include critical-css.html %}
   
-  <!-- CSS NON-CRITICO CARICATO ASINCRONO - PERFORMANCE -->
-  <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <!-- CSS NON-CRITICO CARICATO ASINCRONO CON ALTA PRIORITÀ -->
+  <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="high">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
+  
+  <!-- Fallback CSS critico esteso per evitare FOUC -->
+  <script>
+    // Carica CSS immediatamente per browsers senza supporto preload
+    if (!('onload' in document.createElement('link'))) {
+      document.write('<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">');
+    }
+  </script>
   
   <!-- Preload SOLO immagine LCP ottimizzata -->
   {%- comment -%} Per migliorare Core Web Vitals, preload LCP per ogni pagina.

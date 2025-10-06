@@ -1,18 +1,13 @@
-<!-- MessyMind Optimized Font Loading -->
-<!-- Using font-display: swap for better performance -->
+<!-- MessyMind Super-Optimized Font Loading Strategy -->
 
-<!-- Preconnect to Google Fonts for faster loading -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Font loading con display: swap per performance critiche -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Merriweather:wght@400&family=Caveat:wght@400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
-<!-- Load fonts with display: swap for better performance -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@300;400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
-
-<!-- Fallback for no-JS users -->
+<!-- Fallback critico per browsers senza JS -->
 <noscript>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@300;400;700&family=Caveat:wght@400;700&display=block" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Merriweather:wght@400&family=Caveat:wght@400&display=block" rel="stylesheet">
 </noscript>
 
-<!-- Optional: Preload key fonts for critical rendering path -->
-<link rel="preload" href="https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rsHo.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2" as="font" type="font/woff2" crossorigin>
+<!-- Preload SOLO font critici above-the-fold -->
+<link rel="preload" href="https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rsHo.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
+<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
