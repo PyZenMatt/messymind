@@ -42,69 +42,40 @@ jobs:
       - name: Override published:false for preview
         run: |
           # Replace `published: false` with `published: true` in posts, drafts and pages for preview builds
-          # Use null-separated file list and a safe while-read loop to handle filenames with spaces/quotes/unicode
+          # Use a null-delimited file list and a safe while-read loop to handle filenames with spaces/quotes/unicode
           set -uo pipefail
-          git ls-files -z "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" | \
-<<<<<<< HEAD
-          { IFS= read -r -d '' || true; }
-          # Iterate safely
-          git ls-files -z "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" | \
-          while IFS= read -r -d '' file; do
-            if [ -f "$file" ]; then
-              # Use perl inplace edit; pattern matches published: false (case-insensitive) at line start
-=======
-          while IFS= read -r -d '' file; do
-            if [ -f "$file" ]; then
->>>>>>> 1571dab (ci: restore pr-preview workflow with robust deploy)
-              perl -0777 -pe 's/^([ \t]*published:\s*)false$/\1true/gim' -i -- "$file" || true
-            fi
-          done
+          git ls-files -z "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" \
+            | while IFS= read -r -d '' file; do
+              if [ -f "$file" ]; then
+                perl -0777 -pe 's/^([ \t]*published:\s*)false$/\1true/gim' -i -- "$file" || true
+              fi
+            done
 
       - name: Build Jekyll preview
         env:
           JEKYLL_ENV: production
         run: |
+          set -euo pipefail
           # Build with drafts and future posts enabled and set baseurl to the preview path
           PR_BASE="/${{ steps.vars.outputs.PREVIEW_PATH }}"
           echo "Building with baseurl=${PR_BASE}"
           bundle exec jekyll build --drafts --future --baseurl "${PR_BASE}" --config _config.yml
-<<<<<<< HEAD
-          # Ensure site is built into _site
-=======
->>>>>>> 1571dab (ci: restore pr-preview workflow with robust deploy)
 
       - name: Cleanup Windows alternate data streams from build
         run: |
-          # Remove any files that include the Windows ADS suffix pattern ":Zone.Identifier" which breaks uploads
+          set -euo pipefail
+          # Remove any files that include the Windows ADS suffix pattern ":Zone.Identifier"
+          # which breaks uploads. Use null-delimited streams.
           find _site -type f -name '*:Zone.Identifier' -print0 | xargs -0 --no-run-if-empty rm -f || true
           # Also remove such files from the source assets (in case they were checked into the repo)
           find . -type f -name '*:Zone.Identifier' -print0 | xargs -0 --no-run-if-empty rm -f || true
 
-      - name: Prepare deployment branch
+      - name: Prepare deployment branch and copy preview
         run: |
-<<<<<<< HEAD
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin gh-pages || true
-          git checkout --orphan gh-pages || git checkout gh-pages
-          git rm -rf . || true
-          # create a minimal index.html to preserve branch if needed
-          echo "" > .gitkeep
-
-      - name: Copy preview to gh-pages subtree
-        run: |
-          PR_DIR=${{ steps.vars.outputs.PREVIEW_PATH }}
-          mkdir -p "$PR_DIR"
-          # Copy built site into previews/pr-<num>/ directory, excluding files with colon characters (e.g. Zone.Identifier)
-          rsync -a --exclude='*:*' _site/ "$PR_DIR/"
-          # Ensure we don't try to add any files with invalid characters
-          git add --all || true
-          git commit -m "Deploy PR #${{ steps.vars.outputs.PR_NUMBER }} preview" || echo "No changes to commit"
-          git push origin HEAD:gh-pages
-=======
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           # Fetch latest gh-pages if it exists
           git fetch origin gh-pages || true
 
@@ -128,12 +99,9 @@ jobs:
             git push origin gh-pages || true
           fi
 
-      - name: Copy preview to gh-pages subtree
-        run: |
-          set -euo pipefail
+          # Copy built site into previews/pr-<num>/ directory, excluding files with colon characters (e.g. Zone.Identifier)
           PR_DIR=${{ steps.vars.outputs.PREVIEW_PATH }}
           mkdir -p "$PR_DIR"
-          # Copy built site into previews/pr-<num>/ directory, excluding files with colon characters (e.g. Zone.Identifier)
           rsync -a --delete --exclude='*:*' _site/ "$PR_DIR/"
 
           # Add and commit only if there are changes
@@ -144,19 +112,20 @@ jobs:
             git commit -m "Deploy PR #${{ steps.vars.outputs.PR_NUMBER }} preview"
           fi
 
-          # Ensure we're up to date with remote and attempt to push; if remote advanced, rebase and retry
+          # Ensure we're up to date with remote and attempt to push; if remote advanced, rebase and fall back to force-with-lease
           git fetch origin gh-pages || true
           if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
-            # Rebase local commits on top of remote to avoid non-fast-forward
             git rebase --rebase-merges origin/gh-pages || true
           fi
 
           if ! git push origin gh-pages; then
             echo "Push rejected; attempting to pull --rebase and push again"
             git pull --rebase origin gh-pages || true
-            git push origin gh-pages
+            if ! git push origin gh-pages; then
+              echo "Push still rejected; attempting force-with-lease"
+              git push --force-with-lease origin gh-pages
+            fi
           fi
->>>>>>> 1571dab (ci: restore pr-preview workflow with robust deploy)
 
       - name: Post or update PR comment with preview URL
         uses: actions/github-script@v7
@@ -166,12 +135,11 @@ jobs:
             const pr = context.payload.pull_request.number;
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const prNum = pr;
-            const previewPath = `previews/pr-${prNum}/`;
+            const previewPath = `previews/pr-${pr}/`;
             const previewUrl = `https://${owner}.github.io/${repo}/${previewPath}`;
 
             // Search for an existing bot comment
-            const { data: comments } = await github.issues.listComments({ owner, repo, issue_number: prNum });
+            const { data: comments } = await github.issues.listComments({ owner, repo, issue_number: pr });
             const botComment = comments.find(c => c.user && c.user.type === 'Bot' && c.body && c.body.includes('Preview URL for this PR'));
 
             const body = `Preview URL for this PR: ${previewUrl}\n\nBuilt with drafts + future posts. Updated on commit: ${process.env.GITHUB_SHA}`;
@@ -179,5 +147,29 @@ jobs:
             if (botComment) {
               await github.issues.updateComment({ owner, repo, comment_id: botComment.id, body });
             } else {
-              await github.issues.createComment({ owner, repo, issue_number: prNum, body });
+              await github.issues.createComment({ owner, repo, issue_number: pr, body });
+            }
+              # no further git operations here; the deploy step handled pushing
+
+      - name: Post or update PR comment with preview URL
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr = context.payload.pull_request.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const previewPath = `previews/pr-${pr}/`;
+            const previewUrl = `https://${owner}.github.io/${repo}/${previewPath}`;
+
+            // Search for an existing bot comment
+            const { data: comments } = await github.issues.listComments({ owner, repo, issue_number: pr });
+            const botComment = comments.find(c => c.user && c.user.type === 'Bot' && c.body && c.body.includes('Preview URL for this PR'));
+
+            const body = `Preview URL for this PR: ${previewUrl}\n\nBuilt with drafts + future posts. Updated on commit: ${process.env.GITHUB_SHA}`;
+
+            if (botComment) {
+              await github.issues.updateComment({ owner, repo, comment_id: botComment.id, body });
+            } else {
+              await github.issues.createComment({ owner, repo, issue_number: pr, body });
             }
