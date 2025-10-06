@@ -42,10 +42,18 @@ jobs:
       - name: Override published:false for preview
         run: |
           # Replace `published: false` with `published: true` in posts, drafts and pages for preview builds
-          files=$(git ls-files "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" || true)
-          if [ -n "$files" ]; then
-            echo "$files" | xargs -r -n1 perl -0777 -pe "s/^([ \t]*published:\s*)false$/\1true/gim" -i
-          fi
+          # Use null-separated file list and a safe while-read loop to handle filenames with spaces/quotes/unicode
+          set -uo pipefail
+          git ls-files -z "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" | \
+          { IFS= read -r -d '' || true; }
+          # Iterate safely
+          git ls-files -z "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" | \
+          while IFS= read -r -d '' file; do
+            if [ -f "$file" ]; then
+              # Use perl inplace edit; pattern matches published: false (case-insensitive) at line start
+              perl -0777 -pe 's/^([ \t]*published:\s*)false$/\1true/gim' -i -- "$file" || true
+            fi
+          done
 
       - name: Build Jekyll preview
         env:
