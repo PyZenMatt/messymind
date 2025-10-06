@@ -23,7 +23,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          cache: bundler
+          bundler-cache: true
 
       - name: Install bundler and dependencies
         run: |
