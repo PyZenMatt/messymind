@@ -45,12 +45,17 @@ jobs:
           # Use null-separated file list and a safe while-read loop to handle filenames with spaces/quotes/unicode
           set -uo pipefail
           git ls-files -z "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" | \
+<<<<<<< HEAD
           { IFS= read -r -d '' || true; }
           # Iterate safely
           git ls-files -z "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" | \
           while IFS= read -r -d '' file; do
             if [ -f "$file" ]; then
               # Use perl inplace edit; pattern matches published: false (case-insensitive) at line start
+=======
+          while IFS= read -r -d '' file; do
+            if [ -f "$file" ]; then
+>>>>>>> 1571dab (ci: restore pr-preview workflow with robust deploy)
               perl -0777 -pe 's/^([ \t]*published:\s*)false$/\1true/gim' -i -- "$file" || true
             fi
           done
@@ -63,7 +68,10 @@ jobs:
           PR_BASE="/${{ steps.vars.outputs.PREVIEW_PATH }}"
           echo "Building with baseurl=${PR_BASE}"
           bundle exec jekyll build --drafts --future --baseurl "${PR_BASE}" --config _config.yml
+<<<<<<< HEAD
           # Ensure site is built into _site
+=======
+>>>>>>> 1571dab (ci: restore pr-preview workflow with robust deploy)
 
       - name: Cleanup Windows alternate data streams from build
         run: |
@@ -74,6 +82,7 @@ jobs:
 
       - name: Prepare deployment branch
         run: |
+<<<<<<< HEAD
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin gh-pages || true
@@ -92,6 +101,62 @@ jobs:
           git add --all || true
           git commit -m "Deploy PR #${{ steps.vars.outputs.PR_NUMBER }} preview" || echo "No changes to commit"
           git push origin HEAD:gh-pages
+=======
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Fetch latest gh-pages if it exists
+          git fetch origin gh-pages || true
+
+          if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
+            # If gh-pages exists remotely, check it out (create local tracking branch if needed)
+            if git show-ref --verify --quiet refs/heads/gh-pages; then
+              git checkout gh-pages
+            else
+              git checkout -b gh-pages origin/gh-pages
+            fi
+            # Reset working tree to remote tip (keep local working copy but update index)
+            git reset --mixed origin/gh-pages
+          else
+            # No remote gh-pages yet: create orphan branch
+            git checkout --orphan gh-pages
+            git rm -rf . || true
+            # create a minimal placeholder so branch isn't empty
+            echo "" > .gitkeep
+            git add .gitkeep
+            git commit -m "chore: create gh-pages branch" || true
+            git push origin gh-pages || true
+          fi
+
+      - name: Copy preview to gh-pages subtree
+        run: |
+          set -euo pipefail
+          PR_DIR=${{ steps.vars.outputs.PREVIEW_PATH }}
+          mkdir -p "$PR_DIR"
+          # Copy built site into previews/pr-<num>/ directory, excluding files with colon characters (e.g. Zone.Identifier)
+          rsync -a --delete --exclude='*:*' _site/ "$PR_DIR/"
+
+          # Add and commit only if there are changes
+          git add -A -- "$PR_DIR"
+          if git diff --cached --quiet; then
+            echo "No changes to deploy for PR #${{ steps.vars.outputs.PR_NUMBER }}"
+          else
+            git commit -m "Deploy PR #${{ steps.vars.outputs.PR_NUMBER }} preview"
+          fi
+
+          # Ensure we're up to date with remote and attempt to push; if remote advanced, rebase and retry
+          git fetch origin gh-pages || true
+          if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
+            # Rebase local commits on top of remote to avoid non-fast-forward
+            git rebase --rebase-merges origin/gh-pages || true
+          fi
+
+          if ! git push origin gh-pages; then
+            echo "Push rejected; attempting to pull --rebase and push again"
+            git pull --rebase origin gh-pages || true
+            git push origin gh-pages
+          fi
+>>>>>>> 1571dab (ci: restore pr-preview workflow with robust deploy)
 
       - name: Post or update PR comment with preview URL
         uses: actions/github-script@v7
