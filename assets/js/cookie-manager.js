@@ -1,4 +1,3 @@
-/*! Cookie Manager - extracted for deferred loading */
 
 // NOTE: This file is a copy of `_includes/cookie-manager.js` to enable loading via <script src="/assets/js/cookie-manager.js" defer>
 
@@ -34,6 +33,7 @@ const cookieManager = {
         console.log('🍪 Cookie consent check:', consent);
         if (!consent) {
             console.log('🍪 No consent found, showing banner...');
+            // Ridotto timeout da 1000ms a 100ms per performance
             setTimeout(() => {
                 const banner = document.getElementById('cookie-banner');
                 console.log('🍪 Banner element:', banner);
@@ -43,7 +43,7 @@ const cookieManager = {
                 } else {
                     console.error('🍪 Banner element not found!');
                 }
-            }, 1000);
+            }, 100);
         } else {
             console.log('🍪 Consent already exists, banner not shown');
         }
