@@ -135,3 +135,6 @@ Thumbs.db
 
 #virtual environments
 /home/teo/.venvs/messymind  
+
+_site_integration/
+_site_main_merged/
