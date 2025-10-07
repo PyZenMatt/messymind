@@ -91,17 +91,5 @@ e
 *"Analisi comparativa di tazze da tè con slogan imbarazzanti"*.  
 ## Vuoi sostenere questa rivoluzione gentile?
 
-Se queste parole ti hanno fatto sorridere o pensare, puoi:
-
-- **Offrirmi un cornetto virtuale** ☕ [con PayPal](https://www.paypal.me/pythonmat)
-- **Condividere l’articolo** con chi ha bisogno di rallentare
-- **Regalarti 5 minuti di ozio creativo** (te lo ordino io come esperto!)
-
-Ogni donazione andrà a finanziare ricerche scientifiche fondamentali come:
-
-_"L’effetto delle ciabatte bucate sulla filosofia esistenziale"_
-e
-_"Analisi comparativa di tazze da tè con slogan imbarazzanti"_.
-
 **Grazie per aver speso tempo** (sì, proprio quello!) leggendo fin qui.  
 Matteo & Spartaco 🏜️  
