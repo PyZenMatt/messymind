@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Messy Mind: Mindfulness per Persone Normali"  
 description: "Scopri cosa significa Messy Mind: spiritualità pratica senza incenso, mindfulness per menti disordinate e equilibrio interiore per chi ha una vita vera, imperfetta e autentica."  
 keywords:  

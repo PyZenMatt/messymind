@@ -1,0 +1,13 @@
+<!-- MessyMind Super-Optimized Font Loading Strategy -->
+
+<!-- Font loading con display: swap per performance critiche -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Merriweather:wght@400&family=Caveat:wght@400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+<!-- Fallback critico per browsers senza JS -->
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Merriweather:wght@400&family=Caveat:wght@400&display=block" rel="stylesheet">
+</noscript>
+
+<!-- Preload SOLO font critici above-the-fold -->
+<link rel="preload" href="https://fonts.gstatic.com/s/merriweather/v30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rsHo.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">
+<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2" as="font" type="font/woff2" crossorigin fetchpriority="high">

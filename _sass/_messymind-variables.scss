@@ -1,0 +1,56 @@
+// MessyMind Design System Variables
+// =================================
+
+// Font stacks (optimized for performance)
+$font-primary: 'Merriweather', Georgia, serif;
+$font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-accent: 'Caveat', cursive;
+
+// Brand Colors
+$messymind-primary: #4F8A8B;
+$messymind-secondary: #F8D49D;
+$messymind-accent: #F97F51;
+$messymind-neutral: #F7F3EA;
+$messymind-contrast: #2E3D49;
+
+// Light Theme Colors
+$background: #F7F3EA;
+$foreground: #2E3D49;
+$card: #ffffff;
+$card-foreground: #2E3D49;
+$primary: #4F8A8B;
+$primary-foreground: #ffffff;
+$secondary: #F8D49D;
+$secondary-foreground: #2E3D49;
+$accent: #F97F51;
+$accent-foreground: #ffffff;
+$muted: #6B7280; // Muted text color for secondary content
+$border: rgba(46, 61, 73, 0.1);
+$input-background: #ffffff;
+
+// Typography Scale
+$text-xs: 0.75rem;
+$text-sm: 0.875rem;
+$text-base: 1rem;
+$text-lg: 1.125rem;
+$text-xl: 1.25rem;
+$text-2xl: 1.5rem;
+$text-3xl: 1.875rem;
+$text-4xl: 2.25rem;
+
+// Font Weights
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Spacing & Layout
+$radius: 0.625rem;
+$radius-sm: calc(#{$radius} - 4px);
+$radius-lg: $radius;
+$radius-xl: calc(#{$radius} + 4px);
+
+// Shadows
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);

@@ -17,16 +17,27 @@
   {% include schema-markup.html %}
 
   
-  <!-- NESSUN PRECONNECT - Performance ottimizzata con font di sistema -->
+  <!-- PRECONNECT optimized for MessyMind fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
-  <!-- NESSUN FONT PRELOAD - Usare font di sistema -->
+  <!-- MessyMind fonts with performance optimization -->
+  {% include messymind-fonts.html %}
   
   <!-- CSS CRITICO INLINE - FASE 1 OTTIMIZZAZIONE -->
   {% include critical-css.html %}
   
-  <!-- CSS NON-CRITICO CARICATO ASINCRONO - PERFORMANCE -->
-  <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <!-- CSS NON-CRITICO CARICATO ASINCRONO CON ALTA PRIORITÀ -->
+  <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="high">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
+  
+  <!-- Fallback CSS critico esteso per evitare FOUC -->
+  <script>
+    // Carica CSS immediatamente per browsers senza supporto preload
+    if (!('onload' in document.createElement('link'))) {
+      document.write('<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">');
+    }
+  </script>
   
   <!-- Preload SOLO immagine LCP ottimizzata -->
   {%- comment -%} Per migliorare Core Web Vitals, preload LCP per ogni pagina.
@@ -41,9 +52,28 @@
   
   <!-- NESSUN FONT AWESOME - Per LCP critico -->
 
-  <!-- NESSUN GOOGLE FONTS - Font di sistema per velocità estrema -->
+  <!-- MessyMind design system with performance optimization -->
 
-  <link rel="icon" type="image/png" href="{{ '/img/favicon/favicon.ico' | relative_url }}">
+  {%- assign fv = site.github.build_revision | default: site.time | date: "%s" -%}
+  <!-- Favicons: only light/dark SVG selectors + single legacy PNG fallback -->
+  <!-- Order: light (media) -> dark (media) -> legacy fallback (no media) -->
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/fav_icon_light.svg' | relative_url }}?v={{ fv }}" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/fav_icon_dark.svg' | relative_url }}?v={{ fv }}" media="(prefers-color-scheme: dark)">
+
+  <!-- Legacy fallback (PNG 32x32). Use relative_url so baseurl is respected. -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/logo/favicon-32.png' | relative_url }}?v={{ fv }}">
+
+  <!-- Safari pinned tab (mask-icon) for pinned tabs; color must be a brand color -->
+  <link rel="mask-icon" href="{{ '/assets/images/logo/fav_icon_light.svg' | relative_url }}?v={{ fv }}" color="#4f8a8b">
+
+  <!-- Indicate the page supports both color schemes and provide theme-color hints -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
+  
+  <!-- Web app manifest -->
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  
   <!-- CSS NON-BLOCKING: main.css già preloaded sopra -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 

@@ -7,13 +7,10 @@ categories: ["mindfulness-ironica"]
 subcluster: "pratiche-quotidiane-urbane"
 tags: ["anapanasati", "respirazione consapevole", "mindful breathing", "meditazione respiro", "satipatthana"]
 date: 2025-09-22T12:45:00+02:00
-image_author: Kevin Valerio
-image_author_url: https://www.pexels.com/it-it/@kelvin809/
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1759139155/pexels-kelvin809-810775_gtsusk.jpg
-background : https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1759139155/pexels-kelvin809-810775_gtsusk.jpg
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1759139155/pexels-kelvin809-810775_gtsusk.jpg
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1759139155/pexels-kelvin809-810775_gtsusk.jpg
-lcp_image_alt: Uu uomo che respira all'aria aperta con gli occhi chiusi e la faccia rilassata. 
+image_author:
+image_author:
+lcp_image: 
+lcp_image_alt: 
 howto:
   name: "Praticare l’Ānāpānasati in 5 step"
   description: "Guida rapida per respirare consapevoli: luogo, postura, respiro lungo/corto, corpo e calma."
@@ -43,7 +40,7 @@ faqs:
 redirect_from: /spiritualita/respirazione-consapevole/
 ---
 
-L’odore del caffè stantio si mischia al ronzio del computer in standby. La tua mente è un browser con cento tab aperti. **Respirazione consapevole**? Sembra l'ultimo dei tuoi problemi. E invece è l’unico che puoi risolvere subito, senza strumenti, senza budget, senza dover cambiare posto.
+L’odore del caffè stantio si mischia al ronzio del computer in standby. Sono le 17:34 e la tua mente è un browser con cento tab aperti. **Respirazione consapevole**? Sembra l'ultimo dei tuoi problemi. E invece è l’unico che puoi risolvere subito, senza strumenti, senza budget, senza dover cambiare posto.
 
 Il Buddha – che di mente affollata se ne intendeva – non ha inventato niente di astruso. Ha solo preso un atto visceralmente semplice e lo ha reso un'**ancora di salvezza**. Chiamava questa pratica **ānāpānasati** (o **mindful breathing**, se preferisci l'inglese), un "antidoto alla distrazione". Niente di più, niente di meno.
 
@@ -91,7 +88,6 @@ Gestisci il respiro, non farti gestire da lui.
 
 {% include faq.html %}
 
----
 
 Prima di chiudere, ecco l'idea da portarti a casa: il respiro è sempre lì, gratis. Usalo.
 
