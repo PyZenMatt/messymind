@@ -4,11 +4,91 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+```gitignore
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
 # Gem files
 *.gem
 .bundle/
 vendor/
-Gemfile.lock
+# Gemfile.lock (committed for reproducible builds normally) - keep if you want
+# Gemfile.lock
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Performance reports and pagespeed artifacts
+docs/evidence/pagespeed/
+pagespeed/
+reports/
+
+# Lighthouse temp dirs that sometimes appear from running lighthouse locally (Windows paths)
+C:\Users\*/AppData/Local/lighthouse*/
+C:\Users\*/AppData/Local/Temp/lighthouse*/
+
+# Local caches / temp files
+.cache/
+.temp/
+tmp/
+
+# Image optimization backups
+img_backup/
+*_optimized.*
+
+# Build / tooling
+dist/
+build/
+
+# Scripts di sviluppo e documentazione interna (se vuoi escluderli togli commento)
+# scripts/
+# WORKFLOW.md
+
+# VS Code
+.vscode/
+
+# Editor files
+*~
+*.swp
+*.swo
+*.bak
+*.backup
+*.tmp
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtualenvs (example)
+venv/
+.venv/
+env/
+ENV/
+
+# Ruby / rbenv / rvm
+.ruby-version
+.rbenv-vars
+
+# IDE / JetBrains
+.idea/
+
+# Misc
+.sass-cache
+node_modules/
+package-lock.json
+
+```
 
 # Node.js
 node_modules/
