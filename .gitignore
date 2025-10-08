@@ -109,7 +109,7 @@ img_backup/
 *_optimized.*
 
 # Scripts di sviluppo e documentazione interna
-scripts/
+scripts_optimize/
 WORKFLOW.md
 
 # VS Code
