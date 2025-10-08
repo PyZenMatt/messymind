@@ -17,20 +17,21 @@ featured: 'true'
 redirect_from:
 - /non-serve-il-momento-perfetto-inizia-male-e-migliora/
 - /iniziare-male-migliorare/
-faq:
-  - q: "Come inizio se sono perfezionista?"
-    a: "Riduci l’unità d’azione a 10 minuti, scegli un compito ‘brutto ma fattibile’, esegui senza ottimizzare."
-  - q: "Ha senso aspettare il momento giusto?"
-    a: "No. Imposta una finestra di 10 minuti oggi. Il ‘momento giusto’ è spesso un rinvio mascherato."
-  - q: "Meglio micro-abitudini o forza di volontà?"
-    a: "Micro-abitudini. La volontà fluttua, i trigger ambientali no."
-  - q: "Quanto dura il protocollo dei 10 minuti?"
-    a: "Per 14 giorni. Se serve estendi a 28 con revisione settimanale."
+
+faqs:
+  - question: "Come inizio se sono perfezionista?"
+    answer: "Riduci l’unità d’azione a 10 minuti, scegli un compito ‘brutto ma fattibile’, esegui senza ottimizzare."
+  - question: "Ha senso aspettare il momento giusto?"
+    answer: "No. Imposta una finestra di 10 minuti oggi. Il ‘momento giusto’ è spesso un rinvio mascherato."
+  - question: "Meglio micro-abitudini o forza di volontà?"
+    answer: "Micro-abitudini. La volontà fluttua, i trigger ambientali no."
+  - question: "Quanto dura il protocollo dei 10 minuti?"
+    answer: "Per 14 giorni. Se serve estendi a 28 con revisione settimanale."
 ---
 
 # Non serve il momento perfetto: inizia male e migliora
 
-
+La moka borbotta, il cursore lampeggia, il perfezionismo sussurra: “Quando avrai tempo…”. Nel frattempo scorre via l’ennesimo giorno. Il momento perfetto è un mito comodo: mentre lo aspetti, non cresci. L’alternativa è concreta e gentile: fai un passo **ridicolmente piccolo**, rendilo visibile (io la chiamo una riga di "log"), miglioralo domani. Questa è **pazienza attiva**.
 
 > *“Il momento perfetto è un mito comodo.”*
 
@@ -166,7 +167,7 @@ Salute, studio, lavoro creativo, relazioni: sono **giochi infiniti**. Non hanno 
 
 ### FAQ
 
-{% include faq.html%}
+{% include faq.html %}
 
 ## Ricapitolando
 
