@@ -31,6 +31,7 @@ docs/evidence/pagespeed/
 pagespeed/
 reports/
 
+
 # Lighthouse temp dirs that sometimes appear from running lighthouse locally (Windows paths)
 C:\Users\*/AppData/Local/lighthouse*/
 C:\Users\*/AppData/Local/Temp/lighthouse*/
@@ -89,6 +90,8 @@ node_modules/
 package-lock.json
 
 ```
+
+reports/
 
 # Node.js
 node_modules/
