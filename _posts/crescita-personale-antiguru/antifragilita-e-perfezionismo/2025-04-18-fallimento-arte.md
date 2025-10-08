@@ -72,4 +72,4 @@ Forse il vero **successo** è questo: resistere alla tirannia dei “forse dovre
 E se non vi convince, pazienza. Ho un origami da finire.
 
 {% comment %} Include related posts: mostra titoli di altri post nella stessa categoria {% endcomment %}
-{% include related-posts.html %}
+ 

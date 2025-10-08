@@ -94,14 +94,7 @@ Prima di chiudere, ecco l'idea da portarti a casa: il respiro è sempre lì, gra
 **Iscriviti per ricevere altre micro-pratiche di 60 secondi. Niente mantra, solo confini che ti liberano un minuto alla volta.**
 
 <!-- Interlink strategici -->
-<div class="interlink-box mt-4 mb-4 p-3 border rounded bg-light">
-  <p><strong>Vuoi approfondire?</strong></p>
-  <ul>
-    <li><a href="/c/mindfulness-ironica/">Tutti gli articoli di Mindfulness Ironica</a></li>
-    <li><a href="/c/mindfulness-ironica/pratiche-quotidiane-urbane/">Pratiche quotidiane urbane</a></li>
-    <li><a href="/mindfulness-ironica/benefici-reali-mindfulness/">Benefici reali della mindfulness (senza incenso)</a></li>
-    <li><a href="/mindfulness-ironica/sabotatori-meditazione/">I 5 sabotatori della meditazione</a></li>
-  </ul>
-</div>
-
-{% include related-posts.html %}
+Vuoi approfondire?
+  - [Tutti gli articoli di Mindfulness Ironica](/categorie/mindfulness-ironica/)
+  - [Meditare senza sembree un monaco, meditare nel traffico](/come-meditare-senza-sedersi-a-gambe-incrociate/)
+  - [I sabotatori della meditazione](/i-sabotatori/)
