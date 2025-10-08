@@ -30,7 +30,7 @@
   {% assign category_url_abs = category_path | absolute_url %}
   {% assign category_url_rel = category_path | relative_url %}
       <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-        <a href="{{ category_url_rel }}" itemtype="http://schema.org/WebPage">
+        <a href="{% if mapped %}{{ mapped | relative_url }}{% else %}{{ category_path | relative_url }}{% endif %}" itemtype="http://schema.org/WebPage">
           <span itemprop="name">{{ category | replace: '-', ' ' | capitalize }}</span>
         </a>
         <meta itemprop="item" content="{{ category_url_abs }}" />
@@ -51,7 +51,7 @@
         {% assign sub_url_abs = sub_path | absolute_url %}
         {% assign sub_url_rel = sub_path | relative_url %}
         <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-          <a href="{{ sub_url_rel }}" itemtype="http://schema.org/WebPage">
+          <a href="{% if mapped_sub %}{{ mapped_sub | relative_url }}{% else %}{{ sub_path | relative_url }}{% endif %}" itemtype="http://schema.org/WebPage">
             <span itemprop="name">{{ page.subcluster | replace: '-', ' ' | capitalize }}</span>
           </a>
           <meta itemprop="item" content="{{ sub_url_abs }}" />
