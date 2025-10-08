@@ -1,0 +1,20 @@
+name: lhci-home
+"on":
+  pull_request:
+    paths:
+      - 'index.md'
+      - '_layouts/**'
+      - '_includes/**'
+      - 'lighthouserc.json'
+jobs:
+  lhci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with: { ruby-version: '3.2', bundler-cache: true }
+      - run: bundle install && bundle exec jekyll build --destination _site_build_test
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: sudo apt-get update && sudo apt-get install -y chromium-browser || sudo apt-get install -y chromium
+      - run: npx @lhci/cli@0.11.0 autorun --config=lighthouserc.json --collect.settings.chromeFlags="--no-sandbox"
