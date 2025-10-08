@@ -20,10 +20,15 @@ layout: default
           <h2 class="section-heading">In evidenza</h2>
               {% if site.featured_category %}
           
-          <!-- Make the featured block visually match other sections but without the action button -->
+              <!-- Make the featured block visually match other sections but without the action button -->
           
-        </div>
-        {% endif %}
+            </div>
+            {% endif %}
+          {% if page.intro %}
+            <div class="lead intro">
+              {{ page.intro | markdownify }}
+            </div>
+          {% endif %}
       </div>
       {% assign featured_posts = site.posts | where: "featured_post", "true" | slice: 0,5 %}
       {% for post in featured_posts %}
