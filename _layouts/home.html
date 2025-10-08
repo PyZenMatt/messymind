@@ -29,6 +29,8 @@ layout: default
               {{ page.intro | markdownify }}
             </div>
           {% endif %}
+          
+          {% include home-cluster-grid.html %}
       </div>
       {% assign featured_posts = site.posts | where: "featured_post", "true" | slice: 0,5 %}
       {% for post in featured_posts %}
