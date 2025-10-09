@@ -1,0 +1,5 @@
+Link check for cluster grid:
+✓ /categorie/mindfulness-ironica/ -> valid
+✓ /categorie/filosofia-pratica/ -> valid
+✓ /categorie/burnout-e-lavoro/ -> valid
+✓ /categorie/crescita-personale-anti-guru/ -> valid
