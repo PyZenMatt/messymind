@@ -18,7 +18,6 @@ redirect_from:
 - //fallire-arte-picasso-scivoloni/
 - /fallimento-arte/
 ---
-**“Fallire è un’arte (e io sono il Picasso degli scivoloni)”**  
 
 Se c’è una cosa che ho imparato a 37 anni, single, con un cactus che sopravvive più a lungo delle mie relazioni, è questa: la società ci divide in due categorie. Quelli che vincono (CEO a 25 anni, foto su Forbes con sfondo sfocato tipo ritratto del Rinascimento) e quelli che perdono (io, che ieri ho comprato il latte scaduto al discount perché era in offerta).  
 

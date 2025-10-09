@@ -17,8 +17,6 @@ redirect_from:
 - /paradosso-desiderio-yeti-palestra-alan-watts/
 ---
 
-## Il Dilemma dello Yeti che Voleva Iscriversi in Palestra  
-
 Immaginate di essere uno yeti. Peloso, goffo, con un’aria perennemente stupita come se vi avessero appena svelato che le montagne su cui vivete sono, in realtà, giganti addormentati. Un giorno, vi convincete che la **felicità** stia nel diventare un yeti *glabro*. Comprate rasoi a 5 lame, creme depilatorie alla lavanda himalayana, seguite corsi di yoga per contorcervi e raggiungere quei peli ribelli tra le scapole. Ma più vi impegnate, più vi accorgete che la ricerca della glabrezza è… beh, un altro tipo di peluria mentale.  
 
 Ecco, il paradosso del desiderio è un po’ così. **Alan Watts** lo raccontava con la storia dello studente che chiede al maestro come **liberarsi dei desideri**. La risposta? “Prova a non desiderare”. Peccato che il tentativo stesso sia già un desiderio, come voler spegnere un incendio con la benzina. Ci siamo cascati tutti, no? Tipo quando decidi di “vivere il momento” e ti ritrovi a fissare l’orologio da meditazione sul cellulare, mentre la notifica di LinkedIn ti ricorda che *Giuseppe ex compagno delle elementari ha ottenuto un nuovo certificato in Mindfulness Operativa*.  .

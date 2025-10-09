@@ -20,8 +20,6 @@ redirect_from:
 - /libero-arbitrio-determinismo
 ---
 
-# Libero Arbitrio e Determinismo: Davvero Non Possiamo Scegliere?
-
 > **Definizione rapida:** Il *libero arbitrio* è la capacità di deliberare e agire secondo ragioni proprie senza costrizioni; il *determinismo* sostiene che ogni evento ha cause antecedenti. Possono essere compatibili (compatibilismo) o no (incompatibilismo).
 
 ⏱️ **Tempo di lettura:** \~9 minuti

@@ -56,8 +56,6 @@ faqs:
 redirect_from: /burnout e lavoro/autenticita-e-lavoro/
 ---
 
-# Lavoro e Autenticità: Come Sopravvivere all’Ufficio Senza Perdere l’Anima (e la Sanità Mentale)
-
 **In breve — cosa trovi qui:** 7 mosse pratiche per essere te stesso al lavoro senza sembrare “contro”, frasi assertive pronte all’uso, micro-pratiche da 5 minuti e un metodo gentile per gestire i colleghi difficili. Niente dogmi: solo piccoli cambiamenti sostenibili.
 
 ## Cos’è l’autenticità sul lavoro (e perché conta davvero)

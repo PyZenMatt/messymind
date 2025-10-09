@@ -33,8 +33,6 @@ question: "Quali alternative serie esistono?"
 answer: "Terapia familiare sistemica, Terapia Cognitivo-Comportamentale (TCC), Internal Family Systems (IFS), confini chiari e rete di supporto reale."
 ---
 
-# Costellazioni familiari: opinioni, esperienze e la realtà dietro il rito
-
 L’atmosfera è sempre quella: luci basse, cerchio di sedie, sconosciuti che si passano lo sguardo. C’è chi fissa le mani, chi il tappeto. Arriva il conduttore, un tono da sacerdote laico. “Chi vuole constellare?”. Una mano timida si alza. E parte il casting: “Tu sarai il padre, tu la nonna, tu il segreto di famiglia”. È un psicodramma, un reality, una seduta spiritica? Le **opinioni sulle costellazioni familiari** sono un campo minato. Qui, niente guru talk: solo esperienze vere, pareri clinici e un po’ di sano sarcasmo.
 
 ## Un po’ di storia: le origini di un business (molto redditizio)

@@ -18,7 +18,6 @@ redirect_from:
 - /federico-faggin-qip-seita/
 ---
 
-# Federico Faggin, QIP e Séità: La Teoria della Coscienza che Sfida il Mainstream
 
 Se pensate che la coscienza sia quel simpatico effetto collaterale che il vostro cervello produce mentre cercate le chiavi dell'auto, Federico Faggin – l'ingegnere che guidò il design del primo microprocessore commerciale (Intel 4004) e ne è co-inventore – ha una notizia per voi: state sottovalutando il problema. La sua idea, radicale? La coscienza non *emerge* dalla materia. È esattamente il contrario: è lei il mattone fondamentale dell'universo. Pronti a farvi venire il mal di testa?
 

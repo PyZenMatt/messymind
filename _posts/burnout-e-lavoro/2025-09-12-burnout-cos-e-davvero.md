@@ -44,7 +44,6 @@ howto:
   - name: "Giorno 7: Retrospettiva"
     text: "Rileggi l'audit del giorno 1. C'è un picco? Un calo? Cosa lo ha influenzato? Usalo per pianificare la prossima settimana."
 ---
-# Burnout: cos'è davvero e come riconoscerlo (senza incenso)
 
 **In breve:** Il burnout non è stress. È esaurimento emotivo, cinismo e senso di inefficacia legati al lavoro. I 3 segnali lampo? Stanchezza che non passa, irritabilità alle stelle e produttività a picco. La prima mossa? Misura la tua energia 3 volte al giorno per una settimana. Solo numeri, niente storie.
 

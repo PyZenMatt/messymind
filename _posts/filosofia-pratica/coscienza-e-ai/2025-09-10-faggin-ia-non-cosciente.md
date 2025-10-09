@@ -19,8 +19,6 @@ redirect_from:
 - /ia-cosciente-per-faggin-e-unillusione-2025/
 - /faggin-ia-non-cosciente/
 ---
-# IA Cosciente? Per Faggin è un'Illusione: Cosa Manca Davvero alle Macchine
-
 *Aggiornato il 8 settembre 2025 · Lettura: ~7 min*
 
 Immaginate di dare a un marziano il manuale d'istruzioni dell'universo. Lui imparerà che la parola "dolore" è statisticamente vicina a "lacrime", "medico" e "lamentela". Ma ha la più pallida idea di cosa *sia* quel dolore lancinante che ti trafigge la schiena dopo una giornata su una sedia scomoda? No. Per Federico Faggin, l'IA è quel marziano: un illusionista iper-specializzato che non ha mai avuto un contatto diretto con la realtà. E non lo avrà mai.
