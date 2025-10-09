@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Blocca solo cartelle tecniche non rilevanti per il SEO
+Disallow: /assets/node_modules/
+Disallow: /_site/
+Disallow: /bin/
+Disallow: /scripts/
+
+# Consenti l'accesso alla sitemap
+Sitemap: https://messymind.it/sitemap.xml

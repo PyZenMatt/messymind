@@ -13,58 +13,6 @@ layout: default
     </div>
   </div>
 
-  <!-- Featured Section -->
-  <div class="row mb-5">
-    <div class="col-12">
-      <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
-          <h2 class="section-heading">In evidenza</h2>
-              {% if site.featured_category %}
-          
-          <!-- Make the featured block visually match other sections but without the action button -->
-          
-        </div>
-        {% endif %}
-      </div>
-      {% assign featured_posts = site.posts | where: "featured_post", "true" | slice: 0,5 %}
-      {% for post in featured_posts %}
-      <div class="card mb-4 post-card">
-        <div class="row no-gutters">
-          <div class="col-md-4 d-none d-md-block">
-            {% assign loading_type = 'lazy' %}
-            {% if forloop.first %}
-              {% assign loading_type = 'eager' %}
-            {% endif %}
-            {% include optimized-image.html 
-               src=post.background 
-               alt=post.title 
-               class="card-img d-none d-md-block"
-               width="400"
-               height="300" 
-               loading=loading_type %}
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <a href="{{ post.url | relative_url }}" class="text-decoration-none">
-                <h3 class="card-title">{{ post.title }}</h3>
-              </a>
-              {% if post.description %}
-              <p class="card-text">{{ post.description }}</p>
-              {% else %}
-              <p class="card-text d-none d-md-block">{{ post.meta | strip_html | truncatewords: 25 }}</p>
-              {% endif %}
-              <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">
-                  <svg class="icon icon-calendar" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: '%d/%m/%Y' }}
-                </small>
-                <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">Leggi tutto</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
 
   <!-- Latest Posts -->
   <div class="row">
@@ -79,7 +27,14 @@ layout: default
         </a>
       </div>
   <div class="row equalize">
-        {% for post in site.posts limit:3 %}
+        {% comment %} Filter out featured posts from latest {% endcomment %}
+        {% assign featured_posts = site.posts | where: "featured_post", "true" %}
+        {% assign latest_posts = site.posts | where: "featured_post", nil %}
+        {% if featured_posts.size == 0 %}
+          {% assign latest_posts = site.posts %}
+        {% endif %}
+        
+        {% for post in latest_posts limit:6 %}
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
             {% include optimized-image.html 
@@ -112,89 +67,4 @@ layout: default
   </div>
 </div>
 
-<!-- Hero Section - Spostata in alto 
-<header class="masthead" style="background-image: url('{{ site.hero_image | default: '/img/home/bg-home.jpeg' }}');">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="site-heading">
-          <h2>{{ site.title }}</h2>
-          <span class="subheading">{{ site.description }}</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>-->
 
-
-<!-- Sezioni per Categoria (Automatiche) -->
-{% for cat in site.categories %}
-  {% assign category = cat[0] %}
-  {% assign posts = cat[1] %}
-  {% assign key = category | downcase %}
-  {% assign mapped = site.data.category_slugs[key] %}
-    {% if mapped %}
-    {% assign mapped_url = mapped | relative_url %}
-    {% else %}
-    {% assign mapped_url = '/categorie/' | append: category | slugify | append: '/' | relative_url %}
-  {% endif %}
-  {%- comment -%}
-    Se desideri escludere determinate categorie, ad esempio quelle già gestite in altri blocchi,
-    puoi inserire una condizione come:
-    
-    {% if category == "nome_categoria_da_escludere" %}
-      {% continue %}
-    {% endif %}
-  {%- endcomment -%}
-  {% if posts.size > 0 %}
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-12">
-  <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
-          <h2 class="section-heading"><span class="label-argomento">Argomento:</span> <span class="category-name">{{ category | replace: '-', ' ' | replace: '_', ' ' | strip }}</span></h2>
-            <a href="{{ mapped_url }}" class="btn btn-primary btn-small">
-              <span class="btn-text">Vedi tutti</span>
-                <svg class="icon icon-arrow-right" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-          </a>
-        </div>
-  {% assign top_posts = posts | slice: 0, 3 %}
-        {% for post in top_posts %}
-        <div class="card mb-4 post-card">
-          <div class="row no-gutters">
-            <div class="col-md-4 d-none d-md-block">
-              {% include optimized-image.html 
-                 src=post.background 
-                 alt=post.title 
-                 class="card-img d-none d-md-block"
-                 width="400"
-                 height="300" %}
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <a href="{{ post.url | relative_url }}" class="text-decoration-none">
-                  <h2 class="card-title">{{ post.title }}</h2>
-                </a>
-                {% if post.description %}
-                <p class="card-text">{{ post.description }}</p>
-                {% else %}
-                <p class="card-text d-none d-md-block">{{ post.meta | strip_html | truncatewords: 25 }}</p>
-                {% endif %}
-                <div class="d-flex justify-content-between align-items-center">
-                  <small class="text-muted">
-                    <svg class="icon icon-calendar" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: '%d/%m/%Y' }}
-                  </small>
-                  <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">Leggi tutto</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  {% endif %}
-{% endfor %}
