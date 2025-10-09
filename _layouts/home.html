@@ -6,21 +6,19 @@ layout: default
 {% include home-hero.html %}
 
 <!-- Modern SEO Layout -->
-<main class="home-content">
-  
-  <!-- Brand Intro Section -->
-  <section class="brand-intro bg-light py-5">
+<main class="home-content" id="content" tabindex="-1"><!-- Brand Intro Section -->
+  <section class="brand-intro py-5" aria-labelledby="brand-intro-heading">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-md-10">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 id="brand-intro-heading" class="visually-hidden">Introduzione</h2>
           <div class="intro-content text-center">
             <p class="lead mb-4">
-              Guide pratiche senza guru per navigare il caos quotidiano con ironia e consapevolezza. 
-              Mindfulness urbana, ritmi gentili e filosofia utile per chi vive nel mondo reale.
+              Qui niente mantra perfetti: strumenti pratici per ridurre l’ansia da produttività e ritrovare ritmo. Mindfulness urbana, scelte minime ripetute, filosofia utile per chi lavora davvero.
             </p>
-            <div class="intro-links">
-              <a href="/categorie/burnout-e-lavoro/" class="btn btn-outline-primary me-3">Scopri Burnout e Lavoro</a>
-              <a href="/equilibrio-interiore-guida-pratica/" class="btn btn-outline-secondary">Guida all'Equilibrio</a>
+            <div class="intro-links d-flex justify-content-center gap-3 flex-wrap">
+              <a href="/categorie/burnout-e-lavoro/" class="btn btn-primary">Vai al cluster Burnout e Lavoro</a>
+              <a href="/equilibrio-interiore-guida-pratica/" class="btn btn-outline-secondary">Apri la Guida all’Equilibrio</a>
             </div>
           </div>
         </div>
@@ -29,138 +27,106 @@ layout: default
   </section>
 
   <div class="container py-5">
-    
+
     <!-- Temi Principali - Cluster Grid 2x2 -->
     <section class="cluster-grid mb-5" aria-labelledby="cluster-heading">
       <div class="row mb-4">
         <div class="col-12">
-          <h2 id="cluster-heading" class="section-heading text-center">Temi Principali</h2>
-          <p class="text-center text-muted">Esplora i quattro pilastri della crescita consapevole</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <h2 id="cluster-heading" class="section-heading mb-0">Temi Principali</h2>
+            <!-- optional right-side CTA could go here -->
+          </div>
+          <p class="text-muted mt-2 mb-0">Esplora i quattro pilastri di MessyMind</p>
         </div>
       </div>
-      <div class="row g-4">
+      
+      <!-- GRID RISCRITTA CON FLEXBOX PURO - NO BOOTSTRAP -->
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 0;">
+        
         <!-- Burnout e Lavoro -->
-        <div class="col-lg-6 col-md-6">
-          <div class="cluster-card h-100 p-4 border rounded-3 bg-white shadow-sm">
-            <h3 class="cluster-title mb-3">
-              <a href="/categorie/burnout-e-lavoro/" class="text-decoration-none">Burnout e Lavoro</a>
-            </h3>
-            <p class="cluster-description text-muted mb-3">
-              Ritmi gentili e autenticità professionale per sopravvivere al mondo del lavoro senza perdere l'anima.
-            </p>
-            <a href="/categorie/burnout-e-lavoro/" class="btn btn-sm btn-outline-primary" aria-label="Esplora articoli su burnout e lavoro">
-              Esplora <span class="visually-hidden">Burnout e Lavoro</span>
-            </a>
+        <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+          <div class="mm-card h-100 p-4">
+            <h3 class="mb-2"><a href="/categorie/burnout-e-lavoro/" class="text-decoration-none">Burnout e Lavoro</a></h3>
+            <p class="text-muted mb-3">Riduci attrito e straordinari mentali. Strumenti semplici per staccare, dire no e proteggere energia e sonno.</p>
           </div>
         </div>
         
         <!-- Mindfulness Ironica -->
-        <div class="col-lg-6 col-md-6">
-          <div class="cluster-card h-100 p-4 border rounded-3 bg-white shadow-sm">
-            <h3 class="cluster-title mb-3">
-              <a href="/categorie/mindfulness-ironica/" class="text-decoration-none">Mindfulness Ironica</a>
-            </h3>
-            <p class="cluster-description text-muted mb-3">
-              Meditazione urbana e pratiche quotidiane per chi non ha tempo di sedersi a gambe incrociate.
-            </p>
-            <a href="/categorie/mindfulness-ironica/" class="btn btn-sm btn-outline-primary" aria-label="Esplora articoli su mindfulness ironica">
-              Esplora <span class="visually-hidden">Mindfulness Ironica</span>
-            </a>
+        <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+          <div class="mm-card h-100 p-4">
+            <h3 class="mb-2"><a href="/categorie/mindfulness-ironica/" class="text-decoration-none">Mindfulness Ironica</a></h3>
+            <p class="text-muted mb-3">Pratiche brevi e reali. Nessun incenso: attenzione allenata tra mail, riunioni e notifiche.</p>
           </div>
         </div>
         
-        <!-- Crescita Personale Anti-Guru -->
-        <div class="col-lg-6 col-md-6">
-          <div class="cluster-card h-100 p-4 border rounded-3 bg-white shadow-sm">
-            <h3 class="cluster-title mb-3">
-              <a href="/categorie/crescita-personale-anti-guru/" class="text-decoration-none">Crescita Anti-Guru</a>
-            </h3>
-            <p class="cluster-description text-muted mb-3">
-              Sviluppo personale realistico, senza promesse magiche e con i piedi ben piantati per terra.
-            </p>
-            <a href="/categorie/crescita-personale-anti-guru/" class="btn btn-sm btn-outline-primary" aria-label="Esplora articoli su crescita personale anti-guru">
-              Esplora <span class="visually-hidden">Crescita Anti-Guru</span>
-            </a>
+        <!-- Crescita Anti-Guru -->
+        <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+          <div class="mm-card h-100 p-4">
+            <h3 class="mb-2"><a href="/categorie/crescita-personale-anti-guru/" class="text-decoration-none">Crescita Anti‑Guru</a></h3>
+            <p class="text-muted mb-3">Miglioramenti minimi e verificabili. Routine sostenibili, zero promesse miracolose.</p>
           </div>
         </div>
         
         <!-- Filosofia Pratica -->
-        <div class="col-lg-6 col-md-6">
-          <div class="cluster-card h-100 p-4 border rounded-3 bg-white shadow-sm">
-            <h3 class="cluster-title mb-3">
-              <a href="/categorie/filosofia-pratica/" class="text-decoration-none">Filosofia Pratica</a>
-            </h3>
-            <p class="cluster-description text-muted mb-3">
-              Riflessioni filosofiche applicabili alla vita quotidiana, tra scienza, coscienza e buon senso.
-            </p>
-            <a href="/categorie/filosofia-pratica/" class="btn btn-sm btn-outline-primary" aria-label="Esplora articoli su filosofia pratica">
-              Esplora <span class="visually-hidden">Filosofia Pratica</span>
-            </a>
+        <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+          <div class="mm-card h-100 p-4">
+            <h3 class="mb-2"><a href="/categorie/filosofia-pratica/" class="text-decoration-none">Filosofia Pratica</a></h3>
+            <p class="text-muted mb-3">Idee che aiutano le decisioni. Bias, limiti e libertà spiegati senza accademichese.</p>
           </div>
         </div>
+        
       </div>
     </section>
 
     <!-- Ultimi Articoli -->
     <section class="latest-posts mb-5" aria-labelledby="latest-heading">
-      <div class="row mb-4">
-        <div class="col-12">
-          <div class="d-flex justify-content-between align-items-center">
-            <h2 id="latest-heading" class="section-heading">Ultimi Articoli</h2>
-            <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">
-              Vedi tutti
-              <svg class="icon icon-arrow-right ms-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-                <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </a>
-          </div>
+      <div class="row mb-3">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <h2 id="latest-heading" class="section-heading mb-0">Ultimi Articoli</h2>
+          <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">Vedi tutti</a>
         </div>
       </div>
-      
-      {% comment %} Get featured post to exclude from latest {% endcomment %}
-      {% assign featured_posts = site.posts | where: "featured_post", "true" %}
+
+      {% comment %} Featured governance: escludi featured dall'elenco {% endcomment %}
+      {% assign featured_posts = site.posts | where: "featured_post", true %}
       {% if featured_posts.size > 1 %}
         {% assign featured_posts = featured_posts | sort: "featured_rank" %}
       {% endif %}
       {% assign featured_post = featured_posts.first %}
-      
-      {% comment %} Filter latest posts excluding featured {% endcomment %}
+
       {% assign latest_posts = site.posts %}
       {% if featured_post %}
         {% assign latest_posts = site.posts | where_exp: "post", "post.url != featured_post.url" %}
       {% endif %}
-      
-      <div class="row g-4">
-        {% for post in latest_posts limit:8 %}
-        <div class="col-lg-3 col-md-6 col-sm-6">
-          <article class="post-card h-100 border rounded-3 bg-white shadow-sm">
-            {% include optimized-image.html 
-               src=post.background 
-               alt=post.title
-               class="card-img-top rounded-top"
-               width="300"
-               height="200"
-               loading="lazy" %}
-            <div class="card-body d-flex flex-column">
-              <h3 class="post-title mb-2">
+
+      <div class="row g-4 align-items-stretch">
+        {% for post in latest_posts limit:9 %}
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="post-card h-100 border rounded-3 shadow-sm mm-card" itemscope itemtype="https://schema.org/BlogPosting">
+            {% assign card_img = post.background | default: post.image | default: post.lcp_image %}
+{% assign card_alt = post.lcp_image_alt | default: post.title %}
+{% if card_img %}
+  <div class="thumb ratio ratio-16x9 rounded-top overflow-hidden">
+    {% include optimized-image.html src=card_img alt=card_alt class='w-100 h-100' %}
+  </div>
+{% endif %}
+            <div class="card-body">
+              <h3 class="post-title mb-2 h6" itemprop="headline">
                 <a href="{{ post.url | relative_url }}" class="text-decoration-none">
                   {{ post.title | truncate: 60 }}
                 </a>
               </h3>
-              {% if post.categories.size > 0 %}
-              <div class="post-category mb-2">
-                <span class="badge bg-light text-dark">{{ post.categories.first | replace: '-', ' ' | capitalize }}</span>
-              </div>
+              
+              {% assign _excerpt = post.description | default: post.seo_description | default: post.excerpt %}
+              {% if _excerpt %}
+                <p class="post-excerpt text-muted mb-3">{{ _excerpt | strip_html | strip_newlines | truncate: 110 }}</p>
               {% endif %}
-              <div class="post-meta mt-auto">
-                <small class="text-muted">
-                  <svg class="icon icon-calendar me-1" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7 11h10v2H7z" fill="#666"/>
-                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/>
-                  </svg>
-                  {{ post.date | date: '%d/%m/%Y' }}
-                </small>
-              </div>
+              <div class="post-meta mt-2 d-flex align-items-center gap-2 flex-wrap">
+  <small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small>
+  {% if post.categories.size > 0 %}
+    <span class="badge badge-mm">{{ post.categories.first | replace: '-', ' ' | capitalize }}</span>
+  {% endif %}
+</div>
             </div>
           </article>
         </div>
@@ -168,7 +134,48 @@ layout: default
       </div>
     </section>
 
+    <!-- Cornerstone -->
+    <section class="cornerstone mb-5" aria-labelledby="cornerstone-heading">
+      <div class="row mb-3">
+        <div class="col-12 text-center">
+          <h2 id="cornerstone-heading" class="section-heading">Guide essenziali</h2>
+          <p class="text-muted mb-0">Inizia da qui se è la tua prima volta</p>
+        </div>
+      </div>
+      {% assign cornerstones = site.posts | where: 'cornerstone', true %}
+      {% if cornerstones.size > 0 %}
+      {% assign cornerstones = cornerstones | sort: 'cornerstone_rank' %}
+      <div class="row g-4 align-items-stretch">
+        {% for post in cornerstones limit:3 %}
+        <div class="col-12 col-md-4">
+          <article class="mm-card h-100 p-4 border rounded-3 shadow-sm">
+            <h3 class="h5 mb-2">
+              <a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title | truncate: 64 }}</a>
+            </h3>
+            {% assign csum = post.summary | default: post.description | default: post.seo_description %}
+            {% if csum %}
+              <p class="text-muted mb-3">{{ csum | strip_html | truncate: 120 }}</p>
+            {% endif %}
+            <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">Apri</a>
+          </article>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </section>
+
+    <!-- CTA -->
+    <section class="cta mb-4" aria-labelledby="cta-heading">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+          <div class="mm-card p-4 border rounded-3 shadow-sm text-center">
+            <h2 id="cta-heading" class="h4 mb-2">Ricevi 1 pratica a settimana</h2>
+            <p class="text-muted mb-3">Zero spam. Una sola email con una micro‑tecnica testata sul campo.</p>
+            <a href="/newsletter/" class="btn btn-primary">Iscriviti</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </main>
-
-
