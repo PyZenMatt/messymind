@@ -24,15 +24,23 @@
     </div>
   </div>
   
-  <!-- LCP Hero Image (hidden but preloaded) -->
-  {% assign hero_img = page.hero_image | default: page.background | default: '/img/home/bg-home.jpeg' %}
+  <!-- LCP Hero Image with direct optimization -->
+  {% assign hero_img = page.hero_image | default: page.background | default: '/img/home/bg-home-1600.jpg' %}
   {% assign hero_webp = hero_img | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' %}
+  {% assign hero_webp_800 = hero_webp | replace: '-1600.webp', '.webp' %}
   
-  {% include optimized-image.html 
-     src=hero_img
-     alt=page.h1
-     class="hero-lcp-image sr-only"
-     width="1600"
-     height="900"
-     lcp=true %}
+  <picture class="home-hero">
+    <source srcset="{{ hero_webp_800 | absolute_url }} 800w, {{ hero_webp | absolute_url }} 1600w" 
+            sizes="(max-width: 768px) 100vw, 1200px" 
+            type="image/webp">
+    <img src="{{ hero_webp | absolute_url }}" 
+         srcset="{{ hero_webp_800 | absolute_url }} 800w, {{ hero_webp | absolute_url }} 1600w"
+         sizes="(max-width: 768px) 100vw, 1200px"
+         width="1600" 
+         height="900" 
+         loading="eager" 
+         fetchpriority="high"
+         alt="{{ page.h1 | default: site.title }}"
+         class="hero-lcp-image sr-only">
+  </picture>
 </header>

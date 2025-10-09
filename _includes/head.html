@@ -27,6 +27,9 @@
   <!-- CSS CRITICO INLINE - FASE 1 OTTIMIZZAZIONE -->
   {% include critical-css.html %}
   
+  <!-- Hero LCP critical CSS -->
+  <style>.home-hero{aspect-ratio:16/9;min-height:clamp(320px,56vw,900px)}.home-hero img{display:block;width:100%;height:auto;object-fit:cover}</style>
+  
   <!-- CSS NON-CRITICO CARICATO ASINCRONO CON ALTA PRIORITÀ -->
   <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="high">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
