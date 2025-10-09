@@ -2,21 +2,14 @@
 layout: default
 ---
 
+{% include home-hero.html %}
+
 <!-- Main Content -->
 <div class="container">
   <!-- Featured Section -->
   <div class="row mb-5">
     <div class="col-12">
       <div class="category-header d-flex flex-wrap justify-content-between align-items-center mb-4">
-        {% unless page.hide_home_title %}
-            <h1 class="site-title mb-2">
-              {{ page.h1 | default: site.home_h1 | default: site.title }}
-            </h1>
-          {% else %}
-            <h1 class="sr-only" style="position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;border:0!important;">
-              {{ page.h1 | default: site.home_h1 | default: site.title }}
-            </h1>
-          {% endunless %}
           <h2 class="section-heading">In evidenza</h2>
               {% if site.featured_category %}
           

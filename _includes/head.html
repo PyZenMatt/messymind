@@ -46,8 +46,13 @@
   {%- endcomment -%}
   {%- assign lcp_candidate = page.lcp_image | default: page.og_image | default: page.image | default: page.background | default: site.image -%}
   {%- if lcp_candidate -%}
-    <!-- Preload LCP as-is to avoid Cloudinary double-fetch when using f_auto -->
-    <link rel="preload" as="image" href="{{ lcp_candidate | absolute_url }}" fetchpriority="high">
+    {%- assign lcp_fallback = page.hero_image | default: page.background | default: site.image -%}
+    <!-- Preload LCP with responsive srcset for optimal mobile/desktop delivery -->
+    <link rel="preload" as="image" 
+          href="{{ lcp_candidate | absolute_url }}" 
+          imagesrcset="{{ lcp_candidate | absolute_url }} 800w, {{ lcp_fallback | absolute_url }} 1200w"
+          imagesizes="100vw"
+          fetchpriority="high">
   {%- endif -%}
   
   <!-- NESSUN FONT AWESOME - Per LCP critico -->

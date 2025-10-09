@@ -1,0 +1,38 @@
+<!-- Hero Section -->
+<header class="masthead" style="background-image: url('{{ page.hero_image | default: page.background | default: site.hero_image | default: '/img/home/bg-home.jpeg' }}');">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          {% unless page.hide_home_title %}
+            <h1 class="site-title">
+              {{ page.h1 | default: site.home_h1 | default: site.title }}
+            </h1>
+          {% else %}
+            <h1 class="sr-only" style="position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;border:0!important;">
+              {{ page.h1 | default: site.home_h1 | default: site.title }}
+            </h1>
+          {% endunless %}
+          {% if page.intro %}
+            <div class="lead intro">
+              {{ page.intro | markdownify }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- LCP Hero Image (hidden but preloaded) -->
+  {% assign hero_img = page.hero_image | default: page.background | default: '/img/home/bg-home.jpeg' %}
+  {% assign hero_webp = hero_img | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' %}
+  
+  {% include optimized-image.html 
+     src=hero_img
+     alt=page.h1
+     class="hero-lcp-image sr-only"
+     width="1200"
+     height="798"
+     lcp=true %}
+</header>
