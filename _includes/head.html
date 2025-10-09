@@ -47,11 +47,13 @@
   {%- assign lcp_candidate = page.lcp_image | default: page.og_image | default: page.image | default: page.background | default: site.image -%}
   {%- if lcp_candidate -%}
     {%- assign lcp_fallback = page.hero_image | default: page.background | default: site.image -%}
-    <!-- Preload LCP with responsive srcset for optimal mobile/desktop delivery -->
+    {%- assign webp_800 = lcp_candidate | replace: '-1600.webp', '.webp' -%}
+    {%- assign jpeg_1200 = lcp_fallback | replace: '-1600.jpg', '.jpeg' -%}
+    <!-- Preload LCP with responsive srcset: mobile WebP 800w, desktop WebP 1600w, JPEG fallbacks -->
     <link rel="preload" as="image" 
           href="{{ lcp_candidate | absolute_url }}" 
-          imagesrcset="{{ lcp_candidate | absolute_url }} 800w, {{ lcp_fallback | absolute_url }} 1200w"
-          imagesizes="100vw"
+          imagesrcset="{{ webp_800 | absolute_url }} 800w, {{ lcp_candidate | absolute_url }} 1600w"
+          imagesizes="(max-width: 768px) 100vw, 1200px"
           fetchpriority="high">
   {%- endif -%}
   
