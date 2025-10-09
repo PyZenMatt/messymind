@@ -2,69 +2,173 @@
 layout: default
 ---
 
+{% include schema-home.html %}
 {% include home-hero.html %}
 
-<!-- Main Content -->
-<div class="container">
-  <!-- Temi principali section -->
-  <div class="row mb-5">
-    <div class="col-12">
-      {% include temi-principali.html %}
-    </div>
-  </div>
-
-
-  <!-- Latest Posts -->
-  <div class="row">
-    <div class="col-12">
-      <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 class="section-heading">Ultimi Articoli</h2>
-          <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">
-            Vedi tutti
-            <svg class="icon icon-arrow-right" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-        </a>
-      </div>
-  <div class="row equalize">
-        {% comment %} Filter out featured posts from latest {% endcomment %}
-        {% assign featured_posts = site.posts | where: "featured_post", "true" %}
-        {% assign latest_posts = site.posts | where: "featured_post", nil %}
-        {% if featured_posts.size == 0 %}
-          {% assign latest_posts = site.posts %}
-        {% endif %}
-        
-        {% for post in latest_posts limit:6 %}
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            {% include optimized-image.html 
-               src=post.background 
-               alt=post.title 
-               class="card-img-top"
-               width="400"
-               height="250"
-               loading="lazy" %}
-            <div class="card-body">
-              <a href="{{ post.url }}" class="text-decoration-none">
-                <h3 class="card-title">{{ post.title }}</h3>
-              </a>
-              {% if post.description %}
-              <p class="card-text">{{ post.description }}</p>
-              {% else %}
-              <p class="card-text d-none d-md-block">{{ post.meta | strip_html | truncatewords: 15 }}</p>
-              {% endif %}
-            </div>
-            <div class="card-footer bg-white">
-              <small class="text-muted">
-                <svg class="icon icon-calendar" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: '%d/%m/%Y' }}
-              </small>
+<!-- Modern SEO Layout -->
+<main class="home-content">
+  
+  <!-- Brand Intro Section -->
+  <section class="brand-intro bg-light py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+          <div class="intro-content text-center">
+            <p class="lead mb-4">
+              Guide pratiche senza guru per navigare il caos quotidiano con ironia e consapevolezza. 
+              Mindfulness urbana, ritmi gentili e filosofia utile per chi vive nel mondo reale.
+            </p>
+            <div class="intro-links">
+              <a href="/categorie/burnout-e-lavoro/" class="btn btn-outline-primary me-3">Scopri Burnout e Lavoro</a>
+              <a href="/equilibrio-interiore-guida-pratica/" class="btn btn-outline-secondary">Guida all'Equilibrio</a>
             </div>
           </div>
         </div>
-        {% endfor %}
       </div>
     </div>
+  </section>
+
+  <div class="container py-5">
+    
+    <!-- Temi Principali - Cluster Grid 2x2 -->
+    <section class="cluster-grid mb-5" aria-labelledby="cluster-heading">
+      <div class="row mb-4">
+        <div class="col-12">
+          <h2 id="cluster-heading" class="section-heading text-center">Temi Principali</h2>
+          <p class="text-center text-muted">Esplora i quattro pilastri della crescita consapevole</p>
+        </div>
+      </div>
+      <div class="row g-4">
+        <!-- Burnout e Lavoro -->
+        <div class="col-lg-6 col-md-6">
+          <div class="cluster-card h-100 p-4 border rounded-3 bg-white shadow-sm">
+            <h3 class="cluster-title mb-3">
+              <a href="/categorie/burnout-e-lavoro/" class="text-decoration-none">Burnout e Lavoro</a>
+            </h3>
+            <p class="cluster-description text-muted mb-3">
+              Ritmi gentili e autenticità professionale per sopravvivere al mondo del lavoro senza perdere l'anima.
+            </p>
+            <a href="/categorie/burnout-e-lavoro/" class="btn btn-sm btn-outline-primary" aria-label="Esplora articoli su burnout e lavoro">
+              Esplora <span class="visually-hidden">Burnout e Lavoro</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Mindfulness Ironica -->
+        <div class="col-lg-6 col-md-6">
+          <div class="cluster-card h-100 p-4 border rounded-3 bg-white shadow-sm">
+            <h3 class="cluster-title mb-3">
+              <a href="/categorie/mindfulness-ironica/" class="text-decoration-none">Mindfulness Ironica</a>
+            </h3>
+            <p class="cluster-description text-muted mb-3">
+              Meditazione urbana e pratiche quotidiane per chi non ha tempo di sedersi a gambe incrociate.
+            </p>
+            <a href="/categorie/mindfulness-ironica/" class="btn btn-sm btn-outline-primary" aria-label="Esplora articoli su mindfulness ironica">
+              Esplora <span class="visually-hidden">Mindfulness Ironica</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Crescita Personale Anti-Guru -->
+        <div class="col-lg-6 col-md-6">
+          <div class="cluster-card h-100 p-4 border rounded-3 bg-white shadow-sm">
+            <h3 class="cluster-title mb-3">
+              <a href="/categorie/crescita-personale-anti-guru/" class="text-decoration-none">Crescita Anti-Guru</a>
+            </h3>
+            <p class="cluster-description text-muted mb-3">
+              Sviluppo personale realistico, senza promesse magiche e con i piedi ben piantati per terra.
+            </p>
+            <a href="/categorie/crescita-personale-anti-guru/" class="btn btn-sm btn-outline-primary" aria-label="Esplora articoli su crescita personale anti-guru">
+              Esplora <span class="visually-hidden">Crescita Anti-Guru</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Filosofia Pratica -->
+        <div class="col-lg-6 col-md-6">
+          <div class="cluster-card h-100 p-4 border rounded-3 bg-white shadow-sm">
+            <h3 class="cluster-title mb-3">
+              <a href="/categorie/filosofia-pratica/" class="text-decoration-none">Filosofia Pratica</a>
+            </h3>
+            <p class="cluster-description text-muted mb-3">
+              Riflessioni filosofiche applicabili alla vita quotidiana, tra scienza, coscienza e buon senso.
+            </p>
+            <a href="/categorie/filosofia-pratica/" class="btn btn-sm btn-outline-primary" aria-label="Esplora articoli su filosofia pratica">
+              Esplora <span class="visually-hidden">Filosofia Pratica</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ultimi Articoli -->
+    <section class="latest-posts mb-5" aria-labelledby="latest-heading">
+      <div class="row mb-4">
+        <div class="col-12">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2 id="latest-heading" class="section-heading">Ultimi Articoli</h2>
+            <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">
+              Vedi tutti
+              <svg class="icon icon-arrow-right ms-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      {% comment %} Get featured post to exclude from latest {% endcomment %}
+      {% assign featured_posts = site.posts | where: "featured_post", "true" %}
+      {% if featured_posts.size > 1 %}
+        {% assign featured_posts = featured_posts | sort: "featured_rank" %}
+      {% endif %}
+      {% assign featured_post = featured_posts.first %}
+      
+      {% comment %} Filter latest posts excluding featured {% endcomment %}
+      {% assign latest_posts = site.posts %}
+      {% if featured_post %}
+        {% assign latest_posts = site.posts | where_exp: "post", "post.url != featured_post.url" %}
+      {% endif %}
+      
+      <div class="row g-4">
+        {% for post in latest_posts limit:8 %}
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <article class="post-card h-100 border rounded-3 bg-white shadow-sm">
+            {% include optimized-image.html 
+               src=post.background 
+               alt=post.title
+               class="card-img-top rounded-top"
+               width="300"
+               height="200"
+               loading="lazy" %}
+            <div class="card-body d-flex flex-column">
+              <h3 class="post-title mb-2">
+                <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                  {{ post.title | truncate: 60 }}
+                </a>
+              </h3>
+              {% if post.categories.size > 0 %}
+              <div class="post-category mb-2">
+                <span class="badge bg-light text-dark">{{ post.categories.first | replace: '-', ' ' | capitalize }}</span>
+              </div>
+              {% endif %}
+              <div class="post-meta mt-auto">
+                <small class="text-muted">
+                  <svg class="icon icon-calendar me-1" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 11h10v2H7z" fill="#666"/>
+                    <path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/>
+                  </svg>
+                  {{ post.date | date: '%d/%m/%Y' }}
+                </small>
+              </div>
+            </div>
+          </article>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
   </div>
-</div>
+</main>
 
 

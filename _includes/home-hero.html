@@ -1,5 +1,12 @@
-<!-- Hero Section -->
-<header class="masthead" style="background-image: url('{{ page.hero_image | default: page.background | default: site.hero_image | default: '/img/home/bg-home.jpeg' }}');">
+<!-- Modern SEO Hero with Featured Post -->
+{% comment %} Get single featured post with governance {% endcomment %}
+{% assign featured_posts = site.posts | where: "featured_post", "true" %}
+{% if featured_posts.size > 1 %}
+  {% assign featured_posts = featured_posts | sort: "featured_rank" %}
+{% endif %}
+{% assign hero_post = featured_posts.first | default: site.posts.first %}
+
+<header class="masthead modern-hero" style="background-image: url('{{ hero_post.background | default: '/img/home/bg-home.jpeg' }}');">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -7,17 +14,36 @@
         <div class="site-heading">
           {% unless page.hide_home_title %}
             <h1 class="site-title">
-              {{ page.h1 | default: site.home_h1 | default: site.title }}
+              {{ page.h1 | default: site.home_h1 | default: "Mindfulness senza incenso. Vita reale, un respiro alla volta." }}
             </h1>
           {% else %}
             <h1 class="sr-only" style="position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;border:0!important;">
-              {{ page.h1 | default: site.home_h1 | default: site.title }}
+              {{ page.h1 | default: site.home_h1 | default: "MessyMind - Mindfulness ironica e filosofia pratica" }}
             </h1>
           {% endunless %}
-          {% if page.intro %}
-            <div class="lead intro">
-              {{ page.intro | markdownify }}
-            </div>
+          
+          {% comment %} Featured Post Content {% endcomment %}
+          {% if hero_post %}
+          <div class="hero-featured-post mt-4">
+            <h2 class="featured-title">
+              <a href="{{ hero_post.url | relative_url }}" class="text-white text-decoration-none">
+                {{ hero_post.title | truncate: 65 }}
+              </a>
+            </h2>
+            <p class="featured-excerpt lead text-white-75">
+              {% if hero_post.description %}
+                {{ hero_post.description | truncate: 120 }}
+              {% else %}
+                {{ hero_post.excerpt | strip_html | truncatewords: 20 }}
+              {% endif %}
+            </p>
+            <a href="{{ hero_post.url | relative_url }}" class="btn btn-primary btn-lg mt-3">
+              Leggi l'articolo completo
+              <svg class="icon icon-arrow-right ms-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
           {% endif %}
         </div>
       </div>
@@ -25,7 +51,7 @@
   </div>
   
   <!-- LCP Hero Image with direct optimization -->
-  {% assign hero_img = page.hero_image | default: page.background | default: '/img/home/bg-home-1600.jpg' %}
+  {% assign hero_img = hero_post.background | default: '/img/home/bg-home-1600.jpg' %}
   {% assign hero_webp = hero_img | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' %}
   {% assign hero_webp_800 = hero_webp | replace: '-1600.webp', '.webp' %}
   
@@ -40,7 +66,7 @@
          height="900" 
          loading="eager" 
          fetchpriority="high"
-         alt="{{ page.h1 | default: site.title }}"
+         alt="{{ hero_post.title | default: page.h1 | default: site.title | truncate: 120 }}"
          class="hero-lcp-image sr-only">
   </picture>
 </header>

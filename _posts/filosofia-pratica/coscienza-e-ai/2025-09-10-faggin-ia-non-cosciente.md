@@ -15,6 +15,7 @@ image_alt: rappresentazioni di una mano robotica che tocca il dito di una mano u
 image_author: cottonbro
 image_author_url: https://www.pexels.com/it-it/@cottonbro/
 featured_post: true
+featured_rank: 1
 redirect_from:
 - /ia-cosciente-per-faggin-e-unillusione-2025/
 - /faggin-ia-non-cosciente/
