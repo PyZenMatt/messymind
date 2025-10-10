@@ -29,12 +29,16 @@
   
   <!-- Hero LCP critical CSS -->
   <style>
+  /* Fallback font metrics to reduce CLS during font swap */
+  @font-face{font-family:'Merriweather Fallback';src:local('Georgia');size-adjust:96%;ascent-override:95%;descent-override:25%;line-gap-override:0%}
+  @font-face{font-family:'Poppins Fallback';src:local('Arial');size-adjust:107%;ascent-override:92%;descent-override:24%;line-gap-override:0%}
+  
   .masthead{position:relative;overflow:hidden;min-height:clamp(320px,50vh,600px);padding:2rem 0}
   .masthead .container{position:relative;z-index:2}
   .masthead .site-heading{text-align:center;color:white;text-shadow:2px 2px 4px rgba(0,0,0,0.5)}
-  .masthead .site-title{font-size:clamp(1.75rem,4vw,3rem);font-weight:700;margin-bottom:1rem;word-wrap:break-word}
-  .masthead .intro{font-size:clamp(1rem,2.5vw,1.25rem);max-width:800px;margin:0 auto}
-  .home-hero{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;background-image:url('/img/home/bg-home-1600.webp');background-size:cover;background-position:center;background-repeat:no-repeat}
+  .masthead .site-title{font-size:clamp(1.75rem,4vw,3rem);font-weight:700;margin-bottom:1rem;word-wrap:break-word;font-family:Poppins,'Poppins Fallback',sans-serif}
+  .masthead .intro{font-size:clamp(1rem,2.5vw,1.25rem);max-width:800px;margin:0 auto;font-family:Merriweather,'Merriweather Fallback',Georgia,serif}
+  .home-hero{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;background-image:url('/img/home/bg-home-1600.webp');background-size:cover;background-position:center;background-repeat:no-repeat;will-change:opacity;contain:layout style paint}
   .home-hero img{width:100%;height:100%;object-fit:cover;display:block}
   .overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg, rgba(46,61,73,0.6) 0%, rgba(79,138,139,0.4) 100%);z-index:1}
   @media(max-width:767px){.masthead{padding:1.5rem 0}.masthead .site-title{font-size:1.75rem}.masthead .intro{font-size:1rem}}
