@@ -30,22 +30,16 @@ const cookieManager = {
     },
     showBannerIfNeeded() {
         const consent = this.getCookie(this.config.cookieName);
-        console.log('🍪 Cookie consent check:', consent);
         if (!consent) {
-            console.log('🍪 No consent found, showing banner...');
-            // Ridotto timeout da 1000ms a 100ms per performance
-            setTimeout(() => {
-                const banner = document.getElementById('cookie-banner');
-                console.log('🍪 Banner element:', banner);
-                if (banner) {
-                    banner.classList.add('show');
-                    console.log('🍪 Banner shown successfully');
-                } else {
-                    console.error('🍪 Banner element not found!');
-                }
-            }, 100);
+            // Show banner without forcing layout calculations. Use rAF to batch style changes.
+            const banner = document.getElementById('cookie-banner');
+            if (!banner) return;
+            // ensure initial state (hidden via transform) is present
+            banner.classList.remove('hidden');
+            // Use a tiny timeout to allow the browser to paint the initial state, then use rAF to add the class.
+            requestAnimationFrame(() => requestAnimationFrame(() => banner.classList.add('show')));
         } else {
-            console.log('🍪 Consent already exists, banner not shown');
+            // Consent already exists — nothing to do.
         }
     },
     acceptAll() {

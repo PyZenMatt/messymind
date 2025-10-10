@@ -29,21 +29,43 @@
 
 <picture>
   {% if webp_path and webp_path != '' %}
-    <source srcset="{{ webp_path | absolute_url }}" type="image/webp">
+    {%- comment -%}
+      When possible, emit a srcset for WebP variant. If the include provided `srcset` or `sizes`, prefer those.
+    {%- endcomment -%}
+    {% if include.srcset %}
+      <source srcset="{{ include.srcset }}" type="image/webp">
+    {% else %}
+      <source srcset="{{ webp_path | absolute_url }} 1600w, {{ webp_path | replace: '-1600.webp', '-800.webp' | absolute_url }} 800w, {{ webp_path | replace: '-1600.webp', '-400.webp' | absolute_url }} 400w" type="image/webp">
+    {% endif %}
+  {% endif %}
+
+  {% comment %} Fallback img - emit srcset if available or sensible defaults {% endcomment %}
+  {% if include.srcset %}
+    {% assign final_srcset = include.srcset %}
+  {% elsif webp_path and webp_path != '' %}
+    {% assign final_srcset = img_path | absolute_url | append: ' 1600w, ' | append: (img_path | replace: '-1600.', '-800.') | absolute_url | append: ' 800w, ' | append: (img_path | replace: '-1600.', '-400.') | absolute_url | append: ' 400w' %}
+  {% else %}
+    {% assign final_srcset = img_path | absolute_url %}
   {% endif %}
 
   <img
     src="{{ img_path | absolute_url }}"
+    {% if final_srcset %}srcset="{{ final_srcset }}"{% endif %}
+    {% if include.sizes %}sizes="{{ include.sizes }}"{% else %}sizes="100vw"{% endif %}
     alt="{{ img_alt }}"
     {% if include.class %}class="{{ include.class }}"{% endif %}
     loading="{{ loading_attr }}"
     {{ fetchprio }}
     decoding="async"
     {% if include.width and include.height %}
-    width="{{ include.width }}"
-    height="{{ include.height }}"
-    style="aspect-ratio: {{ include.width }}/{{ include.height }}; max-width: 100%; height: auto;"
+      width="{{ include.width }}"
+      height="{{ include.height }}"
+      style="aspect-ratio: {{ include.width }}/{{ include.height }}; max-width: 100%; height: auto;"
+    {% elsif is_lcp %}
+      {%- comment -%} For LCP candidates provide an intrinsic size to help browser prioritize and avoid CLS {%- endcomment -%}
+      width="1600" height="900"
+      style="max-width:100%;height:auto;aspect-ratio:16/9;"
     {% else %}
-    style="max-width: 100%; height: auto; aspect-ratio: 16/9;"
+      style="max-width: 100%; height: auto; aspect-ratio: 16/9;"
     {% endif %}>
 </picture>

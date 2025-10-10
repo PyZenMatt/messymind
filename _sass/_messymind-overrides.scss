@@ -19,6 +19,14 @@ body {
     /* Ensure .col-md-6 exists and becomes 50% width on md+ screens */
     .col-md-6{flex:0 0 50%;max-width:50%}
 
+/* Category container: ensure content isn't hidden by fixed navbar (used in category/subcluster layouts) */
+.category-container {
+  padding-top: 2rem; /* fallback */
+}
+@media (min-width: 768px) {
+  .category-container { padding-top: 3rem; }
+}
+
 // Override heading styles with MessyMind fonts and colors
 h1, h2, h3, h4, h5, h6,
 .section-heading,
