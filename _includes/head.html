@@ -63,14 +63,13 @@
   {%- endcomment -%}
   {%- assign lcp_candidate = page.lcp_image | default: page.og_image | default: page.image | default: page.background | default: site.image -%}
   {%- if lcp_candidate -%}
-    {%- assign lcp_fallback = page.hero_image | default: page.background | default: site.image -%}
-    {%- assign webp_800 = lcp_candidate | replace: '-1600.webp', '.webp' -%}
-    {%- assign jpeg_1200 = lcp_fallback | replace: '-1600.jpg', '.jpeg' -%}
-    <!-- Preload LCP with responsive srcset: mobile WebP 800w, desktop WebP 1600w, JPEG fallbacks -->
-    <!-- Preload LCP image with matching srcset to the inlined hero <img> to ensure browser prioritizes it -->
+    {%- comment -%} Match srcset exactly to hero <img>: bg-home-1600.webp 1600w, bg-home-800.webp 800w, bg-home-400.webp 400w {%- endcomment -%}
+    {%- assign webp_800 = lcp_candidate | replace: '-1600.webp', '-800.webp' -%}
+    {%- assign webp_400 = lcp_candidate | replace: '-1600.webp', '-400.webp' -%}
+    <!-- Preload LCP hero with exact srcset matching home-hero.html -->
     <link rel="preload" as="image" 
           href="{{ lcp_candidate | absolute_url }}" 
-          imagesrcset="{{ webp_800 | absolute_url }} 800w, {{ lcp_candidate | absolute_url }} 1600w, {{ lcp_fallback | absolute_url }} 1200w"
+          imagesrcset="{{ lcp_candidate | absolute_url }} 1600w, {{ webp_800 | absolute_url }} 800w, {{ webp_400 | absolute_url }} 400w"
           imagesizes="(max-width: 768px) 100vw, 1200px"
           fetchpriority="high">
   {%- endif -%}
