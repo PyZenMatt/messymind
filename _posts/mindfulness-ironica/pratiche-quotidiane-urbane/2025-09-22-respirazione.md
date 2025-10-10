@@ -8,9 +8,12 @@ subcluster: "pratiche-quotidiane-urbane"
 tags: ["anapanasati", "respirazione consapevole", "mindful breathing", "meditazione respiro", "satipatthana"]
 date: 2025-09-22T12:45:00+02:00
 image_author:
-image_author:
-lcp_image: 
-lcp_image_alt: 
+image:
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_pad,b_auto:predominant,ar_21:9,w_1920,dpr_auto/v1759139155/pexels-kelvin809-810775_gtsusk.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_pad,b_auto:predominant,ar_21:9,w_1920,dpr_auto/v1759139155/pexels-kelvin809-810775_gtsusk.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1759139155/pexels-kelvin809-810775_gtsusk.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1759139155/pexels-kelvin809-810775_gtsusk.jpg
+lcp_image_alt: Una persona di profilo mentre respira con occhi chiusi all'aria aperta
 howto:
   name: "Praticare l’Ānāpānasati in 5 step"
   description: "Guida rapida per respirare consapevoli: luogo, postura, respiro lungo/corto, corpo e calma."
