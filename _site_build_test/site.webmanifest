@@ -1,0 +1,10 @@
+{
+  "name": "MessyMind",
+  "short_name": "MessyMind",
+  "description": "Filosofia pratica, mindfulness ironica e crescita personale anti-guru",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d7c5ad",
+  "icons": []
+}

@@ -195,4 +195,14 @@ html.dark blockquote {
 /* Apply same defensive layout rules to category blocks generated in the loop
    (they use plain d-flex inside .row.mb-5 > .col-12) */
 
+/* Force 2x2 at ALL breakpoints for the cluster grid (defensive critical-path rule)
+  Scoped to .cluster-grid so it only affects the home cluster and avoids global changes. */
+.cluster-grid .row.g-4 > .col-12.col-md-6,
+.cluster-grid .row.g-4 > [class*="col-md-6"] {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+}
+
 </style>

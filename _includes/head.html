@@ -27,6 +27,19 @@
   <!-- CSS CRITICO INLINE - FASE 1 OTTIMIZZAZIONE -->
   {% include critical-css.html %}
   
+  <!-- Hero LCP critical CSS -->
+  <style>
+  .masthead{position:relative;overflow:hidden;min-height:clamp(320px,50vh,600px);padding:2rem 0}
+  .masthead .container{position:relative;z-index:2}
+  .masthead .site-heading{text-align:center;color:white;text-shadow:2px 2px 4px rgba(0,0,0,0.5)}
+  .masthead .site-title{font-size:clamp(1.75rem,4vw,3rem);font-weight:700;margin-bottom:1rem;word-wrap:break-word}
+  .masthead .intro{font-size:clamp(1rem,2.5vw,1.25rem);max-width:800px;margin:0 auto}
+  .home-hero{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;background-image:url('/img/home/bg-home-1600.webp');background-size:cover;background-position:center;background-repeat:no-repeat}
+  .home-hero img{width:100%;height:100%;object-fit:cover;display:block}
+  .overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg, rgba(46,61,73,0.6) 0%, rgba(79,138,139,0.4) 100%);z-index:1}
+  @media(max-width:767px){.masthead{padding:1.5rem 0}.masthead .site-title{font-size:1.75rem}.masthead .intro{font-size:1rem}}
+  </style>
+  
   <!-- CSS NON-CRITICO CARICATO ASINCRONO CON ALTA PRIORITÀ -->
   <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="high">
   <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
@@ -46,8 +59,15 @@
   {%- endcomment -%}
   {%- assign lcp_candidate = page.lcp_image | default: page.og_image | default: page.image | default: page.background | default: site.image -%}
   {%- if lcp_candidate -%}
-    <!-- Preload LCP as-is to avoid Cloudinary double-fetch when using f_auto -->
-    <link rel="preload" as="image" href="{{ lcp_candidate | absolute_url }}" fetchpriority="high">
+    {%- assign lcp_fallback = page.hero_image | default: page.background | default: site.image -%}
+    {%- assign webp_800 = lcp_candidate | replace: '-1600.webp', '.webp' -%}
+    {%- assign jpeg_1200 = lcp_fallback | replace: '-1600.jpg', '.jpeg' -%}
+    <!-- Preload LCP with responsive srcset: mobile WebP 800w, desktop WebP 1600w, JPEG fallbacks -->
+    <link rel="preload" as="image" 
+          href="{{ lcp_candidate | absolute_url }}" 
+          imagesrcset="{{ webp_800 | absolute_url }} 800w, {{ lcp_candidate | absolute_url }} 1600w"
+          imagesizes="(max-width: 768px) 100vw, 1200px"
+          fetchpriority="high">
   {%- endif -%}
   
   <!-- NESSUN FONT AWESOME - Per LCP critico -->

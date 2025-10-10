@@ -1,0 +1,6 @@
+Hero LCP Implementation Check:
+✓ Single H1: Mindfulness ironica e pratiche per l'equilibrio interiore
+✓ Hero above intro: masthead section implemented
+✓ LCP preload: WebP preferred with responsive srcset
+✓ fetchpriority=high: Applied to both preload and img
+✓ Dimensions: 1200x798 with aspect-ratio CSS

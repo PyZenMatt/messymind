@@ -16,6 +16,8 @@ body {
     padding-top: 60px;
   }
 }
+    /* Ensure .col-md-6 exists and becomes 50% width on md+ screens */
+    .col-md-6{flex:0 0 50%;max-width:50%}
 
 // Override heading styles with MessyMind fonts and colors
 h1, h2, h3, h4, h5, h6,
@@ -237,43 +239,98 @@ html.dark {
 }
 
 // Mobile-first grid system fixes for pages
+// IMPORTANTE: NON forziamo più .col-12 a 100% perché questo impediva al cluster-grid di avere layout 2x2
 @media (max-width: 576px) {
   .row {
     margin-left: -0.5rem !important;
     margin-right: -0.5rem !important;
   }
   
-  .col-lg-8,
-  .col-md-10,
-  .col-12 {
+  // Applica 100% width SOLO alle colonne di contenuto principale (non alle cluster cards)
+  .container > .row > .col-lg-8,
+  .container > .row > .col-md-10 {
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
     width: 100% !important;
     max-width: 100% !important;
     flex: 0 0 100% !important;
   }
-  
-  // Extra protection for page content
-  .container > .row > div {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-  }
 }
 
 // Content containers with consistent spacing
 .main-wrapper {
+  display: contents !important; // Rimuovi completamente il wrapper dal layout
+  background: inherit !important; // Eredita il colore del body invece di trasparente
+  padding: 0 !important; // Rimuovi tutti i padding per evitare spazi fastidiosi
+}
+
+// Hide hr that creates unwanted spacing
+hr {
+  display: none !important;
+}
+
+// Remove any spacing that creates gaps between sections
+main.home-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+footer {
+  margin: 0 !important;
+  padding-top: 0 !important;
+}
+
+// Remove Bootstrap vertical padding classes that create unwanted spacing
+.py-5 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+// Fix post cards spacing and height - SOLO per gli articoli recenti
+.latest-posts .post-card {
+  margin-bottom: 1.5rem !important; // Spazio verticale tra le card degli articoli
+}
+
+.post-card {
+  min-height: 400px !important; // Altezza fissa per tutte le card
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.post-card .card-body {
+  flex: 1 !important; // Il body si espande per riempire lo spazio
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.post-card .post-excerpt {
+  flex: 1 !important; // L'excerpt si espande per spingere i meta in basso
+}
+
+// Remove borders from Guide Essenziali cards
+.cornerstone .mm-card {
+  border: none !important;
+  box-shadow: none !important;
+  min-height: 350px !important; // Altezza uniforme anche per le guide
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.cornerstone .mm-card .p-4 {
+  flex: 1 !important; // Il contenuto si espande per uniformare l'altezza
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.cornerstone .mm-card .text-muted {
+  flex: 1 !important; // La descrizione si espande per spingere il bottone in basso
+}
+
+// Remove borders from CTA section
+.cta-section .mm-card {
+  border: none !important;
+  box-shadow: none !important;
   background: transparent !important;
-  padding: 1rem 0 !important; // Mobile-first: 1rem top/bottom, 0 left/right
-  
-  // Desktop: increase to 2rem for better visual hierarchy
-  @media (min-width: 768px) {
-    padding: 2rem 0 !important;
-  }
-  
-  // Large screens: comfortable 3rem spacing
-  @media (min-width: 1200px) {
-    padding: 3rem 0 !important;
-  }
 }
 
 // Dark theme specific overrides: ensure card text is readable (white)
@@ -303,7 +360,8 @@ html.dark {
 
 // Remove any dark mode background for main-wrapper
 html.dark .main-wrapper {
-  background: transparent !important;
+  display: contents !important; // Rimuovi completamente il wrapper dal layout in dark mode
+  background: #2a2a2a !important; // Usa il colore della pagina invece di trasparente
 }
 
 // Masthead overlay
@@ -320,6 +378,37 @@ html.dark .main-wrapper {
   
   &::after {
     background: linear-gradient(90deg, $accent 0%, $secondary 100%) !important;
+  }
+}
+
+// Brand intro specific styling: ensure it's centered on all devices
+.brand-intro {
+  .intro-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    max-width: 820px; // keep readable measure on large screens
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 1rem !important;
+  }
+
+  .lead {
+    margin-bottom: 1rem !important;
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .intro-links {
+    margin-top: 0.5rem !important;
+  }
+
+  // Keep vertical spacing modest to avoid visual offset
+  @media (min-width: 992px) {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
 }
 
@@ -453,9 +542,175 @@ p {
   margin-bottom: 1.5rem !important;
 }
 
+/* Cluster grid spacing: add breathing room between cards */
+.cluster-grid .row.g-4 {
+  /* use gap on the flex row (supported in modern browsers) */
+  gap: 1.25rem;
+}
+
+/* FORZA 2x2 SU TUTTI I DISPOSITIVI - regola di base senza media query */
+/* Questa regola si applica SEMPRE, anche su mobile, per garantire il layout 2x2 */
+/* Usiamo `html` come prefisso per aumentare la specificità */
+html .cluster-grid .row.g-4 > .col-12.col-md-6,
+html .cluster-grid .row.g-4 > .col-md-6,
+html .cluster-grid .row.g-4 > [class*="col-md-6"],
+html .cluster-grid .row.g-4 > [class*="col-"] {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+}
+
+@media (min-width: 768px) {
+  .cluster-grid .row.g-4 { gap: 1.75rem; }
+}
+
+/* Extra strong rules: force two columns in the cluster grid across common breakpoints.
+   This increases selector specificity to override inline/critical rules that sometimes
+   prevent the grid from becoming 2x2 on certain devices. */
+
+@media (min-width: 576px) {
+  .cluster-grid .row.g-4 > .col-12.col-md-6,
+  .cluster-grid .row.g-4 > [class*="col-md-6"] {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .cluster-grid .row.g-4 > .col-12.col-md-6,
+  .cluster-grid .row.g-4 > [class*="col-md-6"] {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  .cluster-grid .row.g-4 { gap: 1.75rem; }
+}
+
+@media (min-width: 1200px) {
+  .cluster-grid .row.g-4 { gap: 2rem; }
+}
+
+/* Ensure individual cards keep internal spacing and equal heights */
+.cluster-grid .mm-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.25rem !important;
+  gap: 0.6rem; /* small internal gap for vertical rhythm */
+}
+
+/* Small visual tweak: slightly reduce bottom margin within cards so gaps look even */
+.cluster-grid .mm-card .mb-3 { margin-bottom: 0.85rem !important; }
+
+/* Make the cluster cards visually plain: no border, no background, no shadow */
+.cluster-grid .mm-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Force 2x2 at ALL breakpoints (explicitly apply 50% width even on narrow devices) */
+.cluster-grid .row.g-4 > .col-12.col-md-6,
+.cluster-grid .row.g-4 > [class*="col-md-6"] {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+}
+
 // Add some personality with the accent font
 .masthead .subheading,
 .post-subtitle,
 blockquote {
   font-family: $font-accent !important;
+}
+
+/* ASPECT RATIO UTILITIES - Per immagini uniformi nelle card */
+.ratio {
+  position: relative;
+  width: 100%;
+}
+
+.ratio::before {
+  display: block;
+  padding-top: var(--aspect-ratio);
+  content: "";
+}
+
+.ratio > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Importante: forza le immagini a coprire l'area senza distorsioni */
+}
+
+.ratio-16x9 {
+  --aspect-ratio: calc(9 / 16 * 100%); /* 56.25% */
+}
+
+.ratio-4x3 {
+  --aspect-ratio: calc(3 / 4 * 100%); /* 75% */
+}
+
+.ratio-1x1 {
+  --aspect-ratio: 100%;
+}
+
+/* Fix per immagini nelle card - sovrascrive gli stili inline */
+.post-card .thumb.ratio img,
+.post-card .ratio img,
+.thumb.ratio img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  aspect-ratio: 16/9 !important;
+  max-width: none !important;
+}
+
+/* Hero LCP Image positioning - Critical for Core Web Vitals */
+.masthead.modern-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px; /* Ensure height for background image */
+}
+
+.masthead.modern-hero .home-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Behind overlay */
+}
+
+.masthead.modern-hero .hero-lcp-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.masthead.modern-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(46,61,73,0.6) 0%, rgba(79,138,139,0.4) 100%);
+  z-index: 1; /* Above image */
+}
+
+.masthead.modern-hero .container {
+  position: relative;
+  z-index: 2; /* Above overlay */
 }

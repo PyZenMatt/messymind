@@ -1,0 +1,7 @@
+Layout Fix Validation:
+✓ Single H1: site-title in hero
+✓ H2: Temi principali section restored
+✓ 4 cluster links: mindfulness, filosofia, burnout, crescita
+✓ Responsive CSS: clamp() fonts, word-wrap, mobile breakpoints
+✓ Container structure: Bootstrap grid maintained
+✓ Flow: Hero → Intro → Temi → Featured → Latest
