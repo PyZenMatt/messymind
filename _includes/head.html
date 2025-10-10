@@ -67,12 +67,18 @@
     {%- assign webp_800 = lcp_candidate | replace: '-1600.webp', '.webp' -%}
     {%- assign jpeg_1200 = lcp_fallback | replace: '-1600.jpg', '.jpeg' -%}
     <!-- Preload LCP with responsive srcset: mobile WebP 800w, desktop WebP 1600w, JPEG fallbacks -->
+    <!-- Preload LCP image with matching srcset to the inlined hero <img> to ensure browser prioritizes it -->
     <link rel="preload" as="image" 
           href="{{ lcp_candidate | absolute_url }}" 
-          imagesrcset="{{ webp_800 | absolute_url }} 800w, {{ lcp_candidate | absolute_url }} 1600w"
+          imagesrcset="{{ webp_800 | absolute_url }} 800w, {{ lcp_candidate | absolute_url }} 1600w, {{ lcp_fallback | absolute_url }} 1200w"
           imagesizes="(max-width: 768px) 100vw, 1200px"
           fetchpriority="high">
   {%- endif -%}
+
+  <!-- Reserve intrinsic aspect-ratio for LCP image to avoid layout shift if CSS not loaded -->
+  <style>
+    .home-hero .lcp-img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+  </style>
   
   <!-- NESSUN FONT AWESOME - Per LCP critico -->
 
