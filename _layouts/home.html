@@ -31,11 +31,8 @@ layout: default
     <!-- Temi Principali - Cluster Grid 2x2 -->
     <section class="cluster-grid mb-5" aria-labelledby="cluster-heading">
       <div class="row mb-4">
-        <div class="col-12">
-          <div class="d-flex justify-content-between align-items-center">
-            <h2 id="cluster-heading" class="section-heading mb-0">Temi Principali</h2>
-            <!-- optional right-side CTA could go here -->
-          </div>
+        <div class="col-12 text-center">
+          <h2 id="cluster-heading" class="section-heading mb-0">Temi Principali</h2>
           <p class="text-muted mt-2 mb-0">Esplora i quattro pilastri di MessyMind</p>
         </div>
       </div>
@@ -78,6 +75,65 @@ layout: default
       </div>
     </section>
 
+    <!-- Featured Post Slider -->
+    {% assign featured_posts = site.posts | where: "featured_post", true %}
+    {% if featured_posts.size > 1 %}
+      {% assign featured_posts = featured_posts | sort: "featured_rank" %}
+    {% endif %}
+    {% assign featured_post = featured_posts.first %}
+    
+    {% if featured_post %}
+    <section class="featured-slider mb-5" aria-labelledby="featured-heading">
+      <div class="row mb-3">
+        <div class="col-12">
+          <h2 id="featured-heading" class="section-heading mb-0">In Evidenza</h2>
+          <p class="text-muted mt-2 mb-0">Il post della settimana</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12">
+          <article class="featured-card mm-card border rounded-3 shadow-sm overflow-hidden" itemscope itemtype="https://schema.org/BlogPosting">
+            <div class="row g-0">
+              {% assign featured_img = featured_post.background | default: featured_post.image | default: featured_post.lcp_image %}
+              {% if featured_img %}
+              <div class="col-md-6">
+                <div class="thumb ratio ratio-16x9">
+                  {% include optimized-image.html src=featured_img alt=featured_post.title class='w-100 h-100' %}
+                </div>
+              </div>
+              {% endif %}
+              <div class="col-md-6">
+                <div class="card-body p-4">
+                  <h3 class="post-title mb-3 h5" itemprop="headline">
+                    <a href="{{ featured_post.url | relative_url }}" class="text-decoration-none">
+                      {{ featured_post.title }}
+                    </a>
+                  </h3>
+                  
+                  {% assign featured_excerpt = featured_post.description | default: featured_post.seo_description | default: featured_post.excerpt %}
+                  {% if featured_excerpt %}
+                    <p class="post-excerpt text-muted mb-4">{{ featured_excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+                  {% endif %}
+                  
+                  <div class="post-meta d-flex align-items-center justify-content-between flex-wrap mb-3">
+                    <small class="text-muted">{{ featured_post.date | date: '%d/%m/%Y' }}</small>
+                    {% if featured_post.categories.size > 0 %}
+                      {% assign main_category = featured_post.categories.first %}
+                      <a href="/categorie/{{ main_category }}/" class="badge badge-mm text-decoration-none">
+                        {{ main_category | replace: '-', ' ' | capitalize }}
+                      </a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
     <!-- Ultimi Articoli -->
     <section class="latest-posts mb-5" aria-labelledby="latest-heading">
       <div class="row mb-3">
@@ -87,21 +143,9 @@ layout: default
         </div>
       </div>
 
-      {% comment %} Featured governance: escludi featured dall'elenco {% endcomment %}
-      {% assign featured_posts = site.posts | where: "featured_post", true %}
-      {% if featured_posts.size > 1 %}
-        {% assign featured_posts = featured_posts | sort: "featured_rank" %}
-      {% endif %}
-      {% assign featured_post = featured_posts.first %}
-
-      {% assign latest_posts = site.posts %}
-      {% if featured_post %}
-        {% assign latest_posts = site.posts | where_exp: "post", "post.url != featured_post.url" %}
-      {% endif %}
-
       <div class="row g-4 align-items-stretch">
-        {% for post in latest_posts limit:9 %}
-        <div class="col-12 col-md-6 col-lg-4">
+        {% for post in site.posts limit:8 %}
+        <div class="col-12 col-md-6">
           <article class="post-card h-100 border rounded-3 shadow-sm mm-card" itemscope itemtype="https://schema.org/BlogPosting">
             {% assign card_img = post.background | default: post.image | default: post.lcp_image %}
 {% assign card_alt = post.lcp_image_alt | default: post.title %}
@@ -121,12 +165,15 @@ layout: default
               {% if _excerpt %}
                 <p class="post-excerpt text-muted mb-3">{{ _excerpt | strip_html | strip_newlines | truncate: 110 }}</p>
               {% endif %}
-              <div class="post-meta mt-2 d-flex align-items-center gap-2 flex-wrap">
-  <small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small>
-  {% if post.categories.size > 0 %}
-    <span class="badge badge-mm">{{ post.categories.first | replace: '-', ' ' | capitalize }}</span>
-  {% endif %}
-</div>
+              <div class="post-meta mt-2 d-flex align-items-center justify-content-between flex-wrap">
+                <small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small>
+                {% if post.categories.size > 0 %}
+                  {% assign main_category = post.categories.first %}
+                  <a href="/categorie/{{ main_category }}/" class="badge badge-mm text-decoration-none">
+                    {{ main_category | replace: '-', ' ' | capitalize }}
+                  </a>
+                {% endif %}
+              </div>
             </div>
           </article>
         </div>
@@ -142,36 +189,64 @@ layout: default
           <p class="text-muted mb-0">Inizia da qui se è la tua prima volta</p>
         </div>
       </div>
-      {% assign cornerstones = site.posts | where: 'cornerstone', true %}
-      {% if cornerstones.size > 0 %}
-      {% assign cornerstones = cornerstones | sort: 'cornerstone_rank' %}
+      
+      <!-- Guide cornerstone manuali (layout 1x3) -->
       <div class="row g-4 align-items-stretch">
-        {% for post in cornerstones limit:3 %}
         <div class="col-12 col-md-4">
-          <article class="mm-card h-100 p-4 border rounded-3 shadow-sm">
-            <h3 class="h5 mb-2">
-              <a href="{{ post.url | relative_url }}" class="text-decoration-none">{{ post.title | truncate: 64 }}</a>
-            </h3>
-            {% assign csum = post.summary | default: post.description | default: post.seo_description %}
-            {% if csum %}
-              <p class="text-muted mb-3">{{ csum | strip_html | truncate: 120 }}</p>
-            {% endif %}
-            <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">Apri</a>
+          <article class="mm-card h-100 border rounded-3 shadow-sm overflow-hidden">
+            <div class="thumb ratio ratio-16x9 overflow-hidden">
+              {% include optimized-image.html src='/img/accettazione.webp' alt='Guida all\'Equilibrio Interiore' class='w-100 h-100' %}
+            </div>
+            <div class="p-4">
+              <h3 class="h5 mb-2">
+                <a href="/equilibrio-interiore-guida-pratica/" class="text-decoration-none">Guida all'Equilibrio Interiore</a>
+              </h3>
+              <p class="text-muted mb-3">La tua roadmap per gestire ansia, stress e overthinking. 5 capitoli pratici senza guru.</p>
+              <a href="/equilibrio-interiore-guida-pratica/" class="btn btn-sm btn-outline-primary">Inizia qui</a>
+            </div>
           </article>
         </div>
-        {% endfor %}
+        <div class="col-12 col-md-4">
+          <article class="mm-card h-100 border rounded-3 shadow-sm overflow-hidden">
+            <div class="thumb ratio ratio-16x9 overflow-hidden">
+              {% include optimized-image.html src='/img/Loto.webp' alt='Sopravvivere al Burnout' class='w-100 h-100' %}
+            </div>
+            <div class="p-4">
+              <h3 class="h5 mb-2">
+                <a href="/categorie/burnout-e-lavoro/" class="text-decoration-none">Sopravvivere al Burnout</a>
+              </h3>
+              <p class="text-muted mb-3">Riconoscere i segnali, creare confini e proteggere la tua energia dal lavoro tossico.</p>
+              <a href="/categorie/burnout-e-lavoro/" class="btn btn-sm btn-outline-primary">Esplora</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="mm-card h-100 border rounded-3 shadow-sm overflow-hidden">
+            <div class="thumb ratio ratio-16x9 overflow-hidden">
+              {% include optimized-image.html src='/img/amore.webp' alt='Mindfulness Urbana' class='w-100 h-100' %}
+            </div>
+            <div class="p-4">
+              <h3 class="h5 mb-2">
+                <a href="/categorie/mindfulness-ironica/" class="text-decoration-none">Mindfulness Urbana</a>
+              </h3>
+              <p class="text-muted mb-3">Pratiche minuscole per ufficio, traffico e vita reale. Zero incenso, massimo risultato.</p>
+              <a href="/categorie/mindfulness-ironica/" class="btn btn-sm btn-outline-primary">Prova ora</a>
+            </div>
+          </article>
+        </div>
       </div>
-      {% endif %}
     </section>
 
     <!-- CTA -->
-    <section class="cta mb-4" aria-labelledby="cta-heading">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10 col-lg-8">
-          <div class="mm-card p-4 border rounded-3 shadow-sm text-center">
-            <h2 id="cta-heading" class="h4 mb-2">Ricevi 1 pratica a settimana</h2>
-            <p class="text-muted mb-3">Zero spam. Una sola email con una micro‑tecnica testata sul campo.</p>
-            <a href="/newsletter/" class="btn btn-primary">Iscriviti</a>
+    <section class="cta cta-section mb-5" aria-labelledby="cta-heading">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="mm-card p-5 border rounded-3 shadow-sm text-center mx-auto" style="max-width: 400px;">
+              <h2 id="cta-heading" class="h4 mb-3">Ricevi 1 pratica a settimana</h2>
+              <p class="text-muted mb-4">Zero spam. Una sola email con una micro‑tecnica testata sul campo.</p>
+              <a href="/newsletter/" class="btn btn-primary px-4">Iscriviti</a>
+            </div>
           </div>
         </div>
       </div>

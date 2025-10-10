@@ -9,16 +9,8 @@
 {% endif %}
 {% assign hero_post = featured_posts.first %}
 
-{% comment %} Determine final hero mode {% endcomment %}
-{% if hero_mode == "auto" %}
-  {% if hero_post %}
-    {% assign final_hero_mode = "featured_hero" %}
-  {% else %}
-    {% assign final_hero_mode = "brand_hero" %}
-  {% endif %}
-{% else %}
-  {% assign final_hero_mode = hero_mode %}
-{% endif %}
+{% comment %} Determine final hero mode - FORCE brand_hero per test LCP {% endcomment %}
+{% assign final_hero_mode = "brand_hero" %}
 
 {% comment %} Set hero image based on mode {% endcomment %}
 {% if final_hero_mode == "featured_hero" and hero_post %}
@@ -27,7 +19,7 @@
   {% assign hero_bg = page.background | default: '/img/home/bg-home.jpeg' %}
 {% endif %}
 
-<header class="masthead modern-hero" style="background-image: url('{{ hero_bg }}');">
+<header class="masthead modern-hero">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -88,23 +80,6 @@
     </div>
   </div>
   
-  <!-- LCP Hero Image with direct optimization -->
-  {% assign hero_img = hero_post.background | default: '/img/home/bg-home-1600.jpg' %}
-  {% assign hero_webp = hero_img | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' %}
-  {% assign hero_webp_800 = hero_webp | replace: '-1600.webp', '.webp' %}
-  
-  <picture class="home-hero">
-    <source srcset="{{ hero_webp_800 | absolute_url }} 800w, {{ hero_webp | absolute_url }} 1600w" 
-            sizes="(max-width: 768px) 100vw, 1200px" 
-            type="image/webp">
-    <img src="{{ hero_webp | absolute_url }}" 
-         srcset="{{ hero_webp_800 | absolute_url }} 800w, {{ hero_webp | absolute_url }} 1600w"
-         sizes="(max-width: 768px) 100vw, 1200px"
-         width="1600" 
-         height="900" 
-         loading="eager" 
-         fetchpriority="high"
-         alt="{{ hero_post.title | default: page.h1 | default: site.title | truncate: 120 }}"
-         class="hero-lcp-image sr-only">
-  </picture>
+  <!-- LCP Hero Image with CSS background for better compatibility -->
+  <div class="home-hero"></div>
 </header>

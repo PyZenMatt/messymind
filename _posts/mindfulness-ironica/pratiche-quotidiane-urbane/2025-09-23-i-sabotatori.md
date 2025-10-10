@@ -10,7 +10,7 @@ tags: ["meditazione", "ostacoli", "mindfulness", "pratica", "consigli pratici"]
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042380/buddismo_alng7w.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042380/buddismo_alng7w.webp
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_1.91:1,w_1600/v1756042380/buddismo_alng7w.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_3:2,w_600/v1756042380/buddismo_alng7w.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,c_fill,g_auto,ar_16:10,w_800,dpr_auto/v1756042380/buddismo_alng7w.webp
 lcp_image_alt: 
 faqs:
   - question: "Perché la mia mente non si ferma mai quando medito?"
