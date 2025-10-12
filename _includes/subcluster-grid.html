@@ -1,0 +1,95 @@
+{% comment %}
+  Subcluster Grid - CWV Safe
+  - Grid responsive con aspect-ratio fisso
+  - Lazy loading su tutte le immagini (non è LCP)
+  - Descrizione 1 riga per voce
+  - Link semantici accessibili
+{% endcomment %}
+
+{% assign cat_slug = include.category | default: page.category | default: page.categories[0] | downcase | strip %}
+
+{% comment %} Estrai subclusters unici dai post della categoria {% endcomment %}
+{% assign cat_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" %}
+{% assign subclusters_raw = cat_posts | map: "subcluster" | uniq | compact %}
+
+{% comment %} Costruisci array di subclusters con metadati {% endcomment %}
+{% assign subclusters = '' | split: ',' %}
+{% for sc in subclusters_raw %}
+  {% if sc and sc != '' %}
+    {% assign sc_clean = sc | downcase | strip %}
+    {% assign sc_posts = cat_posts | where: "subcluster", sc %}
+    
+    {% comment %} Ottieni il primo post del subcluster per immagine e descrizione {% endcomment %}
+    {% assign sc_first = sc_posts | first %}
+    
+    {% assign subkey = cat_slug | append: ':' | append: sc_clean %}
+    {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
+    {% if mapped_sub %}
+      {% assign sub_url = mapped_sub %}
+    {% else %}
+      {% assign sub_url = '/categorie/' | append: cat_slug | append: '/' | append: sc_clean | append: '/' %}
+    {% endif %}
+    
+    {% assign sc_obj = '' | split: ',' %}
+    {% assign sc_obj = sc_obj | push: sc %}
+    {% assign sc_obj = sc_obj | push: sub_url %}
+    {% assign sc_obj = sc_obj | push: sc_posts.size %}
+    {% assign sc_obj = sc_obj | push: sc_first.image %}
+    {% assign sc_obj = sc_obj | push: sc_first.description %}
+    
+    {% assign subclusters = subclusters | push: sc_obj %}
+  {% endif %}
+{% endfor %}
+
+{% if subclusters and subclusters.size > 0 %}
+<section class="subcluster-grid mb-5" aria-labelledby="subclusters-heading">
+  <div class="row mb-3">
+    <div class="col-12">
+      <h2 id="subclusters-heading" class="section-heading mb-0">Esplora per tema</h2>
+    </div>
+  </div>
+  
+  <div class="row g-4 align-items-stretch">
+    {% for sc_data in subclusters %}
+      {% assign sc_name = sc_data[0] %}
+      {% assign sc_url = sc_data[1] %}
+      {% assign sc_count = sc_data[2] %}
+      {% assign sc_img = sc_data[3] | default: '/img/og-default.jpg' %}
+      {% assign sc_desc = sc_data[4] | default: '' %}
+      
+      <div class="col-12 col-md-6">
+        <article class="post-card h-100 border rounded-3 shadow-sm mm-card">
+          <a href="{{ sc_url | relative_url }}" class="text-decoration-none">
+            <div class="thumb ratio ratio-16x9 rounded-top overflow-hidden">
+              <img
+                src="{{ sc_img | relative_url }}"
+                alt="{{ sc_name | replace: '-', ' ' | capitalize }}"
+                loading="lazy"
+                decoding="async"
+                class="w-100 h-100"
+                style="object-fit: cover;">
+            </div>
+            <div class="card-body">
+              <h3 class="post-title mb-2 h6">
+                <span class="text-decoration-none text-dark">
+                  {{ sc_name | replace: '-', ' ' | capitalize }}
+                </span>
+              </h3>
+              
+              {% if sc_desc and sc_desc != '' %}
+                <p class="post-excerpt text-muted mb-3">
+                  {{ sc_desc | strip_html | truncatewords: 20 }}
+                </p>
+              {% endif %}
+              
+              <div class="post-meta mt-2 d-flex align-items-center justify-content-between flex-wrap">
+                <small class="text-muted">{{ sc_count }} articol{% if sc_count == 1 %}o{% else %}i{% endif %}</small>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

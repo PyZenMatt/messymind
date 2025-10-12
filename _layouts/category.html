@@ -1,326 +1,149 @@
 ---
 layout: default
 ---
+{% comment %}
+  CATEGORY LAYOUT - SEO MODERN v2 (Hardened)
+  - Hero LCP-safe con immagine 16:9 + fetchpriority="high"
+  - H1 unico + intro 40-80 parole
+  - Breadcrumb visibile
+  - Grid subcluster responsive
+  - Lista post paginabile con SEO pagination (noindex page >1)
+  - FAQ opzionale con Schema
+  - Schema: CollectionPage + ItemList + BreadcrumbList (centralizzato)
+  - CWV target: SEO ≥95, CLS ≤0.10, LCP ≤2.7s
+  - CSS modularizzato in _sass/pages/_category.scss
+{% endcomment %}
 
-{%- comment -%}
-  CATEGORY LAYOUT OTTIMIZZATO (MessyMind)
-  - Titolo cluster leggibile da slug
-  - Post del cluster via where_exp (robusto)
-  - Guide essenziali (cascata: featured_slugs → is_cornerstone → tag cornerstone → recenti)
-  - Esplora per sotto-cluster (se presenti)
-  - Ultimi articoli (12 card)
-  - FAQ + JSON-LD (solo se presenti)
-  - Schema CollectionPage + ItemList coerente con la pagina
-{%- endcomment -%}
+{% comment %} Determina slug categoria {% endcomment %}
+{% if page.category and page.category != '' %}
+  {% assign cat_slug = page.category | downcase | strip %}
+{% else %}
+  {% assign cat_slug = page.categories | first | downcase | strip %}
+{% endif %}
 
-{%- if page.category and page.category != '' -%}
-  {%- assign cat_slug = page.category | downcase | strip -%}
-{%- else -%}
-  {%- assign cat_slug = page.categories | first | downcase | strip -%}
-{%- endif -%}
+{% comment %} Mappa slug a display title {% endcomment %}
+{% case cat_slug %}
+  {% when 'mindfulness-ironica' %}
+    {% assign display_title = 'Mindfulness ironica' %}
+  {% when 'crescita-personale-anti-guru' %}
+    {% assign display_title = 'Crescita personale anti-guru' %}
+  {% when 'filosofia-pratica' %}
+    {% assign display_title = 'Filosofia pratica' %}
+  {% when 'burnout-lavoro' %}
+    {% assign display_title = 'Burnout & lavoro' %}
+  {% when 'burnout-e-lavoro' %}
+    {% assign display_title = 'Burnout & lavoro' %}
+  {% else %}
+    {% assign display_title = page.title | default: cat_slug | replace: '-', ' ' | capitalize %}
+{% endcase %}
 
-{%- case cat_slug -%}
-  {%- when 'mindfulness-ironica' -%}{% assign display_title = 'Mindfulness ironica' %}
-  {%- when 'crescita-personale-anti-guru' -%}{% assign display_title = 'Crescita personale anti-guru' %}
-  {%- when 'filosofia-pratica' -%}{% assign display_title = 'Filosofia pratica' %}
-  {%- when 'burnout-lavoro' -%}{% assign display_title = 'Burnout & lavoro' %}
-  {%- else -%}{% assign display_title = page.title | default: cat_slug | replace: '-', ' ' | capitalize %}
-{%- endcase -%}
+{% comment %} Raccogli post della categoria {% endcomment %}
+{% if paginator %}
+  {% assign cat_posts = paginator.posts %}
+{% else %}
+  {% assign cat_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" | sort: "date" | reverse %}
+{% endif %}
 
-{%- comment -%} Post della categoria (ordinati, più recenti prima) {%- endcomment -%}
-{%- assign cat_posts = site.posts
-    | where_exp: "p", "p.categories contains cat_slug"
-    | sort: "date" | reverse -%}
+{% comment %} Hero Component {% endcomment %}
+{% include category-hero.html %}
 
 <div class="container category-container">
   <div class="row">
     <div class="col-12">
 
-      <h1 class="display-4 mb-3">{{ display_title }}</h1>
+      {% comment %} Breadcrumb {% endcomment %}
+      <div class="mb-3">
+        {% include breadcrumb.html %}
+      </div>
 
-      {% if page.description %}
-        <p class="lead text-muted mb-4">{{ page.description }}</p>
-      {% endif %}
+      {% comment %} Intro Section {% endcomment %}
+      {% include category-intro.html %}
+      
+      {% comment %} Cornerstone Section (Categorie essenziali) {% endcomment %}
+      {% include cornerstone-section.html category=cat_slug heading="Categorie essenziali" %}
 
-      {% if page.promise %}
-        <div class="mb-4">
-          <p class="fs-5">{{ page.promise }}</p>
+      {% comment %} Subcluster Grid {% endcomment %}
+      {% include subcluster-grid.html category=cat_slug %}
+
+      {% comment %} Recent Posts Section - Styled as "In evidenza" from home {% endcomment %}
+      <section class="listing mb-5" aria-labelledby="posts-heading">
+        <div class="row mb-3">
+          <div class="col-12">
+            <h2 id="posts-heading" class="section-heading mb-0">Ultimi articoli</h2>
+          </div>
         </div>
-      {% endif %}
-
-      {% if content and content != '' %}
-        <div class="mb-4 content-intro">
-          {{ content }}
-        </div>
-      {% endif %}
-
-      <div class="row">
-        <div class="col-lg-8">
-
-          <!-- Guide essenziali (cascata) -->
-          <section class="mb-5">
-            <h2>Guide essenziali</h2>
-
-            {% assign items = '' %}
-
-            {%- comment -%} 0) Se l'edit page specifica `featured_slugs`, usala prima {%- endcomment -%}
-            {% if page.featured_slugs and page.featured_slugs.size > 0 %}
-              {% capture items %}
-                {% for s in page.featured_slugs %}
-                  {% assign p = cat_posts | where: 'slug', s | first %}
-                  {% if p %}
-                    <li><a class="text-decoration-none" href="{{ p.url | relative_url }}" title="Leggi: {{ p.title | escape }}">{{ p.title }}</a></li>
-                  {% endif %}
-                {% endfor %}
-              {% endcapture %}
-            {% endif %}
-
-            {%- comment -%} Costruisco una lista robusta di guide estraendo da cat_posts guardando piu` possibili flag/tag {%- endcomment -%}
-            {% if items == '' %}
-              {% assign guides_list = '' | split: ',' %}
-              {% for p in cat_posts %}
-                {% assign added = false %}
-                {%- comment -%} 1) booleano standard is_cornerstone: true {%- endcomment -%}
-                {% if p.is_cornerstone == true or p.is_cornerstone == 'true' %}
-                  {% assign guides_list = guides_list | push: p %}
-                  {% continue %}
+        
+        {% if paginator %}
+          {% assign posts_to_show = paginator.posts %}
+        {% else %}
+          {% assign posts_to_show = cat_posts | slice: 0, 12 %}
+        {% endif %}
+        
+        {% for post in posts_to_show %}
+        <div class="row mb-4">
+          <div class="col-12">
+            <article class="featured-card mm-card border rounded-3 shadow-sm overflow-hidden">
+              <div class="row g-0">
+                {% assign post_img = post.background | default: post.image %}
+                {% if post_img %}
+                <div class="col-md-6">
+                  <div class="thumb ratio ratio-16x9">
+                    {% include optimized-image.html src=post_img alt=post.title class='w-100 h-100' %}
+                  </div>
+                </div>
                 {% endif %}
-
-                {%- comment -%} 2) chiavi alternative come cornerstone: true {%- endcomment -%}
-                {% if p.cornerstone == true or p.cornerstone == 'true' %}
-                  {% assign guides_list = guides_list | push: p %}
-                  {% continue %}
-                {% endif %}
-
-                {%- comment -%} 3) tag 'cornerstone' (tags puo` essere array o stringa) {%- endcomment -%}
-                {% if p.tags %}
-                  {% if p.tags contains 'cornerstone' %}
-                    {% assign guides_list = guides_list | push: p %}
-                    {% continue %}
-                  {% else %}
-                    {%- comment -%} Se tags e` una stringa separata da virgole, controlla downcase join {%- endcomment -%}
-                    {% assign tagstr = p.tags | join: '|' | downcase %}
-                    {% if tagstr contains 'cornerstone' %}
-                      {% assign guides_list = guides_list | push: p %}
-                      {% continue %}
+                <div class="col-md-6">
+                  <div class="card-body p-4">
+                    <h3 class="post-title mb-3 h5">
+                      <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                        {{ post.title }}
+                      </a>
+                    </h3>
+                    
+                    {% assign post_excerpt = post.description | default: post.seo_description | default: post.excerpt %}
+                    {% if post_excerpt %}
+                      <p class="post-excerpt text-muted mb-4">{{ post_excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
                     {% endif %}
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-
-              {%- comment -%} Rendi unica la lista preservando ordine e limita a 5 elementi {%- endcomment -%}
-              {% assign unique_guides = '' | split: ',' %}
-              {% for gp in guides_list %}
-                {% if gp %}
-                  {% unless unique_guides contains gp %}
-                    {% assign unique_guides = unique_guides | push: gp %}
-                  {% endunless %}
-                {% endif %}
-              {% endfor %}
-
-              {% if unique_guides and unique_guides.size > 0 %}
-                {% capture items %}
-                  {% for post in unique_guides limit:5 %}
-                    <li><a class="text-decoration-none" href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-                  {% endfor %}
-                {% endcapture %}
-              {% endif %}
-            {% endif %}
-
-            {%- comment -%} Fallback: ultimi post del cluster {%- endcomment -%}
-            {% if items == '' %}
-              {% capture items %}
-                {% for post in cat_posts limit:5 %}
-                  <li><a class="text-decoration-none" href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-                {% endfor %}
-              {% endcapture %}
-            {% endif %}
-
-            <ul class="mb-3 list-unstyled">{{ items }}</ul>
-          </section>
-
-          <!-- Categorie affini (se presente) -->
-          {% assign subclusters = cat_posts | map: "subcluster" | uniq | compact %}
-          {% if subclusters and subclusters.size > 0 %}
-          <section class="mb-5">
-            <h2>Categorie affini</h2>
-            {% for sc in subclusters %}
-                {% if sc %}
-                    {%- comment -%} Resolve subcluster canonical URL via site.data.subcluster_slugs when available {%- endcomment -%}
-                    {% assign subkey = cat_slug | append: ':' | append: sc | downcase | slugify %}
-                    {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
-                    {% if mapped_sub %}
-                      {% assign sub_href = mapped_sub | relative_url %}
-                    {% else %}
-                      {% assign sub_href = '/categorie/' | append: cat_slug | append: '/' | append: sc | append: '/' | relative_url %}
-                    {% endif %}
-                    <h3 class="h5 mt-3">
-                    <a href="{{ sub_href }}">{{ sc | replace: '-', ' ' | capitalize }}</a>
-                  </h3>
-                {% assign group = cat_posts | where: "subcluster", sc | sort: "date" | reverse %}
-                <ul class="mb-2">
-                  {% for p in group limit:4 %}
-                    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            {% endfor %}
-          </section>
-          {% endif %}
-
-          <!-- Ultimi articoli -->
-          <section class="mb-5">
-            <h2>Ultimi articoli</h2>
-            <div class="row">
-              {% for post in cat_posts limit:12 %}
-              <div class="col-md-6 mb-4">
-                <div class="card h-100">
-                  <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
-                    <img
-                      src="{{ post.background | default: '/assets/img/default-post.jpg' | relative_url }}"
-                      class="card-img-top"
-                      alt=""
-                      loading="lazy"
-                      decoding="async"
-                      style="height:160px;object-fit:cover;">
-                  </a>
-                  <div class="card-body">
-                    <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
-                      <h3 class="card-title h5">{{ post.title }}</h3>
-                    </a>
-                    <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
-                    <p class="text-muted small mb-0">{{ post.date | date: "%d/%m/%Y" }}</p>
+                    
+                    <div class="post-meta d-flex align-items-center justify-content-between flex-wrap mb-3">
+                      <small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small>
+                      <a href="/categorie/{{ cat_slug }}/" class="badge badge-mm text-decoration-none">
+                        {{ cat_slug | replace: '-', ' ' | capitalize }}
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-              {% endfor %}
-            </div>
-          </section>
-
-          <!-- FAQ -->
-          {% assign faq_key = cat_slug %}
-          {% if faq_key == 'spiritualita-pratica' %}{% assign faq_key = 'filosofia-pratica' %}{% endif %}
-          {% assign faq_items = site.data.category_faqs[faq_key] %}
-          {% if faq_items == nil or faq_items == empty or faq_items.size == 0 %}
-            {% if page.faq and page.faq.size > 0 %}
-              {% assign faq_items = page.faq %}
-            {% endif %}
-          {% endif %}
-
-          {% if faq_items and faq_items.size > 0 %}
-          <section class="mb-5">
-            <h2>FAQ</h2>
-            <div class="accordion" id="categoryFaq">
-              {% for item in faq_items %}
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="faqHeading{{ forloop.index }}">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse{{ forloop.index }}" aria-expanded="false" aria-controls="faqCollapse{{ forloop.index }}">{{ item.question }}</button>
-                </h3>
-                <div id="faqCollapse{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="faqHeading{{ forloop.index }}" data-bs-parent="#categoryFaq">
-                  <div class="accordion-body">{{ item.answer }}</div>
-                </div>
-              </div>
-              {% endfor %}
-            </div>
-          </section>
-
-          <!-- JSON-LD FAQPage -->
-          <script type="application/ld+json">
-          {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {% for item in faq_items %}
-              {
-                "@type": "Question",
-                "name": {{ item.question | jsonify }},
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": {{ item.answer | jsonify }}
-                }
-              }{% unless forloop.last %},{% endunless %}
-              {% endfor %}
-            ]
-          }
-          </script>
-          {% endif %}
-
-          <!-- JS fallback per accordion (se Bootstrap JS non è caricato) -->
-          <script>
-          (function(){
-            if (typeof bootstrap !== 'undefined' && bootstrap && bootstrap.Collapse) return;
-            function closest(el, sel){ while(el && el.nodeType===1){ if(el.matches(sel)) return el; el = el.parentElement; } return null; }
-            document.addEventListener('click', function(e){
-              var btn = e.target.closest && e.target.closest('.accordion-button'); if(!btn) return;
-              var targetSel = btn.getAttribute('data-bs-target') || ('#' + btn.getAttribute('aria-controls')); if(!targetSel) return;
-              var target = document.querySelector(targetSel); if(!target) return;
-              var acc = closest(btn, '.accordion'); if(acc){
-                acc.querySelectorAll('.accordion-collapse.show').forEach(function(it){
-                  if(it !== target){ it.classList.remove('show'); var rb = acc.querySelector('[data-bs-target=\"#'+it.id+'\"]'); if(rb){ rb.classList.add('collapsed'); rb.setAttribute('aria-expanded','false'); } }
-                });
-              }
-              var open = target.classList.contains('show');
-              target.classList.toggle('show');
-              btn.classList.toggle('collapsed', open);
-              btn.setAttribute('aria-expanded', (!open).toString());
-              e.preventDefault();
-            });
-          })();
-          </script>
-
+            </article>
+          </div>
         </div>
+        {% endfor %}
+        
+        {% comment %} Pagination (se configurata) {% endcomment %}
+        {% if site.paginate and paginator %}
+          {% include pagination.html %}
+        {% endif %}
+      </section>
 
-        <aside class="col-lg-4">
-          <!-- Strumenti / Template -->
-          <div class="mb-4">
-            <h2 class="h4">Strumenti e template</h2>
-            {% assign tools = site.data.tools[cat_slug] | default: empty %}
-            {% if tools and tools.size > 0 %}
-              <ul class="list-unstyled">
-                {% for t in tools limit:10 %}
-                  <li><a href="{{ t.url | relative_url }}">{{ t.title }}</a></li>
-                {% endfor %}
-              </ul>
-            {% else %}
-              <p class="text-muted small">Presto disponibili per questo cluster.</p>
-            {% endif %}
-          </div>
+      {% comment %} FAQ Section {% endcomment %}
+      {% include category-faq.html category=cat_slug %}
 
-          <!-- CTA Newsletter -->
-          <div class="card border-primary mb-4">
-            <div class="card-body">
-              <h2 class="h4">Iscriviti alla newsletter</h2>
-              <p class="small text-muted">Consigli pratici e template ogni settimana. Niente hype, solo cose utili.</p>
-              <p class="small text-muted">Per iscriverti usa la pagina contatti e indica nome ed email.</p>
-              <a href="{{ '/contact' | relative_url }}" class="btn btn-primary w-100" title="Vai ai contatti">Vai alla pagina Contatti</a>
+      {% comment %} CTA Newsletter - Stile home {% endcomment %}
+      <section class="cta cta-section mb-5" aria-labelledby="cta-heading">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="mm-card cta-newsletter p-5 border rounded-3 shadow-sm text-center mx-auto">
+              <h2 id="cta-heading" class="h4 mb-3">Ricevi 1 pratica a settimana</h2>
+              <p class="text-muted mb-4">Zero spam. Una sola email con una micro‑tecnica testata sul campo.</p>
+              <a href="{{ '/newsletter' | relative_url }}" class="btn btn-primary px-4">Iscriviti</a>
             </div>
           </div>
-        </aside>
-      </div>
+        </div>
+      </section>
 
-      <!-- JSON-LD CollectionPage + ItemList dei post mostrati -->
-      {% if cat_posts and cat_posts.size > 0 %}
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "CollectionPage",
-        "name": {{ display_title | jsonify }},
-        "description": {{ page.description | default: page.excerpt | strip_html | truncate: 160 | jsonify }},
-        "mainEntity": {
-          "@type": "ItemList",
-          "itemListElement": [
-            {% for post in cat_posts limit: 20 %}
-            {
-              "@type": "ListItem",
-              "position": {{ forloop.index }},
-              "url": "{{ post.url | absolute_url }}"
-            }{% unless forloop.last or forloop.index == 20 %},{% endunless %}
-            {% endfor %}
-          ]
-        }
-      }
-      </script>
-      {% endif %}
     </div>
   </div>
 </div>
+
+{% comment %} Schema Markup - Centralizzato {% endcomment %}
+{% include schema-category.html category=cat_slug %}

@@ -10,5 +10,25 @@ category: crescita-personale-anti-guru
 intro: 'Hub: raccolta di guide e articoli su Felicita Realistica.'
 permalink: categorie/crescita-personale-antiguru/felicita-realistica
 redirect_from: /filosofia-pratica/autoconsapevolezza-e-felicita/
+image: "/img/og-default.jpg"
+hero_image: "/img/og-default.jpg"
+hero_alt: "Decisioni e bias cognitivi - MessyMind"
+intro: |
+  La felicità non è una vetta. È una media mobile.
+  Alzala con piccoli gesti ricorrenti.
+
+promise: "Felicità sostenibile, misurabile"
+topics:
+  - title: "Azioni ricorrenti"
+    description: "3 cose buone ogni giorno, specifiche. Effetto dopo 14 giorni."
+  - title: "Varietà anti-adattamento"
+    description: "Stessa pratica, contesto diverso. Mantieni vivo lo stimolo."
+
+cta_title: "Alza la media"
+cta_text: "Tracker semplice e idee settimanali per nutrire la curva."
+cta_button: "Scarica il tracker"
+cta_link: "/newsletter/"
+sitemap: true
+noindex: false
 ---
 

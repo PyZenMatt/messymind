@@ -1,0 +1,157 @@
+# Subcluster-specific FAQs, grouped by category then subcluster
+
+burnout-e-lavoro:
+  ritmi-gentili:
+    - question: "Cos'è un ritmo di lavoro gentile?"
+      answer: "Un modo di lavorare che rispetta energia, pause e confini orari. Meno attrito, meno rischio burnout."
+    - question: "Come inizio se l’agenda è piena?"
+      answer: "Taglia il 10% di impegni non essenziali e blocca due pause da 15 minuti oggi. Difendile come meeting."
+    - question: "Ritmi gentili = meno risultati?"
+      answer: "No. Aumentano costanza e qualità riducendo i rimbalzi cognitivi. Sostenibilità batte sprint."
+    - question: "Meeting back-to-back, che faccio?"
+      answer: "Inserisci 5–10 minuti di buffer e chiudi con un solo next step. Niente overtime di default."
+    - question: "Come stacco davvero la sera?"
+      answer: "Decompressione 10': lista 'chiudo/domani', routine senza schermo, luci basse 30' prima del sonno."
+
+  autenticita-in-ufficio:
+    - question: "Cos'è l'autenticità in ufficio?"
+      answer: "Dire la verità operativa con rispetto. Onestà concreta, zero teatrini."
+    - question: "Come dico 'non ho capito' in riunione?"
+      answer: "Usa: 'Riformulo per verificare: … È corretto?'. Breve e specifico."
+    - question: "E se al capo non piace la franchezza?"
+      answer: "Porta dati e alternative: 'Vedo due opzioni… Preferisco B per X'. Autenticità = responsabilità."
+    - question: "Come chiedo più tempo senza sembrare lento?"
+      answer: "'Consegno entro [data/ora] garantendo qualità'. Offri una mini-tappa oggi."
+    - question: "Posso essere me stesso anche in chat?"
+      answer: "Sì: tono semplice, niente sarcasmo ambiguo, emoji sobrie. Le sfumature in 1:1."
+
+filosofia-pratica:
+  decisioni-e-bias:
+    - question: "Cos'è un bias cognitivo?"
+      answer: "Una scorciatoia mentale utile ma fallibile. Va gestita, non demonizzata."
+    - question: "Come riconosco i miei bias?"
+      answer: "Traccia 7 decisioni questa settimana. Aggiungi un controesempio prima di chiudere."
+    - question: "Si eliminano?"
+      answer: "No. Si compensano con checklist, pausa 5', e un pari 'avvocato del diavolo'."
+    - question: "Che faccio quando sono di fretta?"
+      answer: "Decidi in due fasi: criterio minimo ora, verifica a freddo domani."
+    - question: "Il bias è sempre un problema?"
+      answer: "No. Nei contesti ripetitivi accelera; nelle novità rallenta e verifica."
+
+  coscienza-e-ai:
+    - question: "L'AI può aiutare a decidere meglio?"
+      answer: "Sì, se la usi come secondo cervello e non come giudice. Chiedile opzioni, decidi tu."
+    - question: "Come evito l’overload informativo?"
+      answer: "Limita le fonti a 3 affidabili e fai un riepilogo di 5 righe. Il resto è rumore."
+    - question: "Rischio di delegare troppo all’AI?"
+      answer: "Se non definisci criteri sì. Imposta 3 must-have prima di chiedere output."
+    - question: "Come verifico la qualità delle risposte?"
+      answer: "Triangola: fonte primaria, data, metodo. Se manca uno, sospendi il giudizio."
+    - question: "Qual è il limite principale dell’AI?"
+      answer: "Non ha contesto vissuto. Tu sì: integra con vincoli reali e valori."
+
+  scienza-e-metodo:
+    - question: "Perché serve il metodo?"
+      answer: "Per distinguere pattern reali da coincidenze. Senza, decidi a sentimento."
+    - question: "Come testo una strategia personale?"
+      answer: "Definisci ipotesi, durata, metrica e soglia di successo. Poi decidi se iterare."
+    - question: "Correlazione o causa?"
+      answer: "Se A e B si muovono insieme non vuol dire che A causa B. Cerca terze variabili."
+    - question: "Come leggo uno studio?"
+      answer: "Guarda campione, disegno, limiti dichiarati. Salta subito alle conclusioni e ai limiti."
+    - question: "Replicabilità nel quotidiano?"
+      answer: "Ripeti lo stesso test per 2 settimane. Se regge, promuovi a routine."
+
+  scienza-e-spiritualita:
+    - question: "Possono convivere?"
+      answer: "Sì: metodo per verificare, senso per orientare. Complementari, non rivali."
+    - question: "Una pratica concreta?"
+      answer: "1 minuto prima di iniziare: 'Per chi è utile ciò che faccio?'. Poi lavora e misura l’impatto."
+    - question: "Come evito la fuffa?"
+      answer: "Chiedi cosa, come, quanto, con chi. Se mancano numeri o esempi, passa oltre."
+    - question: "Si può misurare il 'benessere'?"
+      answer: "Usa indicatori semplici: sonno, energia, umore. Semaforo verde/giallo/rosso settimanale."
+    - question: "Quando fidarsi dell’intuizione?"
+      answer: "Dopo pratica e feedback. Intuizione + verifica battono improvvisazione."
+
+mindfulness-ironica:
+  equilibrio-interiore-per-persone-normali:
+    - question: "Equilibrio = niente problemi?"
+      answer: "No. È tenuta, non perfezione. Ti riallinei più in fretta."
+    - question: "Da dove parto?"
+      answer: "Scegli una leva tra sonno, cibo, movimento. 10 minuti oggi, misura domani."
+    - question: "Come evito il 'tutto o niente'?"
+      answer: "Versione 50% nei giorni no. Meglio piccolo e fatto."
+    - question: "Serve meditare?"
+      answer: "Aiuta. 3 minuti a respiro e piedi. Domani ripeti."
+
+  spiritualita-prudente:
+    - question: "Spiritualità senza guru?"
+      answer: "Sì: valori in azione quotidiana. Meno slogan, più pratiche verificabili."
+    - question: "Un rituale laico utile?"
+      answer: "Riepilogo serale di 5 righe: cosa ho curato, cosa no, prossimo gesto."
+    - question: "Come mantengo senso critico?"
+      answer: "Chiedi costi, benefici, tempi. Se non è chiaro, non è per te ora."
+
+  mindfulness-al-lavoro:
+    - question: "Ha senso meditare in ufficio?"
+      answer: "Sì, a dosi micro. 3 respiri tra call e una camminata breve."
+    - question: "Come gestisco lo stress pre-riunione?"
+      answer: "Box breathing 60'': 4-4-6-2. Poi primo punto in agenda."
+    - question: "Notifiche che distraggono?"
+      answer: "Silenzia a blocchi. Slotta 2 check mail al giorno."
+
+  osservazione-e-silenzio:
+    - question: "Che ci faccio col silenzio?"
+      answer: "Ascolti segnali deboli. 5 minuti senza input prima di creare."
+    - question: "Annoiarsi serve?"
+      answer: "Sì, schiarisce. Aspetta 2 minuti prima di riaprire lo schermo."
+    - question: "Pratica rapida?"
+      answer: "Siediti, nota tre suoni, tre sensazioni, tre pensieri. Fine."
+
+  pratiche-quotidiane-urbane:
+    - question: "Posso praticare fuori da un tappetino?"
+      answer: "Sì. Fermata bus: senti piedi e respiro per 1 minuto."
+    - question: "Camminata consapevole, come?"
+      answer: "Conta passi 1-10 e ricomincia. Se ti perdi, riparti da 1."
+    - question: "In coda al supermercato?"
+      answer: "Scansiona corpo dalle spalle ai piedi. Rilassa dove trovi tensione."
+
+crescita-personale-anti-guru:
+  antifragilita-e-perfezionismo:
+    - question: "Come smetto di rifinire all’infinito?"
+      answer: "Stabilisci 'abbastanza buono' e pubblica al 80%. Itera dopo feedback."
+    - question: "Errori utili, davvero?"
+      answer: "Sì, se sono piccoli e frequenti. Fissa un 'budget errore' settimanale."
+    - question: "Come allenare antifragilità?"
+      answer: "Micro-sfide controllate: 1 cosa scomoda al giorno, 5 minuti."
+
+  desiderio-e-rinuncia:
+    - question: "Rinunciare = perdere?"
+      answer: "È scegliere meglio. Ogni sì chiede un no. Scrivi il no esplicito."
+    - question: "Come gestisco la FOMO?"
+      answer: "Dietro digitale di 7 giorni su 1 app. Misura cosa cambia."
+    - question: "Capire cosa voglio davvero?"
+      answer: "Elenca 3 valori e filtra decisioni con quelli."
+
+  felicita-realistica:
+    - question: "La felicità è uno stato continuo?"
+      answer: "No. È una media mobile. Alzala con piccole azioni ricorrenti."
+    - question: "Un esercizio semplice?"
+      answer: "3 cose buone al giorno, specifiche. 14 giorni, poi valuta."
+    - question: "Come evito l’adattamento edonico?"
+      answer: "Varia la dose o il contesto. Stessa pratica, luogo diverso."
+
+  scelta-e-cuore:
+    - question: "Decidere con la testa o con il cuore?"
+      answer: "Entrambi. 3 criteri razionali + un check corporeo di 60'' prima di confermare."
+    - question: "Se resto bloccato?"
+      answer: "Esperimento a tempo: prova B per 2 settimane, poi retrospettiva."
+
+  scopo-e-confini:
+    - question: "Come trovo lo scopo?"
+      answer: "Per sottrazione: elimina ciò che drena. Ciò che resta merita spazio."
+    - question: "Dire no senza bruciare ponti?"
+      answer: "'Grazie, non ho capacità ora. Posso il [data] o suggerisco [opzione]'."
+    - question: "Confini che tengono?"
+      answer: "Scritti, visibili e negoziati. Rivedili ogni venerdì in 10 minuti."
