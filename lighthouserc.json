@@ -1,0 +1,33 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 5,
+      "url": [
+        "https://messymind.it/",
+        "https://messymind.it/categorie/burnout-e-lavoro/",
+        "https://messymind.it/2025/09/29/stress-correlato/"
+      ],
+      "settings": {
+        "preset": "mobile",
+        "chromeFlags": "--headless=new --no-sandbox",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 60000,
+        "skipAudits": ["uses-http2"]
+      }
+    },
+    "assert": {
+      "preset": "lighthouse:recommended",
+      "assertions": {
+        "categories:performance": ["error", {"minScore": 0.80}],
+        "categories:accessibility": ["error", {"minScore": 0.90}],
+        "categories:best-practices": ["error", {"minScore": 0.90}],
+        "categories:seo": ["error", {"minScore": 0.95}],
+        "cumulative-layout-shift": ["error", {"maxNumericValue": 0.1}]
+      }
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": ".lighthouseci"
+    }
+  }
+}
