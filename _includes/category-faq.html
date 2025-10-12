@@ -1,0 +1,191 @@
+{% comment %}
+  Category FAQ Component
+  - Accordion Bootstrap 5
+  - Schema.org FAQPage JSON-LD
+  - Accessibilità ARIA completa
+  - Fallback JavaScript per accordion
+{% endcomment %}
+
+{% assign faq_key = include.category | default: page.category | default: page.categories[0] | downcase | strip %}
+{% assign sub_key = include.subcluster | default: page.subcluster | downcase | strip %}
+
+{% comment %} Mappa legacy keys {% endcomment %}
+{% if faq_key == 'spiritualita-pratica' %}
+  {% assign faq_key = 'filosofia-pratica' %}
+{% endif %}
+
+{%- comment -%}
+  Lookup order for FAQs:
+  1) site.data.category_faqs["category:subcluster"]  (subcluster-specific in _data)
+  2) site.data.category_faqs["category"]             (category-level in _data)
+  3) page.faq                                        (front-matter fallback)
+{%- endcomment -%}
+
+{% assign combined_key = faq_key | append: ':' | append: sub_key %}
+{%- comment -%}
+  Prefer subcluster-specific data file `_data/subcluster_faqs.yml` organized as:
+  category-slug:
+    subcluster-slug: [ {question:, answer:}, ... ]
+{%- endcomment -%}
+{% assign faq_items = nil %}
+
+{%- if site.data.subcluster_faqs and site.data.subcluster_faqs[faq_key] and site.data.subcluster_faqs[faq_key][sub_key] -%}
+  {% assign faq_items = site.data.subcluster_faqs[faq_key][sub_key] %}
+{%- endif -%}
+
+{%- if faq_items == nil or faq_items == empty or faq_items.size == 0 -%}
+  {% assign faq_items = site.data.category_faqs[combined_key] %}
+{%- endif -%}
+
+{% if faq_items == nil or faq_items == empty or faq_items.size == 0 %}
+  {% assign faq_items = site.data.category_faqs[faq_key] %}
+{% endif %}
+
+{% comment %} Fallback: usa page.faq se presente {% endcomment %}
+{% if faq_items == nil or faq_items == empty or faq_items.size == 0 %}
+  {% comment %} Support both plural `page.faqs` and singular `page.faq` in front-matter. Many pages use `faqs:`. Prefer `page.faqs` if present. {% endcomment %}
+  {% if page.faqs and page.faqs.size > 0 %}
+    {% assign faq_items = page.faqs %}
+  {% elsif page.faq and page.faq.size > 0 %}
+    {% assign faq_items = page.faq %}
+  {% endif %}
+{% endif %}
+
+{% if faq_items and faq_items.size > 0 %}
+<section class="faq-section mb-5" aria-labelledby="faq-heading">
+  <h2 id="faq-heading" class="h4 mb-3">❓ Domande frequenti</h2>
+  <div class="accordion" id="categoryFaqAccordion">
+    {% for item in faq_items limit:5 %}
+      {% assign loop_id = forloop.index %}
+      <div class="accordion-item border-0 mb-2 shadow-sm">
+        <h3 class="accordion-header" id="faqHeading{{ loop_id }}">
+          <button 
+            class="accordion-button collapsed" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#faqCollapse{{ loop_id }}" 
+            aria-expanded="false" 
+            aria-controls="faqCollapse{{ loop_id }}">
+            {{ item.question | default: item.q }}
+          </button>
+        </h3>
+        <div 
+          id="faqCollapse{{ loop_id }}" 
+          class="accordion-collapse collapse" 
+          aria-labelledby="faqHeading{{ loop_id }}" 
+          data-bs-parent="#categoryFaqAccordion">
+          <div class="accordion-body">
+            {{ item.answer | default: item.a }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% comment %} JSON-LD FAQPage Schema {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq_items %}
+    {
+      "@type": "Question",
+      "name": {{ item.question | default: item.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.answer | default: item.a | jsonify }}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+
+{% comment %} Fallback JavaScript per accordion se Bootstrap non caricato {% endcomment %}
+<script>
+(function() {
+  // Check if Bootstrap is loaded
+  if (typeof bootstrap !== 'undefined' && bootstrap && bootstrap.Collapse) return;
+  
+  // Simple accordion fallback
+  function closest(el, sel) {
+    while (el && el.nodeType === 1) {
+      if (el.matches(sel)) return el;
+      el = el.parentElement;
+    }
+    return null;
+  }
+  
+  document.addEventListener('click', function(e) {
+    var btn = e.target.closest && e.target.closest('.accordion-button');
+    if (!btn) return;
+    
+    var targetSel = btn.getAttribute('data-bs-target') || ('#' + btn.getAttribute('aria-controls'));
+    if (!targetSel) return;
+    
+    var target = document.querySelector(targetSel);
+    if (!target) return;
+    
+    var acc = closest(btn, '.accordion');
+    if (acc) {
+      acc.querySelectorAll('.accordion-collapse.show').forEach(function(it) {
+        if (it !== target) {
+          it.classList.remove('show');
+          var rb = acc.querySelector('[data-bs-target="#' + it.id + '"]');
+          if (rb) {
+            rb.classList.add('collapsed');
+            rb.setAttribute('aria-expanded', 'false');
+          }
+        }
+      });
+    }
+    
+    var isOpen = target.classList.contains('show');
+    target.classList.toggle('show');
+    btn.classList.toggle('collapsed', isOpen);
+    btn.setAttribute('aria-expanded', (!isOpen).toString());
+    e.preventDefault();
+  });
+})();
+</script>
+
+<style>
+/* Inline CSS for FAQ accordion */
+.category-faq .accordion-item {
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.category-faq .accordion-button {
+  font-weight: 600;
+  color: var(--bs-dark, #212529);
+  background-color: #fff;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+}
+
+.category-faq .accordion-button:not(.collapsed) {
+  background-color: var(--bs-light, #f8f9fa);
+  color: var(--bs-primary, #4f8a8b);
+  box-shadow: none;
+}
+
+.category-faq .accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(79, 138, 139, 0.25);
+  border-color: var(--bs-primary, #4f8a8b);
+}
+
+.category-faq .accordion-body {
+  padding: 1.25rem;
+  line-height: 1.6;
+  color: var(--bs-gray-dark, #495057);
+}
+
+.category-faq .accordion-collapse {
+  transition: height 0.3s ease;
+}
+</style>
+{% endif %}

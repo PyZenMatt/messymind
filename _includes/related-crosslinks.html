@@ -1,0 +1,130 @@
+{% comment %}
+  Related Cross-links Component
+  - 1 link al cluster parent
+  - 2 link a subclusters contigui
+  - SEO internal linking
+  - Accessibilità ARIA
+{% endcomment %}
+
+{% assign cat_slug = include.category | default: page.category | default: page.categories[0] | downcase | strip %}
+{% assign current_sub = include.subcluster | default: page.subcluster | downcase | strip %}
+
+{% comment %} Ottieni tutti i subclusters della categoria {% endcomment %}
+{% assign cat_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" %}
+{% assign all_subs = cat_posts | map: "subcluster" | uniq | compact %}
+
+{% comment %} Filtra subclusters diversi da quello corrente {% endcomment %}
+{% assign related_subs = '' | split: ',' %}
+{% for sub in all_subs %}
+  {% assign sub_clean = sub | downcase | strip %}
+  {% if sub_clean != current_sub %}
+    {% assign related_subs = related_subs | push: sub %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} URL categoria parent {% endcomment %}
+{% assign category_key = cat_slug %}
+{% assign mapped_cat = site.data.category_slugs[category_key] | default: nil %}
+{% if mapped_cat %}
+  {% assign category_url = mapped_cat %}
+{% else %}
+  {% assign category_url = '/categorie/' | append: category_key | append: '/' %}
+{% endif %}
+
+{% comment %} Display title categoria {% endcomment %}
+{% case cat_slug %}
+  {% when 'mindfulness-ironica' %}
+    {% assign cat_display = 'Mindfulness ironica' %}
+  {% when 'crescita-personale-anti-guru' %}
+    {% assign cat_display = 'Crescita personale anti-guru' %}
+  {% when 'filosofia-pratica' %}
+    {% assign cat_display = 'Filosofia pratica' %}
+  {% when 'burnout-lavoro' %}
+    {% assign cat_display = 'Burnout & lavoro' %}
+  {% when 'burnout-e-lavoro' %}
+    {% assign cat_display = 'Burnout & lavoro' %}
+  {% else %}
+    {% assign cat_display = cat_slug | replace: '-', ' ' | capitalize %}
+{% endcase %}
+
+<aside class="related-crosslinks mb-5" aria-labelledby="crosslinks-heading">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="crosslinks-box bg-light p-4 rounded border">
+          <h2 id="crosslinks-heading" class="h5 mb-3">Esplora argomenti correlati</h2>
+          
+          <nav aria-label="Link correlati">
+            <ul class="list-unstyled mb-0">
+              {% comment %} Link al cluster parent {% endcomment %}
+              <li class="mb-2">
+                <a href="{{ category_url | relative_url }}" class="text-decoration-none fw-semibold">
+                  <svg class="icon-arrow me-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M15 19l-7-7 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Torna a {{ cat_display }}
+                </a>
+              </li>
+              
+              {% comment %} Link a subclusters contigui (max 2) {% endcomment %}
+              {% for sub in related_subs limit: 2 %}
+                {% assign sub_clean = sub | downcase | strip %}
+                {% assign subkey = cat_slug | append: ':' | append: sub_clean %}
+                {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
+                {% if mapped_sub %}
+                  {% assign sub_url = mapped_sub %}
+                {% else %}
+                  {% assign sub_url = '/categorie/' | append: cat_slug | append: '/' | append: sub_clean | append: '/' %}
+                {% endif %}
+                
+                <li class="mb-2">
+                  <a href="{{ sub_url | relative_url }}" class="text-decoration-none">
+                    <svg class="icon-arrow me-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    {{ sub | replace: '-', ' ' | capitalize }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<style>
+/* Inline CSS for crosslinks */
+.related-crosslinks {
+  margin-top: 3rem;
+}
+
+.crosslinks-box {
+  border-left: 4px solid var(--bs-primary, #4f8a8b) !important;
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+}
+
+.crosslinks-box a {
+  color: var(--bs-dark, #212529);
+  transition: color 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.crosslinks-box a:hover {
+  color: var(--bs-primary, #4f8a8b);
+}
+
+.crosslinks-box .icon-arrow {
+  flex-shrink: 0;
+}
+
+.crosslinks-box li {
+  padding: 0.5rem 0;
+}
+
+.crosslinks-box .fw-semibold {
+  font-weight: 600;
+}
+</style>

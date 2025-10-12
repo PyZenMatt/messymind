@@ -1,0 +1,39 @@
+{% comment %}
+  Category Intro - Aligned with Home Theme Grid
+  - No duplicate lead (already in hero)
+  - "Cosa troverai qui" as 2x2 grid like "Temi Principali"
+  - Uses promise field from front matter to populate 4 cards
+{% endcomment %}
+
+<section class="category-intro mb-5" aria-labelledby="category-intro-heading">
+  
+  {% if page.promise %}
+    {% comment %} Grid 2x2 come "Temi Principali" della home {% endcomment %}
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h2 id="category-intro-heading" class="section-heading mb-0">Cosa troverai qui</h2>
+        <p class="text-muted mt-2 mb-0">{{ page.promise }}</p>
+      </div>
+    </div>
+    
+    {% comment %} Grid topics - 4 card 2x2 come home {% endcomment %}
+    {% if page.topics and page.topics.size > 0 %}
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 0;">
+        {% for topic in page.topics limit:4 %}
+          <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+            <div class="mm-card h-100 p-4">
+              <h3 class="mb-2">
+                {% if topic.url %}
+                  <a href="{{ topic.url | relative_url }}" class="text-decoration-none">{{ topic.title }}</a>
+                {% else %}
+                  {{ topic.title }}
+                {% endif %}
+              </h3>
+              <p class="text-muted mb-0">{{ topic.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
+</section>

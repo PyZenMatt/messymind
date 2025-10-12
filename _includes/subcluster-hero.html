@@ -1,0 +1,58 @@
+{% comment %}
+  Subcluster Hero - Aligned with Category Hero Style
+  - 16:9 aspect ratio hero image
+  - Explicit width/height to prevent CLS
+  - fetchpriority="high" on LCP image
+  - No lazy loading on hero
+  - Same structure as category: title + tagline + CTA button "Inizia da qui"
+{% endcomment %}
+
+{% assign hero_image = page.hero_image | default: page.image | default: page.background | default: '/img/og-default.jpg' %}
+{% assign hero_alt = page.hero_alt | default: '' %}
+
+<header class="masthead subcluster-hero modern-hero">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1 class="site-title">
+            {{ page.title | default: page.subcluster | replace: '-', ' ' | capitalize }}
+          </h1>
+          
+          <div class="hero-brand-content mt-4">
+            {% if page.intro %}
+              <p class="hero-tagline lead text-white">
+                {{ page.intro | truncatewords: 30 }}
+              </p>
+            {% elsif page.description %}
+              <p class="hero-tagline lead text-white">
+                {{ page.description | truncatewords: 30 }}
+              </p>
+            {% endif %}
+            
+            <a href="#cornerstone-heading" class="btn btn-primary btn-lg mt-3">
+              Inizia da qui
+              <svg class="icon icon-arrow-right ms-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- LCP Hero Image with explicit dimensions -->
+  <div class="home-hero">
+    <img
+      class="lcp-img hero-lcp-img"
+      src="{{ hero_image | relative_url }}"
+      width="1600"
+      height="900"
+      loading="eager"
+      fetchpriority="high"
+      alt="{{ hero_alt }}"
+      aria-hidden="true">
+  </div>
+</header>

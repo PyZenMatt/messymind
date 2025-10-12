@@ -26,6 +26,10 @@
 }
 </script>
 
+{% comment %} Skip BreadcrumbList and CollectionPage for modern layouts - handled by dedicated includes {% endcomment %}
+{% assign modern_layouts = 'category-modern,subcluster-modern' | split: ',' %}
+{% unless modern_layouts contains page.layout %}
+
 {% if page.layout == 'post' %}
 {%- comment -%}
   BlogPosting schema removed from this global include to avoid duplication.
@@ -140,3 +144,5 @@
 {% endif %}
 
 {% endif %}
+
+{% endunless %}
