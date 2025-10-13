@@ -14,7 +14,7 @@ redirect_from:
 - /equilibrio-interiore-5-mosse-pratiche-senza-guru-e-con-ironia/
 - /equilibrio-interiore-5-mosse-pratiche/
 - /filosofia-pratica/felicita-non-e-un-linkedin-post/
-tags: ["mindfulness-ironica", "meditazione-10-minuti","spiritualità-moderna", "benessere-psicofisico", "cornerstone"]
+tags: ["mindfulness-ironica", "meditazione-10-minuti","spiritualità-moderna", "benessere-psicofisico",]
 ---
 **In breve —** Equilibrio interiore ≠ illuminazione su un monte. È la capacità di non mandare a quel paese il collega che ti ruba il caffè. È uno stato di non-reattività cronica. In questa guida pratica e ironica, trovi una definizione chiara, 5 esercizi da fare in 10 minuti (anche in ufficio) e la rassicurazione che non serve diventare monaci. Solo umani un po' più funzionali.
 

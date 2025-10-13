@@ -4,6 +4,7 @@ title: 'Equilibrio interiore e spirituale: significato, simboli ed esercizi prat
 seo_title: 'Equilibrio interiore e spirituale: simboli ed esercizi quotidiani'
 seo_description: 'Equilibrio interiore e spirituale: guida pratica con simboli universali ed esercizi quotidiani per coltivare armonia e pace.'
 categories: mindfulness-ironica
+subluster: equilibrio-interiore-per-persone-normali
 lcp_image_alt: Una persona in penombra intenta a meditare
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp

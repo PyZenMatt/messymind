@@ -80,6 +80,36 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto post-content-wrapper">
   {{ content }}
 
+        {%- comment -%} Post CTA (renders when `cta_button` and `cta_link` present in front matter)
+           Only render here if the CTA wasn't already inlined in the content via `{% include post-cta.html %}`.
+        {%- endcomment -%}
+        {%- comment -%}
+          Prefer to skip final CTA if the post already inlined it.
+          We can't reliably set parent-scope flags from includes, so instead
+          compute the analytics id used by the CTA and check the rendered
+          `page.content` for that string (or the button text) to avoid duplication.
+        {%- endcomment -%}
+        {%- comment -%} Compute analytics id fallback and button text safely {%- endcomment -%}
+        {%- if page.cta_analytics_id -%}
+          {% assign analytics_id = page.cta_analytics_id %}
+        {%- else -%}
+          {%- assign slug = page.url | slugify -%}
+          {% assign analytics_id = "cta-post-" | append: slug %}
+        {%- endif -%}
+        {%- assign button_text = page.cta_button | default: '' -%}
+
+        {%- comment -%} Detect whether CTA (analytics id or button text) already appears in the rendered content {%- endcomment -%}
+        {% assign cta_in_content = false %}
+        {% if page.content contains analytics_id %}
+          {% assign cta_in_content = true %}
+        {% elsif button_text != '' and page.content contains button_text %}
+          {% assign cta_in_content = true %}
+        {% endif %}
+
+        {%- unless cta_in_content -%}
+          {% include post-cta.html %}
+        {%- endunless -%}
+
 
         <!-- Prossimi passi: link a hub subcluster e cluster -->
         {% if page.subcluster and page.categories %}

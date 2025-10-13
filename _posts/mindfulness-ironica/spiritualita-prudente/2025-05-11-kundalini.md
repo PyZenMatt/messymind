@@ -18,7 +18,6 @@ tags:
 - yoga
 - insonnia
 - benessere
-- cornerstone
 faqs:
   - question: "Come distinguere Kundalini da ansia?"
     answer: "L’ansia nasce da pensieri di pericolo o controllo, la Kundalini da un eccesso di energia fisica e percettiva. Se prevalgono tachicardia, insonnia e iper-vigilanza, valuta un approccio integrato con medico e terapeuta."
