@@ -16,8 +16,10 @@ body {
     padding-top: 60px;
   }
 }
-    /* Ensure .col-md-6 exists and becomes 50% width on md+ screens */
-    .col-md-6{flex:0 0 50%;max-width:50%}
+    /* Ensure .col-md-6 becomes 50% width only on md+ screens (prevent two-column layout on small devices) */
+    @media (min-width: 768px) {
+      .col-md-6{flex:0 0 50%;max-width:50%}
+    }
 
 /* Category container: ensure content isn't hidden by fixed navbar (used in category/subcluster layouts) */
 .category-container {
@@ -266,10 +268,25 @@ html.dark {
 }
 
 // Content containers with consistent spacing
+// Use block so padding/margins apply; avoid display:contents which collapses layout and removes
+// the ability to add top spacing to clear a fixed navbar.
 .main-wrapper {
-  display: contents !important; // Rimuovi completamente il wrapper dal layout
+  display: block !important;
   background: inherit !important; // Eredita il colore del body invece di trasparente
-  padding: 0 !important; // Rimuovi tutti i padding per evitare spazi fastidiosi
+  padding: 0 !important;
+}
+
+/* Ensure main content clears a fixed navbar: add safe top offset when navbar is fixed-top.
+   This prevents page content (es. archivio) from being hidden under the navbar on all devices. */
+.navbar.fixed-top + .main-wrapper,
+nav.fixed-top + .main-wrapper {
+  padding-top: 56px !important; /* default mobile/desktop baseline */
+}
+@media (min-width: 768px) {
+  .navbar.fixed-top + .main-wrapper,
+  nav.fixed-top + .main-wrapper {
+    padding-top: 60px !important; /* slightly larger on wider viewports */
+  }
 }
 
 // Hide hr that creates unwanted spacing
@@ -315,8 +332,11 @@ footer {
   flex: 1 !important; // L'excerpt si espande per spingere i meta in basso
 }
 
-// Remove borders from Guide Essenziali cards
-.cornerstone .mm-card {
+// Remove borders from Guide Essenziali / Cornerstone cards
+// Support multiple section class variants used across layouts: .cornerstone, .cornerstones, .cornerstone-section
+.cornerstone .mm-card,
+.cornerstones .mm-card,
+.cornerstone-section .mm-card {
   border: none !important;
   box-shadow: none !important;
   min-height: 350px !important; // Altezza uniforme anche per le guide
@@ -324,13 +344,17 @@ footer {
   flex-direction: column !important;
 }
 
-.cornerstone .mm-card .p-4 {
+.cornerstone .mm-card .p-4,
+.cornerstones .mm-card .p-4,
+.cornerstone-section .mm-card .p-4 {
   flex: 1 !important; // Il contenuto si espande per uniformare l'altezza
   display: flex !important;
   flex-direction: column !important;
 }
 
-.cornerstone .mm-card .text-muted {
+.cornerstone .mm-card .text-muted,
+.cornerstones .mm-card .text-muted,
+.cornerstone-section .mm-card .text-muted {
   flex: 1 !important; // La descrizione si espande per spingere il bottone in basso
 }
 
@@ -368,7 +392,7 @@ html.dark {
 
 // Remove any dark mode background for main-wrapper
 html.dark .main-wrapper {
-  display: contents !important; // Rimuovi completamente il wrapper dal layout in dark mode
+  display: block !important; // keep block so padding/spacing works in dark mode too
   background: #2a2a2a !important; // Usa il colore della pagina invece di trasparente
 }
 
