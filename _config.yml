@@ -27,6 +27,7 @@ author: "Matteo Ricci"
 url: "https://localhost:4000"
 baseurl: ""                         # dominio custom → lascia vuoto
 background: "/img/home/bg-home.jpeg"
+schema_blogposting_source: plugin
 # ===== Search  Analytics  Verification =====
 google_analytics: "G-MLB32YW721"   # GA4 (se usi include custom, ok lo stesso)
 google_site_verification: ""       # token Search Console (opzionale)

@@ -9,7 +9,8 @@
   - OR front matter explicitly sets `schema_type: BlogPosting`
 {%- endcomment -%}
 
-{%- if page.layout == 'post' or page.collection == 'posts' or page.schema_type == 'BlogPosting' -%}
+{%- assign blogposting_source = site.schema_blogposting_source | default: 'plugin' -%}
+{%- if blogposting_source == 'custom' and page._blogposting_rendered != true and (page.layout == 'post' or page.collection == 'posts' or page.schema_type == 'BlogPosting') -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
