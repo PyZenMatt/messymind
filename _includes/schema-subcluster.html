@@ -32,6 +32,40 @@
 {% else %}
   {% assign category_url = site.url | append: '/categorie/' | append: category_key | append: '/' %}
 {% endif %}
+{% comment %}
+  Subcluster Schema - CollectionPage + ItemList + BreadcrumbList
+  - OTTIMIZZATO v3: supporto paginazione
+  - CollectionPage per hub sottotematico
+  - ItemList SOLO dei post nella pagina corrente (paginati)
+  - BreadcrumbList con 3 livelli: Home > Categoria > Subcluster
+  - FAQPage condizionale (gestito separatamente in _includes/schema.html)
+{% endcomment %}
+
+{% assign cat_slug = include.category | default: page.category | default: page.categories[0] | downcase | strip %}
+{% assign sub_slug = include.subcluster | default: page.subcluster | downcase | strip %}
+
+{% comment %} Usa i post passati dal layout (già paginati) {% endcomment %}
+{% if include.posts %}
+  {% assign sub_posts = include.posts %}
+{% else %}
+  {% comment %} Fallback: raccogli tutti i post del subcluster {% endcomment %}
+  {% assign sub_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" | where: "subcluster", sub_slug | sort: "date" | reverse %}
+{% endif %}
+
+{% assign current_page = include.current_page | default: 1 %}
+{% assign total_pages = include.total_pages | default: 1 %}
+
+{% assign sub_title = page.title | default: page.subcluster | replace: '-', ' ' | capitalize %}
+{% assign sub_description = page.seo_description | default: page.description | default: page.excerpt | strip_html | truncatewords: 30 %}
+
+{% comment %} URL categoria parent {% endcomment %}
+{% assign category_key = cat_slug %}
+{% assign mapped_cat = site.data.category_slugs[category_key] | default: nil %}
+{% if mapped_cat %}
+  {% assign category_url = mapped_cat | absolute_url %}
+{% else %}
+  {% assign category_url = site.url | append: '/categorie/' | append: category_key | append: '/' %}
+{% endif %}
 
 {% comment %} Display title categoria {% endcomment %}
 {% case cat_slug %}
@@ -89,27 +123,9 @@
 }
 </script>
 
-{% comment %} FAQPage Schema (solo se presenti FAQ) {% endcomment %}
-{% if page.faqs and page.faqs.size > 0 %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {% for faq in page.faqs %}
-    {
-      "@type": "Question",
-      "name": {{ faq.question | jsonify }},
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": {{ faq.answer | jsonify }}
-      }
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]
-}
-</script>
-{% endif %}{% comment %} BreadcrumbList Schema (3 livelli) {% endcomment %}
+{%- comment -%} FAQ JSON-LD removed from this include; the centralized `_includes/schema.html` emits FAQPage when `faqs` are present to avoid duplicates. {%- endcomment -%}
+
+{% comment %} BreadcrumbList Schema (3 livelli) {% endcomment %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

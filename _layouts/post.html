@@ -66,7 +66,7 @@ layout: default
   {%- assign page._blogposting_rendered = true -%}
   {%- comment -%} FAQ structured data: render if `faqs` front matter exists (array of {question, answer}). Centralizes FAQ JSON-LD.
   {%- endcomment -%}
-  {% include schema-faq.html %}
+  {%- comment -%} FAQ JSON-LD is emitted centrally from `_includes/schema.html` {%- endcomment -%}
   {%- comment -%} HowTo structured data: render if `howto` front matter exists (object with name, description, totalTime, step[]).
   {%- endcomment -%}
   {% include schema-howto.html %}

@@ -93,7 +93,7 @@ Iscriviti alla newsletter **MessyMind** per ricevere altre guide ironiche e zero
 
 *L'autore: Teo, ex manager rampante, ora scrittore e ricercatore di equilibrio. Pratico mindfulness da 5 anni non perché mi piaccia, ma perché mi serve per non diventare un idiota. Le mie opinioni sono basate sull'esperienza personale e sullo studio di fonti scientifiche e filosofiche. Per un approfondimento sui benefici della meditazione, puoi consultare le [linee guida dell'OMS sulla salute mentale](https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response).*
 
-<!-- FAQPage JSON-LD -->
+<!-- FAQ JSON-LD placeholder removed (now emitted centrally) -->
 
 {%- comment -%} Inline BlogPosting/FAQ JSON-LD removed. Use `_includes/schema-blogposting.html` for the post and `_includes/schema-faq.html` when adding `faqs` to front matter.
 {%- endcomment -%}
