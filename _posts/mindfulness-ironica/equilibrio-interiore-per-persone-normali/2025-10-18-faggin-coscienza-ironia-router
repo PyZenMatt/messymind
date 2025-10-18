@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Se tutto è coscienza, perché continuo a litigare con il router?"
+seo_title: "Metodo I.R.O.N.I.A. e Faggin: coscienza, riduzionismo e router"
+seo_description: "Federico Faggin, la teoria QIP e il Metodo I.R.O.N.I.A.: dal riduzionismo mentale alla pausa-router. Un racconto ironico di coscienza quotidiana e reset cognitivo."
+date: 2025-10-18
+last_modified_at: 2025-10-18
+categories: ["mindfulness-ironica"]
+subcluster: "equilibrio-interiore-per-persone-normali"
+tags: ["metodo-ironia", "faggin", "qip", "riduzionismo", "consapevolezza"]
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1756045412/faggin-router.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412/faggin-router-bg.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/faggin-router-hero.jpg
+lcp_image_alt: "Router lampeggiante come metafora della coscienza"
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756045412/faggin-router-og.jpg
+is_cornerstone: false
+faqs:
+  - question: "Cos’è la teoria QIP di Federico Faggin?"
+    answer: "È l’idea che la coscienza non emerga dal cervello ma sia la realtà stessa: tutto ciò che percepiamo è consapevolezza che si riflette su se stessa."
+  - question: "In cosa aiuta il Metodo I.R.O.N.I.A. contro il riduzionismo mentale?"
+    answer: "Usa l’ironia per interrompere il loop analitico e riportare i pensieri alla giusta scala, riducendo stress e over-controllo."
+  - question: "Serve meditare per applicare il Metodo I.R.O.N.I.A.?"
+    answer: "No. Bastano micro-pause intenzionali durante la giornata, come una 'modalità aereo mentale' di pochi minuti."
+  - question: "Quando l’ironia non funziona?"
+    answer: "Quando diventa sarcasmo verso se stessi. L’ironia del metodo è compassionevole, non giudicante."
+howto:
+  name: "Modalità aereo dell’anima"
+  description: "Esercizio pratico ispirato al Metodo I.R.O.N.I.A."
+  totalTime: "PT2M"
+  step:
+    - name: "Scollega tutto"
+      text: "Spegni schermo, chiudi occhi, sospendi ogni input esterno."
+    - name: "Respira"
+      text: "Fai 6 respiri lenti concentrandoti sulle sensazioni fisiche."
+    - name: "Riconnetti"
+      text: "Apri gli occhi e nota se il 'segnale interno' è più stabile."
+published: false
+---
