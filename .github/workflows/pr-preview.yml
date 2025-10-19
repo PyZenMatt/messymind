@@ -105,24 +105,24 @@ jobs:
             rm -rf /tmp/preview-repo
           fi
           
-          # Clone the preview repository (or create it if it doesn't exist)
+          # Clone the preview repository (using main branch as configured in GitHub Pages)
           if git ls-remote "$PREVIEW_REPO_URL" HEAD &>/dev/null; then
             echo "Cloning existing preview repository..."
-            git clone --depth 1 --branch gh-pages "$PREVIEW_REPO_URL" /tmp/preview-repo 2>/dev/null || \
+            git clone --depth 1 --branch main "$PREVIEW_REPO_URL" /tmp/preview-repo 2>/dev/null || \
             git clone --depth 1 "$PREVIEW_REPO_URL" /tmp/preview-repo
           else
-            echo "Preview repository doesn't exist or no gh-pages branch yet, creating..."
+            echo "Preview repository doesn't exist or no main branch yet, creating..."
             mkdir -p /tmp/preview-repo
             cd /tmp/preview-repo
             git init
-            git checkout -b gh-pages
+            git checkout -b main
             echo "# PR Previews for messymind" > README.md
             git add README.md
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "chore: initialize preview repository"
             git remote add origin "$PREVIEW_REPO_URL"
-            git push -u origin gh-pages
+            git push -u origin main
             cd -
           fi
           
@@ -151,9 +151,9 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Deploy PR #${{ steps.vars.outputs.PR_NUMBER }} preview"
             
-            # Push to preview repository
+            # Push to preview repository (main branch as configured in GitHub Pages)
             PREVIEW_REPO_URL="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ steps.vars.outputs.PREVIEW_REPO }}.git"
-            git push "$PREVIEW_REPO_URL" gh-pages
+            git push "$PREVIEW_REPO_URL" main
           fi
 
       - name: Post or update PR comment with preview URL
