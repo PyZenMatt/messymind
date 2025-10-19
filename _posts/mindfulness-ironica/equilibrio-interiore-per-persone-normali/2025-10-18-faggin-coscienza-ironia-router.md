@@ -41,7 +41,7 @@ howto:
 
 ## In Breve 
 
-Federico Faggin unisce chip e coscienza: la teoria QIP sposta il focus dall’analisi al vissuto. Il riduzionismo logora, l’ironia lo scioglie. Tra router e respiro, capiamo meno ma percepiamo meglio. Step 2 del Metodo I.R.O.N.I.A.: un reset cognitivo quotidiano per tornare online dentro, non fuori. Ecco il post su Faggin riuminazzato.
+Federico Faggin unisce chip e coscienza: la teoria QIP sposta il focus dall’analisi al vissuto. Il riduzionismo logora, l’ironia lo scioglie. Tra router e respiro, capiamo meno ma percepiamo meglio. Step 2 del Metodo I.R.O.N.I.A.: un reset cognitivo quotidiano per tornare online dentro, non fuori.
 
 ## Quando la filosofia incontra il modem
 
