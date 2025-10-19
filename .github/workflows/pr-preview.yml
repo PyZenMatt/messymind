@@ -9,6 +9,10 @@ permissions:
   issues: write
   pull-requests: write
 
+concurrency:
+  group: pr-preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
@@ -22,7 +26,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.1.x'
           bundler-cache: true
 
       - name: Install bundler and dependencies
@@ -59,30 +63,20 @@ jobs:
           JEKYLL_ENV: production
         run: |
           set -euo pipefail
-          # Build with drafts and future posts
-          # The full preview URL includes the path, so baseurl should be empty
-          PREVIEW_URL="${{ steps.vars.outputs.PREVIEW_URL }}/${{ steps.vars.outputs.PREVIEW_PATH }}"
-          echo "Building with url=${PREVIEW_URL} and baseurl=\"\" (empty)"
           
-          # Create a temporary config override for preview builds
-          echo "url: ${PREVIEW_URL}" > _config_preview.yml
-          echo "baseurl: \"\"" >> _config_preview.yml
+          # Inject PR number into preview config
+          PREVIEW_PATH="${{ steps.vars.outputs.PREVIEW_PATH }}"
+          echo "Preparing preview config for path: ${PREVIEW_PATH}"
           
-          bundle exec jekyll build --drafts --future --config _config.yml,_config_preview.yml --trace
+          # Replace PREVIEW_PATH placeholder in config file
+          sed "s|PREVIEW_PATH|${PREVIEW_PATH}|g" _config.preview.yml > _config.preview.tmp.yml
           
-          # Post-build: fix all absolute paths to work in subdirectory
-          echo "Converting absolute paths to work in GitHub Pages subdirectory..."
+          # Build with preview configuration
+          echo "Building with preview config: baseurl=/messymind-previews/${PREVIEW_PATH}"
+          bundle exec jekyll build --drafts --future --config _config.yml,_config.preview.tmp.yml --trace
           
-          # Replace absolute paths in HTML files with full URLs
-          find _site -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) -print0 | \
-            xargs -0 sed -i "s|href=\"/|href=\"${PREVIEW_URL}/|g"
-          find _site -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) -print0 | \
-            xargs -0 sed -i "s|src=\"/|src=\"${PREVIEW_URL}/|g"
-          find _site -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) -print0 | \
-            xargs -0 sed -i "s|url(/|url(${PREVIEW_URL}/|g"
-          
-          # Replace hardcoded messymind.it URLs
-          find _site -type f -name "*.html" -print0 | xargs -0 sed -i "s|https://messymind\.it|${PREVIEW_URL}|g"
+          # Clean up temporary config
+          rm -f _config.preview.tmp.yml
 
       - name: Cleanup Windows alternate data streams from build
         run: |
@@ -160,10 +154,15 @@ jobs:
             
             # Push to preview repository (main branch as configured in GitHub Pages)
             PREVIEW_REPO_URL="https://x-access-token:${{ secrets.PREVIEW_DEPLOY_TOKEN }}@github.com/${{ steps.vars.outputs.PREVIEW_REPO }}.git"
-            git push "$PREVIEW_REPO_URL" main
+            if ! git push "$PREVIEW_REPO_URL" main; then
+              echo "::error::Failed to push preview to repository"
+              exit 1
+            fi
+            echo "::notice::Preview deployed successfully to ${{ steps.vars.outputs.PREVIEW_URL }}/${{ steps.vars.outputs.PREVIEW_PATH }}"
           fi
 
       - name: Post or update PR comment with preview URL
+        if: success()
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
