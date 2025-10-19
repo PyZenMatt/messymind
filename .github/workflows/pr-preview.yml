@@ -36,8 +36,12 @@ jobs:
         run: |
           PR_NUMBER=${{ github.event.pull_request.number }}
           PREVIEW_PATH="pull/${PR_NUMBER}"
+          PREVIEW_REPO="PyZenMatt/messymind-previews"
+          PREVIEW_URL="https://pyzenmatt.github.io/messymind-previews"
           echo "PR_NUMBER=${PR_NUMBER}" >> $GITHUB_OUTPUT
           echo "PREVIEW_PATH=${PREVIEW_PATH}" >> $GITHUB_OUTPUT
+          echo "PREVIEW_REPO=${PREVIEW_REPO}" >> $GITHUB_OUTPUT
+          echo "PREVIEW_URL=${PREVIEW_URL}" >> $GITHUB_OUTPUT
 
       - name: Override published:false for preview
         run: |
@@ -57,8 +61,7 @@ jobs:
           set -euo pipefail
           # Build with drafts and future posts enabled and set baseurl to the preview path
           PR_BASE="/${{ steps.vars.outputs.PREVIEW_PATH }}"
-          # Set the URL to GitHub Pages to prevent redirects to custom domain
-          PREVIEW_URL="https://pyzenmatt.github.io/messymind"
+          PREVIEW_URL="${{ steps.vars.outputs.PREVIEW_URL }}"
           echo "Building with url=${PREVIEW_URL} and baseurl=${PR_BASE}"
           
           # Create a temporary config override for preview builds
@@ -94,70 +97,63 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Use authenticated remote so pushes from the runner use the GITHUB_TOKEN
-          AUTH_REMOTE="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
-          git remote set-url origin "$AUTH_REMOTE"
-
-          # Fetch latest gh-pages if it exists and create a local branch that matches remote
-          git fetch origin gh-pages || true
-          if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
-            # Force checkout to gh-pages, discarding any local modifications
-            git checkout -f gh-pages
-            git reset --hard origin/gh-pages
+          # Clone or fetch the separate preview repository
+          PREVIEW_REPO="${{ steps.vars.outputs.PREVIEW_REPO }}"
+          PREVIEW_REPO_URL="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${PREVIEW_REPO}.git"
+          
+          if [ -d "/tmp/preview-repo" ]; then
+            rm -rf /tmp/preview-repo
+          fi
+          
+          # Clone the preview repository (or create it if it doesn't exist)
+          if git ls-remote "$PREVIEW_REPO_URL" HEAD &>/dev/null; then
+            echo "Cloning existing preview repository..."
+            git clone --depth 1 --branch gh-pages "$PREVIEW_REPO_URL" /tmp/preview-repo 2>/dev/null || \
+            git clone --depth 1 "$PREVIEW_REPO_URL" /tmp/preview-repo
           else
-            # No remote gh-pages yet: create orphan branch
-            git checkout --orphan gh-pages
-            git rm -rf . || true
-            # create a minimal placeholder so branch isn't empty
-            echo "" > .gitkeep
-            git add .gitkeep
-            git commit -m "chore: create gh-pages branch" || true
-            git push origin gh-pages || true
+            echo "Preview repository doesn't exist or no gh-pages branch yet, creating..."
+            mkdir -p /tmp/preview-repo
+            cd /tmp/preview-repo
+            git init
+            git checkout -b gh-pages
+            echo "# PR Previews for messymind" > README.md
+            git add README.md
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: initialize preview repository"
+            git remote add origin "$PREVIEW_REPO_URL"
+            git push -u origin gh-pages
+            cd -
           fi
           
           # Restore the built site from temp location
           mv /tmp/_site_preview_build _site
-          
-          # CRITICAL: Remove CNAME from gh-pages root to prevent GitHub Pages from redirecting to custom domain
-          # This allows preview URLs to work at pyzenmatt.github.io/messymind/pull/X/
-          if [ -f CNAME ]; then
-            echo "Removing CNAME from gh-pages to allow preview URLs..."
-            git rm -f CNAME || rm -f CNAME
-            git add -A
-            git commit -m "chore: remove CNAME to enable PR previews on GitHub Pages" || true
-          fi
 
-      - name: Copy preview to gh-pages subtree
+      - name: Copy preview to preview repository
         run: |
           set -euo pipefail
           PR_DIR=${{ steps.vars.outputs.PREVIEW_PATH }}
+          
+          cd /tmp/preview-repo
+          
+          # Create the PR preview directory
           mkdir -p "$PR_DIR"
           
           # Copy built site into pull/<PR_NUMBER>/ directory, excluding CNAME and files with colon characters
-          rsync -a --delete --exclude='*:*' --exclude='CNAME' _site/ "$PR_DIR/"
+          rsync -a --delete --exclude='*:*' --exclude='CNAME' /home/runner/work/messymind/messymind/_site/ "$PR_DIR/"
 
           # Add and commit only if there are changes
           git add -A -- "$PR_DIR"
           if git diff --cached --quiet; then
             echo "No changes to deploy for PR #${{ steps.vars.outputs.PR_NUMBER }}"
           else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Deploy PR #${{ steps.vars.outputs.PR_NUMBER }} preview"
             
-            # Ensure we're up to date with remote and attempt to push
-            git fetch origin gh-pages || true
-            if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
-              git rebase --rebase-merges origin/gh-pages || true
-            fi
-
-            # Try push; if rejected, rebase and then try force-with-lease
-            if ! git push origin gh-pages; then
-              echo "Push rejected; attempting to pull --rebase and push again"
-              git pull --rebase origin gh-pages || true
-              if ! git push origin gh-pages; then
-                echo "Push still rejected; attempting force-with-lease"
-                git push --force-with-lease origin gh-pages || true
-              fi
-            fi
+            # Push to preview repository
+            PREVIEW_REPO_URL="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ steps.vars.outputs.PREVIEW_REPO }}.git"
+            git push "$PREVIEW_REPO_URL" gh-pages
           fi
 
       - name: Post or update PR comment with preview URL
@@ -169,13 +165,13 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const previewPath = `pull/${pr}/`;
-            const previewUrl = `https://${owner}.github.io/${repo}/${previewPath}`;
+            const previewUrl = `${{ steps.vars.outputs.PREVIEW_URL }}/${previewPath}`;
 
             // Search for an existing bot comment
             const { data: comments } = await github.rest.issues.listComments({ owner, repo, issue_number: pr });
             const botComment = comments.find(c => c.user && c.user.type === 'Bot' && c.body && c.body.includes('🧪 Preview ready'));
 
-            const body = `🧪 Preview ready: ${previewUrl}\n\nBuilt with drafts + future posts. Updated on commit: ${context.sha}`;
+            const body = `🧪 Preview ready: ${previewUrl}\n\nBuilt with drafts + future posts. Updated on commit: ${context.sha}\n\n_Preview hosted on separate repository: messymind-previews_`;
 
             if (botComment) {
               await github.rest.issues.updateComment({ owner, repo, comment_id: botComment.id, body });
