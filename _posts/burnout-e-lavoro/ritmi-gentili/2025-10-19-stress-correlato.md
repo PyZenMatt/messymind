@@ -40,7 +40,7 @@ lcp_image: /images/stress-lavoro-correlato.jpg
 og_image: /images/stress-lavoro-correlato-og.jpg
 published: false
 layout: post
-date: '2025-10-19 20:20:11'
+date: '2025-10-19 20:30:35'
 ---
 
 # Stress lavoro-correlato: la differenza tra sopravvivere e lavorare (senza diventare guru)
