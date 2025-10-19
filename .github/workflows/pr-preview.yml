@@ -57,8 +57,15 @@ jobs:
           set -euo pipefail
           # Build with drafts and future posts enabled and set baseurl to the preview path
           PR_BASE="/${{ steps.vars.outputs.PREVIEW_PATH }}"
-          echo "Building with baseurl=${PR_BASE}"
-          bundle exec jekyll build --drafts --future --baseurl "${PR_BASE}" --config _config.yml --trace
+          # Set the URL to GitHub Pages to prevent redirects to custom domain
+          PREVIEW_URL="https://pyzenmatt.github.io/messymind"
+          echo "Building with url=${PREVIEW_URL} and baseurl=${PR_BASE}"
+          
+          # Create a temporary config override for preview builds
+          echo "url: ${PREVIEW_URL}" > _config_preview.yml
+          echo "baseurl: ${PR_BASE}" >> _config_preview.yml
+          
+          bundle exec jekyll build --drafts --future --config _config.yml,_config_preview.yml --trace
 
       - name: Cleanup Windows alternate data streams from build
         run: |
