@@ -1,0 +1,29 @@
+{%- comment -%}
+DEPRECATED: this include rendered manual title/description/OpenGraph tags.
+The project now uses `jekyll-seo-tag` via `{% seo %}` in `_includes/head.html`.
+Do not include this file; keep it commented here for historical reference.
+
+Original content (left commented):
+
+{% raw %}
+<title>{{ page.seo_title | default: page.title }}</title>
+<meta name="description" content="{{ page.seo_description | default: page.description }}">
+<!-- meta keywords removed (deprecated / inconsistent) -->
+{% raw %}{% if page.noindex %}{% endraw %}
+  <meta name="robots" content="noindex, nofollow">
+{% raw %}{% endif %}{% endraw %}
+{% raw %}{% if page.meta %}{% endraw %}
+  <meta name="meta" content="{{ page.meta }}">
+{% raw %}{% endif %}{% endraw %}
+{%- assign og_title = page.og_title | default: page.seo_title | default: page.title -%}
+{%- assign og_description = page.og_description | default: page.seo_description | default: page.description -%}
+{%- assign og_image = page.og_image | default: page.background -%}
+<meta property="og:title" content="{{ og_title }}">
+<meta property="og:description" content="{{ og_description }}">
+{% raw %}{% if og_image %}{% endraw %}
+  <meta property="og:image" content="{{ og_image }}">
+{% raw %}{% endif %}{% endraw %}
+
+{% endraw %}
+
+{%- endcomment -%}

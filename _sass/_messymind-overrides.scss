@@ -1,0 +1,754 @@
+// MessyMind Design System Overrides
+// =================================
+// Override existing Bootstrap and custom styles with MessyMind design tokens
+
+// Body and main typography with consistent spacing
+body {
+  font-family: $font-primary !important;
+  background-color: $background !important;
+  color: $foreground !important;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding-top: 56px; // Consistent navbar clearance
+  
+  // Responsive navbar clearance
+  @media (min-width: 768px) {
+    padding-top: 60px;
+  }
+}
+    /* Ensure .col-md-6 becomes 50% width only on md+ screens (prevent two-column layout on small devices) */
+    @media (min-width: 768px) {
+      .col-md-6{flex:0 0 50%;max-width:50%}
+    }
+
+/* Category container: ensure content isn't hidden by fixed navbar (used in category/subcluster layouts) */
+.category-container {
+  padding-top: 2rem; /* fallback */
+}
+@media (min-width: 768px) {
+  .category-container { padding-top: 3rem; }
+}
+
+// Override heading styles with MessyMind fonts and colors
+h1, h2, h3, h4, h5, h6,
+.section-heading,
+.post-title,
+.card-title {
+  font-family: $font-heading !important;
+  color: $primary !important;
+  font-weight: $font-weight-semibold !important;
+}
+
+// Site heading specific styling - white for masthead
+.site-heading h1 {
+  color: white !important; // Keep white for masthead
+  font-family: $font-heading !important;
+}
+
+.site-heading .subheading {
+  font-family: $font-accent !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+// Post heading specific styling - white for masthead with hero image
+.post-heading h1,
+.post-heading h2.subheading {
+  color: white !important; // Keep white for masthead with hero image
+  font-family: $font-heading !important;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6) !important;
+}
+
+.post-heading .meta {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-family: $font-primary !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+// Card styling with MessyMind colors
+.card,
+.post-card {
+  background-color: $card !important;
+  border: 1px solid $border !important;
+  border-radius: $radius !important;
+  box-shadow: $shadow-md !important;
+  
+  .card-title,
+  .card-title a {
+    color: $primary !important;
+    font-family: $font-heading !important;
+  }
+  
+  .card-text {
+    color: rgba($foreground, 0.8) !important;
+  }
+}
+
+// Content box - transparent container without styling
+.content-box {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+// Navigation
+.navbar {
+  background-color: rgba($card, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid $border !important;
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: $primary !important;
+    font-family: $font-heading !important;
+    font-weight: $font-weight-medium !important;
+    
+    &:hover {
+      color: $accent !important;
+    }
+  }
+}
+
+// Fixed logo container to avoid CLS
+.site-logo {
+  display: inline-block;
+  width: 200px; /* fixed width to avoid layout shift; adjust if needed */
+  height: 40px; /* fixed height matching logo intrinsic size */
+  overflow: hidden;
+}
+
+// Buttons with MessyMind styling
+.btn-primary,
+.btn-outline-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  color: $primary-foreground !important;
+  font-family: $font-heading !important;
+  font-weight: $font-weight-medium !important;
+  border-radius: $radius !important;
+  padding: 0.75rem 1.5rem !important;
+  
+  &:hover,
+  &:focus {
+    background-color: $accent !important;
+    border-color: $accent !important;
+    color: $accent-foreground !important;
+    transform: translateY(-2px);
+    box-shadow: $shadow-lg !important;
+  }
+}
+
+.btn-outline-primary {
+  background-color: transparent !important;
+  color: $primary !important;
+  
+  &:hover,
+  &:focus {
+    background-color: $primary !important;
+    color: $primary-foreground !important;
+  }
+}
+
+// Links
+a {
+  color: $primary !important;
+  
+  &:hover {
+    color: $accent !important;
+  }
+}
+
+// Post preview styling
+.post-preview {
+  .post-title {
+    font-family: $font-heading !important;
+    color: $primary !important;
+    font-weight: $font-weight-semibold !important;
+    
+    &:hover {
+      color: $accent !important;
+    }
+  }
+  
+  .post-subtitle {
+    font-family: $font-accent !important;
+    color: rgba($foreground, 0.7) !important;
+    font-size: $text-lg !important;
+  }
+  
+  .post-meta {
+    color: rgba($foreground, 0.6) !important;
+    font-size: $text-sm !important;
+  }
+}
+
+// MOBILE-FIRST CONTAINER SYSTEM
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+  // Responsive gutters
+  @media (min-width: 576px) {
+    padding: 0 1.5rem;
+  }
+  
+  @media (min-width: 992px) {
+    padding: 0 2rem;
+  }
+}
+
+// Ensure archive cards align and have equal height on grid
+@media (min-width: 768px) {
+  .row.equalize > [class*="col-"] {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .row.equalize .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .row.equalize .card .card-body {
+    flex: 1 1 auto; /* allow body to grow to push footer to bottom */
+  }
+}
+
+// Card footer: avoid white background in dark mode and make icon/text visible
+html.dark {
+  .card-footer.bg-white {
+    background-color: transparent !important;
+    border-top: 1px solid rgba(255,255,255,0.06) !important;
+  }
+
+  .card-footer .text-muted {
+    color: rgba(255,255,255,0.75) !important;
+  }
+
+  /* Make inline SVGs inherit color for easy theming */
+  .card-footer svg[path] {
+    fill: currentColor !important;
+  }
+}
+
+// Page Layout Specific Fixes for smartphone overflow
+.page-heading,
+.masthead {
+  // Ensure page layout containers are mobile-friendly
+  .container {
+    @media (max-width: 576px) {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+      max-width: 100% !important;
+    }
+  }
+}
+
+// Mobile-first grid system fixes for pages
+// IMPORTANTE: NON forziamo più .col-12 a 100% perché questo impediva al cluster-grid di avere layout 2x2
+@media (max-width: 576px) {
+  .row {
+    margin-left: -0.5rem !important;
+    margin-right: -0.5rem !important;
+  }
+  
+  // Applica 100% width SOLO alle colonne di contenuto principale (non alle cluster cards)
+  .container > .row > .col-lg-8,
+  .container > .row > .col-md-10 {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+}
+
+// Content containers with consistent spacing
+// Use block so padding/margins apply; avoid display:contents which collapses layout and removes
+// the ability to add top spacing to clear a fixed navbar.
+.main-wrapper {
+  display: block !important;
+  background: inherit !important; // Eredita il colore del body invece di trasparente
+  padding: 0 !important;
+}
+
+/* Ensure main content clears a fixed navbar: add safe top offset when navbar is fixed-top.
+   This prevents page content (es. archivio) from being hidden under the navbar on all devices. */
+.navbar.fixed-top + .main-wrapper,
+nav.fixed-top + .main-wrapper {
+  padding-top: 56px !important; /* default mobile/desktop baseline */
+}
+@media (min-width: 768px) {
+  .navbar.fixed-top + .main-wrapper,
+  nav.fixed-top + .main-wrapper {
+    padding-top: 60px !important; /* slightly larger on wider viewports */
+  }
+}
+
+// Hide hr that creates unwanted spacing
+hr {
+  display: none !important;
+}
+
+// Remove any spacing that creates gaps between sections
+main.home-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+footer {
+  margin: 0 !important;
+  padding-top: 0 !important;
+}
+
+// Remove Bootstrap vertical padding classes that create unwanted spacing
+.py-5 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+// Fix post cards spacing and height - SOLO per gli articoli recenti
+.latest-posts .post-card {
+  margin-bottom: 1.5rem !important; // Spazio verticale tra le card degli articoli
+}
+
+.post-card {
+  min-height: 400px !important; // Altezza fissa per tutte le card
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.post-card .card-body {
+  flex: 1 !important; // Il body si espande per riempire lo spazio
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.post-card .post-excerpt {
+  flex: 1 !important; // L'excerpt si espande per spingere i meta in basso
+}
+
+// Remove borders from Guide Essenziali / Cornerstone cards
+// Support multiple section class variants used across layouts: .cornerstone, .cornerstones, .cornerstone-section
+.cornerstone .mm-card,
+.cornerstones .mm-card,
+.cornerstone-section .mm-card {
+  border: none !important;
+  box-shadow: none !important;
+  min-height: 350px !important; // Altezza uniforme anche per le guide
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.cornerstone .mm-card .p-4,
+.cornerstones .mm-card .p-4,
+.cornerstone-section .mm-card .p-4 {
+  flex: 1 !important; // Il contenuto si espande per uniformare l'altezza
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.cornerstone .mm-card .text-muted,
+.cornerstones .mm-card .text-muted,
+.cornerstone-section .mm-card .text-muted {
+  flex: 1 !important; // La descrizione si espande per spingere il bottone in basso
+}
+
+// Remove borders from CTA section
+.cta-section .mm-card {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+// Dark theme specific overrides: ensure card text is readable (white)
+html.dark {
+  .card,
+  .post-card {
+    background-color: $card !important;
+    color: #ffffff !important; /* general fallback */
+
+    .card-title,
+    .card-title a {
+      color: $primary !important; /* keep titles brand-colored in dark mode */
+    }
+
+    .card-text,
+    .card-body,
+    .post-card .card-text {
+      color: #ffffff !important;
+    }
+  }
+
+  // Ensure muted/text-muted is lighter in dark mode
+  .text-muted {
+    color: rgba(255,255,255,0.75) !important;
+  }
+}
+
+// Remove any dark mode background for main-wrapper
+html.dark .main-wrapper {
+  display: block !important; // keep block so padding/spacing works in dark mode too
+  background: #2a2a2a !important; // Usa il colore della pagina invece di trasparente
+}
+
+// Masthead overlay
+.masthead .overlay {
+  background: linear-gradient(135deg, 
+    rgba($messymind-contrast, 0.6) 0%, 
+    rgba($primary, 0.4) 100%) !important;
+}
+
+// Section headings
+.section-heading {
+  font-family: $font-heading !important;
+  color: $primary !important;
+  
+  &::after {
+    background: linear-gradient(90deg, $accent 0%, $secondary 100%) !important;
+  }
+}
+
+// Brand intro specific styling: ensure it's centered on all devices
+.brand-intro {
+  .intro-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    max-width: 820px; // keep readable measure on large screens
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 1rem !important;
+  }
+
+  .lead {
+    margin-bottom: 1rem !important;
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .intro-links {
+    margin-top: 0.5rem !important;
+  }
+
+  // Keep vertical spacing modest to avoid visual offset
+  @media (min-width: 992px) {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+}
+
+// Form styling
+input, textarea, select {
+  border: 2px solid $border !important;
+  border-radius: $radius !important;
+  padding: 0.75rem 1rem !important;
+  font-family: $font-primary !important;
+  background-color: $input-background !important;
+  color: $foreground !important;
+  
+  &:focus {
+    border-color: $primary !important;
+    box-shadow: 0 0 0 3px rgba($primary, 0.1) !important;
+    outline: none !important;
+  }
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $accent !important;
+  background: linear-gradient(90deg, 
+    rgba($secondary, 0.1) 0%, 
+    rgba($secondary, 0.05) 100%) !important;
+  padding: 1.5rem !important;
+  border-radius: $radius !important;
+  font-family: $font-accent !important;
+  font-size: $text-lg !important;
+  
+  p {
+    margin-bottom: 0 !important;
+  }
+}
+
+// Dark mode adjustments with proper colors and consistent spacing
+html.dark {
+  // Use proper dark colors instead of darken() functions
+  body {
+    background-color: #1a1a1a !important; // Pure dark gray
+    color: #e0e0e0 !important;
+    padding-top: 56px; // Same navbar clearance as light mode
+    
+    @media (min-width: 768px) {
+      padding-top: 60px;
+    }
+  }
+  
+  .card, .post-card, .content-box {
+    background-color: #2a2a2a !important; // Dark gray cards
+    border-color: #404040 !important;
+  }
+  
+  .navbar {
+    background-color: rgba(31, 31, 31, 0.95) !important; // Dark navbar
+  }
+  
+  // Ensure consistent main-wrapper spacing in dark mode
+  .main-wrapper {
+    padding: 1rem 0 !important;
+    
+    @media (min-width: 768px) {
+      padding: 2rem 0 !important;
+    }
+    
+    @media (min-width: 1200px) {
+      padding: 3rem 0 !important;
+    }
+  }
+  
+  // Dark mode for tables
+  table {
+    th {
+      background-color: rgba(79, 138, 139, 0.2) !important; // Dark primary background
+      color: #4F8A8B !important;
+    }
+    
+    tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+    
+    th, td {
+      border-color: #404040 !important;
+    }
+  }
+  
+  // Dark mode for code blocks
+  pre {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-color: #404040 !important;
+  }
+  
+  code {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    color: #4F8A8B !important;
+  }
+  
+  // Dark mode for figures
+  figcaption {
+    color: #b0b0b0 !important;
+  }
+
+  // Ensure blockquote text is fully legible in dark mode
+  blockquote {
+    color: #ffffff !important;
+  }
+
+  // Dark-mode: color hamburger (mobile) with accent color
+  @media (max-width: 991px) {
+    .navbar-toggler svg.icon-menu rect,
+    .navbar-toggler .icon-menu rect {
+      fill: $accent !important;
+    }
+    .navbar-toggler svg.icon-menu { color: $accent !important; }
+  }
+}
+
+// Add some MessyMind-specific animations
+.card, .post-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  
+  &:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: $shadow-lg !important;
+  }
+}
+
+// Typography improvements
+p {
+  line-height: 1.7 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* Cluster grid spacing: add breathing room between cards */
+.cluster-grid .row.g-4 {
+  /* use gap on the flex row (supported in modern browsers) */
+  gap: 1.25rem;
+}
+
+/* FORZA 2x2 SU TUTTI I DISPOSITIVI - regola di base senza media query */
+/* Questa regola si applica SEMPRE, anche su mobile, per garantire il layout 2x2 */
+/* Usiamo `html` come prefisso per aumentare la specificità */
+html .cluster-grid .row.g-4 > .col-12.col-md-6,
+html .cluster-grid .row.g-4 > .col-md-6,
+html .cluster-grid .row.g-4 > [class*="col-md-6"],
+html .cluster-grid .row.g-4 > [class*="col-"] {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+}
+
+@media (min-width: 768px) {
+  .cluster-grid .row.g-4 { gap: 1.75rem; }
+}
+
+/* Extra strong rules: force two columns in the cluster grid across common breakpoints.
+   This increases selector specificity to override inline/critical rules that sometimes
+   prevent the grid from becoming 2x2 on certain devices. */
+
+@media (min-width: 576px) {
+  .cluster-grid .row.g-4 > .col-12.col-md-6,
+  .cluster-grid .row.g-4 > [class*="col-md-6"] {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .cluster-grid .row.g-4 > .col-12.col-md-6,
+  .cluster-grid .row.g-4 > [class*="col-md-6"] {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  .cluster-grid .row.g-4 { gap: 1.75rem; }
+}
+
+@media (min-width: 1200px) {
+  .cluster-grid .row.g-4 { gap: 2rem; }
+}
+
+/* Ensure individual cards keep internal spacing and equal heights */
+.cluster-grid .mm-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1.25rem !important;
+  gap: 0.6rem; /* small internal gap for vertical rhythm */
+}
+
+/* Small visual tweak: slightly reduce bottom margin within cards so gaps look even */
+.cluster-grid .mm-card .mb-3 { margin-bottom: 0.85rem !important; }
+
+/* Make the cluster cards visually plain: no border, no background, no shadow */
+.cluster-grid .mm-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Force 2x2 at ALL breakpoints (explicitly apply 50% width even on narrow devices) */
+.cluster-grid .row.g-4 > .col-12.col-md-6,
+.cluster-grid .row.g-4 > [class*="col-md-6"] {
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+}
+
+// Add some personality with the accent font
+.masthead .subheading,
+.post-subtitle,
+blockquote {
+  font-family: $font-accent !important;
+}
+
+/* ASPECT RATIO UTILITIES - Per immagini uniformi nelle card */
+.ratio {
+  position: relative;
+  width: 100%;
+}
+
+.ratio::before {
+  display: block;
+  padding-top: var(--aspect-ratio);
+  content: "";
+}
+
+.ratio > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Importante: forza le immagini a coprire l'area senza distorsioni */
+}
+
+.ratio-16x9 {
+  --aspect-ratio: calc(9 / 16 * 100%); /* 56.25% */
+}
+
+.ratio-4x3 {
+  --aspect-ratio: calc(3 / 4 * 100%); /* 75% */
+}
+
+.ratio-1x1 {
+  --aspect-ratio: 100%;
+}
+
+/* Fix per immagini nelle card - sovrascrive gli stili inline */
+.post-card .thumb.ratio img,
+.post-card .ratio img,
+.thumb.ratio img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  aspect-ratio: 16/9 !important;
+  max-width: none !important;
+}
+
+/* Hero LCP Image positioning - Critical for Core Web Vitals */
+.masthead.modern-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 400px; /* Ensure height for background image */
+  
+  /* MOBILE FIX: reduce hero height on mobile to avoid excessive space */
+  @media (max-width: 767px) {
+    min-height: 300px;
+  }
+}
+
+.masthead.modern-hero .home-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Behind overlay */
+}
+
+.masthead.modern-hero .hero-lcp-image,
+.masthead.modern-hero .lcp-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.masthead.modern-hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(46,61,73,0.6) 0%, rgba(79,138,139,0.4) 100%);
+  z-index: 1; /* Above image */
+}
+
+.masthead.modern-hero .container {
+  position: relative;
+  z-index: 2; /* Above overlay */
+}

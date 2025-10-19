@@ -1,0 +1,219 @@
+---
+layout: default
+---
+{% comment %}
+  SUBCLUSTER LAYOUT - SEO MODERN v3 - ALIGNED WITH CATEGORY
+  - Identico stile e struttura del layout category
+  - Hero con CTA button "Inizia da qui"
+  - Paginazione: 9 post/pagina con canonical autoreferenziale
+  - H1 fisso, "Pagina N" solo nel title
+  - Grid 2x2 "Cosa troverai qui" (opzionale)
+  - Guide essenziali (cornerstone) con thumbnail 16:9
+  - Lista post in stile featured-card con ratio 16:9
+  - FAQ accordion Bootstrap
+  - CTA Newsletter stile home
+  - Schema: CollectionPage + ItemList + BreadcrumbList + FAQPage
+  - CWV target: SEO ≥95, CLS ≤0.10, LCP ≤2.7s
+{% endcomment %}
+
+{% comment %} Determina slug categoria e subcluster {% endcomment %}
+{% if page.category and page.category != '' %}
+  {% assign cat_slug = page.category | downcase | strip %}
+{% else %}
+  {% assign cat_slug = page.categories | first | downcase | strip %}
+{% endif %}
+
+{% assign sub_slug = page.subcluster | downcase | strip %}
+
+{% comment %} Mappa slug a display title {% endcomment %}
+{% assign display_title = page.title | default: page.subcluster | replace: '-', ' ' | capitalize %}
+
+{% comment %} Parametri paginazione {% endcomment %}
+{% assign posts_per_page = 9 %}
+{% assign current_page = page.pagination_page | default: 1 %}
+{% assign offset = current_page | minus: 1 | times: posts_per_page %}
+
+{% comment %} Raccogli TUTTI i post del subcluster {% endcomment %}
+{% assign all_sub_posts = site.posts 
+  | where_exp: "p", "p.categories contains cat_slug" 
+  | where: "subcluster", sub_slug 
+  | sort: "date" 
+  | reverse %}
+
+{% comment %} Calcola totale pagine {% endcomment %}
+{% assign total_posts = all_sub_posts.size %}
+{% assign total_pages = total_posts | divided_by: posts_per_page | plus: 0 %}
+{% assign remainder = total_posts | modulo: posts_per_page %}
+{% if remainder > 0 %}
+  {% assign total_pages = total_pages | plus: 1 %}
+{% endif %}
+
+{% comment %} Post della pagina corrente (paginati) {% endcomment %}
+{% assign sub_posts = all_sub_posts | slice: offset, posts_per_page %}
+
+{% comment %} Hero Component - Stile Category con CTA {% endcomment %}
+{% include subcluster-hero.html %}
+
+<div class="container category-container">
+  <div class="row">
+    <div class="col-12">
+
+      {% comment %} Breadcrumb {% endcomment %}
+      <div class="mb-3">
+        {% include breadcrumb.html %}
+      </div>
+
+      {% comment %} Intro Section - Grid 2x2 "Cosa troverai qui" {% endcomment %}
+      {% include subcluster-intro.html %}
+      
+      {% comment %} Cornerstone Section (Guide essenziali) {% endcomment %}
+      {% include cornerstone-section.html category=cat_slug subcluster=sub_slug %}
+
+      {% comment %} Lista Post - Stile featured-card come category {% endcomment %}
+      <section class="listing mb-5" aria-labelledby="posts-heading">
+        <div class="row mb-3">
+          <div class="col-12">
+            <h2 id="posts-heading" class="section-heading mb-0">Ultimi articoli</h2>
+          </div>
+        </div>
+        
+        {% for post in sub_posts %}
+        <div class="row mb-4">
+          <div class="col-12">
+            <article class="featured-card mm-card border rounded-3 shadow-sm overflow-hidden">
+              <div class="row g-0">
+                {% assign post_img = post.background | default: post.image %}
+                {% if post_img %}
+                <div class="col-md-6">
+                  <div class="thumb ratio ratio-16x9">
+                    <img 
+                      src="{{ post_img | relative_url }}" 
+                      alt="{{ post.title }}"
+                      loading="lazy"
+                      decoding="async"
+                      width="600"
+                      height="338"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      class="w-100 h-100"
+                      style="object-fit: cover;">
+                  </div>
+                </div>
+                {% endif %}
+                <div class="col-md-6">
+                  <div class="card-body p-4">
+                    <h3 class="post-title mb-3 h5">
+                      <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                        {{ post.title }}
+                      </a>
+                    </h3>
+                    
+                    {% assign post_excerpt = post.description | default: post.seo_description | default: post.excerpt %}
+                    {% if post_excerpt %}
+                      <p class="post-excerpt text-muted mb-4">{{ post_excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+                    {% endif %}
+                    
+                    <div class="post-meta d-flex align-items-center justify-content-between flex-wrap mb-3">
+                      <small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small>
+                      {% if post.subcluster %}
+                      <a href="{{ page.url | relative_url }}" class="badge badge-mm text-decoration-none">
+                        {{ post.subcluster | replace: '-', ' ' | capitalize }}
+                      </a>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        {% endfor %}
+        
+        {% comment %} Paginazione {% endcomment %}
+        {% comment %} Paginazione {% endcomment %}
+        {% if total_pages > 1 %}
+        <nav class="pagination-wrapper mb-5" aria-label="Navigazione pagine">
+          <ul class="pagination justify-content-center">
+            {% comment %} Previous {% endcomment %}
+            {% if current_page > 1 %}
+              {% assign prev_page = current_page | minus: 1 %}
+              {% if prev_page == 1 %}
+                <li class="page-item">
+                  <a class="page-link" href="{{ page.url | relative_url }}" aria-label="Pagina precedente">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+              {% else %}
+                <li class="page-item">
+                  <a class="page-link" href="{{ page.url | relative_url }}page/{{ prev_page }}/" aria-label="Pagina precedente">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+              {% endif %}
+            {% else %}
+              <li class="page-item disabled">
+                <span class="page-link" aria-hidden="true">&laquo;</span>
+              </li>
+            {% endif %}
+
+            {% comment %} Page numbers {% endcomment %}
+            {% for i in (1..total_pages) %}
+              {% if i == current_page %}
+                <li class="page-item active" aria-current="page">
+                  <span class="page-link">{{ i }}</span>
+                </li>
+              {% elsif i == 1 %}
+                <li class="page-item">
+                  <a class="page-link" href="{{ page.url | relative_url }}">{{ i }}</a>
+                </li>
+              {% else %}
+                <li class="page-item">
+                  <a class="page-link" href="{{ page.url | relative_url }}page/{{ i }}/">{{ i }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+
+            {% comment %} Next {% endcomment %}
+            {% if current_page < total_pages %}
+              {% assign next_page = current_page | plus: 1 %}
+              <li class="page-item">
+                <a class="page-link" href="{{ page.url | relative_url }}page/{{ next_page }}/" aria-label="Pagina successiva">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            {% else %}
+              <li class="page-item disabled">
+                <span class="page-link" aria-hidden="true">&raquo;</span>
+              </li>
+            {% endif %}
+          </ul>
+        </nav>
+        {% endif %}
+      </section>
+
+      {% comment %} FAQ Section - Accordion Bootstrap come category {% endcomment %}
+      {% include category-faq.html category=cat_slug subcluster=sub_slug %}
+
+      {% comment %} CTA Newsletter - Stile home/category {% endcomment %}
+      <section class="cta cta-section mb-5" aria-labelledby="cta-heading">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="mm-card cta-newsletter p-5 border rounded-3 shadow-sm text-center mx-auto">
+              <h2 id="cta-heading" class="h4 mb-3">{{ page.cta_title | default: "Ricevi 1 pratica a settimana" }}</h2>
+              <p class="text-muted mb-4">{{ page.cta_text | default: "Zero spam. Una sola email con una micro‑tecnica testata sul campo." }}</p>
+              <a href="{{ page.cta_link | default: '/newsletter' | relative_url }}" class="btn btn-primary px-4">{{ page.cta_button | default: "Iscriviti" }}</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+{% comment %} Schema Markup - Centralizzato {% endcomment %}
+{% include schema-subcluster.html 
+  category=cat_slug 
+  subcluster=sub_slug 
+  posts=sub_posts 
+  current_page=current_page 
+  total_pages=total_pages %}

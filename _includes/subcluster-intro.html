@@ -1,0 +1,74 @@
+{% comment %}
+  Subcluster Intro - Aligned with Category Intro Style
+  - Grid 1x2 "Argomenti principali" (2 card invece di 4)
+  - Usa promise field dal front matter
+  - No duplicate lead (già nell'hero)
+{% endcomment %}
+
+<section class="subcluster-intro category-intro mb-5" aria-labelledby="subcluster-intro-heading">
+  
+  {% if page.topics and page.topics.size > 0 %}
+    {% comment %} Grid 1x2 - 2 card principali {% endcomment %}
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h2 id="subcluster-intro-heading" class="section-heading mb-0">Argomenti principali</h2>
+        {% if page.promise %}
+          <p class="text-muted mt-2 mb-0">{{ page.promise }}</p>
+        {% endif %}
+      </div>
+    </div>
+    
+    {% comment %} Grid topics - 2 card 1x2 {% endcomment %}
+    <div class="row g-4 mb-4">
+      {% for topic in page.topics limit:2 %}
+        <div class="col-12 col-md-6">
+          <div class="mm-card h-100 p-4 border rounded-3 shadow-sm">
+            <h3 class="h5 mb-3">
+              {% if topic.url %}
+                <a href="{{ topic.url | relative_url }}" class="text-decoration-none text-dark">{{ topic.title }}</a>
+              {% else %}
+                {{ topic.title }}
+              {% endif %}
+            </h3>
+            <p class="text-muted mb-0">{{ topic.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    
+  {% elsif page.promise %}
+    {% comment %} Fallback: solo promise senza topics {% endcomment %}
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <h2 id="subcluster-intro-heading" class="section-heading mb-0">Cosa troverai qui</h2>
+        <p class="text-muted mt-2 mb-0">{{ page.promise }}</p>
+      </div>
+    </div>
+    
+  {% elsif page.content and page.content != '' %}
+    {% comment %} Contenuto custom da markdown {% endcomment %}
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="user-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+<style>
+/* Inline CSS for subcluster intro grid */
+.subcluster-intro .mm-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subcluster-intro .mm-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+}
+
+.subcluster-intro .mm-card h3 a:hover {
+  color: var(--bs-primary, #4f8a8b) !important;
+}
+</style>

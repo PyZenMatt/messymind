@@ -1,0 +1,16 @@
+# Preview configuration for PR previews
+# This file is used during PR preview builds to override production settings
+
+# Base URL configuration for GitHub Pages preview deployment
+# The PREVIEW_PATH placeholder will be replaced by the workflow with pull/<PR_NUMBER>
+url: "https://pyzenmatt.github.io"
+baseurl: "/messymind-previews/PREVIEW_PATH"
+
+# Preview-specific settings
+preview: true  # Flag to indicate this is a preview build (can be used in layouts)
+
+# SEO settings for previews
+robots: "noindex, nofollow"  # Prevent search engines from indexing previews
+
+# Jekyll environment
+# Note: JEKYLL_ENV is set to production in the workflow for proper asset compilation

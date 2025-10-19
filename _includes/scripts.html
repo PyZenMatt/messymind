@@ -1,0 +1,114 @@
+<!-- JavaScript minimo DEFERITO per performance -->
+<script>
+  // Script critici caricati DOPO il DOM ready
+  function initCriticalScripts() {
+    // Navbar toggle senza jQuery - Performance ottimizzata
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    
+    if (navbarToggler && navbarCollapse) {
+      navbarToggler.addEventListener('click', function() {
+        navbarCollapse.classList.toggle('show');
+      });
+      
+      // Chiudi menu quando si clicca su un link
+      const navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          navbarCollapse.classList.remove('show');
+        });
+      });
+    }
+  }
+  
+  // Carica script solo quando il DOM è pronto - Non blocca il rendering
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCriticalScripts);
+  } else {
+    initCriticalScripts();
+  }
+</script>
+
+<!-- Form validation solo per pagina contact -->
+{% if page.url contains 'contact' %}
+<script>
+  function initContactForm() {
+    const form = document.querySelector('form');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        const name = form.querySelector('[name="name"]');
+        const email = form.querySelector('[name="email"]');
+        if (!name.value || !email.value) {
+          e.preventDefault();
+          alert('Compila tutti i campi obbligatori');
+        }
+      });
+    }
+  }
+  
+  // Carica form validation post-load per non bloccare rendering
+  window.addEventListener('load', initContactForm);
+</script>
+{% endif %}
+
+  <!-- Defer load cookie manager and theme toggle and safe init -->
+  <script defer src="{{ '/assets/js/cookie-manager.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+  <script>
+    (function(){
+      function safeInit() {
+        try {
+          // If cookieManager not available, disable cookie banner actions
+          if (!window.cookieManager) {
+            var els = document.querySelectorAll('[data-cookie-action], #cookie-accept, #cookie-decline');
+            els.forEach(function(el){ el.disabled = true; el.setAttribute('aria-disabled', 'true'); });
+            console.debug('cookieManager not found — cookie banner actions disabled');
+          } else {
+            // idempotent init if provided
+            try { window.cookieManager.init && window.cookieManager.init(); } catch(e){ console.debug('cookieManager.init error', e); }
+          }
+
+          // Theme toggle binding: allow theme-toggle.js to handle if it exposes a global
+          var toggle = document.getElementById('theme-toggle');
+          if (toggle) {
+            // prefer library-provided handler
+            if (window.themeToggle && typeof window.themeToggle.attach === 'function') {
+              try { window.themeToggle.attach(toggle); } catch(e){ console.debug('themeToggle.attach error', e); }
+            } else {
+              // fallback simple toggle — use class 'dark' to match CSS selectors
+              toggle.addEventListener('click', function(e){
+                try {
+                  if (e.shiftKey) {
+                    try { localStorage.setItem('theme', 'auto'); } catch(err){}
+                    // apply system preference
+                    var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    if (systemDark) document.documentElement.classList.add('dark'); else document.documentElement.classList.remove('dark');
+                    console.debug('theme toggle fallback: reset to auto');
+                    return;
+                  }
+                  var isDark = document.documentElement.classList.contains('dark') || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                  var nextIsDark = !isDark;
+                  if (nextIsDark) {
+                    document.documentElement.classList.add('dark');
+                    try { localStorage.setItem('theme', 'dark'); } catch(e){}
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                    try { localStorage.setItem('theme', 'light'); } catch(e){}
+                  }
+                } catch(e){ console.debug('theme toggle fallback error', e); }
+              });
+            }
+          }
+        } catch(err) {
+          console.debug('safeInit scripts error', err);
+        }
+      }
+
+      // Wait for window load so deferred scripts are executed
+      if (document.readyState === 'complete') {
+        safeInit();
+      } else {
+        window.addEventListener('load', safeInit);
+      }
+    })();
+  </script>

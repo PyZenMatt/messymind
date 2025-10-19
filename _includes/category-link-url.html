@@ -1,0 +1,11 @@
+{%- assign cat = page.categories[0] | default: page.category | default: '' | slugify -%}
+{%- if cat == '' -%}
+{{ '/categorie/' | relative_url }}
+{%- else -%}
+  {%- assign mapped = site.data.category_slugs[cat] | default: nil -%}
+  {%- if mapped -%}
+    {{ mapped | relative_url }}
+  {%- else -%}
+    {{ '/categorie/' | append: cat | append: '/' | relative_url }}
+  {%- endif -%}
+{%- endif -%}

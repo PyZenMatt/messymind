@@ -1,0 +1,89 @@
+<!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          {% if site.email %}
+          <li class="list-inline-item">
+            <a href="mailto:{{ site.email | encode_email }}" aria-label="Invia email a {{ site.email }}">
+              <svg class="icon icon-mail" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="false" xmlns="http://www.w3.org/2000/svg">
+                <title>Invia email</title>
+                <rect width="24" height="24" fill="none"></rect>
+                <path d="M4 4h16v16H4z" fill="#444" opacity="0.08"></path>
+                <path d="M20 6H4v12h16V6zm-8 7L6 8h12l-6 5z" fill="#444"/>
+              </svg>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.twitter_username %}
+          <li class="list-inline-item">
+            <a href="https://twitter.com/{{ site.twitter_username }}" aria-label="Twitter">
+              <svg class="icon icon-twitter" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="false" xmlns="http://www.w3.org/2000/svg">
+                <title>Twitter</title>
+                <path d="M22 5.92c-.66.3-1.37.5-2.14.6a3.73 3.73 0 0 0 1.63-2.06 7.55 7.55 0 0 1-2.37.9 3.73 3.73 0 0 0-6.37 3.4A10.59 10.59 0 0 1 3.15 4.6a3.72 3.72 0 0 0 1.16 4.98c-.53 0-1.03-.16-1.46-.4v.04c0 1.8 1.28 3.3 2.98 3.64-.5.14-1.02.17-1.55.06.43 1.35 1.68 2.33 3.16 2.36A7.49 7.49 0 0 1 2 19.54 10.53 10.53 0 0 0 8.42 21c6.32 0 9.78-5.24 9.78-9.78v-.45c.67-.48 1.26-1.08 1.73-1.77-.6.27-1.25.45-1.92.53z" fill="#1DA1F2"/>
+              </svg>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.facebook_username %}
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/{{ site.facebook_username }}" aria-label="Facebook">
+              <svg class="icon icon-facebook" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="false" xmlns="http://www.w3.org/2000/svg">
+                <title>Facebook</title>
+                <path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 4.84 3.44 8.86 7.93 9.71v-6.86H7.9v-2.85h2.03V9.66c0-2 1.2-3.11 3.02-3.11.88 0 1.8.16 1.8.16v1.98h-1.02c-1 0-1.32.63-1.32 1.28v1.53h2.24l-.36 2.85h-1.88v6.86C18.56 20.93 22 16.91 22 12.07z" fill="#1877F2"/>
+              </svg>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.linkedin_username %}
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" aria-label="LinkedIn">
+              <svg class="icon icon-linkedin" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="false" xmlns="http://www.w3.org/2000/svg">
+                <title>LinkedIn</title>
+                <path d="M4.98 3.5C4.98 4.6 4.09 5.5 2.98 5.5S1 4.6 1 3.5 1.89 1.5 2.98 1.5 4.98 2.4 4.98 3.5zM.5 8.98h4.96V24H.5V8.98zM9.5 8.98h4.76v2.06h.07c.66-1.26 2.28-2.6 4.7-2.6 5.03 0 5.96 3.31 5.96 7.6V24h-4.96v-7.24c0-1.73-.03-3.96-2.41-3.96-2.41 0-2.78 1.88-2.78 3.83V24H9.5V8.98z" fill="#0A66C2"/>
+              </svg>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.github_username %}
+          <li class="list-inline-item">
+            <a href="https://github.com/{{ site.github_username }}" aria-label="Profilo GitHub di {{ site.github_username }}">
+              <svg class="icon icon-github" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="false" xmlns="http://www.w3.org/2000/svg">
+                <title>GitHub</title>
+                <path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.92 3.19 9.09 7.6 10.56.56.1.76-.24.76-.53 0-.26-.01-.95-.01-1.86-3.09.67-3.75-1.31-3.75-1.31-.5-1.27-1.22-1.61-1.22-1.61-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.57 1.19 3.2.91.1-.71.38-1.19.69-1.46-2.47-.28-5.07-1.23-5.07-5.47 0-1.21.43-2.2 1.12-2.98-.11-.28-.49-1.42.11-2.95 0 0 .9-.29 2.95 1.12A10.3 10.3 0 0 1 12 7.58c.91.01 1.83.12 2.69.35 2.05-1.41 2.95-1.12 2.95-1.12.6 1.53.22 2.67.11 2.95.69.78 1.12 1.77 1.12 2.98 0 4.25-2.6 5.19-5.08 5.47.39.34.74 1 .74 2.02 0 1.46-.01 2.64-.01 3 .01.29.2.64.77.53 4.41-1.48 7.59-5.66 7.59-10.58C23.25 5.48 18.27.5 12 .5z" fill="#181717"/>
+              </svg>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.instagram_username %}
+          <li class="list-inline-item">
+            <a href="https://instagram.com/{{ site.instagram_username }}" aria-label="Instagram">
+              <svg class="icon icon-instagram" width="32" height="32" viewBox="0 0 24 24" role="img" aria-hidden="false" xmlns="http://www.w3.org/2000/svg">
+                <title>Instagram</title>
+                <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.2A4.8 4.8 0 1 0 16.8 13 4.8 4.8 0 0 0 12 8.2zM18.5 6.1a1.1 1.1 0 1 1-1.1-1.1 1.1 1.1 0 0 1 1.1 1.1z" fill="#E1306C"/>
+              </svg>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+        
+        <!-- Links Privacy e Cookie -->
+        <div class="text-center mb-3">
+          <small>
+            <a href="/privacy-policy/" class="text-muted">Privacy Policy</a>
+            •
+            <a href="/cookie-policy/" class="text-muted">Cookie Policy</a>
+            •
+            <a href="javascript:void(0)" onclick="cookieManager.revokeConsent()" class="text-muted">Gestisci Cookie</a>
+          </small>
+        </div>
+        
+        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

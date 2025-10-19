@@ -1,0 +1,47 @@
+mindfulness:
+  - question: "La mindfulness serve solo se mi siedo a gambe incrociate con le candele accese?"
+    answer: "No, serve anche mentre lavi i piatti, bestemmi contro l’ufficio o aspetti che la moka finisca. La consapevolezza non ha dress code."
+  - question: "Devo svuotare la mente?"
+    answer: "Impossibile. La mente non è un cestino di Windows. Impara piuttosto a notare quello che c’è, senza per forza rispondere a ogni notifica mentale."
+  - question: "Quanto tempo devo meditare al giorno?"
+    answer: "Meglio 2 minuti fatti che 2 ore sognate. La costanza batte l’eroismo mistico."
+
+filosofia-pratica:
+  - question: "Filosofia significa per forza Platone, Aristotele e mal di testa?"
+    answer: "No. Filosofia pratica vuol dire applicare domande intelligenti alla vita quotidiana: come gestire un “no”, come vivere con più lucidità, come non farsi fregare dal perfezionismo."
+  - question: "A cosa serve la filosofia oggi?"
+    answer: "A non vivere in modalità “pilota automatico”. È un kit di domande scomode che ti tengono sveglio mentre tutti corrono."
+  - question: "Devo leggere i filosofi originali o bastano esempi pratici?"
+    answer: "Puoi iniziare dagli esempi. Se poi ti intrippa, vai pure di testi classici: capirai che anche Seneca litigava con le scadenze."
+
+crescita-autentica:
+  - question: "Cosa significa “crescita autentica”?"
+    answer: "Non è accumulare skill come fossero figurine, ma smettere di copiare le strategie degli altri. È crescita che non profuma di incenso né di LinkedIn."
+  - question: "È come la crescita personale dei guru motivazionali?"
+    answer: "No, qui niente “10 passi per diventare un supereroe”. È più: “1 passo imperfetto al giorno e vedi che succede”."
+  - question: "Da dove comincio?"
+    answer: "Parti da ciò che ti pesa davvero oggi. Piccolo, realistico, sostenibile. Tipo: andare a dormire prima, smettere di dire sempre sì, mangiare senza scrollare TikTok."
+
+equilibrio-interiore:
+  - question: "Cos’è l’equilibrio interiore?"
+    answer: "Non è vivere sempre zen. È cadere, rialzarsi e trovare un centro che non crolla al primo imprevisto."
+  - question: "Si può raggiungere davvero o è solo marketing?"
+    answer: "Si raggiunge a puntate, come una serie TV. Non c’è un “finale di stagione” in cui sei illuminato per sempre."
+  - question: "Come faccio a coltivarlo senza fuggire su una montagna?"
+    answer: "Parti da micro-rituali: respirare prima di rispondere a un’email, camminare senza cuffie, dire “no” senza scusarti per dieci minuti."
+
+mindfulness-ironica: &mindfulness_alias
+  - question: "La mindfulness serve solo se mi siedo a gambe incrociate con le candele accese?"
+    answer: "No, serve anche mentre lavi i piatti, bestemmi contro l’ufficio o aspetti che la moka finisca. La consapevolezza non ha dress code."
+  - question: "Devo svuotare la mente?"
+    answer: "Impossibile. La mente non è un cestino di Windows. Impara piuttosto a notare quello che c’è, senza per forza rispondere a ogni notifica mentale."
+  - question: "Quanto tempo devo meditare al giorno?"
+    answer: "Meglio 2 minuti fatti che 2 ore sognate. La costanza batte l’eroismo mistico."
+
+crescita-personale-anti-guru: &crescita_alias
+  - question: "Cosa significa “crescita autentica”?"
+    answer: "Non è accumulare skill come fossero figurine, ma smettere di copiare le checklist degli altri. È crescita che non profuma di incenso né di LinkedIn."
+  - question: "È come la crescita personale dei guru motivazionali?"
+    answer: "No, qui niente “10 passi per diventare un supereroe”. È più: “1 passo imperfetto al giorno e vedi che succede”."
+  - question: "Da dove comincio?"
+    answer: "Parti da ciò che ti pesa davvero oggi. Piccolo, realistico, sostenibile. Tipo: andare a dormire prima, smettere di dire sempre sì, mangiare senza scrollare TikTok."

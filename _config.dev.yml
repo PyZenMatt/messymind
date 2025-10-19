@@ -1,0 +1,4 @@
+# Development overrides for local serve
+# Use consistent host/port with `bundle exec jekyll serve --config _config.yml,_config.dev.yml --host localhost --port 4000`
+url: "http://localhost:4000"
+baseurl: ""

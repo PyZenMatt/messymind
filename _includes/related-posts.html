@@ -1,0 +1,49 @@
+<!-- Related Posts SEMPLIFICATI - Solo titoli -->
+{% if page.categories %}
+  {% comment %} Find posts in same category, exclude current page and those in same subcluster, limit to 3 {% endcomment %}
+  {% assign related_candidates = site.posts | where_exp: "post", "post.categories contains page.categories.first" | where_exp: "post", "post.url != page.url" %}
+  {% assign related_posts = "" | split: "" %}
+  {% for p in related_candidates %}
+    {% if page.subcluster and p.subcluster and p.subcluster == page.subcluster %}
+      {% continue %}
+    {% endif %}
+    {% assign related_posts = related_posts | push: p %}
+    {% if related_posts.size == 3 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if related_posts.size > 0 %}
+    <div class="related-posts-section mt-5 pt-4 border-top">
+      <h3 class="mb-4">📚 Articoli Correlati</h3>
+      <div class="simple-related-list">
+        {% for related_post in related_posts %}
+          <div class="related-item mb-2">
+            <a href="{{ related_post.url | relative_url }}" class="text-decoration-none d-block" title="Leggi: {{ related_post.title }}">
+              <h6 class="mb-1 text-primary">{{ related_post.title }}</h6>
+              <small class="text-muted">{{ related_post.date | date: '%d/%m/%Y' }}</small>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
+
+<!-- Link "Torna alla categoria" -->
+{% if page.categories %}
+  {% assign category = page.categories | first %}
+  <div class="category-navigation mt-4 text-center">
+    {% assign key = category | downcase %}
+    {% assign mapped = site.data.category_slugs[key] %}
+    {% if mapped %}
+      <a href="{{ mapped | relative_url }}" class="btn btn-secondary">
+        <svg class="icon icon-arrow-left" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M14 7l-5 5 5 5V7z" fill="#fff"/></svg> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
+      </a>
+    {% else %}
+      <a href="{{ '/categorie/' | append: category | slugify | append: '/' | relative_url }}" class="btn btn-secondary">
+        <svg class="icon icon-arrow-left" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M14 7l-5 5 5 5V7z" fill="#fff"/></svg> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
+      </a>
+    {% endif %}
+  </div>
+{% endif %}

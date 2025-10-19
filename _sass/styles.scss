@@ -1,0 +1,51 @@
+// BOOTSTRAP PURGED - Solo classi utilizzate (40KB vs 160KB)
+@import "bootstrap-purged";
+
+// COOKIE BANNER - Sistema gestione cookie GDPR
+@import "cookie-banner";
+
+// Visually hidden utility for accessibility
+.visually-hidden {
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0, 0, 0, 0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
+}
+
+// NESSUN FONT AWESOME - Usando Unicode nel CSS critico
+
+// Performance: CSS totale ridotto da 160KB a ~40KB
+
+/* Credito foto sotto 'Posted by' - piccolo, corsivo e a capo */
+.photo-credit {
+	display: block; /* forza a capo */
+	margin-top: 0.25rem;
+	font-size: 0.875rem; /* leggermente più piccolo */
+	font-style: italic;
+		color: #fff; /* testo bianco per maggior contrasto */
+		text-shadow: 0 1px 0 rgba(0,0,0,0.45); /* leggero bordo per leggibilità su immagini */
+}
+
+.photo-credit a {
+	color: inherit; /* link ereditano il colore bianco */
+	text-decoration: underline; /* indicare chiaramente che è cliccabile */
+}
+
+/* FAQ spacing and styling */
+.faq dt.faq-question {
+	margin-top: 1rem; /* space above question */
+}
+.faq dt.faq-question strong {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 0.5rem; /* space between question and answer */
+}
+.faq dd.faq-answer {
+	margin: 0 0 1rem 0; /* space after answer */
+}
+

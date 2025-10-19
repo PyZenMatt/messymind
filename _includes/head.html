@@ -1,0 +1,144 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- SEO: use `jekyll-seo-tag` to render title, meta description, OpenGraph and Twitter cards.
+       Set `page.seo_title`, `page.seo_description`, `page.og_image`, etc. in front matter to override. -->
+  <!-- SEO-TAG-START -->
+  {% seo %}
+  <!-- SEO-TAG-END -->
+{%- comment -%} Open Graph and Twitter tags are emitted by `jekyll-seo-tag` via `{% seo %}`.
+  `_includes/seo.html` has been deprecated; do not include it.
+  To override values set `page.og_*`, `page.seo_title`, `page.seo_description`, or `page.twitter_card` in front matter.
+{%- endcomment -%}
+
+  {% comment %} SEO Pagination: noindex e canonical per page >1 {% endcomment %}
+  {% if paginator and paginator.page > 1 %}
+    {% assign page_1_url = page.url | split: '/page' | first | absolute_url %}
+    <meta name="robots" content="noindex,follow">
+    <link rel="canonical" href="{{ page_1_url }}">
+  {% endif %}
+
+  {% comment %} Preload LCP image for category hero {% endcomment %}
+  {% if page.layout == 'category-modern' or page.layout == 'category' %}
+    {% if page.og_image %}
+      <link rel="preload" as="image" href="{{ page.og_image }}" fetchpriority="high">
+    {% endif %}
+  {% endif %}
+
+  {% comment %} Preload LCP image for subcluster hero {% endcomment %}
+  {% if page.layout == 'subcluster' %}
+    {% assign subcluster_hero = page.hero_image | default: page.image | default: page.background %}
+    {% if subcluster_hero %}
+      <link rel="preload" as="image" href="{{ subcluster_hero | absolute_url }}" fetchpriority="high">
+    {% endif %}
+  {% endif %}
+
+  <!-- Schema.org markup per SEO (centralized) -->
+  {% include schema.html %}
+
+  
+  <!-- PRECONNECT optimized for MessyMind fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- MessyMind fonts with performance optimization -->
+  {% include messymind-fonts.html %}
+  
+  <!-- CSS CRITICO INLINE - FASE 1 OTTIMIZZAZIONE -->
+  {% include critical-css.html %}
+  
+  <!-- Hero LCP critical CSS -->
+  <style>
+  /* Fallback font metrics to reduce CLS during font swap */
+  @font-face{font-family:'Merriweather Fallback';src:local('Georgia');size-adjust:96%;ascent-override:95%;descent-override:25%;line-gap-override:0%}
+  @font-face{font-family:'Poppins Fallback';src:local('Arial');size-adjust:107%;ascent-override:92%;descent-override:24%;line-gap-override:0%}
+  
+  .masthead{position:relative;overflow:hidden;min-height:clamp(320px,50vh,600px);padding:2rem 0}
+  .masthead .container{position:relative;z-index:2}
+  .masthead .site-heading{text-align:center;color:white;text-shadow:2px 2px 4px rgba(0,0,0,0.5)}
+  .masthead .site-title{font-size:clamp(1.75rem,4vw,3rem);font-weight:700;margin-bottom:1rem;word-wrap:break-word;font-family:Poppins,'Poppins Fallback',sans-serif}
+  .masthead .intro{font-size:clamp(1rem,2.5vw,1.25rem);max-width:800px;margin:0 auto;font-family:Merriweather,'Merriweather Fallback',Georgia,serif}
+  .home-hero{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;background-image:url('/img/home/bg-home-1600.webp');background-size:cover;background-position:center;background-repeat:no-repeat;will-change:opacity;contain:layout style paint}
+  .home-hero img{width:100%;height:100%;object-fit:cover;display:block}
+  .overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg, rgba(46,61,73,0.6) 0%, rgba(79,138,139,0.4) 100%);z-index:1}
+  @media(max-width:767px){.masthead{padding:1.5rem 0}.masthead .site-title{font-size:1.75rem}.masthead .intro{font-size:1rem}}
+  </style>
+  
+  <!-- CSS NON-CRITICO CARICATO ASINCRONO CON ALTA PRIORITÀ -->
+  <link rel="preload" href="{{ '/assets/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'" fetchpriority="high">
+  <noscript><link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"></noscript>
+  
+  <!-- Fallback CSS critico esteso per evitare FOUC -->
+  <script>
+    // Carica CSS immediatamente per browsers senza supporto preload
+    if (!('onload' in document.createElement('link'))) {
+      document.write('<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">');
+    }
+  </script>
+  
+  <!-- Preload SOLO immagine LCP ottimizzata -->
+  {%- comment -%} Per migliorare Core Web Vitals, preload LCP per ogni pagina.
+     Use `lcp_image` in front matter to define the LCP image (prefer webp).
+     Fallbacks: `page.hero_image`, `page.image`, `page.background`, `site.image`.
+     Supporto per category-modern e subcluster-modern layouts.
+  {%- endcomment -%}
+  {%- assign lcp_candidate = page.lcp_image | default: page.hero_image | default: page.og_image | default: page.image | default: page.background | default: site.image -%}
+  {%- if lcp_candidate -%}
+    {%- comment -%} Detect if srcset variants exist (e.g., -1600, -800, -400) {%- endcomment -%}
+    {%- if lcp_candidate contains '-1600.webp' or lcp_candidate contains 'bg-home' -%}
+      {%- assign webp_800 = lcp_candidate | replace: '-1600.webp', '-800.webp' | replace: 'bg-home.webp', 'bg-home-800.webp' -%}
+      {%- assign webp_400 = lcp_candidate | replace: '-1600.webp', '-400.webp' | replace: 'bg-home.webp', 'bg-home-400.webp' -%}
+      <!-- Preload LCP hero with srcset -->
+      <link rel="preload" as="image" 
+            href="{{ lcp_candidate | absolute_url }}" 
+            imagesrcset="{{ lcp_candidate | absolute_url }} 1600w, {{ webp_800 | absolute_url }} 800w, {{ webp_400 | absolute_url }} 400w"
+            imagesizes="(max-width: 768px) 100vw, 1200px"
+            fetchpriority="high">
+    {%- else -%}
+      <!-- Preload LCP hero single image -->
+      <link rel="preload" as="image" 
+            href="{{ lcp_candidate | absolute_url }}" 
+            fetchpriority="high">
+    {%- endif -%}
+  {%- endif -%}
+
+  <!-- Reserve intrinsic aspect-ratio for LCP image to avoid layout shift if CSS not loaded -->
+  <style>
+    .home-hero .lcp-img, .hero-lcp-img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+    /* Category and Subcluster hero support */
+    .category-hero, .subcluster-hero{position:relative;overflow:hidden}
+    .category-hero .hero-image-wrapper, .subcluster-hero .hero-image-wrapper{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0}
+  </style>
+  
+  <!-- NESSUN FONT AWESOME - Per LCP critico -->
+
+  <!-- MessyMind design system with performance optimization -->
+
+  {%- assign fv = site.github.build_revision | default: site.time | date: "%s" -%}
+  <!-- Favicons: only light/dark SVG selectors + single legacy PNG fallback -->
+  <!-- Order: light (media) -> dark (media) -> legacy fallback (no media) -->
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/fav_icon_light.svg' | relative_url }}?v={{ fv }}" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo/fav_icon_dark.svg' | relative_url }}?v={{ fv }}" media="(prefers-color-scheme: dark)">
+
+  <!-- Legacy fallback (PNG 32x32). Use relative_url so baseurl is respected. -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/logo/favicon-32.png' | relative_url }}?v={{ fv }}">
+
+  <!-- Safari pinned tab (mask-icon) for pinned tabs; color must be a brand color -->
+  <link rel="mask-icon" href="{{ '/assets/images/logo/fav_icon_light.svg' | relative_url }}?v={{ fv }}" color="#4f8a8b">
+
+  <!-- Indicate the page supports both color schemes and provide theme-color hints -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
+  
+  <!-- Web app manifest -->
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  
+  <!-- CSS NON-BLOCKING: main.css già preloaded sopra -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+
+  <!-- NESSUN JAVASCRIPT NEL HEAD - Performance ottimizzata -->
+  
+</head>

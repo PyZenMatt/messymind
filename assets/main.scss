@@ -1,0 +1,21 @@
+---
+---
+
+// Base styles first
+@import "styles";
+@import "custom-purged";
+
+// MessyMind Design System (loaded last for higher specificity)
+@import "messymind-variables";
+@import "messymind-base";
+@import "messymind-utilities";
+@import "messymind-components";
+
+// MessyMind overrides (final layer - highest specificity)
+@import "messymind-overrides";
+
+// Mobile-specific fixes (loaded after overrides for maximum priority)
+@import "mobile-fixes";
+
+// Page-specific styles
+@import "pages/category";

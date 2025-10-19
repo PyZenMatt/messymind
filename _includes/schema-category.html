@@ -1,0 +1,92 @@
+{% comment %}
+  Category Schema - CollectionPage + ItemList
+  - CollectionPage per hub tematico
+  - ItemList dei post mostrati (max 20)
+  - BreadcrumbList separato (già in breadcrumb.html)
+  - FAQPage solo se FAQ presenti (in category-faq.html)
+{% endcomment %}
+
+{% assign cat_slug = include.category | default: page.category | default: page.categories[0] | downcase | strip %}
+
+{% comment %} Use paginator.posts if active, otherwise fallback to filtered site.posts {% endcomment %}
+{% if paginator %}
+  {% assign cat_posts = paginator.posts %}
+{% else %}
+  {% assign cat_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" | sort: "date" | reverse %}
+{% endif %}
+
+{% assign cat_title = page.title | default: page.category | replace: '-', ' ' | capitalize %}
+{% assign cat_description = page.seo_description | default: page.description | default: page.excerpt | strip_html | truncatewords: 30 %}
+
+{% comment %} CollectionPage + ItemList Schema {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ page.url | absolute_url }}#collectionpage",
+  "url": "{{ page.url | absolute_url }}",
+  "name": {{ cat_title | jsonify }},
+  "description": {{ cat_description | jsonify }},
+  "isPartOf": {
+    "@id": "{{ site.url }}/#website"
+  },
+  {% if page.image or page.background %}
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.image | default: page.background | absolute_url }}",
+    "width": 1600,
+    "height": 900
+  },
+  {% endif %}
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ cat_posts.size }},
+    "itemListElement": [
+      {% assign schema_limit = cat_posts.size %}
+      {% if schema_limit > 20 %}{% assign schema_limit = 20 %}{% endif %}
+      {% for post in cat_posts limit: schema_limit %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ post.url | absolute_url }}",
+        "name": {{ post.title | jsonify }}
+      }{% unless forloop.last or forloop.index == 20 %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "breadcrumb": {
+    "@id": "{{ page.url | absolute_url }}#breadcrumb"
+  }
+}
+</script>
+
+{% comment %} BreadcrumbList Schema {% endcomment %}
+{% assign category_key = cat_slug %}
+{% assign mapped_cat = site.data.category_slugs[category_key] | default: nil %}
+{% if mapped_cat %}
+  {% assign category_url = mapped_cat | absolute_url %}
+{% else %}
+  {% assign category_url = site.url | append: '/categorie/' | append: category_key | append: '/' %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "{{ page.url | absolute_url }}#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ cat_title | jsonify }},
+      "item": "{{ page.url | absolute_url }}"
+    }
+  ]
+}
+</script>

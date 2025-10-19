@@ -1,0 +1,318 @@
+// Mobile-specific fixes for MessyMind.it
+// ======================================
+
+/* ========================================
+   FEATURED POST SECTION - MOBILE OPTIMIZATION
+   ======================================== */
+
+// Mobile: stack image above text (1 column)
+@media (max-width: 767px) {
+  .featured-slider .featured-card .row.g-0 {
+    flex-direction: column !important;
+  }
+  
+  .featured-slider .featured-card .col-md-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  
+  // Reduce image height on mobile to avoid excessive vertical space
+  .featured-slider .featured-card .thumb.ratio-16x9 {
+    max-height: 200px !important;
+  }
+  
+  // Reduce padding in card body on mobile
+  .featured-slider .featured-card .card-body {
+    padding: 1.25rem !important;
+  }
+  
+  // Reduce excerpt length visually
+  .featured-slider .featured-card .post-excerpt {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+  }
+}
+
+// Tablet+: keep side-by-side layout
+@media (min-width: 768px) {
+  .featured-slider .featured-card .col-md-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+
+/* ========================================
+   LATEST POSTS SECTION - MOBILE OPTIMIZATION
+   ======================================== */
+
+// Mobile: single column for better readability
+@media (max-width: 767px) {
+  .latest-posts .row.g-4 .col-md-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  
+  // Compact card on mobile
+  .latest-posts .post-card {
+    min-height: auto !important; // Remove fixed height on mobile
+  }
+  
+  .latest-posts .post-card .thumb.ratio-16x9 {
+    max-height: 180px !important;
+  }
+  
+  .latest-posts .post-card .card-body {
+    padding: 1rem !important;
+  }
+  
+  .latest-posts .post-card .post-excerpt {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    margin-bottom: 0.75rem !important;
+  }
+}
+
+// Tablet: 2 columns
+@media (min-width: 768px) and (max-width: 991px) {
+  .latest-posts .row.g-4 .col-md-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+// Desktop: keep 2 columns (as original design)
+@media (min-width: 992px) {
+  .latest-posts .row.g-4 .col-md-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+
+/* ========================================
+   CORNERSTONE SECTION - MOBILE OPTIMIZATION
+   ======================================== */
+
+// Mobile: single column
+@media (max-width: 767px) {
+  .cornerstone .row.g-4 .col-md-4 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .cornerstone .mm-card {
+    min-height: auto !important;
+  }
+  
+  .cornerstone .mm-card .thumb.ratio-16x9 {
+    max-height: 180px !important;
+  }
+  
+  .cornerstone .mm-card .p-4 {
+    padding: 1rem !important;
+  }
+}
+
+// Tablet: 2 columns
+@media (min-width: 768px) and (max-width: 991px) {
+  .cornerstone .row.g-4 .col-md-4 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+// Desktop: 3 columns (as original)
+@media (min-width: 992px) {
+  .cornerstone .row.g-4 .col-md-4 {
+    flex: 0 0 33.333333% !important;
+    max-width: 33.333333% !important;
+  }
+}
+
+
+/* ========================================
+   GENERAL MOBILE IMPROVEMENTS
+   ======================================== */
+
+// Reduce excessive vertical spacing on mobile
+@media (max-width: 767px) {
+  .home-content .container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .home-content section {
+    margin-bottom: 2.5rem !important;
+  }
+  
+  // Brand intro: more compact
+  .brand-intro {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  
+  .brand-intro .lead {
+    font-size: 1rem !important;
+  }
+  
+  // Section headings: smaller on mobile
+  .section-heading {
+    font-size: 1.5rem !important;
+  }
+  
+  // Reduce gap in rows
+  .row.g-4 {
+    gap: 1rem !important;
+  }
+}
+
+// Tablet: moderate spacing
+@media (min-width: 768px) and (max-width: 991px) {
+  .home-content .container {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .home-content section {
+    margin-bottom: 3rem !important;
+  }
+}
+
+
+/* ========================================
+   CATEGORY PAGES - MOBILE OPTIMIZATION
+   ======================================== */
+
+/* Subcluster Grid (Esplora per tema) */
+@media (max-width: 767px) {
+  .subcluster-grid .row.g-4 .col-md-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .subcluster-grid .post-card .thumb.ratio-16x9 {
+    max-height: 180px !important;
+  }
+  
+  .subcluster-grid .post-card .card-body {
+    padding: 1rem !important;
+  }
+  
+  .subcluster-grid .post-card .post-excerpt {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .subcluster-grid .row.g-4 .col-md-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+/* Category Listing - Ultimi articoli section */
+@media (max-width: 767px) {
+  .listing .row.mb-4 .col-md-6,
+  .category-container .listing .featured-card .row.g-0 .col-md-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  
+  // Stack image above text on mobile
+  .category-container .listing .featured-card .row.g-0 {
+    flex-direction: column !important;
+  }
+  
+  // Reduce image height
+  .category-container .listing .featured-card .thumb.ratio-16x9 {
+    max-height: 200px !important;
+  }
+  
+  // Compact card body
+  .category-container .listing .featured-card .card-body {
+    padding: 1.25rem !important;
+  }
+  
+  // Limit excerpt length
+  .category-container .listing .featured-card .post-excerpt {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+  }
+  
+  // Reduce spacing between articles
+  .category-container .listing .row.mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .category-container .listing .featured-card .col-md-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+/* Old category layout (category.html) - Ultimi articoli */
+@media (max-width: 767px) {
+  .category-container section .row .col-md-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .category-container .card {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .category-container .card .card-img-top {
+    height: 180px !important;
+  }
+  
+  .category-container .card .card-body {
+    padding: 1rem !important;
+  }
+  
+  .category-container .card .card-text {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .category-container section .row .col-md-6 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+/* Category Container - General spacing fixes */
+@media (max-width: 767px) {
+  .category-container {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  
+  .category-container section {
+    margin-bottom: 2.5rem !important;
+  }
+  
+  .category-container .section-heading {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .category-container .row.g-4 {
+    gap: 1rem !important;
+  }
+}

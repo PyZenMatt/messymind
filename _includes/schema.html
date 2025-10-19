@@ -1,0 +1,147 @@
+{%- comment -%}
+Centralized Schema include
+- Emits: WebPage, BreadcrumbList always
+- Emits: BlogPosting only for posts (page.layout == 'post' or page.collection=='posts')
+- Emits: FAQPage / HowTo when front matter contains `faqs` or `howto` respectively
+- Single source of truth to avoid duplication
+{%- endcomment -%}
+
+{%- comment -%} Determine BlogPosting source: 'plugin' or 'custom' {%- endcomment -%}
+{%- assign blogposting_source = site.schema_blogposting_source | default: 'plugin' -%}
+
+{%- comment -%} Helper: resolve absolute image for schema {%- endcomment -%}
+{%- assign schema_image = page.og_image | default: page.image | default: page.background | default: site.image -%}
+{%- if schema_image and schema_image != '' -%}
+  {%- assign schema_image = schema_image | absolute_url -%}
+{%- endif -%}
+
+{%- comment -%} WebPage + BreadcrumbList (always) {%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}#webpage",
+      "url": "{{ page.url | absolute_url }}",
+      "name": "{{ page.seo_title | default: page.title | escape }}",
+      "description": "{{ page.seo_description | default: page.description | default: page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}",
+      "isPartOf": { "@id": "{{ site.url | append: '/#website' }}" },
+      "about": { "@id": "{{ site.url | append: '/#organization' }}" },
+      "datePublished": "{{ page.date | default: site.time | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url | strip_newlines | strip }}" }{% assign pos = 1 %}
+        {%- comment -%} category and subcluster resolution reused from existing logic {%- endcomment -%}
+        {%- assign category_url = nil -%}
+        {%- if page.category or (page.categories and page.categories.size > 0) or page.cluster or page.cluster_name -%}
+          {%- assign category_key = page.category | default: page.categories[0] | default: page.cluster | default: page.cluster_name -%}
+          {%- assign category_key = category_key | downcase | slugify -%}
+          {%- assign mapped = site.data.category_slugs[category_key] | default: nil -%}
+          {%- if mapped -%}
+            {%- assign category_url = mapped | absolute_url -%}
+          {%- else -%}
+            {%- assign category_url = '/categorie/' | append: category_key | append: '/' | absolute_url -%}
+          {%- endif -%}
+        {%- endif -%}
+        {%- if category_url -%}, { "@type": "ListItem", "position": 2, "name": "{{ page.categories.first | default: category_key | replace: '-', ' ' | capitalize }}", "item": "{{ category_url | strip_newlines | strip }}" }{% assign pos = pos | plus: 1 %}{% endif %}
+        {%- assign subcluster_url = nil -%}
+        {%- if page.subcluster and category_url -%}
+          {%- assign cleaned_sub = page.subcluster | downcase | slugify | strip -%}
+          {%- assign subkey = category_key | append: ':' | append: cleaned_sub -%}
+          {%- assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil -%}
+          {%- if mapped_sub -%}
+            {%- assign subcluster_url = mapped_sub | absolute_url -%}
+          {%- else -%}
+            {%- assign subcluster_url = '/categorie/' | append: category_key | append: '/' | append: cleaned_sub | append: '/' | absolute_url -%}
+          {%- endif -%}
+        {%- endif -%}
+        {%- if subcluster_url -%}, { "@type": "ListItem", "position": {{ pos | plus: 1 }}, "name": "{{ page.subcluster | replace: '-', ' ' | capitalize }}", "item": "{{ subcluster_url | strip_newlines | strip }}" }{% assign pos = pos | plus: 1 %}{% endif %}
+        , { "@type": "ListItem", "position": {{ pos | plus: 1 }}, "name": "{{ page.title | escape }}", "item": "{{ page.url | absolute_url | strip_newlines | strip }}" }
+      ]
+    }
+  ]
+}
+</script>
+
+{%- comment -%} BlogPosting: only when page is a post. Render inside same include but as separate object in graph to avoid duplicate top-level scripts. {%- endcomment -%}
+{%- if page.layout == 'post' and blogposting_source == 'custom' -%}
+  {% comment %} Mark as rendered for other includes and emit custom BlogPosting only when explicitly configured in _config.yml {% endcomment %}
+  {%- assign _ = page.update: '_blogposting_rendered', true -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ page.url | absolute_url }}" },
+    "headline": "{{ page.seo_title | default: page.title | escape }}",
+    "description": "{{ page.seo_description | default: page.excerpt | default: page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
+    {%- if schema_image -%}
+    "image": "{{ schema_image }}",
+    {%- endif -%}
+    "author": { "@type": "Person", "name": "{{ page.author | default: site.author | escape }}" },
+    "publisher": { "@type": "Organization", "name": "{{ site.title | escape }}" {%- if site.logo -%}, "logo": { "@type": "ImageObject", "url": "{{ site.logo | absolute_url }}" }{%- endif -%} },
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "mainEntityOfPage": { "@id": "{{ page.url | absolute_url }}" }
+  }
+  </script>
+{%- endif -%}
+
+{%- comment -%} FAQ and HowTo: delegate to existing includes if present; they will render only when front matter contains `faqs`/`howto`. {%- endcomment -%}
+{%- comment -%}
+  FAQPage: compute faq_items using the same lookup order used by `category-faq.html` and emit a single FAQPage JSON-LD
+  Guard with `page.faq_emitted` to avoid duplicates.
+{%- endcomment -%}
+{%- assign faq_key = page.category | default: page.categories[0] | downcase | strip -%}
+{%- assign sub_key = page.subcluster | downcase | strip -%}
+{%- if faq_key == 'spiritualita-pratica' -%}
+  {%- assign faq_key = 'filosofia-pratica' -%}
+{%- endif -%}
+
+{%- assign combined_key = faq_key | append: ':' | append: sub_key -%}
+{%- assign faq_items = nil -%}
+
+{%- if site.data.subcluster_faqs and site.data.subcluster_faqs[faq_key] and site.data.subcluster_faqs[faq_key][sub_key] -%}
+  {%- assign faq_items = site.data.subcluster_faqs[faq_key][sub_key] -%}
+{%- endif -%}
+
+{%- if faq_items == nil or faq_items == empty or faq_items.size == 0 -%}
+  {%- assign faq_items = site.data.category_faqs[combined_key] -%}
+{%- endif -%}
+
+{%- if faq_items == nil or faq_items == empty or faq_items.size == 0 -%}
+  {%- assign faq_items = site.data.category_faqs[faq_key] -%}
+{%- endif -%}
+
+{%- if faq_items == nil or faq_items == empty or faq_items.size == 0 -%}
+  {%- if page.faqs and page.faqs.size > 0 -%}
+    {%- assign faq_items = page.faqs -%}
+  {%- elsif page.faq and page.faq.size > 0 -%}
+    {%- assign faq_items = page.faq -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if faq_items and faq_items.size > 0 and page.faq_emitted != true -%}
+  {%- assign _ = page.update: 'faq_emitted', true -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {%- for item in faq_items -%}
+      {
+        "@type": "Question",
+        "name": {{ item.question | default: item.q | jsonify }},
+        "acceptedAnswer": {"@type": "Answer", "text": {{ item.answer | default: item.a | jsonify }}}
+      }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    ]
+  }
+  </script>
+{%- endif -%}
+{%- if page.howto -%}
+  {% include schema-howto.html %}
+{%- endif -%}

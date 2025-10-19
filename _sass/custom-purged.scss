@@ -1,0 +1,233 @@
+// === MESSYMIND CLEAN CSS ===
+// Only essential styles using MessyMind design system variables
+// Legacy theme colors and conflicting rules removed
+
+// === CONTACT FORM ===
+.contact-box form,
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 500px;
+  margin: 32px auto 0 auto;
+  background: none;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1.5px solid var(--messymind-muted);
+  border-radius: 6px;
+  background: var(--messymind-bg-light);
+  color: var(--messymind-text-dark);
+  font-size: 1rem;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#contactForm input[type="text"]:focus,
+#contactForm input[type="email"]:focus,
+#contactForm textarea:focus {
+  border-color: var(--messymind-primary);
+}
+
+// Dark theme contact form
+html.dark #contactForm input[type="text"],
+html.dark #contactForm input[type="email"],
+html.dark #contactForm textarea {
+  background: var(--messymind-bg-dark);
+  color: var(--messymind-text-light);
+  border-color: var(--messymind-muted);
+}
+
+html.dark #contactForm input[type="text"]:focus,
+html.dark #contactForm input[type="email"]:focus,
+html.dark #contactForm textarea:focus {
+  background: var(--messymind-bg-dark);
+  border-color: var(--messymind-primary);
+}
+
+#contactForm textarea {
+  min-height: 120px;
+  max-height: 320px;
+}
+
+#contactForm button[type="submit"] {
+  background: var(--messymind-primary);
+  color: var(--messymind-text-light);
+  border: none;
+  border-radius: 6px;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 8px;
+}
+
+#contactForm button[type="submit"]:hover {
+  background: var(--messymind-accent);
+}
+
+// Contact page spacing
+body.page-contact .content-box {
+  margin-top: 48px;
+}
+
+// === DYNAMIC MASTHEAD SYSTEM ===
+// Base masthead - completely dynamic for pages and posts without hero images
+.masthead {
+  position: relative;
+  background-color: var(--messymind-primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+  
+  // Dynamic system - adapts to content
+  min-height: auto;
+  height: auto;
+  padding: 2rem 0;
+  
+  @media (max-width: 768px) {
+    padding: 1.5rem 0;
+  }
+  
+  @media (max-width: 576px) {
+    padding: 1rem 0;
+  }
+}
+
+// Masthead with hero image (for posts) - Dynamic with minimum heights
+.masthead-image {
+  min-height: 400px !important; /* Minimum for hero images */
+  height: auto !important; /* Allow expansion */
+  padding: 3rem 0 !important; /* Breathing space */
+  background-attachment: scroll;
+  
+  // Dynamic responsive system
+  @media (max-width: 768px) {
+    min-height: 280px !important;
+    padding: 2.5rem 0 !important;
+  }
+  
+  @media (max-width: 576px) {
+    min-height: 240px !important;
+    padding: 2rem 0 1.5rem 0 !important;
+  }
+  
+  @media (max-width: 400px) {
+    min-height: 220px !important;
+    padding: 1.8rem 0 1.3rem 0 !important;
+  }
+  
+  // Ensure content is properly contained
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+// === POST HEADINGS ===
+// Dynamic post headings that adapt to content length
+.post-heading h1 {
+  color: white;
+  font-size: 3rem !important;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+  hyphens: auto;
+  
+  @media (max-width: 768px) {
+    font-size: 2.5rem !important;
+    line-height: 1.15;
+    margin-bottom: 0.8rem;
+  }
+  
+  @media (max-width: 576px) {
+    font-size: 2rem !important;
+    line-height: 1.1;
+    margin-bottom: 0.6rem;
+  }
+  
+  @media (max-width: 400px) {
+    font-size: 1.7rem !important;
+    line-height: 1.05;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.post-heading h2.subheading {
+  font-size: 1.4rem !important;
+  font-weight: 300;
+  line-height: 1.3;
+  word-wrap: break-word;
+  
+  @media (max-width: 768px) {
+    font-size: 1.2rem !important;
+  }
+  
+  @media (max-width: 576px) {
+    font-size: 1rem !important;
+    margin-bottom: 0.4rem;
+  }
+  
+  @media (max-width: 400px) {
+    font-size: 0.95rem !important;
+    margin-bottom: 0.3rem;
+  }
+}
+
+.post-heading .meta {
+  font-size: 1rem !important;
+  font-weight: 400;
+  line-height: 1.4;
+  
+  @media (max-width: 768px) {
+    font-size: 0.9rem !important;
+  }
+  
+  @media (max-width: 576px) {
+    font-size: 0.85rem !important;
+    line-height: 1.3;
+    margin-bottom: 0.3rem;
+  }
+  
+  @media (max-width: 400px) {
+    font-size: 0.8rem !important;
+    line-height: 1.2;
+    margin-bottom: 0.2rem;
+  }
+}
+
+// === PAGE HEADINGS ===  
+// Compact headings for pages
+.page-heading h1 {
+  color: var(--messymind-primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 576px) {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+  }
+}

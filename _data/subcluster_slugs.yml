@@ -1,0 +1,7 @@
+# Map composite keys "category:subcluster" to full /categorie/... permalinks
+mindfulness-ironica:mindfulness-al-lavoro: /categorie/mindfulness-ironica/mindfulness-al-lavoro/
+mindfulness-ironica:esercizi-10-minuti: /categorie/mindfulness-ironica/esercizi-10-minuti/
+crescita-personale-anti-guru:abitudini-sane: /categorie/crescita-personale-anti-guru/abitudini-sane/
+filosofia-pratica:scienza-e-spiritualita: /categorie/filosofia-pratica/scienza-e-spiritualita/
+
+# Add more mappings as you create subcluster index pages

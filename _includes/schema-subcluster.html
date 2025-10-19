@@ -1,0 +1,155 @@
+{% comment %}
+  Subcluster Schema - CollectionPage + ItemList + BreadcrumbList
+  - OTTIMIZZATO v3: supporto paginazione
+  - CollectionPage per hub sottotematico
+  - ItemList SOLO dei post nella pagina corrente (paginati)
+  - BreadcrumbList con 3 livelli: Home > Categoria > Subcluster
+  - FAQPage condizionale (gestito separatamente)
+{% endcomment %}
+
+{% assign cat_slug = include.category | default: page.category | default: page.categories[0] | downcase | strip %}
+{% assign sub_slug = include.subcluster | default: page.subcluster | downcase | strip %}
+
+{% comment %} Usa i post passati dal layout (già paginati) {% endcomment %}
+{% if include.posts %}
+  {% assign sub_posts = include.posts %}
+{% else %}
+  {% comment %} Fallback: raccogli tutti i post del subcluster {% endcomment %}
+  {% assign sub_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" | where: "subcluster", sub_slug | sort: "date" | reverse %}
+{% endif %}
+
+{% assign current_page = include.current_page | default: 1 %}
+{% assign total_pages = include.total_pages | default: 1 %}
+
+{% assign sub_title = page.title | default: page.subcluster | replace: '-', ' ' | capitalize %}
+{% assign sub_description = page.seo_description | default: page.description | default: page.excerpt | strip_html | truncatewords: 30 %}
+
+{% comment %} URL categoria parent {% endcomment %}
+{% assign category_key = cat_slug %}
+{% assign mapped_cat = site.data.category_slugs[category_key] | default: nil %}
+{% if mapped_cat %}
+  {% assign category_url = mapped_cat | absolute_url %}
+{% else %}
+  {% assign category_url = site.url | append: '/categorie/' | append: category_key | append: '/' %}
+{% endif %}
+{% comment %}
+  Subcluster Schema - CollectionPage + ItemList + BreadcrumbList
+  - OTTIMIZZATO v3: supporto paginazione
+  - CollectionPage per hub sottotematico
+  - ItemList SOLO dei post nella pagina corrente (paginati)
+  - BreadcrumbList con 3 livelli: Home > Categoria > Subcluster
+  - FAQPage condizionale (gestito separatamente in _includes/schema.html)
+{% endcomment %}
+
+{% assign cat_slug = include.category | default: page.category | default: page.categories[0] | downcase | strip %}
+{% assign sub_slug = include.subcluster | default: page.subcluster | downcase | strip %}
+
+{% comment %} Usa i post passati dal layout (già paginati) {% endcomment %}
+{% if include.posts %}
+  {% assign sub_posts = include.posts %}
+{% else %}
+  {% comment %} Fallback: raccogli tutti i post del subcluster {% endcomment %}
+  {% assign sub_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" | where: "subcluster", sub_slug | sort: "date" | reverse %}
+{% endif %}
+
+{% assign current_page = include.current_page | default: 1 %}
+{% assign total_pages = include.total_pages | default: 1 %}
+
+{% assign sub_title = page.title | default: page.subcluster | replace: '-', ' ' | capitalize %}
+{% assign sub_description = page.seo_description | default: page.description | default: page.excerpt | strip_html | truncatewords: 30 %}
+
+{% comment %} URL categoria parent {% endcomment %}
+{% assign category_key = cat_slug %}
+{% assign mapped_cat = site.data.category_slugs[category_key] | default: nil %}
+{% if mapped_cat %}
+  {% assign category_url = mapped_cat | absolute_url %}
+{% else %}
+  {% assign category_url = site.url | append: '/categorie/' | append: category_key | append: '/' %}
+{% endif %}
+
+{% comment %} Display title categoria {% endcomment %}
+{% case cat_slug %}
+  {% when 'mindfulness-ironica' %}
+    {% assign cat_display = 'Mindfulness ironica' %}
+  {% when 'crescita-personale-anti-guru' %}
+    {% assign cat_display = 'Crescita personale anti-guru' %}
+  {% when 'filosofia-pratica' %}
+    {% assign cat_display = 'Filosofia pratica' %}
+  {% when 'burnout-lavoro' %}
+    {% assign cat_display = 'Burnout & lavoro' %}
+  {% when 'burnout-e-lavoro' %}
+    {% assign cat_display = 'Burnout & lavoro' %}
+  {% else %}
+    {% assign cat_display = cat_slug | replace: '-', ' ' | capitalize %}
+{% endcase %}
+
+{% comment %} CollectionPage + ItemList Schema {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ page.url | absolute_url }}#collectionpage",
+  "url": "{{ page.url | absolute_url }}",
+  "name": {{ sub_title | jsonify }},
+  "description": {{ sub_description | jsonify }},
+  "isPartOf": {
+    "@id": "{{ site.url }}/#website"
+  },
+  {% if page.image or page.background or page.hero_image %}
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.hero_image | default: page.image | default: page.background | absolute_url }}",
+    "width": 1600,
+    "height": 900
+  },
+  {% endif %}
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ sub_posts.size }},
+    "itemListElement": [
+      {% for post in sub_posts %}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ post.url | absolute_url }}",
+        "name": {{ post.title | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "breadcrumb": {
+    "@id": "{{ page.url | absolute_url }}#breadcrumb"
+  }
+}
+</script>
+
+{%- comment -%} FAQ JSON-LD removed from this include; the centralized `_includes/schema.html` emits FAQPage when `faqs` are present to avoid duplicates. {%- endcomment -%}
+
+{% comment %} BreadcrumbList Schema (3 livelli) {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "{{ page.url | absolute_url }}#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ cat_display | jsonify }},
+      "item": "{{ category_url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ sub_title | jsonify }},
+      "item": "{{ page.url | absolute_url }}"
+    }
+  ]
+}
+</script>

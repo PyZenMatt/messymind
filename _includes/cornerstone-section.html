@@ -1,0 +1,126 @@
+{% comment %}
+  Cornerstone Section - Reusable Component
+  - Mostra max 3 post cornerstone per categoria/subcluster
+  - Layout compatto: thumbnail 80x80 + titolo + hint breve
+  - Logic robusta: page.cornerstone_ids > is_cornerstone flag > cornerstone tag
+  - Semantic HTML accessibile + CWV safe (dimensioni esplicite, lazy loading)
+{% endcomment %}
+
+{% assign cat_slug = include.category | default: page.category | default: page.categories[0] | downcase | strip %}
+{% assign sub_slug = include.subcluster | default: page.subcluster | default: nil %}
+
+{% comment %} Raccogli post del contesto (categoria o subcluster) {% endcomment %}
+{% if sub_slug and sub_slug != '' %}
+  {% assign context_posts = site.posts 
+    | where_exp: "p", "p.categories contains cat_slug" 
+    | where: "subcluster", sub_slug 
+    | sort: "date" 
+    | reverse %}
+{% else %}
+  {% assign context_posts = site.posts 
+    | where_exp: "p", "p.categories contains cat_slug" 
+    | sort: "date" 
+    | reverse %}
+{% endif %}
+
+{% comment %} Collect cornerstone posts (max 3) con cascata robusta {% endcomment %}
+{% assign cornerstone_posts = '' | split: ',' %}
+
+{% comment %} 1. Prova con cornerstone_ids espliciti in front matter {% endcomment %}
+{% if page.cornerstone_ids and page.cornerstone_ids.size > 0 %}
+  {% for post_id in page.cornerstone_ids limit: 3 %}
+    {% assign cp = context_posts | where: 'slug', post_id | first %}
+    {% if cp %}
+      {% assign cornerstone_posts = cornerstone_posts | push: cp %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %} 2. Fallback: cerca flag is_cornerstone o cornerstone {% endcomment %}
+{% if cornerstone_posts.size == 0 %}
+  {% for p in context_posts %}
+    {% if cornerstone_posts.size >= 3 %}{% break %}{% endif %}
+    
+    {% assign is_corner = false %}
+    
+    {% if p.is_cornerstone == true or p.is_cornerstone == 'true' %}
+      {% assign is_corner = true %}
+    {% endif %}
+    
+    {% if p.cornerstone == true or p.cornerstone == 'true' %}
+      {% assign is_corner = true %}
+    {% endif %}
+    
+    {% if p.tags %}
+      {% if p.tags contains 'cornerstone' %}
+        {% assign is_corner = true %}
+      {% else %}
+        {% assign tagstr = p.tags | join: '|' | downcase %}
+        {% if tagstr contains 'cornerstone' %}
+          {% assign is_corner = true %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+    
+    {% if is_corner %}
+      {% assign cornerstone_posts = cornerstone_posts | push: p %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %} 3. Se ancora vuoto, prendi i 3 post più recenti {% endcomment %}
+{% if cornerstone_posts.size == 0 and include.fallback_to_recent %}
+  {% assign cornerstone_posts = context_posts | slice: 0, 3 %}
+{% endif %}
+
+{% if cornerstone_posts and cornerstone_posts.size > 0 %}
+<section class="cornerstone-section mb-5" aria-labelledby="cornerstone-heading">
+  <div class="row mb-3">
+    <div class="col-12">
+      <h2 id="cornerstone-heading" class="section-heading mb-0">Guide essenziali</h2>
+    </div>
+  </div>
+  
+  <div class="row g-4 align-items-stretch">
+    {% for post in cornerstone_posts limit:3 %}
+      <div class="col-12 col-md-4">
+        <article class="mm-card h-100 border rounded-3 shadow-sm overflow-hidden">
+          <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+            {% comment %} Thumbnail 16:9 come home {% endcomment %}
+            {% if post.background or post.image %}
+            <div class="thumb ratio ratio-16x9 overflow-hidden">
+              <img 
+                src="{{ post.background | default: post.image | relative_url }}" 
+                alt="{{ post.title }}"
+                loading="lazy"
+                decoding="async"
+                class="w-100 h-100"
+                style="object-fit: cover;">
+            </div>
+            {% endif %}
+            
+            {% comment %} Content {% endcomment %}
+            <div class="p-4">
+              <h3 class="h5 mb-2">
+                <span class="text-decoration-none text-dark">{{ post.title }}</span>
+              </h3>
+              
+              {% if post.description %}
+                <p class="text-muted mb-3">
+                  {{ post.description | strip_html | truncatewords: 20 }}
+                </p>
+              {% elsif post.excerpt %}
+                <p class="text-muted mb-3">
+                  {{ post.excerpt | strip_html | truncatewords: 20 }}
+                </p>
+              {% endif %}
+              
+              <span class="btn btn-sm btn-outline-primary">Leggi</span>
+            </div>
+          </a>
+        </article>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

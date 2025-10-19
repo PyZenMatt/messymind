@@ -1,0 +1,42 @@
+{%- comment -%}
+  Render BlogPosting JSON-LD only for actual post pages.
+  This avoids duplicate BlogPosting output when other includes or global
+  schema fragments are rendered (e.g. `_includes/schema-markup.html`).
+
+  Conditions where BlogPosting will render:
+  - `page.layout == 'post'`
+  - OR page is from the `posts` collection (`page.collection == 'posts'`)
+  - OR front matter explicitly sets `schema_type: BlogPosting`
+{%- endcomment -%}
+
+{%- assign blogposting_source = site.schema_blogposting_source | default: 'plugin' -%}
+{%- if blogposting_source == 'custom' and page._blogposting_rendered != true and (page.layout == 'post' or page.collection == 'posts' or page.schema_type == 'BlogPosting') -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "headline": "{{ page.seo_title | default: page.title | escape }}",
+  "description": "{{ page.seo_description | default: page.excerpt | default: page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
+  {%- assign og_img = page.og_image | default: page.image | default: page.background | default: site.image -%}
+  {%- if og_img -%}
+  "image": "{{ og_img | absolute_url }}",
+  {%- endif -%}
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: site.author | default: site.title | escape }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title | escape }}"
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+}
+</script>
+{%- else -%}
+{%- comment -%} Skip BlogPosting: this page is not a post or explicitly requests no BlogPosting {%- endcomment -%}
+{%- endif -%}

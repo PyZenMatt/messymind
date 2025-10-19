@@ -1,0 +1,79 @@
+<!-- Breadcrumb Navigation per SEO e UX -->
+<nav aria-label="breadcrumb" class="breadcrumb-container">
+  <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+  <a href="{{ '/' | relative_url }}" itemprop="item" itemtype="http://schema.org/WebPage">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+    
+    {% if page.categories or page.category or page.cluster or page.cluster_name %}
+  {% assign category = nil %}
+  {% if page.category and page.category != "" %}
+    {% assign category = page.category %}
+  {% elsif page.categories and page.categories.size > 0 %}
+    {% assign category = page.categories[0] %}
+  {% elsif page.cluster and page.cluster != "" %}
+    {% assign category = page.cluster %}
+  {% elsif page.cluster_name and page.cluster_name != "" %}
+    {% assign category = page.cluster_name %}
+  {% endif %}
+  {% assign key = category | default: '' | downcase | slugify %}
+  {%- comment -%} Compute canonical category path/url: prefer explicit mapping, otherwise build a safe path under /categorie/ {%- endcomment -%}
+  {% assign mapped = site.data.category_slugs[key] | default: nil %}
+  {% if mapped %}
+    {% assign category_path = mapped %}
+  {% else %}
+    {% assign category_path = '/categorie/' | append: key | append: '/' %}
+  {% endif %}
+  {% assign category_url_abs = category_path | absolute_url %}
+  {% assign category_url_rel = category_path | relative_url %}
+      <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <a href="{% if mapped %}{{ mapped | relative_url }}{% else %}{{ category_path | relative_url }}{% endif %}" itemtype="http://schema.org/WebPage">
+          <span itemprop="name">{{ category | replace: '-', ' ' | capitalize }}</span>
+        </a>
+        <meta itemprop="item" content="{{ category_url_abs }}" />
+        <meta itemprop="position" content="2" />
+      </li>
+      {%- comment -%}
+        Handle optional subcluster in page front-matter: try to resolve via site.data.subcluster_slugs
+      {%- endcomment -%}
+      {% if page.subcluster %}
+        {% assign sub_clean = page.subcluster | downcase | slugify | strip %}
+        {% assign subkey = key | append: ':' | append: sub_clean %}
+        {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
+        {% if mapped_sub %}
+          {% assign sub_path = mapped_sub %}
+        {% else %}
+          {% assign sub_path = '/categorie/' | append: key | append: '/' | append: sub_clean | append: '/' %}
+        {% endif %}
+        {% assign sub_url_abs = sub_path | absolute_url %}
+        {% assign sub_url_rel = sub_path | relative_url %}
+        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a href="{% if mapped_sub %}{{ mapped_sub | relative_url }}{% else %}{{ sub_path | relative_url }}{% endif %}" itemtype="http://schema.org/WebPage">
+            <span itemprop="name">{{ page.subcluster | replace: '-', ' ' | capitalize }}</span>
+          </a>
+          <meta itemprop="item" content="{{ sub_url_abs }}" />
+          <meta itemprop="position" content="3" />
+        </li>
+      {% endif %}
+    {% endif %}
+    
+    {% if page.layout == 'post' %}
+      <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <span itemprop="name">{{ page.title | truncate: 50 }}</span>
+        <meta itemprop="position" content="3" />
+      </li>
+    {% elsif page.title and page.title != site.title %}
+      <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+        <span itemprop="name">{{ page.title }}</span>
+        {%- assign title_pos = 2 -%}
+        {%- if page.subcluster -%}
+          {%- assign title_pos = title_pos | plus: 1 -%}
+        {%- endif -%}
+        <meta itemprop="position" content="{{ title_pos }}" />
+      </li>
+    {% endif %}
+  </ol>
+</nav>

@@ -1,0 +1,49 @@
+{%- comment -%}
+Reusable CTA for posts.
+Front matter keys supported:
+- cta_title, cta_text, cta_button, cta_link
+- cta_analytics_id, cta_external (true/false)
+- cta_position: 'inline'|'end'|'hero' (layout may choose where to render)
+This include renders nothing if no `cta_button` or `cta_link` present.
+{%- endcomment -%}
+
+{%- assign show_cta = false -%}
+{%- if page.cta_button and page.cta_link -%}
+  {%- assign show_cta = true -%}
+{%- endif -%}
+
+{%- comment -%} Flag so layouts or other includes know CTA was already rendered for this page {%- endcomment -%}
+{%- assign page._post_cta_rendered = true -%}
+
+{%- if show_cta -%}
+  {%- comment -%} Build UTM and analytics id defaults {%- endcomment -%}
+  {%- assign utm_campaign = page.cta_utm_campaign | default: (page.categories[0] | default: 'post') | append: "_" | append: (page.title | slugify) -%}
+  {%- assign utm = "utm_source=blog&utm_medium=post&utm_campaign=" | append: utm_campaign -%}
+  {%- assign link = page.cta_link -%}
+  {%- assign analytics_id = page.cta_analytics_id | default: "cta-post-" | append: (page.url | slugify) -%}
+
+  <section class="post-cta my-4" aria-labelledby="post-cta-heading">
+    <div class="mm-card p-4 text-center mx-auto" style="max-width:720px;">
+      {% if page.cta_title %}
+        <h2 id="post-cta-heading" class="h4 mb-2">{{ page.cta_title }}</h2>
+      {% endif %}
+      {% if page.cta_text %}
+        <p class="text-muted mb-3">{{ page.cta_text }}</p>
+      {% endif %}
+
+      {%- comment -%} Append UTM preserving existing querystring {%- endcomment -%}
+      {% if link contains '?' %}
+        {% assign href = link | append: '&' | append: utm %}
+      {% else %}
+        {% assign href = link | append: '?' | append: utm %}
+      {% endif %}
+
+      <a href="{{ href }}"
+         class="btn btn-primary px-4"
+         data-analytics-id="{{ analytics_id }}"
+         {% if page.cta_external %} target="_blank" rel="noopener noreferrer" {% endif %}>
+        {{ page.cta_button }}
+      </a>
+    </div>
+  </section>
+{%- endif -%}

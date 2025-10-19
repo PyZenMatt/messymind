@@ -1,0 +1,219 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{%- assign hero_raw = page.image | default: page.background | default: site.hero_image -%}
+{%- if hero_raw -%}
+  {%- comment -%}
+  Se URL assoluto (http/https) o protocol-relative (//), usalo com'è.
+  Se è un path a partire da `/...` (risorsa interna), usa `relative_url` per la UI
+  (evita mismatch host in sviluppo). Altrimenti rendilo assoluto rispetto al sito.
+  {%- endcomment -%}
+  {%- assign hero_prefix = hero_raw | slice: 0, 2 -%}
+  {%- assign hero_first = hero_raw | slice: 0, 1 -%}
+  {%- if hero_raw contains '://' or hero_prefix == '//' -%}
+    {%- assign hero_url = hero_raw -%}
+  {%- elsif hero_first == '/' -%}
+    {%- assign hero_url = hero_raw | relative_url -%}
+  {%- else -%}
+    {%- assign hero_url = hero_raw | absolute_url -%}
+  {%- endif -%}
+  <header class="masthead masthead-image" style="background-image:url('{{ hero_url }}')">
+    <span class="visually-hidden">{{ page.title }}</span>
+{%- else -%}
+  <header class="masthead">
+{%- endif -%}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
+            {% endif %}
+            <span class="meta">Scritto da
+              <a href="{{ page.author_url | default: site.author_url | default: 'https://matteoricci.net' }}">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+              il <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time> &middot; {% include read_time.html
+              content=page.content %}
+            </span>
+            {%- if page.image_author or page.image_author_url -%}
+            <span class="meta photo-credit">Foto:&nbsp;
+              {%- if page.image_author and page.image_author_url -%}
+                <a href="{{ page.image_author_url }}" target="_blank" rel="noopener">{{ page.image_author }}</a>
+              {%- elsif page.image_author -%}
+                {{ page.image_author }}
+              {%- elsif page.image_author_url -%}
+                <a href="{{ page.image_author_url }}" target="_blank" rel="noopener">Fonte immagine</a>
+              {%- endif -%}
+            </span>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {%- comment -%}
+    BlogPosting JSON-LD: rendered only for post pages via the include.
+    `_includes/schema-blogposting.html` already guards rendering by checking
+    `page.layout`, `page.collection` or `page.schema_type`.
+    We set a transient flag here so other includes or custom templates can
+    detect that BlogPosting has been emitted and avoid rendering it again.
+  {%- endcomment -%}
+  {% include schema-blogposting.html %}
+  {%- assign page._blogposting_rendered = true -%}
+  {%- comment -%} FAQ structured data: render if `faqs` front matter exists (array of {question, answer}). Centralizes FAQ JSON-LD.
+  {%- endcomment -%}
+  {%- comment -%} FAQ JSON-LD is emitted centrally from `_includes/schema.html` {%- endcomment -%}
+  {%- comment -%} HowTo structured data: render if `howto` front matter exists (object with name, description, totalTime, step[]).
+  {%- endcomment -%}
+  {% include schema-howto.html %}
+
+  <div class="container">
+    <!-- Breadcrumb Navigation -->
+    {% include breadcrumb.html %}
+    
+    <div class="row">
+      <!-- Contenuto Principale -->
+      <div class="col-lg-8 col-md-10 mx-auto post-content-wrapper">
+  {{ content }}
+
+        {%- comment -%} Post CTA (renders when `cta_button` and `cta_link` present in front matter)
+           Only render here if the CTA wasn't already inlined in the content via `{% include post-cta.html %}`.
+        {%- endcomment -%}
+        {%- comment -%}
+          Prefer to skip final CTA if the post already inlined it.
+          We can't reliably set parent-scope flags from includes, so instead
+          compute the analytics id used by the CTA and check the rendered
+          `page.content` for that string (or the button text) to avoid duplication.
+        {%- endcomment -%}
+        {%- comment -%} Compute analytics id fallback and button text safely {%- endcomment -%}
+        {%- if page.cta_analytics_id -%}
+          {% assign analytics_id = page.cta_analytics_id %}
+        {%- else -%}
+          {%- assign slug = page.url | slugify -%}
+          {% assign analytics_id = "cta-post-" | append: slug %}
+        {%- endif -%}
+        {%- assign button_text = page.cta_button | default: '' -%}
+
+        {%- comment -%} Detect whether CTA (analytics id or button text) already appears in the rendered content {%- endcomment -%}
+        {% assign cta_in_content = false %}
+        {% if page.content contains analytics_id %}
+          {% assign cta_in_content = true %}
+        {% elsif button_text != '' and page.content contains button_text %}
+          {% assign cta_in_content = true %}
+        {% endif %}
+
+        {%- unless cta_in_content -%}
+          {% include post-cta.html %}
+        {%- endunless -%}
+
+
+        <!-- Prossimi passi: link a hub subcluster e cluster -->
+        {% if page.subcluster and page.categories %}
+          {% assign cluster = page.categories | first %}
+          {%- comment -%}
+            Resolve canonical category and subcluster URLs.
+            Prefer mappings in `site.data.category_slugs` and `site.data.subcluster_slugs`.
+          {%- endcomment -%}
+          {% assign category_key = cluster | downcase | slugify %}
+          {% assign mapped_cat = site.data.category_slugs[category_key] | default: nil %}
+          {% if mapped_cat %}
+            {% assign category_url = mapped_cat | relative_url %}
+          {% else %}
+            {% assign category_url = '/categorie/' | append: category_key | append: '/' | relative_url %}
+          {% endif %}
+
+          {% assign subslug = page.subcluster | downcase | slugify %}
+          {% assign subkey = category_key | append: ':' | append: subslug %}
+          {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
+          {% if mapped_sub %}
+            {% assign sub_url = mapped_sub | relative_url %}
+          {% else %}
+            {% assign sub_url = category_url | append: subslug | append: '/' | relative_url %}
+          {% endif %}
+            <hr class="rule">
+            <style>
+            .rule{border:0;height:1px;background:#e5e7eb;margin:2rem 0;}
+            </style>
+          <aside class="post-next my-4 p-3 border rounded">
+            <p class="mb-1">Continua a leggere articoli simili su</p>
+            <a class="d-block mb-2" href="{{ sub_url }}">
+              “{{ page.subcluster | replace: '-', ' ' | capitalize }}"
+            </a>
+            <p class="mb-1">Oppure esplora l'intera categotia</p>
+            <a class="d-block" href="{{ category_url }}">
+              “{{ cluster | replace: '-', ' ' | capitalize }}”
+            </a>
+          </aside>
+        {% endif %}
+            <hr class="rule">
+            <style>
+            .rule{border:0;height:1px;background:#e5e7eb;margin:2rem 0;}
+            </style>
+        <!-- Related Posts -->
+        {% include related-posts.html %}
+
+        {% if page.related_links %}
+          <div class="related-editorial-wrap mt-3">
+            <h3>Link consigliati</h3>
+            <ul class="related-editorial list-unstyled">
+              {% for url in page.related_links %}
+                <li><a href="{{ url | relative_url }}">{{ url }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+
+        <hr>
+      
+        <div class="clearfix">
+      {% if page.previous and page.previous.url %}
+      <a class="btn btn-primary float-left" href="{{ page.previous.url | relative_url }}" rel="prev" aria-label="Articolo precedente: {{ page.previous.title }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Articolo precedente<span class="d-none d-md-inline"> Post</span></a>
+          {% endif %}
+          {% if page.next and page.next.url %}
+      <a class="btn btn-primary float-right" href="{{ page.next.url | relative_url }}" rel="next" aria-label="Articolo successivo: {{ page.next.title }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Articolo successivo<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+          {% endif %}
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-lg-4 sidebar-wrapper">
+        <div class="post-sidebar">
+          <h4 class="sidebar-title">Categorie</h4>
+          <ul class="list-unstyled">
+            {% for category in page.categories %}
+              <li class="mb-2">
+                {% assign key = category | downcase %}
+                {% assign mapped = site.data.category_slugs[key] %}
+                {% if mapped %}
+                  <a href="{{ mapped | relative_url }}" class="text-decoration-none">
+                    <svg class="icon icon-folder" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-right:0.5rem"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z" fill="#666"/></svg>{{ category }}
+                  </a>
+                {% else %}
+                  <a href="{{ '/categorie/' | append: category | slugify | append: '/' | relative_url }}" class="text-decoration-none">
+                    <svg class="icon icon-folder" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-right:0.5rem"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z" fill="#666"/></svg>{{ category }}
+                  </a>
+                {% endif %}
+              </li>
+              {% endfor %}
+          </ul>
+          
+          <h4 class="sidebar-title mt-4">Ultimi Articoli</h4>
+          <ul class="list-unstyled">
+            {% for post in site.posts limit:3 %}
+            <li class="mb-2">
+                <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                <svg class="icon icon-chevron-right" width="12" height="12" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" style="margin-right:0.5rem"><path d="M9 6l6 6-6 6" fill="#666"/></svg>{{ post.title }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  

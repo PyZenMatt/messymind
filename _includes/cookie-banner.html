@@ -1,0 +1,72 @@
+<!-- Cookie Banner GDPR Compliant -->
+<div id="cookie-banner" class="cookie-banner">
+  <div class="container">
+    <div class="cookie-banner-content">
+      <div class="cookie-banner-title">🍪 Utilizziamo i cookie</div>
+      <div class="cookie-banner-text">
+        Utilizziamo cookie tecnici e, con il tuo consenso, cookie di analytics per migliorare la tua esperienza di navigazione. 
+        <a href="/privacy-policy/" target="_blank">Privacy Policy</a> • 
+        <a href="/cookie-policy/" target="_blank">Cookie Policy</a>
+      </div>
+    </div>
+    <div class="cookie-banner-buttons">
+      <button type="button" class="cookie-btn cookie-btn-decline" onclick="cookieManager.rejectAll()">
+        Solo essenziali
+      </button>
+      <button type="button" class="cookie-btn cookie-btn-settings" onclick="cookieManager.showSettings()">
+        Personalizza
+      </button>
+      <button type="button" class="cookie-btn cookie-btn-accept" onclick="cookieManager.acceptAll()">
+        Accetta tutti
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Cookie Settings Modal -->
+<div id="cookie-settings-modal" class="cookie-settings-modal">
+  <div class="cookie-settings-content">
+    <div class="cookie-settings-header">
+      <h3 class="cookie-settings-title">Impostazioni Cookie</h3>
+      <button class="cookie-settings-close" onclick="cookieManager.hideSettings()">&times;</button>
+    </div>
+    
+    <div class="cookie-category">
+      <div class="cookie-category-header">
+        <h4 class="cookie-category-title">Cookie Essenziali</h4>
+        <div class="cookie-category-required">Sempre attivi</div>
+      </div>
+      <div class="cookie-category-description">
+        Questi cookie sono necessari per il funzionamento del sito web e non possono essere disattivati. 
+        Includono le preferenze sui cookie e la gestione della sessione.
+      </div>
+      <div class="cookie-toggle">
+        <input type="checkbox" id="essential-cookies" checked disabled>
+        <span class="cookie-toggle-slider"></span>
+      </div>
+    </div>
+    
+    <div class="cookie-category">
+      <div class="cookie-category-header">
+        <h4 class="cookie-category-title">Cookie di Analytics</h4>
+        <div class="cookie-toggle">
+          <input type="checkbox" id="analytics-cookies">
+          <span class="cookie-toggle-slider"></span>
+        </div>
+      </div>
+      <div class="cookie-category-description">
+        Questi cookie ci aiutano a capire come i visitatori interagiscono con il sito raccogliendo 
+        e riportando informazioni in forma anonima. Include Google Analytics.
+      </div>
+    </div>
+    
+    <div class="cookie-settings-footer">
+      <button type="button" class="cookie-btn cookie-btn-decline" onclick="cookieManager.saveSettings()">
+        Salva preferenze
+      </button>
+      <button type="button" class="cookie-btn cookie-btn-accept" onclick="cookieManager.acceptAll()">
+        Accetta tutti
+      </button>
+    </div>
+  </div>
+</div>

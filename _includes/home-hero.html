@@ -1,0 +1,98 @@
+<!-- Modern SEO Hero with Mode Governance -->
+{% comment %} Hero Mode Governance: brand_hero | featured_hero {% endcomment %}
+{% assign hero_mode = page.hero_mode | default: site.hero_mode | default: "auto" %}
+
+{% comment %} Get featured post for governance {% endcomment %}
+{% assign featured_posts = site.posts | where: "featured_post", "true" %}
+{% if featured_posts.size > 1 %}
+  {% assign featured_posts = featured_posts | sort: "featured_rank" %}
+{% endif %}
+{% assign hero_post = featured_posts.first %}
+
+{% comment %} Determine final hero mode - FORCE brand_hero per test LCP {% endcomment %}
+{% assign final_hero_mode = "brand_hero" %}
+
+{% comment %} Set hero image based on mode {% endcomment %}
+{% if final_hero_mode == "featured_hero" and hero_post %}
+  {% assign hero_bg = hero_post.background | default: '/img/home/bg-home.jpeg' %}
+{% else %}
+  {% assign hero_bg = page.background | default: '/img/home/bg-home.jpeg' %}
+{% endif %}
+
+<header class="masthead modern-hero">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          {% unless page.hide_home_title %}
+            <h1 class="site-title">
+              {% if final_hero_mode == "brand_hero" %}
+                {{ page.h1 | default: "Mindfulness senza incenso. Scelte minime, effetti reali." }}
+              {% else %}
+                {{ page.h1 | default: site.home_h1 | default: "Mindfulness ironica e pratiche per l'equilibrio interiore" }}
+              {% endif %}
+            </h1>
+          {% else %}
+            <h1 class="sr-only" style="position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap!important;border:0!important;">
+              {{ page.h1 | default: site.home_h1 | default: "MessyMind - Mindfulness ironica e filosofia pratica" }}
+            </h1>
+          {% endunless %}
+          
+          {% if final_hero_mode == "brand_hero" %}
+            {% comment %} Brand Hero Mode {% endcomment %}
+            <div class="hero-brand-content mt-4">
+              <p class="hero-tagline lead text-white">
+                Strumenti pratici per ridurre ansia da produttività e ritrovare il tuo ritmo.
+              </p>
+              <a href="/equilibrio-interiore-guida-pratica/" class="btn btn-primary btn-lg mt-3">
+                Apri la guida all'equilibrio
+                <svg class="icon icon-arrow-right ms-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          {% elsif final_hero_mode == "featured_hero" and hero_post %}
+            {% comment %} Featured Hero Mode {% endcomment %}
+            <div class="hero-featured-post mt-4">
+              <h2 class="featured-title">
+                <a href="{{ hero_post.url | relative_url }}" class="text-white text-decoration-none">
+                  {{ hero_post.title | truncate: 65 }}
+                </a>
+              </h2>
+              <p class="featured-excerpt lead text-white-75">
+                {% if hero_post.description %}
+                  {{ hero_post.description | truncatewords: 25 | truncate: 120 }}
+                {% else %}
+                  {{ hero_post.excerpt | strip_html | truncatewords: 25 | truncate: 120 }}
+                {% endif %}
+              </p>
+              <a href="{{ hero_post.url | relative_url }}" class="btn btn-primary btn-lg mt-3">
+                Leggi l'articolo completo
+                <svg class="icon icon-arrow-right ms-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 5l8 7-8 7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- LCP Hero Image: keep CSS background for fallback but include an explicit <img>
+       with dimensions and eager loading so browsers can prioritize it and we avoid CLS. -->
+  <div class="home-hero">
+    <!-- Visible image element for LCP (provides intrinsic dimensions to avoid layout shift) -->
+    <img
+      class="lcp-img"
+      src="/img/home/bg-home-1600.webp"
+      srcset="/img/home/bg-home-1600.webp 1600w, /img/home/bg-home-800.webp 800w, /img/home/bg-home-400.webp 400w"
+      sizes="(max-width: 768px) 100vw, 1200px"
+      width="1600" height="900"
+      loading="eager"
+      fetchpriority="high"
+      alt=""
+      aria-hidden="true">
+  </div>
+</header>

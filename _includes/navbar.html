@@ -1,0 +1,41 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand site-brand" href="{{"/" | relative_url }}" aria-label="MessyMind, homepage">
+  <!-- Logo container: single unified SVG compatible with light and dark backgrounds. -->
+      <span class="site-logo" id="site-logo" style="display:inline-block;vertical-align:middle;">
+        <!-- Single unified logo (light/dark compatible). Fixed dimensions to avoid CLS. -->
+        <img src="{{ '/assets/images/logo/Logo_horizontal.svg' | relative_url }}?v={{ site.time | date: '%s' }}" alt="Messy Mind - logo" width="200" height="40" style="display:inline-block;vertical-align:middle;" />
+      </span>
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="sr-only">Menu</span>
+      <svg class="icon icon-menu" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+        <rect y="4" width="24" height="2" rx="1"></rect>
+        <rect y="11" width="24" height="2" rx="1"></rect>
+        <rect y="18" width="24" height="2" rx="1"></rect>
+      </svg>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{{"/" | relative_url }}" title="Homepage - L'Arte della Felicità">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{"/about" | relative_url }}" title="Chi sono - Biografia e filosofia">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{"/contact" | relative_url }}" title="Contatti - Scrivimi un messaggio">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{"/archivio" | relative_url }}" title="Archivio completo - Tutti gli articoli">Archivio</a>
+        </li>
+        <li class="nav-item">
+          <button id="theme-toggle" class="btn btn-link nav-link" title="Cambia tema" aria-label="Passa al tema scuro/chiaro" style="border: none; background: none; color: inherit;">
+            <span id="theme-icon">🌙</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

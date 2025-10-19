@@ -1,0 +1,133 @@
+{% comment %}
+  Pagination Component - SEO Optimized
+  - rel="prev" e rel="next" per SEO
+  - Canonical autocoerente
+  - ARIA labels per accessibilità
+  - Bootstrap 5 styling
+{% endcomment %}
+
+{% if paginator.total_pages > 1 %}
+<nav aria-label="Navigazione pagine" class="pagination-nav mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="pagination justify-content-center">
+          
+          {% comment %} Previous Page {% endcomment %}
+          {% if paginator.previous_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" rel="prev" aria-label="Pagina precedente">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="visually-hidden">Precedente</span>
+              </a>
+            </li>
+          {% else %}
+            <li class="page-item disabled">
+              <span class="page-link" aria-label="Pagina precedente">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="visually-hidden">Precedente</span>
+              </span>
+            </li>
+          {% endif %}
+          
+          {% comment %} Page Numbers {% endcomment %}
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">
+                  {{ page }}
+                  <span class="visually-hidden">(corrente)</span>
+                </span>
+              </li>
+            {% elsif page == 1 %}
+              <li class="page-item">
+                <a class="page-link" href="{{ paginator.previous_page_path | replace: '/page' ~ paginator.page, '' | relative_url }}" aria-label="Pagina {{ page }}">{{ page }}</a>
+              </li>
+            {% else %}
+              <li class="page-item">
+                <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}" aria-label="Pagina {{ page }}">{{ page }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+          
+          {% comment %} Next Page {% endcomment %}
+          {% if paginator.next_page %}
+            <li class="page-item">
+              <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" rel="next" aria-label="Pagina successiva">
+                <span class="visually-hidden">Successiva</span>
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          {% else %}
+            <li class="page-item disabled">
+              <span class="page-link" aria-label="Pagina successiva">
+                <span class="visually-hidden">Successiva</span>
+                <span aria-hidden="true">&raquo;</span>
+              </span>
+            </li>
+          {% endif %}
+          
+        </ul>
+        
+        {% comment %} Page Info {% endcomment %}
+        <p class="text-center text-muted small mt-3">
+          Pagina {{ paginator.page }} di {{ paginator.total_pages }}
+        </p>
+      </div>
+    </div>
+  </div>
+</nav>
+
+{% comment %} SEO: prev/next link tags in <head> {% endcomment %}
+{% if paginator.previous_page %}
+  <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}">
+{% endif %}
+
+{% if paginator.next_page %}
+  <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
+{% endif %}
+
+<style>
+/* Inline CSS for pagination */
+.pagination-nav {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin-bottom: 1rem;
+}
+
+.pagination .page-link {
+  color: var(--bs-primary, #4f8a8b);
+  border-color: #dee2e6;
+  padding: 0.5rem 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: var(--bs-primary, #4f8a8b);
+  border-color: var(--bs-primary, #4f8a8b);
+  color: white;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--bs-primary, #4f8a8b);
+  border-color: var(--bs-primary, #4f8a8b);
+  color: white;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+@media (max-width: 576px) {
+  .pagination .page-item:not(.active):not(:first-child):not(:last-child) {
+    display: none;
+  }
+}
+</style>
+{% endif %}

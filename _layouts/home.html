@@ -1,0 +1,256 @@
+---
+layout: default
+---
+
+{% include schema-home.html %}
+{% include home-hero.html %}
+
+<!-- Modern SEO Layout -->
+<main class="home-content" id="content" tabindex="-1"><!-- Brand Intro Section -->
+  <section class="brand-intro py-5" aria-labelledby="brand-intro-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 id="brand-intro-heading" class="visually-hidden">Introduzione</h2>
+          <div class="intro-content text-center">
+            <p class="lead mb-4">
+              Qui niente mantra perfetti: strumenti pratici per ridurre l’ansia da produttività e ritrovare ritmo. Mindfulness urbana, scelte minime ripetute, filosofia utile per chi lavora davvero.
+            </p>
+            <div class="intro-links d-flex justify-content-center gap-3 flex-wrap">
+              <a href="/categorie/burnout-e-lavoro/" class="btn btn-primary">Vai al cluster Burnout e Lavoro</a>
+              <a href="/equilibrio-interiore-guida-pratica/" class="btn btn-outline-secondary">Apri la Guida all’Equilibrio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container py-5">
+
+    <!-- Temi Principali - Cluster Grid 2x2 -->
+    <section class="cluster-grid mb-5" aria-labelledby="cluster-heading">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <h2 id="cluster-heading" class="section-heading mb-0">Temi Principali</h2>
+          <p class="text-muted mt-2 mb-0">Esplora i quattro pilastri di MessyMind</p>
+        </div>
+      </div>
+      
+      <!-- GRID RISCRITTA CON FLEXBOX PURO - NO BOOTSTRAP -->
+      <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 0;">
+        
+        <!-- Burnout e Lavoro -->
+        <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+          <div class="mm-card h-100 p-4">
+            <h3 class="mb-2"><a href="/categorie/burnout-e-lavoro/" class="text-decoration-none">Burnout e Lavoro</a></h3>
+            <p class="text-muted mb-3">Riduci attrito e straordinari mentali. Strumenti semplici per staccare, dire no e proteggere energia e sonno.</p>
+          </div>
+        </div>
+        
+        <!-- Mindfulness Ironica -->
+        <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+          <div class="mm-card h-100 p-4">
+            <h3 class="mb-2"><a href="/categorie/mindfulness-ironica/" class="text-decoration-none">Mindfulness Ironica</a></h3>
+            <p class="text-muted mb-3">Pratiche brevi e reali. Nessun incenso: attenzione allenata tra mail, riunioni e notifiche.</p>
+          </div>
+        </div>
+        
+        <!-- Crescita Anti-Guru -->
+        <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+          <div class="mm-card h-100 p-4">
+            <h3 class="mb-2"><a href="/categorie/crescita-personale-anti-guru/" class="text-decoration-none">Crescita Anti‑Guru</a></h3>
+            <p class="text-muted mb-3">Miglioramenti minimi e verificabili. Routine sostenibili, zero promesse miracolose.</p>
+          </div>
+        </div>
+        
+        <!-- Filosofia Pratica -->
+        <div style="flex: 0 0 calc(50% - 0.75rem); min-width: 0; box-sizing: border-box;">
+          <div class="mm-card h-100 p-4">
+            <h3 class="mb-2"><a href="/categorie/filosofia-pratica/" class="text-decoration-none">Filosofia Pratica</a></h3>
+            <p class="text-muted mb-3">Idee che aiutano le decisioni. Bias, limiti e libertà spiegati senza accademichese.</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Featured Post Slider -->
+    {% assign featured_posts = site.posts | where: "featured_post", true %}
+    {% if featured_posts.size > 1 %}
+      {% assign featured_posts = featured_posts | sort: "featured_rank" %}
+    {% endif %}
+    {% assign featured_post = featured_posts.first %}
+    
+    {% if featured_post %}
+    <section class="featured-slider mb-5" aria-labelledby="featured-heading">
+      <div class="row mb-3">
+        <div class="col-12">
+          <h2 id="featured-heading" class="section-heading mb-0">In Evidenza</h2>
+          <p class="text-muted mt-2 mb-0">Il post della settimana</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12">
+          <article class="featured-card mm-card border rounded-3 shadow-sm overflow-hidden" itemscope itemtype="https://schema.org/BlogPosting">
+            <div class="row g-0">
+              {% assign featured_img = featured_post.background | default: featured_post.image | default: featured_post.lcp_image %}
+              {% if featured_img %}
+              <div class="col-md-6">
+                <div class="thumb ratio ratio-16x9">
+                  {% include optimized-image.html src=featured_img alt=featured_post.title class='w-100 h-100' %}
+                </div>
+              </div>
+              {% endif %}
+              <div class="col-md-6">
+                <div class="card-body p-4">
+                  <h3 class="post-title mb-3 h5" itemprop="headline">
+                    <a href="{{ featured_post.url | relative_url }}" class="text-decoration-none">
+                      {{ featured_post.title }}
+                    </a>
+                  </h3>
+                  
+                  {% assign featured_excerpt = featured_post.description | default: featured_post.seo_description | default: featured_post.excerpt %}
+                  {% if featured_excerpt %}
+                    <p class="post-excerpt text-muted mb-4">{{ featured_excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+                  {% endif %}
+                  
+                  <div class="post-meta d-flex align-items-center justify-content-between flex-wrap mb-3">
+                    <small class="text-muted">{{ featured_post.date | date: '%d/%m/%Y' }}</small>
+                    {% if featured_post.categories.size > 0 %}
+                      {% assign main_category = featured_post.categories.first %}
+                      <a href="/categorie/{{ main_category }}/" class="badge badge-mm text-decoration-none">
+                        {{ main_category | replace: '-', ' ' | capitalize }}
+                      </a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- Ultimi Articoli -->
+    <section class="latest-posts mb-5" aria-labelledby="latest-heading">
+      <div class="row mb-3">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <h2 id="latest-heading" class="section-heading mb-0">Ultimi Articoli</h2>
+          <a href="/archivio" class="btn btn-primary" aria-label="Vedi tutti gli articoli nell'archivio">Vedi tutti</a>
+        </div>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        {% for post in site.posts limit:8 %}
+        <div class="col-12 col-md-6">
+          <article class="post-card h-100 border rounded-3 shadow-sm mm-card" itemscope itemtype="https://schema.org/BlogPosting">
+            {% assign card_img = post.background | default: post.image | default: post.lcp_image %}
+{% assign card_alt = post.lcp_image_alt | default: post.title %}
+{% if card_img %}
+  <div class="thumb ratio ratio-16x9 rounded-top overflow-hidden">
+    {% include optimized-image.html src=card_img alt=card_alt class='w-100 h-100' %}
+  </div>
+{% endif %}
+            <div class="card-body">
+              <h3 class="post-title mb-2 h6" itemprop="headline">
+                <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                  {{ post.title | truncate: 60 }}
+                </a>
+              </h3>
+              
+              {% assign _excerpt = post.description | default: post.seo_description | default: post.excerpt %}
+              {% if _excerpt %}
+                <p class="post-excerpt text-muted mb-3">{{ _excerpt | strip_html | strip_newlines | truncate: 110 }}</p>
+              {% endif %}
+              <div class="post-meta mt-2 d-flex align-items-center justify-content-between flex-wrap">
+                <small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small>
+                {% if post.categories.size > 0 %}
+                  {% assign main_category = post.categories.first %}
+                  <a href="/categorie/{{ main_category }}/" class="badge badge-mm text-decoration-none">
+                    {{ main_category | replace: '-', ' ' | capitalize }}
+                  </a>
+                {% endif %}
+              </div>
+            </div>
+          </article>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- Cornerstone -->
+    <section class="cornerstone mb-5" aria-labelledby="cornerstone-heading">
+      <div class="row mb-3">
+        <div class="col-12 text-center">
+          <h2 id="cornerstone-heading" class="section-heading">Guide essenziali</h2>
+          <p class="text-muted mb-0">Inizia da qui se è la tua prima volta</p>
+        </div>
+      </div>
+      
+      <!-- Guide cornerstone manuali (layout 1x3) -->
+      <div class="row g-4 align-items-stretch">
+        <div class="col-12 col-md-4">
+          <article class="mm-card h-100 border rounded-3 shadow-sm overflow-hidden">
+            <div class="thumb ratio ratio-16x9 overflow-hidden">
+              {% include optimized-image.html src='/img/accettazione.webp' alt='Guida all\'Equilibrio Interiore' class='w-100 h-100' %}
+            </div>
+            <div class="p-4">
+              <h3 class="h5 mb-2">
+                <a href="/equilibrio-interiore-guida-pratica/" class="text-decoration-none">Guida all'Equilibrio Interiore</a>
+              </h3>
+              <p class="text-muted mb-3">La tua roadmap per gestire ansia, stress e overthinking. 5 capitoli pratici senza guru.</p>
+              <a href="/equilibrio-interiore-guida-pratica/" class="btn btn-sm btn-outline-primary">Inizia qui</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="mm-card h-100 border rounded-3 shadow-sm overflow-hidden">
+            <div class="thumb ratio ratio-16x9 overflow-hidden">
+              {% include optimized-image.html src='/img/Loto.webp' alt='Sopravvivere al Burnout' class='w-100 h-100' %}
+            </div>
+            <div class="p-4">
+              <h3 class="h5 mb-2">
+                <a href="/categorie/burnout-e-lavoro/" class="text-decoration-none">Sopravvivere al Burnout</a>
+              </h3>
+              <p class="text-muted mb-3">Riconoscere i segnali, creare confini e proteggere la tua energia dal lavoro tossico.</p>
+              <a href="/categorie/burnout-e-lavoro/" class="btn btn-sm btn-outline-primary">Esplora</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-4">
+          <article class="mm-card h-100 border rounded-3 shadow-sm overflow-hidden">
+            <div class="thumb ratio ratio-16x9 overflow-hidden">
+              {% include optimized-image.html src='/img/amore.webp' alt='Mindfulness Urbana' class='w-100 h-100' %}
+            </div>
+            <div class="p-4">
+              <h3 class="h5 mb-2">
+                <a href="/categorie/mindfulness-ironica/" class="text-decoration-none">Mindfulness Urbana</a>
+              </h3>
+              <p class="text-muted mb-3">Pratiche minuscole per ufficio, traffico e vita reale. Zero incenso, massimo risultato.</p>
+              <a href="/categorie/mindfulness-ironica/" class="btn btn-sm btn-outline-primary">Prova ora</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta cta-section mb-5" aria-labelledby="cta-heading">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="mm-card p-5 border rounded-3 shadow-sm text-center mx-auto" style="max-width: 400px;">
+              <h2 id="cta-heading" class="h4 mb-3">Ricevi 1 pratica a settimana</h2>
+              <p class="text-muted mb-4">Zero spam. Una sola email con una micro‑tecnica testata sul campo.</p>
+              <a href="/newsletter/" class="btn btn-primary px-4">Iscriviti</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>

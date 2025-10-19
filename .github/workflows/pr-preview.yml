@@ -1,0 +1,186 @@
+name: PR Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: pr-preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.x'
+          bundler-cache: true
+
+      - name: Install bundler and dependencies
+        run: |
+          gem install bundler --conservative
+          bundle config set path "vendor/bundle"
+          bundle install --jobs 4 --retry 3
+
+      - name: Configure preview variables
+        id: vars
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          PREVIEW_PATH="pull/${PR_NUMBER}"
+          PREVIEW_REPO="PyZenMatt/messymind-previews"
+          PREVIEW_URL="https://pyzenmatt.github.io/messymind-previews"
+          echo "PR_NUMBER=${PR_NUMBER}" >> $GITHUB_OUTPUT
+          echo "PREVIEW_PATH=${PREVIEW_PATH}" >> $GITHUB_OUTPUT
+          echo "PREVIEW_REPO=${PREVIEW_REPO}" >> $GITHUB_OUTPUT
+          echo "PREVIEW_URL=${PREVIEW_URL}" >> $GITHUB_OUTPUT
+
+      - name: Override published:false for preview
+        run: |
+          # Replace `published: false` with `published: true` in posts, drafts and pages for preview builds
+          set -euo pipefail
+          git ls-files -z "_posts/**" "_drafts/**" "**/*.md" "**/*.markdown" | \
+          while IFS= read -r -d '' file; do
+            if [ -f "$file" ]; then
+              perl -0777 -pe 's/^([ \t]*published:\s*)false$/\1true/gim' -i -- "$file" || true
+            fi
+          done
+
+      - name: Build Jekyll preview
+        env:
+          JEKYLL_ENV: production
+        run: |
+          set -euo pipefail
+          
+          # Inject PR number into preview config
+          PREVIEW_PATH="${{ steps.vars.outputs.PREVIEW_PATH }}"
+          echo "Preparing preview config for path: ${PREVIEW_PATH}"
+          
+          # Replace PREVIEW_PATH placeholder in config file
+          sed "s|PREVIEW_PATH|${PREVIEW_PATH}|g" _config.preview.yml > _config.preview.tmp.yml
+          
+          # Build with preview configuration
+          echo "Building with preview config: baseurl=/messymind-previews/${PREVIEW_PATH}"
+          bundle exec jekyll build --drafts --future --config _config.yml,_config.preview.tmp.yml --trace
+          
+          # Clean up temporary config
+          rm -f _config.preview.tmp.yml
+
+      - name: Cleanup Windows alternate data streams from build
+        run: |
+          set -euo pipefail
+          # Remove any files that include the Windows ADS suffix pattern ":Zone.Identifier" which breaks uploads
+          find _site -type f -name '*:Zone.Identifier' -print0 | xargs -0 --no-run-if-empty rm -f || true
+          # Also remove such files from the source assets (in case they were checked into the repo)
+          find . -type f -name '*:Zone.Identifier' -print0 | xargs -0 --no-run-if-empty rm -f || true
+
+      - name: Preserve built site before branch switch
+        run: |
+          set -euo pipefail
+          # Move _site to a temp location outside the repo to preserve it
+          mv _site /tmp/_site_preview_build
+
+      - name: Prepare deployment branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Clone or fetch the separate preview repository
+          PREVIEW_REPO="${{ steps.vars.outputs.PREVIEW_REPO }}"
+          PREVIEW_REPO_URL="https://x-access-token:${{ secrets.PREVIEW_DEPLOY_TOKEN }}@github.com/${PREVIEW_REPO}.git"
+          
+          if [ -d "/tmp/preview-repo" ]; then
+            rm -rf /tmp/preview-repo
+          fi
+          
+          # Clone the preview repository (using main branch as configured in GitHub Pages)
+          if git ls-remote "$PREVIEW_REPO_URL" HEAD &>/dev/null; then
+            echo "Cloning existing preview repository..."
+            git clone --depth 1 --branch main "$PREVIEW_REPO_URL" /tmp/preview-repo 2>/dev/null || \
+            git clone --depth 1 "$PREVIEW_REPO_URL" /tmp/preview-repo
+          else
+            echo "Preview repository doesn't exist or no main branch yet, creating..."
+            mkdir -p /tmp/preview-repo
+            cd /tmp/preview-repo
+            git init
+            git checkout -b main
+            echo "# PR Previews for messymind" > README.md
+            git add README.md
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "chore: initialize preview repository"
+            git remote add origin "$PREVIEW_REPO_URL"
+            git push -u origin main
+            cd -
+          fi
+          
+          # Restore the built site from temp location
+          mv /tmp/_site_preview_build _site
+
+      - name: Copy preview to preview repository
+        run: |
+          set -euo pipefail
+          PR_DIR=${{ steps.vars.outputs.PREVIEW_PATH }}
+          
+          cd /tmp/preview-repo
+          
+          # Create the PR preview directory
+          mkdir -p "$PR_DIR"
+          
+          # Copy built site into pull/<PR_NUMBER>/ directory, excluding CNAME and files with colon characters
+          rsync -a --delete --exclude='*:*' --exclude='CNAME' /home/runner/work/messymind/messymind/_site/ "$PR_DIR/"
+
+          # Add and commit only if there are changes
+          git add -A -- "$PR_DIR"
+          if git diff --cached --quiet; then
+            echo "No changes to deploy for PR #${{ steps.vars.outputs.PR_NUMBER }}"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Deploy PR #${{ steps.vars.outputs.PR_NUMBER }} preview"
+            
+            # Push to preview repository (main branch as configured in GitHub Pages)
+            PREVIEW_REPO_URL="https://x-access-token:${{ secrets.PREVIEW_DEPLOY_TOKEN }}@github.com/${{ steps.vars.outputs.PREVIEW_REPO }}.git"
+            if ! git push "$PREVIEW_REPO_URL" main; then
+              echo "::error::Failed to push preview to repository"
+              exit 1
+            fi
+            echo "::notice::Preview deployed successfully to ${{ steps.vars.outputs.PREVIEW_URL }}/${{ steps.vars.outputs.PREVIEW_PATH }}"
+          fi
+
+      - name: Post or update PR comment with preview URL
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr = context.payload.pull_request.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const previewPath = `pull/${pr}/`;
+            const previewUrl = `${{ steps.vars.outputs.PREVIEW_URL }}/${previewPath}`;
+
+            // Search for an existing bot comment
+            const { data: comments } = await github.rest.issues.listComments({ owner, repo, issue_number: pr });
+            const botComment = comments.find(c => c.user && c.user.type === 'Bot' && c.body && c.body.includes('🧪 Preview ready'));
+
+            const body = `🧪 Preview ready: ${previewUrl}\n\nBuilt with drafts + future posts. Updated on commit: ${context.sha}\n\n_Preview hosted on separate repository: messymind-previews_`;
+
+            if (botComment) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: botComment.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number: pr, body });
+            }

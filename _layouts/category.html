@@ -1,0 +1,149 @@
+---
+layout: default
+---
+{% comment %}
+  CATEGORY LAYOUT - SEO MODERN v2 (Hardened)
+  - Hero LCP-safe con immagine 16:9 + fetchpriority="high"
+  - H1 unico + intro 40-80 parole
+  - Breadcrumb visibile
+  - Grid subcluster responsive
+  - Lista post paginabile con SEO pagination (noindex page >1)
+  - FAQ opzionale con Schema
+  - Schema: CollectionPage + ItemList + BreadcrumbList (centralizzato)
+  - CWV target: SEO ≥95, CLS ≤0.10, LCP ≤2.7s
+  - CSS modularizzato in _sass/pages/_category.scss
+{% endcomment %}
+
+{% comment %} Determina slug categoria {% endcomment %}
+{% if page.category and page.category != '' %}
+  {% assign cat_slug = page.category | downcase | strip %}
+{% else %}
+  {% assign cat_slug = page.categories | first | downcase | strip %}
+{% endif %}
+
+{% comment %} Mappa slug a display title {% endcomment %}
+{% case cat_slug %}
+  {% when 'mindfulness-ironica' %}
+    {% assign display_title = 'Mindfulness ironica' %}
+  {% when 'crescita-personale-anti-guru' %}
+    {% assign display_title = 'Crescita personale anti-guru' %}
+  {% when 'filosofia-pratica' %}
+    {% assign display_title = 'Filosofia pratica' %}
+  {% when 'burnout-lavoro' %}
+    {% assign display_title = 'Burnout & lavoro' %}
+  {% when 'burnout-e-lavoro' %}
+    {% assign display_title = 'Burnout & lavoro' %}
+  {% else %}
+    {% assign display_title = page.title | default: cat_slug | replace: '-', ' ' | capitalize %}
+{% endcase %}
+
+{% comment %} Raccogli post della categoria {% endcomment %}
+{% if paginator %}
+  {% assign cat_posts = paginator.posts %}
+{% else %}
+  {% assign cat_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" | sort: "date" | reverse %}
+{% endif %}
+
+{% comment %} Hero Component {% endcomment %}
+{% include category-hero.html %}
+
+<div class="container category-container">
+  <div class="row">
+    <div class="col-12">
+
+      {% comment %} Breadcrumb {% endcomment %}
+      <div class="mb-3">
+        {% include breadcrumb.html %}
+      </div>
+
+      {% comment %} Intro Section {% endcomment %}
+      {% include category-intro.html %}
+      
+      {% comment %} Cornerstone Section (Categorie essenziali) {% endcomment %}
+      {% include cornerstone-section.html category=cat_slug heading="Categorie essenziali" %}
+
+      {% comment %} Subcluster Grid {% endcomment %}
+      {% include subcluster-grid.html category=cat_slug %}
+
+      {% comment %} Recent Posts Section - Styled as "In evidenza" from home {% endcomment %}
+      <section class="listing mb-5" aria-labelledby="posts-heading">
+        <div class="row mb-3">
+          <div class="col-12">
+            <h2 id="posts-heading" class="section-heading mb-0">Ultimi articoli</h2>
+          </div>
+        </div>
+        
+        {% if paginator %}
+          {% assign posts_to_show = paginator.posts %}
+        {% else %}
+          {% assign posts_to_show = cat_posts | slice: 0, 12 %}
+        {% endif %}
+        
+        {% for post in posts_to_show %}
+        <div class="row mb-4">
+          <div class="col-12">
+            <article class="featured-card mm-card border rounded-3 shadow-sm overflow-hidden">
+              <div class="row g-0">
+                {% assign post_img = post.background | default: post.image %}
+                {% if post_img %}
+                <div class="col-md-6">
+                  <div class="thumb ratio ratio-16x9">
+                    {% include optimized-image.html src=post_img alt=post.title class='w-100 h-100' %}
+                  </div>
+                </div>
+                {% endif %}
+                <div class="col-md-6">
+                  <div class="card-body p-4">
+                    <h3 class="post-title mb-3 h5">
+                      <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                        {{ post.title }}
+                      </a>
+                    </h3>
+                    
+                    {% assign post_excerpt = post.description | default: post.seo_description | default: post.excerpt %}
+                    {% if post_excerpt %}
+                      <p class="post-excerpt text-muted mb-4">{{ post_excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+                    {% endif %}
+                    
+                    <div class="post-meta d-flex align-items-center justify-content-between flex-wrap mb-3">
+                      <small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small>
+                      <a href="/categorie/{{ cat_slug }}/" class="badge badge-mm text-decoration-none">
+                        {{ cat_slug | replace: '-', ' ' | capitalize }}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        {% endfor %}
+        
+        {% comment %} Pagination (se configurata) {% endcomment %}
+        {% if site.paginate and paginator %}
+          {% include pagination.html %}
+        {% endif %}
+      </section>
+
+      {% comment %} FAQ Section {% endcomment %}
+      {% include category-faq.html category=cat_slug %}
+
+      {% comment %} CTA Newsletter - Stile home {% endcomment %}
+      <section class="cta cta-section mb-5" aria-labelledby="cta-heading">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="mm-card cta-newsletter p-5 border rounded-3 shadow-sm text-center mx-auto">
+              <h2 id="cta-heading" class="h4 mb-3">Ricevi 1 pratica a settimana</h2>
+              <p class="text-muted mb-4">Zero spam. Una sola email con una micro‑tecnica testata sul campo.</p>
+              <a href="{{ '/newsletter' | relative_url }}" class="btn btn-primary px-4">Iscriviti</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</div>
+
+{% comment %} Schema Markup - Centralizzato {% endcomment %}
+{% include schema-category.html category=cat_slug %}

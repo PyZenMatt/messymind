@@ -1,0 +1,71 @@
+<!-- Componente per immagini ottimizzate -->
+{% assign img_path = include.src | default: '/img/default-post.jpg' %}
+{% assign img_alt = include.alt | default: include.title | default: page.title | default: site.title | default: 'Immagine articolo' %}
+{% assign img_class = include.class | default: "img-fluid" %}
+
+{%- comment -%} WebP candidate path (simple replacement). Keep original if webp not present on server.
+{%- endcomment -%}
+{% assign webp_path = img_path | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' | replace: '.png', '.webp' %}
+
+{%- comment -%}
+  Determine if this image is the page LCP candidate.
+  Priority: explicit `include.lcp` or `include.lcp_image`, then `page.lcp_image` matching.
+{%- endcomment -%}
+{%- assign is_lcp = false -%}
+{%- if include.lcp == true or include.lcp == 'true' or include.lcp_image %}
+  {%- assign is_lcp = true -%}
+{%- elsif page.lcp_image == img_path or page.lcp_image == webp_path or page.lcp_image == webp_path | absolute_url -%}
+  {%- assign is_lcp = true -%}
+{%- endif -%}
+
+{%- comment -%} choose loading and fetchpriority based on LCP or explicit loading param {%- endcomment -%}
+{%- if is_lcp or include.loading == 'eager' or include.loading == 'auto' -%}
+  {%- assign loading_attr = 'eager' -%}
+  {%- assign fetchprio = 'fetchpriority="high"' -%}
+{%- else -%}
+  {%- assign loading_attr = 'lazy' -%}
+  {%- assign fetchprio = '' -%}
+{%- endif -%}
+
+<picture>
+  {% if webp_path and webp_path != '' %}
+    {%- comment -%}
+      When possible, emit a srcset for WebP variant. If the include provided `srcset` or `sizes`, prefer those.
+    {%- endcomment -%}
+    {% if include.srcset %}
+      <source srcset="{{ include.srcset }}" type="image/webp">
+    {% else %}
+      <source srcset="{{ webp_path | absolute_url }} 1600w, {{ webp_path | replace: '-1600.webp', '-800.webp' | absolute_url }} 800w, {{ webp_path | replace: '-1600.webp', '-400.webp' | absolute_url }} 400w" type="image/webp">
+    {% endif %}
+  {% endif %}
+
+  {% comment %} Fallback img - emit srcset if available or sensible defaults {% endcomment %}
+  {% if include.srcset %}
+    {% assign final_srcset = include.srcset %}
+  {% elsif webp_path and webp_path != '' %}
+    {% assign final_srcset = img_path | absolute_url | append: ' 1600w, ' | append: (img_path | replace: '-1600.', '-800.') | absolute_url | append: ' 800w, ' | append: (img_path | replace: '-1600.', '-400.') | absolute_url | append: ' 400w' %}
+  {% else %}
+    {% assign final_srcset = img_path | absolute_url %}
+  {% endif %}
+
+  <img
+    src="{{ img_path | absolute_url }}"
+    {% if final_srcset %}srcset="{{ final_srcset }}"{% endif %}
+    {% if include.sizes %}sizes="{{ include.sizes }}"{% else %}sizes="100vw"{% endif %}
+    alt="{{ img_alt }}"
+    {% if include.class %}class="{{ include.class }}"{% endif %}
+    loading="{{ loading_attr }}"
+    {{ fetchprio }}
+    decoding="async"
+    {% if include.width and include.height %}
+      width="{{ include.width }}"
+      height="{{ include.height }}"
+      style="aspect-ratio: {{ include.width }}/{{ include.height }}; max-width: 100%; height: auto;"
+    {% elsif is_lcp %}
+      {%- comment -%} For LCP candidates provide an intrinsic size to help browser prioritize and avoid CLS {%- endcomment -%}
+      width="1600" height="900"
+      style="max-width:100%;height:auto;aspect-ratio:16/9;"
+    {% else %}
+      style="max-width: 100%; height: auto; aspect-ratio: 16/9;"
+    {% endif %}>
+</picture>

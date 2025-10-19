@@ -1,0 +1,56 @@
+---
+layout: default
+title: Archivio
+permalink: /archivio/
+---
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="display-4 mb-4">Tutti gli Articoli</h1>
+      
+  <div class="row equalize">
+        {% for post in site.posts %}
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="{{ post.background | default: '/assets/images/default-post.jpg' }}" 
+                 class="card-img-top" 
+                 alt="{{ post.title }}"
+                 style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
+                <h5 class="card-title">{{ post.title }}</h5>
+              </a>
+              {% for category in post.categories %}
+                {% assign key = category | downcase %}
+                {% assign mapped = site.data.category_slugs[key] %}
+                {% if mapped %}
+                  <a href="{{ mapped | relative_url }}" class="text-decoration-none me-2">{{ category }}</a>
+                {% else %}
+                  <a href="{{ '/categorie/' | append: category | slugify | append: '/' | relative_url }}" class="text-decoration-none me-2">{{ category }}</a>
+                {% endif %}
+              {% endfor %}
+              <!-- Dynamic excerpt length: compute from title length so cards align better -->
+              {% assign title_words = post.title | split: ' ' | size %}
+              {% assign desired_total = 40 %}
+              {% assign excerpt_len = desired_total | minus: title_words %}
+              {% if excerpt_len < 12 %}
+                {% assign excerpt_len = 12 %}
+              {% endif %}
+              {% if excerpt_len > 60 %}
+                {% assign excerpt_len = 60 %}
+              {% endif %}
+              <p class="card-text">{{ post.excerpt | strip_html | truncatewords: excerpt_len }}</p>
+            </div>
+            <div class="card-footer bg-white">
+              <small class="text-muted">
+                <svg class="icon icon-calendar" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M7 11h10v2H7z" fill="#666"/><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V9h14v9z" fill="#666"/></svg> {{ post.date | date: "%d/%m/%Y" }}
+              </small>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
