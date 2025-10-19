@@ -68,6 +68,12 @@ jobs:
           # Also remove such files from the source assets (in case they were checked into the repo)
           find . -type f -name '*:Zone.Identifier' -print0 | xargs -0 --no-run-if-empty rm -f || true
 
+      - name: Preserve built site before branch switch
+        run: |
+          set -euo pipefail
+          # Move _site to a temp location outside the repo to preserve it
+          mv _site /tmp/_site_preview_build
+
       - name: Prepare deployment branch
         run: |
           set -euo pipefail
@@ -77,6 +83,10 @@ jobs:
           # Use authenticated remote so pushes from the runner use the GITHUB_TOKEN
           AUTH_REMOTE="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git remote set-url origin "$AUTH_REMOTE"
+
+          # Discard any local modifications (from published override) before switching branches
+          git reset --hard HEAD
+          git clean -fdx
 
           # Fetch latest gh-pages if it exists and create a local branch that matches remote
           git fetch origin gh-pages || true
@@ -93,6 +103,9 @@ jobs:
             git commit -m "chore: create gh-pages branch" || true
             git push origin gh-pages || true
           fi
+          
+          # Restore the built site from temp location
+          mv /tmp/_site_preview_build _site
 
       - name: Copy preview to gh-pages subtree
         run: |
@@ -139,13 +152,13 @@ jobs:
             const previewUrl = `https://${owner}.github.io/${repo}/${previewPath}`;
 
             // Search for an existing bot comment
-            const { data: comments } = await github.issues.listComments({ owner, repo, issue_number: pr });
+            const { data: comments } = await github.rest.issues.listComments({ owner, repo, issue_number: pr });
             const botComment = comments.find(c => c.user && c.user.type === 'Bot' && c.body && c.body.includes('🧪 Preview ready'));
 
             const body = `🧪 Preview ready: ${previewUrl}\n\nBuilt with drafts + future posts. Updated on commit: ${context.sha}`;
 
             if (botComment) {
-              await github.issues.updateComment({ owner, repo, comment_id: botComment.id, body });
+              await github.rest.issues.updateComment({ owner, repo, comment_id: botComment.id, body });
             } else {
-              await github.issues.createComment({ owner, repo, issue_number: pr, body });
+              await github.rest.issues.createComment({ owner, repo, issue_number: pr, body });
             }
