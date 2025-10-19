@@ -1,5 +1,5 @@
 ---
-title: 'Stress lavoro-correlato: cos''è davvero, come prevenirlo (con filosofia pratica)'
+title: Nuovo articolo di questa follia
 description: Cos'è lo stress lavoro-correlato, differenza tra eustress e distress,
   LOA di Favretto e perché il burnout è nel contesto (Maslach). Strumenti, voci dal
   campo ed esercizi di filosofia pratica.
@@ -40,10 +40,10 @@ lcp_image: /images/stress-lavoro-correlato.jpg
 og_image: /images/stress-lavoro-correlato-og.jpg
 published: false
 layout: post
-date: '2025-10-19 20:20:11'
+date: '2025-10-19 21:20:43'
 ---
 
-# Stress lavoro-correlato: la differenza tra sopravvivere e lavorare (senza diventare guru)
+# Stress lavoro-correlavvvvvto: la differenza tra sopravvivere e lavorare (senza diventare guru)
 
 Lo **stress lavoro-correlato** non è una moda gestionale. È quello che succede quando il lavoro ti chiede di essere una macchina, ma tu sei umano. La differenza tra eustress e distress è come la manopola del volume: troppo basso, ti annoi; troppo alto, non senti più te stesso. Il punto buono è il LOA: quel livello in cui ti accendi senza bruciarti.
 
@@ -68,11 +68,11 @@ La citazione è di Favretto, e spiega perché né l'overload né l'underload fun
 
 Qui entra Frankl con la sua ontologia tridimensionale: soma, psiche e **noûs** - la dimensione spirituale della ricerca di senso. Quando questa dimensione viene frustrata, può generare quella che Frankl chiama **nevrosi noogena** - con ripercussioni a livello psichico e somatico.
 
-"La dimensione del senso risulta essere un fattore protettivo del distress", si legge nella ricerca. Non si tratta di fare gli eroi, ma di riconoscere che anche nelle condizioni più difficili, possiamo scegliere come reagire.
+"La dimensione del senso risulta essere un fattore protettivo del distress", si legge nella ricerca. Non si tratta di fare gli eroi, ma di riconoscere che anche nelle condizioni più difficili, possiamogdgdfgdfgd scegliere come reagire.
 
 ## Counseling individuale o pratiche filosofiche di gruppo?
 
-Maslach & Leiter sono chiari: il burnout **non è un problema dell'individuo, ma del contesto**. È un fenomeno "fondamentalmente psicosociale, basato su fattori di rischio personali, relazionali e ambientali".
+Maslach & Leiter sono chiari: il burnocxvxcvxvut **non è un problema dell'individuo, ma del contesto**. È un fenomeno "fondamentalmente psicosociale, basato su fattori di rischio personali, relazionali e ambientali".
 
 ### Perché il gruppo funziona
 
