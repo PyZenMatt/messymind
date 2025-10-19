@@ -84,15 +84,12 @@ jobs:
           AUTH_REMOTE="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           git remote set-url origin "$AUTH_REMOTE"
 
-          # Discard any local modifications (from published override) before switching branches
-          git reset --hard HEAD
-          git clean -fdx
-
           # Fetch latest gh-pages if it exists and create a local branch that matches remote
           git fetch origin gh-pages || true
           if git rev-parse --verify origin/gh-pages >/dev/null 2>&1; then
-            # Ensure our local gh-pages matches remote (force-create local branch from remote)
-            git checkout -B gh-pages origin/gh-pages
+            # Force checkout to gh-pages, discarding any local modifications
+            git checkout -f gh-pages
+            git reset --hard origin/gh-pages
           else
             # No remote gh-pages yet: create orphan branch
             git checkout --orphan gh-pages
