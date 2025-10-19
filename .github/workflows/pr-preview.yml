@@ -110,8 +110,8 @@ jobs:
           PR_DIR=${{ steps.vars.outputs.PREVIEW_PATH }}
           mkdir -p "$PR_DIR"
           
-          # Copy built site into pull/<PR_NUMBER>/ directory, excluding files with colon characters
-          rsync -a --delete --exclude='*:*' _site/ "$PR_DIR/"
+          # Copy built site into pull/<PR_NUMBER>/ directory, excluding CNAME and files with colon characters
+          rsync -a --delete --exclude='*:*' --exclude='CNAME' _site/ "$PR_DIR/"
 
           # Add and commit only if there are changes
           git add -A -- "$PR_DIR"
