@@ -12,3 +12,5 @@ hide_home_title: false
 h1: "Mindfulness ironica e pratiche per l'equilibrio interiore"
 intro: "Scopri un approccio diverso al benessere: [mindfulness ironica](/categorie/mindfulness-ironica/) per vite moderne e caotiche. Pratiche concrete per l'equilibrio interiore, come [5 mosse per l'equilibrio senza guru](/equilibrio-interiore-5-mosse-pratiche-senza-guru-e-con-ironia/)."
 ---
+
+<!-- Test PR Preview Workflow - Ruby 3.1 compatibility -->
