@@ -59,23 +59,20 @@ jobs:
           JEKYLL_ENV: production
         run: |
           set -euo pipefail
-          # Build with drafts and future posts enabled and set baseurl to the preview path
-          PR_BASE="/${{ steps.vars.outputs.PREVIEW_PATH }}"
-          PREVIEW_URL="${{ steps.vars.outputs.PREVIEW_URL }}"
-          echo "Building with url=${PREVIEW_URL} and baseurl=${PR_BASE}"
+          # Build with drafts and future posts
+          # The full preview URL includes the path, so baseurl should be empty
+          PREVIEW_URL="${{ steps.vars.outputs.PREVIEW_URL }}/${{ steps.vars.outputs.PREVIEW_PATH }}"
+          echo "Building with url=${PREVIEW_URL} and baseurl=\"\" (empty)"
           
           # Create a temporary config override for preview builds
           echo "url: ${PREVIEW_URL}" > _config_preview.yml
-          echo "baseurl: ${PR_BASE}" >> _config_preview.yml
+          echo "baseurl: \"\"" >> _config_preview.yml
           
           bundle exec jekyll build --drafts --future --config _config.yml,_config_preview.yml --trace
           
           # Post-build: replace all hardcoded messymind.it URLs in HTML files with preview URL
           echo "Replacing messymind.it URLs with preview URL in built site..."
-          find _site -type f -name "*.html" -print0 | xargs -0 sed -i "s|https://messymind\.it|${PREVIEW_URL}${PR_BASE}|g"
-          
-          # Also fix any canonical URLs that might be absolute
-          find _site -type f -name "*.html" -print0 | xargs -0 sed -i "s|<link rel=\"canonical\" href=\"${PREVIEW_URL}${PR_BASE}/|<link rel=\"canonical\" href=\"${PREVIEW_URL}${PR_BASE}|g"
+          find _site -type f -name "*.html" -print0 | xargs -0 sed -i "s|https://messymind\.it|${PREVIEW_URL}|g"
 
       - name: Cleanup Windows alternate data streams from build
         run: |
