@@ -70,8 +70,18 @@ jobs:
           
           bundle exec jekyll build --drafts --future --config _config.yml,_config_preview.yml --trace
           
-          # Post-build: replace all hardcoded messymind.it URLs in HTML files with preview URL
-          echo "Replacing messymind.it URLs with preview URL in built site..."
+          # Post-build: fix all absolute paths to work in subdirectory
+          echo "Converting absolute paths to work in GitHub Pages subdirectory..."
+          
+          # Replace absolute paths in HTML files with full URLs
+          find _site -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) -print0 | \
+            xargs -0 sed -i "s|href=\"/|href=\"${PREVIEW_URL}/|g"
+          find _site -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) -print0 | \
+            xargs -0 sed -i "s|src=\"/|src=\"${PREVIEW_URL}/|g"
+          find _site -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" \) -print0 | \
+            xargs -0 sed -i "s|url(/|url(${PREVIEW_URL}/|g"
+          
+          # Replace hardcoded messymind.it URLs
           find _site -type f -name "*.html" -print0 | xargs -0 sed -i "s|https://messymind\.it|${PREVIEW_URL}|g"
 
       - name: Cleanup Windows alternate data streams from build
