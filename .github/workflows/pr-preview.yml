@@ -99,7 +99,7 @@ jobs:
           
           # Clone or fetch the separate preview repository
           PREVIEW_REPO="${{ steps.vars.outputs.PREVIEW_REPO }}"
-          PREVIEW_REPO_URL="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${PREVIEW_REPO}.git"
+          PREVIEW_REPO_URL="https://x-access-token:${{ secrets.PREVIEW_DEPLOY_TOKEN }}@github.com/${PREVIEW_REPO}.git"
           
           if [ -d "/tmp/preview-repo" ]; then
             rm -rf /tmp/preview-repo
@@ -152,7 +152,7 @@ jobs:
             git commit -m "Deploy PR #${{ steps.vars.outputs.PR_NUMBER }} preview"
             
             # Push to preview repository (main branch as configured in GitHub Pages)
-            PREVIEW_REPO_URL="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ steps.vars.outputs.PREVIEW_REPO }}.git"
+            PREVIEW_REPO_URL="https://x-access-token:${{ secrets.PREVIEW_DEPLOY_TOKEN }}@github.com/${{ steps.vars.outputs.PREVIEW_REPO }}.git"
             git push "$PREVIEW_REPO_URL" main
           fi
 
