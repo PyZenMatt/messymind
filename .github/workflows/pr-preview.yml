@@ -117,6 +117,15 @@ jobs:
           
           # Restore the built site from temp location
           mv /tmp/_site_preview_build _site
+          
+          # CRITICAL: Remove CNAME from gh-pages root to prevent GitHub Pages from redirecting to custom domain
+          # This allows preview URLs to work at pyzenmatt.github.io/messymind/pull/X/
+          if [ -f CNAME ]; then
+            echo "Removing CNAME from gh-pages to allow preview URLs..."
+            git rm -f CNAME || rm -f CNAME
+            git add -A
+            git commit -m "chore: remove CNAME to enable PR previews on GitHub Pages" || true
+          fi
 
       - name: Copy preview to gh-pages subtree
         run: |
