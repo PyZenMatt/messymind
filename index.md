@@ -14,3 +14,4 @@ intro: "Scopri un approccio diverso al benessere: [mindfulness ironica](/categor
 ---<- Nessun PSI/API Google: solo Lighthouse CLI Test PR preview 5 with separate repo Sun Oct 19 18:59:11 CEST 2025 -->
 <- Nessun PSI/API Google: solo Lighthouse CLI Test with PAT token Sun Oct 19 19:04:43 CEST 2025 -->
 <- Nessun PSI/API Google: solo Lighthouse CLI Test CSS fix Sun Oct 19 19:07:58 CEST 2025 -->
+<- Nessun PSI/API Google: solo Lighthouse CLI Test absolute paths fix Sun Oct 19 19:11:31 CEST 2025 -->
