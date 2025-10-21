@@ -43,7 +43,7 @@ layout: post
 date: '2025-10-21 12:00:00'
 ---
 
-# Stresssss lavoro-correlavvvvvto: la differenza tra sopravvivere e lavorare (senza diventare guru)
+# Stress lavoro-correlato: la differenza tra sopravvivere e lavorare (senza diventare guru)
 
 Lo **stress lavoro-correlato** non è una moda gestionale. È quello che succede quando il lavoro ti chiede di essere una macchina, ma tu sei umano. La differenza tra eustress e distress è come la manopola del volume: troppo basso, ti annoi; troppo alto, non senti più te stesso. Il punto buono è il LOA: quel livello in cui ti accendi senza bruciarti.
 
