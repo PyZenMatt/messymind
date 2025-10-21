@@ -38,7 +38,7 @@ howto:
   - Rileggile prima di una riunione difficile o quweqando senti il peso della giornata
 lcp_image: /images/stress-lavoro-correlato.jpg
 og_image: /images/stress-lavoro-correlato-og.jpg
-published: false
+published: true
 layout: post
 date: '2025-10-21 12:00:00'
 ---
