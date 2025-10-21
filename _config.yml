@@ -1,6 +1,3 @@
-# (Removed duplicate/invalid top block) 
-# ===== Locale / time =====
-
 lang: it
 timezone: "Europe/Rome"
 title_separator: " — "
@@ -164,6 +161,13 @@ defaults:
       image: "/img/og-default.jpg"
       noindex: false
       sitemap: true
+      path: "preview"
+    values:
+      layout: post
+      noindex: true
+      sitemap: false
+      seo:
+        type: "article"
 
   # Post
   - scope:
@@ -196,6 +200,7 @@ compress_html:
 # ===== Include / Exclude =====
 include:
   - .well-known
+  - preview 
 exclude:
   - scripts/
   - node_modules/
