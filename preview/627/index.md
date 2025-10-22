@@ -15,8 +15,8 @@ tags:
 - mindfulness-ironica
 - consapevolezza
 - bias-cognitivi
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1756045412/ironia-fondamenta_hero.jpg
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412pexels-enginakyurt-2174625_1_ttwvvz.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 lcp_image_alt: 'Simbolo del Metodo I.R.O.N.I.A.: mente lucida e sorriso interiore'
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
