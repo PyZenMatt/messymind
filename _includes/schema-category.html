@@ -41,15 +41,17 @@
   "mainEntity": {
     "@type": "ItemList",
     "numberOfItems": {{ cat_posts.size }},
-    "itemListElement": [
+      "itemListElement": [
       {% assign schema_limit = cat_posts.size %}
       {% if schema_limit > 20 %}{% assign schema_limit = 20 %}{% endif %}
       {% for post in cat_posts limit: schema_limit %}
       {
         "@type": "ListItem",
         "position": {{ forloop.index }},
-        "url": "{{ post.url | absolute_url }}",
-        "name": {{ post.title | jsonify }}
+        "item": {
+          "@id": "{{ post.url | absolute_url }}",
+          "name": {{ post.title | escape | jsonify }}
+        }
       }{% unless forloop.last or forloop.index == 20 %},{% endunless %}
       {% endfor %}
     ]
@@ -74,18 +76,16 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "@id": "{{ page.url | absolute_url }}#breadcrumb",
-  "itemListElement": [
+    "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Home",
-      "item": "{{ site.url }}"
+      "item": { "@id": "{{ site.url }}", "name": "Home" }
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "name": {{ cat_title | jsonify }},
-      "item": "{{ page.url | absolute_url }}"
+      "item": { "@id": "{{ page.url | absolute_url }}", "name": {{ cat_title | jsonify }} }
     }
   ]
 }
