@@ -24,7 +24,7 @@ Centralized Schema include
       "@type": "WebPage",
       "@id": "{{ page.url | absolute_url }}#webpage",
       "url": "{{ page.url | absolute_url }}",
-      "name": "{{ page.seo_title | default: page.title | escape }}",
+      "name": "{{ page.seo_title | default: page.title | default: site.title | escape }}",
       "description": "{{ page.seo_description | default: page.description | default: page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}",
       "isPartOf": { "@id": "{{ site.url | append: '/#website' }}" },
       "about": { "@id": "{{ site.url | append: '/#organization' }}" },
@@ -60,7 +60,7 @@ Centralized Schema include
           {%- endif -%}
         {%- endif -%}
         {%- if subcluster_url -%}, { "@type": "ListItem", "position": {{ pos | plus: 1 }}, "item": { "@id": "{{ subcluster_url | strip_newlines | strip }}", "name": "{{ page.subcluster | replace: '-', ' ' | capitalize }}" } }{% assign pos = pos | plus: 1 %}{% endif %}
-        , { "@type": "ListItem", "position": {{ pos | plus: 1 }}, "item": { "@id": "{{ page.url | absolute_url | strip_newlines | strip }}", "name": "{{ page.title | escape }}" } }
+  , { "@type": "ListItem", "position": {{ pos | plus: 1 }}, "item": { "@id": "{{ page.url | absolute_url | strip_newlines | strip }}", "name": "{{ page.title | default: site.title | escape }}" } }
       ]
     }
   ]
