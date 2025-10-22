@@ -166,6 +166,6 @@ Hai appena costruito un millimetro di spazio interiore.
 
 
 
-{% include faqs.html %}
+{% include faq.html %}
 
 {% include howto.html %}
