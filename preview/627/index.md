@@ -22,6 +22,15 @@ lcp_image_alt: 'Simbolo del Metodo I.R.O.N.I.A.: mente lucida e sorriso interior
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 image_author: Foto di Engin Akyurt
 image_author_url: https://www.pexels.com/it-it/@enginakyurt/
+intro: Scarica la **scheda IRP**(Indice di Ruminazione Pratica) e scopri come applicare
+  i sei verbi del metodo senza diventare un monaco zen.
+cta_title: Scarica la Scheda I.R.O.N.I.A.
+cta_text: Stampa il PDF e segna il tuo IRP settimanale.
+cta_button: Scarica la scheda
+cta_link: /assets/schede/IRP.pdf
+cta_analytics_id: cta-ironia-pdf
+cta_external: false
+cta_utm_campaign: ironia_pdf
 faqs:
 - question: Cos’è il Metodo I.R.O.N.I.A.?
   answer: Una struttura mentale per gestire pensieri e reazioni con ironia consapevole.
@@ -162,6 +171,11 @@ Hai appena costruito un millimetro di spazio interiore.
 È piccolo, ma ci passa la libertà.
 
 
+{% include post-cta.html %}
+
+
+## FAQ 
 {% include faq.html %}
 
+## HOW TO
 {% include howto.html %}
