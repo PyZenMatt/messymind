@@ -65,6 +65,7 @@ related_links:
 - /mindfulness-ironica/applicare-metodo-ironia/
 - /filosofia-pratica/bias-cognitivi/
 published: true
+canonical: http://messymind.it/2025/10/22/metodo-ironia-perche-lironia-e-una-forma-di-consapevolezza.html
 ---
 
 # Metodo I.R.O.N.I.A.: perché l’ironia è una forma di consapevolezza
@@ -73,7 +74,7 @@ published: true
 ## Dal router al metodo
 
 Ho appena realizzato che Il mio router ha sviluppato un tempismo mistico. Si blocca solo quando sto per dire qualcosa di importante in call.
-Nel post [“Se tutto è coscienza, perché continuo a litigare con il router?”](/faggin-coscienza-ironia-router) parlo di **reset** **cognitivo** cioè il momento in cui capisci che non serve più segnale, serve più silenzio.
+Nel post [“Se tutto è coscienza, perché continuo a litigare con il router?”](/mindfulness-ironica/faggin-coscienza-ironia-router/) parlo di **reset** **cognitivo** cioè il momento in cui capisci che non serve più segnale, serve più silenzio.
 
 Da lì nasce il Metodo **I.R.O.N.I.A**.: un sistema leggero, laico, che unisce la lucidità della mente al senso dell’**umorismo**.
 Perché ridere, quando è fatto bene, è la nostra versione umana del “riavvia e aggiorna”.
