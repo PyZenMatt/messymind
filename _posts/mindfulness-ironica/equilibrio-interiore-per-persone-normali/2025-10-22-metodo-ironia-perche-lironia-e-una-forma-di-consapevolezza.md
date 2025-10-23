@@ -58,6 +58,7 @@ last_modified_at: 2025-10-19
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 lcp_image_alt: 'Simbolo del Metodo I.R.O.N.I.A.: mente lucida e sorriso interiore'
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
+permalink: /mindfulness-ironica/metodo-ironia-perche-lironia-e-una-forma-di-consapevolezza/
 related_links:
 - /filosofia-pratica/metodo-ironia-faggin-router/
 - /mindfulness-ironica/applicare-metodo-ironia/
