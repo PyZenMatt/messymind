@@ -56,35 +56,31 @@ faqs:
 redirect_from: /burnout e lavoro/autenticita-e-lavoro/
 ---
 
-**In breve — cosa trovi qui:** 7 mosse pratiche per essere te stesso al lavoro senza sembrare “contro”, frasi assertive pronte all’uso, micro-pratiche da 5 minuti e un metodo gentile per gestire i colleghi difficili. Niente dogmi: solo piccoli cambiamenti sostenibili.
+**In breve:** Sette mosse pratiche e veloci per esprimere il tuo "vero io" al lavoro senza sembrare “anti” con frasi assertive e pronte all’uso, piccole pratiche da 5 minuti e un metodo "gentile" per gestire i colleghi piu difficili e rompi scatole. Zero dogmi: solo piccoli cambiamenti sostenibili.
 
 ## Cos’è l’autenticità sul lavoro (e perché conta davvero)
 
-Essere autentici in azienda non significa dire tutto a tutti, sempre. Significa allineare comportamenti, valori e limiti in modo chiaro e collaborativo. Risultato? Meno frizioni, decisioni più pulite e rischio di burnout più basso. L’autenticità è un muscolo: si allena con micro-passi, non con dichiarazioni epiche in plenaria.
+Essere autentici in ufficio non vuol dire sparare tutto quello che si pensa a destra e a manca. Piuttosto, è essere chiari su come ci si comporta, su cosa è importante per noi e su quali sono i nostri limiti, trovando un accordo con gli altri. Alla fine si litiga di meno, si prendono decisioni con più facilità e si evita di arrivare a sera completamente esausti. Pensa all'autenticità come un muscolo. Cosi come i bicipiti , o gli addominali, non li costruisci con una sessione di 12 ore in palestra, ne l'autenticità arriva con un discorso epico in riunione, ma devi costruirla con piccoli gesti quotidiani. 
 
 ## Perché fingiamo tutti di adorare le riunioni?
 
-Ok, ammettiamolo: se stai leggendo questo articolo mentre sorseggi il terzo caffè della mattina cercando di non pensare alla riunione delle 11, probabilmente *il tuo rapporto col lavoro assomiglia più a un cattivo match su Tinder che a una storia d’amore.*
+Allora, parliamoci chiaro: se sei lì che leggi questo articolo col terzo caffè del mattino in mano, cercando di non pensare al meeting su Zoom delle 11... forse è il momento di ammettere che tu e il lavoro non avete proprio quel rapporto da favola Disney.
 
-E no, non inizierò con la solita tirata su "segui la tua passione!" (spoiler: se l’avessi fatto, a quest’ora starei allevando alpaca in Perù invece che a scrivere tra una call e l’altra).
+E tranquillo, non sono qui per dirti la solita cosa su 'segui la tua passione!'. Tanto per dirla tutta, se avessi seguito quel consiglio, a quest'ora probabilmente sarei in Perù ad accudire alpaca vestito solo di un telo che copre le parti intime invece che qui a scrivere tra una call e l'altra.
 
-La verità? Per anni ho creduto che bastasse un buono sconto su Headspace e un poster motivazionale con le montagne per trasformare il **lavoro** in una via di illuminazione. Poi mi sono accorto che la mia "essenza autentica" durante gli sprint lavorativi assomigliava più a Gollum che a un **saggio taoista**.
-
-Ecco cosa ho imparato: lavorare felici non significa diventare monaci zen che codificano HTML (anche se, ammetto, la tonaca avrebbe il suo perché). *Si tratta di smetterla di fingere di essere la versione LinkedIn di te stesso.*
+Ora mi tocca però essere sincero ed ammettere cioè che per diversi anni ho pensato che un po' di meditazione guidata su un'app gratuita e un poster ispiratore appeso in ufficio dietro lo schermo del computer potessero trasformare il mio lavoro da "girone dantesco degli sfigati" in una specie di viaggio spirituale illuminante. Poi pian pianino ho capito (e accettato) che nei momenti di caos quotidiano, la persona che ero davvero assomigliava più a Gollum che a un saggio illuminato, e che andava bene così. In tutto ciò ho imparato che Lavorare felici non significa diventare monaci zen che codificano HTML (anche se, ammetto, la tonaca avrebbe il suo perché). *Si tratta di smetterla di fingere di essere la versione LinkedIn di te stesso.*
 
 ## Essere se stessi al lavoro: cosa significa davvero
 
-Ricordo il giorno in cui ho realizzato che la mia "**maschera professionale**" aveva più strati di una cipolla. Meeting dopo meeting, mi ritrovavo a recitare la parte del **collaboratore entusiasta**, mentre dentro sognavo di lanciare post-it come shuriken.
+Ricordo ancora il giorno in cui ho realizzato che la mia "**maschera professionale**" aveva più strati di una cipolla rossa con anabolizzanti. E' stato un flash. Ho rivisto ogni Meeting, ogni discussione, dove mi ritrovavo a recitare la parte del **collaboratore entusiasta**. Ho rivissuto il mio teatrino patetico di amore e sottomissione per l'azienda, come un Fantozzi 3.0 mentre dentro sognavo di lanciare post-it come un ninja lancia shuriken.
 
-Essere autentici sul lavoro è come andare al primo appuntamento senza filtri Instagram: **spaventoso, ma liberatorio**. Provate a sostituire "sono d’accordo con la tua proposta" con "questa idea mi ricorda quando mio nipote ha colorato il gatto con gli acrilici". Vedrete scintille.
-
-Quando ho iniziato a sostituire i soliti "action item" nelle email con metafore tratte dal **Tao Te Ching** ("Il progetto è come un fiume: seguiamo la corrente ma evitiamo le cascate"), qualcuno ha pensato fossi posseduto. Altri hanno sorriso. **Tutti mi hanno ricordato.**
+Devi capire che essere autentici sul lavoro è come andare al primo appuntamento Tinder senza filtri Instagram: **spaventoso, ma liberatorio**. Se vuoi vedere scintille prova a sostiuire "sono d’accordo con la tua proposta" con "questa idea mi ricorda id quando mio nipote ha colorato il gatto con i pennarelli acrilici". Te lo sconsiglio in ogni caso però posso garantirti che quando ho iniziato a sostituire i soliti "action item" nelle email con metafore tratte dal **Tao Te Ching** ("Il progetto è come un fiume: seguiamo la corrente ma evitiamo le cascate"), qualcuno ha pensato fossi posseduto. Altri hanno sorriso. **Tutti mi hanno ricordato.** 
 
 ## Felicità al lavoro: cosa è (e cosa non è)
 
-Se pensate che la felicità lavorativa sia un open space con il calcetto balilla, vi invito a osservare i colleghi che ci giocano: sembrano orsi polari in un centro commerciale.
+"Ammettemialo: quel tavolo da calcio balilla in ufficio non rende nessuno più felice. Guardate i colleghi che ci giocano - hanno la stessa espressione spaesata di un orso al centro commerciale.
 
-Il **Wu wei** taoista applicato al lavoro moderno? È quella strana alchimia che succede *quando smetti di combattere contro la tua natura*. Tipo quando ho scoperto che scrivere report aziendali in forma di haiku non solo era accettato, ma migliorava la retention dei lettori del 40%.
+La vera svolta per me è stata smettere di lottare contro il mio modo di essere. [Di come ho smesso di inseguire il tempo](/come-ho-smesso-di-inseguire-il-tempo) Vi faccio un esempio: quando ho cominciato a scrivere i report aziendali in forma di haiku, non solo li approvavano, ma la gente finalmente li leggeva davvero."
 
 ## Micro-pratiche di mindfulness in ufficio (5 minuti)
 
@@ -94,19 +90,25 @@ Desideri le patatine? = Attaccamento materiale
 Ti irriti perché è vuoto? = Resistenza al Dharma
 Offri il tuo snack a un collega? = Sei già un bodhisattva
 
-## Colleghi difficili: esercizio pratico (con ironia)
+Puoi anche approfondire l'argomento "meditazione senza essere diventare un Budda" con questo articolo: ["Come meditare senza sedersi gambe incrociate".](/come-meditare-senza-sedersi-a-gambe-incrociate)  
 
-La Kabbalah insegna che ogni persona riflette una scintilla divina. Con Sandra, provate questo esercizio:
+## Colleghi difficili: esercizio pratico
 
-Visualizzatela come vostra maestra spirituale in una vita passata.
-*Immaginatevi cosa vi deve insegnare* (pazienza? Umiltà? Tecniche di respiro per non strangolarla?).
-Offritele mentalmente un mandarino. Funziona.
+Vi propongo un gioco con il vostro collega odioso Aurelio:
+
+**La Kabbalah** dice che ognuno di noi porta dentro una luce unica ed inimitabile. Ora provate a vedere Aurelio, (leccacu** galattico), come se fosse stato ll vostro maestro spirituale in un'altra vita.
+
+Fatevi questa domanda: cosa potrebbe insegnarvi? La pazienza? L'umiltà? O semplicemente una [tecnica di respirazione](/mindfulness-ironica/vipassana-urbana) per non perdere la pazienza?
+
+Poi, regalategli mentalmente un mandarino.
+
+So che suona strano, ma funziona. Provare per credere.
 
 ## Vocazione e allineamento: come trovarli senza guru
 
-Per anni ho cercato la mia "missione divina" come se fosse l’ultimo pezzo di puzzle. Poi ho capito: *il Dharma non è un traguardo, è il modo in cui cammini.*
+"Vi confesso che per anni ho rincorso la mia 'missione di vita' come fosse il Santo Graal. Poi ho realizzato che non è dove arrivi che conta, ma come ci cammini.
 
-Il mio momento "eureka"? Quando ho trasformato una noiosissima analisi dati in una storia fantasy (i KPI diventarono draghi, le metriche pozioni magiche). Il capo mi guardò come se avessi il cervello fuso. Ma due settimane dopo, il cliente ci ringraziò per "l’approccio visionario".
+La mia intuizione è stata Trasformare una relazione noiosa in una storia fantasy con numeri che diventano draghi, grafici che si facevano incantesimi. Il capo pensava fossi impazzito. Il risultato è stato che due settimane dopo il cliente ci elogiava per la nostra 'visione unica'.
 
 {% include howto.html %}
 
@@ -117,14 +119,15 @@ Il mio momento "eureka"? Quando ho trasformato una noiosissima analisi dati in u
 
 ## Conclusione
 
-Essere autentici sul lavoro non renderà magicamente **sopportabili** le riunioni infinite. Ma forse, tra una slide e l’altra, scopriremo che sotto la cravatta stretta batte ancora quel **bambino** che voleva fare l’astronauta/ballerino/paleontologo.
+Essere sé stessi in ufficio non renderà magicamente sopportabili le riunioni infinite, ne renderà sopportabile Aurelio però, tra una presentazione e l'altra, potremmo scoprire che sotto la giacca da lavoro batte ancora il cuore di quel bambino che sognava di fare il pittore o la ballerina.
 
-La prossima volta che Excel ti crasha, prova questo mantra: "Om mani padme hum... o forse era Ctrl+Z?".
 
 ## Sostieni il mio lavoro
 
 Se questo articolo ti ha fatto ridere/storcere la bocca/pensare "ma che ca\*\*\*o ho appena letto?", considera di:
 
+
+* Provare il metodo di defusione [I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia) per una calma operativa
 * Offrirmi un caffè virtuale con [PayPal](https://www.paypal.me/pythonmat) (ne berrò uno reale, promesso)
 * Condividerlo con quel collega che ancora crede negli unicorni aziendali
 * Inviarmi la tua miglior storia horror/spirituale da ufficio. La più folle vince un mandarino energetico (vero, mica virtuale).

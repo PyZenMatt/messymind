@@ -72,12 +72,12 @@ seo_title: 'Metodo I.R.O.N.I.A.: perché l’ironia è una forma di consapevolez
 ## Dal router al metodo
 
 Ho appena realizzato che Il mio router ha sviluppato un tempismo mistico. Si blocca solo quando sto per dire qualcosa di importante in call.
-Nel post [“Se tutto è coscienza, perché continuo a litigare con il router?”](/faggin-coscienza-ironia-router) parlo di **reset** **cognitivo** cioè il momento in cui capisci che non serve più segnale, serve più silenzio.
+Nel post [“Se tutto è coscienza, perché continuo a litigare con il router?”](/mindfulness-ironica/faggin-coscienza-ironia-router/) parlo di **reset** **cognitivo** cioè il momento in cui capisci che non serve più segnale, serve più silenzio.
 
 Da lì nasce il Metodo **I.R.O.N.I.A**.: un sistema leggero, laico, che unisce la lucidità della mente al senso dell’**umorismo**.
 Perché ridere, quando è fatto bene, è la nostra versione umana del “riavvia e aggiorna”.
 Non è fuga spirituale ne trascendere questa realtà staccandosi da ogni bene materiale come un Budda o San Francesco d'Assisi.  
-Vedilo piuttosto come un antivirus contro quel [**riduzionismo** **mentale**](/riduzionismo) automatico  che scambia ogni pensiero per un bug personale da correggere.
+Vedilo piuttosto come un antivirus contro quel [**riduzionismo** **mentale**](/filosofia-pratica/riduzionismo) automatico  che scambia ogni pensiero per un bug personale da correggere.
 
 ## Da dove nasce
 
@@ -101,14 +101,14 @@ L’ironia, in questo quadro, è la cerniera tra corpo e pensiero: spezza la ser
 
 La nostra mente, o perlomeno la mia, non ragiona, non pensa, la mente **recita**. E recita un copione piuttosto vario.
 Cambia voce, tono, scenario. E spesso , troppo spesso, si crede Fellini.
-A voi una breve replica del mio** teatro interiore**:
+A voi una breve replica del mio **teatro interiore**:
 
 > “Hai detto una cavolata, sei stupido”
 “Ma no, forse non ti hanno sentito.”
 “Ora penseranno che sei incompetente.”
 
 Fine atto primo. Applausi della critica interna.
-La psicologia lo chiama [**fusione cognitiva**](/bias-cognitivi): credere alle proprie **sceneggiature** **mentali** come se fossero cronaca da tg5.
+La psicologia lo chiama [**fusione cognitiva**](/filosofia-pratica/bias-cognitivi): credere alle proprie **sceneggiature** **mentali** come se fossero cronaca da tg5.
 La defusione, invece, è la capacità di sedersi in platea e riconoscere che stai guardando un film.
 Io l’ho scoperto mentre mi arrabbiavo con il modem: non era lui ad essere difettoso, era la mia mente che cercava un colpevole.
 
@@ -124,7 +124,7 @@ L’ironia non nega la realtà la restituisce proporzionata.
 ## I sei verbi, non un dogma
 
 Il metodo I.R.O.N.I.A. non è il solito mantra.  (non dico che sia migliore, ma dico che sia diverso) .
-Guardalo come una mappa mentale, una guida, un metodo che ti è utile quando viene assalito dal dubbio, dalla paranoia, dall'ansia, dal [catastrofismo](/pensiero-catastrofico) Etichetta, ridi e lascia andare.
+Guardalo come una mappa mentale, una guida, un metodo che ti è utile quando viene assalito dal dubbio, dalla paranoia, dall'ansia, dal [catastrofismo](/filosofia-pratica/pensiero-catastrofico) Etichetta, ridi e lascia andare.
 
 Ecco a te i sei verbi per ritrovare il baricentro senza diventare un asceta del multitasking.
 
@@ -141,13 +141,13 @@ Ecco a te i sei verbi per ritrovare il baricentro senza diventare un asceta del 
 **A**: *Agisci* entro 15 minuti, anche male, ma nel reale.
 
 
-Se vuoi la versione operativa, la trovi in [“Applicare il Metodo I.R.O.N.I.A."](/metodo-ironia). Li trovi anche il pdf gratuito con l'IRP (indice ruminazione pratica) e l'applicaizone giorno per giorno.
+Se vuoi la versione operativa, la trovi in [“Applicare il Metodo I.R.O.N.I.A."](/mindufulness-ironica/metodo-ironia). Li trovi anche il pdf gratuito con l'IRP (indice ruminazione pratica) e l'applicaizone giorno per giorno.
 Qui ti basta sapere che ogni verbo è un micro-atto di defusione:
 Identificare ≠ giudicare. Ridimensionare ≠ negare. Agire ≠ reagire.
 
 ## I bias come nemici invisibili
 
-La fusione cognitiva non lavora da sola. Ha dei complici noti in psicologia, e molto abusati da aziende che si ritengono cool: [**i bias cognitivi**](/bias-cognitivi) — distorsioni automatiche che amplificano la tragedia.
+La fusione cognitiva non lavora da sola. Ha dei complici noti in psicologia, e molto abusati da aziende che si ritengono cool: [**i bias cognitivi**](/filosofia-pratica/bias-cognitivi) — distorsioni automatiche che amplificano la tragedia.
 
 Bias|	Descrizione|	Esempio quotidiano|	Risposta ironica
 Catastrofizzazione|	Esagera l’esito peggiore|	“Se sbaglio, mi licenziano”	|“Perfetto, avrò più tempo per meditare (male)”
