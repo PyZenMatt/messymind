@@ -752,3 +752,441 @@ blockquote {
   position: relative;
   z-index: 2; /* Above overlay */
 }
+
+// ============================================
+// Related Posts & Crosslinks - Dark Mode Fixes
+// ============================================
+
+// Related Posts Section
+.related-posts-section {
+  background-color: rgba(255, 255, 255, 0.02) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: $radius !important;
+  padding: 1.5rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1.5rem !important;
+
+  h3 {
+    color: #ffffff !important;
+    font-size: 1.25rem !important;
+    font-weight: $font-weight-semibold !important;
+    margin-bottom: 1.25rem !important;
+  }
+}
+
+.simple-related-list {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.75rem !important;
+}
+
+.related-item {
+  padding: 1rem !important;
+  border-radius: calc($radius / 2) !important;
+  background-color: rgba(79, 138, 139, 0.08) !important;
+  border-left: 3px solid $primary !important;
+  transition: all 0.3s ease !important;
+
+  &:hover {
+    background-color: rgba(79, 138, 139, 0.15) !important;
+    transform: translateX(4px) !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    display: block !important;
+    color: inherit !important;
+
+    h6 {
+      color: $primary !important;
+      margin-bottom: 0.5rem !important;
+      font-weight: $font-weight-semibold !important;
+      transition: color 0.2s ease !important;
+
+      &:hover {
+        color: $accent !important;
+      }
+    }
+
+    small {
+      color: rgba(255, 255, 255, 0.6) !important;
+      font-size: 0.85rem !important;
+    }
+  }
+}
+
+// Category Navigation Button
+.category-navigation {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+
+  .btn {
+    background-color: $primary !important;
+    border-color: $primary !important;
+    color: #ffffff !important;
+    padding: 0.75rem 1.5rem !important;
+    font-weight: $font-weight-medium !important;
+    transition: all 0.3s ease !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+
+    &:hover {
+      background-color: lighten($primary, 10%) !important;
+      border-color: lighten($primary, 10%) !important;
+      box-shadow: 0 4px 12px rgba(79, 138, 139, 0.25) !important;
+      text-decoration: none !important;
+    }
+
+    svg {
+      width: 16px !important;
+      height: 16px !important;
+      flex-shrink: 0 !important;
+    }
+  }
+}
+
+// Related Crosslinks Component
+.related-crosslinks {
+  margin: 2.5rem 0 !important;
+
+  .crosslinks-box {
+    background: linear-gradient(135deg, rgba(79, 138, 139, 0.08) 0%, rgba(249, 127, 81, 0.05) 100%) !important;
+    border-color: rgba(79, 138, 139, 0.25) !important;
+    border-left: 4px solid $primary !important;
+    padding: 1.5rem !important;
+    border-radius: $radius !important;
+
+    h2 {
+      color: #ffffff !important;
+      font-weight: $font-weight-semibold !important;
+      font-size: 1.1rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+
+    nav ul li {
+      padding: 0.65rem 0 !important;
+
+      a {
+        color: $primary !important;
+        font-weight: $font-weight-medium !important;
+        text-decoration: none !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 0.4rem !important;
+        transition: all 0.2s ease !important;
+
+        &:hover {
+          color: $accent !important;
+          text-decoration: underline !important;
+          gap: 0.6rem !important; // Slight animation effect
+        }
+
+        svg {
+          flex-shrink: 0 !important;
+          transition: transform 0.2s ease !important;
+        }
+
+        &:hover svg {
+          transform: translateX(2px) !important;
+        }
+      }
+
+      &:first-child a {
+        font-weight: $font-weight-bold !important;
+      }
+    }
+  }
+}
+
+// Dark Mode Specific Fixes for Related Sections
+html.dark {
+  .related-posts-section {
+    background-color: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+
+    h3 {
+      color: #ffffff !important;
+    }
+  }
+
+  .related-item {
+    background-color: rgba(79, 138, 139, 0.1) !important;
+    border-color: rgba(79, 138, 139, 0.4) !important;
+
+    &:hover {
+      background-color: rgba(79, 138, 139, 0.18) !important;
+    }
+
+    a {
+      h6 {
+        color: #4F8A8B !important;
+      }
+
+      small {
+        color: #b0b0b0 !important;
+      }
+    }
+  }
+
+  .related-crosslinks .crosslinks-box {
+    background: linear-gradient(135deg, rgba(79, 138, 139, 0.1) 0%, rgba(249, 127, 81, 0.06) 100%) !important;
+    border-color: rgba(79, 138, 139, 0.3) !important;
+
+    h2 {
+      color: #ffffff !important;
+    }
+
+    nav ul li a {
+      color: #4F8A8B !important;
+
+      &:hover {
+        color: #F97F51 !important;
+      }
+    }
+  }
+
+  .category-navigation .btn {
+    background-color: #4F8A8B !important;
+    border-color: #4F8A8B !important;
+    color: #ffffff !important;
+
+    &:hover {
+      background-color: #5a9b9d !important;
+      border-color: #5a9b9d !important;
+    }
+  }
+
+  // Ensure post-next section is also styled properly
+  .post-next {
+    background-color: rgba(79, 138, 139, 0.08) !important;
+    border-color: rgba(79, 138, 139, 0.25) !important;
+
+    p, a {
+      color: #ffffff !important;
+    }
+
+    a:hover {
+      color: $accent !important;
+    }
+  }
+}
+
+// ============================================
+// Post Navigation Section - Modern Styling
+// ============================================
+
+.post-next {
+  background: linear-gradient(135deg, rgba(79, 138, 139, 0.08) 0%, rgba(249, 127, 81, 0.04) 100%) !important;
+  border: 2px solid rgba(79, 138, 139, 0.2) !important;
+  border-radius: $radius !important;
+  padding: 2rem !important;
+  margin: 2.5rem 0 !important;
+  position: relative !important;
+  overflow: hidden !important;
+
+  // Decorative accent line on the left
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, $primary 0%, $accent 100%);
+  }
+
+  p {
+    color: #ffffff !important;
+    font-size: 0.9rem !important;
+    font-weight: $font-weight-medium !important;
+    margin-bottom: 1rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    opacity: 0.85 !important;
+  }
+
+  a {
+    color: $primary !important;
+    text-decoration: none !important;
+    font-weight: $font-weight-semibold !important;
+    font-size: 1.1rem !important;
+    display: block !important;
+    padding: 0.75rem 0 !important;
+    transition: all 0.3s ease !important;
+    word-break: break-word !important;
+    position: relative !important;
+    padding-left: 1rem !important;
+
+    &::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      opacity: 0;
+      transform: translateX(-8px);
+      transition: all 0.3s ease !important;
+    }
+
+    &:hover {
+      color: $accent !important;
+      padding-left: 1.5rem !important;
+
+      &::before {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+
+  // Remove quotes styling for cleaner look
+  a {
+    &::after {
+      content: none !important;
+    }
+  }
+}
+
+// Remove default hr styling and make it more subtle
+.rule {
+  border: 0 !important;
+  height: 1px !important;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent) !important;
+  margin: 2.5rem 0 !important;
+}
+
+// Dark mode specific tweaks for post-next
+html.dark {
+  .post-next {
+    background: linear-gradient(135deg, rgba(79, 138, 139, 0.12) 0%, rgba(249, 127, 81, 0.06) 100%) !important;
+    border-color: rgba(79, 138, 139, 0.3) !important;
+
+    p {
+      color: #ffffff !important;
+      opacity: 0.85 !important;
+    }
+
+    a {
+      color: #4F8A8B !important;
+
+      &:hover {
+        color: #F97F51 !important;
+      }
+    }
+  }
+
+  .rule {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent) !important;
+  }
+}
+
+// ============================================
+// Post Navigation Buttons - Modern Styling
+// ============================================
+
+.clearfix {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 1rem !important;
+  align-items: center !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 2rem !important;
+
+  @media (max-width: 576px) {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+}
+
+// Navigation buttons styling
+.btn.btn-primary {
+  // Remove Bootstrap's float-left/float-right
+  float: none !important;
+  flex: 1 !important;
+  min-height: 48px !important; // Touch-friendly target
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.6rem !important;
+  font-weight: $font-weight-medium !important;
+  font-size: 1rem !important;
+  background-color: $primary !important;
+  border-color: $primary !important;
+  color: #ffffff !important;
+  border-radius: $radius !important;
+  padding: 0.75rem 1.5rem !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  position: relative !important;
+  overflow: hidden !important;
+
+  // Add subtle background animation on hover
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease !important;
+    z-index: -1;
+  }
+
+  &:hover {
+    background-color: lighten($primary, 10%) !important;
+    border-color: lighten($primary, 10%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 6px 16px rgba(79, 138, 139, 0.3) !important;
+    transform: translateY(-2px) !important;
+    text-decoration: none !important;
+
+    &::before {
+      left: 100%;
+    }
+  }
+
+  &:active {
+    transform: translateY(0) !important;
+  }
+
+  // Responsive text
+  .d-none {
+    @media (max-width: 768px) {
+      display: none !important;
+    }
+  }
+
+  .d-md-inline {
+    @media (max-width: 768px) {
+      display: none !important;
+    }
+  }
+}
+
+// Dark mode button styling
+html.dark {
+  .btn.btn-primary {
+    background-color: #4F8A8B !important;
+    border-color: #4F8A8B !important;
+    color: #ffffff !important;
+
+    &:hover {
+      background-color: #5a9b9d !important;
+      border-color: #5a9b9d !important;
+      box-shadow: 0 6px 16px rgba(79, 138, 139, 0.4) !important;
+    }
+  }
+}
+
+// Remove Bootstrap's float utilities that were causing misalignment
+.float-left,
+.float-right {
+  float: none !important;
+}
+
+// Extra spacing after the last hr before navigation
+hr {
+  &:last-of-type {
+    margin-bottom: 2rem !important;
+  }
+}

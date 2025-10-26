@@ -14,36 +14,18 @@
   {% endfor %}
 
   {% if related_posts.size > 0 %}
-    <div class="related-posts-section mt-5 pt-4 border-top">
+    <div class="related-posts-section">
       <h3 class="mb-4">📚 Articoli Correlati</h3>
       <div class="simple-related-list">
         {% for related_post in related_posts %}
-          <div class="related-item mb-2">
+          <div class="related-item">
             <a href="{{ related_post.url | relative_url }}" class="text-decoration-none d-block" title="Leggi: {{ related_post.title }}">
-              <h6 class="mb-1 text-primary">{{ related_post.title }}</h6>
-              <small class="text-muted">{{ related_post.date | date: '%d/%m/%Y' }}</small>
+              <h6 class="mb-1">{{ related_post.title }}</h6>
+              <small>{{ related_post.date | date: '%d/%m/%Y' }}</small>
             </a>
           </div>
         {% endfor %}
       </div>
     </div>
   {% endif %}
-{% endif %}
-
-<!-- Link "Torna alla categoria" -->
-{% if page.categories %}
-  {% assign category = page.categories | first %}
-  <div class="category-navigation mt-4 text-center">
-    {% assign key = category | downcase %}
-    {% assign mapped = site.data.category_slugs[key] %}
-    {% if mapped %}
-      <a href="{{ mapped | relative_url }}" class="btn btn-secondary">
-        <svg class="icon icon-arrow-left" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M14 7l-5 5 5 5V7z" fill="#fff"/></svg> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
-      </a>
-    {% else %}
-      <a href="{{ '/categorie/' | append: category | slugify | append: '/' | relative_url }}" class="btn btn-secondary">
-        <svg class="icon icon-arrow-left" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M14 7l-5 5 5 5V7z" fill="#fff"/></svg> Altri articoli su {{ category | capitalize | replace: '-', ' ' }}
-      </a>
-    {% endif %}
-  </div>
 {% endif %}

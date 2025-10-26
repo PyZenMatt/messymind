@@ -51,15 +51,15 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <div class="crosslinks-box bg-light p-4 rounded border">
-          <h2 id="crosslinks-heading" class="h5 mb-3">Esplora argomenti correlati</h2>
+        <div class="crosslinks-box rounded border">
+          <h2 id="crosslinks-heading" class="mb-3">Esplora argomenti correlati</h2>
           
           <nav aria-label="Link correlati">
             <ul class="list-unstyled mb-0">
               {% comment %} Link al cluster parent {% endcomment %}
-              <li class="mb-2">
-                <a href="{{ category_url | relative_url }}" class="text-decoration-none fw-semibold">
-                  <svg class="icon-arrow me-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <li>
+                <a href="{{ category_url | relative_url }}" class="text-decoration-none">
+                  <svg class="icon-arrow" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                     <path d="M15 19l-7-7 7-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                   Torna a {{ cat_display }}
@@ -77,9 +77,9 @@
                   {% assign sub_url = '/categorie/' | append: cat_slug | append: '/' | append: sub_clean | append: '/' %}
                 {% endif %}
                 
-                <li class="mb-2">
+                <li>
                   <a href="{{ sub_url | relative_url }}" class="text-decoration-none">
-                    <svg class="icon-arrow me-2" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <svg class="icon-arrow" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                       <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                     {{ sub | replace: '-', ' ' | capitalize }}
@@ -93,38 +93,3 @@
     </div>
   </div>
 </aside>
-
-<style>
-/* Inline CSS for crosslinks */
-.related-crosslinks {
-  margin-top: 3rem;
-}
-
-.crosslinks-box {
-  border-left: 4px solid var(--bs-primary, #4f8a8b) !important;
-  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
-}
-
-.crosslinks-box a {
-  color: var(--bs-dark, #212529);
-  transition: color 0.2s ease;
-  display: inline-flex;
-  align-items: center;
-}
-
-.crosslinks-box a:hover {
-  color: var(--bs-primary, #4f8a8b);
-}
-
-.crosslinks-box .icon-arrow {
-  flex-shrink: 0;
-}
-
-.crosslinks-box li {
-  padding: 0.5rem 0;
-}
-
-.crosslinks-box .fw-semibold {
-  font-weight: 600;
-}
-</style>

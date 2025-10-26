@@ -134,25 +134,19 @@ layout: default
           {% else %}
             {% assign sub_url = category_url | append: subslug | append: '/' | relative_url %}
           {% endif %}
-            <hr class="rule">
-            <style>
-            .rule{border:0;height:1px;background:#e5e7eb;margin:2rem 0;}
-            </style>
-          <aside class="post-next my-4 p-3 border rounded">
-            <p class="mb-1">Continua a leggere articoli simili su</p>
-            <a class="d-block mb-2" href="{{ sub_url }}">
-              “{{ page.subcluster | replace: '-', ' ' | capitalize }}"
+          <div class="rule"></div>
+          <aside class="post-next">
+            <p>📖 Continua su</p>
+            <a href="{{ sub_url }}" title="Esplora: {{ page.subcluster | replace: '-', ' ' | capitalize }}">
+              {{ page.subcluster | replace: '-', ' ' | capitalize }}
             </a>
-            <p class="mb-1">Oppure esplora l'intera categotia</p>
-            <a class="d-block" href="{{ category_url }}">
-              “{{ cluster | replace: '-', ' ' | capitalize }}”
+            <p style="margin-top: 1.5rem; margin-bottom: 0.75rem;">🏠 Oppure visita</p>
+            <a href="{{ category_url }}" title="Vai a: {{ cluster | replace: '-', ' ' | capitalize }}">
+              {{ cluster | replace: '-', ' ' | capitalize }}
             </a>
           </aside>
         {% endif %}
-            <hr class="rule">
-            <style>
-            .rule{border:0;height:1px;background:#e5e7eb;margin:2rem 0;}
-            </style>
+        <div class="rule"></div>
         <!-- Related Posts -->
         {% include related-posts.html %}
 
@@ -170,11 +164,17 @@ layout: default
         <hr>
       
         <div class="clearfix">
-      {% if page.previous and page.previous.url %}
-      <a class="btn btn-primary float-left" href="{{ page.previous.url | relative_url }}" rel="prev" aria-label="Articolo precedente: {{ page.previous.title }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Articolo precedente<span class="d-none d-md-inline"> Post</span></a>
+          {% if page.previous and page.previous.url %}
+            <a class="btn btn-primary" href="{{ page.previous.url | relative_url }}" rel="prev" aria-label="Articolo precedente: {{ page.previous.title }}" title="{{ page.previous.title }}">
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Precedente</span>
+            </a>
           {% endif %}
           {% if page.next and page.next.url %}
-      <a class="btn btn-primary float-right" href="{{ page.next.url | relative_url }}" rel="next" aria-label="Articolo successivo: {{ page.next.title }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Articolo successivo<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+            <a class="btn btn-primary" href="{{ page.next.url | relative_url }}" rel="next" aria-label="Articolo successivo: {{ page.next.title }}" title="{{ page.next.title }}">
+              <span>Successivo</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M9 18l6-6-6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
           {% endif %}
         </div>
       </div>
