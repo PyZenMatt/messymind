@@ -203,9 +203,11 @@ Se affondi, chiedi aiuto. Non è debolezza. È l’unico atto di forza che ti ri
 Il burnout non è un badge d'onore. È il segno di un sistema tossico. Riconoscerlo non è fallimento: è lucidità.
 
 **E allora?**  
-Scegli un pensiero tossico che ti assale spesso. Etichettalo: *“Trailer catastrofico.”*  
+Scegli un pensiero tossico che ti assale spesso. Etichettalo: *"Trailer catastrofico."*  
 **Interrompi** con 30 secondi di respiro. Poi **Agisci**: un micro-passo, entro due minuti.
 
 Spegni il fuoco. Un gesto alla volta.  
 La tua vita vale più di così.
+
+{% include disclaimer-ironia.html %}
 
