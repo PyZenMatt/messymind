@@ -2,7 +2,7 @@
 <nav aria-label="breadcrumb" class="breadcrumb-container">
   <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
     <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a href="{{ '/' | relative_url }}" itemprop="item" itemscope itemtype="https://schema.org/WebPage">
+      <a href="{{ '/' | relative_url }}" itemprop="item" itemid="{{ '/' | absolute_url }}" itemscope itemtype="https://schema.org/WebPage">
         <span itemprop="name">Home</span>
       </a>
       <meta itemprop="position" content="1" />
@@ -30,7 +30,7 @@
       {% assign category_url_abs = category_path | absolute_url %}
       {% assign category_url_rel = category_path | relative_url %}
       <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="{% if mapped %}{{ mapped | relative_url }}{% else %}{{ category_path | relative_url }}{% endif %}" itemprop="item" itemscope itemtype="https://schema.org/WebPage">
+        <a href="{% if mapped %}{{ mapped | relative_url }}{% else %}{{ category_path | relative_url }}{% endif %}" itemprop="item" itemid="{% if mapped %}{{ mapped | absolute_url }}{% else %}{{ category_path | absolute_url }}{% endif %}" itemscope itemtype="https://schema.org/WebPage">
           <span itemprop="name">{{ category | replace: '-', ' ' | capitalize }}</span>
         </a>
         <meta itemprop="position" content="2" />
@@ -51,7 +51,7 @@
         {% assign sub_url_abs = sub_path | absolute_url %}
         {% assign sub_url_rel = sub_path | relative_url %}
         <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="{% if mapped_sub %}{{ mapped_sub | relative_url }}{% else %}{{ sub_path | relative_url }}{% endif %}" itemprop="item" itemscope itemtype="https://schema.org/WebPage">
+          <a href="{% if mapped_sub %}{{ mapped_sub | relative_url }}{% else %}{{ sub_path | relative_url }}{% endif %}" itemprop="item" itemid="{% if mapped_sub %}{{ mapped_sub | absolute_url }}{% else %}{{ sub_path | absolute_url }}{% endif %}" itemscope itemtype="https://schema.org/WebPage">
             <span itemprop="name">{{ page.subcluster | replace: '-', ' ' | capitalize }}</span>
           </a>
           <meta itemprop="position" content="3" />
