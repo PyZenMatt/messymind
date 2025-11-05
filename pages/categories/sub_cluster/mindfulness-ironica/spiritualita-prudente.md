@@ -16,8 +16,8 @@ permalink: categorie/mindfulness-ironica/spiritualita-prudente/
 category: mindfulness-ironica
 
 
-image: "/img/og-default.jpg"
-hero_image: "/img/og-default.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762329736/kundalini_1920_h2ueif.webp"
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762329736/kundalini_1920_h2ueif.webp"
 hero_alt: "Decisioni e bias cognitivi - MessyMind"
 intro: |
   Niente incenso obbligatorio. Solo pratiche che stanno in piedi anche accanto a Excel.

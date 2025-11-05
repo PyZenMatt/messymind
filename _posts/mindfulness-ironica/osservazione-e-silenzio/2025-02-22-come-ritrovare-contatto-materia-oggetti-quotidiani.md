@@ -4,16 +4,18 @@ title: Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo
 seo_title: Come Ritrovare il Contatto con la Materia | Guida Pratica al Materialismo Consapevole
 description: Scopri 5 metodi concreti per riconquistare il rapporto con gli oggettiquotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi dimindfulness tattile.
 seo_description: Scopri 5 metodi concreti per riconquistare il rapporto con gli oggettiquotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di mindfulness tattile.
-background: /img/materialismo.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042393/materialismo_qy6qqd.webp
 categories: mindfulness-ironica
 subcluster: osservazione-e-silenzio
 cornerstone: false
 featured_post: 'true'
-image: /img/materialismo.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042393/materialismo_qy6qqd.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042393/materialismo_qy6qqd.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042393/materialismo_qy6qqd.webp
 redirect_from:
 - /come-ritrovare-il-contatto-con-la-materia-guida-pratica-al-materialismo-consapevole/
 - //come-ritrovare-contatto-materia-oggetti-quotidiani/
-tags: ["consapevolezza", "filosofia moderna", "psicologia degli oggetti", "minimalismo", "artigianato"]
+tags: ["cornerstone", "consapevolezza", "filosofia moderna", "psicologia degli oggetti", "minimalismo", "artigianato"]
 
 ---
 # La strana storia di come abbiamo smesso di sentire le cose

@@ -10,8 +10,8 @@ category: filosofia-pratica
 intro: 'Hub: raccolta di guide e articoli su Coscienza e AI.'
 permalink: categorie/filosofia-pratica/coscienza-e-ai/
 
-image: "/img/og-default.jpg"
-hero_image: "/img/og-default.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757489886/ai-robot-1920_qsdxot.webp"
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757489886/ai-robot-1920_qsdxot.webp"
 hero_alt: "Decisioni e bias cognitivi - MessyMind"
 
 intro: |

@@ -8,10 +8,10 @@ last_modified_at: 2025-10-13
 categories: ["mindfulness-ironica"]
 subcluster:
 tags: ["defusione-cognitiva","act","howto","ruminazione","mindfulness-pratica", "cornerstone"]
-image: 
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
-lcp_image_alt: 
-og_image: 
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
 
 faqs:
 - question: "Cos’è il Metodo I.R.O.N.I.A. in breve?"

@@ -7,6 +7,7 @@ seo_description: Scopri come smettere di inseguire il successo tradizionale e tr
 categories: crescita-personale-anti-guru
 subcluster: desiderio-e-rinuncia
 date: 2025-03-31
+tags: [cornerstone]
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/bussola_n7zsmf.webp
 lcp_image_alt: Una persona suduta su un altalena mentre guarda l'infinito
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/bussola_n7zsmf.webp

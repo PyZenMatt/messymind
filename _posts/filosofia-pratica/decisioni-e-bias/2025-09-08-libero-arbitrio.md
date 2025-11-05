@@ -10,10 +10,10 @@ tags: ["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
 updated: '2025-09-08'
 image_author: cottonbro
 image_author_url: https://www.pexels.com/it-it/@cottonbro/
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-1920_uycfxp.webp
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-1920_uycfxp.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-600_fmjsoy.webp
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758433916/pexels-cottonbro-600_fmjsoy.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758433916/pexels-cottonbro-1920_uycfxp.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758433916/pexels-cottonbro-1920_uycfxp.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1758433916/pexels-cottonbro-600_fmjsoy.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1758433916/pexels-cottonbro-600_fmjsoy.webp
 redirect_from:
 - libero-arbitrio-e-determinismo-guida-semplice-compatibilismo-libet-schurger/
 - /libero-arbitrio-determinismo/

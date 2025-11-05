@@ -10,8 +10,8 @@ category: crescita-personale-anti-guru
 intro: 'Hub: raccolta di guide e articoli su Scelta E Cuore.'
 permalink: categorie/crescita-personale-antiguru/scelta-e-cuore
 
-image: "/img/og-default.jpg"
-hero_image: "/img/og-default.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042383/cuore_srndvo.jpg"
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042383/cuore_srndvo.jpg"
 hero_alt: "Decisioni e bias cognitivi - MessyMind"
 
 intro: |

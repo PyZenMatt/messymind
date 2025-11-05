@@ -7,9 +7,9 @@ seo_description: 'Perché secondo Federico Faggin l''IA non capirà mai davvero:
 categories: filosofia-pratica
 subcluster: coscienza-e-ai
 tags: ["cornerstone", "Faggin", "QIP", "coscienza", "IA", "filosofia della mente"]
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757489886/ai-robot-1920_qsdxot.webp
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757489886/ai-robot-1920_qsdxot.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757489915/ai-robot-600_ji6s2p.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757489886/ai-robot-1920_qsdxot.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757489886/ai-robot-1920_qsdxot.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1757489915/ai-robot-600_ji6s2p.webp
 image_alt: rappresentazioni di una mano robotica che tocca il dito di una mano umana
   come il quadro di Michelangelo la creazione di Adamo
 image_author: cottonbro

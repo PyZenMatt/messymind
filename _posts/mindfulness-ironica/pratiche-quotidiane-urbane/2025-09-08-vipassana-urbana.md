@@ -4,10 +4,10 @@ title: 'Vipassana Urbana: meditazione pratica per trovare calma in città'
 seo_title: 'Vipassana Urbana: meditazione pratica per trovare calma in città'
 description: 'Scopri cos''è la Vipassana urbana e come praticarla ogni giorno: camminata consapevole, pausa caffè e mindfulness anti-guru senza ritiri e senza incenso.'
 seo_description: 'Scopri cos''è la Vipassana urbana e come praticarla ogni giorno: camminata consapevole, pausa caffè e mindfulness anti-guru senza ritiri e senza incenso.'
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_1920_ojov4j.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757328498/meditazione_yoga_600_igow0o.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757328498/meditazione_yoga_1920_ojov4j.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757328498/meditazione_yoga_1920_ojov4j.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757328498/meditazione_yoga_1920_ojov4j.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1757328498/meditazione_yoga_600_igow0o.webp
 categories: mindfulness-ironica
 date: 2025-09-08 
 featured: 'true'

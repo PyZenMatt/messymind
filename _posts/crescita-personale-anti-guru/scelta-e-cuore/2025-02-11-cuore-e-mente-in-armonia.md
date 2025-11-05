@@ -6,10 +6,12 @@ description: Scopri come smettere di ascoltare la mente che ti vuole infilare in
 seo_description: Scopri come smettere di ascoltare la mente che ti vuole infilare in un ufficio open space dell'anima. Esercizi pratici per ex illuminati in crisi e aspiranti poeti falliti.
 categories: crescita-personale-anti-guru
 subcluster: scelta-e-cuore
-lcp_image: /img/cuore.jpg
-lcp_image: un cuore disegnato sulla sabbia
-image: /img/cuore.jpg
-background: /img/cuore.jpg
+tags: [cornerstone]
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042383/cuore_srndvo.jpg
+lcp_image_alt: un cuore disegnato sulla sabbia
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042383/cuore_srndvo.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042383/cuore_srndvo.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042383/cuore_srndvo.jpg
 date: 2025-02-11
 redirect_from:
 - /saggezza-del-cuore-come-non-farti-fregare-dalla-tua-mente-manuale-per-ex-buddha-in-saldo/

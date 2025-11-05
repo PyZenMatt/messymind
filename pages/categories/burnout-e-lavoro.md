@@ -19,7 +19,7 @@ topics:
     description: "Prova una cosa questa settimana: programma due pause da 10 minuti. Spegni le notifiche, cammina, respira, mangia una cosa che non è schiacciata in auto. Se dopo una settimana non senti nulla, ne proviamo un'altra. Dosi piccole, effetti cumulativi."
   - title: "Recupero e resilienza"
     description: "Vuoi materiali pratici (checklist 7 giorni, template per parlare con il manager, mini-plan per recuperare il sonno)? Li metto in fondo come download—pratici, zero fuffa."
-og_image: /img/categories/burnout-cover.webp
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757707488/burnout-1920_gggfbb.webp"
 twitter_card: summary_large_image
 featured_slugs:
   - autenticita-e-lavoro

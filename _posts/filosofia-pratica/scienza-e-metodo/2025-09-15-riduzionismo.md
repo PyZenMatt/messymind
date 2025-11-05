@@ -9,10 +9,10 @@ subcluster: scienza-e-metodo
 tags: ["filosofia pratica", "mindfulness ironica", "sistemi complessi"]
 image_author_url: https://www.pexels.com/it-it/@paduret/
 image_author: Dan Cristian Pădureț
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090614/schemda-madre-600_ugny08.webp
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758090615/schemda-madre-1920_fann2y.webp 
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758090615/schemda-madre-1920_fann2y.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1758090614/schemda-madre-600_ugny08.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758090615/schemda-madre-1920_fann2y.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758090615/schemda-madre-1920_fann2y.webp 
 image_alt: "una scheda madre di un computer smontata pezzo per pezzo"
 faq: true
 faq_items:

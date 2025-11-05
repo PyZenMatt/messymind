@@ -7,12 +7,13 @@ title: "Risveglio Kundalini: sintomi reali, effetti e insonnia"
 seo_title: "Risveglio Kundalini: sintomi reali, effetti e insonnia"
 seo_description: "Guida prudente al risveglio della Kundalini: sintomi reali, effetti, insonnia e come gestire ansia e energia senza rischi."
 description: "Guida chiara e prudente al risveglio della Kundalini: sintomi, rischi e consigli pratici per gestire insonnia e ansia, con FAQ e fonti."
-lcp_image: /img/kundalini_1920.webp
-image: /img/kundalini_1920.webp
-background: /img/kundalini_600.webp
-og_image: /img/kundalini_600.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762329736/kundalini_1920_h2ueif.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762329736/kundalini_1920_h2ueif.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1762329736/kundalini_1920_h2ueif.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1762329736/kundalini_1920_h2ueif.webp
 lcp_image_alt: "Una ragazza che medita tutta illuminata da una luce calda in stile risveglio kundalini"
 tags:
+- cornerstone
 - kundalini
 - risveglio spirituale
 - yoga

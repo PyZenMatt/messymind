@@ -7,13 +7,14 @@ seo_description: 'Dai diari della gratitudine ai gatti che sabotano la meditazio
 date: 21-10-2024
 categories: crescita-personale-anti-guru
 subcluster: felicita-realistica
-tags: ["felicita", "benessere", "autorealizzazione", "crescita personale"]
-image_author_url: https://pixabay.com
-image_author: pixabay
-lcp_image: 
+tags: ["cornerstone", "felicita", "benessere", "autorealizzazione", "crescita personale"]
+image_author_url: https://www.pexels.com/it-it/foto/ritaglia-la-donna-con-il-panino-in-mano-5692286/
+image_author: Alex Green
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762330002/sandwich_hlgntm.webp
 lcp_image_alt:
-image: /img/Loto.png
-background: /img/Loto.png
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762330002/sandwich_hlgntm.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1762330002/sandwich_hlgntm.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1762330002/sandwich_hlgntm.webp
 featured_post: 'false'
 redirect_from:
 - /la-felicita-quella-che-cerchi-scrollando-instagram-mentre-mangi-un-kebab-alle-2-di-notte/

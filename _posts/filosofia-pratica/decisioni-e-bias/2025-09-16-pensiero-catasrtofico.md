@@ -7,10 +7,10 @@ seo_description: "Cos’è il pensiero catastrofico e come ridurne l’impatto: 
 categories: filosofia-pratica
 subcluster: decisioni-e-bias
 date: 2025-09-15
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091305/catastrofe-600_yoozux.webp
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091306/catastrofe-1920_c3vq8t.webp"
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091306/catastrofe-1920_c3vq8t.webp"
-backgorund: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091305/catastrofe-600_yoozux.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1758091305/catastrofe-600_yoozux.webp
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758091306/catastrofe-1920_c3vq8t.webp"
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758091306/catastrofe-1920_c3vq8t.webp"
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1758091305/catastrofe-600_yoozux.webp
 image_alt: "illustrazione di una catastrofe reale"
 image_author: ""
 image_author_url: ""
@@ -22,7 +22,7 @@ tags:
  intolleranza dell’incertezza
  mindfulness pratica
  filosofia pratica
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758091306/catastrofe-1920_c3vq8t.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1758091306/catastrofe-1920_c3vq8t.webp
 faq: true
 faq_items:
 question: "Qual è la differenza tra preoccupazione normale e catastrofizzazione?"

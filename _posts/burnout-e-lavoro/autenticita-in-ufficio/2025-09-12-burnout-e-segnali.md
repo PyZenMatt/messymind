@@ -12,9 +12,9 @@ tags: ["burnout","segnali-burnout","autenticita-in-ufficio"]
 image_author: Anna Tarazevich
 image_author_url: https://annatarazevich.com/
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1757839184/burnout_2_1920_uii5jq.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1757839184/burnout_2_600_x1k4nf.webp
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757839184/burnout_2_1920_uii5jq.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1757839184/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/burnout_2_1920_uii5jq.webpv1757839184/burnout_2_1920_uii5jq.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1757839184/burnout_2_600_x1k4nf.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757839184/burnout_2_1920_uii5jq.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757839184/burnout_2_1920_uii5jq.webp
 image_alt: "Persona alla scrivania, stanchezza evidente: segnali di burnout"
 faqs:
 - question: "Come capire se ho il burnout?"

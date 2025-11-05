@@ -7,9 +7,9 @@ seo_description: 'Cos''è l''equilibrio interiore e come trovarlo senza santini 
 categories: mindfulness-ironica
 subcluster: equilibrio-interiore-per-persone-normali
 date: 2024-10-13
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044484/social_1600_nrkirb.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756044484/social_1600_nrkirb.webp
 featured_post: true
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756044485/social_600_hbnbdw.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756044485/social_600_hbnbdw.jpg
 redirect_from:
 - /equilibrio-interiore-5-mosse-pratiche-senza-guru-e-con-ironia/
 - /equilibrio-interiore-5-mosse-pratiche/

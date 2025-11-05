@@ -6,10 +6,10 @@ description: 'Scopri 5 esercizi pratici per il silenzio interiore: spegnere noti
 seo_description: 'Scopri 5 esercizi pratici per il silenzio interiore: spegnere notifiche, camminare senza cuffie, respirare meglio. Mindfulness ironica e zero fuffa.'
 categories: mindfulness-ironica
 subcluster: osservazione-e-silenzio
-image: /img/silenzio.jpg
-og_image: /img/silenzio.jpg
-lcp_image: /img/silenzio.jpg
-background: /img/silenzio.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042401/silenzio_sjrsqk.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042401/silenzio_sjrsqk.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042401/silenzio_sjrsqk.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042401/silenzio_sjrsqk.webp
 redirect_from:
 - /esercizi-per-il-silenzio-interiore-5-pratiche-anti-guru-per-sopravvivere-al-caos/
 - /crescita-autentica/esercizi-silenzio-interiore/

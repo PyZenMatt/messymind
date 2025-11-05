@@ -6,10 +6,10 @@ description: 'Mente che frulla, ansie che tornano, dubbi che ti perseguitano? Un
 seo_description: 'Mente che frulla, ansie che tornano, dubbi che ti perseguitano? Un viaggio ironico e concreto per smettere di credere alle favole che ti racconti. La libertà è più vicina di quel che pensi.'
 categories: mindfulness-ironica
 subcluster: osservazione-e-silenzio
-lcp_image: /img/osservatore.jpg
-og_image: /img/osservatore.jpg
-image: /img/osservatore.jpg
-background: /img/osservatore.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042395/osservatore_qtteo7.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042395/osservatore_qtteo7.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042395/osservatore_qtteo7.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042395/osservatore_qtteo7.webp
 lcp_alt: Donna che guarda attraverso un bicchiere ricevendo e riflettendo un immagine distorta di se stessa e della realtà
 redirect_from:
 - /sei-il-cielo-non-le-nuvole-come-scoprire-chi-sei-davvero-spoiler-non-sono-i-tuoi-pensieri/

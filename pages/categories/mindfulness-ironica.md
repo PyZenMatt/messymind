@@ -16,8 +16,8 @@ topics:
     description: "Esperienze autentiche di persone normali, senza idealizzazioni o promesse miracolose."
   - title: "Mindfulness urbana"
     description: "Strumenti per ritrovare equilibrio nel traffico quotidiano, non in un monastero silenzioso."
-hero_image: /img/categories/mindfulness-cover.webp
-lcp_image: /img/categories/mindfulness-cover-1600.webp
+hero_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757328498/meditazione_yoga_1920_ojov4j.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757328498/meditazione_yoga_1920_ojov4j.webp
 permalink: /categorie/mindfulness-ironica/
 redirect_from: 
 - /categorie/mindfulness/

@@ -11,8 +11,8 @@ tags: ["pensiero critico", "metacognizione", "euristiche", "decisioni", "corners
 og_image: "https://messymind.blog/images/bias-cognitivi-2025-og.jpg"
 image_author: Charlyzona
 image_author_url: https://commons.wikimedia.org/wiki/User:Charlyzona
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758432325/bias_1920_pi6izc.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1758432325/bias_600_tbqua3.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758432325/bias_1920_pi6izc.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1758432325/bias_600_tbqua3.webp
 ---
 
 **In breve** — I bias cognitivi sono scorciatoie mentali che velocizzano le decisioni sacrificando precisione. Qui trovi 10 bias comuni con esempi "metropolitani", 3 tecniche di debiasing validate e un'analisi sul legame con il libero arbitrio. Niente guru, solo esempi pratici.

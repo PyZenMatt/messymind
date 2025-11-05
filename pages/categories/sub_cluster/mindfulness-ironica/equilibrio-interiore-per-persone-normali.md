@@ -11,8 +11,8 @@ intro: 'Hub: raccolta di guide e articoli su Equilibrio Interiore Per Persone No
 permalink: categorie/mindfulness-ironica/equilibrio-interiore-per-persone-normali/
 category: mindfulness-ironica
 
-image: "/img/og-default.jpg"
-hero_image: "/img/og-default.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042407/yoga_xevt2g.webp"
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042407/yoga_xevt2g.webp"
 hero_alt: "Decisioni e bias cognitivi - MessyMind"
 
 intro: |

@@ -7,12 +7,12 @@ seo_description: Cosa voleva dire E=mc² (senza misticismi), la vera formula del
 date: 2025-02-18 
 categories: filosofia-pratica
 subcluster: scienza-e-metodo
-image: /img/relativita.jpg
-og_image: /img/relativita.jpg
-lcp_image: /img/relativita.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042397/relativita_pnbubc.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042397/relativita_pnbubc.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042397/relativita_pnbubc.webp
 image_alt: Albert Einstein e la formula E=mc²
-background: /img/relativita.jpg
-tags: ["Einstein", "E=mc²", "equivalenza massa-energia", "formula della felicità", "fact-check"]
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042397/relativita_pnbubc.webp
+tags: ["cornerstone", "Einstein", "E=mc²", "equivalenza massa-energia", "formula della felicità", "fact-check"]
 featured_post: true
 redirect_from:
 - /e-mc2-e-spiritualita-la-verita-scomoda-che-einstein-non-ti-ha-detto-con-umorismo/

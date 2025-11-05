@@ -22,7 +22,7 @@ topics:
   - title: "Filosofia senza accademichese"
     description: "Idee chiare da usare lunedì mattina, spiegate senza prerequisiti filosofici complessi."
 og_image: /img/categories/filosofia-pratica-cover.webp
-lcp_image: /img/categories/filosofia-pratica-cover-1600.webp
+hero_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762330002/cervello_pnyicx.webp
 image_alt: "Filosofia pratica per decisioni quotidiane"
 cornerstone_ids:
   - libero-arbitrio

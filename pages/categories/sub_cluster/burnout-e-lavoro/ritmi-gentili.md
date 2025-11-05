@@ -9,8 +9,8 @@ subcluster: ritmi-gentili
 category: burnout-e-lavoro
 intro: 'Hub: raccolta di guide e articoli su Ritmi Gentili.'
 permalink: categorie/burnout-e-lavoro/ritmi-gentili/
-image: "/img/og-default.jpg"
-hero_image: "/img/og-default.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042377/accettazione_gmjnsx.png"
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042377/accettazione_gmjnsx.png"
 hero_alt: 
 
 intro: |

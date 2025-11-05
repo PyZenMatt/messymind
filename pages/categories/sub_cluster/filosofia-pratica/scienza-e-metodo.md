@@ -9,8 +9,8 @@ permalink: /categorie/filosofia-pratica/scienza-e-metodo/
 subcluster: scienza-e-metodo
 intro: 'Hub: raccolta di guide e articoli su Scienza E Metodo'
 
-image: "/img/og-default.jpg"
-hero_image: "/img/og-default.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042397/relativita_pnbubc.webp"
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042397/relativita_pnbubc.webp"
 hero_alt: "Decisioni e bias cognitivi - MessyMind"
 
 intro: |

@@ -5,7 +5,7 @@ seo_title: "Perfezionismo: inizia anche se non è il momento perfetto"
 seo_description: "Tecnica dei 10 minuti, micro-abitudini e ‘log del bambù’: smetti di aspettare il momento giusto e parti oggi con un passo minimo, senza eroismi."
 categories: crescita-personale-anti-guru
 subcluster: antifragilita-e-perfezionismo
-tags: ["perfezionismo", "procrastinazione", "pazienza attiva", "micro abitudini", "miglioramento continuo", "kaizen", "compounding", "disciplina gentile"]
+tags: ["cornerstone", "perfezionismo", "procrastinazione", "pazienza attiva", "micro abitudini", "miglioramento continuo", "kaizen", "compounding", "disciplina gentile"]
 date: '2025-08-26'
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756192777/radici_1920_etnsz5.webp
 lcp_image_alt: "Piantine con radici: inizi imperfetti che crescono."

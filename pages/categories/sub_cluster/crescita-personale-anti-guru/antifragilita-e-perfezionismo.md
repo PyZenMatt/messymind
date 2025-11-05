@@ -11,8 +11,8 @@ subcluster: antifragilita-e-perfezionismo
 intro: 'Hub: raccolta di guide e articoli su Antifragilita E Perfezionismo.'
 permalink: categorie/crescita-personale-anti-guru/antifragilita-e-perfezionismo/
 
-image: "/img/og-default.jpg"
-hero_image: "/img/og-default.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756192777/radici_1920_etnsz5.webp"
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756192777/radici_1920_etnsz5.webp"
 hero_alt: "Decisioni e bias cognitivi - MessyMind"
 
 intro: |

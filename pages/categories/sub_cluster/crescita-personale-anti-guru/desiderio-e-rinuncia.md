@@ -11,8 +11,8 @@ subcluster: desiderio-e-rinuncia
 intro: 'Hub: raccolta di guide e articoli su Desiderio e Rinuncia.'
 permalink: categorie/crescita-personale-antiguru/desiderio-e-rinuncia/
 
-image: "/img/og-default.jpg"
-hero_image: "/img/og-default.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/bussola_n7zsmf.webp"
+hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/bussola_n7zsmf.webp"
 hero_alt: "Decisioni e bias cognitivi - MessyMind"
 
 intro: |

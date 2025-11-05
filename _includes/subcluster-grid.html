@@ -19,10 +19,20 @@
     {% assign sc_clean = sc | downcase | strip %}
     {% assign sc_posts = cat_posts | where: "subcluster", sc %}
     
-    {% comment %} Ottieni il primo post del subcluster per immagine e descrizione {% endcomment %}
-    {% assign sc_first = sc_posts | first %}
-    
+    {% comment %} Cerca pagina subcluster dedicata {% endcomment %}
     {% assign subkey = cat_slug | append: ':' | append: sc_clean %}
+    {% assign sc_page = site.pages | where: "category", cat_slug | where: "subcluster", sc_clean | first %}
+    
+    {% comment %} Ottieni immagine: priorità pagina subcluster > primo post {% endcomment %}
+    {% if sc_page and sc_page.image %}
+      {% assign sc_img = sc_page.image %}
+      {% assign sc_desc = sc_page.intro | default: sc_page.description %}
+    {% else %}
+      {% assign sc_first = sc_posts | first %}
+      {% assign sc_img = sc_first.image %}
+      {% assign sc_desc = sc_first.description %}
+    {% endif %}
+    
     {% assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil %}
     {% if mapped_sub %}
       {% assign sub_url = mapped_sub %}
@@ -34,8 +44,8 @@
     {% assign sc_obj = sc_obj | push: sc %}
     {% assign sc_obj = sc_obj | push: sub_url %}
     {% assign sc_obj = sc_obj | push: sc_posts.size %}
-    {% assign sc_obj = sc_obj | push: sc_first.image %}
-    {% assign sc_obj = sc_obj | push: sc_first.description %}
+    {% assign sc_obj = sc_obj | push: sc_img %}
+    {% assign sc_obj = sc_obj | push: sc_desc %}
     
     {% assign subclusters = subclusters | push: sc_obj %}
   {% endif %}

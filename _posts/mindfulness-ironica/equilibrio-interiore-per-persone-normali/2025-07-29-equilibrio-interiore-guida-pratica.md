@@ -6,10 +6,10 @@ seo_description: 'Equilibrio interiore e spirituale: guida pratica con simboli u
 categories: mindfulness-ironica
 subluster: equilibrio-interiore-per-persone-normali
 lcp_image_alt: Una persona in penombra intenta a meditare
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756042407/yoga_xevt2g.webp
-tags: [ "equilibrio interiore", "equilibrio spirituale", "simbolo equilibrio interiore", "gestione ansia", "tecniche spirituali","meditazione pratica", "crescita personale"]
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042407/yoga_xevt2g.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042407/yoga_xevt2g.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042407/yoga_xevt2g.webp
+tags: [ "cornerstone", "equilibrio interiore", "equilibrio spirituale", "simbolo equilibrio interiore", "gestione ansia", "tecniche spirituali","meditazione pratica", "crescita personale"]
 redirect_from:
 - /equilibrio-interiore-e-spirituale-significato-simboli-ed-esercizi-pratici/
 - /equilibrio-interiore-guida-pratica/

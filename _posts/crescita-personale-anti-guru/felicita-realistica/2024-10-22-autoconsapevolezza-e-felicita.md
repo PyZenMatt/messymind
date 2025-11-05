@@ -8,12 +8,11 @@ date: 2024-05-20
 categories: crescita-personale-anti-guru
 subcluster: felicita-realistica
 tags: ["come trovare la felicità interiore", "esercizi di meditazione quotidiana", "vulnerabilità come forza", "Brené Brown filosofia", "Frida Kahlo ispirazione", "Eckhart Tolle cambiamento", "umorismo esistenziale", "autocritica ironica"]
-lcp_image: /img/felicita.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042405/velo_vbcr50.webp
 lcp_alt_image: Un velo che copre due visi. Il velo è l'illusione del titolo che copre la verità
-image: /img/velo.png
-background: /img/velo.png
-lcp_image: /img/velo.png
-og_image: /img/velo.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042405/velo_vbcr50.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042405/velo_vbcr50.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042405/velo_vbcr50.webp
 redirect_from:
 - /ricerca-della-felicita-autenticita-panini-notturni-e-il-coraggio-di-essere-cactus-emotivi/
 - /ricerca-felicita-autenticita-panini-notturni/

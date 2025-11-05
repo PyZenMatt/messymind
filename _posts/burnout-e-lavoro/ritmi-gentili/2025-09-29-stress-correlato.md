@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Stress lavoro-correlato: cos'è davvero, come prevenirlo (con filosofia pratica)"
 description: "Cos'è lo stress lavoro-correlato, differenza tra eustress e distress, LOA di Favretto e perché il burnout è nel contesto (Maslach). Strumenti, voci dal campo ed esercizi di filosofia pratica."
 categories: ["burnout-e-lavoro"]

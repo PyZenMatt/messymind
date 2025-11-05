@@ -6,11 +6,11 @@ meta-description: 'Scopri come ho trasformato la mia relazione con il tempo: dal
 categories: burnout-e-lavoro
 subcluster: ritmi-gentili
 lcp_image_alt: 
-lcp_image: /img/accettazione.png
-image: /img/accettazione.png
-background: /img/accettazione.png
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042377/accettazione_gmjnsx.png
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042377/accettazione_gmjnsx.png
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042377/accettazione_gmjnsx.png
 featured_post: 'true'
-og_image: /img/accettazione.png
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042377/accettazione_gmjnsx.png
 redirect_from:
 - /come-ho-smesso-di-inseguire-il-tempo-3-segreti-per-vivere-senza-ansia-da-produttivita/
 - /come-ho-smesso-di-inseguire-il-tempo/

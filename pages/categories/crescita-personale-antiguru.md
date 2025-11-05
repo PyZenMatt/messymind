@@ -22,8 +22,8 @@ topics:
     description: "Impara a dire no con rispetto, proteggere il tuo tempo e difendere le tue priorità senza sensi di colpa."
   - title: "Strumenti concreti"
     description: "Template, checklist e tool pratici per costruire routine sostenibili nel lungo termine."
-hero_image: /img/categories/crescita-anti-guru-cover.webp
-lcp_image: /img/categories/crescita-anti-guru-cover-1600.webp
+hero_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1755954730/motivane_1600_cd7kp8.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1755954730/motivane_1600_cd7kp8.webp
 og_image: /img/categories/crescita-anti-guru-cover.webp
 twitter_card: summary_large_image
 faq:

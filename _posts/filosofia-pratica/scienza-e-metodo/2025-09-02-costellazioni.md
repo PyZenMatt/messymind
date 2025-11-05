@@ -10,11 +10,11 @@ date: 2025-09-02
 featured: 'true'
 image_author: pixabay
 image_author_url: https://pixabay.com
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801804/nonni_600_dbw4ie.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756801804/nonni_600_dbw4ie.webp
 image_alt: "Dei nonni con i nipoti, simbolo di familia e di eredità karmica"
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801804/nonni_600_dbw4ie.webp
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801899/nonni_1920_u8uutf.webp
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/v1756801899/nonni_1920_u8uutf.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756801804/nonni_600_dbw4ie.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756801899/nonni_1920_u8uutf.webp
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756801899/nonni_1920_u8uutf.webp
 redirect_from:
 - /costellazioni-familiari-sfogo-teatrale-o-terapia/
 - /costellazioni-familiari-sfogo-o-terapia/

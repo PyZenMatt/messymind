@@ -6,9 +6,10 @@ seo_description: 'Guida pratica e ironica alla legge del ritmo: come riconoscere
 seo_description: 'Guida pratica e ironica alla legge del ritmo: come riconoscere i cicli della vita, gestire le oscillazioni emotive e trovare resilienza quotidiana con piccoli rituali e tanto umorismo.'
 categories: mindfulness-ironica
 subcluster: equilibrio-interiore-per-persone-normali
-image: /img/ritmo.jpg
-lcp_image: /img/ritmo.jpg
-background: /img/ritmo.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042399/ritmo_pfwx3o.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042399/ritmo_pfwx3o.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042399/ritmo_pfwx3o.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042399/ritmo_pfwx3o.jpg
 alt: dei ballerini che sembrano sfuocati ma che in realta sono sfuocati perche si stanno muovendo
 faq:
 - Come applicare la legge del ritmo alla vita quotidiana?
