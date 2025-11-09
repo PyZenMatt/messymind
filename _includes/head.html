@@ -8,6 +8,22 @@
   <!-- SEO-TAG-START -->
   {% seo %}
   <!-- SEO-TAG-END -->
+  
+  <!-- Homepage-specific Open Graph & Twitter Card overrides (for homepage consistency) -->
+  {% if page.url == "/" or page.url == "/index.html" %}
+    <meta property="og:title" content="Ridere è la nuova forma di consapevolezza.">
+    <meta property="og:description" content="Scopri il Metodo I.R.O.N.I.A. e spegni l'ansia da perfezione. La mindfulness ironica per menti reali.">
+    <meta property="og:image" content="https://res.cloudinary.com/dkoc4knvv/image/upload/v1757737550/og-ironia-hero.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://messymind.it/">
+    <meta property="og:site_name" content="MessyMind">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ridere è la nuova forma di consapevolezza.">
+    <meta name="twitter:description" content="Scopri il Metodo I.R.O.N.I.A. e spegni l'ansia da perfezione.">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dkoc4knvv/image/upload/v1757737550/og-ironia-hero.webp">
+  {% endif %}
 {%- comment -%} Open Graph and Twitter tags are emitted by `jekyll-seo-tag` via `{% seo %}`.
   `_includes/seo.html` has been deprecated; do not include it.
   To override values set `page.og_*`, `page.seo_title`, `page.seo_description`, or `page.twitter_card` in front matter.

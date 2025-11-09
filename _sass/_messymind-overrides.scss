@@ -128,6 +128,10 @@ h1, h2, h3, h4, h5, h6,
   font-weight: $font-weight-medium !important;
   border-radius: $radius !important;
   padding: 0.75rem 1.5rem !important;
+  display: inline-flex !important;
+  width: auto !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
   
   &:hover,
   &:focus {
@@ -136,6 +140,11 @@ h1, h2, h3, h4, h5, h6,
     color: $accent-foreground !important;
     transform: translateY(-2px);
     box-shadow: $shadow-lg !important;
+  }
+  
+  // Assicura l'allineamento a destra quando usato con ms-auto
+  &.ms-auto {
+    margin-left: auto !important;
   }
 }
 
@@ -435,6 +444,19 @@ html.dark .main-wrapper {
 
   .intro-links {
     margin-top: 0.5rem !important;
+    
+    // Assicura che i bottoni siano centrati su mobile
+    @media (max-width: 576px) {
+      flex-direction: column !important;
+      align-items: center !important;
+      width: 100% !important;
+      
+      .btn {
+        width: 100% !important;
+        max-width: 300px !important;
+        justify-content: center !important;
+      }
+    }
   }
 
   // Keep vertical spacing modest to avoid visual offset
@@ -828,6 +850,7 @@ blockquote {
     font-weight: $font-weight-medium !important;
     transition: all 0.3s ease !important;
     display: inline-flex !important;
+    width: fit-content !important;
     align-items: center !important;
     gap: 0.5rem !important;
 
@@ -1097,8 +1120,8 @@ html.dark {
   }
 }
 
-// Navigation buttons styling
-.btn.btn-primary {
+// Navigation buttons styling - only apply to buttons in post navigation
+.clearfix .btn.btn-primary {
   // Remove Bootstrap's float-left/float-right
   float: none !important;
   flex: 1 !important;
@@ -1163,9 +1186,9 @@ html.dark {
   }
 }
 
-// Dark mode button styling
+// Dark mode button styling - only for navigation buttons
 html.dark {
-  .btn.btn-primary {
+  .clearfix .btn.btn-primary {
     background-color: #4F8A8B !important;
     border-color: #4F8A8B !important;
     color: #ffffff !important;
