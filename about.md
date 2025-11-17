@@ -97,7 +97,7 @@ Da allora, quando parte il teatrino, la prendo un po’ in giro. Funziona più d
 
 ## Inizia da qui
 
-- **[Metodo I.R.O.N.I.A.**](mindfulness-ironica/metodo-ironia/) 
+- [**Metodo I.R.O.N.I.A.**](mindfulness-ironica/metodo-ironia) 
 - [**Mindfulness ironica**](/categorie/mindfulness-ironica/)
 - [**Burnout e lavoro**](/categorie/burnout-e-lavoro/) 
 - [**Instagram**](https://instagram.com/blog.messymind)→ contenuti brevi, zero illuminazione, un po’ di realtà.
