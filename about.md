@@ -20,7 +20,7 @@ howto: []
 
 # Chi Sono — L’Anti-Guru Imperfetto di MessyMind
 
-## La scena iniziale
+## Come tutto inizia
 
 Ero seduto in una riunione “spirituale” in cui si parlava più di ascese cosmiche che di vita vera. Tutti intenti a mostrarsi evoluti, pronti a sfiorare la trascendenza tramite vibrazioni, mantra personalizzati e sorrisi troppo controllati.  
 Io guardavo i muri e pensavo: *perché continuiamo a complicarci la vita fingendo che non sia già abbastanza complicata?*
@@ -66,7 +66,7 @@ Dopo anni di terapia, tecniche, gruppi spirituali e derive new age, mi sono acco
 Semplice, quotidiano, replicabile. Niente promesse mistico-turistiche.  
 Solo cinque minuti per non affogare nella mente quando decide di ricominciare il teatro.
 
-La guida completa è qui: **/metodo-ironia/**
+La guida completa è qui: [metodo-ironia]
 
 ---
 
