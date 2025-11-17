@@ -67,7 +67,6 @@ Semplice, quotidiano, replicabile. Niente promesse mistico-turistiche.
 Solo cinque minuti per non affogare nella mente quando decide di ricominciare il teatro.
 
 La guida completa è qui: [Metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia)
----
 
 ## Cosa trovi qui
 
@@ -98,7 +97,7 @@ Da allora, quando parte il teatrino, la prendo un po’ in giro. Funziona più d
 
 ## Inizia da qui
 
-- **Metodo I.R.O.N.I.A.** → /metodo-ironia/  
-- **Mindfulness ironica** → /categorie/mindfulness-ironica/  
-- **Burnout e lavoro** → /categorie/burnout-e-lavoro/  
+- **[Metodo I.R.O.N.I.A.**](mindfulness-ironica/metodo-ironia/) 
+- [**Mindfulness ironica**](/categorie/mindfulness-ironica/)
+- [**Burnout e lavoro**](/categorie/burnout-e-lavoro/) 
 - **Instagram** → contenuti brevi, zero illuminazione, un po’ di realtà.
