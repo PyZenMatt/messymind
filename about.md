@@ -1,74 +1,105 @@
 ---
 layout: page
-title: "Messy Mind: Mindfulness per Persone Normali"  
-description: "Scopri cosa significa Messy Mind: spiritualità pratica senza incenso, mindfulness per menti disordinate e equilibrio interiore per chi ha una vita vera, imperfetta e autentica."  
-keywords:  
-  - messy mind significato  
-  - mindfulness per persone normali  
-  - spiritualità pratica senza guru  
-  - equilibrio interiore realistico  
-  - meditazione per principianti  
-  - Matteo Ricci blog  
-  - mindfulness ironica  
-  - crescita personale autentica  
-  - benessere emotivo reale  
-og:  
-  title: "Messy Mind: Il Rifugio per Menti Disordinate"  
-  description: "Non troverai incenso o sorrisi finti. Solo mindfulness vera per vite imperfette, spiritualità pratica e meditazione per chi odia meditare."  
-  type: article   
+title: "Chi Sono — L’Anti-Guru Imperfetto"
+permalink: /about/
+seo_title: "Chi Sono — MessyMind"
+seo_description: "La storia reale dietro MessyMind: burnout, spiritualità iper-seria, crolli, ironia e il Metodo I.R.O.N.I.A. Un percorso umano, imperfetto e pratico."
+categories: ["crescita-personale-anti-guru"]
+subcluster: equilibrio-interiore-realistico
+tags: ["about", "chi-sono", "messymind", "biografia"]
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1756045412/fail_600_dbf17q.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756045412/fail_600_dbf17q.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756045412/fail_600_dbf17q.jpg
+lcp_image_alt: "Matteo Ricci — fondatore di MessyMind"
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1756045412/fail_600_dbf17q.jpg
+image_author: ""
+image_author_url: ""
+faqs: []
+howto: []
 ---
 
-## Messy Mind: Mindfulness per Chi Ha una Vita Vera
+# Chi Sono — L’Anti-Guru Imperfetto di MessyMind
 
-**Messy Mind è un rifugio per chi cerca equilibrio senza diventare un monaco zen.** Scrivo di spiritualità pratica, emozioni storte e meditazione per chi odia meditare.
+## La scena iniziale
 
-Ciao, sono Matteo. Questo blog doveva essere una **roba seria**. Tipo monaci tibetani, incensi e citazioni di Buddha su Instagram. Poi ho realizzato che se devo scrivere un altro post su "respira e sorridi" mentre impreco perché il gatto ha vomitato sul tappeto, forse è il caso di **cambiare approccio**.
+Ero seduto in una riunione “spirituale” in cui si parlava più di ascese cosmiche che di vita vera. Tutti intenti a mostrarsi evoluti, pronti a sfiorare la trascendenza tramite vibrazioni, mantra personalizzati e sorrisi troppo controllati.  
+Io guardavo i muri e pensavo: *perché continuiamo a complicarci la vita fingendo che non sia già abbastanza complicata?*
 
-## Che Cos'è Messy Mind?
+Da quella domanda è iniziato tutto.
 
-**Non insegno meditazione con l'incenso e il sorriso finto.** Qui trovi mindfulness per menti disordinate, vite vere e risate di sottofondo.
+---
 
-**Messy Mind** significa:
-- ✅ **Spiritualità per chi perde sempre le chiavi**
-- ✅ **Equilibrio interiore che ammette gli squilibri**  
-- ✅ **Mindfulness che funziona anche in metropolitana**
-- ✅ **Crescita personale senza motivational speaking**
+## Il burnout
 
-## La Rivoluzione delle 6 Del Mattino (Quella Fallita)
+Prima di diventare programmatore ho passato dieci anni da commerciale in una multinazionale del tabacco. Ambiente tossico, competitivo, privo di scrupoli. Pagavano bene, abbastanza da tenermi fermo mentre mi svuotavo.  
+La parte peggiore? Vendevo sigarette. Vendevo veleno. E a forza di farlo ho iniziato a fumare anche la mia identità.
 
-Inizialmente volevo salvare il mondo. Poi ho scoperto che bastava salvarmi dal mio capo che mi manda email alle 23:57. L'equilibrio interiore? **Non è nel diventare un asceta che medita sul monte Fuji**. È accorgersi che il caffè del bar sotto casa costa meno di quello di Starbucks. È la gioia di ignorare una notifica. **Piccole rivoluzioni**, gente.
+Le serate erano tutte uguali: marijuana per spegnermi, qualche drink, e la sensazione di vivere in modalità airplane.  
+Il crollo non arriva con una scena epica: arriva piano. Una mattina non ti alzi più dal letto. Paura, ansia, senso di fine.
 
-## Mindfulness? Sì, ma se mi passi il sale
+Tre mesi di malattia: psichiatra, farmaci, flebo. Poi lo psicologo, l’unico che non ha cercato un rituale per “aggiustarmi”. Mi ha detto semplicemente: *sei umano*.  
+Quella frase ha aperto una crepa da cui è entrata aria.
 
-Praticare mindfulness è come fare yoga: tutti ne parlano, pochi sanno perché. Prova oggi: invece di imprecare contro la fila alle poste, **osserva** che almeno non sei quello che ha 43 pacchi da spedire. Presenza mentale? **È guardare il tramonto senza pensare** "cazzo, domani è lunedì". Difficile? Già. Ma se ci riesci, hai diritto a un gelato gratis.
+---
 
-## Relazioni tossiche: Blocca, cancella, dimentica (come su Tinder)
+## Perché ho creato MessyMind
 
-"Circondati di persone positive!". Peccato che tua suocera esista. Le **relazioni vere** sono quelle dove puoi dire "oggi mi sento uno schifo" e ti rispondono "pure io, prendiamo una birra?". Le persone tossiche? Quelle che ti dicono "dovresti essere più spirituale" mentre ti prosciugano l'anima. **Tagliale**. No, non serve il **permesso**. Blocca e **vai avanti**.
+Volevo uno spazio dove poter dire “oggi non reggo” senza essere trattato come un difetto di fabbrica. Un anti-tempio senza gerarchie interiori o ranking spirituali.  
+Spiritualità senza spettacolo, consapevolezza senza cosplay zen.
 
-## "Sarò in equilibrio quando…" (Spoiler: non accadrà mai)
+L’ironia è arrivata come strumento di sopravvivenza: non per ridicolizzare, ma per respirare. Ridere di un pensiero lo rende maneggiabile.  
+MessyMind nasce così: **consapevolezza praticabile**, adatta a persone vere, non a identità instagrammabili.
 
-**L'equilibrio** non è "quando comprerò la macchina" o "quando andrò in ferie". **È adesso**. Proprio ora, mentre leggi questo blog invece di lavorare. Ogni giorno è come un panino al supermercato: se aspetti che sia perfetto, resta solo il pane raffermo. Mangialo così com'è. E se fa schifo, butta via il tonno.
+---
 
-## Tecniche pratiche? Ecco le mie (senza candele o mantra)
+## Il Metodo I.R.O.N.I.A.
 
-- Urla "vaffanculo" alla pianta in salotto (lei non giudica, e tu sfoghi lo stress).
-- Fai una lista di cose che odi e bruciala (metaforicamente. O no, se hai un camino).
-- Ignora chi ti dice "devi essere positivo". Spoiler: sono quelli che su Instagram postano foto falsamente perfette.
+Dopo anni di terapia, tecniche, gruppi spirituali e derive new age, mi sono accorto che funzionavano solo le micro-azioni.
 
-## Perché ho smesso di prendermi sul serio (spoiler: l'Universo ride)
+- Identificare il pensiero.  
+- Ridimensionarlo.  
+- Osservarlo nel corpo.  
+- Nominarlo.  
+- Interromperlo.  
+- Agire.
 
-All'inizio volevo essere il Dalai Lama del web. Poi ho visto tutti i video di near-death experience su YouTube. Sai cosa dicono tutti quei quasi-morti? Che Dio/la Vita/l'Universo ha un **senso dell'umorismo** da comico stand-up. Tipo: ti fa nascere in un mondo caotico e poi ti chiede di "trovare la pace interiore". Grande battuta, eh?
+Semplice, quotidiano, replicabile. Niente promesse mistico-turistiche.  
+Solo cinque minuti per non affogare nella mente quando decide di ricominciare il teatro.
 
-Se anche l'aldilà ride, perché noi no? Ho deciso: **questo blog non sarà un manuale di sopravvivenza spirituale. Sarà un diario di un ex-ingenuo che ha capito che l'equilibrio è ridere di sé stesso, del traffico, delle cadute** (letterali: ieri sono scivolato sul marciapiede. Grazie, Universo).
+La guida completa è qui: **/metodo-ironia/**
 
-## In conclusione (perché anche io odio i finali lunghi)
+---
 
-Questo blog non vende illusioni. Non ci sono annunci che saltano come canguri su Red Bull. **Se ti va, offrimi un caffè**. O racconta al tuo collega rompiscatole che esisto. Se invece odi tutto, scrivimi. Così parliamo male della tua suocera insieme.
+## Cosa trovi qui
 
-Grazie per essere arrivato fin qui. PS: Clicca sul mio nome se vuoi sapere come ho fatto a scrivere di equilibrio dopo essere stato bocciato in filosofia 3 volte. Realtà: non lo so neanch'io.
+MessyMind è costruito su ciò che conosco sulla pelle:
 
-Matteo
-(No, non ho la barba. E il gatto sta bene, grazie.)
+- **Mindfulness ironica** — senza incenso metaforico.  
+- **Burnout e lavoro** — ritmi gentili, zero colpevolizzazioni.  
+- **Filosofia pratica** — idee che servono, non ornamenti.  
+- **Equilibrio realistico** — niente perfezione, solo realtà.
 
-P.S. Se cerchi foto di tramonti con scritte tipo "Rise and Shine", hai sbagliato posto. Qui parliamo di mindfulness con le canottiere sporche di sugo e il cellulare con lo schermo rotto. Perché la vita vera è più divertente dei filtri, no?
+Zero spiritual-show. Zero maestri. Solo strumenti che funzionano anche in una pausa caffè.
+
+---
+
+## Chi sono davvero
+
+Sono Matteo: programmatore, pittore, ex commerciale, ex fumatore cronico, persona normale con una mente rumorosa che ogni tanto decide di fare teatro greco.
+
+Vengo da dieci anni in un lavoro tossico, da dipendenze leggere usate per spegnere la giornata, da una fase in cui cercavo risposte in qualsiasi forma di spiritualità estrema.  
+Il punto di rottura? Un furto di **20.000 €** dal mio portafoglio Bitcoin. È saltata l’ultima illusione e con lei tutto il resto.
+
+Ho tagliato sostanze, gruppi, dogmi e rumore.  
+Ho capito che quasi nulla è davvero così serio come sembra quando la mente recita la parte della tragedia.
+
+Da allora, quando parte il teatrino, la prendo un po’ in giro. Funziona più di mille tecniche.
+
+---
+
+## Inizia da qui
+
+- **Metodo I.R.O.N.I.A.** → /metodo-ironia/  
+- **Mindfulness ironica** → /categorie/mindfulness-ironica/  
+- **Burnout e lavoro** → /categorie/burnout-e-lavoro/  
+- **Instagram** → contenuti brevi, zero illuminazione, un po’ di realtà.
