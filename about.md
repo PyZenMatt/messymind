@@ -66,8 +66,7 @@ Dopo anni di terapia, tecniche, gruppi spirituali e derive new age, mi sono acco
 Semplice, quotidiano, replicabile. Niente promesse mistico-turistiche.  
 Solo cinque minuti per non affogare nella mente quando decide di ricominciare il teatro.
 
-La guida completa è qui: [metodo-ironia]
-
+La guida completa è qui: [Metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia)
 ---
 
 ## Cosa trovi qui
