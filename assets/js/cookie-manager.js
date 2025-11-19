@@ -1,5 +1,8 @@
 
-// NOTE: This file is a copy of `_includes/cookie-manager.js` to enable loading via <script src="/assets/js/cookie-manager.js" defer>
+// ⚠️ IMPORTANT: This file is a static copy of `_includes/cookie-manager.js`
+// Keep both files synchronized when making changes
+// The _includes version uses Liquid templating: {{ site.google_analytics }}
+// This static version uses hardcoded fallback: G-MLB32YW721
 
 const cookieManager = {
     config: {
