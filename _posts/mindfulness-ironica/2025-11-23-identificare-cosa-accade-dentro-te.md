@@ -14,11 +14,11 @@ og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,
 
 faqs:
 
-question: "Come faccio a identificare un'emozione senza esserne travolto?"
-answer: "Dalle un nome e descrivi la sensazione fisica. La chiarezza abbassa l’intensità."
+- question: "Come faccio a identificare un'emozione senza esserne travolto?"
+  answer: "Dalle un nome e descrivi la sensazione fisica. La chiarezza abbassa l’intensità."
 
-question: "Se sento troppe cose insieme, cosa devo fare?"
-answer: "Usa un’etichetta generica: tensione, rumore, pressione. Meglio del caos."
+- question: "Se sento troppe cose insieme, cosa devo fare?"
+  answer: "Usa un’etichetta generica: tensione, rumore, pressione. Meglio del caos."
 ---
 
 # Identifica: cosa diavolo sta succedendo dentro di te (prima che ti travolga)
