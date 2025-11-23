@@ -24,7 +24,7 @@ faqs:
 
 
  - question: "Cosa posso fare quando sento salire l’ansia all’improvviso?"  
- - answer: "Fermati 10 secondi, respira lento e descrivi ciò che accade: emozione + voto (es. ansia 7/10). Interrompe il picco e riporta a terra."
+   answer: "Fermati 10 secondi, respira lento e descrivi ciò che accade: emozione + voto (es. ansia 7/10). Interrompe il picco e riporta a terra."
 
 
  - question: "Come riconosco un impulso da un bisogno reale?" 
