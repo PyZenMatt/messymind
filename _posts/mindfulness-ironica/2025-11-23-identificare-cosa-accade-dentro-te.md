@@ -14,11 +14,53 @@ og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,
 
 faqs:
 
-- question: "Come faccio a identificare un'emozione senza esserne travolto?"
-  answer: "Dalle un nome e descrivi la sensazione fisica. La chiarezza abbassa l’intensità."
 
-- question: "Se sento troppe cose insieme, cosa devo fare?"
-  answer: "Usa un’etichetta generica: tensione, rumore, pressione. Meglio del caos."
+ - question: "Come faccio a riconoscere un’emozione prima che mi travolga?"           
+   answer: "Nota la sensazione corporea (petto, pancia, mandibola) e dai un nome all’emozione. L’etichetta riduce l’intensità e ti permette di evitare la reazione automatica."
+
+
+ - question: "È normale confondere pensieri ed emozioni?" 
+   answer: "Sì. Il pensiero è una frase nella testa; l’emozione è una sensazione nel corpo. Separarli riduce il caos interno."
+
+
+ - question: "Cosa posso fare quando sento salire l’ansia all’improvviso?"  
+ - answer: "Fermati 10 secondi, respira lento e descrivi ciò che accade: emozione + voto (es. ansia 7/10). Interrompe il picco e riporta a terra."
+
+
+ - question: "Come riconosco un impulso da un bisogno reale?" 
+   answer: "L’impulso ha fretta e chiede reazione immediata. Il bisogno può aspettare. Se non riesci a posticiparlo di 30–90 secondi, è quasi sempre impulso."
+
+
+ - question: "Cosa fare quando provo tante emozioni insieme e non capisco nulla?" 
+   answer: "Usa un’etichetta generica: tensione, rumore, pressione. Meglio una parola approssimativa che restare nel caos indistinto."
+
+
+ - question: "Identificare le emozioni non rischia di farmi fissare ancora di più sul problema?" 
+   answer: "No. L’identificazione sposta il focus dalla reazione automatica alla consapevolezza. Non alimenta il problema: lo delimita."
+
+
+ - question: "Quanto tempo serve per imparare a identificare cosa provo?"  
+   answer: "Con 10 secondi alla volta, in 1–2 settimane diventa naturale. La costanza batte la durata."
+
+
+ - question: "Posso usare la tecnica della I anche durante discussioni o al lavoro?" 
+   answer: "Sì. Nota → respira → dai un nome. Puoi farlo in silenzio: abbassa la reattività senza che nessuno se ne accorga."
+
+
+- question: "Perché è così difficile riconoscere cosa provo?" 
+  answer: "Perché il cervello reagisce prima della consapevolezza. La I serve a infilarti nello spazio tra stimolo e reazione."
+
+
+ - question: "La I di Identifica funziona anche se non so descrivere bene le emozioni?" 
+   answer: "Sì. Una parola vaga (agitazione, peso, fastidio) è già sufficiente per ridurre l’attivazione."
+
+
+ - question: "Come si collega la I al Metodo I.R.O.N.I.A. completo?" 
+   answer: "La I è la base: senza identificare emozioni, pensieri e impulsi, gli altri step non funzionano. È la fondazione dell’intero metodo."
+
+
+ - question: "Posso usare solo la I o devo seguire tutto il metodo?" 
+   answer: "La I funziona anche da sola come micro-tecnica da 10 secondi, ma nel metodo completo lavora meglio perché gli step si potenziano a vicenda.
 ---
 
 # Identifica: cosa diavolo sta succedendo dentro di te (prima che ti travolga)
