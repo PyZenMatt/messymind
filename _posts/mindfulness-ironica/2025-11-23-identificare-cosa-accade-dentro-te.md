@@ -4,7 +4,7 @@ title: "Identifica: cosa diavolo sta succedendo dentro di te"
 seo_title: "Metodo I.R.O.N.I.A. — Identifica le tue emozioni senza farti travolgere"
 seo_description: "La prima fase del Metodo I.R.O.N.I.A.: imparare a riconoscere emozioni, pensieri e impulsi prima che guidino le tue reazioni automatiche."
 categories: ["mindfulness-ironica"]
-subcluster: "vipassana-urbana"
+subcluster:
 tags: ["cornerstone", "emozioni", "ansia", "mindfulness"]
 is_cornerstone: true
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/mm/hero-identifica.jpg
