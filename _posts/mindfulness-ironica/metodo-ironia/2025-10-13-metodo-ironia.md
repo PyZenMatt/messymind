@@ -6,12 +6,13 @@ seo_description: "6 step in 5 minuti per ridurre la ruminazione con ironia. ACT,
 date: 2025-10-13
 last_modified_at: 2025-10-13
 categories: ["mindfulness-ironica"]
-subcluster:
-tags: ["defusione-cognitiva","act","howto","ruminazione","mindfulness-pratica", "cornerstone"]
-image: 
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
-lcp_image_alt: 
-og_image: 
+subcluster: "metodo-ironia"
+tags: ["defusione-cognitiva","act","howto","ruminazione","mindfulness-pratica","cornerstone"]
+is_cornerstone: true
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg
 
 faqs:
 - question: "Cos’è il Metodo I.R.O.N.I.A. in breve?"
@@ -69,7 +70,33 @@ L’ironia qui non è sarcasmo, ma una distanza gentile. È come dire al pensier
 **La nostra prima micro azione**
 Prenditi cinque minuti, apri un blocco note o prendi un foglio e una penna, zero frizioni, scrivi dove vuoi prova a mettere giù il titolo del pensiero più ricorrente di oggi. Il resto verrà dopo.
 
-{% include howto.html %}
+
+## "Metodo I.R.O.N.I.A. — 6 step in 5 minuti"
+
+Il metodo si muove rapido, come un *circuit training* mentale. Ogni step dura 30–60 secondi. Il ciclo completo: 5 minuti. Eccoli.
+
+[I – Identifica il pensiero che torna.](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
+
+"Ah, eccolo! il trailer del disastro." Non serve analizzarlo, basta riconoscerlo, ma riconoscerlo è la parte più difficile di tutto il processo. Nel mio quotidiano ho notato che già chiamare per nome un pensiero lo depotenzia, come se perdesse il costume da supereroe tragico.
+
+[R – Ridimensiona con ironia.](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
+"Una frase secca, tipo: “Tranquillo, Titanic, oggi solo grandine leggera.” L’ironia alleggerisce il tono e restituisce lucidità."
+
+O – Osserva il corpo per 60 secondi.
+
+Dove senti la tensione? Spalle? Mascella? Pancia? Spesso la mente urla perché il corpo è già contratto.
+
+N – Nomina il bias o l’emozione.
+
+“Sto catastrofizzando.” “Sto anticipando il giudizio.” Dare un nome è come accendere la luce in una stanza. La paura resta, ma smette di sembrare infinita.
+
+I – Interrompi con l’ancoraggio 4×4
+
+Quattro suoni, quattro oggetti, quattro odori, quattro contatti fisici. È il modo più rapido per tornare nel presente.
+
+A – Agisci.
+
+"Un gesto minuscolo ma reale: scrivi la mail che eviti, bevi un bicchiere d’acqua, esci sul balcone. Il cervello capisce l’azione meglio di qualsiasi consiglio motivazionale."
 
 **E ora?**
 Scegli un pensiero, imposta un timer da 5 minuti e attraversa il ciclo completo. Mai aspettare il “momento giusto”: il metodo funziona solo in diretta, ma se ti cogli a pensare "al pensier" fai una scheda.

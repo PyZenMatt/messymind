@@ -1,7 +1,29 @@
-# Map composite keys "category:subcluster" to full /categorie/... permalinks
+# Mindfulness Ironica
+mindfulness-ironica:metodo-ironia: /categorie/mindfulness-ironica/metodo-ironia/
+mindfulness-ironica:equilibrio-interiore-per-persone-normali: /categorie/mindfulness-ironica/equilibrio-interiore-per-persone-normali/
+mindfulness-ironica:vipassana-urbana: /categorie/mindfulness-ironica/vipassana-urbana/
 mindfulness-ironica:mindfulness-al-lavoro: /categorie/mindfulness-ironica/mindfulness-al-lavoro/
-mindfulness-ironica:esercizi-10-minuti: /categorie/mindfulness-ironica/esercizi-10-minuti/
-crescita-personale-anti-guru:abitudini-sane: /categorie/crescita-personale-anti-guru/abitudini-sane/
+mindfulness-ironica:osservazione-e-silenzio: /categorie/mindfulness-ironica/osservazione-e-silenzio/
+mindfulness-ironica:pratiche-quotidiane-urbane: /categorie/mindfulness-ironica/pratiche-quotidiane-urbane/  
+mindfulness-ironica:spiritualita-prudente: /categorie/mindfulness-ironica/spiritualita-prudente/
+
+
+
+# Burnout e Lavoro
+burnout-e-lavoro:autenticita-in-ufficio: /categorie/burnout-e-lavoro/autenticita-in-ufficio/
+burnout-e-lavoro:ritmi-gentili: /categorie/burnout-e-lavoro/ritmi-gentili/
+
+# Filosofia Pratica
+filosofia-pratica:coscienza-e-ai: /categorie/filosofia-pratica/coscienza-e-ai/
+filosofia-pratica:decisioni-e-bias: /categorie/filosofia-pratica//decisioni-e-bias/
+filosofia-pratica:scienza-e-metodo: /categorie/filosofia-pratica/scienza-e-metodo/
 filosofia-pratica:scienza-e-spiritualita: /categorie/filosofia-pratica/scienza-e-spiritualita/
 
-# Add more mappings as you create subcluster index pages
+
+# Crescita Personale Anti-Guru
+crescita-personale-anti-guru:antifragilita-e-perfezionismo: /categorie/crescita-personale-anti-guru/antifragilita-e-perfezionismo/
+crescita-personale-anti-guru:desiderio-e-rinuncia: /categorie/crescita-personale-anti-guru/desiderio-e-rinuncia/
+crescita-personale-anti-guru:felicita-realistica: /categorie/crescita-personale-anti-guru/felicita-realistica/
+crescita-personale-anti-guru:scelta-e-cuore: /categorie/crescita-personale-anti-guru/scelta-e-cuore/
+crescita-personale-anti-guru:scopo-e-confini: /categorie/crescita-personale-anti-guru/scopo-e-confini/
+

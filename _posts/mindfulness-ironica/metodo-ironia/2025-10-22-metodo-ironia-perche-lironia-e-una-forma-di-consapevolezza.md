@@ -4,13 +4,14 @@ title: 'Metodo I.R.O.N.I.A.: perché l’ironia è una forma di consapevolezza'
 date: '2025-10-22 10:36:00'
 categories:
 - mindfulness-ironica
-subcluster: equilibrio-interiore-per-persone-normali
+subcluster: metodo-ironia
 tags:
 - metodo-ironia
 - defusione
 - mindfulness-ironica
 - consapevolezza
 - bias-cognitivi
+- cornerstone
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 cta_analytics_id: cta-ironia-pdf
 cta_button: Scarica la scheda
@@ -128,9 +129,9 @@ Guardalo come una mappa mentale, una guida, un metodo che ti è utile quando vie
 
 Ecco a te i sei verbi per ritrovare il baricentro senza diventare un asceta del multitasking.
 
-**I**: *Identifica* il pensiero ricorrente.
+**I**: [*Identifica* il pensiero ricorrente.](/mindfulness-ironica/identifica-cosa-accade-dentro-te)
 
-**R**: *Ridimensiona* con una battuta gentile.
+**R**: [*Ridimensiona* con una battuta gentile.](/mindfulness-ironica/ridimensiona-il-dramma-mentale)
 
 **O**: *Osserva* dove si annida nel corpo.
 
