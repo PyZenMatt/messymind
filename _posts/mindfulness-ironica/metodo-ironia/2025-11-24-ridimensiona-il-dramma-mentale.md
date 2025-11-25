@@ -15,8 +15,6 @@ background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764013700/lente_poiaor.jpg
 
 
-
-
 Foto di Jenna Hamra: https://www.pexels.com/it-it/foto/persona-in-possesso-di-specchio-con-cornice-rotonda-vicino-all-albero-durante-il-giorno-979927/
 
 lcp_image_alt: "una lente d'ingradimento che guarda un fiore"

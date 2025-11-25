@@ -9,13 +9,13 @@ last_modified_at: 2025-11-25
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["osservazione", "reattività-emotiva", "mindfulness-pratica", "overthinking"]
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg"
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg"
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg"
-og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1760358159/pexels-elletakesphotos-1549280_fc23l0.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764100210/osservare_xpwph1.jpg"
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764100210/osservare_xpwph1.jpg"
 
-imagine_author_link: https://www.pexels.com/it-it/@nickybaby/
-imagine_author: Nikolay Draganov
+image_author_url: https://www.pexels.com/it-it/@nickybaby/
+image_author: Nikolay Draganov
 
 faqs:
   - question: "Ma come si fa a osservare senza reagire? È impossibile!"
