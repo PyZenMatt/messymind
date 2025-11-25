@@ -3,8 +3,8 @@ layout: post
 title: "Ridimensiona: smontare il dramma mentale prima che diventi un disastro"
 seo_title: "Ridimensionare i pensieri: come smontare il dramma mentale (Metodo I.R.O.N.I.A.)"
 seo_description: "Tecniche pratiche, ironiche e scientifiche per ridimensionare i pensieri catastrofici e tornare lucidi in pochi secondi. Metodo I.R.O.N.I.A. — fase R."
-date: 2025-11-23
-last_modified_at: 2025-11-23
+date: 2025-11-24
+last_modified_at: 2025-11-25
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["cornerstone","ridimensionare","overthinking","ansia","mindfulness-pratica"]

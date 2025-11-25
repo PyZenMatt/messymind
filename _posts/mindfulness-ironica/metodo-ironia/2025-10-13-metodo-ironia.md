@@ -82,9 +82,7 @@ Il metodo si muove rapido, come un *circuit training* mentale. Ogni step dura 30
 [R – Ridimensiona con ironia.](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
 "Una frase secca, tipo: “Tranquillo, Titanic, oggi solo grandine leggera.” L’ironia alleggerisce il tono e restituisce lucidità."
 
-O – Osserva il corpo per 60 secondi.
-
-Dove senti la tensione? Spalle? Mascella? Pancia? Spesso la mente urla perché il corpo è già contratto.
+[O – Osserva il corpo per 60 secondi.](/mindfulness-ironica/osservare-senza-interpretare/) Dove senti la tensione? Spalle? Mascella? Pancia? Spesso la mente urla perché il corpo è già contratto.
 
 N – Nomina il bias o l’emozione.
 
