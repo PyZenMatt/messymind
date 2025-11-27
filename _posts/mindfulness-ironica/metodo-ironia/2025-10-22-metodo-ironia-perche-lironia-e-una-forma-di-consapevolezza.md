@@ -133,9 +133,9 @@ Ecco a te i sei verbi per ritrovare il baricentro senza diventare un asceta del 
 
 **R**: [*Ridimensiona* con una battuta gentile.](/mindfulness-ironica/ridimensiona-il-dramma-mentale)
 
-**O**: *Osserva* dove si annida nel corpo.
+**O**: [*Osserva* dove si annida nel corpo.](/mindfulness-ironica/osservare-senza-interpretare)
 
-**N**: *Nomina* l’emozione o il bias.
+**N**: [*Nomina* l’emozione o il bias.](/mindfulness-ironica/nomina-cio-che-senti)
 
 **I**: *Interrompi* con uno stimolo sensoriale concreto.
 

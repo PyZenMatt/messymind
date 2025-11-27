@@ -84,8 +84,7 @@ Il metodo si muove rapido, come un *circuit training* mentale. Ogni step dura 30
 
 [O – Osserva il corpo per 60 secondi.](/mindfulness-ironica/osservare-senza-interpretare/) Dove senti la tensione? Spalle? Mascella? Pancia? Spesso la mente urla perché il corpo è già contratto.
 
-N – Nomina il bias o l’emozione.
-
+[N – Nomina il bias o l’emozione.](/mindfulness-ironica/nomina-cio-che-senti)
 “Sto catastrofizzando.” “Sto anticipando il giudizio.” Dare un nome è come accendere la luce in una stanza. La paura resta, ma smette di sembrare infinita.
 
 I – Interrompi con l’ancoraggio 4×4
