@@ -3,8 +3,8 @@ layout: post
 title: "Interrompi: il micro-taglio che ferma il pilota automatico"
 seo_title: "Interrompi — Il taglio netto che ferma il pilota automatico"
 seo_description: "Micro-interruzioni per fermare il loop emotivo prima che degeneri. Mindfulness pragmatica, zero guru, tecniche rapide. Parte del Metodo I.R.O.N.I.A."
-date: 2025-11-27
-last_modified_at: 2025-11-27
+date: 2025-11-30
+last_modified_at: 2025-11-30
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["metodo-ironia", "cornerstone", "gestione-impulsi", "mindfulness-pratica"]
