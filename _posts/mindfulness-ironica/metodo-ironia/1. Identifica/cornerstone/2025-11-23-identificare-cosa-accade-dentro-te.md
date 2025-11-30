@@ -12,6 +12,7 @@ lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_a
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1763892993/hero-identifica_ov3zrl.jpg
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1763892993/hero-identifica_ov3zrl.jpg
 
+
 faqs:
 
  - question: "Come faccio a riconoscere un’emozione prima che mi travolga?"           
@@ -296,9 +297,20 @@ Devi solo notare quando funziona.
 
 Questo è l’inizio del Metodo I.R.O.N.I.A.
 
-Link alla fase successiva: [R - Ridimensiona](/mindfulness-ironica/ridimensiona-il-dramma-mentale)
+## Approfondimenti collegati
 
-## FAQ
+Per esplorare meglio i punti più delicati della fase I – Identifica, trovi tre guide dedicate:
+
+[Micro-segnali del corpo: riconoscerli prima dell’emozione](/mindfulness-ironica/il-corpo-parla-in-anticipo/)
+
+[Impulso, bisogno o abitudine? La distinzione che ti salva dai disastri](/mindfulness-ironica/impulso-bisogno-abitudine/)
+
+[I 7 errori più comuni nell’identificazione emotiva (e come evitarli)](/mindfulness-ironica/errori-identificazione-emozioni/)
+
+### Link alla fase successiva: 
+[R - Ridimensiona](/mindfulness-ironica/ridimensiona-il-dramma-mentale)
+
+### FAQ
 
 {% include faq.html %}
 
