@@ -9,10 +9,8 @@ redirect_from:
 seo_title: "Burnout e lavoro — segnali, prevenzione e strategie pratiche"
 seo_description: "Guida pratica al burnout lavorativo: segnali precoci, strategie quotidiane per prevenire e strumenti concreti per recuperare energia senza rituali inutili."
 description: "Qui niente mantra perfetti: strumenti concreti per restare lucidi tra scadenze e riunioni. Mindfulness urbana, Metodo I.R.O.N.I.A. e scelte minime ripetute per ridurre l'ansia da produttività e ritrovare ritmo."
-promise: "Azioni reali da provare questa settimana per ridurre stress, recuperare tempo e riappropriarsi di energie mentali e fisiche.
+promise: "Azioni reali da provare questa settimana per ridurre stress, recuperare tempo e riappropriarsi di energie mentali e fisiche."
 
-Scopri la **[Mindfulness Ironica](/categorie/mindfulness-ironica/)**  
-Leggi il **[Metodo Scientifico dell'I.R.O.N.I.A.](/filosofia-pratica/metodo-scientifico-ironia/)**"
 topics:
   - title: "Segnali e prevenzione"
     description: "Sei stanco di sentirti in loop: sveglia, caffè, lavoro, scroll, crollo, repeat? Benvenuto nel club — qui non vendiamo soluzioni spirituali a prezzo pieno, vendiamo cose che funzionano nel caos."

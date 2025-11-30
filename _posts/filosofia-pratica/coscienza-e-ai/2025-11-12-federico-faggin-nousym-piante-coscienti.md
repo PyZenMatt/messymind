@@ -8,6 +8,7 @@ last_modified_at: 2025-11-12
 categories: ["filosofia-pratica"]
 subcluster: "libero-arbitrio-determinismo"
 tags: ["Federico Faggin", "Nousym", "coscienza quantistica", "AI", "piante coscienti"]
+featured_post: true
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/pexels-element5-1470171_jyomcd.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412/pexels-element5-1470171_jyomcd.jpg"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/pexels-element5-1470171_jyomcd.jpg"

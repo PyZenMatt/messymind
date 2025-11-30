@@ -87,13 +87,10 @@ Il metodo si muove rapido, come un *circuit training* mentale. Ogni step dura 30
 [N – Nomina il bias o l’emozione.](/mindfulness-ironica/nomina-cio-che-senti)
 “Sto catastrofizzando.” “Sto anticipando il giudizio.” Dare un nome è come accendere la luce in una stanza. La paura resta, ma smette di sembrare infinita.
 
-I – Interrompi con l’ancoraggio 4×4
-
+[I – Interrompi con l’ancoraggio 4×4](/mindfulness-ironica/interrompere-il-pilota-automatico/)
 Quattro suoni, quattro oggetti, quattro odori, quattro contatti fisici. È il modo più rapido per tornare nel presente.
 
-A – Agisci.
-
-"Un gesto minuscolo ma reale: scrivi la mail che eviti, bevi un bicchiere d’acqua, esci sul balcone. Il cervello capisce l’azione meglio di qualsiasi consiglio motivazionale."
+[A – Agisci](/mindfulness-ironica/agisci-per-interrompere-il-loop/) "Un gesto minuscolo ma reale: scrivi la mail che eviti, bevi un bicchiere d’acqua, esci sul balcone. Il cervello capisce l’azione meglio di qualsiasi consiglio motivazionale."
 
 **E ora?**
 Scegli un pensiero, imposta un timer da 5 minuti e attraversa il ciclo completo. Mai aspettare il “momento giusto”: il metodo funziona solo in diretta, ma se ti cogli a pensare "al pensier" fai una scheda.

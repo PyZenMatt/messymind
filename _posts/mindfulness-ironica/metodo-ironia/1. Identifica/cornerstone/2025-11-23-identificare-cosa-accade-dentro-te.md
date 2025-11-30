@@ -296,6 +296,8 @@ Devi solo notare quando funziona.
 
 Questo è l’inizio del Metodo I.R.O.N.I.A.
 
+Link alla fase successiva: [R - Ridimensiona](/mindfulness-ironica/ridimensiona-il-dramma-mentale)
+
 ## FAQ
 
 {% include faq.html %}

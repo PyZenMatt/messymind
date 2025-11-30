@@ -14,7 +14,6 @@ image_alt: rappresentazioni di una mano robotica che tocca il dito di una mano u
   come il quadro di Michelangelo la creazione di Adamo
 image_author: cottonbro
 image_author_url: https://www.pexels.com/it-it/@cottonbro/
-featured_post: true
 redirect_from:
 - /ia-cosciente-per-faggin-e-unillusione-2025/
 - /faggin-ia-non-cosciente/

@@ -164,6 +164,11 @@ Hai già fatto il necessario: hai preso quell'emozione e l'hai resa un fenomeno 
 Se vuoi entrare nel ciclo completo, qui trovi il metodo intero:  
 **→ [/mindfulness-ironica/metodo-ironia/](/mindfulness-ironica/metodo-ironia/)**
 
+Link alla fase successiva: [I - Interrompi](/mindfulness-ironica/Interrompere-il-pilota-automatico)
+
+Link alla fase precedente: [O - Osservare](/mindfulness-ironica/osservare-senza-interpretare)
+
+
 
 {% include howto.html %}
 

@@ -147,6 +147,11 @@ Osservare crea lo **spazio**. E in quello spazio, nasce la possibilità di fare 
 
 👉 [Leggi il Metodo completo](mindfulness-ironica/metodo-ironia)
 
+Link alla fase successiva: [N - Nominare](/mindfulness-ironica/nomina-cio-che-senti)
+
+Link alla fase precedente: [R - Ridimensiona](/mindfulness-ironica/ridimensiona-il-dramma-mentale)
+
+
 FAQ
 
 {% include faq.html %}

@@ -150,6 +150,12 @@ E andare avanti con la propria giornata.
 
 ➡️ **[Metodo I.R.O.N.I.A. – tutto spiegato bene](/mindfulness-ironica/metodo-ironia)**
 
+Link alla fase successiva: [O - Osserva](/mindfulness-ironica/osservare-senza-interpretare)
+
+Link alla fase precedente: [I - Identifica](/mindfulness-ironica/identificare-cosa-accade-dentro-di-te)
+
+
+
 
 ## **FAQ — Domande frequenti sul Ridimensionamento**
 
