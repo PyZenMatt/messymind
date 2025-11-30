@@ -7,14 +7,15 @@ date: 2025-12-1
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["cornerstone","agisci","mindfulness-pratica","azione-consapevole"]
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764491683/agisci_clqzyf.jpg
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764491683/agisci_clqzyf.jpg
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764491683/agisci_clqzyf.jpg
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764495425/agisci_gmnzkv.jpg
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764495425/agisci_gmnzkv.jpg
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764495425/agisci_gmnzkv.jpg
 lcp_image_alt: "il ciak di un regista che sta ad indicare di cominciare l'azione"
-og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764491683/agisci_clqzyf.jpg
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764495425/agisci_gmnzkv.jpg
 
 image_author_url: https://www.pexels.com/it-it/foto/man-holding-clapper-board-1117132/
 image_author: Martin Lopez
+https://res.cloudinary.com/dkoc4knvv/image/upload
 
 faqs:
   - question: "Qual è la prima azione concreta del Metodo I.R.O.N.I.A.?"
