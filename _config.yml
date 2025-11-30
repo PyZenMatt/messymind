@@ -91,11 +91,8 @@ host: "0.0.0.0"
 port: 4000
 
 # ===== Social (legacy) =====
-
-twitter_username: ""
-github_username: "PyZenMatt"
-facebook_username: ""
-instagram_username: ""
+Github_username: "PyZenMatt"
+instagram_username: "blog.messymind"
 linkedin_username: "teo-dev"
 
 # ===== Search / Analytics / Verification =====
