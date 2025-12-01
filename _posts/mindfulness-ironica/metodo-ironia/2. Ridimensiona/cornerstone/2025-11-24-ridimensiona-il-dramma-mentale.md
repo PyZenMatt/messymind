@@ -14,11 +14,8 @@ lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_a
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764013700/lente_poiaor.jpg
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764013700/lente_poiaor.jpg
 
-
-Foto di Jenna Hamra: https://www.pexels.com/it-it/foto/persona-in-possesso-di-specchio-con-cornice-rotonda-vicino-all-albero-durante-il-giorno-979927/
-
 lcp_image_alt: "una lente d'ingradimento che guarda un fiore"
-image_author: Foto di Jenna Hamra
+image_author: Jenna Hamra
 image_author_url: https://www.pexels.com/it-it/foto/persona-in-possesso-di-specchio-con-cornice-rotonda-vicino-all-albero-durante-il-giorno-979927/
 
 faqs:
@@ -144,6 +141,16 @@ A volte, ridimensionare significa semplicemente trovare la pace sufficiente per 
 **«Ok, fammi sapere.»**
 
 E andare avanti con la propria giornata.
+
+## Approfondimenti collegati
+
+Per esplorare meglio i punti più delicati della fase R – Ridimensiona, trovi tre guide dedicate:
+
+[Le distorsioni cognitive che gonfiano ogni problema (e come riconoscerle al volo)](/mindfulness-ironica/riconoscere-distorsioni-cognitive/)
+
+[Ridimensionare l’ansia in tempo reale: cosa fare quando il corpo è già in allarme](/mindfulness-ironica/ridimensionare-ansia/)
+
+[Allenare il ridimensionamento: 7 micro-esercizi quotidiani per sgonfiare il dramma](/mindfulness-ironica/allenare-il-ridimensionamento/)
 
 
 ## **Vai alla guida completa**
