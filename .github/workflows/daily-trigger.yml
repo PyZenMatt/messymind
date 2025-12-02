@@ -1,0 +1,21 @@
+name: "Daily build trigger"
+
+on:
+  schedule:
+    - cron: "0 7 * * *"  # tutti i giorni alle 07:00 UTC ≈ 08:00 in Italia (in inverno)
+  workflow_dispatch:  # permette di lanciarlo manualmente
+
+jobs:
+  trigger-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Pages Deploy
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'pages.yml',
+              ref: 'main'
+            })
