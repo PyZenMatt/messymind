@@ -54,7 +54,7 @@ Il trattamento dei tuoi dati si basa su:
 
 ### 5.2 Cookie di analytics (solo con consenso)
 - **Google Analytics:** raccoglie dati anonimi sull'utilizzo del sito
-- ID di tracciamento: `{{ site.google_analytics | default: "G-MLB32YW721" }}`
+- ID di tracciamento: `{{ site.google_analytics | default: "G-YZRF8LG3GD" }}`
 
 Per maggiori dettagli, consulta la nostra [Cookie Policy](/cookie-policy/).
 
