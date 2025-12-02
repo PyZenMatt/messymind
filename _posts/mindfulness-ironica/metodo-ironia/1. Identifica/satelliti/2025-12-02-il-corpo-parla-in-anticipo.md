@@ -26,8 +26,8 @@ image_author_url: https://www.pexels.com/it-it/foto/persona-che-tiene-la-mano-16
 
 Succede in un lampo. Stai aprendo una mail anonima e il petto fa un *micro-scatto* impercettibile agli altri, ma chiarissimo per te. È il momento in cui ricordi chi comanda davvero: il corpo. Il cervello? Di solito arriva dopo, con un ritardo **tipo Trenitalia a novembre**.
 
-Nella fase [**I – Identifica**] del Metodo I.R.O.N.I.A., la prima cosa è riconoscere **la mappa somatica**: quei segnali che scattano **prima** del pensiero catastrofico. Se li perdi, la testa costruisce la trama e tu ci entri a film già avviato.
-Nell'articolo dedicato all’[Identificazione](/mindufulness-ironica/identificare-cosa-accade-dentro-di-te) ho spiegato cosa succede nella mente; qui andiamo sul corpo: il radar anticipo che ti avvisa tre secondi prima del disastro.
+Nella fase **I – Identifica** del Metodo I.R.O.N.I.A., la prima cosa è riconoscere **la mappa somatica**: quei segnali che scattano **prima** del pensiero catastrofico. Se li perdi, la testa costruisce la trama e tu ci entri a film già avviato.
+Nell'articolo dedicato all’[Identificazione](/mindufulness-ironica/identificare-cosa-accade-dentro-te) ho spiegato cosa succede nella mente; qui andiamo sul corpo: il radar anticipo che ti avvisa tre secondi prima del disastro.
 
 Le zone chiave sono quasi sempre quattro:
 
