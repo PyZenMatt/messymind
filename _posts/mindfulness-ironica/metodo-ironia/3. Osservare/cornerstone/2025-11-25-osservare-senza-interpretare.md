@@ -145,6 +145,16 @@ Osservare crea lo **spazio**. E in quello spazio, nasce la possibilità di fare 
 
 > **Il consiglio spiccio:** Prima di passare alla fase successiva, **Nomina**, prenditi sempre 5 secondi per descrivere cosa c'è lì, in quell'attimo. È il segreto per non tornare a reagire come un automa.
 
+## Approfondimenti collegati
+
+Per esplorare meglio i punti più delicati della fase I – Identifica, trovi tre guide dedicate:
+
+[Pilota Automatico: Interrompi la Serie TV Mentale Prima della Sigla](/mindfulness-ironica/riconoscere-il-pilota-automatico/)
+
+[Osservare Senza Andare in Paranoia: La Trappola della Sorveglianza Mentale"](/mindfulness-ironica/osservare-senza-sorvegliare/)
+
+[Quando l’Osservazione Si Trasforma in Interpretazione Selvaggia](/mindfulness-ironica/osservazione-selvaggia/)
+
 👉 [Leggi il Metodo completo](mindfulness-ironica/metodo-ironia)
 
 Link alla fase successiva: [N - Nominare](/mindfulness-ironica/nomina-cio-che-senti)
