@@ -5,7 +5,7 @@ const cookieManager = {
     config: {
         cookieName: 'cookie-consent',
         cookieExpiry: 365,
-        analyticsId: (function(){ try { return (typeof SITE_GOOGLE_ANALYTICS !== 'undefined') ? SITE_GOOGLE_ANALYTICS : 'G-4ZS3K400HQ'; } catch(e){ return 'G-4ZS3K400HQ'; } })(),
+        analyticsId: (function(){ try { return (typeof SITE_GOOGLE_ANALYTICS !== 'undefined') ? SITE_GOOGLE_ANALYTICS : 'G-YZRF8LG3GD'; } catch(e){ return 'G-YZRF8LG3GD'; } })(),
         domain: window.location.hostname
     },
     init() {
