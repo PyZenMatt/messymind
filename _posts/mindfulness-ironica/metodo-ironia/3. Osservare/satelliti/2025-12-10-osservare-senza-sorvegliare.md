@@ -9,7 +9,7 @@ categories: ["mindfulness-ironica"]
 subcluster: ["metodo-ironia"]
 tags: ["osservazione", "mindfulness", "ansia", "overmonitoring"]
 is_cornerstone: false
-date: 2025-12-06
+date: 2025-12-10
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764666625/telecamere_tzvgfv.jpg"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764666625/telecamere_tzvgfv.jpg"

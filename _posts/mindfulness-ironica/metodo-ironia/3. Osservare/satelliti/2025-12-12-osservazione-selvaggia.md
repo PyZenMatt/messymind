@@ -8,7 +8,7 @@ categories: ["mindfulness-ironica"]
 subcluster: ["metodo-ironia"]
 tags: ["osservazione", "interpretazione", "mindfulness", "overthinking"]
 is_cornerstone: false
-date: 2025-12-07
+date: 2025-12-12
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764666624/orso_jsl8ci.jpg"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764666624/orso_jsl8ci.jpg"

@@ -161,6 +161,16 @@ Stop. Fine.
 Non devi elaborare, capire, integrare o processare.
 Hai già fatto il necessario: hai preso quell'emozione e l'hai resa un fenomeno da osservare, non un comando a cui obbedire.
 
+## Approfondimenti collegati
+
+Per esplorare meglio i punti più delicati della fase I – Identifica, trovi tre guide dedicate:
+
+[La Libreria delle Emozioni: costruire un vocabolario emotivo senza diventare uno psicologo](/mindfulness-ironica/la-libreria-delle-emozioni/)
+
+[Quando la Parola Ti Frega: le etichette tossiche che aumentano l’ansia](/mindfulness-ironica/quando-la-parola-ti-frega/)
+
+[Naming sul Campo: 12 scene quotidiane in cui dare un nome cambia tutto](/mindfulness-ironica/naming-sul-campo/)
+
 Se vuoi entrare nel ciclo completo, qui trovi il metodo intero:  
 **→ [/mindfulness-ironica/metodo-ironia/](/mindfulness-ironica/metodo-ironia/)**
 

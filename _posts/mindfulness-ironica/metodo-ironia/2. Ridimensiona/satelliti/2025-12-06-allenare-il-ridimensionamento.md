@@ -8,7 +8,7 @@ categories: ["mindfulness-ironica"]
 subcluster: ["metodo-ironia"]
 tags: ["ridimensionare","esercizi mentali","overthinking","defusione","micro-abitudini"]
 is_cornerstone: "false"
-date: 2025-12-04
+date: 2025-12-6
 image_author_url: https://www.pexels.com/it-it/foto/salutare-soleggiato-donna-acqua-5068920/
 image_author: Anna Shvets
 lcp_image_alt: una persona che riposa dopo un allenamento.
