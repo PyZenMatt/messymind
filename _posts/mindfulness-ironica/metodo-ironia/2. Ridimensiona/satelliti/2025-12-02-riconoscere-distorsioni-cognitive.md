@@ -179,6 +179,6 @@ E qui collega il lavoro al cornerstone sulla R:
 Se vuoi continuare il percorso:
 
 * **[Metodo I.R.O.N.I.A. – la guida completa](/mindfulness-ironica/metodo-ironia)**
-* **[Identificare cosa accade dentro di te](/mindfulness-ironica/identificare-cosa-accade-dentro-te)**
+* **[Identificare cosa accade dentro di te](/mindfulness-ironica/identifica-cosa-accade-dentro-te)**
 
 ---
