@@ -16,6 +16,7 @@ lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_a
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764494582/errori_yto6jt.jpg
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764494582/errori_yto6jt.jpg
 image_alt: uno piu uno uguale tre, cioè un errore comune
+date: 2025-12-04
 
 internal_links:
   - "/mindfulness-ironica/identificare-cosa-accade-dentro-te/"

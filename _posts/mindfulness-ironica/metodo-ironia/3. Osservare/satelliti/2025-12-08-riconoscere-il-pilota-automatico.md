@@ -4,7 +4,7 @@ title: "Pilota Automatico: Interrompi la Serie TV Mentale Prima della Sigla"
 description: "Riconoscere il pilota automatico nei primi 3–5 secondi: la guida pratica ai segnali corporei che anticipano ansia, reattività e narrazione mentale."
 seo_title: "Come Riconoscere il Pilota Automatico — I Segnali del Corpo"
 seo_description: "I segnali fisici che anticipano ansia e reattività: come individuare il pilota automatico nei primi secondi, prima che parta la narrazione mentale."
-date: 2025-12-05
+date: 2025-12-08
 last_modified_at: 2025-12-08
 
 categories: ["mindfulness-ironica"]

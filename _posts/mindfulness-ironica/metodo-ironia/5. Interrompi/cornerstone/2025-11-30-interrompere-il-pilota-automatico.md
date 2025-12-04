@@ -147,6 +147,16 @@ Il resto lo farai con **A — Agisci**.
 
 Ma questa è un'altra scena.
 
+## Approfondimenti collegati
+
+Per esplorare meglio i punti più delicati della fase I – Identifica, trovi tre guide dedicate:
+
+[Il Pre-Impulso: cosa succede nei 300 millisecondi prima di reagire male](/mindfulness-ironica/il-pre-impulso/)
+
+[12 Micro-Interruzioni che Funzionano Davvero (anche quando sei nel caos)](/mindfulness-ironica/micro-interruzioni/)
+
+[I 7 Errori che Sabotano l’Interruzione (e come evitarli senza diventare un monaco)](/mindfulness-ironica/errori-che-sabotano/)
+
 Link alla fase precente: [N - Nominare](/mindfulness-ironica/nomina-cio-che-senti)
 
 Link alla fase successiva: [A - Agisci](/mindfulness-ironica/agisci-per-interrompere-il-loop)

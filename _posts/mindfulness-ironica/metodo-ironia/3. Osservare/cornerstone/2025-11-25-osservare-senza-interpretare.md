@@ -155,7 +155,7 @@ Per esplorare meglio i punti più delicati della fase I – Identifica, trovi tr
 
 [Quando l’Osservazione Si Trasforma in Interpretazione Selvaggia](/mindfulness-ironica/osservazione-selvaggia/)
 
-👉 [Leggi il Metodo completo](metodo-ironia)
+[Leggi il Metodo completo](/mindfulness-ironica/metodo-ironia/)
 
 Link alla fase successiva: [N - Nominare](/mindfulness-ironica/nomina-cio-che-senti)
 
