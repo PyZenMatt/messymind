@@ -14,7 +14,13 @@ internal_links:
   - "/mindfulness-ironica/micro-interruzioni-emotive/"
 is_cornerstone: false
 date: 2025-12-24
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764262284/v1764494582/errori_yto6jt.jpg"
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764262284/v1764494582/errori_yto6jt.jpg"
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764494582/errori_yto6jt.jpg"
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764494582/errori_yto6jt.jpg"
+alt_image: errore di calcolo classico degli studenti simbolo di errore
 ---
+
 
 # **I 7 Errori che Sabotano l’Interruzione (e come evitarli senza diventare un monaco)**
 

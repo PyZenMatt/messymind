@@ -13,15 +13,13 @@ internal_links:
   - "/mindfulness-ironica/metodo-ironia/"
   - "/mindfulness-ironica/metodo-ironia-interrompi/"
 
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764262284/nomina_d7tn9d.jpg"
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764262284/nomina_d7tn9d.jpg"
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764262284/nomina_d7tn9d.jpg"
-og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764262284/nomina_d7tn9d.jpg"
-alt_image: una persona con la targetta del suo nome che rappresenta l'atto di nominare qualcosa o qualcuno
-image_author: cottonbro
-image_author_url: https://www.pexels.com/it-it/@cottonbro/
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764844919/cuore_i7veco.jpg
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764844919/cuore_i7veco.jpg
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764844919/cuore_i7veco.jpg
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764844919/cuore_i7veco.jpg
+alt_image: un elettrocardiogramma simbolo di un'impulso che non si puo fermare autonomamente
 is_cornerstone: false
-length: "900-1100"
+
 ---
 
 
