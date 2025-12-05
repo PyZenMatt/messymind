@@ -139,3 +139,5 @@ Thumbs.db
 
 _site_integration/
 _site_main_merged/
+# Generated pagination pages
+pages/pagination/

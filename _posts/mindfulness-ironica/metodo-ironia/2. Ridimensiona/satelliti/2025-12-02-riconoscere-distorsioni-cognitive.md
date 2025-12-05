@@ -5,7 +5,7 @@ description: "Una guida asciutta e ironica alle distorsioni cognitive che trasfo
 seo_title: "Le distorsioni cognitive che gonfiano i problemi: guida pratica"
 seo_description: "Come riconoscere e disinnescare le distorsioni cognitive che ingrandiscono tutto. Catastrofizzazione, lettura del pensiero, filtro negativo e altri tranelli mentali spiegati in modo semplice e ironico."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["distorsioni cognitive","overthinking","catastrofizzazione","mindfulness cognitiva"]
 is_cornerstone: "false"
 date: 2025-12-02

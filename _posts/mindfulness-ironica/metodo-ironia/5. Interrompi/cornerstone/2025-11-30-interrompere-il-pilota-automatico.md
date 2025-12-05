@@ -8,6 +8,7 @@ last_modified_at: 2025-11-30
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["metodo-ironia", "cornerstone", "gestione-impulsi", "mindfulness-pratica"]
+is_cornerstone: true
 
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1764483874/pexels-lilartsy-1325619_edrxat.jpg
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764483874/pexels-lilartsy-1325619_edrxat.jpg

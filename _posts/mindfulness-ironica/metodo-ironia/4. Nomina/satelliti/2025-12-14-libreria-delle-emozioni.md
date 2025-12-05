@@ -8,10 +8,10 @@ categories: ["mindfulness-ironica"]
 subcluster: ["metodo-ironia"]
 tags: ["vocabolario emotivo", "nominare emozioni", "intelligenza emotiva pratica"]
 is_cornerstone: false
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764770636/libreria_bgoo6h.jpg
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764770636/libreria_bgoo6h.jpg
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764770636/libreria_bgoo6h.jpg
-og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764770636/libreria_bgoo6h.jpg
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764770636/libreria_bgoo6h.jpg"
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764770636/libreria_bgoo6h.jpg"
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764770636/libreria_bgoo6h.jpg"
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764770636/libreria_bgoo6h.jpg"
 alt_image: Una libreria grande e moderna stile biblioteca che sta a simboleggiare la nostra libreria di emozioni
 image_author: Ivo Rainha
 image_author_url: https://www.pexels.com/it-it/foto/libri-assortiti-sullo-scaffale-1290141/

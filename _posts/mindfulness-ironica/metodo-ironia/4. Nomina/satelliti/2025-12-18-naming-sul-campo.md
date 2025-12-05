@@ -5,14 +5,14 @@ description: "Dodici scene reali in cui un nome cambia la reazione emotiva. Un e
 seo_title: "Naming sul campo: 12 esempi per riconoscere le emozioni"
 seo_description: "Dodici scene reali in cui un nome cambia la reazione emotiva. Come applicare la N del Metodo I.R.O.N.I.A. nella vita vera."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["esempi emozioni", "nominare emozioni esempi", "come riconoscere emozioni"]
 date: 2025-12-18
 is_cornerstone: false
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764771688/caffe_agatsx.jpg
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764771688/caffe_agatsx.jpg
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764771688/caffe_agatsx.jpg
-og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764771688/caffe_agatsx.jpg
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764771688/caffe_agatsx.jpg"
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764771688/caffe_agatsx.jpg"
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764771688/caffe_agatsx.jpg"
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764771688/caffe_agatsx.jpg"
 alt_image: tazzina di caffe in primo piano, simbolo di quotidianità
 image_author: Samer Daboul 
 image_author_url: https://www.pexels.com/it-it/foto/foto-del-primo-piano-del-caffe-nero-1627933/

@@ -8,6 +8,7 @@ seo_description: "Perché dare un nome preciso a ciò che senti riduce l’attiv
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["cornerstone", "emozioni", "nominare-emozioni", "mindfulness-pragmatica", "reattività-emotiva", "cornerstone"]
+is_cornerstone: true
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764262284/nomina_d7tn9d.jpg"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764262284/nomina_d7tn9d.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764262284/nomina_d7tn9d.jpg"

@@ -7,6 +7,7 @@ date: 2025-12-01
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["cornerstone","agisci","mindfulness-pratica","azione-consapevole"]
+is_cornerstone: true
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764495425/agisci_gmnzkv.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764495425/agisci_gmnzkv.jpg"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764495425/agisci_gmnzkv.jpg"

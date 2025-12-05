@@ -68,15 +68,19 @@ layout: default
       {% comment %} Recent Posts Section - Styled as "In evidenza" from home {% endcomment %}
       <section class="listing mb-5" aria-labelledby="posts-heading">
         <div class="row mb-3">
-          <div class="col-12">
+          <div class="col-12 d-flex align-items-center">
             <h2 id="posts-heading" class="section-heading mb-0">Ultimi articoli</h2>
+            {% assign all_cat_posts = site.posts | where_exp: "p", "p.categories contains cat_slug" %}
+            {% if all_cat_posts.size > 6 %}
+            <a href="/archivio/?categoria={{ cat_slug | slugify }}" class="btn btn-primary px-4 ms-auto" aria-label="Vedi tutti gli articoli di {{ display_title }}">Tutti gli articoli</a>
+            {% endif %}
           </div>
         </div>
         
         {% if paginator %}
           {% assign posts_to_show = paginator.posts %}
         {% else %}
-          {% assign posts_to_show = cat_posts | slice: 0, 12 %}
+          {% assign posts_to_show = cat_posts | slice: 0, 6 %}
         {% endif %}
         
         {% for post in posts_to_show %}

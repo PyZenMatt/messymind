@@ -5,14 +5,14 @@ description: "Capire perché certe parole non sono emozioni ma giudizi che ampli
 seo_title: "Etichette tossiche: le parole che aumentano l’ansia (e come sostituirle)"
 seo_description: "Le parole che usi per descriverti possono aumentare la tua ansia. Ecco come sostituire le etichette tossiche con emozioni reali e utili."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["etichette tossiche", "parole che aumentano ansia", "nominare emozioni"]
 is_cornerstone: false
 date: 2025-12-16
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1763892993/hero-identifica_ov3zrl.jpg
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1763892993/hero-identifica_ov3zrl.jpg
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1763892993/hero-identifica_ov3zrl.jpg
-og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1763892993/hero-identifica_ov3zrl.jpg
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1763892993/hero-identifica_ov3zrl.jpg"
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1763892993/hero-identifica_ov3zrl.jpg"
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1763892993/hero-identifica_ov3zrl.jpg"
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1763892993/hero-identifica_ov3zrl.jpg"
 alt_image: delle etichette di vestiti simbolo di etichettare qualcosa.
 ---
 

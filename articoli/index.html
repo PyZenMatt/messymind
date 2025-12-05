@@ -1,0 +1,63 @@
+---
+layout: default
+title: "Tutti gli articoli"
+seo_title: "Tutti gli articoli — MessyMind"
+description: "Tutti gli articoli di MessyMind: mindfulness ironica, metodo I.R.O.N.I.A., crescita personale anti-guru, filosofia pratica e burnout."
+permalink: /articoli/
+---
+
+<div class="container py-5">
+  <div class="row">
+    <div class="col-12">
+      
+      <header class="mb-5 text-center">
+        <h1 class="display-5 fw-bold">Tutti gli articoli</h1>
+        <p class="lead text-muted">{{ site.posts.size }} articoli su mindfulness, crescita personale e filosofia pratica</p>
+      </header>
+
+      <section class="articles-list">
+        {% for post in site.posts %}
+        <article class="mb-4">
+          <div class="card border-0 shadow-sm">
+            <div class="row g-0">
+              {% if post.background or post.image %}
+              <div class="col-md-3">
+                <div class="ratio ratio-16x9 h-100">
+                  <img 
+                    src="{{ post.background | default: post.image }}" 
+                    alt="{{ post.title }}"
+                    loading="lazy"
+                    class="img-fluid rounded-start"
+                    style="object-fit: cover;">
+                </div>
+              </div>
+              <div class="col-md-9">
+              {% else %}
+              <div class="col-12">
+              {% endif %}
+                <div class="card-body p-3">
+                  <div class="d-flex align-items-center gap-2 mb-1">
+                    <small class="text-muted">{{ post.date | date: "%d/%m/%Y" }}</small>
+                    {% if post.categories.first %}
+                    <span class="badge bg-secondary">{{ post.categories.first | replace: '-', ' ' | capitalize }}</span>
+                    {% endif %}
+                  </div>
+                  <h2 class="h6 card-title mb-1">
+                    <a href="{{ post.url | relative_url }}" class="text-decoration-none stretched-link">
+                      {{ post.title }}
+                    </a>
+                  </h2>
+                  <p class="card-text text-muted small mb-0 d-none d-md-block">
+                    {{ post.description | default: post.excerpt | strip_html | truncate: 120 }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </section>
+
+    </div>
+  </div>
+</div>

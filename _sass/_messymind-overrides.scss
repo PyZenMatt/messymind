@@ -345,7 +345,8 @@ footer {
 // Support multiple section class variants used across layouts: .cornerstone, .cornerstones, .cornerstone-section
 .cornerstone .mm-card,
 .cornerstones .mm-card,
-.cornerstone-section .mm-card {
+.cornerstone-section .mm-card,
+.method-ironia-section .mm-card {
   border: none !important;
   box-shadow: none !important;
   min-height: 350px !important; // Altezza uniforme anche per le guide
@@ -355,7 +356,8 @@ footer {
 
 .cornerstone .mm-card .p-4,
 .cornerstones .mm-card .p-4,
-.cornerstone-section .mm-card .p-4 {
+.cornerstone-section .mm-card .p-4,
+.method-ironia-section .mm-card .p-4 {
   flex: 1 !important; // Il contenuto si espande per uniformare l'altezza
   display: flex !important;
   flex-direction: column !important;
@@ -363,7 +365,8 @@ footer {
 
 .cornerstone .mm-card .text-muted,
 .cornerstones .mm-card .text-muted,
-.cornerstone-section .mm-card .text-muted {
+.cornerstone-section .mm-card .text-muted,
+.method-ironia-section .mm-card .text-muted {
   flex: 1 !important; // La descrizione si espande per spingere il bottone in basso
 }
 

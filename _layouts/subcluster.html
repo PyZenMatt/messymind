@@ -28,28 +28,12 @@ layout: default
 {% comment %} Mappa slug a display title {% endcomment %}
 {% assign display_title = page.title | default: page.subcluster | replace: '-', ' ' | capitalize %}
 
-{% comment %} Parametri paginazione {% endcomment %}
-{% assign posts_per_page = 9 %}
-{% assign current_page = page.pagination_page | default: 1 %}
-{% assign offset = current_page | minus: 1 | times: posts_per_page %}
-
-{% comment %} Raccogli TUTTI i post del subcluster {% endcomment %}
-{% assign all_sub_posts = site.posts 
+{% comment %} Raccogli TUTTI i post del subcluster (senza paginazione) {% endcomment %}
+{% assign sub_posts = site.posts 
   | where_exp: "p", "p.categories contains cat_slug" 
   | where: "subcluster", sub_slug 
   | sort: "date" 
   | reverse %}
-
-{% comment %} Calcola totale pagine {% endcomment %}
-{% assign total_posts = all_sub_posts.size %}
-{% assign total_pages = total_posts | divided_by: posts_per_page | plus: 0 %}
-{% assign remainder = total_posts | modulo: posts_per_page %}
-{% if remainder > 0 %}
-  {% assign total_pages = total_pages | plus: 1 %}
-{% endif %}
-
-{% comment %} Post della pagina corrente (paginati) {% endcomment %}
-{% assign sub_posts = all_sub_posts | slice: offset, posts_per_page %}
 
 {% comment %} Hero Component - Stile Category con CTA {% endcomment %}
 {% include subcluster-hero.html %}
@@ -66,18 +50,96 @@ layout: default
       {% comment %} Intro Section - Grid 2x2 "Cosa troverai qui" {% endcomment %}
       {% include subcluster-intro.html %}
       
-      {% comment %} Cornerstone Section (Guide essenziali) {% endcomment %}
-      {% include cornerstone-section.html category=cat_slug subcluster=sub_slug %}
+      {% comment %} Blocco fisso Metodo I.R.O.N.I.A. - Solo per subcluster metodo-ironia {% endcomment %}
+      {% if sub_slug == "metodo-ironia" %}
+      
+      {% comment %} Raccogli i 6 post cornerstone del metodo in ordine I-R-O-N-I-A {% endcomment %}
+      {% assign ironia_slugs = "identificare-cosa-accade-dentro-te,ridimensiona-il-dramma-mentale,osservare-senza-interpretare,nomina-cio-che-senti,interrompere-il-pilota-automatico,agisci-per-interrompere-il-loop" | split: "," %}
+      {% assign ironia_posts = "" | split: "," %}
+      {% for slug in ironia_slugs %}
+        {% assign found_post = site.posts | where: "slug", slug | first %}
+        {% if found_post %}
+          {% assign ironia_posts = ironia_posts | push: found_post %}
+        {% endif %}
+      {% endfor %}
+      
+      <section class="method-ironia-section mb-5" aria-labelledby="method-heading">
+        <div class="row mb-4">
+          <div class="col-12">
+            <h2 id="method-heading" class="section-heading mb-2">Metodo I.R.O.N.I.A.</h2>
+            <p class="text-muted mb-0">Sei fasi per interrompere il loop mentale e tornare al presente</p>
+          </div>
+        </div>
+        
+        {% comment %} Riga 1: I - R - O {% endcomment %}
+        <div class="row g-4 align-items-stretch mb-4">
+          {% for post in ironia_posts limit:3 %}
+          <div class="col-12 col-md-4">
+            <article class="mm-card h-100 rounded-3 overflow-hidden">
+              <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                {% if post.background or post.image %}
+                <div class="thumb ratio ratio-16x9 overflow-hidden">
+                  <img src="{{ post.background | default: post.image }}" alt="{{ post.title }}" loading="lazy" decoding="async" class="w-100 h-100" style="object-fit: cover;">
+                </div>
+                {% endif %}
+                <div class="p-4">
+                  <h3 class="h5 mb-2"><span class="text-dark">{{ post.title }}</span></h3>
+                  {% assign post_desc = post.description | default: post.seo_description | default: post.excerpt %}
+                  {% if post_desc %}
+                  <p class="text-muted mb-3">{{ post_desc | strip_html | truncatewords: 15 }}</p>
+                  {% endif %}
+                  <span class="btn btn-sm btn-outline-primary">Leggi</span>
+                </div>
+              </a>
+            </article>
+          </div>
+          {% endfor %}
+        </div>
+        
+        {% comment %} Riga 2: N - I - A {% endcomment %}
+        <div class="row g-4 align-items-stretch">
+          {% for post in ironia_posts offset:3 limit:3 %}
+          <div class="col-12 col-md-4">
+            <article class="mm-card h-100 rounded-3 overflow-hidden">
+              <a href="{{ post.url | relative_url }}" class="text-decoration-none">
+                {% if post.background or post.image %}
+                <div class="thumb ratio ratio-16x9 overflow-hidden">
+                  <img src="{{ post.background | default: post.image }}" alt="{{ post.title }}" loading="lazy" decoding="async" class="w-100 h-100" style="object-fit: cover;">
+                </div>
+                {% endif %}
+                <div class="p-4">
+                  <h3 class="h5 mb-2"><span class="text-dark">{{ post.title }}</span></h3>
+                  {% assign post_desc = post.description | default: post.seo_description | default: post.excerpt %}
+                  {% if post_desc %}
+                  <p class="text-muted mb-3">{{ post_desc | strip_html | truncatewords: 15 }}</p>
+                  {% endif %}
+                  <span class="btn btn-sm btn-outline-primary">Leggi</span>
+                </div>
+              </a>
+            </article>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      {% comment %} Cornerstone Section (Guide essenziali) - Salta per metodo-ironia {% endcomment %}
+      {% unless sub_slug == "metodo-ironia" %}
+        {% include cornerstone-section.html category=cat_slug subcluster=sub_slug %}
+      {% endunless %}
 
       {% comment %} Lista Post - Stile featured-card come category {% endcomment %}
       <section class="listing mb-5" aria-labelledby="posts-heading">
         <div class="row mb-3">
-          <div class="col-12">
+          <div class="col-12 d-flex align-items-center">
             <h2 id="posts-heading" class="section-heading mb-0">Ultimi articoli</h2>
+            {% if sub_posts.size > 6 %}
+            <a href="/archivio/?tema={{ sub_slug | slugify }}" class="btn btn-primary px-4 ms-auto" aria-label="Vedi tutti gli articoli di {{ display_title }}">Tutti gli articoli</a>
+            {% endif %}
           </div>
         </div>
         
-        {% for post in sub_posts %}
+        {% for post in sub_posts limit:6 %}
         <div class="row mb-4">
           <div class="col-12">
             <article class="featured-card mm-card border rounded-3 shadow-sm overflow-hidden">
@@ -127,67 +189,6 @@ layout: default
           </div>
         </div>
         {% endfor %}
-        
-        {% comment %} Paginazione {% endcomment %}
-        {% comment %} Paginazione {% endcomment %}
-        {% if total_pages > 1 %}
-        <nav class="pagination-wrapper mb-5" aria-label="Navigazione pagine">
-          <ul class="pagination justify-content-center">
-            {% comment %} Previous {% endcomment %}
-            {% if current_page > 1 %}
-              {% assign prev_page = current_page | minus: 1 %}
-              {% if prev_page == 1 %}
-                <li class="page-item">
-                  <a class="page-link" href="{{ page.url | relative_url }}" aria-label="Pagina precedente">
-                    <span aria-hidden="true">&laquo;</span>
-                  </a>
-                </li>
-              {% else %}
-                <li class="page-item">
-                  <a class="page-link" href="{{ page.url | relative_url }}page/{{ prev_page }}/" aria-label="Pagina precedente">
-                    <span aria-hidden="true">&laquo;</span>
-                  </a>
-                </li>
-              {% endif %}
-            {% else %}
-              <li class="page-item disabled">
-                <span class="page-link" aria-hidden="true">&laquo;</span>
-              </li>
-            {% endif %}
-
-            {% comment %} Page numbers {% endcomment %}
-            {% for i in (1..total_pages) %}
-              {% if i == current_page %}
-                <li class="page-item active" aria-current="page">
-                  <span class="page-link">{{ i }}</span>
-                </li>
-              {% elsif i == 1 %}
-                <li class="page-item">
-                  <a class="page-link" href="{{ page.url | relative_url }}">{{ i }}</a>
-                </li>
-              {% else %}
-                <li class="page-item">
-                  <a class="page-link" href="{{ page.url | relative_url }}page/{{ i }}/">{{ i }}</a>
-                </li>
-              {% endif %}
-            {% endfor %}
-
-            {% comment %} Next {% endcomment %}
-            {% if current_page < total_pages %}
-              {% assign next_page = current_page | plus: 1 %}
-              <li class="page-item">
-                <a class="page-link" href="{{ page.url | relative_url }}page/{{ next_page }}/" aria-label="Pagina successiva">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            {% else %}
-              <li class="page-item disabled">
-                <span class="page-link" aria-hidden="true">&raquo;</span>
-              </li>
-            {% endif %}
-          </ul>
-        </nav>
-        {% endif %}
       </section>
 
       {% comment %} FAQ Section - Accordion Bootstrap come category {% endcomment %}

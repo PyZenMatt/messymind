@@ -667,3 +667,16 @@ html[data-theme='dark'] {
     }
   }
 }
+
+// Method I.R.O.N.I.A. Section - Card style like Guide essenziali
+// ===============================================================
+.method-ironia-section {
+  .mm-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: $shadow-md;
+    }
+  }
+}

@@ -2,22 +2,18 @@
 layout: post
 title: "I 7 Errori Più Comuni Quando Provi a Capire Cosa Stai Provando"
 slug: "errori-identificazione-emozioni"
-
 seo_title: "Errori nell’identificazione emotiva: i 7 più comuni (e come evitarli)"
 seo_description: "I 7 errori che sabotano la fase I del Metodo I.R.O.N.I.A. Come distinguere pensieri, emozioni e automatismi senza cadere nell'iperanalisi."
-
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["satellite", "errori", "consapevolezza", "mindfulness"]
 is_cornerstone: false
-
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1764494582/errori_yto6jt.jpg
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764494582/errori_yto6jt.jpg
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764494582/errori_yto6jt.jpg
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764494582/errori_yto6jt.jpg
 image_alt: uno piu uno uguale tre, cioè un errore comune
 date: 2025-12-04
-
 internal_links:
   - "/mindfulness-ironica/identificare-cosa-accade-dentro-te/"
   - "/mindfulness-ironica/metodo-ironia"

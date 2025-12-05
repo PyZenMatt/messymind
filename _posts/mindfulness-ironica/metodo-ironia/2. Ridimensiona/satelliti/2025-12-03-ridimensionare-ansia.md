@@ -6,7 +6,7 @@ description: "Ansia già esplosa? Una guida pratica e asciutta per calmare il co
 seo_title: "Ridimensionare l’ansia in tempo reale: guida pratica"
 seo_description: "Cosa fare quando l’ansia esplode all’improvviso? Un protocollo rapido per calmare il corpo e ridimensionare i pensieri catastrofici in modo realistico."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["ansia","ridimensionare","grounding","attacco di ansia","mindfulness pragmatica"]
 is_cornerstone: "false"
 date: 2025-12-03

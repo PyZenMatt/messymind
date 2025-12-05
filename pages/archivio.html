@@ -9,13 +9,225 @@ permalink: /archivio/
     <div class="col-12">
       <h1 class="display-4 mb-4">Tutti gli Articoli</h1>
       
-  <div class="row equalize">
+      <!-- Filtri avanzati -->
+      <div class="archive-filters mb-5">
+        <!-- Barra di ricerca e filtri -->
+        <div class="filters-row">
+          <div class="filter-group filter-search">
+            <label for="search-input">Cerca</label>
+            <input type="text" id="search-input" placeholder="Cerca articoli...">
+          </div>
+          <div class="filter-group">
+            <label for="category-filter">Categoria</label>
+            <select id="category-filter">
+              <option value="all">Tutte le categorie</option>
+              {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
+              {% for cat in categories %}
+                {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains cat" %}
+                <option value="{{ cat | slugify }}">{{ cat | replace: '-', ' ' | capitalize }} ({{ cat_posts.size }})</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="subcluster-filter">Tema</label>
+            <select id="subcluster-filter">
+              <option value="all">Tutti i temi</option>
+              {% assign subclusters = site.posts | map: "subcluster" | compact | uniq | sort %}
+              {% for sub in subclusters %}
+                {% assign sub_posts = site.posts | where: "subcluster", sub %}
+                <option value="{{ sub | slugify }}">{{ sub | replace: '-', ' ' | capitalize }} ({{ sub_posts.size }})</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        
+        <!-- Risultati e reset -->
+        <div class="filters-footer">
+          <span id="results-count">{{ site.posts.size }} articoli</span>
+          <button id="reset-filters" type="button">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+            Resetta filtri
+          </button>
+        </div>
+      </div>
+
+      <style>
+        /* === FILTRI ARCHIVIO - Stile MessyMind === */
+        .archive-filters {
+          background: #fff;
+          border: 1px solid rgba(46, 61, 73, 0.1);
+          border-radius: 0.625rem;
+          padding: 1.5rem;
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+        
+        .filters-row {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 1rem;
+        }
+        
+        @media (min-width: 768px) {
+          .filters-row {
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 1.25rem;
+          }
+        }
+        
+        .filter-group {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+        
+        .filter-group label {
+          font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+          font-size: 0.75rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          color: #4F8A8B;
+        }
+        
+        .filter-group input,
+        .filter-group select {
+          width: 100%;
+          padding: 0.75rem 1rem;
+          font-family: 'Merriweather', Georgia, serif;
+          font-size: 0.95rem;
+          color: #2E3D49;
+          background-color: #F7F3EA;
+          border: 2px solid rgba(46, 61, 73, 0.1);
+          border-radius: 0.625rem;
+          transition: border-color 0.2s ease, box-shadow 0.2s ease;
+          -webkit-appearance: none;
+          appearance: none;
+        }
+        
+        .filter-group select {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%234F8A8B' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+          background-repeat: no-repeat;
+          background-position: right 1rem center;
+          padding-right: 2.5rem;
+          cursor: pointer;
+        }
+        
+        .filter-group input:focus,
+        .filter-group select:focus {
+          outline: none;
+          border-color: #4F8A8B;
+          box-shadow: 0 0 0 3px rgba(79, 138, 139, 0.15);
+        }
+        
+        .filter-group input::placeholder {
+          color: #6B7280;
+          opacity: 0.7;
+        }
+        
+        .filters-footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 1rem;
+          padding-top: 1rem;
+          border-top: 1px solid rgba(46, 61, 73, 0.08);
+        }
+        
+        #results-count {
+          font-size: 0.875rem;
+          color: #6B7280;
+          font-family: 'Merriweather', Georgia, serif;
+        }
+        
+        #reset-filters {
+          display: none;
+          align-items: center;
+          gap: 0.4rem;
+          padding: 0.5rem 1rem;
+          font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+          font-size: 0.8rem;
+          font-weight: 500;
+          color: #F97F51;
+          background: transparent;
+          border: 1.5px solid #F97F51;
+          border-radius: 0.5rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+        }
+        
+        #reset-filters.visible {
+          display: inline-flex;
+        }
+        
+        #reset-filters:hover {
+          background: #F97F51;
+          color: #fff;
+        }
+        
+        /* === DARK MODE === */
+        html.dark .archive-filters {
+          background: #2a2a2a;
+          border-color: #404040;
+        }
+        
+        html.dark .filter-group label {
+          color: #4F8A8B;
+        }
+        
+        html.dark .filter-group input,
+        html.dark .filter-group select {
+          background-color: #1a1a1a;
+          color: #e0e0e0;
+          border-color: #404040;
+        }
+        
+        html.dark .filter-group select {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%234F8A8B' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+        }
+        
+        html.dark .filter-group input::placeholder {
+          color: #888;
+        }
+        
+        html.dark .filter-group select option {
+          background-color: #2a2a2a;
+          color: #e0e0e0;
+        }
+        
+        html.dark .filters-footer {
+          border-color: #404040;
+        }
+        
+        html.dark #results-count {
+          color: #b0b0b0;
+        }
+        
+        html.dark #reset-filters {
+          color: #F97F51;
+          border-color: #F97F51;
+        }
+        
+        html.dark #reset-filters:hover {
+          background: #F97F51;
+          color: #1a1a1a;
+        }
+      </style>
+
+      <div class="row equalize" id="articles-grid">
         {% for post in site.posts %}
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4 article-card" 
+             data-categories="{% for cat in post.categories %}{{ cat | slugify }} {% endfor %}"
+             data-categories-names="{% for cat in post.categories %}{{ cat | downcase }} {% endfor %}"
+             data-subcluster="{{ post.subcluster | slugify }}"
+             data-subcluster-name="{{ post.subcluster | downcase }}"
+             data-title="{{ post.title | downcase }}">
           <div class="card h-100 shadow-sm">
             <img src="{{ post.background | default: '/assets/images/default-post.jpg' }}" 
                  class="card-img-top" 
                  alt="{{ post.title }}"
+                 loading="lazy"
                  style="height: 200px; object-fit: cover;">
             <div class="card-body">
               <a href="{{ post.url | relative_url }}" class="text-decoration-none text-dark">
@@ -30,7 +242,6 @@ permalink: /archivio/
                   <a href="{{ '/categorie/' | append: category | slugify | append: '/' | relative_url }}" class="text-decoration-none me-2">{{ category }}</a>
                 {% endif %}
               {% endfor %}
-              <!-- Dynamic excerpt length: compute from title length so cards align better -->
               {% assign title_words = post.title | split: ' ' | size %}
               {% assign desired_total = 40 %}
               {% assign excerpt_len = desired_total | minus: title_words %}
@@ -51,6 +262,214 @@ permalink: /archivio/
         </div>
         {% endfor %}
       </div>
+      
+      <!-- Messaggio nessun risultato -->
+      <div id="no-results" class="text-center py-5" style="display: none;">
+        <p class="text-muted">Nessun articolo trovato per questa categoria.</p>
+      </div>
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('search-input');
+  const categoryFilter = document.getElementById('category-filter');
+  const subclusterFilter = document.getElementById('subcluster-filter');
+  const resetBtn = document.getElementById('reset-filters');
+  const resultsCount = document.getElementById('results-count');
+  const articles = document.querySelectorAll('.article-card');
+  const noResults = document.getElementById('no-results');
+  const totalArticles = articles.length;
+  
+  // Salva le opzioni originali dei dropdown
+  const originalCategoryOptions = Array.from(categoryFilter.options).map(opt => ({
+    value: opt.value,
+    text: opt.textContent
+  }));
+  const originalSubclusterOptions = Array.from(subclusterFilter.options).map(opt => ({
+    value: opt.value,
+    text: opt.textContent
+  }));
+  
+  // Costruisce la mappa delle relazioni categoria <-> tema
+  function buildRelationships() {
+    const catToSub = {}; // categoria -> set di temi
+    const subToCat = {}; // tema -> set di categorie
+    
+    articles.forEach(article => {
+      const categories = (article.dataset.categories || '').trim().split(/\s+/).filter(c => c);
+      const subcluster = article.dataset.subcluster || '';
+      
+      categories.forEach(cat => {
+        if (!catToSub[cat]) catToSub[cat] = new Set();
+        if (subcluster) catToSub[cat].add(subcluster);
+      });
+      
+      if (subcluster) {
+        if (!subToCat[subcluster]) subToCat[subcluster] = new Set();
+        categories.forEach(cat => subToCat[subcluster].add(cat));
+      }
+    });
+    
+    return { catToSub, subToCat };
+  }
+  
+  const { catToSub, subToCat } = buildRelationships();
+  
+  // Aggiorna il dropdown dei temi in base alla categoria selezionata
+  function updateSubclusterOptions() {
+    const selectedCategory = categoryFilter.value;
+    const currentSubcluster = subclusterFilter.value;
+    
+    // Svuota e ricostruisce le opzioni
+    subclusterFilter.innerHTML = '';
+    
+    originalSubclusterOptions.forEach(opt => {
+      if (opt.value === 'all') {
+        const option = document.createElement('option');
+        option.value = opt.value;
+        option.textContent = opt.text;
+        subclusterFilter.appendChild(option);
+      } else if (selectedCategory === 'all' || (catToSub[selectedCategory] && catToSub[selectedCategory].has(opt.value))) {
+        const option = document.createElement('option');
+        option.value = opt.value;
+        option.textContent = opt.text;
+        subclusterFilter.appendChild(option);
+      }
+    });
+    
+    // Mantieni la selezione se ancora valida, altrimenti resetta
+    if (Array.from(subclusterFilter.options).some(opt => opt.value === currentSubcluster)) {
+      subclusterFilter.value = currentSubcluster;
+    } else {
+      subclusterFilter.value = 'all';
+    }
+  }
+  
+  // Aggiorna il dropdown delle categorie in base al tema selezionato
+  function updateCategoryOptions() {
+    const selectedSubcluster = subclusterFilter.value;
+    const currentCategory = categoryFilter.value;
+    
+    // Svuota e ricostruisce le opzioni
+    categoryFilter.innerHTML = '';
+    
+    originalCategoryOptions.forEach(opt => {
+      if (opt.value === 'all') {
+        const option = document.createElement('option');
+        option.value = opt.value;
+        option.textContent = opt.text;
+        categoryFilter.appendChild(option);
+      } else if (selectedSubcluster === 'all' || (subToCat[selectedSubcluster] && subToCat[selectedSubcluster].has(opt.value))) {
+        const option = document.createElement('option');
+        option.value = opt.value;
+        option.textContent = opt.text;
+        categoryFilter.appendChild(option);
+      }
+    });
+    
+    // Mantieni la selezione se ancora valida, altrimenti resetta
+    if (Array.from(categoryFilter.options).some(opt => opt.value === currentCategory)) {
+      categoryFilter.value = currentCategory;
+    } else {
+      categoryFilter.value = 'all';
+    }
+  }
+  
+  function filterArticles() {
+    const searchTerm = searchInput.value.toLowerCase().trim();
+    const categoryValue = categoryFilter.value;
+    const subclusterValue = subclusterFilter.value;
+    
+    let visibleCount = 0;
+    
+    articles.forEach(article => {
+      const title = article.dataset.title || '';
+      const categories = article.dataset.categories || '';
+      const categoriesNames = article.dataset.categoriesNames || '';
+      const subcluster = article.dataset.subcluster || '';
+      const subclusterName = article.dataset.subclusterName || '';
+      
+      // Controllo ricerca - cerca in titolo, categoria e tema
+      const matchesSearch = !searchTerm || 
+        title.includes(searchTerm) || 
+        categoriesNames.includes(searchTerm) || 
+        subclusterName.includes(searchTerm);
+      
+      // Controllo categoria
+      const matchesCategory = categoryValue === 'all' || categories.includes(categoryValue);
+      
+      // Controllo subcluster
+      const matchesSubcluster = subclusterValue === 'all' || subcluster === subclusterValue;
+      
+      if (matchesSearch && matchesCategory && matchesSubcluster) {
+        article.style.display = '';
+        visibleCount++;
+      } else {
+        article.style.display = 'none';
+      }
+    });
+    
+    // Aggiorna contatore
+    resultsCount.textContent = visibleCount + ' articol' + (visibleCount === 1 ? 'o' : 'i');
+    
+    // Mostra/nascondi messaggio nessun risultato
+    noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    
+    // Mostra/nascondi bottone reset
+    const hasFilters = searchTerm || categoryValue !== 'all' || subclusterValue !== 'all';
+    resetBtn.style.display = hasFilters ? 'inline-block' : 'none';
+  }
+  
+  function resetFilters() {
+    searchInput.value = '';
+    categoryFilter.value = 'all';
+    subclusterFilter.value = 'all';
+    // Ripristina tutte le opzioni
+    updateCategoryOptions();
+    updateSubclusterOptions();
+    filterArticles();
+  }
+  
+  // Event listeners
+  searchInput.addEventListener('input', filterArticles);
+  
+  categoryFilter.addEventListener('change', function() {
+    updateSubclusterOptions();
+    filterArticles();
+  });
+  
+  subclusterFilter.addEventListener('change', function() {
+    updateCategoryOptions();
+    filterArticles();
+  });
+  
+  resetBtn.addEventListener('click', resetFilters);
+  
+  // Leggi parametri URL e pre-filtra
+  const urlParams = new URLSearchParams(window.location.search);
+  const urlTema = urlParams.get('tema');
+  const urlCategoria = urlParams.get('categoria');
+  
+  if (urlTema) {
+    // Cerca l'opzione corrispondente nel dropdown temi
+    const temaOption = Array.from(subclusterFilter.options).find(opt => opt.value === urlTema);
+    if (temaOption) {
+      subclusterFilter.value = urlTema;
+      updateCategoryOptions();
+      filterArticles();
+    }
+  }
+  
+  if (urlCategoria) {
+    // Cerca l'opzione corrispondente nel dropdown categorie
+    const catOption = Array.from(categoryFilter.options).find(opt => opt.value === urlCategoria);
+    if (catOption) {
+      categoryFilter.value = urlCategoria;
+      updateSubclusterOptions();
+      filterArticles();
+    }
+  }
+});
+</script>
