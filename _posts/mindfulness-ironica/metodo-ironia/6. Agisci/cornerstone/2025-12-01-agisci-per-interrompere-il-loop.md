@@ -203,6 +203,16 @@ E più agisci con micro-passi, meno la tua mente potrà convincerti che “devi 
 Azione = contatto con la realtà.  
 Realtà = meno spazio per i disastri immaginari.
 
+## Approfondimenti collegati
+
+Per esplorare meglio i punti più delicati della fase I – Identifica, trovi tre guide dedicate:
+
+[30 Micro-Azioni per Sbloccarti Subito (classificate per intensità)](/mindfulness-ironica/micro-azioni-per-sbloccarti/)
+
+[La Trappola dell’Azione Perfetta: 9 Errori che Ti Tengono Fermo](/mindfulness-ironica/trappola-azione-perfetta/)
+
+[Il Metodo dei 120 Secondi: Agire Anche Quando Non Hai Voglia](/mindfulness-ironica/il-metodo-dei-120-secondi/)
+
 Link alla fase precedente: [I - Interrompi](/mindfulness-ironica/interrompere-il-pilota-automatico)
 
 Link al metodo completo: [Meotodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia)
