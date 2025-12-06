@@ -198,6 +198,6 @@ Questa routine riduce in modo graduale il dramma mentale e rende il ridimensiona
 
 Dopo una settimana torna al cornerstone sulla R, rileggi la parte teorica e noterai che capisci (e applichi) tutto il doppio.
 
-➡️ [Ridimensiona: articolo completo completo](/mindufulness-ironica/ridimensiona-il-dramma-mentale)
+[Ridimensiona: articolo completo completo](/mindfulness-ironica/ridimensiona-il-dramma-mentale)
 
-➡️ [Metodo I.R.O.N.I.A. – Guida completa](/mindufulness-ironica/metodo-ironia)
+[Metodo I.R.O.N.I.A. – Guida completa](/minduflness-ironica/metodo-ironia)

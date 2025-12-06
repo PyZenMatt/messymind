@@ -164,10 +164,9 @@ Salvalo sul telefono. È la checklist minima, zero poesia.
 Chiudi il ciclo. Niente perfezione, solo continuità.
 
 Per approfondire il lavoro mentale:
-
-➡️ **[Ridimensiona: smontare il dramma mentale prima che diventi un disastro](/mindfulness-ironica/ridimensiona-il-dramma-mentale-prima-che-diventi-un-disastro)**
-➡️ **[Metodo I.R.O.N.I.A. – la guida completa](/mindfulness-ironica/metodo-ironia)**
-➡️ **[Interrompi: il micro-taglio che ferma il pilota automatico](/mindfulness-ironica/metodo-ironia-interrompi)**
-➡️ **[Osservare senza interpretare](/mindfulness-ironica/osservare-senza-interpretare)**
+**[Ridimensiona: smontare il dramma mentale prima che diventi un disastro](/mindfulness-ironica/ridimensiona-il-dramma-mentale-prima-che-diventi-un-disastro)**
+**[Metodo I.R.O.N.I.A. – la guida completa](/mindfulness-ironica/metodo-ironia)**
+**[Interrompi: il micro-taglio che ferma il pilota automatico](/mindfulness-ironica/metodo-ironia-interrompi)**
+**[Osservare senza interpretare](/mindfulness-ironica/osservare-senza-interpretare)**
 
 ---
