@@ -49,7 +49,7 @@ Spoiler: non stai fallendo niente. Stai solo usando l’energia sbagliata per l�
 Per ribaltare questo schema, torna alla O:  
 ["Osserva: La Superpotenza di Chiudere il Pilota Automatico"](/mindfulness-ironica/osservare-senza-interpretare)  
 e alla metodo generale:  
-[Metodo IRONIA](/mindfulness-ironica/metodo-ironia/)*  
+[Metodo IRONIA](/mindfulness-ironica/metodo-ironia/)  
 
 ---
 
@@ -72,7 +72,7 @@ La verità è che l’osservazione sana è **un dettaglio alla volta**.
 Se provi a prendere tutto insieme — respiro, battito, pancia, temperatura, postura, pensieri — finisci in un panopticon domestico.
 
 E allora torna alla lettera N per ricordarti che basta nominare, non scandagliare:  
-["Nomina: dare un nome a ciò che senti per riprendere il controllo"](/mindfulness-ironica/nomina-cio-che-senti/)
+["Nomina: dare un nome a ciò che senti per riprendere il controllo"](/mindfulness-ironica/nomina-cio-che-senti)
 
 
 ## **La regola d’oro: tornare al punto d’appoggio**

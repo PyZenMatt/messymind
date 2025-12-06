@@ -200,4 +200,4 @@ Dopo una settimana torna al cornerstone sulla R, rileggi la parte teorica e note
 
 [Ridimensiona: articolo completo completo](/mindfulness-ironica/ridimensiona-il-dramma-mentale)
 
-[Metodo I.R.O.N.I.A. – Guida completa](/minduflness-ironica/metodo-ironia)
+[Metodo I.R.O.N.I.A. – Guida completa](/mindfulness-ironica/metodo-ironia)
