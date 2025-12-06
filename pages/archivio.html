@@ -34,8 +34,14 @@ permalink: /archivio/
               <option value="all">Tutti i temi</option>
               {% assign subclusters = site.posts | map: "subcluster" | compact | uniq | sort %}
               {% for sub in subclusters %}
-                {% assign sub_posts = site.posts | where: "subcluster", sub %}
-                <option value="{{ sub | slugify }}">{{ sub | replace: '-', ' ' | capitalize }} ({{ sub_posts.size }})</option>
+                {% comment %}Gestisce il caso in cui subcluster sia un array{% endcomment %}
+                {% if sub.first %}
+                  {% assign sub_val = sub | first %}
+                {% else %}
+                  {% assign sub_val = sub %}
+                {% endif %}
+                {% assign sub_posts = site.posts | where: "subcluster", sub_val %}
+                <option value="{{ sub_val | slugify }}">{{ sub_val | replace: '-', ' ' | capitalize }} ({{ sub_posts.size }})</option>
               {% endfor %}
             </select>
           </div>
@@ -217,11 +223,17 @@ permalink: /archivio/
 
       <div class="row equalize" id="articles-grid">
         {% for post in site.posts %}
+        {% comment %}Gestisce subcluster come array o stringa{% endcomment %}
+        {% if post.subcluster.first %}
+          {% assign post_subcluster = post.subcluster | first %}
+        {% else %}
+          {% assign post_subcluster = post.subcluster %}
+        {% endif %}
         <div class="col-lg-4 col-md-6 mb-4 article-card" 
              data-categories="{% for cat in post.categories %}{{ cat | slugify }} {% endfor %}"
              data-categories-names="{% for cat in post.categories %}{{ cat | downcase }} {% endfor %}"
-             data-subcluster="{{ post.subcluster | slugify }}"
-             data-subcluster-name="{{ post.subcluster | downcase }}"
+             data-subcluster="{{ post_subcluster | slugify }}"
+             data-subcluster-name="{{ post_subcluster | downcase }}"
              data-title="{{ post.title | downcase }}">
           <div class="card h-100 shadow-sm">
             <img src="{{ post.background | default: '/assets/images/default-post.jpg' }}" 

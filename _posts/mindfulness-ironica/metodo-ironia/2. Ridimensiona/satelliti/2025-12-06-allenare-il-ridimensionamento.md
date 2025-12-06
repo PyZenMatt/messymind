@@ -5,7 +5,7 @@ description: "Sette micro-esercizi da 30–60 secondi per trasformare il ridimen
 seo_title: "Allenare il ridimensionamento: 7 micro-esercizi quotidiani"
 seo_description: "Come allenare il ridimensionamento dei pensieri? Sette esercizi brevi e realistici per ridurre il dramma mentale nella vita di tutti i giorni."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["ridimensionare","esercizi mentali","overthinking","defusione","micro-abitudini"]
 is_cornerstone: "false"
 date: 2025-12-6

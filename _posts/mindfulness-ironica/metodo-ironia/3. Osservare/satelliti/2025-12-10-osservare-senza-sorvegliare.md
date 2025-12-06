@@ -6,7 +6,7 @@ seo_title: "Osservare Senza Andare in Paranoia – Mindfulness Senza Controllo"
 seo_description: "La differenza tra osservare e sorvegliare: come evitare che la mindfulness diventi controllo ossessivo."
 meta_description: "La differenza tra osservare e sorvegliare: come evitare che la mindfulness diventi controllo ossessivo."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["osservazione", "mindfulness", "ansia", "overmonitoring"]
 is_cornerstone: false
 date: 2025-12-10

@@ -5,7 +5,7 @@ description: "I 7 errori più comuni che impediscono di fermare il pilota automa
 seo_title: "I 7 errori che sabotano l’interruzione del loop mentale"
 seo_description: "Perché non riesci a fermarti? I 7 errori più comuni nell’usare l’interruzione e come correggerli in modo pragmatico."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["interrompi", "reattività", "errori comuni", "mindfulness-pratica"]
 internal_links:
   - "/mindfulness-ironica/metodo-ironia-interrompi/"

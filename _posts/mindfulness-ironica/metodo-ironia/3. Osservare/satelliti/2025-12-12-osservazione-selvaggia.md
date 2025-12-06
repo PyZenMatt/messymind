@@ -5,7 +5,7 @@ description: "Perché osservare non significa trasformare ogni sensazione in un 
 seo_title: "Interpretazione Selvaggia – Come Osservare Senza Inventare Trame"
 seo_description: "La differenza tra osservazione e interpretazione: come evitare che la mente inventi storie inutili mentre osservi."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["osservazione", "interpretazione", "mindfulness", "overthinking"]
 is_cornerstone: false
 date: 2025-12-12

@@ -5,7 +5,7 @@ description: "Un metodo pratico e anti-guru per costruire un vocabolario emotivo
 seo_title: "Vocabolario emotivo pratico: 30 parole per nominare ciò che senti"
 seo_description: "Un metodo pratico e anti-guru per costruire un vocabolario emotivo personale. 30 parole chiare per nominare ciò che senti e ridurre la confusione."
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["vocabolario emotivo", "nominare emozioni", "intelligenza emotiva pratica"]
 is_cornerstone: false
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764770636/libreria_bgoo6h.jpg"

@@ -6,7 +6,7 @@ seo_title: "12 micro-interruzioni pratiche per fermare un loop mentale"
 seo_description: "Micro-tecniche rapide, corporee e attentive per fermare impulsi e spirali mentali nella vita reale. Approccio pragmatico, zero fuffa."
 date: 2025-12-22
 categories: ["mindfulness-ironica"]
-subcluster: ["metodo-ironia"]
+subcluster: "metodo-ironia"
 tags: ["interrompi", "reattività", "overthinking", "mindfulness-pratica"]
 
 internal_links:
