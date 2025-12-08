@@ -11,15 +11,17 @@ categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["pilota-automatico", "ansia", "segnali-corporei", "reattività", "mindfulness-pratica"]
 
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764100210/osservare_xpwph1.jpg"
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"
-og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764100210/osservare_xpwph1.jpg"
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764666623/aereo_uy6gtw.jpg"
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764666623/aereo_uy6gtw.jpg"
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764666623/aereo_uy6gtw.jpg"
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764666623/aereo_uy6gtw.jpg"
 lcp_image_alt: Due piloti su un aereo, simbolo del pilota automatico
 image_author: Rafael Cosquiere
 image_author_url: https://www.pexels.com/it-it/foto/due-piloti-seduti-all-interno-dell-aereo-2064123/
 
 ---
+
+https://res.cloudinary.com/dkoc4knvv/image/upload
 
 # **Pilota Automatico: Interrompi la Serie TV della Mente Prima della Sigla**
 
@@ -137,7 +139,8 @@ La O di Osserva è lo strumento per restringere lo spazio tra stimolo e consapev
 **Sfida 24 ore**: quante volte il corpo ha deciso prima della mente?
 
 ## Link utili:
-[Metodo IRONIA](/mindfulness-ironica/metodo-ironia/)
-["Osserva: La Superpotenza di Chiudere il Pilota Automatico"](/mindfulness-ironica/osservare-senza-interpretare)
+- [Metodo IRONIA](/mindfulness-ironica/metodo-ironia/)
+
+- ["Osserva: La Superpotenza di Chiudere il Pilota Automatico"](/mindfulness-ironica/osservare-senza-interpretare)
 
 
