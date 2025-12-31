@@ -10,14 +10,12 @@ last_modified_at: 2026-01-01
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["mindfulness-scientifica", "MBSR", "MBCT", "osservazione", "reattività", "metodo-ironia"]
-
-image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/vXXXXXXXX/mindfulness_scientifica.jpg"
-background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/vXXXXXXXX/mindfulness_scientifica.jpg"
-lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/vXXXXXXXX/mindfulness_scientifica.jpg"
-og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/vXXXXXXXX/mindfulness_scientifica.jpg"
-lcp_image_alt: Persona seduta che osserva i propri pensieri senza giudicarli
-image_author: —
-image_author_url: —
+https://res.cloudinary.com/dkoc4knvv/image/upload/v1764100210/osservare_xpwph1.jpg
+image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"
+background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764100210/osservare_xpwph1.jpg"
+lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600v1764100210/osservare_xpwph1.jpg"
+og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764100210/osservare_xpwph1.jpg"
+lcp_image_alt: Persona che osserva il mare esempi di come osservare  i propri pensieri senza giudicarli. Come quando si osserva un grande mare
 ---
 
 # Mindfulness senza incenso: cosa c’entra davvero con il Metodo I.R.O.N.I.A
