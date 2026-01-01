@@ -5,12 +5,9 @@ description: "Cosa dice davvero la mindfulness clinica (MBSR, MBCT) e perché ne
 seo_title: "Mindfulness Scientifica (MBSR, MBCT) — Oltre l’Incenso"
 seo_description: "La mindfulness clinica non serve a calmare la mente ma a ridurre la reattività. Ecco perché nel Metodo I.R.O.N.I.A è solo la fase Osserva."
 date: 2026-01-01
-last_modified_at: 2026-01-01
-
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
 tags: ["mindfulness-scientifica", "MBSR", "MBCT", "osservazione", "reattività", "metodo-ironia"]
-https://res.cloudinary.com/dkoc4knvv/image/upload/v1764100210/osservare_xpwph1.jpg
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1764100210/osservare_xpwph1.jpg"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600v1764100210/osservare_xpwph1.jpg"
