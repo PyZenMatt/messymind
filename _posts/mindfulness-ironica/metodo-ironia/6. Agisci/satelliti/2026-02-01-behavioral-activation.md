@@ -4,8 +4,8 @@ title: "Behavioral activation: perché l’azione viene prima della motivazione"
 description: "Cos’è la behavioral activation e perché aspettare la motivazione mantiene il blocco. Evitamento, attivazione minima e integrazione nella fase A – Agisci del Metodo I.R.O.N.I.A."
 seo_title: "Behavioral Activation: Perché l’Azione Viene Prima della Motivazione"
 seo_description: "Behavioral activation spiegata senza motivazionalismo: perché agire prima di stare meglio riduce il blocco e come funziona nella fase A – Agisci del Metodo I.R.O.N.I.A."
-date: 2026-01-18
-last_modified_at: 2026-01-18
+date: 2026-02-01
+last_modified_at: 2026-02-01
 
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
