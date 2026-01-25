@@ -45,13 +45,29 @@ Il tuo sistema nervoso entra in stato di pre-allarme nucleare in 2,7 secondi.
 
 La verità, lo sappiamo, è più semplice e meno poetica. **Non c’è niente di rotto in noi**. È solo che il cervello, quello antico, non ha ancora imparato la differenza tra una tigre dai denti a sciabola e un SMS un po’ criptico. Lui suona l’allarme lo stesso, con la stessa urgenza. E noi, poveri inquilini del Duemila, restiamo lì, col cuore in gola, a guardare il telefono come se stesse per esplodere.
 
-Ridimensionare, in questo senso, non è un esercizio di filosofia. È un atto di pulizia. È prendere quel pensiero ingombrante, quella palla di neve che sta diventando una valanga, e dirle: «Un attimo, fammi vedere quanto sei grande davvero». 
+Ridimensionare non è filosofia né introspezione.
+È uno strumento cognitivo per riportare un evento alla sua scala reale,
+prima che condizioni risposte, mail o scelte inutilmente difensive.
+
+È prendere quel pensiero ingombrante, quella palla di neve che sta diventando una valanga, e dirle: «Un attimo, fammi vedere quanto sei grande davvero». 
 
 È il cuore del Metodo I.R.O.N.I.A., quel momento in cui da spettatori terrorizzati di un film dell’orrore diventiamo semplici proiezionisti.
 
 ➡️ **[Leggi il metodo completo](/mindfulness-ironica/metodo-ironia)**
 
 Prendi quel «Poi ti dico» e, con la pacatezza di un bibliotecario, catalogalo per quello che è: «Messaggio asincrono. Contenuto da definire. Livello d'urgenza: basso.» Non è magia, è solo precisione. E a volte, la precisione fa evaporare il settanta percento della nostra angoscia.
+
+Il punto non è che stai “soffrendo”.
+Il punto è che, mentre la mente urla, **stai già cambiando comportamento**:
+anticipi, ti giustifichi, rimandi, iper-controlli.
+
+Ridimensionare serve a una cosa sola:
+evitare che un pensiero gonfiato prenda decisioni al posto tuo.
+
+La ruminazione nasce qui:
+non dal problema,
+ma dalla storia che la mente continua a riscrivere
+per sentirsi pronta a un pericolo che, spesso, non esiste.
 
 ## **Le distorsioni cognitive: il motore della telenovela mentale**
 
@@ -76,7 +92,7 @@ Il bello è che basta nominare questi trucchi per togliergli un po’ di potere.
 
 Ridimensionare non significa sorvolare sui problemi o fingere che non esistano. Non è ottimismo tossico. È, molto più semplicemente, chiarezza.
 
-Proviamo così, sono solo dieci secondi:
+Proviamo così. Dieci secondi, mentre continui a fare quello che stai facendo:
 
 **1. DA TELEcamera – Fatti, non fiction**
 
@@ -95,6 +111,9 @@ E poi, banniamo le parole come **sempre**, **mai**, **sicuro** **che**.
 Sono come il lievito per dolci: fanno lievitare la preoccupazione fino a farla esplodere.
 
 ## **Kit di sopravvivenza: 3 micro-azioni per sgonfiare l’apocalisse**
+
+Non servono rituali.
+Servono micro-ricalibrazioni che interrompano il loop prima che diventi strategia.
 
 ### **1. L’Ancora della Certezza**
 
@@ -126,7 +145,11 @@ Scegli un oggetto qualsiasi vicino a te – una penna, una tazza, una matita –
 
 ## **Perché ridimensionare è come aprire una finestra**
 
-Ridimensionare non risolve i problemi, ma crea lo spazio per farlo. È come aprire una finestra in una stanza afosa. L'aria cambia, la luce entra.
+Ridimensionare non risolve i problemi. Evita che un problema piccolo diventi una risposta sbagliata, una mail difensiva, una decisione presa per paura.
+
+È come aprire una finestra in una stanza afosa. 
+
+L'aria cambia, la luce entra.
 
 Dopo aver ridimensionato:
 

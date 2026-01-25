@@ -65,7 +65,11 @@ Perché sei allenato a performare sotto pressione.
 
 Io l’ho vissuta così troppe volte. La realtà era piatta, neutra. Ma il mio cervello aveva già convocato il consiglio di guerra.
 
-Ecco il punto di tutto: senza capire cosa succede dentro di te, **reagisci in automatico.** E quasi sempre a caso.
+Ecco il punto: quando lavori sotto pressione e non capisci cosa succede dentro,
+non reagisci “male”.
+
+Reagisci **in modo efficiente… ma sbagliato**.
+
 La I di Identifica serve a una cosa sola: spegnere l’autopilota per quei dieci secondi che ti salvano la giornata.
 
 Vuoi vedere il metodo completo?
@@ -75,8 +79,10 @@ Qui trovi il protocollo completo dei 6 step:
 
 ## Il caos parte quando non hai un vocabolario per il tuo casino interiore
 
-Il problema non è “provare troppo”.
-Il problema è non riconoscere cosa stai provando.
+Nel lavoro questo si traduce così:
+confondi pressione con urgenza,
+tensione con pericolo,
+valutazione con giudizio personale.
 
 La dinamica tipica:
 
@@ -137,6 +143,13 @@ Rispondere immediatamente. Aprire Instagram. Mangiare “qualcosa”.
 Nel mondo reale, è tutto mescolato.
 Ma separarlo ti permette di capire chi sta pilotando la navicella.
 
+Nel contesto lavorativo, quasi sempre:
+- il pensiero parla di reputazione
+- l’emozione è ansia o vergogna
+- l’impulso è anticipare, giustificarsi o iper-performare
+
+Identificare serve a evitare decisioni prese per paura mascherata da professionalità.
+
 ### Micro-Azione “E allora?”
 
 Ripensa a una situazione recente:
@@ -179,7 +192,9 @@ Precisione > dramma.
 
 ## Identificare in tempo reale: la tecnica da 10 secondi
 
-La I non è meditazione zen: è un gesto di 10 secondi.
+La I non è introspezione né meditazione.
+È una micro-pausa cognitiva che puoi fare mentre lavori,
+senza che nessuno se ne accorga.
 
 Schema base:
 
@@ -273,7 +288,11 @@ Interrompere è casuale.
 Agire diventa reazione travestita da scelta.
 
 
-La I apre lo spazio. Minuscolo, ma reale.
+La I apre uno spazio decisionale.
+Minuscolo, ma sufficiente per non sabotare una mail,
+una risposta,
+una riunione,
+una giornata.
 
 Ti permette di dire:
 
