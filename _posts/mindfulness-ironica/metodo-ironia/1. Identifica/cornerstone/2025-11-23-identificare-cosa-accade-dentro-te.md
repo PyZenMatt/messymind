@@ -54,9 +54,14 @@ faqs:
 
 # Identifica: cosa diavolo sta succedendo dentro di te (prima che ti travolga)
 
-Immagina: ti arriva un “Ne parliamo dopo”. Tre parole. Tre secondi.
-All’esterno: niente.
-Dentro: cataclisma, sirene, effetti speciali Marvel.
+Immagina: mail di lavoro. Oggetto vago. Slack che lampeggia.
+Un “Ne parliamo dopo”. Tre parole. Tre secondi.
+
+All’esterno: nulla di urgente.
+Dentro: simulazione mentale di licenziamento, figuraccia, giudizio, fallimento.
+
+Non perché sei fragile.
+Perché sei allenato a performare sotto pressione.
 
 Io l’ho vissuta così troppe volte. La realtà era piatta, neutra. Ma il mio cervello aveva già convocato il consiglio di guerra.
 
