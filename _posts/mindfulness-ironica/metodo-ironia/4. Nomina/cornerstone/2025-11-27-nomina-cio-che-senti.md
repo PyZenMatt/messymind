@@ -13,7 +13,7 @@ image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764262284/nomina_d7tn9d.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764262284/nomina_d7tn9d.jpg"
 og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764262284/nomina_d7tn9d.jpg"
-alt_image: una persona con la targetta del suo nome che rappresenta l'atto di nominare qualcosa o qualcuno
+alt_image: una persona con la targa del suo nome che rappresenta l'atto di nominare qualcosa o qualcuno
 image_author: cottonbro
 image_author_url: https://www.pexels.com/it-it/@cottonbro/
 
