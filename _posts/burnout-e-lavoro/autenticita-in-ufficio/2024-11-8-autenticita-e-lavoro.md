@@ -7,7 +7,7 @@ date: 2024-11-8
 last_modified_at: 2025-09-23
 categories: burnout-e-lavoro
 subcluster: autenticita-in-ufficio
-tags: ["cornerstone", "autenticità sul lavoro", "felicità lavorativa", "Dharma professionale", "Taoismo e lavoro", "Kabbalah applicata", "work-life balance", "umorismo aziendale"]
+tags: ["autenticità sul lavoro", "felicità lavorativa", "Dharma professionale", "Taoismo e lavoro", "Kabbalah applicata", "work-life balance", "umorismo aziendale"]
 image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/
 image_author: energepic
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756043562/lavoro_1600_jkqmrs.webp
