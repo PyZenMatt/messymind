@@ -15,7 +15,7 @@ redirect_from:
 - /come-ho-smesso-di-inseguire-il-tempo-3-segreti-per-vivere-senza-ansia-da-produttivita/
 - /come-ho-smesso-di-inseguire-il-tempo/
 - /crescita-personale/come-ho-smesso-di-inseguire-il-tempo/
-tags: ["gestione dello stress", "tecniche mindfulness", "vivere il presente", "equilibrio vita-lavoro", "ridurre l'ansia", "consapevolezza quotidiana", "cornerstone"]
+tags: ["gestione dello stress", "tecniche mindfulness", "vivere il presente", "equilibrio vita-lavoro", "ridurre l'ansia", "consapevolezza quotidiana"]
 --- 
 
 C’è un momento in cui **il tempo smette di essere un alleato** e diventa **un creditore senza pietà**. Per me è arrivato un martedì mattina alle 8:47, schiacciato tra zaini porta computer e aliti di caffè in una metro affollata. Mentre contavo mentalmente i minuti persi nel traffico, i progetti incompleti e i miei _"dovrei"_ accumulati, ho realizzato che la mia vita assomigliava a quel vagone: **stipata di obblighi, ma vuota di senso**.  
