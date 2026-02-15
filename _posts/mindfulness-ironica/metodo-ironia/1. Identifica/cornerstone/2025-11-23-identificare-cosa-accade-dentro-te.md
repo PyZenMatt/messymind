@@ -33,159 +33,173 @@ faqs:
 ---
 
 # Hai appena inviato la mail e la mano fa già Ctrl+R?
+
 **Identifica è l’allarme che ti avvisa: stai reagendo, non scegliendo.**
 
 La mail è partita.  
 Non è successo niente.
 
-Eppure la mano preme **Ctrl+R**. Una volta. Poi un’altra.  
-La mente è già a riscrivere il testo, a simulare reazioni, a cercare errori.
+Eppure la mano preme **Ctrl+R**. Poi ancora.  
+La mente riscrive frasi, anticipa giudizi, simula risposte.
 
-Questo non è lavoro.  
+Questo non è concentrazione.  
 È un **loop automatico** che ha preso il comando.
 
-Questo articolo non ti insegna a fermarlo.  
-Ti insegna a **vederlo partire**, 30 secondi prima che guidi le tue azioni.
+Identifica non serve a fermarlo.  
+Serve a **vederlo partire**, prima che guidi le tue azioni.
+
+---
+
+## Segnale di attivazione (check rapido)
+
+Se ti riconosci in almeno uno di questi:
+
+- hai già riaperto la mail due volte  
+- stai simulando la risposta dell’altro  
+- senti un’urgenza fisica di “sistemare qualcosa”  
+- stai preparando una difesa prima che esista un attacco  
+
+non sei focalizzato.  
+Sei già dentro un loop.
 
 ---
 
 ## Questo stato ha un nome (e non è “ansia”)
 
-Nel tuo mondo lo chiamano:
-- **overthinking** sul lavoro
-- **ruminazione mentale**
-- **iper-controllo retroattivo**
+Lo chiamiamo:
 
-Non è una debolezza personale.  
-È un **meccanismo cognitivo fuori fase**: il cervello tenta di risolvere un problema (la risposta dell’altro, il giudizio, l’esito) che **non esiste ancora** nella realtà.
+- overthinking  
+- ruminazione mentale  
+- iper-controllo retroattivo  
+
+Non è debolezza.  
+È un **meccanismo cognitivo fuori fase**: il cervello tenta di risolvere un evento che non è ancora accaduto.
 
 Il problema non è il pensiero.  
-È che **stai già agendo** mentre pensi.
+È che **stai già agendo mentre pensi**.
 
 ---
 
 ## L’errore tattico che alimenta il loop
 
-Quando il loop si accende, l’istinto è “fare qualcosa”:
-- cercare il *perché*
-- analizzare ogni dettaglio
-- preparare una contromossa
+Quando il loop si accende, l’istinto è fare qualcosa:
+
+- analizzare ogni parola  
+- cercare il perché  
+- preparare contromosse  
 
 Sembra produttivo.  
-In realtà è **benzina sul processo**.
+In realtà è carburante.
 
-Identifica **non è psicologia**.  
-Non è capire le cause.  
-È un **atto di riconoscimento operativo**.
-
----
-
-## Il protocollo: Identifica in 10 secondi netti
-
-L’obiettivo è chirurgico:
-
-> **Creare uno scarto tra il processo mentale e la tua reazione.**
-
-La procedura è volutamente spartana:
-
-1. **Arresto fisico**  
-   smetti di digitare, di premere F5, di scrollare.
-2. **Frase di identificazione**  
-   > “Sto avendo il pensiero che ___.”
-3. **Stop.**
-
-Niente analisi.  
-Hai identificato il processo. Punto.
+Identifica non è introspezione.  
+È un **atto operativo minimo**.
 
 ---
 
-## Caso reale: dall’urgenza alla scelta
+## Protocollo operativo (versione minimale)
 
-**Scenario**  
-Il capo risponde al tuo report:  
+Durata: 5–20 secondi.
+
+1. **Blocca il gesto**  
+   mano ferma. Nessun refresh.
+2. **Nomina il processo**  
+   > “Sto avendo il pensiero che devo controllare subito.”
+3. **Chiudi lo stimolo per 25 minuti**  
+   inbox chiusa. Timer attivo.
+
+Fine.
+
+Se la mente continua a parlare non è un problema.  
+Hai già creato distanza tra impulso e azione.
+
+---
+
+## Caso reale: feedback ambiguo
+
+Il capo scrive:  
 > “Interessante. Ne parliamo dopo.”
 
-**Loop automatico**  
-*Interessante è vago. C’è un problema. Devo prepararmi. Forse ho sbagliato il grafico…*  
-La mano apre il file per modificarlo.
+Loop automatico:  
+*Interessante è vago. C’è un problema. Devo sistemare il report.*
 
-**Identifica**  
-> “Sto avendo il pensiero che questo feedback nasconda una critica e che io debba preparare una difesa.”
+Identifica:  
+> “Sto avendo il pensiero che questo messaggio nasconda una critica.”
 
-**Effetto operativo**  
-La situazione esterna non cambia.  
-Ma **recuperi il controllo sulla tua prossima mossa**.
+Stop.
 
-Non stai più reagendo.  
-Stai decidendo.
+La realtà non cambia.  
+Ma la tua prossima mossa sì.
 
 ---
 
-## Perché funziona (in termini di efficienza mentale)
+## Perché funziona (senza spiritualità)
 
-Identifica non agisce sull’emozione.  
-Agisce sull’**allocazione delle risorse cognitive**.
+Identifica non lavora sull’emozione.  
+Lavora sull’**allocazione dell’attenzione**.
 
 Prima:
-- 100% energia spesa in simulazione e reazione
-- consumo alto, efficacia zero
+- 100% energia in simulazione  
+- reazione automatica  
 
 Dopo:
-- una parte dell’attenzione osserva il processo
-- il loop perde potenza
-- riemerge margine decisionale
+- una parte dell’attenzione osserva  
+- il loop perde potenza  
+- riemerge scelta  
 
-Non ti senti più calmo.  
-**Funzioni meglio.**
-
----
-
-## Il costo di ignorare l’allarme
-
-Se non identifichi:
-1. il loop diventa **narrazione**
-2. la narrazione giustifica **azioni impulsive**
-3. le azioni bruciano **capitale professionale**
-
-Identifica è l’**interruttore di sicurezza** che evita il cortocircuito tra un pensiero e un danno reale.
+Non ti senti zen.  
+Funzioni meglio.
 
 ---
 
-## Identifica non è la soluzione. È il presupposto.
+## L’errore che rovina Identifica
 
-Questa fase **non risolve** il loop.  
-Lo segnala.
+Usarlo per analizzare.
 
-Quando l’attivazione è ancora alta, il passo successivo è **Interrompi**:  
-il freno operativo per bloccare il danno nei 60 secondi successivi all’allarme.
+Se dopo la frase inizi a spiegarti:
+- perché sei fatto così  
+- da dove nasce  
+- cosa significa  
+
+non stai identificando.  
+Stai raffinando il loop.
+
+Identifica è un allarme.  
+Non una seduta di psicologia.
+
+---
+
+## Se ignori l’allarme
+
+1. Il loop diventa narrazione.  
+2. La narrazione giustifica azioni impulsive.  
+3. Le azioni bruciano capitale professionale.
+
+Identifica è l’interruttore che evita il cortocircuito tra pensiero e danno reale.
+
+---
+
+## Formula minima da ricordare
+
+Urgenza fisica = probabilmente loop.
+
+Frase:
+
+> “Sto avendo il pensiero che…”
+
+Timer.  
+Stop.
+
+Non serve altro.
+
+---
+
+Identifica è il primo passo del Metodo I.R.O.N.I.A.  
+Se l’attivazione è ancora alta, il passo successivo è **Interrompi**: il freno operativo per i 60 secondi successivi all’allarme.
 
 → [Interrompi: il freno a mano operativo per i loop mentali](/mindfulness-ironica/interrompi)
 
-Se invece il loop **si è già attenuato** e hai spazio cognitivo sufficiente,  
-la fase che segue sul piano concettuale è **Ridimensiona**,  
-per ridare la giusta scala ai pensieri automatici.
+Se invece hai già recuperato margine cognitivo, il passo successivo è **Ridimensiona**.
 
 → [Ridimensiona: rimettere i pensieri alla loro reale dimensione](/mindfulness-ironica/ridimensiona)
-
----
-
-## La regola da portare via
-
-Quando senti l’**urgenza fisica** di controllare, riscrivere o chiarire subito:
-
-non respirare profondo.  
-non pensare positivo.
-
-Formula la frase più semplice possibile:
-
-**“Sto avendo il pensiero che…”**
-
-Descrivi **cosa la mente sta facendo**, non cosa stai provando.
-
-In quell’istante il loop smette di essere un destino.  
-Diventa un **processo gestibile**.
-
-Il resto è tecnica.  
-E la tecnica, quando serve, si chiama **Interrompi**.
 
 {% include faq.html %}
