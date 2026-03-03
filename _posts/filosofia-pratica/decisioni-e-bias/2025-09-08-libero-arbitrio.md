@@ -1,169 +1,252 @@
 ---
 layout: post
-title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
-seo_title: 'Libero arbitrio e determinismo: guida semplice (compatibilismo, Libet, Schurger)'
-description: Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche.
-seo_description: Compatibilismo vs incompatibilismo, esperimento di Libet e rilettura di Schurger. Spiegazione semplice con esempi, FAQ e applicazioni pratiche.
+title: 'Libero arbitrio: il cervello decide prima di te? (Esperimento di Libet spiegato semplice)'
+seo_title: 'Libero arbitrio: il cervello decide prima di te? (Libet e neuroscienze)'
+description: Il libero arbitrio esiste davvero? Cosa dice l’esperimento di Libet, la risposta di Schurger e cosa significa determinismo oggi. Guida chiara con esempi concreti.
+seo_description: Il cervello decide prima di noi? L’esperimento di Libet sul libero arbitrio spiegato semplice, con neuroscienze aggiornate e confronto con il determinismo.
 categories: filosofia-pratica
 subcluster: decisioni-e-bias
-tags: ["Filosofia pratica", "Mindfulness ironica", "Neuroscienze", "Etica"]
+tags: ["Libero arbitrio", "Determinismo", "Libet", "Schurger", "Neuroscienze", "Compatibilismo"]
 updated: '2025-09-08'
-image_author: cottonbro
-image_author_url: https://www.pexels.com/it-it/@cottonbro/
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758433916/pexels-cottonbro-1920_uycfxp.webp
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758433916/pexels-cottonbro-1920_uycfxp.webp
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1758433916/pexels-cottonbro-600_fmjsoy.webp
+image_author: cottonbro 
+
+image_author_url: https://www.pexels.com/it-it/@cottonbro/ 
+
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758433916/pexels-cottonbro-1920_uycfxp.webp 
+
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1758433916/pexels-cottonbro-1920_uycfxp.webp 
+
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1758433916/pexels-cottonbro-600_fmjsoy.webp 
+
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1758433916/pexels-cottonbro-600_fmjsoy.webp
+
 redirect_from:
 - libero-arbitrio-e-determinismo-guida-semplice-compatibilismo-libet-schurger/
 - /libero-arbitrio-determinismo/
 - /libero-arbitrio-determinismo
 ---
 
-> **Definizione rapida:** Il *libero arbitrio* è la capacità di deliberare e agire secondo ragioni proprie senza costrizioni; il *determinismo* sostiene che ogni evento ha cause antecedenti. Possono essere compatibili (compatibilismo) o no (incompatibilismo).
+**Definizione rapida:** Il *libero arbitrio* è la capacità di deliberare e agire secondo ragioni proprie. Il *determinismo* sostiene che ogni evento – incluse le nostre scelte – abbia cause antecedenti.
 
-⏱️ **Tempo di lettura:** \~9 minuti
+⏱️ **Tempo di lettura:** ~9 minuti
 
-Sei seduto al bar, indeciso tra un cornetto alla crema e uno alla marmellata. Pensi di star facendo una scelta libera e consapevole. E se ti dicessi che quella scelta è stata determinata da una catena di cause – i tuoi geni, la pubblicità vista ieri, il livello di zucchero nel sangue – che risale all'inizio dell'universo? Benvenuto nel secolare pestaggio filosofico tra **libero arbitrio** e **determinismo**. Qui non troverai risposte definitive, ma una mappa per orientarti nella rissa, con tanto di esempi pratici e le ultime **dalle neuroscienze**.
+Nel 1983 un neuroscienziato misurò un segnale nel cervello che compariva **prima** che una persona dichiarasse di aver deciso di muovere un dito.
 
-**In breve:**
+Se quel risultato fosse corretto, il libero arbitrio sarebbe un’illusione.
 
-* **Libero arbitrio:** è la capacità di agire e scegliere in modo autodeterminato.
-* **Determinismo:** è l'idea che ogni evento, **incluse** le nostre scelte, sia il risultato inevitabile di cause precedenti.
-* **Compatibilismo:** dice che le due cose possono andare d'accordo (la libertà è agire secondo la propria natura, nonostante le cause).
-* **Incompatibilismo:** dice che sono come acqua e olio: o è tutto determinato, o siamo liberi. Non via di mezzo.
-* **Neuroscienze:** l'esperimento di Libet (1983) ha suggerito che il cervello decide prima della nostra consapevolezza, ma le interpretazioni sono controverse.
+Il cervello decide prima di te?  
+O il libero arbitrio esiste davvero?
 
-## In questa guida
-
-- [Libero Arbitrio e Determinismo: Davvero Non Possiamo Scegliere?](#libero-arbitrio-e-determinismo-davvero-non-possiamo-scegliere)
-  - [In questa guida](#in-questa-guida)
-  - [Compatibilismo vs incompatibilismo: differenze in 2 minuti](#compatibilismo-vs-incompatibilismo-differenze-in-2-minuti)
-    - [La Squadra Incompatibilista: "Scegliete una Fazione!"](#la-squadra-incompatibilista-scegliete-una-fazione)
-    - [La Squadra Compatibilista: "Calmi, Si Può Fare!"](#la-squadra-compatibilista-calmi-si-può-fare)
-    - [Glossario lampo (definizioni veloci)](#glossario-lampo-definizioni-veloci)
-  - [PAP (possibilità alternative) e casi di Frankfurt: responsabilità senza 'potevo fare altro?'](#pap-possibilità-alternative-e-casi-di-frankfurt-responsabilità-senza-potevo-fare-altro)
-  - [Esperimento di Libet: cos’è il readiness potential (spiegazione semplice)](#esperimento-di-libet-cosè-il-readiness-potential-spiegazione-semplice)
-  - [Schurger 2012: perché il readiness potential non uccide il libero arbitrio](#schurger-2012-perché-il-readiness-potential-non-uccide-il-libero-arbitrio)
-  - [FAQ: Domande da Bar tra un Cornetto e l'Altro](#faq-domande-da-bar-tra-un-cornetto-e-laltro)
-  - [Il Ponte: Dalla Teoria alla (Auto)Pratica](#il-ponte-dalla-teoria-alla-autopratica)
-  - [Fonti rapide](#fonti-rapide)
+Qui trovi una guida chiara per capire cosa ha mostrato l’esperimento di Libet, cosa dice oggi la neuroscienza e cosa cambia davvero nella vita quotidiana.
 
 ---
 
-## Compatibilismo vs incompatibilismo: differenze in 2 minuti
+# Il libero arbitrio esiste davvero?
 
-Il dibattito non è "credere o no nel libero arbitrio". È capire *che tipo* di libertà possa esistere in un universo di cause ed effetti.
+Molti si chiedono: il libero arbitrio è reale o siamo solo il risultato inevitabile di geni, ambiente e chimica cerebrale?
 
-### La Squadra Incompatibilista: "Scegliete una Fazione!"
+Il dibattito ruota attorno a due posizioni principali:
 
-Gli incompatibilisti sostengono che libero arbitrio e determinismo siano mutualmente esclusivi. Si dividono in due squadre:
+- **Determinismo:** ogni evento ha cause precedenti.
+- **Libertà:** possiamo scegliere in modo genuino.
 
-1. **Deterministi Hardcore:** "Se il determinismo è vero, allora il libero arbitrio è un'illusione. Siamo pupazzi complicati." (Es. Sam Harris)
-2. **Libertariani:** "Il libero arbitrio esiste, quindi il determinismo *deve* essere falso. Ci deve essere un elemento di indeterminazione o di causalità non fisica che permetta alle nostre scelte di 'sbloccare' il futuro." (Es. Robert Kane)
-
-### La Squadra Compatibilista: "Calmi, Si Può Fare!"
-
-I compatibilisti sono i maestri dei compromessi. Dicono: "Il determinismo potrebbe essere vero, ma una forma significativa di libero arbitrio è ancora possibile". Ridefiniscono la libertà.
-
-Per un compatibilista come **Daniel Dennett**, essere liberi non significa essere *non causati*, ma essere *causati nel modo giusto*. Significa agire in base ai propri desideri, valori e ragioni, senza costrizioni esterne (come una pistola alla tempia) o interne patologiche (come un'ossessione compulsiva).
-
-* **Esempio compatibilista:** Scegliere di donare in beneficenza perché si crede nella solidarietà è un'azione libera, anche se quella credenza è il risultato della tua educazione, della tua empatia (a sua volta influenzata da fattori biologici), ecc. Sei libero perché agisci in accordo con chi sei.
-* **Esempio incompatibilista:** Secondo un libertariano, quella scelta non è *veramente* libera finché non c'è stata la possibilità metafisica di scegliere diversamente in quello *stesso identico* istante, con tutto *identico*.
-
-### Glossario lampo (definizioni veloci)
-
-**Compatibilismo:** libertà = agire secondo ragioni/desideri senza costrizioni, anche in un universo causale.
-**Incompatibilismo:** libertà e determinismo sono inconciliabili (rami: determinismo “hard” e libertarianismo).
-**Readiness potential (RP):** attività EEG che precede movimenti semplici; interpretazioni controverse.
-**PAP:** responsabilità morale richiede possibilità alternative (messo in discussione dai casi di Frankfurt).
+La questione non è “credere o no”.  
+È capire **che tipo di libertà è compatibile con un universo causale**.
 
 ---
 
-## PAP (possibilità alternative) e casi di Frankfurt: responsabilità senza 'potevo fare altro?'
+# Compatibilismo vs incompatibilismo (in 3 minuti)
 
-Il **Principio delle Possibilità Alternative (PAP)** è un'idea semplice ma potente: sei moralmente responsabile di un'azione solo se *avresti potuto fare altrimenti*.
+## Incompatibilismo
 
-Il filosofo **Harry Frankfurt** ha deciso di mettere questo principio nel tritacarne con i suoi **"casi di Frankfurt"**, degli esperimenti mentali.
+Secondo gli incompatibilisti, libero arbitrio e determinismo non possono coesistere.
 
-**Immagina questo:**
-Black, uno scienziato malvagio, vuole che tu scelga il cornetto alla marmellata. Se vedesse che stai per scegliere quello alla crema, userebbe un macchinario per manipolare il tuo cervello e farti scegliere la marmellata. Ma per sua fortuna, tu scegli spontaneamente la marmellata. Lui non deve fare nulla.
+Due versioni:
 
-**La domanda:** Sei moralmente responsabile della tua scelta? Il PAP direbbe di no: non potevi fare altrimenti (perché se avessi tentato, Black ti avrebbe fermato). Eppure, intuitivamente, sentiamo che sei responsabile perché la scelta è stata *tutta tua*. Black è stato solo uno spettatore fortunato.
+1. **Determinismo hard:** siamo macchine sofisticate, la libertà è un’illusione.
+2. **Libertarianismo:** il libero arbitrio esiste davvero, quindi il determinismo è falso.
 
-L'argomento di Frankfurt è che il PAP sia falso. La responsabilità morale non dipende dall'avere possibilità alternative, ma dal fatto che la tua volontà sia *propriamente tua*. Questo è un argomento forte a favore dei compatibilisti.
-
----
-
-## Esperimento di Libet: cos’è il readiness potential (spiegazione semplice)
-
-Nel 1983, il neuroscienziato **Benjamin Libet** condusse un esperimento che fece sobbalzare filosofi e scienziati. Ai partecipanti era chiesto di piegare un dito quando volevano, e di notare la posizione di un puntatore su un quadrante per segnare il momento esatto in cui *avevano deciso* di farlo.
-
-Libet scoprì che un segnale cerebrale, chiamato **"readiness potential"** (RP, potenziale di prontezza), iniziava *circa 550 millisecondi prima* che il dito si muovesse. Ma la consapevolezza cosciente della decisione avveniva solo *circa 200 millisecondi prima* del movimento.
-
-**L'interpretazione shock:** Il cervello (inconscio) inizia a preparare l'azione *prima* che noi ne siamo coscientemente consapevoli. La "decisione cosciente" arriva dopo, forse solo come un'*illusione posticcia*.
-
-> **Il Readiness Potential (RP)** è un pattern di attività neurale misurabile con l'EEG che precede un movimento volontario. È stato interpretato come il segnale che il cervello sta preparando un'azione prima della consapevolezza cosciente.
+Qui la libertà implica la possibilità metafisica di fare diversamente nello stesso identico istante.
 
 ---
 
-## Schurger 2012: perché il readiness potential non uccide il libero arbitrio
+## Compatibilismo
 
-Per decenni, l'esperimento di Libet è stato usato come un maglio contro il libero arbitrio. Poi è arrivato **Aaron Schurger** e colleghi (2012).
+Il compatibilismo propone una definizione diversa di libertà.
 
-La loro ipotesi: il RP non è un segnale *causale* che avvia l'azione. È piuttosto il rumore di fondo del cervello che fluttua casualmente. Quando questo rumore supera una certa soglia, scatena l'azione. Il momento della "decisione" cosciente non è successivo a un comando inconscio, ma coincide con il momento in cui il cervello *percepisce* che il rumore ha superato la soglia e che l'azione è ormai imminente.
+Essere liberi non significa essere “non causati”.  
+Significa essere causati nel modo giusto.
 
-In pratica, Schurger ribalta la prospettiva: non è che il cervello decide e poi ci informa. È che noi (il nostro sistema cosciente) siamo coinvolti nel *processo* decisionale mentre avviene, in un mare di rumore neurale.
+Se agisci:
 
-**Tradotto:** La storia è molto più complicata di "Libet ha ucciso il libero arbitrio". Le neuroscienze moderne mostrano un quadro più sfumato e meno deterministico di quanto si pensasse.
+- secondo le tue ragioni,
+- senza costrizione esterna,
+- con capacità di riflessione,
 
----
+allora sei libero, anche in un universo deterministico.
 
-## FAQ: Domande da Bar tra un Cornetto e l'Altro
-
-**D: Quindi, esiste il libero arbitrio?**
-R. La risposta dipende da come definisci "libero arbitrio". Se intendi una libertà magica, completamente scollegata da cause e dal cervello, probabilmente no. Se intendi la capacità di deliberare, ragionare e agire in base a chi siamo, allora forse sì, e il compatibilismo offre una via d'uscita ragionevole.
-
-**D: L'esperimento di Libet ha smentito il libero arbitrio?**
-R. No, non in modo definitivo. Ha dimostrato che i processi neurali inconsci precedono la consapevolezza cosciente di una decisione semplice. Ma le interpretazioni di ciò che significhi sono controverse (vedi Schurger) e non si applicano direttamente a decisioni complesse e ponderate.
-
-**D: C'entra qualcosa la meccanica quantistica?**
-R. Alcuni libertariani usano l'*indeterminazione* quantistica per ipotizzare un "viavai" nel cervello che permetterebbe scelte non determinate. È un'ipotesi affascinante ma altamente speculativa e non necessaria per la maggior parte delle teorie compatibiliste.
-
-**D: Se tutto è determinato, come possiamo essere responsabili delle nostre azioni?**
-R. Questo è il punto di Frankfurt. I compatibilisti sostengono che la responsabilità derivi dall'agire in accordo con i propri desideri e valori, anche se questi sono a loro volta causati. Sei responsabile perché l'azione *è scaturita da te*, non da una costrizione esterna.
-
-**D: Qual è la differenza tra libero arbitrio e libero agire?**
-R. *Libero arbitrio* è la capacità di formare intenzioni secondo ragioni proprie; *libero agire* è la possibilità pratica di eseguire quelle intenzioni senza impedimenti esterni. Puoi avere libero arbitrio ma non poter agire (es. incarcerazione), o agire senza deliberare (automatismi).
-
-**D: Cos’è il readiness potential (RP) in parole semplici?**
-R. È un “rilievo” nell’EEG che spesso compare poco prima di un movimento volontario semplice. Potrebbe riflettere l’accumulo graduale di attività neurale fino a una soglia di esecuzione, non per forza un “ordine” inconscio che decide al posto nostro.
-
-**D: Un esempio facile di caso di Frankfurt?**
-R. Vuoi scegliere A o B. Uno scienziato nascosto interverrà solo se scegli B, forzandoti ad A. Tu scegli A da solo: nessun intervento avviene. Non *potevi* fare altrimenti (saresti stato forzato), ma sei comunque responsabile perché la scelta è stata tua.
-
-**D: Cosa dice Dennett sul libero arbitrio “utile” nella vita quotidiana?**
-R. La libertà che conta è quella che emerge da capacità come previsione, autocontrollo, linguaggio e cooperazione. Non serve “magia metafisica”: serve poter ragionare, apprendere dalle conseguenze e modificare il proprio ambiente per agire meglio nel tempo.
+Molti filosofi contemporanei (es. Dennett) difendono questa posizione.
 
 ---
 
-## Il Ponte: Dalla Teoria alla (Auto)Pratica
+# L’esperimento di Libet: il cervello decide prima?
 
-Queste teorie non servono per assolverci o condannarci, ma per **osservare con più humour e meno ansia il meccanismo delle nostre scelte**.
+Nel celebre esperimento di **Benjamin Libet**, ai partecipanti veniva chiesto di muovere un dito quando volevano.
 
-1. **Notare l'Impulso:** La pratica di [Vipassana](/mindfulness-ironica/vipassana-urbana/) o della mindfulness ci allena a notare gli impulsi (*il "RP" della rabbia, della voglia di cioccolato*) *prima* che si trasformino in azione automatica. Non per bloccarli, ma per crearci uno spazio di risposta.
-2. **Scelte Consapevoli vs. Automatiche:** Molte nostre scelte sono determinate dal "pilota automatico", abitudini e [bias](/filosofia-pratica/bias-cognitivi). Prenderne atto è il primo passo per *riprogrammare* quel pilota. Scegliere di disattivare le notifiche è un'azione *compatibilista*: usi la tua ragione per modificare un ambiente che determina le tue distrazioni.
-3. **La Responsabilità Ironicamente Presa:** Sapere che le nostre azioni hanno cause non ci esime dalla responsabilità di lavorare su quelle cause. Anzi, ci dà un potere pratico: agire sulle condizioni che ci determinano (ambiente, informazioni, abitudini).
+Risultato:
 
-## Fonti rapide
+- Un segnale cerebrale chiamato **readiness potential (RP)** compariva circa 550 ms prima del movimento.
+- La consapevolezza della decisione arrivava circa 200 ms prima.
 
-* Libet, B. (1983). *Time of conscious intention...* Brain.
-* Schurger, A. et al. (2012). *An accumulator model for spontaneous neural activity...* PNAS.
-* Frankfurt, H. (1969). *Alternate Possibilities and Moral Responsibility.* J. Phil.
-* Dennett, D. (2003). *Freedom Evolves*; (2013) *Intuition Pumps*.
-* Kane, R. (1996). *The Significance of Free Will.*
-* Harris, S. (2012). *Free Will.*
+Interpretazione popolare:
 
-*Disclaimer: Questo articolo è una panoramica divulgativa. Il dibattito sul libero arbitrio è tecnicamente complesso e coinvolge decine di posizioni filosofiche sottili qui necessariamente semplificate per ragioni di spazio e chiarezza.*
+> Il cervello decide prima che tu lo sappia.
 
-**Ti ha stordito o illuminato?** Iscriviti alla newsletter MessyMind per altri scontri (compatibili) con la vita reale. Oppure continua qui: [La Verità Scomoda che Einstein Non Ci Ha Detto](/filosofia-pratica/e-mc2-spiritualita-verita-scomoda)
+Questo è diventato uno degli argomenti neuroscientifici più citati contro il libero arbitrio.
+
+---
+
+# Critiche all’interpretazione di Libet
+
+Il problema non è l’esperimento.  
+È l’interpretazione.
+
+Critiche principali:
+
+- Le decisioni studiate erano semplici e prive di conseguenze.
+- Il momento della “decisione cosciente” è auto-riportato (problemi di accuratezza temporale).
+- Il readiness potential non è sempre presente in modo uniforme.
+
+Dire che “Libet ha dimostrato che il libero arbitrio non esiste” è una semplificazione eccessiva.
+
+---
+
+# Schurger (2012): una spiegazione alternativa
+
+Aaron Schurger e colleghi hanno proposto un modello diverso.
+
+Il readiness potential potrebbe essere:
+
+- rumore neurale di fondo,
+- che gradualmente accumula attività,
+- fino a superare una soglia.
+
+Non un ordine inconscio.  
+Ma un processo distribuito in cui la coscienza partecipa.
+
+Questo cambia radicalmente la conclusione:
+
+Libet non uccide il libero arbitrio.  
+Mostra che le decisioni semplici emergono da dinamiche cerebrali complesse.
+
+---
+
+# Cosa dicono oggi le neuroscienze sul libero arbitrio?
+
+Non esiste un consenso definitivo.
+
+Le ricerche attuali suggeriscono:
+
+- I processi decisionali sono distribuiti nel tempo.
+- La coscienza non è l’unica causa, ma parte del sistema.
+- Le decisioni complesse (morali, pianificate) sono molto diverse dai movimenti spontanei studiati da Libet.
+
+Il dibattito coinvolge filosofia analitica, neuroscienze e psicologia morale.  
+Non esiste oggi una posizione scientifica unificata.
+
+---
+
+# Determinismo biologico: siamo davvero solo macchine?
+
+Genetica, ambiente, educazione, traumi.
+
+Le nostre scelte hanno cause.
+
+Ma avere cause non significa non avere responsabilità.
+
+Secondo molte teorie compatibiliste, la responsabilità nasce da:
+
+- capacità di riflettere,
+- apprendimento dalle conseguenze,
+- possibilità di modificare il proprio ambiente.
+
+Un sistema può essere causale e comunque capace di autocorrezione.
+
+---
+
+# Se il libero arbitrio non esiste, cosa cambia nella vita reale?
+
+Domanda concreta.
+
+Se tutto fosse determinato:
+
+- avrebbe senso impegnarsi?
+- avrebbe senso educare?
+- avrebbe senso punire o premiare?
+
+Paradossalmente, sì.
+
+Perché responsabilità, educazione e conseguenze sono **cause future**.
+
+Anche in un universo deterministico, dire a qualcuno “sei responsabile” modifica il comportamento.
+
+Il determinismo non elimina la pratica morale.  
+La rende parte del sistema causale.
+
+---
+
+# Cosa succede nella tua mente quando leggi tutto questo?
+
+Quando leggiamo che “forse non siamo davvero liberi”:
+
+- può emergere sollievo,
+- oppure ansia,
+- oppure resistenza.
+
+La mente cerca una conclusione definitiva.
+
+Stimolo → interpretazione → narrazione → tensione.
+
+Lo stesso meccanismo che analizziamo nei [bias cognitivi](/filosofia-pratica/bias-cognitivi).
+
+Ed è qui che entra in gioco il [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia):
+
+intercettare l’interpretazione prima che diventi identità.
+
+---
+
+# FAQ rapide
+
+**Il libero arbitrio esiste davvero?**  
+Dipende dalla definizione. Una libertà magica fuori dalle cause è improbabile. Una libertà come capacità di deliberare e modificare il proprio comportamento è compatibile con molte letture neuroscientifiche.
+
+**Libet ha dimostrato che non siamo liberi?**  
+No. Ha mostrato che processi neurali precedono la consapevolezza in decisioni semplici. L’interpretazione resta controversa.
+
+**Le neuroscienze negano la responsabilità morale?**  
+No. Molte teorie sostengono che la responsabilità dipenda dalla capacità di rispondere a ragioni e di apprendere dalle conseguenze.
+
+**La meccanica quantistica risolve il problema?**  
+Alcuni lo ipotizzano, come [Faggin](/filosofia-pratica/federico-faggin-qip-seita), padre del microprocessore, ma si tratta di posizioni speculative.
+
+---
+
+# Conclusione
+
+Forse il libero arbitrio non è assoluto.
+
+Forse non è un’illusione totale.
+
+Forse è una proprietà emergente di sistemi capaci di:
+
+- riflettere,
+- apprendere,
+- modificare le proprie condizioni future.
+
+In ogni caso, il meccanismo quotidiano resta lo stesso:
+
+esperienza → interpretazione → azione.
+
+E su quello — almeno — possiamo lavorare.
+
+{% include metodo-ironia.html %}

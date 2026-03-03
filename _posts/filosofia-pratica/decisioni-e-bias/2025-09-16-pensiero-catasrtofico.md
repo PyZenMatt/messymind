@@ -132,3 +132,5 @@ Scopri come ho trasformato la mia relazione con il tempo: dalla crisi
 in metropolitana alle piccole rivoluzioni quotidiane che combattono il [burnout](https://messymind.it/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/) e se non hai capito cos'è il burnout questa [guida] fa per te! ["Burnout: cos'è davvero e come riconoscerlo"](https://messymind.it/burnout-e-lavoro/burnout-e-segnali/).
 
 **Iscriviti alla newsletter: niente mantra, solo confini che ti liberano tempo e spazio mentale.**
+
+{% include metodo-ironia.html %}
