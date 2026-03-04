@@ -19,6 +19,9 @@ background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_
 
 **In breve** — I bias cognitivi sono errori sistematici di giudizio causati da scorciatoie mentali. Velocizzano le decisioni ma possono distorcere la realtà. Qui trovi definizione semplice, elenco dei principali bias cognitivi, 10 esempi quotidiani e 3 tecniche pratiche per ridurne l’impatto.
 
+Per esplorare tutte le distorsioni che influenzano le decisioni sotto pressione, vedi anche l’hub del cluster:  
+→ [Decisioni e bias cognitivi](/categorie/filosofia-pratica/decisioni-e-bias/)
+
 ---
 
 ## Cosa sono i bias cognitivi? (Definizione semplice)
@@ -46,6 +49,7 @@ Il problema nasce quando:
 
 È lì che il pilota automatico prende il comando.
 
+---
 
 ## Perché esistono i bias cognitivi?
 
@@ -190,7 +194,8 @@ I bias diventano amplificatori di ruminazione:
 
 stimolo → interpretazione → narrazione → tensione.
 
-Lo stesso meccanismo che analizziamo nel [Libero Arbitrio](/filosofia-pratica/libero-arbitrio).
+Lo stesso meccanismo che analizziamo nel  
+[Libero Arbitrio](/filosofia-pratica/libero-arbitrio).
 
 ---
 
@@ -203,10 +208,11 @@ Segnali comuni:
 - “Lo sapevo.”
 - “Deve andare così.”
 
-Quando la mente diventa assoluta,  
-probabilmente è entrato in gioco un bias.
+Quando la mente diventa assoluta, probabilmente è entrato in gioco un bias.
 
-Un esempio tipico è il [pensiero catastrofico](/filosofia-pratica/pensiero-catastrofico/), in cui una distorsione interpretativa trasforma un evento neutro in uno scenario estremo e minaccioso.
+Un esempio tipico è il  
+[pensiero catastrofico](/filosofia-pratica/pensiero-catastrofico/),  
+in cui una distorsione interpretativa trasforma un evento neutro in uno scenario estremo e minaccioso.
 
 ---
 
@@ -239,7 +245,8 @@ Ma la domanda più utile non è “sei libero o no?”.
 
 quanto sei consapevole dei tuoi automatismi?
 
-Qui entra in gioco il [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia):
+Qui entra in gioco il  
+[Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia):
 
 intercettare il bias prima che diventi comportamento.
 
