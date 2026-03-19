@@ -26,7 +26,7 @@ baseurl: ""                         # dominio custom → lascia vuoto
 background: "/img/home/bg-home.jpeg"
 schema_blogposting_source: plugin
 # ===== Search  Analytics  Verification =====
-google_analytics: "G-YZRF8LG3GD"   # GA4 (se usi include custom, ok lo stesso)
+google_analytics: "G-3X8F40ST1M"   # GA4 (se usi include custom, ok lo stesso)
 google_site_verification: ""       # token Search Console (opzionale)
 bing_site_verification: ""         # opzionale
 
@@ -97,10 +97,6 @@ github_username: "PyZenMatt"
 facebook_username: ""
 instagram_username: ""
 linkedin_username: "teo-dev"
-
-# ===== Search / Analytics / Verification =====
-google_site_verification: ""       # token Search Console (opzionale)
-bing_site_verification: ""         # opzionale
 
 # ===== Permalink (URL a 2 segmenti: cluster/slug, stabili e leggibili) =====
 
