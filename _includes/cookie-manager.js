@@ -15,6 +15,7 @@ const cookieManager = {
     // Inizializzazione
     init() {
         console.log('🍪 Cookie Manager initializing...');
+        console.log('⏱️  INIT → checking existing consent flow');
         this.checkExistingConsent();
         this.bindEvents();
         this.showBannerIfNeeded();
@@ -23,16 +24,22 @@ const cookieManager = {
 
     // Controlla se esiste già un consenso
     checkExistingConsent() {
+        console.log('🔎 checkExistingConsent() called');
         const consent = this.getCookie(this.config.cookieName);
+        console.log('📋 Raw cookie value:', consent);
         if (consent) {
             try {
                 const consentData = JSON.parse(consent);
+                console.log('✅ Parsed consent data:', consentData);
+                console.log('📋 consent.analytics:', consentData.analytics);
                 this.applyConsent(consentData);
                 this.hideBanner();
             } catch (e) {
-                console.warn('Invalid cookie consent data, requesting new consent');
+                console.warn('❌ Invalid cookie consent data:', e.message);
                 this.deleteCookie(this.config.cookieName);
             }
+        } else {
+            console.log('⚠️  No existing consent found - banner will show');
         }
     },
 
@@ -123,32 +130,46 @@ const cookieManager = {
 
     // Applica il consenso caricando i servizi appropriati
     applyConsent(consent) {
-        console.log('🔍 GA INIT TRIGGERED - applyConsent called with consent:', consent);
-        if (consent.analytics) {
-            console.log('✅ Analytics consent TRUE - Loading GA');
+        console.log('════ APPLY CONSENT CALLED ════');
+        console.log('Received consent object:', JSON.stringify(consent));
+        console.log('consent.analytics value:', consent.analytics);
+        console.log('typeof consent.analytics:', typeof consent.analytics);
+        
+        if (consent.analytics === true) {
+            console.log('→ DECISION: Should LOAD GA');
             this.loadGoogleAnalytics();
         } else {
-            console.log('❌ Analytics consent FALSE - Removing GA');
+            console.log('→ DECISION: Should NOT load GA (analytics is', consent.analytics, ')');
             this.removeGoogleAnalytics();
         }
+        console.log('════════════════════════════════════════════');
     },
 
     // Carica Google Analytics
     loadGoogleAnalytics() {
-        console.log('📊 loadGoogleAnalytics() - Checking if GA already loaded...');
+        console.log('� LOAD GA CALLED');
+        console.log('📊 loadGoogleAnalytics() - Checking protection flags...');
+        console.log('  window.gtagLoaded:', window.gtagLoaded);
+        console.log('  window.gtag:', typeof window.gtag !== 'undefined' ? 'defined' : 'undefined');
+        const gaScript = document.querySelector('[src*="googletagmanager"]');
+        console.log('  GA script in DOM:', !!gaScript);
+        
         // Protezione multipla contro doppi load
-        if (window.gtagLoaded || window.gtag || document.querySelector('[src*="googletagmanager"]')) {
+        if (window.gtagLoaded || window.gtag || gaScript) {
             console.log('⚠️  GA ALREADY LOADED - Skipping double load');
             return;
         }
 
         console.log('🚀 GA NOT FOUND - Creating and loading gtag script for ID:', this.config.analyticsId);
         window.gtagLoaded = true; // Flag per evitare carichi doppi
+        console.log('✏️  Set window.gtagLoaded = true');
         // Carica gtag script
         const script = document.createElement('script');
         script.async = true;
         script.src = `https://www.googletagmanager.com/gtag/js?id=${this.config.analyticsId}`;
+        console.log('📝 Script src:', script.src);
         document.head.appendChild(script);
+        console.log('✅ Script appended to head');
 
         // Inizializza gtag
         window.dataLayer = window.dataLayer || [];
@@ -161,7 +182,7 @@ const cookieManager = {
             'cookie_flags': 'SameSite=None;Secure'
         });
 
-        console.log('✅ Google Analytics caricato con consenso - ID:', this.config.analyticsId);
+        console.log('✅ gtag() initialized and configured with ID:', this.config.analyticsId);
     },
 
     // Rimuove Google Analytics (per conformità)
@@ -324,6 +345,62 @@ const cookieManager = {
             window.location.reload();
         }, 2000);
     }
+};
+
+// DEBUG FUNCTION: Globale per diagnostica manuale
+window.debugCookieManager = function() {
+    console.log('\n====== COOKIE MANAGER DEBUG ======\n');
+    
+    // 1. Raw cookie value
+    const rawCookie = cookieManager.getCookie('cookie-consent');
+    console.log('1️⃣  Raw cookie value:', rawCookie);
+    
+    // 2. Parsed consent
+    let parsed = null;
+    if (rawCookie) {
+        try {
+            parsed = JSON.parse(rawCookie);
+            console.log('2️⃣  Parsed consent:', parsed);
+            console.log('    consent.analytics:', parsed.analytics);
+        } catch (e) {
+            console.error('2️⃣  Parse error:', e.message);
+        }
+    } else {
+        console.log('2️⃣  No cookie saved');
+    }
+    
+    // 3. GA stato
+    console.log('\n3️⃣  GA Status:');
+    console.log('    window.gtagLoaded:', window.gtagLoaded);
+    console.log('    window.gtag exists:', typeof window.gtag !== 'undefined');
+    const gaScript = document.querySelector('script[src*="googletagmanager.com/gtag"]');
+    console.log('    GA script in DOM:', !!gaScript, gaScript ? '(src: ' + gaScript.src + ')' : '');
+    
+    // 4. Decision logic
+    console.log('\n4️⃣  Decision Logic:');
+    if (!parsed) {
+        console.log('    ❌ Consenso NON salvato → GA non dovrebbe caricare');
+    } else if (parsed.analytics === true) {
+        console.log('    ✅ Analytics ACCEPTED → GA dovrebbe essere attivo');
+        if (typeof window.gtag !== 'undefined' && gaScript) {
+            console.log('    ✅✅ BUONO: GA è effettivamente caricato');
+        } else {
+            console.log('    ❌ PROBLEMA: Analytics accettato ma GA NON caricato!');
+        }
+    } else if (parsed.analytics === false) {
+        console.log('    ⛔ Analytics REJECTED → GA non dovrebbe caricare');
+        if (typeof window.gtag === 'undefined' && !gaScript) {
+            console.log('    ✅ BUONO: GA corettamente non caricato');
+        } else {
+            console.log('    ❌ PROBLEMA: Analytics rifiutato ma GA è caricato!');
+        }
+    }
+    
+    // 5. Google Analytics ID
+    console.log('\n5️⃣  GA Configuration:');
+    console.log('    Configured ID: ' + cookieManager.config.analyticsId);
+    
+    console.log('\n====== END DEBUG ======\n');
 };
 
 // Inizializza quando DOM è pronto
