@@ -59,6 +59,7 @@ const cookieManager = {
 
     // Accetta tutti i cookie
     acceptAll() {
+        console.log('🍪 acceptAll() called - Accepting all cookies including analytics');
         const consent = {
             essential: true,
             analytics: true,
@@ -77,6 +78,7 @@ const cookieManager = {
 
     // Rifiuta cookie non essenziali
     rejectAll() {
+        console.log('🍪 rejectAll() called - Rejecting analytics cookies');
         const consent = {
             essential: true,
             analytics: false,
@@ -121,20 +123,27 @@ const cookieManager = {
 
     // Applica il consenso caricando i servizi appropriati
     applyConsent(consent) {
+        console.log('🔍 GA INIT TRIGGERED - applyConsent called with consent:', consent);
         if (consent.analytics) {
+            console.log('✅ Analytics consent TRUE - Loading GA');
             this.loadGoogleAnalytics();
         } else {
+            console.log('❌ Analytics consent FALSE - Removing GA');
             this.removeGoogleAnalytics();
         }
     },
 
     // Carica Google Analytics
     loadGoogleAnalytics() {
-        // Evita caricamenti multipli
-        if (window.gtag || document.querySelector('[src*="googletagmanager"]')) {
+        console.log('📊 loadGoogleAnalytics() - Checking if GA already loaded...');
+        // Protezione multipla contro doppi load
+        if (window.gtagLoaded || window.gtag || document.querySelector('[src*="googletagmanager"]')) {
+            console.log('⚠️  GA ALREADY LOADED - Skipping double load');
             return;
         }
 
+        console.log('🚀 GA NOT FOUND - Creating and loading gtag script for ID:', this.config.analyticsId);
+        window.gtagLoaded = true; // Flag per evitare carichi doppi
         // Carica gtag script
         const script = document.createElement('script');
         script.async = true;
@@ -152,7 +161,7 @@ const cookieManager = {
             'cookie_flags': 'SameSite=None;Secure'
         });
 
-        console.log('Google Analytics caricato con consenso');
+        console.log('✅ Google Analytics caricato con consenso - ID:', this.config.analyticsId);
     },
 
     // Rimuove Google Analytics (per conformità)

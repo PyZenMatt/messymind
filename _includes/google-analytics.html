@@ -1,8 +1,29 @@
 <!-- Google Analytics GDPR-Compliant - Caricato solo con consenso -->
 <!-- Il caricamento è gestito da cookie-manager.js basato sul consenso utente -->
+
+<!-- Debug: Verifica stato GA e cookie manager -->
 <script>
-// Google Analytics viene caricato dinamicamente dal cookie manager
-// solo se l'utente ha dato il consenso per i cookie di analytics
-console.log('Google Analytics: caricamento condizionato al consenso cookie');
+(function() {
+    console.log('📍 google-analytics.html include loaded');
+    
+    // Debug: Verifica cheookie manager sia caricato
+    if (!window.cookieManager) {
+        console.error('❌ ERROR: cookieManager not found! Cookie consent cannot be managed.');
+        return;
+    }
+    
+    console.log('✅ cookieManager found - GA will load after user consent');
+    
+    // Debug: Mostra stato consent attuale
+    const consent = window.cookieManager.getCurrentConsent();
+    console.log('📊 Current consent state:', consent);
+    
+    // Debug: Mostra se GA è già caricato
+    if (window.gtag || window.gtagLoaded) {
+        console.log('✅ GA appears to be already loaded (gtag found)');
+    } else {
+        console.log('⏳ GA not loaded yet - waiting for user consent...');
+    }
+})();
 </script>
 

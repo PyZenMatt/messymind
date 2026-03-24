@@ -43,6 +43,7 @@ const cookieManager = {
         }
     },
     acceptAll() {
+        console.log('🍪 acceptAll() called - Accepting all cookies including analytics');
         const consent = { essential: true, analytics: true, timestamp: Date.now(), version: '1.0' };
         this.saveConsent(consent);
         this.applyConsent(consent);
@@ -51,6 +52,7 @@ const cookieManager = {
         this.showNotification('Tutti i cookie sono stati accettati', 'success');
     },
     rejectAll() {
+        console.log('🍪 rejectAll() called - Rejecting analytics cookies');
         const consent = { essential: true, analytics: false, timestamp: Date.now(), version: '1.0' };
         this.saveConsent(consent);
         this.applyConsent(consent);
@@ -68,9 +70,26 @@ const cookieManager = {
         this.showNotification('Le tue preferenze sono state salvate', 'success');
     },
     saveConsent(consent) { const consentString = JSON.stringify(consent); this.setCookie(this.config.cookieName, consentString, this.config.cookieExpiry); },
-    applyConsent(consent) { if (consent.analytics) { this.loadGoogleAnalytics(); } else { this.removeGoogleAnalytics(); } },
+    applyConsent(consent) { 
+        console.log('🔍 GA INIT TRIGGERED - applyConsent called with consent:', consent);
+        if (consent.analytics) { 
+            console.log('✅ Analytics consent TRUE - Loading GA');
+            this.loadGoogleAnalytics(); 
+        } else { 
+            console.log('❌ Analytics consent FALSE - Removing GA');
+            this.removeGoogleAnalytics(); 
+        } 
+    },
     loadGoogleAnalytics() {
-        if (window.gtag || document.querySelector('[src*="googletagmanager"]')) { return; }
+        console.log('📊 loadGoogleAnalytics() - Checking if GA already loaded...');
+        // Protezione multipla contro doppi load
+        if (window.gtagLoaded || window.gtag || document.querySelector('[src*="googletagmanager"]')) { 
+            console.log('⚠️  GA ALREADY LOADED - Skipping double load');
+            return; 
+        }
+        
+        console.log('🚀 GA NOT FOUND - Creating and loading gtag script for ID:', this.config.analyticsId);
+        window.gtagLoaded = true; // Flag per evitare carichi doppi
         const script = document.createElement('script');
         script.async = true;
         script.src = `https://www.googletagmanager.com/gtag/js?id=${this.config.analyticsId}`;
@@ -79,7 +98,7 @@ const cookieManager = {
         function gtag(){dataLayer.push(arguments);} window.gtag = gtag;
         gtag('js', new Date());
         gtag('config', this.config.analyticsId, { 'anonymize_ip': true, 'cookie_flags': 'SameSite=None;Secure' });
-        console.log('Google Analytics caricato con consenso');
+        console.log('✅ Google Analytics caricato con consenso - ID:', this.config.analyticsId);
     },
     removeGoogleAnalytics() {
         const scripts = document.querySelectorAll('[src*="googletagmanager"], [src*="google-analytics"]'); scripts.forEach(script => script.remove());
