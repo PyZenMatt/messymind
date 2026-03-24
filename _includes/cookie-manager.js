@@ -8,7 +8,7 @@ const cookieManager = {
     config: {
         cookieName: 'cookie-consent',
         cookieExpiry: 365, // giorni
-        analyticsId: '{{ site.google_analytics | default: "G-4ZS3K400HQ" }}',
+        analyticsId: '{{ site.google_analytics | default: "G-YZRF8LG3GD" }}',
         domain: window.location.hostname
     },
 
