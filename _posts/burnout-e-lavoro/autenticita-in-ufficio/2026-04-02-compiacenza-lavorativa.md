@@ -174,6 +174,8 @@ Ed è un attrito pessimo, perché ti consuma mentre continui a sembrare funziona
 
 È anche per questo che il tema si aggancia a [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/). In entrambi i casi il problema è lo stesso: fuori sembri a posto, dentro stai pagando troppo.
 
+Se il costo che senti non è solo nel dire sì, ma anche nel dover sembrare sempre accomodante, allineato o “facile da gestire”, leggi anche [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/).
+
 ## Come interrompere il sì automatico
 
 Qui non serve rifare tutto il pezzo su come dire no. Serve guardare il meccanismo.
@@ -239,8 +241,8 @@ Per continuare:
 - [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/)
 - Hub del subcluster: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/)
 - Correlato utile: [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
+- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/)
 
-La sintesi è questa: dire sempre sì non ti rende più professionale. Ti rende più interrompibile, più saturo e più distante dal tuo lavoro migliore.
 
 {% include howto.html %}
 

@@ -102,6 +102,8 @@ Da dentro stai spendendo energia per sostenere una versione di te che non regge.
 
 È qui che autenticità e burnout iniziano a toccarsi. Non perché “essere veri” ti salvi magicamente, ma perché **fingere tutto il giorno ti consuma**.
 
+Se vuoi approfondire proprio questo meccanismo, il satellite dedicato è [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/).
+
 Se vuoi guardare il cluster dal lato dei segnali precoci, leggi anche [**Burnout e segnali: 7 campanelli d’allarme da non ignorare**](/burnout-e-lavoro/burnout-e-segnali/).
 
 ## Perché fingiamo così tanto al lavoro
@@ -198,6 +200,12 @@ Il punto è smettere di essere disponibile in automatico.
 Per il lato del carico e della saturazione mentale, il subcluster di riferimento è [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/).  
 Per il lato identità, confini e ruolo, questo articolo è la guida madre del subcluster [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/), dedicato a maschera professionale, compiacenza, confini e costo mentale del fingere.
 
+Se vuoi entrare nei tre meccanismi più tipici di questo subcluster, continua da qui:
+
+- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/)
+- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/)
+- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/)
+
 Se questa disponibilità cronica si accompagna a irritabilità, recupero scarso e sensazione di lavorare sempre in tensione, può aiutarti anche leggere [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
 
 ## Come essere più autentici al lavoro senza fare danni
@@ -270,6 +278,8 @@ A volte basta questo per non infilarti da solo nel problema.
 
 Se il tuo schema ricorrente è più legato all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/).
 
+Se invece il tuo schema è meno legato all’urgenza e più al bisogno di evitare attrito, vai su [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/).
+
 ## Quando conviene andare per gradi
 
 Non tutti gli ambienti permettono lo stesso grado di autenticità.  
@@ -294,6 +304,14 @@ Non ti promette neppure che basta “essere te stesso” per non soffrire più.
 Se il problema è già più ampio — esaurimento, distacco, insonnia, saturazione costante, senso di inefficacia — non fermarti qui. Parti dalla guida su [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/), poi leggi [**Burnout e segnali**](/burnout-e-lavoro/burnout-e-segnali/) e [**Come prevenire il burnout**](/burnout-e-lavoro/prevenzione-e-cura-burnout/).
 
 Se il punto centrale per te non è solo il carico ma il modo in cui ti adatti troppo, ti censuri o dici sì per riflesso, questo è il subcluster da seguire: qui lavoriamo su identità professionale, confini e lucidità sotto pressione.
+
+## Dove andare adesso
+
+Se il tuo problema principale è:
+
+- mettere confini senza sembrare difficile → [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/)
+- dire sì troppo spesso e ritrovarti svuotato → [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/)
+- sentirti stanco soprattutto per la recitazione professionale → [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/)
 
 ## Conclusione
 

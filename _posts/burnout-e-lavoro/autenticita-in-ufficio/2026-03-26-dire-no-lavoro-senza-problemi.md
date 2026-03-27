@@ -80,7 +80,7 @@ Il problema è che questo tipo di affidabilità viene premiato nel breve. Dici s
 
 Poi arriva il conto.
 
-A me interessa questo punto perché viene raccontato male. Sembra sempre una questione di carattere: o sei forte e sai dire no, oppure sei debole e ti fai caricare addosso tutto. Non funziona così. Spesso il sì automatico non nasce da fragilità. Nasce da una lettura professionale sbagliata: confondere disponibilità con competenza.
+Sembra sempre una questione di carattere: o sei forte e sai dire no, oppure sei debole e ti fai caricare addosso tutto. Non funziona così. Spesso il sì automatico non nasce da fragilità. Nasce da una lettura professionale sbagliata: confondere disponibilità con competenza.
 
 Essere disponibili ogni volta non ti rende più professionale. Ti rende più accessibile all’interruzione. E non sono la stessa cosa.
 
@@ -96,7 +96,7 @@ Perché quel sì non chiude nulla. Apre.
 
 Apre tab mentali. Apre micro-debiti cognitivi. Apre una frammentazione del focus che poi ti trascini dietro per ore. Il lavoro più importante viene spostato di lato. Le priorità smettono di essere tue e diventano la somma degli ingressi più recenti. È il trionfo della bacheca notifiche applicato alla giornata lavorativa.
 
-Nel mio quotidiano l’ho vista così: non mi sentivo travolto da una singola richiesta enorme. Mi sentivo peggiorato da una sequenza di richieste piccole accettate senza pensare. Nessuna, presa da sola, sembrava un dramma. Insieme, mi rubavano profondità.
+Non ti senti travolto da una singola richiesta enorme. Ti senti peggiorato da una sequenza di richieste piccole accettate senza pensare. Nessuna, presa da sola, sembra un dramma. Insieme, ti rubano profondità.
 
 Ed è qui che il sì automatico si rivela per quello che è: non un gesto gentile, ma una tassa sulla qualità.
 
@@ -164,7 +164,7 @@ Non devi sempre rifiutare il compito. A volte basta rifiutare la forma vaga, inv
 “Posso aiutarti per 15 minuti, non per prenderlo in carico tutto.”  
 “Posso entrare sul punto X, non rifare l’intero documento.”
 
-A me piace questo passaggio perché è poco romantico e molto utile: non si tratta di “esprimere te stesso”, ma di delimitare il lavoro. E il lavoro senza perimetro diventa sempre un favore.
+Non si tratta di “esprimere te stesso”, ma di delimitare il lavoro. E il lavoro senza perimetro diventa sempre un favore.
 
 ### 4. Proponi alternativa o priorità
 
@@ -255,6 +255,8 @@ Ed è una pessima sede.
 
 Questo articolo si aggancia direttamente a [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/), perché il punto è simile: quando il tuo funzionamento esterno regge a costo di una frizione interna costante, il prezzo arriva comunque. Solo più tardi.
 
+Se il tuo schema non è solo “non riesco a dire no”, ma proprio dire sì in automatico per evitare attrito, il pezzo gemello è [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/).
+
 Se questo schema è il tuo, il passo successivo naturale è il metodo [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/): prima identifichi il loop, poi lo ridimensioni, lo interrompi e rispondi in modo meno automatico.
 
 ## Una micro-pratica per smettere di rispondere in automatico
@@ -286,6 +288,8 @@ Se questo tema ti tocca, non leggerlo come un galateo del rifiuto. Leggilo come 
 Per allargare il quadro:
 
 - [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
+- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/)
+- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/)
 - [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
 - [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
 - [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/)
