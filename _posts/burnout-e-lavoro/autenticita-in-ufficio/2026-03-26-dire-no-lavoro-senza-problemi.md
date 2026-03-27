@@ -109,7 +109,7 @@ Quando lavori sempre in risposta agli altri, succedono almeno quattro cose:
 
 Il no fatto bene non crea questo problema. Il sì automatico sì.
 
-Se questa rincorsa continua ti suona familiare, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/).
+Se questa rincorsa continua ti suona familiare, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
 
 ## Quando dire sì ti costa più di quanto ti protegga
 
@@ -255,7 +255,7 @@ Ed è una pessima sede.
 
 Questo articolo si aggancia direttamente a [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/), perché il punto è simile: quando il tuo funzionamento esterno regge a costo di una frizione interna costante, il prezzo arriva comunque. Solo più tardi.
 
-Se il tuo schema non è solo “non riesco a dire no”, ma proprio dire sì in automatico per evitare attrito, il pezzo gemello è [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/).
+Se il tuo schema non è solo “non riesco a dire no”, ma proprio dire sì in automatico per evitare attrito, il pezzo gemello è [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/).
 
 Se questo schema è il tuo, il passo successivo naturale è il metodo [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/): prima identifichi il loop, poi lo ridimensioni, lo interrompi e rispondi in modo meno automatico.
 
@@ -288,11 +288,11 @@ Se questo tema ti tocca, non leggerlo come un galateo del rifiuto. Leggilo come 
 Per allargare il quadro:
 
 - [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
-- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/)
-- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/)
+- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
+- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/)
 - [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
 - [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
-- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/)
+- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/)
 - Hub del subcluster: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/)
 - Correlato utile: [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
 

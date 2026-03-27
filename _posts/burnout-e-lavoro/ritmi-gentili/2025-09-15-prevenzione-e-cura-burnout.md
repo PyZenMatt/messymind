@@ -77,7 +77,7 @@ In pratica vuol dire:
 
 Questo articolo fa parte del subcluster [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/), dedicato proprio a sovraccarico, recupero, confini e urgenza cronica.
 
-Se la tua difficoltà prende soprattutto la forma della rincorsa continua e della colpa quando rallenti, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/).
+Se la tua difficoltà prende soprattutto la forma della rincorsa continua e della colpa quando rallenti, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-iseguire-il-tempo/).
 
 ## Perché funzionano: richieste, risorse, margine
 
@@ -207,7 +207,7 @@ Per chiudere bene il quadro, questa è la sequenza sensata:
 - [**Burnout: cos’è davvero, segnali reali e prime mosse per uscirne**](/burnout-e-lavoro/burnout-cos-e-davvero/)
 - [**Burnout al lavoro: 7 segnali che stai sottovalutando**](/burnout-e-lavoro/burnout-e-segnali/)
 - [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/)
-- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/)
+- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/)
 
 ## Conclusione
 

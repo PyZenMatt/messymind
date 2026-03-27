@@ -236,7 +236,7 @@ Ti serve una correzione concreta, adesso.
 Se questo articolo ti è stato utile, puoi fare tre cose semplici:
 
 - leggere anche il cluster [**Burnout e lavoro**](/categorie/burnout-e-lavoro/)
-- esplorare il subcluster [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
+- esplorare il subcluster [**Ritmi gentili**](/categorie//burnout-e-lavoro/ritmi-gentili/)
 - condividere questo articolo con qualcuno che sta lavorando tanto ma sempre peggio
 
 ## FAQ

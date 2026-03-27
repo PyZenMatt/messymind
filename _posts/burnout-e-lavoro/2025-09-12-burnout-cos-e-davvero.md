@@ -143,7 +143,7 @@ Il burnout prospera quando il lavoro smette di essere impegnativo e diventa stru
 5. **Assenza di equità**: regole opache, trattamenti incoerenti, doppio standard.
 6. **Conflitto di valori**: ciò che ti viene chiesto contraddice ciò che ritieni accettabile o sensato.
 
-Qui entra il subcluster [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/): non per diventare zen, ma per riprenderti margine operativo. Un primo approfondimento utile è [**Come prevenire il burnout lavorativo: ritmi gentili e confini che funzionano**](/burnout-e-lavoro/prevenzione-e-cura-burnout/). Se invece il tuo problema prende soprattutto la forma della rincorsa continua, della colpa quando rallenti e della sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/).
+Qui entra il subcluster [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/): non per diventare zen, ma per riprenderti margine operativo. Un primo approfondimento utile è [**Come prevenire il burnout lavorativo: ritmi gentili e confini che funzionano**](/burnout-e-lavoro/prevenzione-e-cura-burnout/). Se invece il tuo problema prende soprattutto la forma della rincorsa continua, della colpa quando rallenti e della sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
 
 ## Le 6 mosse I.R.O.N.I.A. per uscire dalla reattività
 
@@ -226,7 +226,7 @@ La prima mossa sensata non è fare l'eroe. È fare chiarezza.
 - Se vuoi riconoscere meglio i campanelli d'allarme, parti da [**Burnout al lavoro: 7 segnali che stai sottovalutando**](/burnout-e-lavoro/burnout-e-segnali/).
 - Se vuoi passare subito a confini, recupero e gestione del carico, continua con [**Come prevenire il burnout lavorativo: ritmi gentili e confini che funzionano**](/burnout-e-lavoro/prevenzione-e-cura-burnout/).
 - Se vuoi distinguere meglio burnout e pressione ancora correggibile, leggi [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
-- Se senti che il problema prende la forma della rincorsa continua, vai a [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/).
+- Se senti che il problema prende la forma della rincorsa continua, vai a [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
 - Se vuoi il framework completo, torna al [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/).
 
 Un passo piccolo, fatto bene, vale più di un'altra settimana passata a dire “resisto ancora un po'”.

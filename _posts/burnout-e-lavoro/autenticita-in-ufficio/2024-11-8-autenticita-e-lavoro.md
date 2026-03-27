@@ -16,39 +16,26 @@ lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_a
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1756043562/lavoro_1600_jkqmrs.webp
 lcp_image_alt: donna con le mani ai capelli davanti al suo computer mentre lavora
 featured_post: true
+
 howto:
   name: "Come essere più autentici al lavoro senza creare attrito inutile"
   description: "Sette micro mosse pratiche per ridurre il costo mentale della maschera professionale e lavorare con più lucidità."
   totalTime: "PT5M"
   step:
     - name: "Chiarisci 3 valori non negoziabili"
-      text: >
-        Esempio: onestà, tempo di deep work, rispetto dei limiti.
-        Scrivili in modo concreto: non ideali astratti, ma criteri di comportamento.
+      text: Esempio onestà, tempo di deep work, rispetto dei limiti. Scrivili in modo concreto non ideali astratti, ma criteri di comportamento.
     - name: "Scegli due frasi assertive pronte"
-      text: |
-        - "In questo momento sono su [priorità]. Possiamo rivederlo domani alle 11?"
-        - "Per farlo bene mi serve [risorsa/tempo]. Preferisci qualità o velocità?"
+      text: "In questo momento sono su [priorità]. Possiamo rivederlo domani alle 11?Per farlo bene mi serve [risorsa/tempo]. Preferisci qualità o velocità?"
     - name: "Riduci una forma di compiacenza automatica"
-      text: >
-        Smetti di dire sì per riflesso a una richiesta a basso valore.
-        Prenditi almeno 10 minuti prima di rispondere.
+      text: Smetti di dire sì per riflesso a una richiesta a basso valore. Prenditi almeno 10 minuti prima di rispondere.
     - name: "Imposta un confine gentile ma visibile"
-      text: >
-        Proteggi due blocchi di deep work a settimana e rendili espliciti al team.
-        Un confine invisibile non è un confine.
+      text: Proteggi due blocchi di deep work a settimana e rendili espliciti al team. Un confine invisibile non è un confine.
     - name: "Usa una pausa di decompressione da 60 secondi"
-      text: >
-        Prima di rispondere a una richiesta che ti irrita, fai un passaggio rapido:
-        nomina la reazione, abbassa il tono, poi rispondi.
+      text: Prima di rispondere a una richiesta che ti irrita, fai un passaggio rapido nomina la reazione, abbassa il tono, poi rispondi.
     - name: "Scrivi un mini giornale di bordo"
-      text: >
-        Tre righe a fine settimana: dove hai recitato, dove sei stato chiaro,
-        quale micro-correzione fai la settimana prossima.
+      text: Tre righe a fine settimana dove hai recitato, dove sei stato chiaro, quale micro-correzione fai la settimana prossima.
     - name: "Fai una richiesta concreta al manager"
-      text: >
-        Porta un esempio preciso di attrito, il suo impatto sul lavoro e una proposta semplice.
-        Non parlare di “sentirmi meglio”: parla di qualità, tempi, lucidità.
+      text: Porta un esempio preciso di attrito, il suo impatto sul lavoro e una proposta semplice. Non parlare di “sentirmi meglio” parla di qualità, tempi, lucidità.
 faqs:
   - question: "Essere autentici al lavoro vuol dire dire sempre quello che penso?"
     answer: "No. Autenticità non vuol dire impulsività. Vuol dire ridurre la distanza tra quello che pensi, quello che dici e il modo in cui lavori, senza creare attrito inutile."
@@ -102,7 +89,7 @@ Da dentro stai spendendo energia per sostenere una versione di te che non regge.
 
 È qui che autenticità e burnout iniziano a toccarsi. Non perché “essere veri” ti salvi magicamente, ma perché **fingere tutto il giorno ti consuma**.
 
-Se vuoi approfondire proprio questo meccanismo, il satellite dedicato è [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/).
+Se vuoi approfondire proprio questo meccanismo, il satellite dedicato è [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/).
 
 Se vuoi guardare il cluster dal lato dei segnali precoci, leggi anche [**Burnout e segnali: 7 campanelli d’allarme da non ignorare**](/burnout-e-lavoro/burnout-e-segnali/).
 
@@ -202,9 +189,9 @@ Per il lato identità, confini e ruolo, questo articolo è la guida madre del su
 
 Se vuoi entrare nei tre meccanismi più tipici di questo subcluster, continua da qui:
 
-- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/)
-- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/)
-- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/)
+- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
+- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
+- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/)
 
 Se questa disponibilità cronica si accompagna a irritabilità, recupero scarso e sensazione di lavorare sempre in tensione, può aiutarti anche leggere [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
 
@@ -276,9 +263,9 @@ Fai questo passaggio rapido:
 
 A volte basta questo per non infilarti da solo nel problema.
 
-Se il tuo schema ricorrente è più legato all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/).
+Se il tuo schema ricorrente è più legato all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
 
-Se invece il tuo schema è meno legato all’urgenza e più al bisogno di evitare attrito, vai su [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/).
+Se invece il tuo schema è meno legato all’urgenza e più al bisogno di evitare attrito, vai su [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/).
 
 ## Quando conviene andare per gradi
 
@@ -309,9 +296,9 @@ Se il punto centrale per te non è solo il carico ma il modo in cui ti adatti tr
 
 Se il tuo problema principale è:
 
-- mettere confini senza sembrare difficile → [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/)
-- dire sì troppo spesso e ritrovarti svuotato → [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/)
-- sentirti stanco soprattutto per la recitazione professionale → [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/)
+- mettere confini senza sembrare difficile → [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-lavoro-senza-problemi/)
+- dire sì troppo spesso e ritrovarti svuotato → [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
+- sentirti stanco soprattutto per la recitazione professionale → [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/)
 
 ## Conclusione
 

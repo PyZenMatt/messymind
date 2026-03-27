@@ -4,8 +4,8 @@ title: 'Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Romp
 seo_title: 'Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Rompere i Mobili)'
 seo_description: 'Guida pratica e ironica alla legge del ritmo: come riconoscere i cicli della vita, gestire le oscillazioni emotive e trovare resilienza quotidiana con piccoli rituali e tanto umorismo.'
 seo_description: 'Guida pratica e ironica alla legge del ritmo: come riconoscere i cicli della vita, gestire le oscillazioni emotive e trovare resilienza quotidiana con piccoli rituali e tanto umorismo.'
-categories: mindfulness-ironica
-subcluster: equilibrio-interiore-per-persone-normali
+categories: []
+
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042399/ritmo_pfwx3o.jpg
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042399/ritmo_pfwx3o.jpg
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042399/ritmo_pfwx3o.jpg

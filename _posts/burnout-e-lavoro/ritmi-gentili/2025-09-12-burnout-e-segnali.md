@@ -106,7 +106,7 @@ Spesso non è pigrizia. È attrito mentale accumulato.
 
 **Prima mossa utile:** dai alla cosa rimandata 10 minuti veri. Non prometterti di finirla. Promettiti solo di iniziarla senza scappare.
 
-Se il tuo problema è legato più all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/).
+Se il tuo problema è legato più all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
 
 ### 6. Somatizzazioni ricorrenti
 

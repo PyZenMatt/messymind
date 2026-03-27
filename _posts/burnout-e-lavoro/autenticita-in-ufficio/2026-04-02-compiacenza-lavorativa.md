@@ -137,7 +137,7 @@ Il quinto: ti irriti in ritardo. Sul momento sei accomodante. Dopo, molto dopo, 
 
 Il sesto: senti fatica inutile, più che fatica normale. È una stanchezza meno pulita. Non viene dall’aver lavorato bene tanto. Viene dall’essere stato invaso male.
 
-Se vuoi vedere un’altra faccia di questo schema, leggi anche [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/).
+Se vuoi vedere un’altra faccia di questo schema, leggi anche [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/).
 
 ## Perché la compiacenza è una cattiva strategia professionale
 
@@ -174,7 +174,7 @@ Ed è un attrito pessimo, perché ti consuma mentre continui a sembrare funziona
 
 È anche per questo che il tema si aggancia a [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/). In entrambi i casi il problema è lo stesso: fuori sembri a posto, dentro stai pagando troppo.
 
-Se il costo che senti non è solo nel dire sì, ma anche nel dover sembrare sempre accomodante, allineato o “facile da gestire”, leggi anche [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/).
+Se il costo che senti non è solo nel dire sì, ma anche nel dover sembrare sempre accomodante, allineato o “facile da gestire”, leggi anche [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/).
 
 ## Come interrompere il sì automatico
 
@@ -226,7 +226,7 @@ Questo non ti assolve da fare bordo. Ma ti aiuta a non leggere tutto come difett
 
 Ed è qui che la compiacenza, se reiterata, può portarti verso quadri più pesanti come [**stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/) o, se il sistema si prolunga senza correzioni, verso il terreno del [**burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/). Non perché dire sì una volta ti distrugga, ma perché una cessione continua di priorità logora il lavoro da dentro.
 
-Se questa rincorsa diventa cronica, il pezzo complementare da leggere è [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/).
+Se questa rincorsa diventa cronica, il pezzo complementare da leggere è [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
 
 ## Cosa leggere dopo
 
@@ -235,13 +235,13 @@ Se ti sei riconosciuto in questo schema, la direzione non è diventare duro. È 
 Per continuare:
 
 - [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
-- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/)
+- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemati/)
 - [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
 - [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
-- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/)
-- Hub del subcluster: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/)
+- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/)
+- Hub del subcluster: [**Autenticità in ufficio**](/burnout-e-lavoro/autenticita-in-ufficio/)
 - Correlato utile: [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
-- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno/)
+- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/)
 
 
 {% include howto.html %}

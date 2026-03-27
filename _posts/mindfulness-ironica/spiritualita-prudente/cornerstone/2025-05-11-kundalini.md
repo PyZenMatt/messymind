@@ -13,6 +13,7 @@ background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1762329736/kundalini_1920_h2ueif.webp
 lcp_image_alt: "Una ragazza che medita illuminata da una luce calda"
 tags:
+- cornerstone
 - kundalini
 - risveglio spirituale
 - yoga

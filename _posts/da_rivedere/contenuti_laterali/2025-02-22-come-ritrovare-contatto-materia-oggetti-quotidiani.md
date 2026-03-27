@@ -5,8 +5,7 @@ seo_title: Come Ritrovare il Contatto con la Materia | Guida Pratica al Material
 description: Scopri 5 metodi concreti per riconquistare il rapporto con gli oggettiquotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi dimindfulness tattile.
 seo_description: Scopri 5 metodi concreti per riconquistare il rapporto con gli oggettiquotidiani. Esempi pratici, citazioni di Alan Watts e Hannah Arendt, esercizi di mindfulness tattile.
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042393/materialismo_qy6qqd.webp
-categories: mindfulness-ironica
-subcluster: osservazione-e-silenzio
+categories: []
 cornerstone: false
 featured_post: 'true'
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042393/materialismo_qy6qqd.webp

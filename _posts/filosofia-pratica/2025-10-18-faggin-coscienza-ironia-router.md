@@ -5,8 +5,8 @@ seo_title: "Metodo I.R.O.N.I.A. e Faggin: coscienza, riduzionismo e router"
 seo_description: "Federico Faggin, la teoria QIP e il Metodo I.R.O.N.I.A.: dal riduzionismo mentale alla pausa-router. Un racconto ironico di coscienza quotidiana e reset cognitivo."
 date: 2025-10-18
 last_modified_at: 2025-10-18
-categories: ["mindfulness-ironica"]
-subcluster: "equilibrio-interiore-per-persone-normali"
+categories: ["filosofia-pratica"]
+subcluster: 
 tags: ["metodo-ironia", "faggin", "qip", "riduzionismo", "consapevolezza"]
 
 image_author: Jakub Zerdzicki  

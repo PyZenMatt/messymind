@@ -83,7 +83,7 @@ Il problema nasce quando il filtro smette di essere uno strumento e diventa una 
 
 Questo è il punto da tenere fermo: non ti serve spontaneità totale. Ti serve lavorare senza pagare un prezzo mentale inutile.
 
-Se vuoi vedere come questo tema si collega alla disponibilità cronica e al costo del sì automatico, il satellite gemello è [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/).
+Se vuoi vedere come questo tema si collega alla disponibilità cronica e al costo del sì automatico, il satellite gemello è [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/).
 
 ## Quando smetti di lavorare e inizi a gestire il personaggio
 
@@ -168,9 +168,9 @@ Poi arriva la rimuginazione.
 
 Poi arriva l’irritazione passiva. Non il conflitto pulito, ma quello ritardato: meno pazienza, più rigidità, meno qualità nei dettagli. E naturalmente arriva il lavoro abbassato di un gradino, perché se per ore gestisci il personaggio, resta meno attenzione per il compito.
 
-Questo articolo tocca per forza [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/) e [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/), perché spesso il meccanismo è lo stesso: fuori eviti attrito, dentro accumuli costo.
+Questo articolo tocca per forza [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/) e [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/), perché spesso il meccanismo è lo stesso: fuori eviti attrito, dentro accumuli costo.
 
-Se invece la recitazione continua ti sta già portando a dire sì troppo spesso per restare compatibile, il pezzo gemello da leggere è [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/), mentre per il lato più pratico del confine trovi qui [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/).
+Se invece la recitazione continua ti sta già portando a dire sì troppo spesso per restare compatibile, il pezzo gemello da leggere è [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/), mentre per il lato più pratico del confine trovi qui [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/).
 
 Nel lungo periodo il quadro può anche peggiorare e somigliare di più a [**stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/) o, se la recitazione continua si somma a sovraccarico e mancanza di controllo, al terreno del [**burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/). Non perché sorridere in call ti distrugga. Ma perché l’autoconsumo quotidiano non è mai gratis.
 
@@ -205,7 +205,7 @@ Non è aggressivo. È utile.
 **3. Proteggi un blocco di focus senza trasformarlo in manifesto**  
 Non servono discorsi sui confini. Basta una frase pulita: “Fino alle 12 sono su questa consegna, poi torno su questo punto”.
 
-Se vuoi lavorare sul lato più pratico del bordo, il satellite da leggere dopo è [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/).
+Se vuoi lavorare sul lato più pratico del bordo, il satellite da leggere dopo è [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/).
 
 ## Una micro-sequenza I.R.O.N.I.A.
 
@@ -243,7 +243,7 @@ Questo va detto, perché altrimenti finiamo nella favola in cui basta scegliere 
 
 In questi casi il lavoro utile non è abolire ogni filtro. È ridurre il costo della recitazione dove puoi, e vedere con onestà dove il sistema ti chiede troppo.
 
-Per allargare il quadro, il pezzo madre resta [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/). E il subcluster è qui: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/).
+Per allargare il quadro, il pezzo madre resta [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/). E il subcluster è qui: [**Autenticità in ufficio**](/burnout-e-lavoro/autenticita-in-ufficio/).
 
 Se questa pressione si traduce soprattutto in tensione continua, recupero scarso e sensazione di lavorare sempre in allerta, il ponte naturale è [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
 
@@ -254,11 +254,11 @@ Se ti sei riconosciuto, la direzione non è “finalmente essere te stesso” co
 Per continuare:
 
 - [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
-- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota/)
-- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico/)
+- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
+- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
 - [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
 - [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
-- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita-quando-inseguire-il-tempo-ti-peggiora-il-lavoro/)
+- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tmepo/)
 - Hub del subcluster: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/)
 - Correlato utile: [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
 
