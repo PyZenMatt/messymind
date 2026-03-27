@@ -199,8 +199,8 @@ In quel caso il respiro è solo il primo gesto, non tutta la soluzione.
 Per questo questo articolo sta dentro una "categoria" più ampia:
 - il pezzo madre è [5 micro-pratiche per non reagire in automatico quando la testa accelera](/mindfulness-ironica/pratiche-per-non-reagire/)
   
-- se il problema è il sovraccarico continuo, leggi anche [Come abbassare il rumore mentale senza sparire dal mondo](/mindfulness-ironica/micro-pratiche/come-abbassare-il-rumore-mentale-senza-sparire-dal-mondo/)
-- se vuoi allenare la presenza nei contesti normali, vai su [Come tornare presente in coda, sul tram e in cucina](/come-meditare-senza-sedersi-a-gambe-incrociate/)
+- se il problema è il sovraccarico continuo, leggi anche [Come abbassare il rumore mentale senza sparire dal mondo](/mindfulness-ironica/abbassare-il-rumore-mentale/)
+- se vuoi allenare la presenza nei contesti normali, vai su [Come tornare presente in coda, sul tram e in cucina](/mindfulness-ironica/tornare-presente/)
 
 ## Una versione ancora più corta
 
@@ -218,12 +218,12 @@ Utile.
 
 ## Leggi anche
 
-- [5 micro-pratiche per non reagire in automatico quando la testa accelera](/filosofia-pratica/felicita-non-e-un-linkedin-post/)
-- [Come abbassare il rumore mentale senza sparire dal mondo](/mindfulness-ironica/micro-pratiche/come-abbassare-il-rumore-mentale-senza-sparire-dal-mondo/)
-- [Come tornare presente in coda, sul tram e in cucina](/come-meditare-senza-sedersi-a-gambe-incrociate/)
+- [5 micro-pratiche per non reagire in automatico quando la testa accelera](/mindfulness-ironica/pratiche-per-non-reagire/)
+- [Come abbassare il rumore mentale senza sparire dal mondo](/mindfulness-ironica/abbassare-il-rumore-mentale/)
+- [Come tornare presente in coda, sul tram e in cucina](/mindfulness-ironica/tornare-presente/)
 - [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
-- [Interrompi](/mindfulness-ironica/metodo-ironia/interrompi/)
-- [Osserva](/mindfulness-ironica/metodo-ironia/osserva/)
+- [Interrompi](/mindfulness-ironica/metodo-ironia/interrompere-il-pilota-automatico/)
+- [Osserva](/mindfulness-ironica/osservare-senza-interpretare/)
 
 ## Conclusione
 
