@@ -4,8 +4,8 @@ title: "Maschera professionale: il costo mentale di fingere tutto il giorno"
 description: "La maschera professionale non è ipocrisia morale: è attenzione che smette di stare sul lavoro e si mette a gestire il personaggio."
 seo_title: "Maschera professionale: il costo mentale di fingere tutto il giorno"
 seo_description: "Cos’è la maschera professionale, perché fingere al lavoro stanca così tanto e come ridurne il costo mentale senza creare caos."
-date: 2026-04-09 
-last_modified_at: 2026-03-26 12:00:00 +0100
+date: 2026-04-06 
+last_modified_at: 2026-04-06 
 categories: ["burnout-e-lavoro"]
 subcluster: "autenticita-in-ufficio"
 tags:
