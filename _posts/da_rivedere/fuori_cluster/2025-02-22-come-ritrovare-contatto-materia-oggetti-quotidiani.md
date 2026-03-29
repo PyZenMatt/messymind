@@ -14,7 +14,7 @@ og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,
 redirect_from:
 - /come-ritrovare-il-contatto-con-la-materia-guida-pratica-al-materialismo-consapevole/
 - //come-ritrovare-contatto-materia-oggetti-quotidiani/
-tags: ["cornerstone", "consapevolezza", "filosofia moderna", "psicologia degli oggetti", "minimalismo", "artigianato"]
+tags: ["consapevolezza", "filosofia moderna", "psicologia degli oggetti", "minimalismo", "artigianato"]
 
 ---
 # La strana storia di come abbiamo smesso di sentire le cose

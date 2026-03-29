@@ -17,7 +17,12 @@ tags:
   - ansia da produttività
   - burnout e lavoro
 is_cornerstone: false
-image: /assets/images/posts/burnout-e-lavoro/dire-no-al-lavoro-senza-sembrare-problematico.jpg
+lcp_image_alt: persona con mano che indica di fermarsi
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1774798773/dire-no_f0ohrw.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1774798773/dire-no_f0ohrw.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1774798773/dire-no_f0ohrw.jpg
+featured_post: true
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1774798773/dire-no_f0ohrw.jpg
 howto:
   name: "Come dire no al lavoro senza sembrare problematico"
   description: "Una micro-procedura pratica per smettere di dire sì in automatico e mettere confini con più lucidità."

@@ -1,4 +1,5 @@
 ---
+robots: noindex, follow
 layout: post
 title: 'Risveglio Interiore e Successo: Perché la Spiritualità Moderna è Come un GPS Rotto (Con Esempi Pratici di Sopravvivenza)'
 seo_title: 'Risveglio Interiore e Successo: Perché la Spiritualità Moderna è Come un GPS Rotto (Con Esempi Pratici di Sopravvivenza)'

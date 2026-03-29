@@ -10,10 +10,11 @@ categories: ["mindfulness-ironica"]
 subcluster: "spiritualita-prudente"
 tags: ["kundalini", "ansia", "iper-vigilanza", "spiritualita-prudente", "nomina", "ridimensiona"]
 author: "Teo"
-image: "/assets/images/posts/kundalini-e-ansia.jpg"
-lcp_image: "/assets/images/posts/kundalini-e-ansia.jpg"
-background: "/assets/images/posts/kundalini-e-ansia.jpg"
-og_image: "/assets/images/posts/kundalini-e-ansia.jpg"
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1774799437/pexels-mart-production-8458949_fb2lzm.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1774799437/pexels-mart-production-8458949_fb2lzm.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1774799437/pexels-mart-production-8458949_fb2lzm.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1774799437/pexels-mart-production-8458949_fb2lzm.jpg
+lcp_image_alt: "Una ragazza imprigionata in una scatola simbolo di ansia e prigione di ansia"
 is_cornerstone: false
 excerpt: "Tachicardia, insonnia, formicolio, ricerca compulsiva di spiegazioni: non sempre serve scegliere tra 'è Kundalini' o 'è solo ansia'. Spesso serve distinguere meglio."
 faqs:

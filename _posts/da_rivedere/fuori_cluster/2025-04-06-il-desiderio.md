@@ -5,8 +5,8 @@ seo_title: 'Il Paradosso del Desiderio: Perché Voler Smettere di Desiderare è 
 description: Cosa c'entrano uno yeti depilato, un maestro zen e il peccato originale dell'ansia? Un viaggio irriverente nel paradosso del desiderio di Alan Watts, tra metafore assurde e satira sulla spiritualità moderna. Per chi è stanco del solito self-help.
 seo_description: Cosa c'entrano uno yeti depilato, un maestro zen e il peccato originale dell'ansia? Un viaggio irriverente nel paradosso del desiderio di Alan Watts, tra metafore assurde e satira sulla spiritualità moderna. Per chi è stanco del solito self-help.
 date: 2025-04-06
-categories: crescita-personale-anti-guru
-subcluster: desiderio-e-rinuncia
+categories: []
+subcluster: 
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756045110/lust_1600_zdh2f3.webp
 lcp_image_alt: scritta lust con le lettere domino
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756045110/lust_1600_zdh2f3.webp
@@ -21,7 +21,6 @@ Immaginate di essere uno yeti. Peloso, goffo, con un’aria perennemente stupita
 
 Ecco, il paradosso del desiderio è un po’ così. **Alan Watts** lo raccontava con la storia dello studente che chiede al maestro come **liberarsi dei desideri**. La risposta? “Prova a non desiderare”. Peccato che il tentativo stesso sia già un desiderio, come voler spegnere un incendio con la benzina. Ci siamo cascati tutti, no? Tipo quando decidi di “vivere il momento” e ti ritrovi a fissare l’orologio da meditazione sul cellulare, mentre la notifica di LinkedIn ti ricorda che *Giuseppe ex compagno delle elementari ha ottenuto un nuovo certificato in Mindfulness Operativa*.  .
 
-- [Il Dilemma dello Yeti che Voleva Iscriversi in Palestra](#il-dilemma-dello-yeti-che-voleva-iscriversi-in-palestra)
 - [La Spiritualità è la Nuova Crypto?](#la-spiritualità-è-la-nuova-crypto)
 
 

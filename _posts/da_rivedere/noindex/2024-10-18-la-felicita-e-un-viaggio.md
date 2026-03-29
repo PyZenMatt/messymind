@@ -1,4 +1,5 @@
 ---
+robots: noindex,follow
 layout: post
 title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E Io Ho Sbagliato Strada Più Volte)"
 seo_title: "La Felicità è un Viaggio, Non una Ricetta Segreta (E Io Ho Sbagliato Strada Più Volte)"

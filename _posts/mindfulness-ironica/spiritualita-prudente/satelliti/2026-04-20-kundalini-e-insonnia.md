@@ -10,10 +10,11 @@ categories: ["mindfulness-ironica"]
 subcluster: "spiritualita-prudente"
 tags: ["kundalini", "insonnia", "attivazione", "spiritualita-prudente", "iper-vigilanza", "regolazione"]
 author: "Teo"
-image: "/assets/images/posts/kundalini-e-insonnia.jpg"
-lcp_image: "/assets/images/posts/kundalini-e-insonnia.jpg"
-background: "/assets/images/posts/kundalini-e-insonnia.jpg"
-og_image: "/assets/images/posts/kundalini-e-insonnia.jpg"
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1759753193/notte_insonne_hzdrnc.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1759753193/notte_insonne_hzdrnc.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1759753193/notte_insonne_hzdrnc.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1759753193/notte_insonne_hzdrnc.jpg
+lcp_image_alt: "una persona a letto sveglia che non riesce a dormire"
 is_cornerstone: false
 excerpt: "Letto, buio, corpo acceso, telefono in mano: quando la notte si trasforma in un circuito di allarme, spiegazioni e ricerca compulsiva, serve meno mistero e più regolazione."
 faqs:

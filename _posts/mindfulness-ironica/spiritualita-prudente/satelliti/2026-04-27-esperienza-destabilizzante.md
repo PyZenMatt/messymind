@@ -10,11 +10,11 @@ categories: ["mindfulness-ironica"]
 subcluster: "spiritualita-prudente"
 tags: ["esperienza-spirituale", "kundalini", "ansia", "insonnia", "destabilizzazione", "spiritualita-prudente"]
 author: "Teo"
-image: "/assets/images/posts/esperienza-spirituale-destabilizzante.jpg"
-lcp_image: "/assets/images/posts/esperienza-spirituale-destabilizzante.jpg"
-background: "/assets/images/posts/esperienza-spirituale-destabilizzante.jpg"
-og_image: "/assets/images/posts/esperienza-spirituale-destabilizzante.jpg"
-is_cornerstone: false
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757839184/burnout_2_600_x1k4nf.webp
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757839184/burnout_2_600_x1k4nf.webp
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1757839184/burnout_2_600_x1k4nf.webp
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1757839184/burnout_2_600_x1k4nf.webp
+lcp_image_alt: "una persona disperata sul pc destabilizzata"
 excerpt: "Non tutto ciò che è intenso è utile. Quando un’esperienza spirituale aumenta confusione, ansia, insonnia o perdita di stabilità, la priorità non è interpretare: è fermare l’escalation."
 faqs:
   - question: "Come capire se un’esperienza spirituale mi sta destabilizzando?"

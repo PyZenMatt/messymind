@@ -6,7 +6,7 @@ seo_description: "La teoria Nousym di Federico Faggin: coscienza come campo prim
 date: 2025-11-12
 last_modified_at: 2025-11-12
 categories: ["filosofia-pratica"]
-subcluster: "libero-arbitrio-determinismo"
+subcluster: "coscienza-e-ai"
 tags: ["Federico Faggin", "Nousym", "coscienza quantistica", "AI", "piante coscienti", "libero arbitrio"]
 featured_post: true
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/pexels-element5-1470171_jyomcd.jpg" 
@@ -35,7 +35,6 @@ Non sarebbe un prodotto del cervello, ma il campo primario dell’universo.
 
 Questa posizione si colloca nel panorama del **panpsichismo contemporaneo** e risponde al cosiddetto *“problema difficile della coscienza”* (come spiegare l’esperienza soggettiva partendo dalla materia).
 
----
 
 ### Coscienza, campo e libero arbitrio: la teoria spiegata semplice
 
@@ -51,6 +50,8 @@ In questa prospettiva, ogni essere vivente sarebbe una modalità locale di un’
 
 Un computer, invece, può manipolare informazione ma non possedere esperienza soggettiva.  
 Per questo Faggin conclude che **l’AI non potrà mai essere cosciente**.
+
+
 
 ---
 
@@ -77,6 +78,8 @@ Nousym, come il QIP, affronta due problemi centrali:
 2. **Problema della combinazione:** come si integra una coscienza diffusa in un’esperienza unitaria?
 
 Al momento, la teoria resta una cornice filosofica forte ma non ancora decisiva sul piano empirico.
+
+È lo stesso punto critico che ritorna anche nel QIP: una proposta potente sul piano filosofico, ma ancora lontana da un riconoscimento empirico condiviso.
 
 ---
 
@@ -119,6 +122,14 @@ Prima di decidere se le piante sono coscienti,
 osserva se la tua mente sta correndo.
 
 ---
+
+### Dove andare adesso
+
+Se vuoi tornare alla domanda madre — perché per Faggin l’IA non potrà mai essere davvero cosciente — riparti da [**IA cosciente? Per Faggin è un’illusione (2025)**](/filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/).
+
+Se vuoi approfondire la teoria che sta sotto questa visione, con QIP, séità e critiche principali, continua con [**Federico Faggin e QIP: coscienza, séità e critiche**](/filosofia-pratica/federico-faggin-qip-seita/).
+
+Se vuoi riportare il discorso dal piano teorico a quello mentale e pratico, puoi usare anche il [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/).
 
 ### Conclusione
 

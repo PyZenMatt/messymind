@@ -1,4 +1,5 @@
 ---
+robots: noindex,follow
 layout: post
 title: 'Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere Cactus Emotivi'
 seo_title: 'Ricerca della Felicità: Autenticità, Panini Notturni e il Coraggio di Essere Cactus Emotivi'

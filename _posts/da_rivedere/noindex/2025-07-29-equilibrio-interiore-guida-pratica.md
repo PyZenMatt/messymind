@@ -1,4 +1,5 @@
 ---
+robots: noindex, follow
 layout: post
 title: 'Equilibrio interiore e spirituale: significato, simboli ed esercizi pratici'
 seo_title: 'Equilibrio interiore e spirituale: simboli ed esercizi quotidiani'

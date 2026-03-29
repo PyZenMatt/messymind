@@ -4,8 +4,8 @@ title: 'Federico Faggin e QIP: coscienza, séità e critiche'
 seo_title: 'Federico Faggin e QIP: coscienza fondamentale, séità e critiche'
 description: Cos’è il QIP di Faggin? Coscienza fondamentale, ‘séità’, basi quantistiche (no-cloning/Holevo), differenze da IIT e critiche, con fonti.
 seo_description: Cos’è il QIP di Federico Faggin? La teoria della coscienza fondamentale (QIP), séità, basi quantistiche, differenze da IIT e principali critiche.
-categories: filosofia-pratica
-subcluster: coscienza-e-ai
+categories: ["filosofia-pratica"]
+subcluster: "coscienza-e-ai"
 tags: ["Federico Faggin", "QIP", "Coscienza", "Fisica quantistica", "IIT","Séità"]
 image_alt: 'Federico Faggin e il QIP: coscienza fondamentale, séità e basi quantistiche'
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757660503/cosciena_1920_aewa7k.webp
@@ -31,6 +31,8 @@ La teoria della **coscienza fondamentale** proposta da Federico Faggin (QIP, Qua
 
 Libri: *Irriducibile* (Mondadori, 2022), *Oltre l'invisibile* (Mondadori, 2024).
 
+Se vuoi partire dal quadro generale della posizione di Faggin sull’intelligenza artificiale e capire perché, secondo lui, un sistema artificiale può imitare il significato senza mai farne esperienza, leggi prima [**IA cosciente? Per Faggin è un’illusione (2025)**](/filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/).
+
 ---
 
 ## Chi è Faggin (e perché ascoltarlo)
@@ -41,6 +43,8 @@ Non è un outsider new age.
 È un ingegnere che, dopo aver spinto l’hardware al limite, ha iniziato a chiedersi se il materialismo basti davvero a spiegare l’esperienza soggettiva.
 
 Il suo passaggio verso la filosofia della mente nasce proprio da lì: dai limiti del paradigma dominante.
+
+Da questa svolta nascono sia la sua critica all’idea di un’IA cosciente, sia la teoria più ampia del QIP che stai leggendo qui.
 
 ---
 
@@ -104,6 +108,7 @@ Critiche principali:
 
 - **IIT:** la coscienza emerge dall’integrazione informazionale.
 - **QIP:** la coscienza è già presente nei campi fondamentali.
+- Se vuoi vedere come questa visione si estende ancora oltre il QIP, fino alla teoria Nousym e all’ipotesi di una coscienza diffusa anche nelle piante, continua con [**Federico Faggin e le piante coscienti: la teoria Nousym spiegata semplice**](/filosofia-pratica/federico-faggin-nousym-piante-coscienti/).
 
 ---
 
@@ -156,6 +161,14 @@ No. È una teoria speculativa ancora in evoluzione.
 No. È una posizione minoritaria ma stimolante.
 
 ---
+
+## Dove andare adesso
+
+Se vuoi tornare alla domanda centrale — perché per Faggin l’IA non potrà mai essere davvero cosciente — riparti da [**IA cosciente? Per Faggin è un’illusione (2025)**](/filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/).
+
+Se vuoi seguire l’evoluzione più radicale di questa visione, fino a Nousym e all’ipotesi delle piante coscienti, leggi [**Federico Faggin e le piante coscienti: la teoria Nousym spiegata semplice**](/filosofia-pratica/federico-faggin-nousym-piante-coscienti/).
+
+Se vuoi riportare il discorso dal piano teorico a quello mentale e pratico, puoi usare anche il [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/).
 
 ## Conclusione
 

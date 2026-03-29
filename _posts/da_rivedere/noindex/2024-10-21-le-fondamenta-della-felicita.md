@@ -1,4 +1,5 @@
 ---
+robots: noindex,follow
 layout: post
 title: La felicità? Quella che cerchi scrollando Instagram mentre mangi un kebab alle 2 di notte
 seo_title: La felicità? Quella che cerchi scrollando Instagram mentre mangi un kebab alle 2 di notte

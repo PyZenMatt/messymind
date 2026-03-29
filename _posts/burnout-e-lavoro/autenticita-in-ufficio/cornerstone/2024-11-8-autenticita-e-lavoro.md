@@ -7,7 +7,7 @@ date: 2024-11-8
 last_modified_at: 2026-03-26
 categories: ["burnout-e-lavoro"]
 subcluster: autenticita-in-ufficio
-tags: ["autenticità al lavoro", "maschera professionale", "burnout e lavoro", "confini sul lavoro", "ansia da performance", "compiacenza lavorativa", "lucidità mentale"]
+tags: ["cornerstone", "autenticità al lavoro", "maschera professionale", "burnout e lavoro", "confini sul lavoro", "ansia da performance", "compiacenza lavorativa", "lucidità mentale"]
 image_author_url: https://www.pexels.com/it-it/@energepic-com-27411/
 image_author: energepic
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756043562/lavoro_1600_jkqmrs.webp

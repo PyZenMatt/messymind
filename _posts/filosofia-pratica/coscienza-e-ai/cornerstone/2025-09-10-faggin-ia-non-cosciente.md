@@ -4,8 +4,8 @@ title: IA cosciente? Per Faggin è un’illusione (2025)
 seo_title: IA cosciente? Per Faggin è un’illusione (2025)
 description: 'Perché secondo Federico Faggin l''IA non capirà mai davvero: significato vs sintassi, intenzionalità, corpo ed esperienza. Spiegazione semplice con esempi, obiezioni e fonti 2025.'
 seo_description: 'Perché secondo Federico Faggin l''IA non capirà mai davvero: significato vs sintassi, intenzionalità, corpo ed esperienza. Spiegazione semplice con esempi, obiezioni e fonti 2025.'
-categories: filosofia-pratica
-subcluster: coscienza-e-ai
+categories: ["filosofia-pratica"]
+subcluster: "coscienza-e-ai"
 tags: ["cornerstone", "Faggin", "QIP", "coscienza", "IA", "filosofia della mente"]
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757489886/ai-robot-1920_qsdxot.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1757489886/ai-robot-1920_qsdxot.webp
@@ -50,6 +50,8 @@ In soldoni, il QIP sostiene che:
 
 Ecco il punto cruciale: **il significato è proprietà esclusiva della seità**. È ciò che sorge quando un'entità cosciente *esperisce* il mondo attraverso un corpo. Un computer, per Faggin, è solo un arrangiamento deterministico (o stocastico) di materia. Gli manca il "seme" fondamentale – la seità – per essere un *soggetto* di esperienza. Può simulare la comprensione, ma non può *essere* comprensione.  
 Approfondimenti divulgativi su QIP: [Essentia Foundation](https://www.essentiafoundation.org/quantum-fields-are-conscious-says-the-inventor-of-the-microprocessor/seeing/) e [Galileo Commission](https://galileocommission.org/federico-faggin-quantum-information-panpsychism-explained/).
+
+Se vuoi capire meglio la teoria che sta dietro al “no” di Faggin all’IA cosciente, con il ruolo della séità, il confronto con IIT e le principali critiche, leggi anche [**Federico Faggin e QIP: coscienza, séità e critiche**](/filosofia-pratica/federico-faggin-qip-seita/).
 
 > «Sembra che l'IA capisca… eppure non capisce niente. Il significato non è un pattern: è contatto con il mondo.» — F. Faggin, **ANSA**, aprile 2025, Palermo.  
 > Fonte: [ANSA Sicilia](https://www.ansa.it/sicilia/notizie/2025/04/28/faggin-lintelligenza-artificiale-senza-coscienza-e-niente_9fe20e6b-90f5-47d0-99a3-af3a7ff399c1.html) e [ANSA Tecnologia](https://www.ansa.it/canale_tecnologia/notizie/future_tech/2025/04/28/faggin-lintelligenza-artificiale-senza-coscienza-e-niente_0fb7baa2-51ca-43b4-9952-fd977b430296.html).
@@ -111,6 +113,8 @@ Faggin non ha cambiato idea con l'avvento di ChatGPT. La sua è una posizione fi
 * **28 aprile 2025 — Interviste ANSA (Palermo):**  
   Link: [ANSA Sicilia](https://www.ansa.it/sicilia/notizie/2025/04/28/faggin-lintelligenza-artificiale-senza-coscienza-e-niente_9fe20e6b-90f5-47d0-99a3-af3a7ff399c1.html), [ANSA Tecnologia](https://www.ansa.it/canale_tecnologia/notizie/future_tech/2025/04/28/faggin-lintelligenza-artificiale-senza-coscienza-e-niente_0fb7baa2-51ca-43b4-9952-fd977b430296.html).
 
+Se vuoi vedere come questa visione si allarga ancora di più, fino alla teoria Nousym e all’ipotesi di una coscienza diffusa anche nelle piante, continua con [**Federico Faggin e le piante coscienti: la teoria Nousym spiegata semplice**](/filosofia-pratica/federico-faggin-nousym-piante-coscienti/).
+
 ### FAQ: Domande da Bar sull'IA Cosciente
 
 **D: Ma se un'IA mi dice che è triste, come faccio a sapere che non lo è davvero?**  
@@ -130,10 +134,13 @@ Non è una questione tecnica, è una questione di principio. Manca l'*intenziona
 
 ---
 
-## Articoli correlati (interlink)
-- 👉 [Filosofia pratica](https://messymind.it/filosofia-pratica/) — teorie della coscienza senza inciampare nel misticismo
-- 👉 [Crescita personale antiguru](https://messymind.it/crescita-personale-antiguru) — rischi e scelte reali nell’era del lavoro "agile"
-- 👉 [Mindfulness ironica](https://messymind.it/mindfulness-ironica/) — esperienze, non slogan: cosa significa “sentire” davvero
+## Dove andare adesso
+
+Se vuoi approfondire la base teorica della posizione di Faggin, con QIP, séità e confronto con le teorie rivali, continua con [**Federico Faggin e QIP: coscienza, séità e critiche**](/filosofia-pratica/federico-faggin-qip-seita/).
+
+Se vuoi vedere fin dove si spinge questa visione, fino all’ipotesi delle piante coscienti e alla teoria Nousym, leggi [**Federico Faggin e le piante coscienti: la teoria Nousym spiegata semplice**](/filosofia-pratica/federico-faggin-nousym-piante-coscienti/).
+
+Se vuoi riportare il discorso dal piano teorico a quello mentale e pratico, puoi leggere anche il [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/).
 
 <!-- Schema.org: BlogPosting -->
 {%- comment -%} Inline BlogPosting and FAQ JSON-LD removed from this post. BlogPosting will be rendered via `_includes/schema-blogposting.html` (included in the post layout). If you want FAQ structured data, add a `faqs` array in the post front matter and it will be rendered via `_includes/schema-faq.html`.

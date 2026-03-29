@@ -4,8 +4,8 @@ title: "Benefici reali della mindfulness (senza incenso)"
 seo_title: "Benefici reali della mindfulness (senza incenso)"
 description: "Mindfulness senza dogmi: benefici concreti per calma, concentrazione e chiarezza mentale. Esercizi minuscoli, effetti reali."
 seo_description: "Mindfulness senza dogmi: benefici concreti per calma, concentrazione e chiarezza mentale. Esercizi minuscoli, effetti reali."
-categories: [mindfulness-ironica]
-subcluster: equilibrio-interiore-per-persone-normali
+categories: 
+subcluster: 
 tags: [benefici mindfulness, concentrazione, calma, equanimità, vita-quotidiana]
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042377/balance_x5qxrc.jpg
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042377/balance_x5qxrc.jpg
