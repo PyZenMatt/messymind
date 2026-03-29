@@ -5,14 +5,14 @@ seo_title: 'E=mc² e Spiritualità: La Verità Scomoda che Einstein Non Ti Ha De
 description: 'Einstein spiegato semplice: cosa significa davvero “siamo energia” e qual è la sua formula della felicità. Fonti verificate, snippet chiari e zero fuffa.'
 seo_description: Cosa voleva dire E=mc² (senza misticismi), la vera formula della felicità di Einstein (1922 + A=X+Y+Z) e perché 'siamo energia' è spesso una citazione apocrifa.
 date: 2025-02-18 
-categories: filosofia-pratica
-subcluster: scienza-e-metodo
+categories: ["filosofia-pratica"]
+subcluster: "scienza-e-metodo"
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042397/relativita_pnbubc.webp
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042397/relativita_pnbubc.webp
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042397/relativita_pnbubc.webp
 image_alt: Albert Einstein e la formula E=mc²
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042397/relativita_pnbubc.webp
-tags: ["cornerstone", "Einstein", "E=mc²", "equivalenza massa-energia", "formula della felicità", "fact-check"]
+tags: ["Einstein", "E=mc²", "equivalenza massa-energia", "formula della felicità", "fact-check"]
 featured_post: true
 redirect_from:
 - /e-mc2-e-spiritualita-la-verita-scomoda-che-einstein-non-ti-ha-detto-con-umorismo/

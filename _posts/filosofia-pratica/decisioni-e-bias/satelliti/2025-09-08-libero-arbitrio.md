@@ -91,6 +91,8 @@ Il cervello parte prima.
 
 La coscienza arriva dopo.
 
+Se vuoi vedere questo stesso problema da un altro lato — non come dibattito filosofico astratto, ma come costruzione dell’Io e teatro mentale quotidiano — continua con [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/cervello-vs-buddha/).
+
 Interpretazione shock:
 
 > forse non decidiamo davvero.
@@ -127,6 +129,8 @@ stato emotivo
 interpretazioni veloci.
 
 Molte di queste scorciatoie sono i famosi **[bias cognitivi](/filosofia-pratica/bias-cognitivi/)**.
+
+Quando queste scorciatoie non si limitano a colorare una decisione ma iniziano a girare in tondo senza fermarsi, entri nel territorio dell’[**overthinking**](/filosofia-pratica/overthinking/): stessa ricerca di controllo, meno scelta, più loop.
 
 Sono errori sistematici nel modo in cui interpretiamo la realtà quando siamo sotto pressione.
 
@@ -198,7 +202,12 @@ Perché l’azione deriva comunque da te.
 
 ---
 
-Continua:
+## Dove andare adesso
 
-[Bias cognitivi](/filosofia-pratica/bias-cognitivi/)  
-[Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
+Se vuoi la mappa completa delle scorciatoie mentali che deformano le decisioni, parti da [**Bias cognitivi: cosa sono, elenco, 10 esempi e come riconoscerli**](/filosofia-pratica/bias-cognitivi/).
+
+Se vuoi vedere cosa succede quando il cervello costruisce un “io” che poi si prende per verità, leggi [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/cervello-vs-buddha/).
+
+Se vuoi portare tutto questo nel quotidiano, tra automatismi e ruminazione, continua con [**Overthinking: perché pensiamo troppo e come uscire dal loop mentale**](/filosofia-pratica/overthinking/).
+
+Se vuoi la parte pratica di interruzione del loop, torna al [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/).

@@ -4,8 +4,8 @@ title: Il Manuale di Sopravvivenza per Chi Vuole Controllare Tutto (e Fallisce)
 seo_title: Il Manuale di Sopravvivenza per Chi Vuole Controllare Tutto (e Fallisce)
 seo_description: 'Manuale pratico e ironico per smettere di sovraccaricarsi di controllo: esercizi quotidiani, esempi e spunti per lasciare andare senza perdere dignità.'
 description: 'Manuale pratico e ironico per smettere di sovraccaricarsi di controllo: esercizi quotidiani, esempi e spunti per lasciare andare senza perdere dignità.'
-categories: crescita-personale-anti-guru
-subcluster: scelta-e-cuore
+categories: ["crescita-personale-anti-guru"]
+subcluster: "scopo-e-confini"
 tags: ["ossessione del controllo", "spiritualità moderna", "produttività tossica", "lasciar andare", "satira self-help", "umorismo esistenziale"]
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/caos_thuw8i.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/caos_thuw8i.webp

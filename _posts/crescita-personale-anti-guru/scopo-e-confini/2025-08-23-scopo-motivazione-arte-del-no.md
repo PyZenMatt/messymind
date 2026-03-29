@@ -4,7 +4,8 @@ layout: post
 title: 'Smetti di rincorrere la motivazione: trova lo scopo e impara a dire no'
 seo_title: "Crescita Personale Anti-Guru: come smontare la fuffa con il Metodo I.R.O.N.I.A."
 seo_description: "La vera crescita non si misura in mantra ma in lucidità. Applica le fasi Nomina e Interrompi del Metodo I.R.O.N.I.A. per riconoscere e disinnescare le illusioni del self-help."
-categories: crescita-personale-anti-guru
+categories: ["crescita-personale-anti-guru"]
+subcluster: "scopo-e-confini"
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1755954730/motivane_1600_cd7kp8.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1755954730/motivane_1600_cd7kp8.webp
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1755954729/motivazione_600_u1bxps.webp

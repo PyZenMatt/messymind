@@ -8,7 +8,7 @@ date: 2026-02-09
 last_modified_at: 2026-02-09
 
 categories: ["crescita-personale-antiguru"]
-subcluster: "desiderio-e-rinuncia"
+subcluster: "desiderio-e-automatismi"
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1769334298/pexels-cliff-booth-6591070_djktrn.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1769334298/pexels-cliff-booth-6591070_djktrn.jpg"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1769334298/pexels-cliff-booth-6591070_djktrn.jpg"

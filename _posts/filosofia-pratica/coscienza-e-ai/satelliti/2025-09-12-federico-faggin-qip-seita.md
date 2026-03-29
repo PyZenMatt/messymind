@@ -31,6 +31,8 @@ La teoria della **coscienza fondamentale** proposta da Federico Faggin (QIP, Qua
 
 Libri: *Irriducibile* (Mondadori, 2022), *Oltre l'invisibile* (Mondadori, 2024).
 
+Se vuoi vedere come questo articolo si inserisce nel quadro più ampio del subcluster, trovi qui la mappa completa: [**Coscienza e AI**](/categorie/filosofia-pratica/coscienza-e-ai/).
+
 Se vuoi partire dal quadro generale della posizione di Faggin sull’intelligenza artificiale e capire perché, secondo lui, un sistema artificiale può imitare il significato senza mai farne esperienza, leggi prima [**IA cosciente? Per Faggin è un’illusione (2025)**](/filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/).
 
 ---

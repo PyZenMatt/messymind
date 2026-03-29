@@ -67,6 +67,8 @@ L’American Psychological Association [lo definisce](https://dictionary.apa.org
 Non è prudenza.  
 Non è realismo.
 
+Quando questa previsione del peggio non esplode subito ma continua a rigirarsi nella testa per ore, spesso il nome pratico non è solo catastrofizzazione ma [**overthinking**](/filosofia-pratica/overthinking/): stesso circuito, meno dramma esplicito, più usura continua.
+
 È il tuo cervello che, in modalità ansia, diventa un regista di film dell'orrore a basso budget.
 
 La differenza?
@@ -197,6 +199,7 @@ La catastrofizzazione è una spirale che porta al peggior esito immaginabile.
 
 1. Nomina il pattern.  
 2. Porta attenzione al corpo.
+Questo passaggio funziona perché sposta il focus dal contenuto del pensiero al fatto che stai pensando. È lo stesso cambio di prospettiva che trovi in [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/neuroscienze-e-buddismo/), dove l’Io viene trattato come narratore, non come giudice supremo.
 
 ---
 
@@ -222,5 +225,13 @@ Scopri come ho trasformato la mia relazione con il tempo: dalla crisi
 in metropolitana alle piccole rivoluzioni quotidiane che combattono il [burnout](https://messymind.it/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/) e se non hai capito cos'è il burnout questa [guida] fa per te! ["Burnout: cos'è davvero e come riconoscerlo"](https://messymind.it/burnout-e-lavoro/burnout-e-segnali/).
 
 **Iscriviti alla newsletter: niente mantra, solo confini che ti liberano tempo e spazio mentale.**
+
+## Dove andare adesso
+
+Se vuoi capire il quadro più ampio delle distorsioni che alimentano questi loop, torna al cornerstone: [**Bias cognitivi: cosa sono, elenco, 10 esempi e come riconoscerli**](/filosofia-pratica/bias-cognitivi/).
+
+Se vuoi approfondire il rapporto tra automatismi mentali e sensazione di scegliere liberamente, continua con [**Libero arbitrio: il cervello decide prima di te?**](/filosofia-pratica/libero-arbitrio/).
+
+Se vuoi vedere come questo circuito diventa rimuginazione continua, leggi [**Overthinking: perché pensiamo troppo e come uscire dal loop mentale**](/filosofia-pratica/overthinking/).
 
 {% include metodo-ironia.html %}

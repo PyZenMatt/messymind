@@ -4,7 +4,7 @@ title: "Costellazioni familiari opinioni: esperienze reali e rischi"
 seo_title: "Costellazioni familiari opinioni: esperienze reali e rischi (senza favole)"
 description: "Opinioni sulle costellazioni familiari: tra catarsi emotiva e illusioni pericolose. Esperienze, pareri esperti e alternative serie. Leggi la verità."
 seo_description: "Opinioni sulle costellazioni familiari: esperienze vere, pro e contro, rischi del business e alternative serie (TCC, IFS, terapia di famiglia)."
-categories: "filosofia-pratica"
+categories: ["filosofia-pratica"]
 subcluster: "scienza-e-metodo"
 date: 2025-09-02
 featured: 'true'

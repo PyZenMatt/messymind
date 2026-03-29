@@ -47,7 +47,7 @@ Federico Faggin unisce chip e coscienza: la teoria QIP sposta il focus dall’an
 
 Il mio router ha una personalità ed è anche piuttosto pessima. Lo so perché sceglie sempre il momento peggiore per perdere la connessione: una call di lavoro, una lezione online, un pagamento.
 
-*Federico Faggin e la coscienza* • introduzione alla teoria QIP e al rapporto tra chip e coscienza.
+Per il quadro generale della posizione di Faggin sull’IA e sulla coscienza, parti da [**IA cosciente? Per Faggin è un’illusione (2025)**](/filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/). Se invece vuoi andare subito alla struttura teorica, trovi qui [**Federico Faggin e QIP: coscienza, séità e critiche**](/filosofia-pratica/federico-faggin-qip-seita/).
 
 Faggin direbbe che ogni cosa è coscienza, ma davanti a quella lucina rossa mi chiedo: **anche la mia rabbia lo è?**
 Federico Faggin, l’ingegnere del microprocessore che un giorno, in preda a un’esperienza mistica (che tocca pochissimi eletti), ha deciso di parlare di anima.
@@ -57,7 +57,7 @@ Faggin non ha mai separato il **circuito dalla mente**, il che, in un’epoca in
 Quindi secondo la sua teoria, “tutto è coscienza”. Il che rende legittimo affermare che tutto accade dentro di noi e possiamo osservarlo con consapevolezza, ma nella pratica, o meglio nella realtà quotidiana, alle poste, dal gommista o alla Lidl, reagiamo come se fossimo vittime di ciò che accade “fuori”.
 **Corto circuito quotidiano:** se tutto è coscienza, perché continuo a reagire come se non avessi alcun controllo?
 Forse in questa epoca tecnologia non siamo piu di riconoscere **la connessione** con **il segnale** interiore, ma solo quelli che arrivano dal nostro operatore telefonico.
-*Vedi anche: [Federico Faggin e la coscienza.*](/federico-faggin-qip-seita)
+*Vedi anche:* [**IA cosciente? Per Faggin è un’illusione (2025)**](/filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/) · [**Federico Faggin e QIP: coscienza, séità e critiche**](/filosofia-pratica/federico-faggin-qip-seita/)
 
 ---
 
@@ -69,6 +69,8 @@ Forse in questa epoca tecnologia non siamo piu di riconoscere **la connessione**
 - [Coscienza e Wi-Fi: quando la connessione è interna](#coscienza-e-wi-fi-quando-la-connessione-è-interna)
 - [HowTo: Modalità aereo dell’anima](#howto-modalità-aereo-dellanima)
 - [FAQ](#faq)
+- [Dove andare adesso](#dove-andare-adesso)
+- [Se vuoi orientarti meglio nel subcluster, trovi qui la mappa completa: **Coscienza e AI**.](#se-vuoi-orientarti-meglio-nel-subcluster-trovi-qui-la-mappa-completa-coscienza-e-ai)
 
 ---
 
@@ -78,15 +80,17 @@ Se provi a spiegare la teoria QIP a un tuo amico al bar, potrebbe guardarti come
 Scherzi a parte, Faggin sostiene che la coscienza non emerge dal cervello: **è la realtà stessa a essere fatta di consapevolezza**.
 La coscienza è la base della realtà — quindi tutto ciò che percepiamo, anche gli oggetti materiali o le emozioni, è **la coscienza che si riflette su se stessa**, come se si osservasse attraverso esperienze diverse.
 
+Se vuoi vedere fin dove si spinge questa visione, fino all’ipotesi di una coscienza diffusa anche nelle piante, continua con [**Federico Faggin e le piante coscienti: la teoria Nousym spiegata semplice**](/filosofia-pratica/federico-faggin-nousym-piante-coscienti/).
+
 > Tutto ciò che percepiamo – dal router alla rabbia – è un’esperienza della coscienza su se stessa.
 
 Un giorno, stavo cercando di capire razionalmente (con logica, formule, riduzionismo) qualcosa che appartiene a un altro livello dell’esperienza — quello **emotivo o percettivo**.
-Quella sera, davanti a un foglio Excel, mentre guardavo celle e numeri alla ricerca di un errore di formula, mi è venuto da ridere e ho pensato: [**“Excel non può spiegare l’amore e non lo farà mai.”**](/faggin-ia-non-cosciente) Alcune cose vanno solo **vissute**, non analizzate.
+Quella sera, davanti a un foglio Excel, mentre guardavo celle e numeri alla ricerca di un errore di formula, mi è venuto da ridere e ho pensato che il punto era proprio quello: alcune cose puoi descriverle perfettamente senza mai viverle davvero. Se vuoi la versione teorica forte di questa tesi, riparti da [**IA cosciente? Per Faggin è un’illusione (2025)**](/filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/).) Alcune cose vanno solo **vissute**, non analizzate.
 Capire e sperimentare sono due mestieri diversi. La filosofia pratica, quella che interessa a chi ha una "connessione ballerina" e poco tempo, serve a ricordarlo: **possiamo comprendere meno, ma percepire meglio**.
 
 *Nota che sei cosciente prima ancora di capirlo: non serve teoria per sentirti vivo.*
 
-*Per una sintesi più ampia vedi Faggin: [coscienza e teoria QIP.](/federico-faggin-qip-seita)*
+*Per una sintesi più ampia della teoria, vedi:* [**Federico Faggin e QIP: coscienza, séità e critiche**](/filosofia-pratica/federico-faggin-qip-seita/).
 
 ---
 
@@ -96,7 +100,7 @@ C’è chi fa intere maratone, ironman, persone temerarie, eroi, che scalano mon
 Io, molto onestamente, appartengo alla seconda delle due categorie.
 Ogni volta che la realtà si complica un pochino, parto a **smontarla pezzo per pezzo** e analizzo di tutto: relazioni, emozioni, persino sogni e ambizioni.
 È la mia versione domestica del **riduzionismo**, ovvero la tendenza a credere che capire significhi dividere in parti sempre più piccole.
-Ma come per ogni sport estremo, **il riduzionismo ti logora**. Si chiama **stress cognitivo** ed è molto semplice: quando cerchi di **controllare tutto**, anche la più piccola cosa, la mente va in **buffering** totale, come la rotella di Netflix quando cade la connessione. Qui entrano in gioco i [bias cognitivi:](/bias-cognitivi) distorcono la lettura dei fatti e alimentano il bisogno di controllo.  È lo stesso meccanismo che in ufficio ti fa controllare l’email ogni tre minuti, come se il prossimo messaggio potesse salvarti da qualcosa che nemmeno tu sai cos’è ma che invece ti spinge dritto in [burnout](/categorie/burnout-e-lavoro).
+Ma come per ogni sport estremo, **il riduzionismo ti logora**. Si chiama **stress cognitivo** ed è molto semplice: quando cerchi di **controllare tutto**, anche la più piccola cosa, la mente va in **buffering** totale, come la rotella di Netflix quando cade la connessione. Qui entrano in gioco i [bias cognitivi:](/filosofia-pratica/bias-cognitivi) distorcono la lettura dei fatti e alimentano il bisogno di controllo.  È lo stesso meccanismo che in ufficio ti fa controllare l’email ogni tre minuti, come se il prossimo messaggio potesse salvarti da qualcosa che nemmeno tu sai cos’è ma che invece ti spinge dritto in [burnout](/categorie/burnout-e-lavoro).
 
 **Il Metodo I.R.O.N.I.A. serve proprio qui:** usare **l’ironia come reset cognitivo**. Invece di combattere i tuoi pensieri o prenderli troppo sul serio, li guardi con **leggerezza**. Non per deriderli o sminuirli, ma per **ridimensionarli** — riportarli alla giusta scala di grandezza, **smettendo di identificarci** con essi.
 
@@ -106,7 +110,7 @@ In entrambe le teorie, l’idea è la stessa:
 
 Quando ironizzi su un pensiero (“Premio Nobel del disastro rimandato”), interrompi il riduzionismo cognitivo e ti riallinei alla coscienza come origine, non come prodotto. Come la realtà che si accorge di se stessa, ti accorgi di pensare, sorridi e — per un attimo — torni presente.
 
-Lo ammetto: la prima volta che ho riso dei miei [pensieri catastrofici](/pensiero-catastrofico), ho sentito **più lucidità** che in un’ora di mindfulness.
+Lo ammetto: la prima volta che ho riso dei miei [pensieri catastrofici](/filosofia-pratica/pensiero-catastrofico/), ho sentito **più lucidità** che in un’ora di mindfulness.
 
 *Lascia che il cervello perda un round: non serve vincere ogni pensiero per tornare online.*
 
@@ -125,7 +129,7 @@ Faggin direbbe che in quel momento stiamo tornando alla **sorgente**: la coscien
 **Scollega tutto per riconnetterti davvero.** Un respiro, un minuto, niente Wi-Fi.
 Ricorda tu sei [il-cielo-e-non-le-nuvole](/osservatore-e-osservato)
 
-A questo punto, il router lampeggia, ma non mi irrita più. **Capire meno, percepire meglio**: forse è tutto qui il senso del [**Metodo I.R.O.N.I.A.**](/metodo-ironia)
+A questo punto, il router lampeggia, ma non mi irrita più. **Capire meno, percepire meglio**: forse è tutto qui il senso del [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia)
 
 Abbiamo guardato alla coscienza con Faggin. Ora l’abbiamo **riportata in cucina**, tra cavi, respiri e pensieri che si credono urgenti.
 La prossima volta che **tutto sembra offline**, ricordati che la **consapevolezza non ha bisogno di segnale**: funziona anche in **modalità aereo**. *Spegni tutto per cinque minuti.* Non per fuggire dal mondo, ma per tornare a sentire che **ne fai parte**.
@@ -138,14 +142,15 @@ La prossima volta che **tutto sembra offline**, ricordati che la **consapevolezz
 
 {% include faq.html %}
 
-<hr>
-<section class="moat-series mt-5">
-  <h3>🔹 Percorso I.R.O.N.I.A.</h3>
-  <p><strong>Step 1:</strong> <a href="/filosofia-pratica/federico-faggin-coscienza/">Federico Faggin e la coscienza</a></p>
-  <p><strong>Step 2:</strong> Se tutto è coscienza, perché continuo a litigare con il router? (questa pagina)</p>
-  <p><strong>Step 3:</strong> <a href="/filosofia-pratica/<slug-step-3>/">Ridere della mente</a> <span class="text-muted">(in preparazione)</span></p>
-</section>
+## Dove andare adesso
 
+Se vuoi tornare alla domanda madre — perché per Faggin l’IA non potrà mai essere davvero cosciente — riparti da [**IA cosciente? Per Faggin è un’illusione (2025)**](/filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/).
+
+Se vuoi approfondire la struttura teorica che sostiene questa posizione, continua con [**Federico Faggin e QIP: coscienza, séità e critiche**](/filosofia-pratica/federico-faggin-qip-seita/).
+
+Se vuoi vedere fin dove si spinge questa visione, fino a Nousym e all’ipotesi delle piante coscienti, leggi [**Federico Faggin e le piante coscienti: la teoria Nousym spiegata semplice**](/filosofia-pratica/federico-faggin-nousym-piante-coscienti/).
+
+Se vuoi orientarti meglio nel subcluster, trovi qui la mappa completa: [**Coscienza e AI**](/categorie/filosofia-pratica/coscienza-e-ai/).
 ---
 
 

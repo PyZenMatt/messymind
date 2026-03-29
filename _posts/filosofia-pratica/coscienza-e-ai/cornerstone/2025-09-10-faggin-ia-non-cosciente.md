@@ -28,6 +28,8 @@ Immaginate di dare a un marziano il manuale d'istruzioni dell'universo. Lui impa
 *   **QIP**: la coscienza è fondamentale, non emergente dalla materia.
 *   **Funzionalismo & co. dissentono**: coscienza come possibile emergenza.
 *   **Pericolosità**: l'IA può essere rischiosa anche senza coscienza.
+*   
+Per vedere la mappa completa del mini-cluster dedicato a Federico Faggin, alla coscienza e al dibattito sull’IA, passa anche dall’hub [**Coscienza e AI**](/categorie/filosofia-pratica/coscienza-e-ai/).
 
 ## Significato vs Sintassi: Il Cuore della Questione (e del Malinteso)
 

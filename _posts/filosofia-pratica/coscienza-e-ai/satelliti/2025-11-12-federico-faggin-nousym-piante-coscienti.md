@@ -35,6 +35,8 @@ Non sarebbe un prodotto del cervello, ma il campo primario dell’universo.
 
 Questa posizione si colloca nel panorama del **panpsichismo contemporaneo** e risponde al cosiddetto *“problema difficile della coscienza”* (come spiegare l’esperienza soggettiva partendo dalla materia).
 
+Se vuoi orientarti meglio tra i diversi pezzi del mini-cluster — IA cosciente, QIP, Nousym e sviluppi laterali — trovi qui la mappa: [**Coscienza e AI**](/categorie/filosofia-pratica/coscienza-e-ai/).
+
 
 ### Coscienza, campo e libero arbitrio: la teoria spiegata semplice
 

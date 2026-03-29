@@ -4,8 +4,8 @@ title: "Limiti del Riduzionismo: Quando Smontare Tutto Non Basta"
 seo_title: "Limiti del Riduzionismo: Quando Smontare Tutto Non Basta"
 description: "Riduzionismo vs olismo ed emergentismo: cos'è, dove funziona e dove si rompe. Proprietà emergenti spiegate semplice con esempi pratici (traffico, team, stormi)."
 seo_description: "Riduzionismo vs olismo ed emergentismo: cos'è, dove funziona e dove si rompe. Proprietà emergenti spiegate semplice con esempi pratici (traffico, team, stormi)."
-categories: [filosofia-pratica]
-subcluster: scienza-e-metodo
+categories: ["filosofia-pratica"]
+subcluster: "scienza-e-metodo"
 tags: ["filosofia pratica", "mindfulness ironica", "sistemi complessi"]
 image_author_url: https://www.pexels.com/it-it/@paduret/
 image_author: Dan Cristian Pădureț

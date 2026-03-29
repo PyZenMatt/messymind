@@ -34,6 +34,8 @@ Passa mezz’ora e mi accorgo che sto ancora pensando allo stesso messaggio.
 
 Questo è overthinking.
 
+Se vuoi vedere dove questo loop si inserisce nel quadro più ampio delle distorsioni decisionali, trovi la mappa qui: [**Decisioni e bias cognitivi**](/categorie/filosofia-pratica/decisioni-e-bias/).
+
 Non significa pensare molto.  
 Significa pensare nello stesso circuito.
 
@@ -60,6 +62,8 @@ La mente continua a girare attorno allo stesso punto, come una ruota che slitta 
 Ed è qui che mi ha agganciato la cosa: l’overthinking non è un eccesso di intelligenza o di profondità. È un problema di circuito.
 
 La mente crede di stare risolvendo qualcosa. In realtà sta solo cercando controllo e certezza.
+
+È lo stesso attrito che riappare nel dibattito sul [**libero arbitrio**](/filosofia-pratica/libero-arbitrio/): quanto stai scegliendo davvero e quanto, invece, stai solo inseguendo un processo già partito per conto suo?
 
 E quando la certezza non arriva, produce altri pensieri.
 
@@ -150,6 +154,8 @@ Il problema non è il pensiero.
 La mente produce pensieri continuamente. È il suo lavoro.
 
 Il problema è identificarsi con il pensiero.
+
+Quando il pensiero viene scambiato per identità, il loop diventa ancora più appiccicoso. È esattamente il punto trattato in [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/cervello-vs-buddha/): non sei ogni pensiero che compare, sei anche ciò che può accorgersene.
 
 Quando succede, il circuito diventa questo:
 
@@ -312,6 +318,13 @@ Quando impari a riconoscere il momento in cui la mente entra nel loop, diventa p
 È esattamente ciò che allena il [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/).
 
 ---
+## Dove andare adesso
+
+Se vuoi la mappa delle scorciatoie mentali che tengono acceso il loop, parti da [**Bias cognitivi: cosa sono, elenco, 10 esempi e come riconoscerli**](/filosofia-pratica/bias-cognitivi/).
+
+Se vuoi vedere come una distorsione specifica trasforma un dettaglio neutro in disastro, continua con [**Ansia e pensiero catastrofico: come smontare la catastrofizzazione**](/filosofia-pratica/pensiero-catasrtofico/).
+
+Se vuoi spingerti più a fondo e guardare il rapporto tra pensiero, Io e automatismo mentale, leggi [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/cervello-vs-buddha/).
 
 ## FAQ
 

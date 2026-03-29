@@ -49,6 +49,8 @@ Il problema nasce quando:
 
 È lì che il pilota automatico prende il comando.
 
+Se vuoi vedere questo meccanismo da un altro angolo — non solo come errore di giudizio, ma come costruzione dell’Io e automatismo mentale — leggi anche [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/neuroscienze-e-buddismo/).
+
 ---
 
 ## Perché esistono i bias cognitivi?
@@ -195,7 +197,7 @@ I bias diventano amplificatori di ruminazione:
 stimolo → interpretazione → narrazione → tensione.
 
 Lo stesso meccanismo che analizziamo nel  
-[Libero Arbitrio](/filosofia-pratica/libero-arbitrio).
+[Libero Arbitrio](/filosofia-pratica/libero-arbitrio) e che trovi quando osservi l’Io come costruzione mentale: un pensiero arriva, si traveste da verità e si prende il palco. Per questo torna utile anche [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/neuroscienze-e-buddismo/), che collega neuroscienze, Buddhismo e Metodo I.R.O.N.I.A. alla dinamica degli automatismi.
 
 ---
 
@@ -213,6 +215,8 @@ Quando la mente diventa assoluta, probabilmente è entrato in gioco un bias.
 Un esempio tipico è il  
 [pensiero catastrofico](/filosofia-pratica/pensiero-catastrofico/),  
 in cui una distorsione interpretativa trasforma un evento neutro in uno scenario estremo e minaccioso.
+
+Quando invece la mente non esplode in uno scenario tragico ma continua semplicemente a rimuginare nello stesso circuito, il nome giusto è [**overthinking**](/filosofia-pratica/overthinking/): stesso pilota automatico, meno teatro, più usura mentale.
 
 ---
 
@@ -237,13 +241,12 @@ Rileggi dopo 30 giorni.
 
 Se le nostre decisioni sono distorte da bias, quanto siamo liberi?
 
-Gli esperimenti di Libet mostrano che l’attività cerebrale precede la consapevolezza.
+Gli esperimenti di Libet hanno riaperto una domanda scomoda: se l’attività cerebrale precede la consapevolezza, quanto siamo davvero autori delle nostre decisioni?
 
-Ma la domanda più utile non è “sei libero o no?”.
+La domanda utile, però, non è solo “sei libero o no?”.  
+È: **quanto sei consapevole dei tuoi automatismi mentre si attivano?**
 
-È:
-
-quanto sei consapevole dei tuoi automatismi?
+Per approfondire questo passaggio tra neuroscienze, costruzione dell’Io e osservazione dei pensieri, leggi anche [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/cervello-vs-buddha/).
 
 Qui entra in gioco il  
 [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia):
@@ -275,5 +278,7 @@ Non è eliminare il bias.
 È riconoscerlo mentre si attiva.
 
 Ed è questo che separa una decisione reattiva da una decisione consapevole.
+
+Se vuoi spingerti oltre l’elenco dei bias e guardare cosa succede quando il cervello costruisce un “io” che poi prende i propri pensieri per ordini, continua con [**Cervello vs Buddha: chi smaschera davvero l’inganno dell’Io**](/filosofia-pratica/cervello-vs-buddha/).
 
 {% include metodo-ironia.html %}
