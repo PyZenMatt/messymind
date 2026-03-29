@@ -1,5 +1,5 @@
 ---
-robots: noindex, follow
+robots: noindex,follow
 layout: post
 title: 'Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Rompere i Mobili)'
 seo_title: 'Legge del Ritmo: Come Ballare sul Caos della Vita Quotidiana (Senza Rompere i Mobili)'

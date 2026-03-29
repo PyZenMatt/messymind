@@ -5,8 +5,8 @@ seo_title: Fallire è un'arte (e io sono il Picasso degli scivoloni)
 description: "Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti e l'arte di non fare i compiti a casa"
 seo_description: "Perdere treni, fallire esami e sopravvivere alle cene di famiglia: una guida irriverente al successo attraverso gli scivoloni. Con Thoreau, cactus parlanti e l'arte di non fare i compiti a casa"
 date: 2025-04-18
-categories: crescita-personale-anti-guru
-subcluster: antifragilita-e-perfezionismo
+categories: 
+subcluster: 
 tags: cornerstone
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756045411/fail_1600_ceuie0.webp
 lcp_image_alt: bollette bianche con la scritta "scaduta" sopra e una bottiglia di birra aperta e altri fogli accartociati
