@@ -17,7 +17,12 @@ tags:
   - burnout e lavoro
   - ansia da produttività
 is_cornerstone: false
-image: /assets/images/posts/burnout-e-lavoro/compiacenza-lavorativa-quando-dire-sempre-si-ti-svuota.jpg
+lcp_image_alt: persona inchinata a terra su tappeto segno di reverenza, segno di compiacenza.
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1775291292/pexels-michael-burrows-7129362_ralm2s.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1775291292/pexels-michael-burrows-7129362_ralm2s.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1775291292/pexels-michael-burrows-7129362_ralm2s.jpg
+featured_post: true
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1775291292/pexels-michael-burrows-7129362_ralm2s.jpg
 howto:
   name: "Come interrompere la compiacenza lavorativa in 3 minuti"
   description: "Una micro-procedura pratica per riconoscere il sì automatico, fermarlo e rispondere con un confine minimo."
