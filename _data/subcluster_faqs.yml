@@ -62,29 +62,7 @@ filosofia-pratica:
     - question: "Replicabilità nel quotidiano?"
       answer: "Ripeti lo stesso test per 2 settimane. Se regge, promuovi a routine."
 
-  scienza-e-spiritualita:
-    - question: "Possono convivere?"
-      answer: "Sì: metodo per verificare, senso per orientare. Complementari, non rivali."
-    - question: "Una pratica concreta?"
-      answer: "1 minuto prima di iniziare: 'Per chi è utile ciò che faccio?'. Poi lavora e misura l’impatto."
-    - question: "Come evito la fuffa?"
-      answer: "Chiedi cosa, come, quanto, con chi. Se mancano numeri o esempi, passa oltre."
-    - question: "Si può misurare il 'benessere'?"
-      answer: "Usa indicatori semplici: sonno, energia, umore. Semaforo verde/giallo/rosso settimanale."
-    - question: "Quando fidarsi dell’intuizione?"
-      answer: "Dopo pratica e feedback. Intuizione + verifica battono improvvisazione."
-
 mindfulness-ironica:
-  equilibrio-interiore-per-persone-normali:
-    - question: "Equilibrio = niente problemi?"
-      answer: "No. È tenuta, non perfezione. Ti riallinei più in fretta."
-    - question: "Da dove parto?"
-      answer: "Scegli una leva tra sonno, cibo, movimento. 10 minuti oggi, misura domani."
-    - question: "Come evito il 'tutto o niente'?"
-      answer: "Versione 50% nei giorni no. Meglio piccolo e fatto."
-    - question: "Serve meditare?"
-      answer: "Aiuta. 3 minuti a respiro e piedi. Domani ripeti."
-
   spiritualita-prudente:
     - question: "Spiritualità senza guru?"
       answer: "Sì: valori in azione quotidiana. Meno slogan, più pratiche verificabili."
@@ -101,15 +79,7 @@ mindfulness-ironica:
     - question: "Notifiche che distraggono?"
       answer: "Silenzia a blocchi. Slotta 2 check mail al giorno."
 
-  osservazione-e-silenzio:
-    - question: "Che ci faccio col silenzio?"
-      answer: "Ascolti segnali deboli. 5 minuti senza input prima di creare."
-    - question: "Annoiarsi serve?"
-      answer: "Sì, schiarisce. Aspetta 2 minuti prima di riaprire lo schermo."
-    - question: "Pratica rapida?"
-      answer: "Siediti, nota tre suoni, tre sensazioni, tre pensieri. Fine."
-
-  pratiche-quotidiane-urbane:
+  micro-pratiche:
     - question: "Posso praticare fuori da un tappetino?"
       answer: "Sì. Fermata bus: senti piedi e respiro per 1 minuto."
     - question: "Camminata consapevole, come?"
@@ -118,7 +88,7 @@ mindfulness-ironica:
       answer: "Scansiona corpo dalle spalle ai piedi. Rilassa dove trovi tensione."
 
 crescita-personale-anti-guru:
-  antifragilita-e-perfezionismo:
+  perfezionismo-e-procrastinazione:
     - question: "Come smetto di rifinire all’infinito?"
       answer: "Stabilisci 'abbastanza buono' e pubblica al 80%. Itera dopo feedback."
     - question: "Errori utili, davvero?"
@@ -126,27 +96,13 @@ crescita-personale-anti-guru:
     - question: "Come allenare antifragilità?"
       answer: "Micro-sfide controllate: 1 cosa scomoda al giorno, 5 minuti."
 
-  desiderio-e-rinuncia:
+  desiderio-e-automatismi:
     - question: "Rinunciare = perdere?"
       answer: "È scegliere meglio. Ogni sì chiede un no. Scrivi il no esplicito."
     - question: "Come gestisco la FOMO?"
       answer: "Dietro digitale di 7 giorni su 1 app. Misura cosa cambia."
     - question: "Capire cosa voglio davvero?"
       answer: "Elenca 3 valori e filtra decisioni con quelli."
-
-  felicita-realistica:
-    - question: "La felicità è uno stato continuo?"
-      answer: "No. È una media mobile. Alzala con piccole azioni ricorrenti."
-    - question: "Un esercizio semplice?"
-      answer: "3 cose buone al giorno, specifiche. 14 giorni, poi valuta."
-    - question: "Come evito l’adattamento edonico?"
-      answer: "Varia la dose o il contesto. Stessa pratica, luogo diverso."
-
-  scelta-e-cuore:
-    - question: "Decidere con la testa o con il cuore?"
-      answer: "Entrambi. 3 criteri razionali + un check corporeo di 60'' prima di confermare."
-    - question: "Se resto bloccato?"
-      answer: "Esperimento a tempo: prova B per 2 settimane, poi retrospettiva."
 
   scopo-e-confini:
     - question: "Come trovo lo scopo?"
