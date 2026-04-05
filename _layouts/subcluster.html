@@ -2,69 +2,69 @@
 layout: default
 ---
 {% comment %}
-  SUBCLUSTER LAYOUT - SEO MODERN v3 - ALIGNED WITH CATEGORY
-  - Identico stile e struttura del layout category
-  - Hero con CTA button "Inizia da qui"
-  - Paginazione: 9 post/pagina con canonical autoreferenziale
-  - H1 fisso, "Pagina N" solo nel title
-  - Grid 2x2 "Cosa troverai qui" (opzionale)
-  - Guide essenziali (cornerstone) con thumbnail 16:9
-  - Lista post in stile featured-card con ratio 16:9
-  - FAQ accordion Bootstrap
-  - CTA Newsletter stile home
-  - Schema: CollectionPage + ItemList + BreadcrumbList + FAQPage
-  - CWV target: SEO ≥95, CLS ≤0.10, LCP ≤2.7s
+  SUBCLUSTER LAYOUT - CLEAN VERSION
+  - Hero + intro + cornerstone + listing + FAQ + CTA
+  - Breadcrumb HTML only
+  - NO inline schema
+  - NO schema include at layout level
+  - Schema is centralized in head.html -> schema-markup.html
 {% endcomment %}
 
 {% comment %} Determina slug categoria e subcluster {% endcomment %}
+{% assign cat_slug = '' %}
 {% if page.category and page.category != '' %}
   {% assign cat_slug = page.category | downcase | strip %}
-{% else %}
+{% elsif page.categories and page.categories.size > 0 %}
   {% assign cat_slug = page.categories | first | downcase | strip %}
+{% elsif page.cluster and page.cluster != '' %}
+  {% assign cat_slug = page.cluster | downcase | strip %}
+{% elsif page.cluster_name and page.cluster_name != '' %}
+  {% assign cat_slug = page.cluster_name | downcase | strip %}
 {% endif %}
 
-{% assign sub_slug = page.subcluster | downcase | strip %}
+{% assign sub_slug = page.subcluster | default: '' | downcase | strip %}
 
 {% comment %} Mappa slug a display title {% endcomment %}
 {% assign display_title = page.title | default: page.subcluster | replace: '-', ' ' | capitalize %}
 
-{% comment %} Raccogli TUTTI i post del subcluster (senza paginazione) {% endcomment %}
-{% assign sub_posts = site.posts 
-  | where_exp: "p", "p.categories contains cat_slug" 
-  | where: "subcluster", sub_slug 
-  | sort: "date" 
+{% comment %} Raccogli tutti i post del subcluster {% endcomment %}
+{% assign sub_posts = site.posts
+  | where_exp: "p", "p.categories contains cat_slug"
+  | where: "subcluster", sub_slug
+  | sort: "date"
   | reverse %}
 
-{% comment %} Hero Component - Stile Category con CTA {% endcomment %}
+{% comment %} Hero Component {% endcomment %}
 {% include subcluster-hero.html %}
 
 <div class="container category-container">
   <div class="row">
     <div class="col-12">
 
-      {% comment %} Breadcrumb {% endcomment %}
+      {% comment %} Breadcrumb HTML {% endcomment %}
       <div class="mb-3">
         {% include breadcrumb.html %}
       </div>
 
-      {% comment %} Intro Section - Grid 2x2 "Cosa troverai qui" {% endcomment %}
+      {% comment %} Intro Section {% endcomment %}
       {% include subcluster-intro.html %}
 
-      {% include metodo-ironia.html %}
-      
-      {% comment %} Blocco fisso Metodo I.R.O.N.I.A. - Solo per subcluster metodo-ironia {% endcomment %}
+      {% comment %}
+        Blocco fisso Metodo I.R.O.N.I.A.
+        Solo per subcluster metodo-ironia
+      {% endcomment %}
       {% if sub_slug == "metodo-ironia" %}
-      
-      {% comment %} Raccogli i 6 post cornerstone del metodo in ordine I-R-O-N-I-A {% endcomment %}
+
       {% assign ironia_slugs = "identificare-cosa-accade-dentro-te,ridimensiona-il-dramma-mentale,osservare-senza-interpretare,nomina-cio-che-senti,interrompere-il-pilota-automatico,agisci-per-interrompere-il-loop" | split: "," %}
       {% assign ironia_posts = "" | split: "," %}
+
       {% for slug in ironia_slugs %}
         {% assign found_post = site.posts | where: "slug", slug | first %}
         {% if found_post %}
           {% assign ironia_posts = ironia_posts | push: found_post %}
         {% endif %}
       {% endfor %}
-      
+
       <section class="method-ironia-section mb-5" aria-labelledby="method-heading">
         <div class="row mb-4">
           <div class="col-12">
@@ -72,8 +72,7 @@ layout: default
             <p class="text-muted mb-0">Sei fasi per interrompere il loop mentale e tornare al presente</p>
           </div>
         </div>
-        
-        {% comment %} Riga 1: I - R - O {% endcomment %}
+
         <div class="row g-4 align-items-stretch mb-4">
           {% for post in ironia_posts limit:3 %}
           <div class="col-12 col-md-4">
@@ -81,7 +80,13 @@ layout: default
               <a href="{{ post.url | relative_url }}" class="text-decoration-none">
                 {% if post.background or post.image %}
                 <div class="thumb ratio ratio-16x9 overflow-hidden">
-                  <img src="{{ post.background | default: post.image }}" alt="{{ post.title }}" loading="lazy" decoding="async" class="w-100 h-100" style="object-fit: cover;">
+                  <img
+                    src="{{ post.background | default: post.image }}"
+                    alt="{{ post.title }}"
+                    loading="lazy"
+                    decoding="async"
+                    class="w-100 h-100"
+                    style="object-fit: cover;">
                 </div>
                 {% endif %}
                 <div class="p-4">
@@ -97,8 +102,7 @@ layout: default
           </div>
           {% endfor %}
         </div>
-        
-        {% comment %} Riga 2: N - I - A {% endcomment %}
+
         <div class="row g-4 align-items-stretch">
           {% for post in ironia_posts offset:3 limit:3 %}
           <div class="col-12 col-md-4">
@@ -106,7 +110,13 @@ layout: default
               <a href="{{ post.url | relative_url }}" class="text-decoration-none">
                 {% if post.background or post.image %}
                 <div class="thumb ratio ratio-16x9 overflow-hidden">
-                  <img src="{{ post.background | default: post.image }}" alt="{{ post.title }}" loading="lazy" decoding="async" class="w-100 h-100" style="object-fit: cover;">
+                  <img
+                    src="{{ post.background | default: post.image | relative_url }}"
+                    alt="{{ post.title }}"
+                    loading="lazy"
+                    decoding="async"
+                    class="w-100 h-100"
+                    style="object-fit: cover;">
                 </div>
                 {% endif %}
                 <div class="p-4">
@@ -125,12 +135,12 @@ layout: default
       </section>
       {% endif %}
 
-      {% comment %} Cornerstone Section (Guide essenziali) - Salta per metodo-ironia {% endcomment %}
+      {% comment %} Cornerstone Section - salta per metodo-ironia {% endcomment %}
       {% unless sub_slug == "metodo-ironia" %}
         {% include cornerstone-section.html category=cat_slug subcluster=sub_slug %}
       {% endunless %}
 
-      {% comment %} Lista Post - Stile featured-card come category {% endcomment %}
+      {% comment %} Lista Post {% endcomment %}
       <section class="listing mb-5" aria-labelledby="posts-heading">
         <div class="row mb-3">
           <div class="col-12 d-flex align-items-center">
@@ -140,7 +150,7 @@ layout: default
             {% endif %}
           </div>
         </div>
-        
+
         {% for post in sub_posts limit:6 %}
         <div class="row mb-4">
           <div class="col-12">
@@ -150,8 +160,8 @@ layout: default
                 {% if post_img %}
                 <div class="col-md-6">
                   <div class="thumb ratio ratio-16x9">
-                    <img 
-                      src="{{ post_img | relative_url }}" 
+                    <img
+                      src="{{ post_img }}"
                       alt="{{ post.title }}"
                       loading="lazy"
                       decoding="async"
@@ -170,12 +180,12 @@ layout: default
                         {{ post.title }}
                       </a>
                     </h3>
-                    
+
                     {% assign post_excerpt = post.description | default: post.seo_description | default: post.excerpt %}
                     {% if post_excerpt %}
                       <p class="post-excerpt text-muted mb-4">{{ post_excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
                     {% endif %}
-                    
+
                     <div class="post-meta d-flex align-items-center justify-content-between flex-wrap mb-3">
                       <small class="text-muted">{{ post.date | date: '%d/%m/%Y' }}</small>
                       {% if post.subcluster %}
@@ -193,16 +203,16 @@ layout: default
         {% endfor %}
       </section>
 
-      {% comment %} FAQ Section - Accordion Bootstrap come category {% endcomment %}
+      {% comment %} FAQ HTML only {% endcomment %}
       {% include category-faq.html category=cat_slug subcluster=sub_slug %}
 
-      {% comment %} CTA Newsletter - Stile home/category {% endcomment %}
+      {% comment %} CTA Newsletter {% endcomment %}
       <section class="cta cta-section mb-5" aria-labelledby="cta-heading">
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="mm-card cta-newsletter p-5 border rounded-3 shadow-sm text-center mx-auto">
               <h2 id="cta-heading" class="h4 mb-3">{{ page.cta_title | default: "Ricevi 1 pratica a settimana" }}</h2>
-              <p class="text-muted mb-4">{{ page.cta_text | default: "Zero spam. Una sola email con una micro‑tecnica testata sul campo." }}</p>
+              <p class="text-muted mb-4">{{ page.cta_text | default: "Zero spam. Una sola email con una micro-tecnica testata sul campo." }}</p>
               <a href="{{ page.cta_link | default: '/newsletter' | relative_url }}" class="btn btn-primary px-4">{{ page.cta_button | default: "Iscriviti" }}</a>
             </div>
           </div>
@@ -212,11 +222,3 @@ layout: default
     </div>
   </div>
 </div>
-
-{% comment %} Schema Markup - Centralizzato {% endcomment %}
-{% include schema-subcluster.html 
-  category=cat_slug 
-  subcluster=sub_slug 
-  posts=sub_posts 
-  current_page=current_page 
-  total_pages=total_pages %}

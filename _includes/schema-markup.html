@@ -1,146 +1,250 @@
-<!-- Inline JSON-LD per layout globale (Jekyll default.html) -->
 {%- comment -%}
-  Organization and WebSite JSON-LD are emitted by `jekyll-seo-tag` via `{% seo %}`.
-  To avoid duplicate Organization/WebSite entities (and Rich Results warnings),
-  this include now provides only page-scoped schema: WebPage, BreadcrumbList and
-  CollectionPage (when relevant). BlogPosting is kept in `_includes/schema-blogposting.html`.
+  Unified page-scoped Schema.org include for MessyMind.
+
+  Emits:
+  - WebPage (always)
+  - BreadcrumbList (except for layouts that intentionally manage their own schema)
+  - CollectionPage + ItemList (when page is a hub/listing page)
+
+  Does NOT emit:
+  - Organization / WebSite -> handled by `{% seo %}`
+  - BlogPosting -> handled by `_includes/schema-blogposting.html`
+  - FAQPage -> handled separately only if you explicitly decide so
+  - HowTo -> handled separately only if you explicitly decide so
+
+  Goal:
+  - single source of truth for page-level schema
+  - no duplicate JSON-LD fragments
+  - safe fallbacks for category/subcluster URLs
 {%- endcomment -%}
 
-<!-- WebPage Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "@id": "{{ page.url | absolute_url }}#webpage",
-  "url": "{{ page.url | absolute_url }}",
-  "name": "{{ page.title }}",
-  "description": "{{ page.seo_description | default: page.description | default: page.excerpt | strip_html | truncate: 160 }}",
-  "isPartOf": {
-    "@id": "{{ site.url }}/#website"
-  },
-  "about": {
-    "@id": "{{ site.url }}/#organization"
-  },
-  "datePublished": "{{ page.date | default: site.time | date_to_xmlschema }}",
-  "dateModified": "{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}"
-}
-</script>
+{%- assign modern_layouts = 'category-modern,subcluster-modern' | split: ',' -%}
 
-{% comment %} Skip BreadcrumbList and CollectionPage for modern layouts - handled by dedicated includes {% endcomment %}
-{% assign modern_layouts = 'category-modern,subcluster-modern' | split: ',' %}
-{% unless modern_layouts contains page.layout %}
+{%- comment -%} Basic page fields {%- endcomment -%}
+{%- assign page_url = page.url | absolute_url -%}
+{%- assign page_title = page.seo_title | default: page.title | default: site.title | strip -%}
+{%- assign page_desc = page.seo_description | default: page.description | default: page.excerpt | strip_html | normalize_whitespace | truncate: 160 -%}
+{%- assign page_image = page.og_image | default: page.image | default: page.background | default: site.image -%}
+{%- assign page_date_modified = page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema -%}
 
-{% if page.layout == 'post' %}
 {%- comment -%}
-  BlogPosting schema removed from this global include to avoid duplication.
-  Use `_includes/schema-blogposting.html` (included in `_layouts/post.html`) as the single BlogPosting source.
+  Resolve category source consistently.
+  This mirrors the logic already used in breadcrumb handling.
 {%- endcomment -%}
-{%- comment -%}
-  Precompute canonical URLs to avoid inline nested filters that produced malformed values.
-  category_url: prefer mapping from `site.data.category_slugs`, otherwise build from `site.url` + slugified category.
-  subcluster_url: if subcluster present, append to category_url safely.
-{%- endcomment -%}
+{%- assign category_raw = nil -%}
+{%- if page.category and page.category != "" -%}
+  {%- assign category_raw = page.category -%}
+{%- elsif page.categories and page.categories.size > 0 -%}
+  {%- assign category_raw = page.categories[0] -%}
+{%- elsif page.cluster and page.cluster != "" -%}
+  {%- assign category_raw = page.cluster -%}
+{%- elsif page.cluster_name and page.cluster_name != "" -%}
+  {%- assign category_raw = page.cluster_name -%}
+{%- endif -%}
+
+{%- assign category_key = category_raw | default: '' | downcase | slugify | strip -%}
+{%- assign category_name = category_raw | default: '' | replace: '-', ' ' | capitalize -%}
 
 {%- assign category_url = nil -%}
-{%- assign subcluster_url = nil -%}
-{%- if page.category or (page.categories and page.categories.first) or page.cluster or page.cluster_name -%}
-    {%- assign category_key = nil -%}
-    {%- if page.category and page.category != "" -%}
-      {%- assign category_key = page.category -%}
-    {%- elsif page.categories and page.categories.size > 0 -%}
-      {%- assign category_key = page.categories[0] -%}
-    {%- elsif page.cluster and page.cluster != "" -%}
-      {%- assign category_key = page.cluster -%}
-    {%- elsif page.cluster_name and page.cluster_name != "" -%}
-      {%- assign category_key = page.cluster_name -%}
-    {%- endif -%}
-    {%- assign category_key = category_key | default: '' | downcase | slugify -%}
-  {%- assign mapped = site.data.category_slugs[category_key] | default: nil -%}
-  {%- if mapped -%}
-    {%- assign category_url = mapped | absolute_url -%}
+{%- if category_key != '' -%}
+  {%- assign mapped_cat = site.data.category_slugs[category_key] | default: nil -%}
+  {%- if mapped_cat -%}
+    {%- assign category_url = mapped_cat | absolute_url -%}
   {%- else -%}
-  {%- assign category_path = '/categorie/' | append: category_key | append: '/' -%}
-  {%- assign category_url = category_path | absolute_url -%}
+    {%- assign category_url = '/categorie/' | append: category_key | append: '/' | absolute_url -%}
   {%- endif -%}
 {%- endif -%}
 
-  {%- if page.subcluster and category_url -%}
-  {%- assign cleaned_sub = page.subcluster | downcase | slugify | strip -%}
-  {%- assign subkey = category_key | append: ':' | append: cleaned_sub -%}
+{%- assign subcluster_key = page.subcluster | default: '' | downcase | slugify | strip -%}
+{%- assign subcluster_name = page.subcluster | default: '' | replace: '-', ' ' | capitalize -%}
+{%- assign subcluster_url = nil -%}
+{%- if subcluster_key != '' and category_key != '' -%}
+  {%- assign subkey = category_key | append: ':' | append: subcluster_key -%}
   {%- assign mapped_sub = site.data.subcluster_slugs[subkey] | default: nil -%}
   {%- if mapped_sub -%}
     {%- assign subcluster_url = mapped_sub | absolute_url -%}
   {%- else -%}
-    {%- comment -%} fallback: always build under /categorie/{category}/{subcluster}/ {%- endcomment -%}
-  {%- assign sub_path = '/categorie/' | append: category_key | append: '/' | append: cleaned_sub | append: '/' -%}
-  {%- assign subcluster_url = sub_path | absolute_url -%}
+    {%- assign subcluster_url = '/categorie/' | append: category_key | append: '/' | append: subcluster_key | append: '/' | absolute_url -%}
   {%- endif -%}
 {%- endif -%}
 
-<!-- BreadcrumbList Schema -->
+{%- comment -%}
+  Detect listing/hub pages.
+
+  True if:
+  - page.collection_posts is explicitly set
+  - or paginator.posts exists
+  - or layout suggests a hub page
+{%- endcomment -%}
+{%- assign is_collection = false -%}
+{%- if page.collection_posts and page.collection_posts.size > 0 -%}
+  {%- assign is_collection = true -%}
+{%- elsif paginator and paginator.posts and paginator.posts.size > 0 -%}
+  {%- assign is_collection = true -%}
+{%- elsif page.layout == 'subcluster' or page.layout == 'category' or page.schema_type == 'CollectionPage' -%}
+  {%- assign is_collection = true -%}
+{%- endif -%}
+
+{%- comment -%}
+  Build collection items.
+
+  Priority:
+  1. page.collection_posts
+  2. paginator.posts
+  3. fallback from site.posts using category/subcluster filters
+{%- endcomment -%}
+{%- assign collection_items = nil -%}
+
+{%- if page.collection_posts and page.collection_posts.size > 0 -%}
+  {%- assign collection_items = page.collection_posts -%}
+{%- elsif paginator and paginator.posts and paginator.posts.size > 0 -%}
+  {%- assign collection_items = paginator.posts -%}
+{%- elsif is_collection and site.posts and site.posts.size > 0 -%}
+  {%- assign scoped = '' | split: ',' -%}
+  {%- for p in site.posts -%}
+    {%- assign include_post = true -%}
+
+    {%- if category_key != '' -%}
+      {%- assign in_cat = false -%}
+      {%- if p.categories -%}
+        {%- for c in p.categories -%}
+          {%- assign ckey = c | downcase | slugify | strip -%}
+          {%- if ckey == category_key -%}
+            {%- assign in_cat = true -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- unless in_cat -%}
+        {%- assign include_post = false -%}
+      {%- endunless -%}
+    {%- endif -%}
+
+    {%- if include_post and subcluster_key != '' -%}
+      {%- assign p_sub = p.subcluster | default: '' | downcase | slugify | strip -%}
+      {%- if p_sub != subcluster_key -%}
+        {%- assign include_post = false -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if include_post -%}
+      {%- assign scoped = scoped | push: p -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign collection_items = scoped | sort: 'date' | reverse -%}
+{%- endif -%}
+
+{%- comment -%} WebPage Schema - always {%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": {{ page_url | append: "#webpage" | jsonify }},
+  "url": {{ page_url | jsonify }},
+  "name": {{ page_title | jsonify }},
+  "description": {{ page_desc | jsonify }},
+  {%- if page_image -%}
+  "image": {{ page_image | absolute_url | jsonify }},
+  {%- endif -%}
+  "isPartOf": {
+    "@id": {{ site.url | append: "/#website" | jsonify }}
+  },
+  "dateModified": {{ page_date_modified | jsonify }}
+}
+</script>
+
+{%- comment -%}
+  BreadcrumbList Schema
+  Skip only for layouts that intentionally own their breadcrumb/schema.
+{%- endcomment -%}
+{%- unless modern_layouts contains page.layout -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-    "itemListElement": [
-    {%- assign pos = 1 -%}
+  "@id": {{ page_url | append: "#breadcrumb" | jsonify }},
+  "itemListElement": [
     {
       "@type": "ListItem",
-      "position": {{ pos }},
-      "item": { "@id": "{{ site.url | strip_newlines | strip }}", "name": "Home" }
+      "position": 1,
+      "item": {
+        "@id": {{ "/" | absolute_url | jsonify }},
+        "name": "Home"
+      }
     }
-    {%- if category_url -%},{% assign pos = pos | plus: 1 %}
+    {%- if category_url -%},
     {
       "@type": "ListItem",
-      "position": {{ pos }},
-      "item": { "@id": "{{ category_url | strip_newlines | strip }}", "name": "{{ page.categories.first | capitalize }}" }
+      "position": 2,
+      "item": {
+        "@id": {{ category_url | jsonify }},
+        "name": {{ category_name | jsonify }}
+      }
     }
     {%- endif -%}
-    {%- if subcluster_url -%},{% assign pos = pos | plus: 1 %}
+    {%- if subcluster_url -%},
     {
       "@type": "ListItem",
-      "position": {{ pos }},
-      "item": { "@id": "{{ subcluster_url | strip_newlines | strip }}", "name": "{{ page.subcluster | replace: '-', ' ' | capitalize }}" }
+      "position": 3,
+      "item": {
+        "@id": {{ subcluster_url | jsonify }},
+        "name": {{ subcluster_name | jsonify }}
+      }
     }
-    {%- endif -%},{% assign pos = pos | plus: 1 %}
+    {%- endif -%},
     {
       "@type": "ListItem",
-      "position": {{ pos }},
-      "item": { "@id": "{{ page.url | absolute_url | strip_newlines | strip }}", "name": "{{ page.title | escape }}" }
+      "position":
+        {%- if subcluster_url -%} 4
+        {%- elsif category_url -%} 3
+        {%- else -%} 2
+        {%- endif -%},
+      "item": {
+        "@id": {{ page_url | jsonify }},
+        "name": {{ page_title | jsonify }}
+      }
     }
   ]
 }
 </script>
+{%- endunless -%}
 
-{% if page.collection_posts and page.collection_posts.size > 0 %}
-<!-- CollectionPage + ItemList Schema (per pagine categoria) -->
+{%- comment -%}
+  CollectionPage Schema
+  Emit only when the page is really a collection/hub and there are items.
+{%- endcomment -%}
+{%- if is_collection and collection_items and collection_items.size > 0 -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "@id": "{{ page.url | absolute_url }}#collectionpage",
-  "name": "{{ page.title }}",
-  "description": "{{ page.description }}",
+  "@id": {{ page_url | append: "#collectionpage" | jsonify }},
+  "url": {{ page_url | jsonify }},
+  "name": {{ page_title | jsonify }},
+  "description": {{ page_desc | jsonify }},
+  {%- if page_image -%}
+  "image": {{ page_image | absolute_url | jsonify }},
+  {%- endif -%}
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": {{ page.collection_posts.size }},
+    "numberOfItems": {{ collection_items.size }},
     "itemListElement": [
-      {% for post in page.collection_posts limit: 10 %}
+      {%- assign schema_limit = collection_items.size -%}
+      {%- if schema_limit > 20 -%}
+        {%- assign schema_limit = 20 -%}
+      {%- endif -%}
+      {%- for post in collection_items limit:schema_limit -%}
       {
         "@type": "ListItem",
         "position": {{ forloop.index }},
         "item": {
-          "@id": "{{ post.url | absolute_url }}",
-          "name": "{{ post.title | escape }}"
+          "@id": {{ post.url | absolute_url | jsonify }},
+          "name": {{ post.title | jsonify }}
         }
-      }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
+      }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
     ]
   }
 }
 </script>
-{% endif %}
-
-{% endif %}
-
-{% endunless %}
+{%- endif -%}
