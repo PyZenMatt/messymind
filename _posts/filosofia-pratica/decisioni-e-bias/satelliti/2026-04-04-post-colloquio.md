@@ -13,7 +13,7 @@ image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1775292562/pexels-ekaterina-bolovtsova-6077601_l6se2d.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1775292562/pexels-ekaterina-bolovtsova-6077601_l6se2d.jpg"
 og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1775292562/pexels-ekaterina-bolovtsova-6077601_l6se2d.jpg"
-alt_image: Una libreria grande e moderna stile biblioteca che sta a simboleggiare la nostra libreria di emozioni
+alt_image: due persone intente a fare un colloquio di lavoro.
 is_cornerstone: false
 faqs:
   - question: È normale ripensare a un colloquio dopo che è finito?
