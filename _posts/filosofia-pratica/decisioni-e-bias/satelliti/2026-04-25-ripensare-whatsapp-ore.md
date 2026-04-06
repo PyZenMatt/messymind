@@ -90,8 +90,7 @@ inizi a preparare la tua risposta alla sua risposta
 
 Stai costruendo una conversazione intera che non è ancora successa.
 
-E succede anche con i vocali, quando inizi a riascoltarti →
-→ /filosofia-pratica/ripensare-vocali-ore/
+E succede anche con i [vocali](/filosofia-pratica/ripensare-vocali-ore/), quando inizi a riascoltarti
 
 ## Il problema non è l’errore
 
@@ -114,8 +113,8 @@ Allora compensi così:
 
 E nasce il loop.
 
-Succede identico anche quando mandi una mail →
-→ /filosofia-pratica/ripensare-mail-ore/
+Succede identico anche quando mandi una [mail](/filosofia-pratica/ripensare-mail-ore/)
+→ 
 
 ## Più controlli la chat, meno controlli la situazione
 
@@ -143,8 +142,7 @@ Non è un problema che si risolve pensando meglio.
 
 ## E allora?
 
-Se vuoi una struttura operativa chiara →
-→ /mindfulness-ironica/metodo-ironia/
+Se vuoi una [struttura operativa](/mindfulness-ironica/metodo-ironia/) chiara.
 
 Il messaggio è inviato.
 Evento chiuso.
@@ -171,9 +169,7 @@ Apri un task. Subito.
 Il punto non è smettere di pensarci.
 È smettere di trattarlo come qualcosa di utile.
 
-→ /filosofia-pratica/decisioni-e-bias/
-→ [link articolo mail]
-→ /mindfulness-ironica/metodo-ironia/
+
 
 Chiudi WhatsApp.
 Fai una cosa reale.
@@ -181,6 +177,13 @@ Fai una cosa reale.
 Piccola.
 
 Poi basta.
+## Argomenti Correlati
+
+- Dai un'occhiata a [Decisioni e Bias](/categorie/filosofia-pratica/decisioni-e-bias/).
+- Pensi ancora a quel messaggio [vocale](/filosofia-pratica/ripensare-vocali-ore/)?
+- Pensi ancora a quella [email](/filosofia-pratica/ripensare-mail-ore/)?
+- Pensi ancora a quel [colloquio](/filosofia-pratica/post-colloquio/)?
+- Il nostro [metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia/)
 
 ## FAQ
 {% include faq.html %}

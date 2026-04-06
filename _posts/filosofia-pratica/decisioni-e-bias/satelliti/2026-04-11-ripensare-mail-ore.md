@@ -60,8 +60,7 @@ La stai simulando.
 E qui sta il primo errore: pensi di stare migliorando qualcosa.
 In realtà stai solo lavorando mentalmente su qualcosa che non puoi più toccare.
 
-È lo stesso meccanismo che sta sotto molti loop decisionali →
-→ /filosofia-pratica/decisioni-e-bias/
+È lo stesso meccanismo che sta sotto molti [loop decisionali](/categorie/filosofia-pratica/decisioni-e-bias/) 
 
 Ed è proprio questo che la testa non accetta:
 qualcosa è già finito, ma lei continua a trattarlo come se fosse ancora aperto.
@@ -107,8 +106,7 @@ Diventa quasi certa.
 
 Finché non ti ritrovi a reagire a qualcosa che non è mai successo.
 
-È lo stesso schema che si attiva anche dopo un colloquio →
-→ /filosofia-pratica/post-colloquio/
+È lo stesso schema che si attiva anche dopo un [colloquio](/filosofia-pratica/post-colloquio/)
 
 ## Il problema non è l’errore
 
@@ -189,8 +187,7 @@ Cambia solo quanto tempo resti incastrato lì dentro.
 
 ## E allora?
 
-Se vuoi una struttura operativa più chiara, questo è il metodo completo →
-→ /mindfulness-ironica/metodo-ironia/
+Se vuoi una struttura operativa più chiara, questo è il [metodo completo](/mindfulness-ironica/metodo-ironia/)
 
 La mail è partita.
 Evento chiuso.
@@ -233,9 +230,11 @@ Apri un task reale. Subito.
 Il punto non è calmarti.
 È uscire dal mentale e rientrare nell’azione.
 
-→ /filosofia-pratica/decisioni-e-bias/
-→ [link articolo colloquio]
-→ /mindfulness-ironica/metodo-ironia/
+- Dai un'occhiata a [Decisioni e Bias](/categorie/filosofia-pratica/decisioni-e-bias/)
+- Pensi ancora a quel messaggio [whatsapp](/filosofia-pratica/ripensare-whatsapp-ore/)?
+- Pensi ancora a quella [vocale](/filosofia-pratica/ripensare-vocali-ore/)?
+- Pensi ancora a quel [colloquio](/filosofia-pratica/post-colloquio/)?
+- Il nostro [metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia/)
 
 Non devi smettere di pensarci.
 Devi smettere di trattarlo come qualcosa di utile.

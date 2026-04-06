@@ -57,8 +57,8 @@ Quello è.
 
 E proprio per questo la testa si attacca.
 
-È lo stesso schema che sta sotto molti loop decisionali →
-→ /filosofia-pratica/decisioni-e-bias/
+È lo stesso schema che sta sotto molti [loop decisionali](/categorie/filosofia-pratica/decisioni-e-bias/)
+
 
 ## Non stai correggendo il vocale
 
@@ -84,8 +84,7 @@ immagini cosa risponderanno
 
 Stai costruendo una scena completa che non esiste.
 
-È lo stesso meccanismo che parte anche nei messaggi →
-→ /filosofia-pratica/controllare-messaggio-whatsapp/
+È lo stesso meccanismo che parte anche nei [messaggi](/filosofia-pratica/ripensare-whatsapp-ore/)
 
 ---
 
@@ -112,8 +111,7 @@ Allora compensi così:
 
 E nasce il loop.
 
-Succede identico anche quando mandi una mail →
-→ /filosofia-pratica/ripensare-mail-ore/
+Succede identico anche quando mandi una [mail](/filosofia-pratica/ripensare-mail-ore/)
 
 ## Più lo riascolti, più peggiora
 
@@ -138,8 +136,7 @@ Non è un problema che si risolve ascoltando meglio.
 
 ## E allora?
 
-Se vuoi una struttura operativa completa →
-→ /mindfulness-ironica/metodo-ironia/
+Se vuoi una [struttura operativa](/mindfulness-ironica/metodo-ironia/) completa. 
 
 Il vocale è inviato.
 Evento chiuso.
@@ -166,9 +163,6 @@ Sposta subito l’attenzione su qualcosa di reale.
 Il punto non è calmarti.
 È uscire dal replay.
 
-→ /filosofia-pratica/decisioni-e-bias/
-→ [link articolo WhatsApp]
-→ /mindfulness-ironica/metodo-ironia/
 
 Non devi smettere di pensarci.
 Devi smettere di trattarlo come qualcosa di utile.
@@ -177,6 +171,14 @@ Chiudi il vocale.
 Fai una cosa reale.
 
 Poi basta.
+
+## Continua ad esplorare questa categoria
+
+- Dai un'occhiata a [Decisioni e Bias](/categorie/filosofia-pratica/decisioni-e-bias/)
+- Pensi ancora a quel messaggio [whatsapp](/filosofia-pratica/ripensare-whatsapp-ore/)?
+- Pensi ancora a quella [email](/filosofia-pratica/ripensare-mail-ore/)?
+- Pensi ancora a quel [colloquio](/filosofia-pratica/post-colloquio/)?
+- Il nostro [metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia/)
 
 ## FAQ
 {% include faq.html %}

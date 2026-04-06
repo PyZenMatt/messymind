@@ -17,7 +17,12 @@ tags:
   - burnout e lavoro
   - ansia da produttività
 is_cornerstone: false
-image: /assets/images/posts/burnout-e-lavoro/maschera-professionale-il-costo-mentale-di-fingere-tutto-il-giorno.jpg
+lcp_image_alt: persona che indossa una maschera come puo essere una maschera lavorativa.
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1775459085/pexels-septimiu-lupea-271955805-34527578_sgmrgh.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1775459085/pexels-septimiu-lupea-271955805-34527578_sgmrgh.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1775459085/pexels-septimiu-lupea-271955805-34527578_sgmrgh.jpg
+featured_post: false
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1775459085/pexels-septimiu-lupea-271955805-34527578_sgmrgh.jpg
 howto:
   name: "Come ridurre il costo della maschera professionale in 5 minuti"
   description: "Una micro-procedura per accorgerti dove stai recitando, ripulire una risposta automatica e ridurre la dispersione cognitiva."

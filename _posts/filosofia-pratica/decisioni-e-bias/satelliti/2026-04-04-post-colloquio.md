@@ -280,6 +280,12 @@ Serve uscire prima.
 
 Perché la risposta, se arriva, non uscirà da lì dentro.
 
+Dai un'occhiata a [Decisioni e Bias](/filosofia-pratica/decisioni-e-bias/)
+Pensi ancora a quel messaggio [whatsapp]?(/filosofia-pratica/ripensare-whatsapp-ore/)
+Pensi ancora a quella [email](/filosofia-pratica/ripensare-email-ore/)?
+Pensi ancora a quel [vocale](/filosofia-pratica/ripensare-vocali-ore/)?
+Il nostro [metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia/)
+
 ## FAQ
 {% include faq.html %}
 
