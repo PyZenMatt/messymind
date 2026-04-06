@@ -88,6 +88,18 @@ e subito dopo:
 
 inizi a preparare la tua risposta alla sua risposta
 
+Ma c’è un passaggio che stai saltando:
+
+stai chiamando “ansia” qualcosa che spesso ansia non è.
+
+Molte volte è **attesa**, **tensione** o **bisogno di controllo**.
+
+Se non distingui, il loop continua.
+Se nomini meglio, il peso cambia.
+
+Qui il meccanismo:
+[Perché chiami ansia tutto quello che senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
+
 Stai costruendo una conversazione intera che non è ancora successa.
 
 E succede anche con i [vocali](/filosofia-pratica/ripensare-vocali-ore/), quando inizi a riascoltarti

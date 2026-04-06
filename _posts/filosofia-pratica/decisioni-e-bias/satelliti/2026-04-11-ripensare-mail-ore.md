@@ -89,6 +89,18 @@ dai per scontato di sapere come verrai interpretato, e inizi a lavorarci sopra c
 A quel punto non stai più pensando a cosa hai scritto.
 Stai pensando a come verrà letto, filtrato, giudicato.
 
+Ma c’è un passaggio prima che stai saltando:
+
+stai chiamando “ansia” qualcosa che spesso ansia non è.
+
+Molte volte è **imbarazzo**, **tensione** o semplice **anticipazione del giudizio**.
+
+Se non distingui, il loop continua.
+Se nomini meglio, il peso cambia.
+
+Qui lo vedi meglio:
+👉 [Perché chiami ansia tutto quello che senti](/mindfulness-ironica/chiami-ansia-tutto-quello-che-senti/)
+
 E più provi ad aggiustarlo, più ti allontani dalla realtà.
 
 Perché la realtà, qui, è una sola:

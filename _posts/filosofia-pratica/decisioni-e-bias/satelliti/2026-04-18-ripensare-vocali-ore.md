@@ -82,11 +82,21 @@ immagini la loro faccia mentre ascoltano
 immagini cosa penseranno
 immagini cosa risponderanno
 
+Ma c’è un passaggio che stai saltando:
+
+stai chiamando “ansia” qualcosa che spesso ansia non è.
+
+Molte volte è **imbarazzo**, **esposizione** o semplice **tensione sociale**.
+
+Se non distingui, il loop continua.
+Se nomini meglio, il peso cambia.
+
+Qui il meccanismo:
+[Perché chiami ansia tutto quello che senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
+
 Stai costruendo una scena completa che non esiste.
 
 È lo stesso meccanismo che parte anche nei [messaggi](/filosofia-pratica/ripensare-whatsapp-ore/)
-
----
 
 ## Il problema non è cosa hai detto
 
