@@ -3,11 +3,16 @@ layout: post
 title: "Interrompi: il micro-taglio che ferma il pilota automatico"
 seo_title: "Interrompi — Il taglio netto che ferma il pilota automatico"
 seo_description: "Come fermare un impulso prima che diventi un danno. Micro-interruzioni operative da 5 a 60 secondi. Parte del Metodo I.R.O.N.I.A."
+description: "Una micro-interruzione pratica per fermare un impulso prima che diventi comportamento automatico."
+
 date: 2025-11-30
-last_modified_at: 2026-02-15
+last_modified_at: 2026-04-06
+
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
-tags: ["cornerstone", "gestione-impulsi", "mindfulness-pratica", "controllo"]
+
+tags: ["cornerstone", "loop-mentale", "impulso", "overthinking", "risposta-impulsiva"]
+
 is_cornerstone: true
 
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1764483874/pexels-lilartsy-1325619_edrxat.jpg
@@ -28,6 +33,20 @@ faqs:
     answer: "Applica un’interruzione tardiva. È comunque utile per evitare escalation."
   - question: "Interrompi funziona anche al lavoro?"
     answer: "Sì. È invisibile e applicabile in riunione, davanti a una mail o durante una conversazione."
+
+howto:
+  name: "Come interrompere un impulso automatico in meno di un minuto"
+  description: "Una sequenza minima per bloccare un comportamento impulsivo prima che peggiori la situazione."
+  totalTime: "PT1M"
+  step:
+    - name: "Blocca il gesto"
+      text: "Ferma fisicamente l'azione. Non inviare, non rispondere, non toccare altro."
+    - name: "Riallinea il corpo"
+      text: "Abbassa le spalle, rilassa la mascella e premi i piedi a terra."
+    - name: "Usa una frase di taglio"
+      text: "Ripeti: 'Non devo decidere adesso.'"
+    - name: "Applica un ritardo intenzionale"
+      text: "Imposta un timer di 10 o 25 minuti e allontana lo stimolo."
 ---
 
 # Interrompi: il micro-taglio che ferma il pilota automatico
@@ -77,8 +96,8 @@ Hai circa 5–30 secondi.
 Durata totale: meno di un minuto.
 
 ### 1️⃣ Stop fisico (1–2 secondi)
-Blocca il gesto.
-Mano ferma.
+Blocca il gesto.  
+Mano ferma.  
 Nessun invio.
 
 ### 2️⃣ Micro-reset corporeo (2–5 secondi)
@@ -94,7 +113,7 @@ Non meditare. Riallinea.
 Questa frase spezza l’urgenza.
 
 ### 4️⃣ Ritardo intenzionale
-Imposta un timer di 10 o 25 minuti.
+Imposta un timer di 10 o 25 minuti.  
 Allontana lo stimolo.
 
 Fine.
@@ -106,10 +125,10 @@ Devi solo **evitare la mossa impulsiva**.
 
 ## Caso reale
 
-Mail ricevuta:
+Mail ricevuta:  
 > “Dobbiamo rivedere il progetto.”
 
-Impulso:
+Impulso:  
 rispondere subito con spiegazioni difensive.
 
 Interrompi:
@@ -118,9 +137,24 @@ Interrompi:
 - “Non devo rispondere ora.”  
 - timer 25 minuti  
 
-Risultato:
+Risultato:  
 la risposta cambia tono.  
 Oppure non serve più.
+
+---
+
+## Dove si applica davvero
+
+Interrompi non serve solo nei momenti evidenti.
+
+Serve soprattutto nelle micro-situazioni dove il loop sta per diventare gesto:
+
+- quando [ripensi a una mail che hai già inviato](/filosofia-pratica/ripensare-mail-ore/)  
+- quando [controlli continuamente un messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)  
+- quando [continui a ripensare a un vocale che hai inviato](/filosofia-pratica/ripensare-vocali-ore/)  
+
+Il punto non è gestire l’ansia.  
+È tagliare il comportamento prima che peggiori la situazione.
 
 ---
 
@@ -135,6 +169,21 @@ Interrompere il gesto riduce l’escalation.
 
 Non elimina l’emozione.  
 Riduce il danno.
+
+---
+
+## Cosa Interrompi non fa
+
+Interrompi non chiarisce tutto.  
+Non risolve il conflitto.  
+Non prende decisioni al posto tuo.
+
+Fa una cosa più piccola e più utile:
+
+ti evita di consegnare il volante al pilota automatico proprio nel momento peggiore.
+
+Prima tagli.  
+Poi, eventualmente, capisci.
 
 ---
 
@@ -177,10 +226,14 @@ Se ricordi solo questo, basta.
 
 ---
 
-Interrompi è la fase I del Metodo I.R.O.N.I.A.  
+Interrompi è una delle fasi operative del [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/).
+
 Dopo il taglio arriva la scelta consapevole.
 
-→ Fase successiva: **Agisci**  
-→ Se il loop è ancora forte: torna a **Identifica**
+- Vai alla fase successiva: [Agisci](/mindfulness-ironica/agisci/)  
+- Se il loop è ancora confuso: torna a [Identifica](/mindfulness-ironica/identifica/)  
+- Se vuoi vedere Interrompi in casi reali:  
+  - [ripensare una mail inviata](/filosofia-pratica/ripensare-mail-ore/)  
+  - [controllare un messaggio WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)  
 
 {% include faq.html %}
