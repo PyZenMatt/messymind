@@ -5,20 +5,32 @@ seo_title: "Ansia da produttività: quando inseguire il tempo ti peggiora il lav
 description: "L’ansia da produttività non è solo sentirsi in ritardo. È l’urgenza cronica che peggiora focus, decisioni e recupero. Ecco segnali reali e prime mosse utili."
 seo_description: "L’ansia da produttività non è solo sentirsi in ritardo. È l’urgenza cronica che peggiora focus, decisioni e recupero. Ecco segnali reali e prime mosse utili."
 date: 2025-02-25
-last_modified_at: 2026-03-26
+last_modified_at: 2026-04-06
+
 categories: ["burnout-e-lavoro"]
-subcluster: ritmi-gentili
-lcp_image_alt: persona alla scrivania con senso di urgenza e sovraccarico mentale
+subcluster: "ritmi-gentili"
+
+lcp_image_alt: "persona alla scrivania con senso di urgenza e sovraccarico mentale"
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042377/accettazione_gmjnsx.png
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756042377/accettazione_gmjnsx.png
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756042377/accettazione_gmjnsx.png
 featured_post: true
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756042377/accettazione_gmjnsx.png
+
 redirect_from:
   - /come-ho-smesso-di-inseguire-il-tempo-3-segreti-per-vivere-senza-ansia-da-produttivita/
   - /come-ho-smesso-di-inseguire-il-tempo/
   - /crescita-personale/come-ho-smesso-di-inseguire-il-tempo/
-tags: ["ansia da produttività", "urgenza cronica", "ritmi gentili", "burnout e lavoro", "stress lavoro correlato", "sovraccarico mentale", "gestione del tempo"]
+
+tags:
+  - ansia da produttività
+  - urgenza cronica
+  - ritmi gentili
+  - burnout e lavoro
+  - stress lavoro correlato
+  - sovraccarico mentale
+  - gestione del tempo
+
 howto:
   name: "Come interrompere l'urgenza cronica in 5 minuti"
   description: "Una micro-procedura per uscire dalla rincorsa continua e recuperare un minimo di lucidità operativa."
@@ -34,6 +46,7 @@ howto:
       text: "Rimanda, chiarisci o rinegozia una cosa che stavi tenendo aperta per riflesso."
     - name: "Chiudi con un confine"
       text: "Scrivi cosa riprendi dopo. Il cervello regge meglio quando non deve tenere tutto in sospeso."
+
 faqs:
   - question: "Cos'è l'ansia da produttività?"
     answer: "È la sensazione persistente di dover fare sempre di più, più in fretta, senza mai sentirti davvero in pari. Non riguarda solo il tempo: riguarda il modo in cui il lavoro colonizza attenzione, recupero e valore personale."
@@ -127,7 +140,7 @@ Succede questo:
 Per questo `ritmi-gentili` non significa lavorare meno per principio.  
 Significa lavorare in modo da **non sprecare lucidità**.
 
-Su questo asse, l’articolo da leggere dopo è [**Come prevenire il burnout con ritmi e confini più sostenibili**](/burnout-e-lavoro/prevenzione-e-cura-burnout/).
+Su questo asse, l’articolo da leggere dopo è [**Perché stai andando verso il burnout (anche se stai ancora funzionando)**](/burnout-e-lavoro/prevenzione-e-cura-burnout/).
 
 ## Le frasi che alimentano il problema
 
@@ -144,10 +157,9 @@ Per esempio:
 Queste frasi non descrivono solo il carico.  
 Lo amplificano.
 
-
 Qui il lavoro utile non è credere a ogni pensiero che passa, ma **ridimensionare l’urgenza percepita** e tornare a un margine minimo di scelta.
 
-Se dietro l’urgenza cronica c’è anche il bisogno di sembrare sempre disponibile, può aiutarti leggere anche [Autenticità al lavoro]:(/burnout-e-lavoro/autenticita-e-lavoro) il costo mentale di fingere tutto il giorno.
+Se dietro l’urgenza cronica c’è anche il bisogno di sembrare sempre disponibile, può aiutarti leggere anche [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
 In termini di framework, questo è già un uso semplice del metodo [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/): identificare il loop, ridimensionarlo, interrompere l’automatismo e agire su una cosa concreta.
 
@@ -192,7 +204,7 @@ Se ti riconosci qui, non fermarti a questo pezzo. Leggi in sequenza:
 - [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
 - [**Burnout al lavoro: 7 segnali che stai sottovalutando**](/burnout-e-lavoro/burnout-e-segnali/)
 - [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
-- [**Come prevenire il burnout con ritmi e confini più sostenibili**](/burnout-e-lavoro/prevenzione-e-cura-burnout/)
+- [**Perché stai andando verso il burnout (anche se stai ancora funzionando)**](/burnout-e-lavoro/prevenzione-e-cura-burnout/)
 
 ## Check rapido
 
@@ -236,7 +248,7 @@ Ti serve una correzione concreta, adesso.
 Se questo articolo ti è stato utile, puoi fare tre cose semplici:
 
 - leggere anche il cluster [**Burnout e lavoro**](/categorie/burnout-e-lavoro/)
-- esplorare il subcluster [**Ritmi gentili**](/categorie//burnout-e-lavoro/ritmi-gentili/)
+- esplorare il subcluster [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
 - condividere questo articolo con qualcuno che sta lavorando tanto ma sempre peggio
 
 ## FAQ

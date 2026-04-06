@@ -6,6 +6,8 @@ categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"
 seo_title: "Stress lavoro-correlato: cos’è, segnali e prime mosse utili"
 seo_description: "Lo stress lavoro-correlato non è solo una giornata pesante. Ecco cos’è davvero, come distinguerlo dal burnout e quali prime mosse hanno senso."
+date: "2025-09-29"
+last_modified_at: "2026-04-06"
 faqs:
   - question: "Cos'è lo stress lavoro-correlato in parole semplici?"
     answer: "È una condizione in cui le richieste del lavoro superano in modo persistente le risorse disponibili per gestirle. Non è solo avere tanto da fare: è iniziare a lavorare peggio sotto un carico che non reggi più bene."
@@ -34,7 +36,6 @@ howto:
       text: "Scegli una sola azione concreta: chiarire una priorità, proteggere 30 minuti di focus o rinviare una richiesta non urgente."
 lcp_image: "/images/stress-lavoro-correlato.jpg"
 og_image: "/images/stress-lavoro-correlato-og.jpg"
-published: false
 ---
 
 **In breve:** lo stress lavoro-correlato non è solo una giornata pesante. È quello che succede quando il lavoro continua a chiederti più risorse di quelle che riesci a mobilitare bene, e questa pressione inizia a peggiorare lucidità, energia, concentrazione e qualità delle decisioni.
