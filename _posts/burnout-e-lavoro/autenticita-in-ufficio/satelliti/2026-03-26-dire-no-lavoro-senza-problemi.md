@@ -77,6 +77,12 @@ Qui non si parla di diventare duri, teatrali o “assertivi” da manualetto. Si
 
 Per il quadro più ampio del subcluster, parti anche da [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
+Questo è solo un pezzo del problema.
+
+→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
+→ [Dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/dici-sempre-si-lavoro/)
+→ [Maschera professionale: il costo mentale di fingere tutto il giorno](/burnout-e-lavoro/maschera-lavorativa/)
+
 ## Perché dire no al lavoro sembra più rischioso di quanto sia
 
 Nel lavoro, dire no sembra sempre più grave di quello che è davvero. Soprattutto se sei una persona affidabile, una di quelle che consegna, risponde, sistema, tiene insieme i pezzi quando gli altri iniziano a fare archeologia nel caos.
@@ -245,7 +251,7 @@ Non è durezza. È evitare che il lavoro si deformi senza revisione del contesto
 
 A un certo punto bisogna dirlo pulito: non sempre il problema è che “gli altri chiedono troppo”. A volte il problema è che tu dici sì per evitare attrito, disagio, micro-delusione altrui o l’idea di sembrare difficile.
 
-Questa è compiacenza lavorativa. E no, non è una colpa morale. È una strategia di breve periodo che spesso funziona abbastanza da diventare automatica.
+Questa è [compiacenza lavorativa](/filosofia-pratica/compiacenza-lavorativa). E no, non è una colpa morale. È una strategia di breve periodo che spesso funziona abbastanza da diventare automatica.
 
 Il guaio è che il costo non sparisce. Lo sposti su di te.
 

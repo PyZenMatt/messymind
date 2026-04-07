@@ -76,6 +76,12 @@ Qui non si parla di sincerità assoluta, né di spontaneità selvaggia da scambi
 
 Per la guida madre del subcluster, parti anche da [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
+Questo comportamento spesso nasce da qui:
+
+→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
+→ [Dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/dici-sempre-si-lavoro/)
+→ [Dire no al lavoro senza sembrare problematico](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
+
 ## La maschera professionale non è sempre un problema
 
 Partiamo da una cosa semplice: un minimo di filtro è normale.

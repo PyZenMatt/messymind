@@ -16,7 +16,7 @@ tags:
   - autenticità al lavoro
   - burnout e lavoro
   - ansia da produttività
-is_cornerstone: false
+is_cornerstone: true
 lcp_image_alt: persona inchinata a terra su tappeto segno di reverenza, segno di compiacenza.
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1775291292/pexels-michael-burrows-7129362_ralm2s.jpg
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1775291292/pexels-michael-burrows-7129362_ralm2s.jpg
@@ -78,6 +78,22 @@ Qui non parliamo di essere “troppo buoni”. Parliamo del costo mentale del s�
 
 Per la guida madre di questo subcluster, parti anche da [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
+## Questo è il meccanismo centrale
+
+La compiacenza lavorativa è il punto di partenza.
+
+Puoi leggere questo subcluster in modo semplice:
+
+### 1. Il problema base
+→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
+
+### 2. I comportamenti operativi
+→ [Dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/dici-sempre-si-lavoro/)
+→ [Dire no al lavoro senza sembrare problematico](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
+
+### 3. Il livello identitario
+→ [Maschera professionale: il costo mentale di fingere tutto il giorno](/burnout-e-lavoro/maschera-lavorativa/)
+
 ## Cos’è davvero la compiacenza lavorativa
 
 La compiacenza lavorativa non è educazione. Non è collaborazione sana. Non è neppure professionalità, anche se spesso si maschera bene da tutte e tre.
@@ -125,6 +141,9 @@ Qui il danno è operativo. Non stai solo “male”. Stai lavorando peggio.
 Ogni sì riflesso apre schede mentali. Ogni richiesta accolta senza filtro lascia un filo aperto in testa. Il risultato non è solo più fatica. È più fatica inutile. Quella normale del lavoro ha una dignità. Questa no. Questa nasce dal non aver fatto bordo.
 
 Se questa saturazione si accompagna a irritabilità, recupero scarso e tensione costante, il ponte naturale è [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
+
+Se oltre a dire sempre sì ti accorgi che non stacchi mai davvero, il passo successivo è questo:
+→ [Non riesci a staccare dal lavoro anche quando hai finito](/burnout-e-lavoro/non-stacchi-mai-davvero/)
 
 ## I segnali che non stai collaborando: ti stai svuotando
 
@@ -240,7 +259,7 @@ Se ti sei riconosciuto in questo schema, la direzione non è diventare duro. È 
 Per continuare:
 
 - [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
-- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemati/)
+- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
 - [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
 - [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
 - [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/)

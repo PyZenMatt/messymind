@@ -164,6 +164,9 @@ Se tutto dipende da urgenze, ambiguità e pressione costante, il problema non è
 
 Per il lato dei confini identitari e della maschera professionale, esplora anche [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
+Una delle fonti principali di stress è l’assenza di confini operativi:
+→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
+
 ## Una micro-pratica utile quando senti salire la pressione
 
 Quando senti che la giornata ti sta schiacciando, non cercare subito la soluzione totale.  

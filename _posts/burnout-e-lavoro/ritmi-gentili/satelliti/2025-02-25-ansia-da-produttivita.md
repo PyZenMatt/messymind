@@ -163,6 +163,9 @@ Se dietro l’urgenza cronica c’è anche il bisogno di sembrare sempre disponi
 
 In termini di framework, questo è già un uso semplice del metodo [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/): identificare il loop, ridimensionarlo, interrompere l’automatismo e agire su una cosa concreta.
 
+Se oltre a correre senti anche il bisogno di dire sempre sì, stai aggiungendo carico inutile:
+→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
+
 ## Prime mosse per uscire dalla rincorsa
 
 Non serve rifare la vita.  
