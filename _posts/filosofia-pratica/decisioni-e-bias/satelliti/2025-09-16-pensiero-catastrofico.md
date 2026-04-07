@@ -19,6 +19,10 @@ image_author_url: ""
 
 tags: ["ansia","pensiero catastrofico","bias cognitivi","overthinking","ruminazione","controllo"]
 
+redirect_from:
+  - /pensiero-catasrtofico/
+  - /filosofia-pratica/pensiero-catasrtofico/
+
 faqs:
   - question: "Qual è la differenza tra preoccupazione e catastrofizzazione?"
     answer: "La preoccupazione resta su un problema reale. La catastrofizzazione salta direttamente al peggior scenario possibile."

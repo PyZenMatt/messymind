@@ -98,6 +98,9 @@ Stai costruendo una scena completa che non esiste.
 
 È lo stesso meccanismo che parte anche nei [messaggi](/filosofia-pratica/ripensare-whatsapp-ore/)
 
+Questo è lo stesso meccanismo spiegato qui:
+[Perché continui a ripensare a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
+
 ## Il problema non è cosa hai detto
 
 È che non puoi più cambiarlo.
@@ -182,13 +185,14 @@ Fai una cosa reale.
 
 Poi basta.
 
-## Continua ad esplorare questa categoria
+## Approfondisci
 
-- Dai un'occhiata a [Decisioni e Bias](/categorie/filosofia-pratica/decisioni-e-bias/)
-- Pensi ancora a quel messaggio [whatsapp](/filosofia-pratica/ripensare-whatsapp-ore/)?
-- Pensi ancora a quella [email](/filosofia-pratica/ripensare-mail-ore/)?
-- Pensi ancora a quel [colloquio](/filosofia-pratica/post-colloquio/)?
-- Il nostro [metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia/)
+Questo stesso meccanismo si attiva anche quando:
+
+- ripensi a un [messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)
+- riascolti un [vocale dopo averlo inviato](/filosofia-pratica/ripensare-vocali-ore/)
+- analizzi una [mail già inviata](/filosofia-pratica/ripensare-mail-ore/)
+- ripensi a un [colloquio](/filosofia-pratica/post-colloquio/)
 
 ## FAQ
 {% include faq.html %}

@@ -62,6 +62,8 @@ Lo stai simulando.
 
 E stai lavorando mentalmente su qualcosa che non puoi più modificare.
 
+Questo è lo stesso meccanismo spiegato qui:
+[Perché continui a ripensare a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 ---
 
 ## Non stai correggendo il messaggio
@@ -126,7 +128,7 @@ Allora compensi così:
 E nasce il loop.
 
 Succede identico anche quando mandi una [mail](/filosofia-pratica/ripensare-mail-ore/)
-→ 
+
 
 ## Più controlli la chat, meno controlli la situazione
 
@@ -189,13 +191,14 @@ Fai una cosa reale.
 Piccola.
 
 Poi basta.
-## Argomenti Correlati
+## Approfondisci
 
-- Dai un'occhiata a [Decisioni e Bias](/categorie/filosofia-pratica/decisioni-e-bias/).
-- Pensi ancora a quel messaggio [vocale](/filosofia-pratica/ripensare-vocali-ore/)?
-- Pensi ancora a quella [email](/filosofia-pratica/ripensare-mail-ore/)?
-- Pensi ancora a quel [colloquio](/filosofia-pratica/post-colloquio/)?
-- Il nostro [metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia/)
+Questo stesso meccanismo si attiva anche quando:
+
+- ripensi a un [messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)
+- riascolti un [vocale dopo averlo inviato](/filosofia-pratica/ripensare-vocali-ore/)
+- analizzi una [mail già inviata](/filosofia-pratica/ripensare-mail-ore/)
+- ripensi a un [colloquio](/filosofia-pratica/post-colloquio/)
 
 ## FAQ
 {% include faq.html %}

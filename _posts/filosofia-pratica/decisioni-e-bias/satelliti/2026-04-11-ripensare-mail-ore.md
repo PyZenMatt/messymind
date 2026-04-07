@@ -68,6 +68,9 @@ qualcosa è già finito, ma lei continua a trattarlo come se fosse ancora aperto
 A quel punto non stai più agendo.
 Stai solo girando a vuoto.
 
+Questo è lo stesso meccanismo spiegato qui:
+[Perché continui a ripensare a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
+
 ## Non stai correggendo la mail
 
 Per un po’ l’ho chiamata attenzione ai dettagli.
@@ -242,12 +245,6 @@ Apri un task reale. Subito.
 Il punto non è calmarti.
 È uscire dal mentale e rientrare nell’azione.
 
-- Dai un'occhiata a [Decisioni e Bias](/categorie/filosofia-pratica/decisioni-e-bias/)
-- Pensi ancora a quel messaggio [whatsapp](/filosofia-pratica/ripensare-whatsapp-ore/)?
-- Pensi ancora a quella [vocale](/filosofia-pratica/ripensare-vocali-ore/)?
-- Pensi ancora a quel [colloquio](/filosofia-pratica/post-colloquio/)?
-- Il nostro [metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia/)
-
 Non devi smettere di pensarci.
 Devi smettere di trattarlo come qualcosa di utile.
 
@@ -257,6 +254,15 @@ Chiudi una cosa.
 Piccola.
 
 Poi basta.
+
+## Approfondisci
+
+Questo stesso meccanismo si attiva anche quando:
+
+- ripensi a un [messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)
+- riascolti un [vocale dopo averlo inviato](/filosofia-pratica/ripensare-vocali-ore/)
+- analizzi una [mail già inviata](/filosofia-pratica/ripensare-mail-ore/)
+- ripensi a un [colloquio](/filosofia-pratica/post-colloquio/)
 
 ## FAQ
 {% include faq.html %}

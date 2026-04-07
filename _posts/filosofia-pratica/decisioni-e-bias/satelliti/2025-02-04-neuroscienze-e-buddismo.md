@@ -1,4 +1,3 @@
-```yaml
 ---
 layout: post
 title: "Cervello vs Buddha: perché l’Io è un’illusione (e cosa farci davvero)"
@@ -19,7 +18,7 @@ lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762330002/cervello_pnyicx.webp"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1762330002/cervello_pnyicx.webp"
 og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1762330002/cervello_pnyicx.webp"
-image_alt: "buddha accanto a cervello come simbolo di coscienza e processi mentali"
+image_alt: "la radiografia di un cervello che analizza i processi mentali"
 date: 2025-09-20
 last_modified_at: 2026-04-06
 faq: true

@@ -7,7 +7,8 @@ seo_description: "Bias cognitivi: definizione chiara, elenco dei principali, 10 
 date: "2025-09-09"
 categories: filosofia-pratica
 subcluster: decisioni-e-bias
-tags: ["bias cognitivi", "decisioni", "euristiche", "metacognizione", "cornerstone"]
+tags: ["bias cognitivi", "decisioni", "euristiche", "metacognizione"]
+is_cornerstone: false
 og_image: "https://messymind.blog/images/bias-cognitivi-2025-og.jpg" 
 image_author: Charlyzona 
 image_author_url: https://commons.wikimedia.org/wiki/User:Charlyzona 
