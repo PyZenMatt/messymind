@@ -51,21 +51,20 @@ redirect_from:
   - /burnout e lavoro/autenticita-e-lavoro/
 ---
 
-**In breve:** essere autentici al lavoro non vuol dire “dire tutto”. Vuol dire smettere di sprecare energia nel recitare una versione aziendale di te stesso che ti fa lavorare peggio. Quando la maschera professionale diventa permanente, il costo non è solo emotivo: è cognitivo. Ti stanchi prima, ti confondi di più, dici sì quando dovresti dire no, e inizi a sabotare lucidità e confini.
+**In breve:** Il fatto di essere autentici al lavoro non vuol dire “dire tutto”. Vuol dire smettere di sprecare la tua energia nel recitare una versione aziendale di te stesso che ti fa lavorare male. Quando la maschera professionale diventa permanente, il costo non è solo emotivo: è cognitivo. Ti stanchi prima, ti confondi di più, dici sì quando dovresti dire no, e inizi a sabotare la tua lucidità e i tuoi confini personali.
 
 Se stai cercando una guida più ampia sul tema del sovraccarico professionale, parti anche da [**Burnout: cos’è davvero, segnali reali e prime mosse per uscirne**](/burnout-e-lavoro/burnout-cos-e-davvero/).
 
-## Cos’è davvero l’autenticità al lavoro
+## Cos’è davvero l’autenticità al lavoro  
 
-Essere autentici al lavoro non significa rovesciare ogni pensiero in riunione come se fossi in terapia di gruppo.  
-Significa una cosa più semplice e più difficile: **ridurre la distanza tra quello che pensi, quello che dici e il modo in cui lavori**.
+Essere autentici al lavoro non significa esprimere ogni singolo pensiero (magari negativo) in riunione come se fossi in terapia di gruppo.   Significa una cosa più semplice e più difficile: **ridurre la distanza tra quello che pensi, quello che dici e il modo in cui lavori**.
 
 In pratica:
 
 - sai cosa per te non è negoziabile;
-- non dici sì per riflesso a qualunque richiesta;
-- non fingi entusiasmo quando serve chiarezza;
-- non trasformi ogni frizione in una guerra ideologica.
+- non dici sì per riflesso a qualunque richiesta; - non fingi entusiasmo quando serve sincerità;
+
+ - non trasformi ogni piccolo problema in una guerra ideologica o sindacale.
 
 L’autenticità professionale non è spontaneità totale. È **coerenza praticabile**.
 
@@ -91,13 +90,11 @@ Da dentro stai spendendo energia per sostenere una versione di te che non regge.
 
 Se vuoi approfondire proprio questo meccanismo, il satellite dedicato è [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/).
 
-Se vuoi guardare il cluster dal lato dei segnali precoci, leggi anche [**Burnout e segnali: 7 campanelli d’allarme da non ignorare**](/burnout-e-lavoro/burnout-e-segnali/).
+Se vuoi capire il lato dei segnali precoci del burnout, leggi anche [**Burnout e segnali: 7 campanelli d’allarme da non ignorare**](/burnout-e-lavoro/burnout-e-segnali/).
 
-## Perché fingiamo così tanto al lavoro
+## Perché al lavoro si finge cosi tanto
 
-Per motivi molto meno nobili di quanto raccontiamo.
-
-Fingiamo perché:
+La verità è che lo facciamo per motivi molto meno nobili di quanto raccontiamo e possono essere moltecipli i motivi per cui lo facciamo:
 
 - vogliamo evitare conflitti;
 - vogliamo sembrare facili da gestire;
@@ -105,16 +102,9 @@ Fingiamo perché:
 - confondiamo professionalità con compiacenza;
 - non abbiamo ancora costruito un linguaggio chiaro per mettere limiti.
 
-A volte il problema non è neppure il capo tossico o il collega invadente.  
-A volte il problema è che **abbiamo allenato talmente bene il riflesso del sì** da non accorgerci più del prezzo che paghiamo.
+Molto spesso il problema non è neppure il capo tossico o il collega invadente ma che si è **allenato talmente bene il riflesso del sì** da non accorgerci più del prezzo che paghiamo.
 
-Quel prezzo si vede dopo:
-
-- più stanchezza mentale;
-- più irritazione trattenuta;
-- meno qualità attentiva;
-- più ruminazione a fine giornata;
-- più sensazione di essere “fuori asse”.
+Quel prezzo si vede dopo quando sentiamo più stanchezza mentale, più irritazione ; meno qualità attentiva; più ruminazione a fine giornata e infine più sensazione di essere “fuori asse”. Ma la lista è ancora più lunga
 
 ## I segnali che stai recitando troppo
 
@@ -237,7 +227,7 @@ Per una settimana, nota tre momenti:
 - dove hai taciuto per paura;
 - dove sei stato chiaro senza creare caos.
 
-Questa osservazione è già il primo passaggio operativo: prima [osservi](/mindfulness-ironica/metodo-ironia/osservare-senza-interpretare/) il punto in cui stai recitando, poi puoi interrompere l’automatismo.
+Questa osservazione è già il primo passaggio operativo: prima [osservi](/mindfulness-ironica/osservare-senza-interpretare/) il punto in cui stai recitando, poi puoi interrompere l’automatismo.
 
 ### 5. Fai richieste legate al lavoro, non alla tua anima
 Quando parli con un manager o con un collega, non presentare il problema come “non mi sento me stesso”.  
@@ -261,7 +251,7 @@ Fai questo passaggio rapido:
 2. fai una pausa di pochi secondi;
 3. rispondi con un confine minimo, non con una giustificazione infinita.
 
-Qui il punto non è controllarti meglio, ma creare un [micro-taglio](/mindfulness-ironica/metodo-ironia/interrompere-il-pilota-automatico/) nel loop prima che parta da solo.
+Qui il punto non è controllarti meglio, ma creare un [micro-taglio](/mindfulness-ironica/interrompere-il-pilota-automatico/) nel loop prima che parta da solo.
 
 Se il tuo schema ricorrente è più legato all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita/).
 
@@ -332,3 +322,4 @@ Se questo articolo ti è stato utile, puoi fare tre cose semplici:
 ## FAQ
 
 {% include faq.html %}
+
