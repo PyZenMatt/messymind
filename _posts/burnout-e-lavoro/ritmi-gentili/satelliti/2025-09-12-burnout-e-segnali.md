@@ -106,7 +106,7 @@ Spesso non è pigrizia. È attrito mentale accumulato.
 
 **Prima mossa utile:** dai alla cosa rimandata 10 minuti veri. Non prometterti di finirla. Promettiti solo di iniziarla senza scappare.
 
-Se il tuo problema è legato più all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
+Se il tuo problema è legato più all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita/).
 
 ### 6. Somatizzazioni ricorrenti
 
@@ -141,7 +141,9 @@ Le mosse successive più sensate sono queste:
 
 Questo articolo fa parte di [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/), il subcluster di MessyMind dedicato a sovraccarico, recupero, confini e urgenza cronica.
 
-Se vuoi un framework pratico per intercettare il loop prima che peggiori, puoi anche esplorare il metodo [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/).
+Se vuoi un framework pratico per intercettare il loop prima che peggiori, il primo passaggio è [**identificare cosa accade dentro di te prima che diventi comportamento**](/mindfulness-ironica/identificare-cosa-accade-dentro-te/).
+
+Per il quadro completo, trovi qui anche il [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/).
 
 ## Quando chiedere aiuto
 

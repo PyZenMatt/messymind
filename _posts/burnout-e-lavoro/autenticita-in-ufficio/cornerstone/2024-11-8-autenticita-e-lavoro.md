@@ -237,7 +237,7 @@ Per una settimana, nota tre momenti:
 - dove hai taciuto per paura;
 - dove sei stato chiaro senza creare caos.
 
-Questa osservazione è già una micro-applicazione del metodo [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/): prima identifichi il loop, poi interrompi l’automatismo.
+Questa osservazione è già il primo passaggio operativo: prima [osservi](/mindfulness-ironica/metodo-ironia/osservare-senza-interpretare/) il punto in cui stai recitando, poi puoi interrompere l’automatismo.
 
 ### 5. Fai richieste legate al lavoro, non alla tua anima
 Quando parli con un manager o con un collega, non presentare il problema come “non mi sento me stesso”.  
@@ -261,9 +261,9 @@ Fai questo passaggio rapido:
 2. fai una pausa di pochi secondi;
 3. rispondi con un confine minimo, non con una giustificazione infinita.
 
-A volte basta questo per non infilarti da solo nel problema.
+Qui il punto non è controllarti meglio, ma creare un [micro-taglio](/mindfulness-ironica/metodo-ironia/interrompere-il-pilota-automatico/) nel loop prima che parta da solo.
 
-Se il tuo schema ricorrente è più legato all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
+Se il tuo schema ricorrente è più legato all’urgenza continua, alla colpa quando rallenti e alla sensazione di essere sempre in ritardo, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita/).
 
 Se invece il tuo schema è meno legato all’urgenza e più al bisogno di evitare attrito, vai su [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/).
 

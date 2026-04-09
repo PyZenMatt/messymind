@@ -142,6 +142,9 @@ Il corpo magari si ferma. La mente no.
 
 Quando questi segnali si sommano e durano, conviene smettere di chiamarli “periodaccio” e iniziare a trattarli come dati.
 
+Il primo passo è questo:  
+→ [**Identificare cosa accade dentro di te prima che diventi automatico**](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
+
 ## Dove intervenire davvero
 
 Qui non serve l’ennesima lista spirituale o la promessa di equilibrio permanente.  
@@ -165,7 +168,7 @@ Se tutto dipende da urgenze, ambiguità e pressione costante, il problema non è
 Per il lato dei confini identitari e della maschera professionale, esplora anche [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
 Una delle fonti principali di stress è l’assenza di confini operativi:
-→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
+→ [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
 
 ## Una micro-pratica utile quando senti salire la pressione
 
@@ -182,7 +185,8 @@ Per esempio:
 Questa non è magia.  
 È regolazione.
 
-Se vuoi leggere il cluster dal punto di vista del metodo, puoi usare anche il framework [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/) per identificare il loop e interrompere l’automatismo.
+Quello che stai facendo qui è già questo:  
+→ [**Interrompere l’automatismo prima che diventi reazione**](/mindfulness-ironica/interrompere-il-pilota-automatico/)
 
 ## Check rapido
 

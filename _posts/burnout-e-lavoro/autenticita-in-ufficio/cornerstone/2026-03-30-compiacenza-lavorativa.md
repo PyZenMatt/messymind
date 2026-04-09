@@ -76,7 +76,10 @@ All’inizio sembra la scelta giusta. Hai evitato attrito, non hai complicato la
 
 Qui non parliamo di essere “troppo buoni”. Parliamo del costo mentale del sì automatico sul lavoro. La compiacenza lavorativa non è gentilezza: è un modo rapido per evitare attrito fuori e ritrovartelo dentro, sotto forma di saturazione, rumore e qualità che si abbassa.
 
-Per la guida madre di questo subcluster, parti anche da [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
+
+Non stai scegliendo davvero: stai solo evitando l’attrito di [dire no al lavoro senza sembrare problematico](/burnout-e-lavoro/dire-no-lavoro-senza-problemi/).
+
+Per la guida madre di questo argomento, parti anche da [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
 ## Questo è il meccanismo centrale
 
@@ -139,6 +142,8 @@ Questa è la parte più tossica, nel senso concreto del termine: da fuori contin
 Qui il danno è operativo. Non stai solo “male”. Stai lavorando peggio.
 
 Ogni sì riflesso apre schede mentali. Ogni richiesta accolta senza filtro lascia un filo aperto in testa. Il risultato non è solo più fatica. È più fatica inutile. Quella normale del lavoro ha una dignità. Questa no. Questa nasce dal non aver fatto bordo.
+
+A lungo andare non sei più tu, ma [la versione che non crea problemi](/burnout-e-lavoro/maschera-lavorativa/).
 
 Se questa saturazione si accompagna a irritabilità, recupero scarso e tensione costante, il ponte naturale è [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
 
@@ -204,9 +209,9 @@ Se il costo che senti non è solo nel dire sì, ma anche nel dover sembrare semp
 
 Qui non serve rifare tutto il pezzo su come dire no. Serve guardare il meccanismo.
 
-Il primo passaggio è notare il riflesso. Non il ragionamento nobile. Proprio l’impulso: la spinta a dire sì subito per toglierti di dosso il fastidio.
+Il primo passaggio è [identificare il riflesso prima che diventi risposta automatica](/mindfulness-ironica/identificare-cosa-accade-dentro-te/). Non il ragionamento nobile. Proprio l’impulso: la spinta a dire sì subito per toglierti di dosso il fastidio.
 
-Il secondo è ritardare la risposta. Anche poco. Dieci secondi, una frase ponte, un “controllo e ti dico”. Quel micro-spazio è già molto, perché spezza l’automatismo.
+Il secondo è [interrompere il riflesso prima di trasformarlo in disponibilità automatica](/mindfulness-ironica/interrompere-il-pilota-automatico/). Anche poco. Dieci secondi, una frase ponte, un “controllo e ti dico”. Quel micro-spazio è già molto, perché spezza l’automatismo.
 
 Il terzo è guardare il costo. Cosa stai sacrificando se entra questa cosa? Tempo? Focus? Qualità? Una priorità già aperta? Se non vedi il costo, dirai sì come se fosse gratis. Non lo è.
 

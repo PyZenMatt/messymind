@@ -4,8 +4,7 @@ title: "Kundalini e ansia: come distinguere energia, attivazione e iper-vigilanz
 description: "Come distinguere Kundalini, ansia e iper-vigilanza senza negare tutto né mitizzare tutto: una guida prudente per non amplificare i sintomi."
 seo_title: "Kundalini e ansia: come distinguere energia, attivazione e iper-vigilanza"
 seo_description: "Come distinguere Kundalini, ansia e iper-vigilanza senza negare tutto né mitizzare tutto: una guida prudente per non amplificare i sintomi."
-date: 2026-04-13 08:00:00 +0200
-last_modified_at: 2026-04-13 
+date: 2026-04-08 
 categories: ["mindfulness-ironica"]
 subcluster: "spiritualita-prudente"
 tags: ["kundalini", "ansia", "iper-vigilanza", "spiritualita-prudente", "nomina", "ridimensiona"]

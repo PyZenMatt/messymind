@@ -135,6 +135,9 @@ Se vuoi una guida dedicata ai sintomi, vai direttamente a [**Burnout al lavoro: 
 
 Non è sonnolenza. È la sensazione di partire già in riserva. Il weekend attenua, ma non resetta.
 
+Se ti capita di fermarti ma sentire che la testa continua a lavorare, sei già in questo pattern:  
+→ [**Quando ti fermi ma la testa continua a correre**](/burnout-e-lavoro/non-stacchi-mai-davvero/)
+
 ### 2. Irritabilità sproporzionata
 
 Ti accendi per una notifica, per una riunione spostata, per una domanda banale. Non perché sei “cattivo”, ma perché sei saturo.
@@ -142,6 +145,9 @@ Ti accendi per una notifica, per una riunione spostata, per una domanda banale. 
 ### 3. Nebbia cognitiva
 
 Le cose non sono diventate più difficili in assoluto. Sei tu che hai meno banda mentale disponibile. Rileggi, rimandi, confondi priorità.
+
+Se anche quando ti fermi non riesci davvero a rilassarti, il problema non è il tempo ma lo stato:  
+→ [**Non riesci a rilassarti nemmeno quando non lavori**](/burnout-e-lavoro/non-riesci-a-rilassarti/)
 
 ### 4. Distacco cinico
 
@@ -152,6 +158,9 @@ Non ti interessa più far bene. Oppure continui a fare bene, ma con un sottofond
 Mal di testa, tensione cervicale, sonno disturbato, somatizzazioni varie. Il corpo spesso segnala il sovraccarico prima della narrativa ufficiale che ti racconti.
 
 Quando compare uno di questi segnali, la mossa utile non è stringere i denti. È [**Interrompi**](/mindfulness-ironica/interrompere-il-pilota-automatico/): non per risolvere tutto in 30 secondi, ma per evitare di continuare in automatico.
+
+Se invece il blocco emerge appena rallenti, sotto forma di pressione interna o colpa:  
+→ [**Perché ti senti in colpa quando rallenti**](/burnout-e-lavoro/perche-ti-senti-in-colpa-quando-rallenti/)
 
 ## Perché succede (non è tutta colpa tua)
 
@@ -170,11 +179,17 @@ Qui entra il subcluster [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-ge
 
 Il [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/) qui non serve a sentirti meglio in astratto. Serve a spezzare la catena automatica che ti porta da sovraccarico a reazione cieca.
 
+Se vuoi vederlo in azione su casi concreti:
+
+- quando non riesci a staccare → [**non stacchi mai davvero**](/burnout-e-lavoro/non-stacchi-mai-davvero/)
+- quando non riesci a rilassarti → [**resti attivo anche da fermo**](/burnout-e-lavoro/non-riesci-a-rilassarti/)
+- quando ti senti in colpa → [**la pausa diventa errore**](/burnout-e-lavoro/perche-ti-senti-in-colpa-quando-rallenti/)
+
 ### 1. Identifica
 
 Riconosci il momento in cui parte il film mentale: “non ce la farò”, “devo reggere tutto”, “se mollo un attimo crolla tutto”.
 
-Approfondisci: [**Identifica**](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
+Approfondisci: [**Identifica cosa accade dentro di te**](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
 
 ### 2. Ridimensiona
 
@@ -257,5 +272,13 @@ La prima mossa sensata non è fare l’eroe. È fare chiarezza.
 - Se vuoi il framework completo, torna al [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/)
 
 Un passo piccolo, fatto bene, vale più di un’altra settimana passata a dire “resisto ancora un po’”.
+
+Il burnout non arriva all’improvviso.
+
+È una somma di stati che non si chiudono:
+non stacchi, non scendi, non recuperi.
+
+Finché continui così, non è questione di “se”.
+È solo questione di quando.
 
 {% include disclaimer-ironia.html %}

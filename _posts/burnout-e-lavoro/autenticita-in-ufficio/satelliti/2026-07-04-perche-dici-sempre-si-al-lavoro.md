@@ -103,10 +103,9 @@ E il problema non è la richiesta.
 
 In quei due secondi in cui potevi scegliere e hai risposto in automatico.
 
-E quando questo accumulo non si chiude, succede una cosa precisa:  
-[Non riesci a staccare dal lavoro anche quando hai finito](/burnout-e-lavoro/non-stacco-lavoro/)
+E quando questo accumulo non si chiude, succede una cosa precisa: [**Non riesci a staccare dal lavoro anche quando hai finito**](/burnout-e-lavoro/non-stacchi-mai-davvero/)
 
-Se questo schema ti suona familiare, lo tocco anche qui [autenticità al lavoro](/burnout-e-lavoro/autenticita-e-lavoro/): non riguarda solo i task, ma il modo in cui proteggi la tua immagine mentre perdi margine.
+Se questo schema ti suona familiare, lo tocco anche in [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/): non riguarda solo i task, ma il modo in cui proteggi la tua immagine mentre perdi margine.
 
 ## Non è disponibilità. È evitamento
 
@@ -209,6 +208,8 @@ Questo è il punto da tenere fermo:
 
 👉 **non è debolezza**  
 👉 **è una strategia appresa, diventata automatica**
+
+Non è disponibilità: è lo stesso schema che ti porta a [evitare di dire no al lavoro senza sembrare problematico](/burnout-e-lavoro/dire-no-lavoro-senza-problemi/)
 
 ## Il problema non è dire sì. È dirlo senza scelta
 
@@ -323,6 +324,8 @@ Tra richiesta e risposta.
 Se rispondi subito, è automatico.  
 Se crei una pausa, puoi scegliere.
 
+Qui il passaggio utile è [identificare cosa accade dentro di te](/mindfulness-ironica/identificare-cosa-accade-dentro-te/) prima che la risposta parta da sola.
+
 Quindi:
 
 non dire subito sì  
@@ -337,6 +340,8 @@ Frasi semplici:
 - “Ti confermo tra poco”  
 
 Sembra poco. In realtà cambia tutto.
+
+È esattamente il tipo di micro-taglio che trovi in [Interrompi: uscire dal loop prima che diventi comportamento](/mindfulness-ironica/interrompere-il-pilota-automatico/).
 
 Perché:
 
@@ -404,8 +409,12 @@ Non è burnout subito.
 
 Ma è la traiettoria.
 
+Più dici sì, più costruisci [una versione di te che non è sostenibile](/burnout-e-lavoro/maschera-lavorativa/).
+
 È lo stesso schema della  
 [**compiacenza lavorativa**](/burnout-e-lavoro/compiacenza-lavorativa/)
+
+Stare sempre disponibili ti impedisce anche di [staccare davvero dal lavoro anche quando hai finito](/burnout-e-lavoro/non-stacchi-mai-davvero/)
 
 Tieni tutto fluido fuori.  
 E intanto ti svuoti dentro.
@@ -415,7 +424,7 @@ Se vuoi vedere dove porta davvero:
 - [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-lavoro-senza-problemi/)  
 - [**Maschera professionale: il costo mentale di fingere**](/burnout-e-lavoro/maschera-lavorativa/)  
 - [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/)  
-- Se per tenere tutto fluido fuori stai diventando sempre più artificiale dentro, il passaggio successivo è [maschera professionale: il costo mentale di fingere tutto il giorno](/burnout-e-lavoro/maschera-lavorativa/).
+
 
 Se invece senti che questo sì automatico sta già diventando saturazione costante, guarda anche [stress lavoro-correlato](/burnout-e-lavoro/stress-correlato/) e [prevenzione del burnout](/burnout-e-lavoro/prevenzione-e-cura-burnout/).
 

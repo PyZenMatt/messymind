@@ -161,7 +161,8 @@ Qui il lavoro utile non è credere a ogni pensiero che passa, ma **ridimensionar
 
 Se dietro l’urgenza cronica c’è anche il bisogno di sembrare sempre disponibile, può aiutarti leggere anche [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
-In termini di framework, questo è già un uso semplice del metodo [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/): identificare il loop, ridimensionarlo, interrompere l’automatismo e agire su una cosa concreta.
+Se vuoi un sistema operativo per uscire da questo pattern, qui trovi il metodo completo:  
+→ [**Metodo I.R.O.N.I.A.: come interrompere un loop mentale passo dopo passo**](/mindfulness-ironica/metodo-ironia/)
 
 Se oltre a correre senti anche il bisogno di dire sempre sì, stai aggiungendo carico inutile:
 → [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
@@ -188,6 +189,9 @@ Tre righe: cosa riprendi domani, cosa può aspettare, cosa smetti di portarti ad
 
 Queste mosse non risolvono tutto.  
 Ma abbassano il livello di urgenza interna abbastanza da farti ragionare di nuovo.
+
+Se vuoi strutturare queste mosse in modo più solido, parti da qui:  
+→ [**Agisci: trasformare lucidità in azione minima**](/mindfulness-ironica/agisci-per-interrompere-il-loop/)
 
 ## Quando il problema sta scivolando verso burnout
 

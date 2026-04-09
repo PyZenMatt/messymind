@@ -113,6 +113,8 @@ Il punto è semplice: non sei stanco solo per quello che fai. A volte sei stanco
 
 Quando la faccia professionale è sempre accesa, il lavoro si sporca di recitazione. Non stai più solo decidendo cosa dire. Stai monitorando continuamente l’effetto che fai. E questo, alla lunga, drena attenzione.
 
+Tutto parte da micro-scelte ripetute, come [dire sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/).
+
 ## Il costo cognitivo della recitazione continua
 
 La maschera professionale consuma per un motivo molto concreto: sposta risorse attentive.
@@ -131,6 +133,8 @@ Questa dispersione è meno spettacolare dello stress urlato, ma lavora bene in s
 Non perché sei diventato meno capace, ma perché stai usando una parte del cervello per reggere una messinscena leggera ma continua.
 
 Ci sono giorni in cui il lavoro non è neanche stato il pezzo più faticoso. Il pezzo più faticoso è stato sembrare a posto mentre lo facevi.
+
+Quando non [metti confini al lavoro senza sembrare problematico](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/), la pressione non si riduce: aumenta.
 
 Se questa fatica si sta allargando anche a livello di tensione, recupero e irritabilità, il ponte naturale è [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
 
@@ -197,6 +201,8 @@ Secondo: meno entusiasmo finto. Non serve sembrare carico su tutto. L’entusias
 
 Terzo: una frase più chiara al posto di una smorfia diplomatica. Invece di annacquare un attrito fino a farlo sparire, prova a nominarlo in forma pulita.
 
+Qui il passaggio utile è [osservare dove finisce davvero la tua attenzione](/mindfulness-ironica/osservare-senza-interpretare/): sul lavoro, oppure sull’immagine che stai cercando di proteggere.
+
 Quarto: meno sì automatici. La maschera e il sì riflesso lavorano spesso in coppia. Se riduci uno, aiuti anche l’altro.
 
 Quinto: meno spiegazioni infinite. Le spiegazioni troppo lunghe spesso servono a proteggere l’immagine, non a chiarire il lavoro. E fanno perdere forza al bordo.
@@ -254,7 +260,7 @@ Questo va detto, perché altrimenti finiamo nella favola in cui basta scegliere 
 
 In questi casi il lavoro utile non è abolire ogni filtro. È ridurre il costo della recitazione dove puoi, e vedere con onestà dove il sistema ti chiede troppo.
 
-Per allargare il quadro, il pezzo madre resta [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/). E il subcluster è qui: [**Autenticità in ufficio**](/burnout-e-lavoro/autenticita-in-ufficio/).
+Per allargare il quadro, il pezzo madre resta [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/). E la categoria è qui: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/).
 
 Se questa pressione si traduce soprattutto in tensione continua, recupero scarso e sensazione di lavorare sempre in allerta, il ponte naturale è [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
 
@@ -269,7 +275,7 @@ Per continuare:
 - [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
 - [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
 - [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
-- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tmepo/)
+- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita/)
 - Hub del subcluster: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/)
 - Correlato utile: [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
 

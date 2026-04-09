@@ -4,8 +4,7 @@ title: "Quando un’esperienza spirituale ti destabilizza invece di aiutarti"
 description: "Quando un’esperienza spirituale non aiuta ma destabilizza: come riconoscere i segnali e cosa fare per non peggiorare la situazione."
 seo_title: "Quando un’esperienza spirituale ti destabilizza invece di aiutarti"
 seo_description: "Quando un’esperienza spirituale non aiuta ma destabilizza: come riconoscere i segnali e cosa fare per non peggiorare la situazione."
-date: 2026-04-17 08:00:00 +0200
-last_modified_at: 2026-03-27 17:40:00 +0100
+date: 2026-04-08
 categories: ["mindfulness-ironica"]
 subcluster: "spiritualita-prudente"
 tags: ["esperienza-spirituale", "kundalini", "ansia", "insonnia", "destabilizzazione", "spiritualita-prudente"]

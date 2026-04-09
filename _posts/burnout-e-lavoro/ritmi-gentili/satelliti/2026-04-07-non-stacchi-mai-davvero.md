@@ -84,6 +84,7 @@ Ma ancora attiva.
 E il problema non è solo che pensi al lavoro.  
 È che non esci mai davvero dalla modalità lavoro.
 
+👉 Spesso questo stato nasce anche da [come lavori](/burnout-e-lavoro/dici-sempre-si-lavoro/), non solo da quanto lavori
 ---
 
 ## Il problema non è il lavoro. È che non chiudi mentalmente
@@ -126,7 +127,9 @@ Perché non hai chiuso il ciclo.
 Questo è il punto che molti saltano:
 
 👉 non stai pensando troppo  
-👉 stai lasciando aperti loop mentali  
+👉 stai lasciando aperti loop mentali
+
+Anche quando ti fermi, [la testa continua a lavorare.](/burnout-e-lavoro/non-riesci-a-rilassarti/)
 
 Se vuoi capire meglio questo meccanismo, leggi anche  
 [**Overthinking: perché la tua mente non si ferma**](/filosofia-pratica/overthinking/)
@@ -135,7 +138,7 @@ Questo stesso meccanismo lo ritrovi anche quando dici sì a tutto:
 accumuli [lavoro senza scegliere davvero.](/burnout-e-lavoro/dici-sempre-si-lavoro/)
 
 Spesso questo succede perché accetti troppo senza filtrare:
-→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
+→ [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
 
 ---
 
@@ -168,6 +171,7 @@ Ma non lo è.
 👉 accumula  
 
 Ed è lì che il problema comincia.
+Questo stato crea anche un [senso di colpa quando rallenti.](/burnout-e-lavoro/perche-ti-senti-in-colpa-quando-stacchi/)
 
 ---
 
@@ -233,8 +237,11 @@ Fine.
 👉 non stai calmando la mente  
 👉 stai togliendo il motivo per cui resta attiva  
 
-Se vuoi un framework più strutturato, usa il metodo  
-[**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/)
+Se vuoi rendere questa chiusura ripetibile, parti da qui:  
+→ [**Agisci: trasformare lucidità in azione minima**](/mindfulness-ironica/agisci-per-interrompere-il-loop/)
+
+Quello che hai fatto qui è già questo:  
+→ [**Interrompere il loop mentale prima che riparta automaticamente**](/mindfulness-ironica/interrompere-il-pilota-automatico/)
 
 ---
 

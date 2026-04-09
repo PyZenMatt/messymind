@@ -99,6 +99,9 @@ Molti dicono sì non per paura esplicita, ma per micro-timore sociale ben più b
 
 Il punto da tenere fermo è questo: la professionalità non coincide con l’assorbire ogni richiesta senza filtro. Coincide con il saper proteggere ciò che conta, anche quando qualcuno ti mette addosso un’urgenza con il tono di chi ha già deciso per te.
 
+Se [dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/), non è un caso. È un pattern stabile.
+
+
 ## Il vero problema non è il no. È il sì automatico
 
 Il no viene vissuto come il problema visibile. In realtà il problema vero è il sì riflesso, quello che esce prima ancora che tu abbia guardato agenda, carico, priorità e margine mentale.
@@ -120,7 +123,7 @@ Quando lavori sempre in risposta agli altri, succedono almeno quattro cose:
 
 Il no fatto bene non crea questo problema. Il sì automatico sì.
 
-Se questa rincorsa continua ti suona familiare, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/).
+Se questa rincorsa continua ti suona familiare, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita/).
 
 ## Quando dire sì ti costa più di quanto ti protegga
 
@@ -137,6 +140,8 @@ Tieni tutto aperto. Nessun no netto, nessun sì davvero sostenibile, solo un muc
 E soprattutto: ti senti bravo ma svuotato. Questa è la parte più subdola. Funzioni. Consegni. Reggi. Da fuori sembri uno affidabile. Da dentro, però, lavori sempre un gradino sotto la tua qualità reale.
 
 Qui il problema non è la fatica in sé. Il lavoro stanca, fine. Il problema è la fatica inutile: quella che nasce dal non filtrare.
+
+Se continui a evitare il conflitto, inizi a lavorare dentro [una versione filtrata di te stesso](/burnout-e-lavoro/maschera-lavorativa/).
 
 Se oltre a questo senti anche irritabilità, recupero scarso e tensione costante, può aiutarti leggere [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
 
@@ -251,7 +256,7 @@ Non è durezza. È evitare che il lavoro si deformi senza revisione del contesto
 
 A un certo punto bisogna dirlo pulito: non sempre il problema è che “gli altri chiedono troppo”. A volte il problema è che tu dici sì per evitare attrito, disagio, micro-delusione altrui o l’idea di sembrare difficile.
 
-Questa è [compiacenza lavorativa](/filosofia-pratica/compiacenza-lavorativa). E no, non è una colpa morale. È una strategia di breve periodo che spesso funziona abbastanza da diventare automatica.
+Questa è [compiacenza lavorativa](/filosofia-pratica/compiacenza-lavorativa/). E no, non è una colpa morale. È una strategia di breve periodo che spesso funziona abbastanza da diventare automatica.
 
 Il guaio è che il costo non sparisce. Lo sposti su di te.
 
@@ -276,11 +281,15 @@ Non serve rifondare la personalità. Serve inserire attrito buono tra richiesta 
 
 Una micro-sequenza utile è questa:
 
+Qui il punto non è sembrare più forte, ma [identificare cosa accade dentro di te](/mindfulness-ironica/identificare-cosa-accade-dentro-te/) prima che la risposta parta da sola.
+
 **1. Nota l’impulso a dire sì.**  
 Non il pensiero raffinato. L’impulso. Quello che ti fa rispondere subito per chiudere il disagio.
 
 **2. Fermati 10 secondi.**  
 Dieci secondi non sono una tecnica spirituale. Sono una diga minima contro l’automatismo.
+
+È esattamente il tipo di micro-taglio che trovi in [Interrompi: uscire dal loop prima che diventi comportamento](/mindfulness-ironica/interrompere-il-pilota-automatico/).
 
 **3. Chiarisci la priorità.**  
 Chiediti: cosa sto spostando se accetto? Cosa peggioro? Cosa apro?

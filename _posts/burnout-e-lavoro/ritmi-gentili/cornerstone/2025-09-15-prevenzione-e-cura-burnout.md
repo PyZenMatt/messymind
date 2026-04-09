@@ -121,7 +121,7 @@ Chiediti:
 - cosa tieni aperto per riflesso?  
 - dove stai reagendo invece che decidendo?  
 
-Qui serve interrompere il loop di urgenza:  
+Qui serve interrompere la reazione automatica prima che diventi un’altra giornata vissuta in rincorsa:  
 → [**Interrompi: uscire dal loop mentale**](/mindfulness-ironica/interrompere-il-pilota-automatico/)
 
 ## La seconda leva: proteggere il recupero
@@ -143,8 +143,8 @@ Se non recuperi:
 - meeting diet  
 - WIP limit  
 
-Se il problema è identitario:  
-→ [**Autenticità al lavoro**](/burnout-e-lavoro/autenticita-e-lavoro/)
+Se il problema è identitario, il pezzo giusto è:  
+→ [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
 
 ## Il lavoro che ti resta addosso
 
@@ -160,7 +160,7 @@ Se:
 → sei dentro un loop attivo  
 
 Approfondisci:  
-→ [**Perché ripensi a una mail per ore**](/filosofia-pratica/decisioni-e-bias/ripensare-mail-ore/)
+→ [**Perché ripensi a una mail per ore**](/filosofia-pratica/ripensare-mail-ore/)
 
 ## Protocollo 14 giorni
 
@@ -202,7 +202,3 @@ Serve correzione reale.
 ## FAQ
 
 {% include faq.html %}
-
-## HOW TO
-
-{% include howto.html %}
