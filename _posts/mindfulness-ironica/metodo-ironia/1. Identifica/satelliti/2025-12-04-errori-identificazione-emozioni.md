@@ -29,6 +29,10 @@ faq_items:
     answer: "Separare pensiero ed emozione. Scrivi: pensiero → frase. Emozione → una parola semplice (ansia, rabbia, tristezza)."
   - question: "Devo capire anche il perché di quello che provo?"
     answer: "No. Prima identifichi. Il perché viene dopo, se serve. Cercarlo subito crea solo rumore mentale."
+redirect_from:
+  - /errori-identificazione-emozioni.md/
+permalink: /mindfulness-ironica/errori-identificazione-emozioni/
+
 ---
 ```
 

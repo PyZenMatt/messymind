@@ -35,14 +35,13 @@ howto:
     - name: "Fai una micro-correzione"
       text: "Scegli una sola azione concreta: chiarire una priorità, proteggere 30 minuti di focus o rinviare una richiesta non urgente."
 
-      https://res.cloudinary.com/dkoc4knvv/image/upload/v1775720291/pexels-yankrukov-7640809_kp88cw.jpg
 image_author: Yan Krukau 
 image_author_url: https://www.pexels.com/it-it/foto/persona-donna-ufficio-lavorando-7640809/
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1775720291/pexels-yankrukov-7640809_kp88cw.jpg
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1757839184/burnout_2_600_x1k4nf.webp
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1775720291/pexels-yankrukov-7640809_kp88cw.jpg
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1775720291/pexels-yankrukov-7640809_kp88cw.jpg
-image_alt: "Persona alla scrivania, stanchezza evidentee mani sulla testa, simbolo di stress da lavoro
+image_alt: "Persona alla scrivania, stanchezza evidentee mani sulla testa, simbolo di stress da lavoro"
 ---
 
 **In breve:** lo stress lavoro-correlato non è solo una giornata pesante. È quello che succede quando il lavoro continua a chiederti più risorse di quelle che riesci a mobilitare bene, e questa pressione inizia a peggiorare lucidità, energia, concentrazione e qualità delle decisioni.
