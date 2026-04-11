@@ -147,7 +147,13 @@ const cookieManager = {
 
     // Carica Google Analytics
     loadGoogleAnalytics() {
-        console.log('� LOAD GA CALLED');
+        // Blocca GA in ambiente locale (localhost / 127.0.0.1)
+        if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+            console.log('🚫 GA disabilitato in ambiente locale');
+            return;
+        }
+        
+        console.log('🔥 LOAD GA CALLED');
         console.log('📊 loadGoogleAnalytics() - Checking protection flags...');
         console.log('  window.gtagLoaded:', window.gtagLoaded);
         console.log('  window.gtag:', typeof window.gtag !== 'undefined' ? 'defined' : 'undefined');
