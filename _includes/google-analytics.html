@@ -1,28 +1,39 @@
 <!-- Google Analytics GDPR-Compliant - Caricato solo con consenso -->
 <!-- Il caricamento è gestito da cookie-manager.js basato sul consenso utente -->
 
-<!-- Debug: Verifica stato GA e cookie manager -->
+<!-- Debug: Verifica stato GA e cookie manager (DEFERRED per evitare race condition con defer scripts) -->
 <script>
 (function() {
-    console.log('📍 google-analytics.html include loaded');
-    
-    // Debug: Verifica cheookie manager sia caricato
-    if (!window.cookieManager) {
-        console.error('❌ ERROR: cookieManager not found! Cookie consent cannot be managed.');
-        return;
+    // Attendere fino a window.load per garantire che i defer script (cookie-manager.js) siano eseguiti
+    if (document.readyState === 'complete') {
+        // Se lo script è caricato dopo che load è già occurred
+        performGACheck();
+    } else {
+        // Aspettare l'evento load
+        window.addEventListener('load', performGACheck);
     }
     
-    console.log('✅ cookieManager found - GA will load after user consent');
-    
-    // Debug: Mostra stato consent attuale
-    const consent = window.cookieManager.getCurrentConsent();
-    console.log('📊 Current consent state:', consent);
-    
-    // Debug: Mostra se GA è già caricato
-    if (window.gtag || window.gtagLoaded) {
-        console.log('✅ GA appears to be already loaded (gtag found)');
-    } else {
-        console.log('⏳ GA not loaded yet - waiting for user consent...');
+    function performGACheck() {
+        console.log('📍 google-analytics.html include loaded');
+        
+        // Debug: Verifica che cookie manager sia caricato
+        if (!window.cookieManager) {
+            console.error('❌ ERROR: cookieManager not found! Cookie consent cannot be managed.');
+            return;
+        }
+        
+        console.log('✅ cookieManager found - GA will load after user consent');
+        
+        // Debug: Mostra stato consent attuale
+        const consent = window.cookieManager.getCurrentConsent();
+        console.log('📊 Current consent state:', consent);
+        
+        // Debug: Mostra se GA è già caricato
+        if (window.gtag || window.gtagLoaded) {
+            console.log('✅ GA appears to be already loaded (gtag found)');
+        } else {
+            console.log('⏳ GA not loaded yet - waiting for user consent...');
+        }
     }
 })();
 </script>
