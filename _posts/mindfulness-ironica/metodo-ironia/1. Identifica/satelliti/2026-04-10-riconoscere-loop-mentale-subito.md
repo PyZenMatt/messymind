@@ -196,7 +196,7 @@ Se lo segui:
 
 C’è un momento preciso in cui perdi distanza.
 
-→ [Il momento esatto in cui perdi il controllo del loop](/mindfulness-ironica/quando-perdi-controllo-loop/)
+→ [Il momento esatto in cui perdi il controllo del loop](/mindfulness-ironica/il-momento-in-cui-perdi-il-controllo/)
 
 La mente smette di osservare e inizia a raccontare.
 

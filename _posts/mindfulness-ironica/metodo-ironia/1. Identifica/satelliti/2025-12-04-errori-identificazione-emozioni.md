@@ -1,4 +1,3 @@
-```yaml
 ---
 layout: post
 title: "Perché non riesci a capire cosa provi: 7 errori comuni (e come evitarli)"
@@ -6,14 +5,11 @@ slug: "errori-identificazione-emozioni"
 seo_title: "Perché non capisci cosa provi: 7 errori comuni nell’identificazione emotiva"
 seo_description: "Non riesci a capire cosa provi? Ecco i 7 errori più comuni nell’identificazione emotiva e come evitarli con la fase I del Metodo I.R.O.N.I.A."
 description: "Non è che non sai cosa provi: stai sbagliando metodo. I 7 errori più comuni nell’identificazione emotiva e come evitarli senza cadere nell’iperanalisi."
+date: 2025-12-04
+last_modified_at: 2026-04-11
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
-tags:
-  - identificazione emotiva
-  - errori cognitivi
-  - consapevolezza
-  - mindfulness pratica
-  - overthinking
+tags: ["loop mentale","identificazione emozioni", "overthinking" ,"ansia da performance" ,"pilota automatico" ,"identifica"]
 is_cornerstone: false
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1764494582/errori_yto6jt.jpg
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764494582/errori_yto6jt.jpg
@@ -34,11 +30,14 @@ redirect_from:
 permalink: /mindfulness-ironica/errori-identificazione-emozioni/
 
 ---
-```
 
-# Perché non riesci a capire cosa provi
+Quando sei dentro un loop mentale, non è che “non sai cosa provi”.
 
-Quando provi a fare la [**I – Identifica** del Metodo I.R.O.N.I.A.](/mindfulness-ironica/identificare-cosa-accade-dentro-te/), il problema non è che “non senti niente”.
+È che stai cercando di capirlo nel modo sbagliato.
+
+Nel momento in cui ti serve lucidità, fai sempre gli stessi errori. E invece di chiarire, aumenti il rumore.
+
+Se stai cercando di applicare la fase [Identifica del Metodo I.R.O.N.I.A.](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
 
 Stai facendo sempre gli stessi errori.
 
@@ -63,7 +62,7 @@ Se non separi:
 * perdi il corpo
 * alimenti l’overthinking
 
-Stesso meccanismo di [**overthinking**](/filosofia-pratica/overthinking/): pensi di capire, ma stai solo ripetendo.
+È anche il motivo per cui non vedi partire il loop: [Perché non ti accorgi del loop mentale quando parte](/mindfulness-ironica/perche-non-ti-accorgi-del-loop/).
 
 ### Correzione
 
@@ -113,7 +112,7 @@ E finisci in:
 * significato
 * storia personale
 
-Non è identificazione. È fuga.
+Non è identificazione. È un modo più sofisticato per restare nel loop.
 
 ### Correzione
 
@@ -135,6 +134,8 @@ Sequenza:
 
 Hai saltato la fase chiave.
 
+È lo stesso punto in cui perdi il controllo senza accorgertene: [Il momento in cui perdi il controllo del loop mentale](/mindfulness-ironica/il-momento-in-cui-perdi-il-controllo/).
+
 ### Correzione
 
 Sostituisci:
@@ -152,7 +153,7 @@ Giudizio → opzionale
 
 ## Errore 5 — Usare etichette vaghe
 
-“Sto uno schifo” = inutile
+“Sto uno schifo” non ti serve a niente quando devi decidere cosa fare.
 
 Dentro c’è tutto:
 
@@ -189,7 +190,7 @@ Allenamento nei micro-loop:
 * attesa
 
 Esempio reale:
-[**Perché controlli continuamente un messaggio su WhatsApp**](/filosofia-pratica/ripensare-whatsapp-ore/)
+[Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 
 ---
 
@@ -199,7 +200,7 @@ Esempio reale:
 
 Errore.
 
-La tecnica serve **quando sei dentro il loop**.
+Se aspetti di essere lucido, sei già fuori dal momento in cui serviva.
 
 ### Correzione
 
@@ -209,11 +210,13 @@ Identifica **anche male**, ma subito.
 
 ## Micro-azione operativa (10 secondi)
 
-Quando parte il loop:
+Se non lo intercetti qui, finisci automaticamente nel comportamento: [Come interrompere un loop mentale quando sei già dentro](/mindfulness-ironica/interrompere-il-pilota-automatico/).
 
-1. pensiero → frase
-2. emozione → una parola
-3. corpo → sensazione
+1. pensiero → frase secca
+2. emozione → una parola (ansia, rabbia, ecc.)
+3. corpo → sensazione fisica
+
+Niente analisi. Solo etichetta.
 
 Stop.
 
@@ -224,11 +227,10 @@ Questo è il punto di ingresso del
 
 ## Dove portare questa capacità
 
-Una volta che identifichi, puoi:
+Se identifichi correttamente, puoi fare due cose:
 
-* dare un nome preciso → [**N – Nomina**](/mindfulness-ironica/nomina-cio-che-senti/)
-* interrompere il loop → **Interrompi**
-* agire → **Agisci**
+* dare un nome preciso → [Nomina](/mindfulness-ironica/nomina-cio-che-senti/)
+* interrompere la sequenza prima che diventi automatica
 
 Senza identificazione, tutto il resto non parte.
 
@@ -236,15 +238,12 @@ Senza identificazione, tutto il resto non parte.
 
 ## Dove andare adesso
 
-Per consolidare:
+Per consolidare davvero questa fase:
 
-→ Torna al cornerstone:
-[**Identificare cosa accade dentro di te**](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
+→ Torna al punto base:  
+[Identificare cosa accade dentro di te](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
 
-→ Vedi come questo errore si trasforma in loop mentale:
-[**Overthinking: perché pensiamo troppo**](/filosofia-pratica/overthinking/)
-
-→ Oppure passa allo step successivo:
-[**Nomina: dare un nome preciso a quello che provi**](/mindfulness-ironica/nomina-cio-che-senti/)
+→ Oppure passa allo step successivo:  
+[Nomina: dare un nome preciso a quello che provi](/mindfulness-ironica/nomina-cio-che-senti/)
 
 {% include metodo-ironia.html %}

@@ -5,7 +5,7 @@ description: "I bias cognitivi spiegati con CBT e MCT: perché sembrano logici, 
 seo_title: "Bias Cognitivi: CBT e MCT spiegati senza psicologese"
 seo_description: "Cosa sono i bias cognitivi secondo CBT e MCT, perché distorcono la realtà e come usarli nella fase R – Ridimensiona del Metodo I.R.O.N.I.A."
 date: 2026-01-06
-last_modified_at: 2026-01-06
+last_modified_at: 2026-04-11
 
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -31,108 +31,129 @@ lcp_image_alt: uno schema che mostra i bias cognitivi
 La scena è sempre la stessa:  
 una frase detta a metà, un messaggio letto in fretta, una risposta che non arriva.
 
-La testa parte e io la seguo per qualche minuto convinto di stare “analizzando”.  
-In realtà sto già **interpretando**.
+La testa parte.  
+E tu la segui convinto di stare analizzando.
 
-Il punto chiave di CBT e MCT è questo:  
+In realtà stai già **interpretando**.
+
+Il punto chiave è questo:  
 **tra ciò che accade e ciò che pensi c’è una lente automatica**.
 
-Il problema non è il contenuto del pensiero, ma **la presunta oggettività con cui lo tratti**.
+Il problema non è il contenuto del pensiero.  
+È **la sicurezza con cui lo tratti come realtà**.
 
-La mente non dice: “forse sto interpretando”.  
-Dice: “è evidente”.
+Se vuoi lavorare direttamente su questo passaggio:  
+→ [/mindfulness-ironica/ridimensiona-il-dramma-mentale/](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
 
-Ed è qui che l’illusione si consolida: ciò che stai guardando *sembra* realtà,  
-ma è già una costruzione.
+---
 
 ### Cosa sono i bias cognitivi (CBT e MCT)
 
 I bias cognitivi non sono difetti.  
-Non sono bug.
+Non sono errori.
 
 Sono **scorciatoie**.
 
-La CBT li chiama distorsioni, la MCT li tratta come **pattern di funzionamento**.  
-A me interessa questo punto:  
-nascono per farci decidere in fretta, **non per descrivere il mondo con precisione**.
+Servono a decidere in fretta,  
+non a descrivere il mondo con precisione.
 
-Quando la posta in gioco è bassa, funzionano bene.  
-Quando entra in gioco l’ansia, iniziano a stringere il campo visivo.
+Quando la situazione è neutra, funzionano.  
+Quando entra ansia o pressione, iniziano a distorcere.
 
 Non sono “pensieri sbagliati”.  
-Sono **pensieri plausibili, ma incompleti**.
+Sono **pensieri plausibili ma incompleti**.
 
-Ed è proprio per questo che convincono così bene.
+Ed è proprio per questo che convincono.
+
+Se vuoi riconoscerli al volo nella pratica:  
+→ [/mindfulness-ironica/riconoscere-distorsioni-cognitive/](/mindfulness-ironica/riconoscere-distorsioni-cognitive/)
+
+---
 
 ### I bias che alimentano ansia e ruminazione
 
-Ce ne sono molti. Qui bastano quelli che tengono acceso il loop.
+Non servono tutti. Bastano questi.
 
 **Catastrofizzazione**  
-Un dettaglio diventa un finale.  
-Un errore minimo viene già trattato come anticamera del disastro.
+Un dettaglio diventa un finale.
 
 **Lettura del pensiero**  
-Attribuisci intenzioni senza prove.  
-“Se non risponde, significa che…” — e la frase si chiude da sola.
+Attribuisci intenzioni senza dati.
 
 **Doverizzazioni**  
-Regole invisibili travestite da logica.  
-“Avrei dovuto”, “non si fa”, “a questo punto è chiaro che”.
+Regole invisibili che sembrano logiche.
 
-Questi bias hanno una cosa in comune: **danno struttura all’ansia**.  
-Non la creano. La organizzano.  
-Ed è così che la rendono stabile.
+Hanno una cosa in comune:  
+**danno struttura all’ansia**.
 
-### Dove entrano i bias nel Metodo I.R.O.N.I.A
+Non la creano.  
+La organizzano.
 
-Nel Metodo I.R.O.N.I.A, i bias entrano **nella R — Ridimensiona**.
+---
 
-Ridimensionare non significa correggere il pensiero.  
-Non significa sostituirlo.
+### Dove entrano nel Metodo I.R.O.N.I.A.
 
-Significa **ridurre la sua pretesa di verità assoluta**.
+Qui entrano nella **R — Ridimensiona**.
 
-Quando riconosco un bias, non sto dicendo “è falso”.  
-Sto dicendo: *è una lente, non il paesaggio*.
+Ridimensionare non è correggere il pensiero.  
+Non è sostituirlo.
 
-Ed è per questo che **Ridimensiona ≠ pensare positivo**.  
-È un’operazione di scala, non di ottimismo.
+È **ridurre la sua pretesa di verità**.
 
-Qui la mappa serve: **dare un nome al pattern abbassa la pressione**.  
-Non perché risolve, ma perché smette di sembrare unico e definitivo.
+Quando riconosci un bias, non stai dicendo:  
+“è falso”
 
-### Il limite della mappa se resta teoria
+Stai dicendo:  
+“è una lente”
 
-C’è un rischio chiaro: **trasformare i bias in un altro oggetto di iper-analisi**.
+Questo cambia tutto.
 
+Se vuoi vedere come applicarlo in concreto:  
+→ [/mindfulness-ironica/ridimensiona-il-dramma-mentale/](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
+
+---
+
+### Il limite della teoria
+
+Qui si blocca quasi tutti.
+
+Capisci i bias.  
 Li riconosci.  
-Li elenchi.  
 Li spieghi.
 
 E resti fermo.
 
-La mappa serve solo se prepara il passo successivo.  
-Nel Metodo I.R.O.N.I.A non basta vedere la lente:  
-serve **uscire dal solo pensiero**, passando per le altre fasi.
+Il problema non è capire.  
+È usare.
 
-Senza Identifica, Nomina, Interrompi e Agisci,  
-la mappa diventa un museo.  
-Interessante. Pulito. Inutile.
+Se resti nella testa, stai solo raffinando il loop.
+
+Per questo:
+
+- se sei ancora lucido → ridimensiona  
+- se sei già dentro → interrompi  
+
+→ [/mindfulness-ironica/interrompere-il-pilota-automatico/](/mindfulness-ironica/interrompere-il-pilota-automatico/)
+
+---
 
 ### E allora?
 
-Se il problema non è il pensiero ma la lente con cui lo guardi,  
-**ridimensionare diventa più utile che convincerti**.
+Se il problema è la lente,  
+non serve convincerti.
 
-Il contesto completo è nel **[Metodo I.R.O.N.I.A](/mindfulness-ironica/metodo-ironia/)**  
-e la fase chiave è **[R — Ridimensiona](/mindfulness-ironica/metodo-ironia/lettera-r-ridimensiona/)**.
+Serve **ridurre la scala**.
 
+Questo è il passaggio chiave:
 
-Se vuoi, prossimo passo naturale:
+- vedere la distorsione  
+- non seguirla  
+- riportarla ai dati  
 
-* wrapper **Affect labeling — Nomina (N)**
-  oppure
-* wrapper **Behavioral Activation — Agisci (A)**
+Se vuoi allenarlo nella vita reale:  
+→ [/mindfulness-ironica/allenare-il-ridimensionamento/](/mindfulness-ironica/allenare-il-ridimensionamento/)
 
-Dimmi quale.
+Se vuoi il quadro completo:  
+→ [/mindfulness-ironica/metodo-ironia/](/mindfulness-ironica/metodo-ironia/)
+
+---

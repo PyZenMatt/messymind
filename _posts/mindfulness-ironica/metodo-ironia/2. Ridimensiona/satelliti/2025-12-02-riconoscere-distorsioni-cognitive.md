@@ -22,67 +22,24 @@ og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,
 
 ## **Quando la mente fa regia: cosa sono le distorsioni cognitive**
 
-La scena: *notifica sul telefono*.
+La scena: *notifica sul telefono*.  
 Tre parole: **“Poi ti chiamo.”**
-E già senti l’ansia che sale come se qualcuno avesse appena letto il tuo estratto conto pubblico su un maxi-schermo in piazza.
 
-Quello che accade non è “ansia caratteriale”. È regia.
+E già senti l’ansia che sale.
+
+Quello che accade è questo:  
+stai reagendo a una versione distorta del problema.
+
 La mente prende uno stimolo minimo e lo infila in un copione drammatico già pronto.
 
-Le distorsioni cognitive sono questo: **trucchi narrativi automatici** che la mente usa per riempire il vuoto tra quello che sappiamo e quello che temiamo. Non sono difetti personali, e non sono segni che “pensi male”. Sono scorciatoie evolutive che oggi, nell’era delle notifiche, fanno più danni che servizi.
+Le distorsioni cognitive sono questo: **trucchi narrativi automatici** che la mente usa per riempire il vuoto tra quello che sappiamo e quello che temiamo.
 
-Ed è qui che entra la **R di Ridimensiona** del Metodo I.R.O.N.I.A.: non per giudicarti, ma per riconoscere il trucco. Dire: *“Ok, questo non è un fatto. È una storia.”*
-Già metà del dramma evapora così.
+Ed è qui che entra la **R di Ridimensiona** del Metodo I.R.O.N.I.A.:  
+→ [/mindfulness-ironica/ridimensiona-il-dramma-mentale/](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
 
----
+Non per giudicarti, ma per riconoscere il trucco.
 
-## **Catastrofizzazione, lettura del pensiero & co.: il cast fisso del tuo dramma mentale**
-
-Le distorsioni cognitive non sono infinite. Sono un piccolo gruppo di attori, sempre gli stessi, che si alternano come in una sitcom eterna. Eccoli, con esempi reali da vita quotidiana.
-
-### **1. Catastrofizzazione: “È finita.”**
-
-Stimolo: mail del capo con oggetto “Parliamo”.
-Trama mentale: licenziamento, fallimento, cambio identità e fuga in Portogallo.
-
-In realtà può voler dire qualsiasi cosa, incluse banalità come: “Serve un file.”
-La catastrofizzazione è l’arte di trasformare un *forse* in un *disastro certo*.
-
-### **2. Lettura del pensiero: “Lo so cosa pensa.”**
-
-Stimolo: un messaggio visualizzato ma senza risposta.
-Trama mentale: “Mi odia”, “Ho sbagliato tutto”, “È deluso”.
-
-Peccato che l’altra persona magari stia semplicemente… lavorando.
-La lettura del pensiero crea drammi su dati immaginari.
-
-### **3. Filtro negativo: “Tutto va male.”**
-
-Stimolo: 9 feedback positivi e 1 commento critico.
-Trama mentale: *Quel commento* divora tutto il resto.
-
-Il filtro negativo è come quegli occhiali da sole economici che scuriscono l’intero panorama anche quando c’è luce piena.
-
-### **4. Generalizzazione estrema: “È sempre così.”**
-
-Stimolo: un errore in una presentazione.
-Trama mentale: “Sbaglio tutto”, “Non imparo mai”, “Non sono portato”.
-
-Una singola goccia trasformata in diluvio universale.
-
-### **5. Doverizzazioni: “Dovrei essere diverso.”**
-
-Stimolo: senti ansia per una decisione.
-Trama mentale: “Dovrei essere più sicuro”, “Dovrei reagire meglio”.
-
-Le doverizzazioni sono la colonna sonora del senso di inadeguatezza.
-
-### **6. Personalizzazione: “È colpa mia.”**
-
-Stimolo: una persona è silenziosa.
-Trama mentale: “Ha qualcosa contro di me”, “Sono io il problema”.
-
-La personalizzazione ti mette al centro anche quando non c’entri niente.
+Dire: *“Ok, questo non è un fatto. È una storia.”*
 
 ---
 
@@ -102,10 +59,19 @@ Quando nella testa compaiono parole come:
 
 … sei quasi sicuramente dentro una distorsione.
 
+Se vedi questo, non analizzare.  
+Passa direttamente a ridimensionare:  
+→ [/mindfulness-ironica/ridimensiona-il-dramma-mentale/](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
+
+---
+
 ### **2. Urgenza emotiva improvvisa**
 
 Il corpo parte come se ci fosse un incendio, ma in realtà c’è solo una notifica innocua.
+
 Quella sproporzione è già un indizio.
+
+---
 
 ### **3. Micro-domande da 3 secondi**
 
@@ -117,68 +83,134 @@ Chiediti:
 
 Se la risposta è piena di interpretazioni… distorsione in corso.
 
+Se devi decidere in quel momento:  
+→ [/mindfulness-ironica/quando-non-fidarti-dei-tuoi-pensieri/](/mindfulness-ironica/quando-non-fidarti-dei-tuoi-pensieri/)
+
+---
+
+## **Catastrofizzazione, lettura del pensiero & co.: il cast fisso del tuo dramma mentale**
+
+Le distorsioni cognitive non sono infinite. Sono un piccolo gruppo di attori, sempre gli stessi.
+
+### **1. Catastrofizzazione: “È finita.”**
+
+Stimolo: mail del capo con oggetto “Parliamo”.  
+Trama mentale: licenziamento, fallimento, cambio identità.
+
+In realtà può voler dire qualsiasi cosa.
+
+---
+
+### **2. Lettura del pensiero: “Lo so cosa pensa.”**
+
+Stimolo: un messaggio visualizzato ma senza risposta.  
+Trama mentale: “Mi odia”, “Ho sbagliato tutto”.
+
+Dati reali: nessuno.
+
+---
+
+### **3. Filtro negativo: “Tutto va male.”**
+
+Stimolo: 9 feedback positivi e 1 commento critico.  
+Trama mentale: quel commento divora tutto.
+
+---
+
+### **4. Generalizzazione estrema: “È sempre così.”**
+
+Stimolo: un errore.  
+Trama mentale: “Sbaglio tutto.”
+
+---
+
+### **5. Doverizzazioni: “Dovrei essere diverso.”**
+
+Stimolo: senti ansia.  
+Trama mentale: “Dovrei essere più sicuro.”
+
+---
+
+### **6. Personalizzazione: “È colpa mia.”**
+
+Stimolo: qualcuno è silenzioso.  
+Trama mentale: “Sono io il problema.”
+
+---
+
+Non serve conoscerle tutte.  
+Ti basta riconoscere che stanno gonfiando la realtà.
+
 ---
 
 ## **Dal dramma al documentario: tradurre la distorsione in linguaggio neutro**
 
 Il punto non è zittire la mente. È **tradurre**.
 
-Prendi la frase distorta e riscrivila come se stessi registrando un documentario sulla tua vita.
-
 ### **Esempio 1 — Chat ignorata**
 
-Prima:
-«Non mi risponde, mi sta evitando. Sicuro è arrabbiato.»
+Prima:  
+«Non mi risponde, mi sta evitando.»
 
-Dopo (versione documentario):
-«La persona X non ha ancora risposto al messaggio. Il motivo non è noto.»
-
-### **Esempio 2 — Errore al lavoro**
-
-Prima:
-«Ho sbagliato una cosa, farò una figuraccia.»
-
-Dopo:
-«C’è un errore nel file. Può essere corretto.»
-
-### **Esempio 3 — Messaggio vago**
-
-Prima:
-«Mi ha scritto “poi ti dico”: sicuramente c’è un problema.»
-
-Dopo:
-«Il contenuto del messaggio non è chiaro. Non ci sono indicazioni di urgenza.»
-
-Questo passaggio è lo stesso che trovi nella **R di Ridimensiona**:
-**fatti → trama → ridimensionamento**.
-Una volta vedi la trama, il film non regge più.
+Dopo:  
+«La persona non ha ancora risposto. Il motivo non è noto.»
 
 ---
 
-## **E allora? Un esercizio da 5 minuti per smontare la tua distorsione preferita**
+### **Esempio 2 — Errore al lavoro**
 
-Prendi un foglio o una nota sul telefono. Per una settimana, fai questo micro-schema:
+Prima:  
+«Farò una figuraccia.»
 
-1. **Situazione**
-   Cosa è successo davvero? (Solo fatti.)
+Dopo:  
+«C’è un errore. Può essere corretto.»
 
-2. **Pensiero distorto**
-   Qual è il film mentale partito in automatico?
+---
 
-3. **Riscrittura ridimensionata**
-   La versione documentaristica della stessa scena.
+### **Esempio 3 — Messaggio vago**
 
-Ripeti ogni giorno con **una sola** distorsione ricorrente.
-Alla fine della settimana, rileggi tutto: vedrai pattern che prima non vedevi.
-E qui collega il lavoro al cornerstone sulla R:
+Prima:  
+«Sicuramente c’è un problema.»
 
-➡️ **[Ridimensiona il dramma mentale prima che diventi un disastro](/mindfulness-ironica/ridimensiona-il-dramma-mentale-prima-che-diventi-un-disastro)**
+Dopo:  
+«Il contenuto non è chiaro.»
+
+---
+
+Questo è esattamente il passaggio tra:
+
+- Identifica → vedi la distorsione  
+- Ridimensiona → correggi la scala  
+
+→ [/mindfulness-ironica/ridimensiona-il-dramma-mentale/](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
+
+---
+
+## **E allora? Un esercizio da 5 minuti**
+
+Prendi una nota e fai questo:
+
+1. **Situazione** → solo fatti  
+2. **Pensiero distorto** → il film mentale  
+3. **Riscrittura** → versione neutra  
+
+Ripeti per una settimana.
+
+Alla fine vedrai pattern.
+
+Se vuoi usarlo in tempo reale (non dopo):  
+→ [/mindfulness-ironica/segnali-che-stai-ingigantendo-un-problema/](/mindfulness-ironica/segnali-che-stai-ingigantendo-un-problema/)
+
+---
+
+Se le riconosci ma sei già dentro il loop:  
+→ [/mindfulness-ironica/interrompere-il-pilota-automatico/](/mindfulness-ironica/interrompere-il-pilota-automatico/)
 
 ---
 
 Se vuoi continuare il percorso:
 
-* **[Metodo I.R.O.N.I.A. – la guida completa](/mindfulness-ironica/metodo-ironia)**
-* **[Identificare cosa accade dentro di te](/mindfulness-ironica/identifica-cosa-accade-dentro-te)**
+* [/mindfulness-ironica/metodo-ironia](/mindfulness-ironica/metodo-ironia)
+* [/mindfulness-ironica/identifica-cosa-accade-dentro-te](/mindfulness-ironica/identifica-cosa-accade-dentro-te)
 
 ---
