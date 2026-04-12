@@ -2,15 +2,21 @@
 layout: post
 title: "Nomina: dare un nome a ciò che senti per riprendere il controllo"
 description: "Perché dare un nome preciso alle emozioni riduce l’attivazione e apre una distanza operativa."
-seo_title: "Metodo I.R.O.N.I.A. — Nomina: dare un nome alle emozioni per ritrovare chiarezza"
-seo_description: "Come dare un nome preciso a ciò che senti per ridurre l’attivazione e non reagire in automatico. Guida operativa alla fase N del Metodo I.R.O.N.I.A."
+seo_title: "Nomina le emozioni: come non reagire sotto pressione"
+seo_description: "Come nominare ciò che senti per evitare reazioni automatiche e prendere decisioni più lucide sotto pressione."
 
 date: 2026-02-15
-last_modified_at: 2026-02-15
+last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
-tags: ["cornerstone", "emozioni", "reattività-emotiva", "controllo"]
+
+tags:
+  - overthinking
+  - ruminazione mentale
+  - decisioni impulsive
+  - controllo mentale
+  - emozioni
 
 is_cornerstone: true
 
@@ -31,11 +37,25 @@ faqs:
     answer: "Sì. Lo scopo non è essere accurati ma creare distanza."
   - question: "Nominare rischia di farmi rimuginare?"
     answer: "Solo se continui ad analizzare. Dai un nome una volta e passa oltre."
+
+howto:
+  name: "Come nominare un’emozione in 20 secondi"
+  description: "Procedura pratica per dare un nome a ciò che senti e ridurre la reattività prima di reagire."
+  totalTime: "PT20S"
+  step:
+    - name: "Fermati"
+      text: "Interrompi l’azione automatica per pochi secondi senza cercare di calmarti."
+    - name: "Osserva il corpo"
+      text: "Individua dove senti l’attivazione fisica (petto, stomaco, mascella)."
+    - name: "Scegli una categoria"
+      text: "Associa l’esperienza a una famiglia emotiva semplice: paura, rabbia, tensione, imbarazzo, tristezza o frustrazione."
+    - name: "Nomina"
+      text: "Formula una frase breve: 'Sto provando ___'. Una volta sola, senza analizzare."
+    - name: "Procedi"
+      text: "Usa lo spazio creato per non reagire automaticamente e passare all’azione consapevole."
 ---
 
-# Nomina: dare un nome a ciò che senti per riprendere il controllo
-
-**Nomina non serve a capirti meglio.  
+**Nomina non serve a capirti meglio.
 Serve a non reagire mentre sei attivato.**
 
 Quando qualcosa ti agita e dici:
@@ -48,34 +68,49 @@ E una nuvola guida le tue azioni senza che tu te ne accorga.
 
 ---
 
-## Il problema non è l’emozione. È la vaghezza.
+## Il problema non è l’emozione. È quando guida le tue decisioni
 
-Sotto pressione, il cervello interpreta qualsiasi attivazione come minaccia.
+Sotto pressione, il cervello interpreta qualsiasi attivazione come segnale da usare per decidere.
 
-Mail ambigua? → “Ansia.”
-Telefonata da fare? → “Ansia.”
-Feedback neutro? → “Ansia.”
+Mail ambigua? → “Ansia → meglio controllare”
+Telefonata da fare? → “Ansia → meglio rimandare”
+Feedback neutro? → “Ansia → meglio difendersi”
 
-Quando tutto è ansia,
-tutto sembra pericoloso.
+Il problema non è quello che senti.
+È che lo stai usando per reagire.
 
-Nomina serve a trasformare l’allarme indistinto in un fenomeno preciso.
+Nomina serve a interrompere questo passaggio:
 
-Non per calmarlo.
-Per ridurne il potere automatico.
+**attivazione → decisione automatica**
+
+Non per calmarti.
+Per separare.
+
+Se non fai questo passaggio, succede sempre la stessa cosa:
+
+→ reagisci
+→ giustifichi
+→ peggiori la situazione
+
+Se vuoi vedere l’errore alla base, è qui:
+[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
 
 ---
 
-## Segnale di attivazione
+## Segnale di attivazione (punto in cui intervenire)
 
 Se noti:
 
-- tensione fisica ma pensieri confusi  
-- voglia di reagire senza sapere esattamente perché  
-- bisogno di difenderti ma senza attacco reale  
-- frasi interne tipo “c’è qualcosa che non va”  
+* tensione fisica ma pensieri confusi
+* voglia di reagire senza sapere esattamente perché
+* bisogno di difenderti ma senza attacco reale
+* urgenza di fare qualcosa subito
 
-sei nel punto giusto per usare Nomina.
+sei nel punto critico:
+
+**prima della reazione**
+
+È qui che Nomina serve.
 
 ---
 
@@ -84,22 +119,26 @@ sei nel punto giusto per usare Nomina.
 Durata: meno di mezzo minuto.
 
 ### 1️⃣ Micro-pausa (3 secondi)
+
 Non respirazione profonda.
-Solo rallenta.
+Solo rallenta l’impulso.
 
 ### 2️⃣ Guarda il corpo
+
 Dove senti attivazione?
 Petto? Stomaco? Mascella?
 
 ### 3️⃣ Scegli una famiglia emotiva
-- Paura  
-- Rabbia  
-- Tensione  
-- Imbarazzo  
-- Tristezza  
-- Frustrazione  
+
+* Paura
+* Rabbia
+* Tensione
+* Imbarazzo
+* Tristezza
+* Frustrazione
 
 ### 4️⃣ Formula la frase
+
 > “Sto provando ___.”
 
 Una volta sola.
@@ -108,29 +147,43 @@ Stop.
 
 Non analizzare.
 Non spiegare.
-Non approfondire.
+Non migliorare la frase.
+
+Se inizi a rifinire il nome, stai già tornando nel loop.
+
+Se vuoi usarlo nel momento giusto (non dopo), vai qui:
+[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/)
 
 ---
 
-## Esempio concreto
+## Esempio concreto (decisione reale)
 
 Ricevi un messaggio:
+
 > “Ne parliamo dopo.”
 
 Stato interno:
 agitazione + pensieri veloci.
 
+Errore tipico:
+→ controlli
+→ immagini scenari
+→ cambi comportamento
+
 Nomina:
+
 > “Sto provando tensione.”
 
 Effetto:
-non elimina l’attivazione,
-ma la rende un oggetto.
 
-Ora non è più “qualcosa che mi guida”.
-È “una tensione presente”.
+non elimina l’attivazione
+ma la separa dalla decisione
 
-Questa differenza cambia il tono della tua prossima risposta.
+Ora non stai più reagendo a “qualcosa di vago”.
+
+Stai osservando **tensione presente**.
+
+Questo cambia la prossima azione.
 
 ---
 
@@ -139,15 +192,55 @@ Questa differenza cambia il tono della tua prossima risposta.
 Cercare il nome perfetto.
 
 Se stai pensando:
-“È ansia o è anticipazione? O forse vulnerabilità?”
+“È ansia o è anticipazione?”
 
-stai tornando nel loop.
+sei già fuori strada.
 
-Nomina vuole una parola plausibile.
-Non una diagnosi.
+Nomina non serve a essere accurato.
+Serve a essere **sufficientemente preciso da non reagire a caso**.
 
-Meglio un nome imperfetto
-che un’emozione anonima che decide al posto tuo.
+Altro errore:
+
+usare parole sbagliate che amplificano.
+
+Esempio:
+
+* “panico”
+* “disastro”
+* “sono bloccato”
+
+Queste non sono emozioni.
+Sono etichette che peggiorano il loop.
+
+Qui le smonti:
+[quando-la-parola-ti-frega](/mindfulness-ironica/metodo-ironia/quando-la-parola-ti-frega/)
+
+---
+
+## Nome giusto → azione diversa
+
+Se chiami tutto “ansia”:
+
+→ eviti
+→ controlli
+→ reagisci male
+
+Se nomini meglio:
+
+→ scegli cosa fare
+
+Esempio:
+
+* “ansia” → evito
+* “imbarazzo” → posso espormi
+* “tensione” → posso agire lo stesso
+
+Questo è il punto chiave:
+
+**il nome che scegli cambia il comportamento che segue**
+
+Approfondimento qui:
+[nome-giusto-azione-giusta](/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/)
 
 ---
 
@@ -155,36 +248,58 @@ che un’emozione anonima che decide al posto tuo.
 
 Dopo aver nominato, controlla:
 
-- Il corpo è leggermente meno contratto?
-- L’urgenza è scesa di un punto su dieci?
+* Il corpo è leggermente meno contratto?
+* L’urgenza è scesa anche solo di 1 punto?
 
-Se sì → funziona.
-Se no → passa a Interrompi.
+Se sì → hai creato spazio
+
+Se no → non insistere
+
+Passa alla fase successiva:
+
+[interrompere-il-pilota-automatico](/mindfulness-ironica/interrompere-il-pilota-automatico/)
+
+---
+
+## Sequenza reale (non teorica)
+
+**Pausa → Nome → Interrompi → Azione**
+
+Nomina da sola non basta.
+
+Se ti fermi qui:
+
+→ torni nel loop
+→ ricominci da capo
+
+Per chiudere il ciclo devi usare quello spazio.
+
+Qui:
+[agisci-per-interrompere-il-loop](/mindfulness-ironica/agisci-per-interrompere-il-loop/)
+
+---
+
+## E allora?
+
+La prossima volta che senti attivazione:
+
+→ non cercare di capirla meglio
+→ non cercare di calmarla
+
+Fai questo:
+
+→ dai un nome plausibile
+→ smetti lì
+→ usa quello spazio per non reagire automaticamente
 
 Nomina non risolve.
-Prepara.
+
+**Evita che tu peggiori le cose mentre sei sotto pressione.**
 
 ---
-
-## Sequenza minima da ricordare
-
-**Pausa → Corpo → Parola → Stop**
-
-Questo è tutto.
-
----
-
-Nomina è la fase N del Metodo I.R.O.N.I.A.  
-Dopo aver dato un nome, puoi:
-
-→ Interrompere il comportamento impulsivo  
-→ Ridimensionare il pensiero  
-→ Agire con scelta
-
-Senza nome, reagisci.
-Con un nome, scegli.
 
 {% include howto.html %}
 
 ### FAQ
+
 {% include faq.html %}

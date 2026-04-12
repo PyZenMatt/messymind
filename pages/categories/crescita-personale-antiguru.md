@@ -8,29 +8,37 @@ redirect_from:
   - /crescita-personale-anti-guru
   - /categorie/crescita-autentica/
   - /crescita-personale/
-seo_title: "Crescita personale anti-guru: disciplina minima, risultati reali"
-seo_description: "Abitudini minime, confini gentili e produttività senza hype. Guide, strumenti e casi reali per migliorare ogni giorno senza guru."
-description: "Strategie pratiche e senza fronzoli per migliorare ogni giorno con abitudini minime, confini gentili e scelte consapevoli."
-intro: "Niente guru, solo disciplina quotidiana che funziona nel caos. Qui trovi micro-abitudini da 3-10 minuti, template pratici e strategie testate nel mondo reale per costruire confini gentili e scelte consapevoli. Zero motivazionismo da copertina: solo ciò che è sostenibile nel lungo termine, un piccolo passo alla volta. Perfetto per chi vuole migliorare senza vendere l'anima a slogan vuoti."
-promise: "Focus su disciplina quotidiana sostenibile, micro-abitudini da 3–10 minuti e strumenti semplici che funzionano nel mondo reale."
+
+seo_title: "Crescita personale anti-guru: meno reazione, più controllo reale"
+seo_description: "Crescita personale senza guru: strumenti pratici per ridurre reazioni automatiche, migliorare decisioni e uscire dai loop mentali nel lavoro e nella vita."
+
+description: "Strumenti pratici per smettere di sabotarti mentre pensi di migliorarti. Qui non si lavora sulla motivazione, ma su ciò che succede quando sei sotto pressione e reagisci in automatico."
+
+intro: "Il problema della crescita personale non è che non funziona. È che viene usata nel momento sbagliato. Funziona quando sei lucido. Fallisce quando sei sotto pressione. In quei momenti non applichi quello che sai: reagisci. Dici sì quando vuoi dire no, rimandi, ti sovraccarichi, ti giudichi, provi a fare meglio e peggiori il loop. Questa sezione serve a chi è già performante, ma si incastra nei propri automatismi. Non ti serve più motivazione. Ti serve meno interferenza mentre stai decidendo."
+
+promise: "Meno teoria, più correzione del comportamento: strumenti semplici per ridurre reazioni automatiche e migliorare le decisioni nel momento in cui contano."
+
 topics:
-  - title: "Micro-abitudini che durano"
-    description: "Parti da 2-5 minuti, stabilisci l'abitudine a eventi quotidiani e misura la continuità, non la perfezione."
-  - title: "Disciplina vs Motivazione"
-    description: "La motivazione accende, la disciplina mantiene. Crea contesti che rendono la scelta giusta la scelta facile."
-  - title: "Confini gentili"
-    description: "Impara a dire no con rispetto, proteggere il tuo tempo e difendere le tue priorità senza sensi di colpa."
-  - title: "Strumenti concreti"
-    description: "Template, checklist e tool pratici per costruire routine sostenibili nel lungo termine."
+  - title: "Micro-abitudini che non peggiorano il loop"
+    description: "Non tutte le abitudini aiutano. Alcune diventano solo un altro modo per sentirti in ritardo. Qui trovi micro-azioni che riducono attrito e non aumentano pressione."
+  - title: "Disciplina sotto pressione"
+    description: "La disciplina non serve quando sei motivato. Serve quando sei stanco, reattivo o confuso. Qui lavoriamo su scelte minime che tengono anche nei momenti peggiori."
+  - title: "Confini e decisioni"
+    description: "Dire no, fermarsi, non rispondere subito. Non è teoria: è il punto in cui il loop diventa comportamento. Qui impari a intervenire prima."
+  - title: "Strumenti anti-sabotaggio"
+    description: "Template, regole semplici e meccanismi pratici per evitare di complicarti la vita mentre cerchi di migliorarla."
+
 hero_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1755954730/motivane_1600_cd7kp8.webp
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1755954730/motivane_1600_cd7kp8.webp
 og_image: /img/categories/crescita-anti-guru-cover.webp
 twitter_card: summary_large_image
+
 faq:
   - question: "Cosa significa crescita personale anti-guru?"
-    answer: "Un approccio concreto che preferisce la disciplina ripetuta alla motivazione momentanea. Zero dogmi, solo ciò che è sostenibile."
-  - question: "Come costruire abitudini che durano?"
-    answer: "Parti micro (2–5 minuti), ancora l’abitudine a un evento quotidiano e misura solo la continuità (non la perfezione)."
-  - question: "Motivazione o disciplina?"
-    answer: "La motivazione accende, la disciplina mantiene. Crea un contesto che renda la scelta giusta la scelta facile."
+    answer: "Significa smettere di accumulare teoria e iniziare a intervenire sul comportamento reale. Meno motivazione, più gestione dei momenti in cui perdi lucidità."
+  - question: "Perché la crescita personale spesso non funziona?"
+    answer: "Perché viene applicata quando sei lucido, ma fallisce quando sei sotto pressione. È lì che servono strumenti diversi, più semplici e immediati."
+  - question: "Da dove iniziare?"
+    answer: "Non da nuove abitudini. Parti dal ridurre una reazione automatica: una risposta impulsiva, un sì non necessario, un controllo inutile. È lì che cambia davvero qualcosa."
+
 ---

@@ -1,69 +1,73 @@
 ---
 layout: subcluster
 title: "Decisioni e bias cognitivi"
-seo_title: "Decisioni e bias cognitivi | Filosofia pratica MessyMind"
-description: "Riconosci gli errori di pensiero che complicano le tue scelte. Esempi pratici, micro-correzioni testabili, zero teoria astratta."
+seo_title: "Decisioni e bias cognitivi: come non fidarti dei pensieri sbagliati"
+description: "Riconosci gli errori di pensiero che ti fanno decidere male sotto pressione. Esempi pratici, micro-correzioni testabili e strumenti per ridurre il pilota automatico mentale."
+
 cluster: filosofia-pratica
 cluster_name: Filosofia Pratica
 subcluster: decisioni-e-bias
 category: filosofia-pratica
+
 show_method_box: true
 method_url: "/mindfulness-ironica/metodo-ironia/"
 method_links:
   - label: "Identifica"
-    url: "/mindfulness-ironica/metodo-ironia/identifica/"   # placeholder
+    url: "/mindfulness-ironica/identificare-cosa-accade-dentro-te/"
   - label: "Ridimensiona"
-    url: "/mindfulness-ironica/metodo-ironia/ridimensiona/" # placeholder
+    url: "/mindfulness-ironica/ridimensiona-il-dramma-mentale/"
   - label: "Osserva"
-    url: "/mindfulness-ironica/metodo-ironia/osserva/"      # placeholder
+    url: "/mindfulness-ironica/osservare-senza-interpretare/"
   - label: "Nomina"
-    url: "/mindfulness-ironica/metodo-ironia/nomina/"       # placeholder
+    url: "/mindfulness-ironica/nomina-cio-che-senti/"
   - label: "Interrompi"
-    url: "/mindfulness-ironica/metodo-ironia/interrompi/"   # placeholder
+    url: "/mindfulness-ironica/interrompere-il-pilota-automatico/"
   - label: "Agisci"
-    url: "/mindfulness-ironica/metodo-ironia/agisci/"
+    url: "/mindfulness-ironica/agisci-per-interrompere-il-loop/"
 
-# SEO & Open Graph
 image: "/img/og-default.jpg"
 hero_image: "/img/og-default.jpg"
 hero_alt: "Decisioni e bias cognitivi - MessyMind"
 
-# Hero intro (mostrata nell'hero con tagline)
 intro: |
-  Smontiamo gli errori di pensiero che ti complicano le scelte quotidiane: bias di conferma, 
-  ancoraggio, disponibilità. Esempi dalla vita reale, strategie concrete testabili in pochi minuti. 
-  Niente guru: strumenti pratici per decisioni migliori, dal lavoro alle relazioni.
+  Il problema non è avere pensieri distorti.
 
-# Argomenti principali - Grid 1x2 (2 card)
-promise: "Strumenti pratici per decisioni più consapevoli, ogni giorno"
+  Il problema è usarli per decidere mentre ti sembrano logici.
+
+  Succede così: leggi un messaggio, interpreti male il tono, ti convinci di aver capito tutto e reagisci.  
+  Oppure prendi il primo dato che hai, lo tratti come riferimento solido e costruisci sopra una decisione fragile.
+
+  I bias cognitivi non sono teoria da manuale.  
+  Sono scorciatoie mentali che, sotto pressione, sembrano buon senso.
+
+  Questo subcluster serve a una cosa precisa: riconoscere quando la tua testa sta semplificando male la realtà e correggere il tiro prima che il loop diventi comportamento.
+
+promise: "Strumenti pratici per riconoscere distorsioni cognitive e decidere con più lucidità nel momento in cui conta."
+
 topics:
-  - title: "Identificare i pattern"
-    description: "Riconosci i bias più comuni nelle tue scelte quotidiane con esempi e checklist rapide. 
-    Parti dalla guida cornerstone sui bias cognitivi e impara a individuare distorsioni come conferma, ancoraggio e disponibilità."
-  - title: "Applicare le correzioni"
-    description: "Tecniche testate per compensare gli errori di pensiero. 
-    Dal pensiero catastrofico alle decisioni sotto pressione: micro-esercizi da 5 minuti per ridurre il pilota automatico mentale."
+  - title: "Riconoscere i bias mentre stai decidendo"
+    description: "Conferma, ancoraggio, disponibilità, catastrofizzazione: non come teoria, ma come errori concreti che alterano messaggi, scelte e valutazioni nel momento in cui reagisci."
+  - title: "Correggere senza entrare in overthinking"
+    description: "Micro-correzioni pratiche per fermarti, verificare meglio e non usare il primo pensiero come se fosse già una prova."
+  - title: "Pensieri inaffidabili sotto pressione"
+    description: "Capire quando il problema non è il contenuto del pensiero, ma il fatto che gli stai credendo troppo in fretta."
+  - title: "Bias cognitivi applicati alla vita reale"
+    description: "Lavoro, relazioni, email, decisioni rapide: casi pratici in cui la mente semplifica male e ti fa peggiorare le cose."
 
-# FAQ pertinenti (3-5 domande)
 faqs:
   - question: "Cos'è un bias cognitivo?"
-    answer: "È una scorciatoia mentale che il cervello usa per risparmiare energia. A volte aiuta, altre volte porta a errori sistematici nelle decisioni."
-
-  - question: "Quali sono i bias cognitivi più comuni?"
-    answer: "Tra i più diffusi troviamo bias di conferma, ancoraggio, disponibilità e Dunning-Kruger. Influenzano scelte quotidiane come acquisti, decisioni lavorative e relazioni."
-
+    answer: "È una scorciatoia mentale che il cervello usa per decidere più in fretta. Il problema arriva quando la usi come se fosse una lettura affidabile della realtà."
+  - question: "Quali bias cognitivi contano davvero nella vita quotidiana?"
+    answer: "Quelli che ti fanno reagire male sotto pressione: bias di conferma, ancoraggio, disponibilità, lettura selettiva dei segnali e pensiero catastrofico."
   - question: "Come posso riconoscere i miei bias?"
-    answer: "Traccia le tue decisioni per una settimana: cosa hai scelto, perché e con quanta sicurezza. Poi verifica se ricorrono pattern ripetuti (es. cercare solo conferme o partire sempre dal primo numero ascoltato)."
-
+    answer: "Non cercare di analizzarti per ore. Guarda dove reagisci troppo in fretta, dove cerchi solo conferme e dove trasformi una sensazione in conclusione."
   - question: "I bias si possono eliminare?"
-    answer: "No, sono parte del funzionamento cerebrale. Però puoi imparare a riconoscerli e compensarli con tecniche pratiche e procedure (checklist, premortem, decision journal)."
+    answer: "No. Ma puoi smettere di obbedire automaticamente. L'obiettivo non è pensare in modo perfetto, ma accorgerti prima che la scorciatoia mentale diventi decisione."
+  - question: "Da dove conviene iniziare?"
+    answer: "Dai casi in cui paghi subito il prezzo dell'errore: messaggi interpretati male, decisioni affrettate, convinzioni rigide e loop mentali che sembrano logici ma non lo sono."
 
-  - question: "Quanto tempo serve per vedere risultati?"
-    answer: "Con pratica quotidiana, in genere noti cambiamenti in 2-3 settimane. La chiave è costanza: piccoli aggiustamenti ripetuti battono grandi rivoluzioni occasionali."
-
-# CTA personalizzata
 cta_title: "Approfondisci decisioni e bias"
-cta_text: "Ogni mese condivido esercizi pratici e riflessioni concrete nella newsletter. Zero spam, solo strumenti testabili."
+cta_text: "Ogni mese condivido strumenti pratici per riconoscere errori di pensiero e non trasformarli in decisioni sbagliate."
 cta_button: "Iscriviti gratis"
 cta_link: "/newsletter/"
 

@@ -6,31 +6,36 @@ permalink: /categorie/burnout-e-lavoro/
 redirect_from:
   - /burnout-lavoro/
   - /burnout/
-seo_title: "Burnout e lavoro — segnali, prevenzione e strategie pratiche"
-seo_description: "Guida pratica al burnout lavorativo: segnali precoci, strategie quotidiane per prevenire e strumenti concreti per recuperare energia senza rituali inutili."
-description: "Qui niente mantra perfetti: strumenti concreti per restare lucidi tra scadenze e riunioni. Mindfulness urbana, Metodo I.R.O.N.I.A. e scelte minime ripetute per ridurre l'ansia da produttività e ritrovare ritmo."
-promise: "Azioni reali da provare questa settimana per ridurre stress, recuperare tempo e riappropriarsi di energie mentali e fisiche."
+seo_title: "Burnout e lavoro — segnali precoci, confini e recupero lucido"
+seo_description: "Burnout e lavoro: segnali precoci, ansia da produttività, confini e strategie pratiche per intervenire prima che il loop mentale diventi comportamento."
+description: "Strumenti concreti per restare lucidi tra scadenze, riunioni e ansia da produttività. Qui il focus non è stare meglio in teoria, ma evitare che stress, ipercontrollo e compiacenza ti facciano reagire peggio."
+intro: "Il problema non è solo essere stanchi. Il problema arriva quando la pressione mentale comincia a guidare comportamento, tono, decisioni e soglia di tolleranza. Lavori, reggi, performi, vai avanti. Poi inizi a dire sempre sì, a non staccare mai davvero, a sentirti in colpa se rallenti e a chiamare responsabilità quello che inizia a somigliare a logoramento. Questa sezione serve a intercettare il loop prima che diventi automatico: meno retorica sul work-life balance, più strumenti pratici per capire cosa ti sta consumando e dove intervenire davvero."
+promise: "Azioni reali da provare questa settimana per ridurre stress, recuperare margine e impedire che il loop lavorativo si trasformi in abitudine."
 
 topics:
   - title: "Segnali e prevenzione"
-    description: "Sei stanco di sentirti in loop: sveglia, caffè, lavoro, scroll, crollo, repeat? Benvenuto nel club — qui non vendiamo soluzioni spirituali a prezzo pieno, vendiamo cose che funzionano nel caos."
+    description: "Qui trovi i segnali precoci che spesso vengono scambiati per semplice stanchezza, fase intensa o carattere. Il punto non è diagnosticarti qualcosa: è accorgerti prima che esaurimento, irritabilità e distacco diventino il tuo nuovo standard."
   - title: "Confini e comunicazione"
-    description: "Questa è la bacheca pratica per chi lavora troppo e si sente sfracellato: guide terse, micro-abitudini da provare subito e frasi pronte per dire al capo quel che serve (senza sembrare un meme). Il mantra è semplice: meno sceneggiata, più tattica."
+    description: "Quando il loop passa dal pensiero al comportamento, spesso si vede qui: dici sì troppo in fretta, eviti conflitti, ti adatti sempre, rispondi male o non rispondi affatto. Questa parte serve a rimettere confini dove prima c'era solo reazione."
   - title: "Micro-abitudini quotidiane"
-    description: "Prova una cosa questa settimana: programma due pause da 10 minuti. Spegni le notifiche, cammina, respira, mangia una cosa che non è schiacciata in auto. Se dopo una settimana non senti nulla, ne proviamo un'altra. Dosi piccole, effetti cumulativi."
+    description: "Non servono rituali perfetti. Servono micro-correzioni ripetibili: pause vere, soglie minime di recupero, gestione dell'attenzione, piccoli stop prima dell'automatismo. Roba breve, concreta e sostenibile."
   - title: "Recupero e resilienza"
-    description: "Vuoi materiali pratici (checklist 7 giorni, template per parlare con il manager, mini-plan per recuperare il sonno)? Li metto in fondo come download—pratici, zero fuffa."
+    description: "Recuperare non vuol dire sparire tre mesi in montagna. Vuol dire smettere di peggiorare il logoramento mentre continui a vivere e lavorare. Qui trovi materiali pratici per ricostruire margine, ritmo e lucidità."
+
 hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1757707488/burnout-1920_gggfbb.webp"
 twitter_card: summary_large_image
+
 featured_slugs:
-  - autenticita-e-lavoro
-  - come-ho-smesso-di-inseguire-il-tempo
-  - ritmi-gentili
+  - burnout-cos-e-davvero
+  - burnout-e-segnali
+  - prevenzione-e-cura-burnout
+
 faq:
   - question: "Come capisco se sto andando verso il burnout?"
-    answer: "Segnali comuni: distacco emotivo dal lavoro, esaurimento persistente, ridotta efficacia. Se queste cose durano settimane e non migliorano con il riposo, è un campanello d'allarme." 
+    answer: "Di solito i segnali arrivano prima del crollo: esaurimento persistente, distacco emotivo dal lavoro, irritabilità, cinismo, difficoltà a recuperare e sensazione di essere sempre in rincorsa. Se durano settimane e iniziano a cambiare il tuo modo di lavorare e reagire, non è più solo stanchezza."
   - question: "Posso recuperare senza cambiare lavoro?"
-    answer: "Sì: spesso serve combinare confini chiari, micro-abitudini (sonno, pause programmate) e supporto (colloqui con manager o terapia). Il cambiamento graduale spesso funziona meglio del gesto epico."
+    answer: "Sì, in molti casi sì. Ma serve intervenire sul comportamento prima che il logoramento si consolidi: confini più chiari, pause reali, meno compiacenza automatica, più recupero concreto. A volte basta correggere la dinamica. A volte no. Il punto è vedere presto quale dei due casi è il tuo."
   - question: "Qual è la prima cosa concreta da fare domani mattina?"
-    answer: "Prendi due pause programmate di 10 minuti: una a metà mattina e una a metà pomeriggio. Spegni notifiche non urgenti in quei 20 minuti e fai un micro-esercizio di respirazione o camminata." 
+    answer: "Blocca due pause vere da 10 minuti, una a metà mattina e una a metà pomeriggio. In quelle pause niente scroll, niente messaggi, niente lavoro travestito da controllo. Cammina, respira, stacca lo stimolo. È una micro-azione, ma serve a interrompere il pilota automatico."
+
 ---

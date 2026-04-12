@@ -7,33 +7,43 @@ redirect_from:
   - /filosofia-pratica/
   - /spiritualita-pratica/
   - /categorie/spiritualita-pratica
-seo_title: "Filosofia pratica: guida e articoli selezionati"
-seo_description: "Filosofia pratica e modelli mentali per decisioni quotidiane chiare. Stoicismo applicato, bias cognitivi, strumenti per scelte consapevoli."
-description: "Idee chiare e azionabili da usare lunedì mattina: principi e cornici mentali per decisioni più semplici."
-intro: "Modelli mentali e regole operative per affrontare scelte quotidiane con meno rumore. Stoicismo applicato, bias cognitivi e strumenti pratici per decisioni consapevoli. Nessun bisogno di lauree in filosofia: solo concetti chiari da mettere in pratica subito, tra riunioni Zoom e supermercato. Perfetto per chi cerca chiarezza senza fronzoli accademici, con una buona dose di pragmatismo."
-promise: "Cornici mentali e principi operativi da applicare subito nelle tue scelte quotidiane, supportati da esempi pratici."
+
+seo_title: "Filosofia pratica: come pensare meglio quando non sei lucido"
+seo_description: "Filosofia pratica e bias cognitivi applicati: strumenti per riconoscere pensieri inaffidabili e prendere decisioni migliori sotto pressione."
+
+description: "Strumenti cognitivi per quando il problema non è cosa pensi, ma quanto ci credi mentre sei sotto pressione."
+
+intro: "Il problema non è avere pensieri sbagliati. È fidarti dei pensieri nel momento sbagliato. Quando sei sotto pressione, stanco o attivato, la tua testa produce spiegazioni convincenti ma inaffidabili. E tu ci costruisci sopra decisioni, messaggi, reazioni. Questa sezione serve a fare una cosa precisa: capire quando non devi fidarti di quello che stai pensando. Non per diventare più intelligente. Per evitare di peggiorare le cose mentre decidi."
+
+promise: "Strumenti cognitivi per riconoscere pensieri inaffidabili, evitare errori di giudizio e migliorare decisioni reali nel momento in cui contano."
+
 topics:
-  - title: "Stoicismo applicato"
-    description: "Principi stoici tradotti in azioni concrete per la vita moderna e il lavoro quotidiano."
-  - title: "Bias cognitivi"
-    description: "Riconosci i tranelli della mente e prendi decisioni più lucide e consapevoli."
-  - title: "Modelli decisionali"
-    description: "Cornici mentali e regole semplici per scegliere meglio, più velocemente e con meno rumore."
-  - title: "Filosofia senza accademichese"
-    description: "Idee chiare da usare lunedì mattina, spiegate senza prerequisiti filosofici complessi."
+  - title: "Bias cognitivi (quando la testa distorce)"
+    description: "Non sono errori teorici. Sono scorciatoie che sembrano logiche mentre stai decidendo. Qui impari a riconoscerle nel momento in cui succedono."
+  - title: "Pensieri inaffidabili"
+    description: "Non tutti i pensieri vanno usati per decidere. Qui trovi segnali pratici per capire quando ignorarli, ridimensionarli o sospenderli."
+  - title: "Modelli decisionali semplici"
+    description: "Regole minime per scegliere senza entrare in loop: meno analisi infinita, più chiarezza operativa."
+  - title: "Filosofia applicata alla vita reale"
+    description: "Concetti utili solo se funzionano nel traffico mentale quotidiano, non in teoria."
+
 og_image: /img/categories/filosofia-pratica-cover.webp
 hero_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1762330002/cervello_pnyicx.webp
-image_alt: "Filosofia pratica per decisioni quotidiane"
+image_alt: "Filosofia pratica per decisioni sotto pressione"
+
 cornerstone_ids:
-  - libero-arbitrio
+  - overthinking
   - bias-cognitivi
+
 faq:
-  - question: "Che tipo di filosofia pratica trovi qui?"
-    answer: "Cornici mentali e regole semplici da usare nella vita e nel lavoro: stoicismo applicato, bias cognitivi, modelli decisionali."
-  - question: "Come posso applicare questi concetti?"
-    answer: "Ogni articolo include esempi pratici e strumenti operativi da usare subito nelle tue scelte quotidiane."
-  - question: "È necessario conoscere la filosofia classica?"
-    answer: "No. Rendiamo i concetti accessibili e immediatamente applicabili, senza prerequisiti accademici."
-related_pillar: /equilibrio-interiore-guida-pratica/
-related_pillar_title: "Guida all'Equilibrio Interiore"
+  - question: "A cosa serve la filosofia pratica qui?"
+    answer: "Serve a riconoscere quando i tuoi pensieri non sono affidabili e a evitare decisioni prese sotto pressione o distorsione."
+  - question: "Perché continuo a pensare troppo prima di decidere?"
+    answer: "Perché stai cercando certezza dove non serve. Più analizzi, più alimenti il loop. Serve un criterio per fermarti, non altre informazioni."
+  - question: "Come posso usare questi concetti subito?"
+    answer: "Non applicarli a freddo. Usali quando stai per reagire, rispondere o decidere qualcosa. È lì che fanno differenza."
+
+related_pillar: /mindfulness-ironica/metodo-ironia/
+related_pillar_title: "Metodo I.R.O.N.I.A."
+
 ---

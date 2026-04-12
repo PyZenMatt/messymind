@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Interrompi: il micro-taglio che ferma il pilota automatico"
-seo_title: "Interrompi — Il taglio netto che ferma il pilota automatico"
-seo_description: "Come fermare un impulso prima che diventi un danno. Micro-interruzioni operative da 5 a 60 secondi. Parte del Metodo I.R.O.N.I.A."
+seo_title: "Come fermarti prima di reagire: il metodo Interrompi"
+seo_description: "Come fermarti prima di reagire male: micro-interruzioni pratiche da 5 a 60 secondi per bloccare un impulso sul momento."
 description: "Una micro-interruzione pratica per fermare un impulso prima che diventi comportamento automatico."
 
 date: 2025-11-30
-last_modified_at: 2026-04-06
+last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -21,52 +21,57 @@ lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_a
 lcp_image_alt: "Persona che interrompe un impulso emotivo con un gesto minimo"
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1764483874/pexels-lilartsy-1325619_edrxat.jpg
 
-image_author: "Foto di lil artsy"
-image_author_url: "https://www.pexels.com/it-it/foto/uomo-che-indossa-canotta-bianca-1325619/"
-
 faqs:
   - question: "Interrompi serve a calmarmi?"
-    answer: "No. Serve a fermare un comportamento automatico prima che peggiori la situazione. La calma, se arriva, è una conseguenza."
+    answer: "No. Serve a fermare un comportamento automatico prima che peggiori la situazione."
   - question: "Quanto deve durare un’interruzione efficace?"
-    answer: "Da 1 a 10 secondi. L’obiettivo non è rilassarsi ma bloccare il gesto automatico."
+    answer: "Da 1 a 10 secondi. L’obiettivo è bloccare il gesto, non rilassarti."
   - question: "E se reagisco prima di interrompere?"
-    answer: "Applica un’interruzione tardiva. È comunque utile per evitare escalation."
-  - question: "Interrompi funziona anche al lavoro?"
-    answer: "Sì. È invisibile e applicabile in riunione, davanti a una mail o durante una conversazione."
+    answer: "Applica un’interruzione tardiva per evitare escalation."
+  - question: "Cosa devo fare dopo Interrompi?"
+    answer: "Devi agire subito. Se resti fermo, il loop riparte."
 
 howto:
-  name: "Come interrompere un impulso automatico in meno di un minuto"
-  description: "Una sequenza minima per bloccare un comportamento impulsivo prima che peggiori la situazione."
+  name: "Come fermarti prima di reagire"
+  description: "Sequenza minima per bloccare un comportamento impulsivo sul momento."
   totalTime: "PT1M"
   step:
     - name: "Blocca il gesto"
-      text: "Ferma fisicamente l'azione. Non inviare, non rispondere, non toccare altro."
+      text: "Ferma fisicamente l'azione. Non inviare, non rispondere."
     - name: "Riallinea il corpo"
-      text: "Abbassa le spalle, rilassa la mascella e premi i piedi a terra."
+      text: "Abbassa le spalle, rilassa la mascella."
     - name: "Usa una frase di taglio"
       text: "Ripeti: 'Non devo decidere adesso.'"
-    - name: "Applica un ritardo intenzionale"
-      text: "Imposta un timer di 10 o 25 minuti e allontana lo stimolo."
+    - name: "Applica un ritardo"
+      text: "Allontana lo stimolo e rimanda."
 ---
+```
 
 # Interrompi: il micro-taglio che ferma il pilota automatico
 
-**Interrompi non serve a stare meglio.  
-Serve a evitare di fare danni.**
+Stai per rispondere a un messaggio.
 
-Se Identifica è l’allarme,  
-Interrompi è il freno.
+Hai già scritto metà risposta.
+Sai già che il tono non è quello giusto.
+
+Eppure stai per inviarla.
+
+Non è un problema di autocontrollo.
+È una sequenza già partita.
+
+Se vuoi capire cosa succede prima di quel momento, leggi
+[perché reagisci subito](/mindfulness-ironica/perche-reagisci-subito/).
 
 ---
 
-## Il comportamento che vogliamo colpire
+## Il comportamento che vuoi fermare
 
-Scenario tipico:
+Succede sempre qui:
 
-- stai per rispondere a caldo  
-- stai per inviare una mail difensiva  
-- stai per modificare compulsivamente un file già buono  
-- stai per riaprire una conversazione che doveva finire  
+* stai per rispondere a caldo
+* stai per inviare una mail difensiva
+* stai per modificare qualcosa che era già ok
+* stai per riaprire una conversazione chiusa
 
 Non è il pensiero il problema.
 
@@ -78,162 +83,148 @@ Interrompi agisce **tra impulso e comportamento**.
 
 ## Segnale di attivazione
 
-Se noti:
+Quando senti:
 
-- urgenza fisica di agire subito  
-- tensione nelle spalle o mascella  
-- aumento improvviso di velocità mentale  
-- bisogno di “sistemare ora”  
+* urgenza di agire subito
+* tensione nelle spalle o nella mascella
+* accelerazione mentale
+* bisogno di “sistemare ora”
 
-sei nella finestra perfetta per intervenire.
+sei nella finestra giusta.
 
-Hai circa 5–30 secondi.
+Hai pochi secondi.
+
+Se vuoi riconoscerli prima, guarda
+[i segnali che anticipano una reazione](/mindfulness-ironica/segnali-che-stai-per-reagire-male/).
 
 ---
 
-## Protocollo operativo: 60 secondi reali
+## Protocollo operativo
 
-Durata totale: meno di un minuto.
+### Stop fisico
 
-### 1️⃣ Stop fisico (1–2 secondi)
-Blocca il gesto.  
-Mano ferma.  
-Nessun invio.
+Mano ferma. Non inviare.
 
-### 2️⃣ Micro-reset corporeo (2–5 secondi)
-- Spalle giù  
-- Mascella morbida  
-- Piedi premuti a terra  
+### Reset corporeo
 
-Non meditare. Riallinea.
+Spalle giù. Mascella morbida.
 
-### 3️⃣ Frase di taglio
-> “Non devo decidere adesso.”
+### Frase di taglio
 
-Questa frase spezza l’urgenza.
+“Non devo decidere adesso.”
 
-### 4️⃣ Ritardo intenzionale
-Imposta un timer di 10 o 25 minuti.  
+### Ritardo
+
 Allontana lo stimolo.
 
 Fine.
 
-Non devi risolvere nulla.  
-Devi solo **evitare la mossa impulsiva**.
+Non devi capire.
+Devi **tagliare la sequenza**.
+
+Se vuoi una versione ancora più diretta, vai qui:
+[come fermarti prima di rispondere male](/mindfulness-ironica/come-fermarti-prima-di-rispondere-male/)
 
 ---
 
 ## Caso reale
 
-Mail ricevuta:  
-> “Dobbiamo rivedere il progetto.”
+Ricevi una mail:
 
-Impulso:  
-rispondere subito con spiegazioni difensive.
+“Dobbiamo rivedere il progetto.”
+
+Impulso: rispondere subito per difenderti.
 
 Interrompi:
-- mano ferma  
-- spalle giù  
-- “Non devo rispondere ora.”  
-- timer 25 minuti  
 
-Risultato:  
-la risposta cambia tono.  
-Oppure non serve più.
+* non invii
+* abbassi le spalle
+* rimandi
+
+Risultato:
+
+la risposta cambia
+oppure non serve più
 
 ---
 
 ## Dove si applica davvero
 
-Interrompi non serve solo nei momenti evidenti.
+Non solo nei momenti evidenti.
 
-Serve soprattutto nelle micro-situazioni dove il loop sta per diventare gesto:
+Soprattutto qui:
 
-- quando [ripensi a una mail che hai già inviato](/filosofia-pratica/ripensare-mail-ore/)  
-- quando [controlli continuamente un messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)  
-- quando [continui a ripensare a un vocale che hai inviato](/filosofia-pratica/ripensare-vocali-ore/)  
+* quando ripensi a qualcosa che hai già fatto
+* quando controlli un messaggio più volte
+* quando stai per riaprire qualcosa chiuso
 
-Il punto non è gestire l’ansia.  
-È tagliare il comportamento prima che peggiori la situazione.
+Non stai gestendo l’ansia.
+
+Stai **fermando un comportamento**.
 
 ---
 
 ## Perché funziona
 
-Il sistema limbico attiva il corpo prima della razionalità.
+Il corpo parte prima della testa.
 
-Se modifichi il corpo →  
-il cervello ricalcola.
+Se cambi il corpo, la sequenza si spezza.
 
-Interrompere il gesto riduce l’escalation.
-
-Non elimina l’emozione.  
-Riduce il danno.
+Non elimini l’emozione.
+Eviti il danno.
 
 ---
 
 ## Cosa Interrompi non fa
 
-Interrompi non chiarisce tutto.  
-Non risolve il conflitto.  
-Non prende decisioni al posto tuo.
+Non risolve il problema.
+Non chiarisce nulla.
 
-Fa una cosa più piccola e più utile:
+Fa una cosa più utile:
 
-ti evita di consegnare il volante al pilota automatico proprio nel momento peggiore.
-
-Prima tagli.  
-Poi, eventualmente, capisci.
+ti impedisce di peggiorarlo.
 
 ---
 
 ## L’errore più comune
 
-Usare Interrompi per analizzare.
+Ti fermi… e poi pensi.
 
-Se dopo lo stop inizi a spiegarti:
-- perché sei così  
-- da dove nasce  
-- cosa significa  
+E torni dentro.
 
-stai tornando nel loop.
-
-Interrompi è meccanico.  
-Non filosofico.
+Se succede spesso, guarda
+[cosa fare quando l’impulso è già partito](/mindfulness-ironica/non-riesci-a-fermarti/).
 
 ---
 
-## Se non interrompi in tempo
+## Dopo Interrompi
 
-Succede.
+Molti si fermano qui.
 
-Applica un’interruzione tardiva:
+Errore.
 
-- fermati  
-- raddrizza postura  
-- chiudi la conversazione con una frase neutra  
-- rimanda decisione  
+Se ti fermi e basta, il loop torna.
 
-Anche una pausa post-danno evita escalation.
+Devi usare quello spazio.
 
----
-
-## Sequenza d’emergenza minima
-
-**Stop → Corpo → Frase → Ritardo**
-
-Se ricordi solo questo, basta.
+Qui entra il passo dopo:
+[cosa fare subito dopo Interrompi](/mindfulness-ironica/interrompere-non-basta/)
 
 ---
 
-Interrompi è una delle fasi operative del [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/).
+## Sequenza minima
 
-Dopo il taglio arriva la scelta consapevole.
+Stop → Corpo → Frase → Ritardo
 
-- Vai alla fase successiva: [Agisci](/mindfulness-ironica/agisci/)  
-- Se il loop è ancora confuso: torna a [Identifica](/mindfulness-ironica/identifica/)  
-- Se vuoi vedere Interrompi in casi reali:  
-  - [ripensare una mail inviata](/filosofia-pratica/ripensare-mail-ore/)  
-  - [controllare un messaggio WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)  
+---
 
+Interrompi è una fase del
+[Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
+
+Se vuoi chiudere davvero il ciclo:
+[passa alla fase Agisci](/mindfulness-ironica/agisci-per-interrompere-il-loop/)
+
+---
+
+{% include howto.html %}
 {% include faq.html %}
