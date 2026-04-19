@@ -1,33 +1,5 @@
 <!-- Newsletter Subscription Form -->
-<form id="newsletterForm" class="newsletter-form" data-source="{{ include.source | default: 'homepage' }}">
-  <div class="form-group mb-3">
-    <label for="newsletterEmail" class="form-label d-block mb-2">
-      <strong>Rimani aggiornato</strong>
-      <span class="badge bg-secondary ms-2">✉️ gratuito</span>
-    </label>
-    <div class="input-group mb-2">
-      <input 
-        type="email" 
-        class="form-control form-control-lg" 
-        id="newsletterEmail"
-        name="email" 
-        placeholder="tua@email.it" 
-        required
-        aria-label="Email address"
-        aria-describedby="newsletterHelp"
-      >
-      <button 
-        class="btn btn-primary btn-lg" 
-        type="submit"
-        id="newsletterSubmit"
-        aria-label="Subscribe to newsletter"
-      >Iscriviti</button>
-    </div>
-    <small id="newsletterHelp" class="form-text text-muted d-block">
-      Una email a settimana. Niente spam. Cancellazione istantanea.
-    </small>
-  </div>
-
+<form id="newsletterForm" class="mm-newsletter-form" data-source="{{ include.source | default: 'homepage' }}">
   <!-- Honeypot field for anti-spam -->
   <input 
     type="text" 
@@ -38,50 +10,227 @@
     aria-hidden="true"
   />
 
+  <div class="mm-newsletter-content">
+    <div class="mm-newsletter-input-wrapper">
+      <input 
+        type="email" 
+        class="mm-newsletter-input" 
+        id="newsletterEmail"
+        name="email" 
+        placeholder="tua@email.it" 
+        required
+        aria-label="Indirizzo email"
+        aria-describedby="newsletterHelp"
+        autocomplete="email"
+      >
+      <button 
+        class="mm-newsletter-btn" 
+        type="submit"
+        id="newsletterSubmit"
+        aria-label="Iscriviti alla newsletter"
+      >
+        <span class="mm-btn-text">Iscriviti</span>
+      </button>
+    </div>
+    
+    <small id="newsletterHelp" class="mm-newsletter-help">
+      Una email a settimana • Niente spam • Cancellazione istantanea
+    </small>
+  </div>
+
   <!-- Success/Error messages -->
-  <div id="newsletterMessage" class="mt-3" style="display: none;"></div>
+  <div id="newsletterMessage" class="mm-newsletter-message" style="display: none;"></div>
 </form>
 
 <style>
-.newsletter-form {
-  animation: fadeIn 0.3s ease-in;
+/* MessyMind Newsletter Form - Modern & Lightweight */
+.mm-newsletter-form {
+  --primary: #4F8A8B;
+  --accent: #F97F51;
+  --secondary: #F8D49D;
+  --border: rgba(46, 61, 73, 0.1);
+  --radius: 0.625rem;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@keyframes fadeIn {
+.mm-newsletter-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+/* Input wrapper - responsive flex */
+.mm-newsletter-input-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+
+/* Input field */
+.mm-newsletter-input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.875rem 1rem;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: #2E3D49;
+  transition: border-color var(--transition), box-shadow var(--transition);
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.mm-newsletter-input::placeholder {
+  color: rgba(46, 61, 73, 0.5);
+}
+
+.mm-newsletter-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(79, 138, 139, 0.1);
+}
+
+.mm-newsletter-input:invalid:not(:placeholder-shown) {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
+}
+
+/* Button */
+.mm-newsletter-btn {
+  padding: 0.875rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  letter-spacing: 0.3px;
+  background: linear-gradient(135deg, var(--accent) 0%, #e66a3c 100%);
+  border: none;
+  border-radius: var(--radius);
+  color: #ffffff;
+  cursor: pointer;
+  transition: all var(--transition);
+  box-shadow: 0 2px 8px rgba(249, 127, 81, 0.2);
+  white-space: nowrap;
+  -webkit-appearance: none;
+}
+
+.mm-newsletter-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(249, 127, 81, 0.3);
+}
+
+.mm-newsletter-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.mm-newsletter-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Helper text */
+.mm-newsletter-help {
+  display: block;
+  font-size: 0.8125rem;
+  color: rgba(46, 61, 73, 0.65);
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Message feedback */
+.mm-newsletter-message {
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  animation: slideDown 0.3s var(--transition);
+  border: 1px solid;
+}
+
+.mm-newsletter-message.success {
+  background-color: rgba(79, 138, 139, 0.08);
+  color: #2E5656;
+  border-color: rgba(79, 138, 139, 0.2);
+}
+
+.mm-newsletter-message.error {
+  background-color: rgba(220, 53, 69, 0.08);
+  color: #8B2323;
+  border-color: rgba(220, 53, 69, 0.2);
+}
+
+.mm-newsletter-message strong {
+  font-weight: 600;
+}
+
+/* Animations */
+@keyframes slideDown {
   from {
     opacity: 0;
+    transform: translateY(-8px);
   }
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
-#newsletterSubmit {
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  transition: all 0.2s ease;
+/* Mobile responsive */
+@media (max-width: 576px) {
+  .mm-newsletter-input-wrapper {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+
+  .mm-newsletter-input,
+  .mm-newsletter-btn {
+    padding: 0.8125rem 0.875rem;
+    font-size: 0.95rem;
+  }
+
+  .mm-newsletter-btn {
+    padding: 0.8125rem 1.25rem;
+  }
 }
 
-#newsletterSubmit:disabled {
-  opacity: 0.7;
+/* Dark mode support (future-proof) */
+@media (prefers-color-scheme: dark) {
+  .mm-newsletter-form {
+    --primary: #5A9C9E;
+    --border: rgba(255, 255, 255, 0.1);
+  }
+
+  .mm-newsletter-input {
+    background: #1F2937;
+    color: #F3F4F6;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .mm-newsletter-input::placeholder {
+    color: rgba(243, 244, 246, 0.5);
+  }
+
+  .mm-newsletter-input:focus {
+    box-shadow: 0 0 0 3px rgba(90, 156, 158, 0.15);
+  }
 }
 
-#newsletterMessage {
-  padding: 0.75rem 1rem;
-  border-radius: 0.375rem;
-  font-size: 0.95rem;
+/* Reduce motion support (accessibility) */
+@media (prefers-reduced-motion: reduce) {
+  .mm-newsletter-form,
+  .mm-newsletter-input,
+  .mm-newsletter-btn,
+  .mm-newsletter-message {
+    transition: none !important;
+    animation: none !important;
+  }
 }
 
-#newsletterMessage.success {
-  background-color: #d4edda;
-  color: #155724;
-  border: 1px solid #c3e6cb;
-}
-
-#newsletterMessage.error {
-  background-color: #f8d7da;
-  color: #721c24;
-  border: 1px solid #f5c6cb;
+/* Print styles */
+@media print {
+  .mm-newsletter-form {
+    display: none;
+  }
 }
 </style>
 
@@ -90,89 +239,100 @@
   'use strict';
 
   const API_ENDPOINT = 'https://PyZenMatt.pythonanywhere.com/api/contact/newsletter/subscribe/';
+  const LOADER_DELAY = 2800; // Time to keep "success" message visible
   
   function initNewsletterForm() {
     const form = document.getElementById('newsletterForm');
     if (!form) return;
 
+    const emailInput = form.querySelector('input[name="email"]');
+    const honeypot = form.querySelector('input[name="honeypot"]');
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const messageDiv = document.getElementById('newsletterMessage');
+    const originalBtnText = submitBtn.textContent;
+
     form.addEventListener('submit', async function(e) {
       e.preventDefault();
 
-      const emailInput = form.querySelector('input[name="email"]');
-      const honeypot = form.querySelector('input[name="honeypot"]');
-      const submitBtn = form.querySelector('button[type="submit"]');
-      const messageDiv = document.getElementById('newsletterMessage');
-
       // Honeypot check - if filled, silently ignore
-      if (honeypot && honeypot.value.trim()) {
+      if (honeypot?.value.trim()) {
         form.reset();
         return;
       }
 
       const email = emailInput.value.trim();
+      if (!email || !emailInput.checkValidity?.()) return;
+
       const source = form.dataset.source || 'homepage';
 
-      // Reset message
+      // Clear previous message
       messageDiv.style.display = 'none';
-      messageDiv.className = 'mt-3';
+      messageDiv.className = 'mm-newsletter-message';
 
-      // Disable submit button and show loading state
+      // Disable button and show loading state
       submitBtn.disabled = true;
-      const originalText = submitBtn.textContent;
       submitBtn.textContent = 'Iscrizione in corso...';
 
       try {
         const response = await fetch(API_ENDPOINT, {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            email: email,
-            source: source,
+            email,
+            source,
             newsletter_type: 'main'
-          })
+          }),
+          signal: AbortSignal.timeout(8000) // 8s timeout
         });
 
         const result = await response.json();
 
         if (result.success) {
-          // Success response
-          messageDiv.className = 'mt-3 success';
+          // Success - show confirmation
+          messageDiv.classList.add('success');
           messageDiv.innerHTML = '✅ <strong>Perfetto!</strong> Controlla la tua email di conferma.';
           messageDiv.style.display = 'block';
           
-          // Reset form after success
           form.reset();
-          submitBtn.textContent = originalText;
+          emailInput.focus();
           
-          // Re-enable button after delay
+          // Keep button disabled briefly to show success state
           setTimeout(() => {
             submitBtn.disabled = false;
-          }, 3000);
+            submitBtn.textContent = originalBtnText;
+          }, LOADER_DELAY);
         } else {
-          // Error response from API
-          messageDiv.className = 'mt-3 error';
-          messageDiv.innerHTML = `❌ <strong>Errore:</strong> ${result.error || 'Si è verificato un errore'}`;
-          messageDiv.style.display = 'block';
-          
-          submitBtn.disabled = false;
-          submitBtn.textContent = originalText;
+          // API error
+          showError(result.error || 'Errore sconosciuto');
+          resetButton();
         }
       } catch (error) {
-        // Network or other error
-        console.error('Newsletter subscription error:', error);
-        messageDiv.className = 'mt-3 error';
-        messageDiv.innerHTML = '❌ <strong>Errore di rete:</strong> Controlla la tua connessione e riprova.';
+        // Network or timeout error
+        if (error.name === 'AbortError') {
+          showError('Timeout della richiesta. Riprova.');
+        } else if (error instanceof TypeError) {
+          showError('Errore di rete. Controlla la tua connessione.');
+        } else {
+          showError('Errore imprevisto. Riprova più tardi.');
+        }
+        resetButton();
+        console.error('Newsletter error:', error);
+      }
+
+      function showError(msg) {
+        messageDiv.classList.add('error');
+        messageDiv.innerHTML = `❌ <strong>Errore:</strong> ${msg}`;
         messageDiv.style.display = 'block';
-        
+      }
+
+      function resetButton() {
         submitBtn.disabled = false;
-        submitBtn.textContent = originalText;
+        submitBtn.textContent = originalBtnText;
       }
     });
   }
 
-  // Initialize on DOM ready
+  // Initialize - non-blocking
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initNewsletterForm);
   } else {
