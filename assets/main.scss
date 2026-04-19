@@ -11,6 +11,9 @@
 @import "messymind-utilities";
 @import "messymind-components";
 
+// Component-specific styles
+@import "components/newsletter-form";
+
 // MessyMind overrides (final layer - highest specificity)
 @import "messymind-overrides";
 
@@ -18,4 +21,5 @@
 @import "mobile-fixes";
 
 // Page-specific styles
+@import "pages/newsletter";
 @import "pages/category";

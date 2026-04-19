@@ -8,7 +8,7 @@ noindex: false
 sitemap: true
 ---
 
-# Newsletter Messy Mind
+# 📬 Newsletter Messy Mind
 
 Ricevi i migliori contenuti direttamente nella tua inbox. Niente spam, solo valore.
 
@@ -23,15 +23,7 @@ Ricevi i migliori contenuti direttamente nella tua inbox. Niente spam, solo valo
 
 Una email a settimana, ogni domenica mattina. Puoi annullare l'iscrizione in qualsiasi momento.
 
----
-
-<div class="newsletter-form bg-light p-4 rounded">
-  <h3 class="h4 mb-4">Iscriviti ora</h3>
-  
-  {% include newsletter-form.html source="newsletter_page" %}
-</div>
-
----
+    {% include newsletter-form.html source="newsletter_page" %}
 
 ## Privacy e sicurezza
 

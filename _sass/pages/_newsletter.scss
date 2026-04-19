@@ -1,0 +1,209 @@
+/* ============================================================================
+   NEWSLETTER PAGE STYLES
+   - Container, layout e sezione newsletter dedicata
+   ========================================================================== */
+
+.newsletter-section-container {
+  position: relative;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.newsletter-card {
+  background: transparent;
+  border: none;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.newsletter-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.newsletter-title {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1F2937;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.5px;
+}
+
+.newsletter-subtitle {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 500;
+}
+
+.newsletter-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(79, 138, 139, 0.2);
+  border-bottom: 1px solid rgba(79, 138, 139, 0.2);
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.95rem;
+  color: #000000;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.benefit-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #4F8A8B;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+
+.benefit-text {
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .newsletter-card {
+    padding: 1.875rem;
+  }
+
+  .newsletter-title {
+    font-size: 1.5rem;
+  }
+
+  .newsletter-benefits {
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  .benefit-item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .newsletter-card {
+    padding: 1.5rem;
+  }
+
+  .newsletter-title {
+    font-size: 1.375rem;
+  }
+
+  .newsletter-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .newsletter-benefits {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.875rem;
+    margin-bottom: 1.25rem;
+    padding: 1rem 0;
+  }
+}
+
+/* Dark mode - System preference */
+@media (prefers-color-scheme: dark) {
+  .newsletter-title {
+    color: #F3F4F6;
+  }
+
+  .newsletter-subtitle {
+    color: rgba(243, 244, 246, 0.78);
+  }
+
+  .benefit-item {
+    color: #E5E7EB;
+  }
+
+  .benefit-icon {
+    background: rgba(90, 156, 158, 0.2);
+    color: #86CECC;
+  }
+
+  .newsletter-benefits {
+    border-top-color: rgba(255, 255, 255, 0.08);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* Light mode - Manual toggle */
+html[data-theme='light'] {
+  .newsletter-title {
+    color: #1F2937;
+  }
+
+  .newsletter-subtitle {
+    color: #374151;
+  }
+
+  .benefit-item {
+    color: #000000;
+    font-weight: 500;
+  }
+
+  .benefit-icon {
+    background: #4F8A8B;
+    color: #ffffff;
+  }
+
+  .newsletter-benefits {
+    border-top-color: rgba(79, 138, 139, 0.2);
+    border-bottom-color: rgba(79, 138, 139, 0.2);
+  }
+}
+
+/* Dark mode - Manual toggle */
+html[data-theme='dark'] {
+  .newsletter-title {
+    color: #F3F4F6;
+  }
+
+  .newsletter-subtitle {
+    color: rgba(243, 244, 246, 0.78);
+  }
+
+  .benefit-item {
+    color: #E5E7EB;
+  }
+
+  .benefit-icon {
+    background: rgba(90, 156, 158, 0.2);
+    color: #86CECC;
+  }
+
+  .newsletter-benefits {
+    border-top-color: rgba(255, 255, 255, 0.08);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* Print styles */
+@media print {
+  .newsletter-section-container {
+    display: none;
+  }
+}
