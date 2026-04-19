@@ -237,15 +237,15 @@ layout: default
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="cta cta-section mb-5" aria-labelledby="cta-heading">
+    <!-- Newsletter CTA Section -->
+    <section class="newsletter-cta mb-5" aria-labelledby="newsletter-heading">
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-12">
-            <div class="mm-card p-5 border rounded-3 shadow-sm text-center mx-auto" style="max-width: 400px;">
-              <h2 id="cta-heading" class="h4 mb-3">Ricevi 1 pratica a settimana</h2>
-              <p class="text-muted mb-4">Zero spam. Una sola email con una micro‑tecnica testata sul campo.</p>
-              <a href="/newsletter/" class="btn btn-primary px-4">Iscriviti</a>
+            <div class="mm-card p-5 border rounded-3 shadow-sm mx-auto" style="max-width: 400px;">
+              <h2 id="newsletter-heading" class="h4 mb-2 text-center">Ricevi 1 pratica a settimana</h2>
+              <p class="text-muted mb-4 text-center">Zero spam. Una sola email con una micro‑tecnica testata sul campo.</p>
+              {% include newsletter-form.html source="homepage" %}
             </div>
           </div>
         </div>

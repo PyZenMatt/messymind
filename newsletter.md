@@ -28,45 +28,7 @@ Una email a settimana, ogni domenica mattina. Puoi annullare l'iscrizione in qua
 <div class="newsletter-form bg-light p-4 rounded">
   <h3 class="h4 mb-4">Iscriviti ora</h3>
   
-  <!-- TODO: Integrare form newsletter (Mailchimp, ConvertKit, Buttondown, ecc.) -->
-  <p class="text-muted mb-3">
-    <strong>Form in configurazione.</strong> Nel frattempo puoi contattarci via email a 
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a> per iscriverti manualmente.
-  </p>
-  
-  <form action="#" method="post" class="newsletter-signup">
-    <div class="mb-3">
-      <label for="email" class="form-label">Email</label>
-      <input 
-        type="email" 
-        class="form-control" 
-        id="email" 
-        name="email" 
-        placeholder="tua@email.it" 
-        required
-        aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">Non condivideremo mai la tua email con terzi.</div>
-    </div>
-    
-    <div class="mb-3 form-check">
-      <input 
-        type="checkbox" 
-        class="form-check-input" 
-        id="privacy" 
-        name="privacy" 
-        required>
-      <label class="form-check-label" for="privacy">
-        Accetto la <a href="{{ '/privacy-policy' | relative_url }}" target="_blank">Privacy Policy</a>
-      </label>
-    </div>
-    
-    <button 
-      type="submit" 
-      class="btn btn-primary btn-lg w-100"
-      data-analytics-id="newsletter-form-submit">
-      Iscriviti gratuitamente
-    </button>
-  </form>
+  {% include newsletter-form.html source="newsletter_page" %}
 </div>
 
 ---
