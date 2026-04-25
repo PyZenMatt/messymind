@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Affect labeling: perché nominare le emozioni ti evita reazioni automatiche"
-description: "Dare un nome a ciò che senti riduce la reattività e ti evita di reagire male sotto pressione. La base neuroscientifica della fase Nomina."
-seo_title: "Affect labeling: nominare le emozioni per non reagire male"
-seo_description: "Come funziona l’affect labeling e perché nominare ciò che senti riduce la reattività e migliora le decisioni sotto pressione."
+title: "Stai per reagire? Dare un nome a ciò che senti ti ferma"
+seo_title: "Stai per reagire? Dare un nome a ciò che senti ti ferma (affect labeling)"
+description: "Stai per rispondere o reagire e senti salire qualcosa? Dare un nome a ciò che senti può fermarti prima di peggiorare la situazione."
+seo_description: "Stai per reagire e senti salire qualcosa? Dare un nome a ciò che senti riduce la reattività e ti evita decisioni impulsive."
 
 date: 2026-01-18
-last_modified_at: 2026-04-12
+last_modified_at: 2026-04-25
 
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -14,9 +14,9 @@ subcluster: "metodo-ironia"
 tags:
   - overthinking
   - ruminazione mentale
+  - reattività
+  - controllo emotivo
   - decisioni impulsive
-  - controllo mentale
-  - emozioni
 
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1763892993/hero-identifica_ov3zrl.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1763892993/hero-identifica_ov3zrl.jpg"
@@ -25,7 +25,7 @@ og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill
 
 faqs:
   - question: "Perché nominare un’emozione riduce la reattività?"
-    answer: "Perché attiva aree prefrontali che riducono l’intensità dell’amigdala, abbassando la risposta automatica."
+    answer: "Perché trasformi qualcosa di vago in qualcosa di specifico, riducendo l’intensità della risposta automatica."
   - question: "Serve capire l’emozione?"
     answer: "No. Serve solo darle un nome plausibile per evitare di reagire automaticamente."
   - question: "Quando funziona davvero?"
@@ -34,7 +34,7 @@ faqs:
     answer: "No. Devi usare quello spazio per interrompere o agire."
 
 howto:
-  name: "Come usare l’affect labeling in 5 secondi"
+  name: "Come usare il naming delle emozioni in 5 secondi"
   description: "Procedura pratica per nominare un’emozione e ridurre la reattività prima di reagire."
   totalTime: "PT5S"
   step:
@@ -50,19 +50,37 @@ howto:
       text: "Usa lo spazio per non reagire automaticamente."
 ---
 
-# Affect labeling: perché nominare le emozioni ti evita reazioni automatiche
+# Stai per reagire? Dare un nome a ciò che senti ti ferma
+
+Stai per rispondere a un messaggio.  
+O per dire qualcosa che poi ripenserai.
+
+Senti qualcosa salire.
+
+Sai che dovresti fermarti.
+
+Eppure sei già dentro.
+
+Non è perché non capisci.
+
+È perché capire non basta quando sei attivato.
+
+---
 
 ## Capisci tutto. Eppure reagisci lo stesso
 
 Hai già fatto il lavoro mentale.
 
-Hai capito il pensiero.
-Hai visto il bias.
+Hai capito il pensiero.  
+Hai visto il bias.  
 Sai spiegarti cosa sta succedendo.
 
 Eppure reagisci.
 
-Scrivi, rispondi, eviti, controlli.
+Scrivi.  
+Rispondi.  
+Eviti.  
+Controlli.
 
 Il problema è semplice:
 
@@ -72,47 +90,47 @@ Serve altro.
 
 ---
 
-## Affect labeling: cosa succede davvero
+## Dare un nome a ciò che senti (senza complicarti)
 
-Affect labeling significa:
+Non serve teoria.
+
+Serve questo:
 
 **dare un nome a ciò che stai provando**
 
-Non analizzare.
-Non spiegare.
+Non analizzare.  
+Non spiegare.  
 Non interpretare.
 
 Solo nominare.
 
 Quando lo fai:
 
-→ l’attivazione scende
-→ la reazione rallenta
-→ si crea spazio
+→ l’attivazione scende  
+→ la reazione rallenta  
+→ si crea spazio  
 
-Non perché “ti calmi”.
-
-Perché smetti di essere guidato da qualcosa di indistinto.
-
-Questo è esattamente il punto di:
-[nomina-cio-che-senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+Questo è il punto della fase:  
+[nomina ciò che senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
 
 ---
 
-## Il problema reale: reagisci a qualcosa che non hai definito
+## Il problema reale: reagisci a qualcosa di vago
 
 Se non nomini:
 
-→ senti qualcosa
-→ lo chiami “ansia”
-→ reagisci
+→ senti qualcosa  
+→ lo chiami “ansia”  
+→ reagisci  
 
 Errore.
 
 Stai reagendo a una parola vaga.
 
-Qui nasce il loop:
-[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
+È lo stesso meccanismo che succede quando, dopo un evento, continui a [ripensare a quello che hai detto in un colloquio](/filosofia-pratica/post-colloquio/) o quando [rivedi una mail per ore](/filosofia-pratica/ripensare-mail-ore/).
+
+Qui nasce il loop:  
+[chiami ansia tutto quello che senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
 
 ---
 
@@ -120,21 +138,21 @@ Qui nasce il loop:
 
 Quando nomini:
 
-→ trasformi un segnale diffuso in qualcosa di specifico
+→ trasformi qualcosa di indistinto in qualcosa di preciso  
 
 E questo cambia due cose:
 
-1. l’intensità
-2. la risposta
+1. l’intensità  
+2. la risposta  
 
 Esempio:
 
-“ansia” → controllo
-“imbarazzo” → espongo
-“tensione” → agisco comunque
+“ansia” → controllo  
+“imbarazzo” → espongo  
+“tensione” → agisco comunque  
 
-Questo è il passaggio chiave:
-[nome-giusto-azione-giusta](/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/)
+Questo è il passaggio chiave:  
+[nome giusto, azione giusta](/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/)
 
 ---
 
@@ -142,9 +160,9 @@ Questo è il passaggio chiave:
 
 Errore comune:
 
-→ continui a parlare dell’emozione
-→ cerchi il nome perfetto
-→ analizzi
+→ continui a parlare dell’emozione  
+→ cerchi il nome perfetto  
+→ analizzi  
 
 Risultato:
 
@@ -156,7 +174,7 @@ Una parola.
 
 Stop.
 
-Se diventa riflessione, hai perso il vantaggio.
+Se diventa riflessione, sei di nuovo dentro il loop — lo stesso schema dell’[overthinking](/filosofia-pratica/overthinking/).
 
 ---
 
@@ -170,12 +188,12 @@ Non mentre ripensi.
 
 Nel momento in cui senti:
 
-→ urgenza
-→ tensione
-→ impulso
+→ urgenza  
+→ tensione  
+→ impulso  
 
-Se vuoi farlo nel momento giusto:
-[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/)
+Se vuoi farlo nel momento giusto:  
+[come nominare un’emozione mentre stai per reagire](/mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/)
 
 ---
 
@@ -183,15 +201,15 @@ Se vuoi farlo nel momento giusto:
 
 Errore classico:
 
-nomini
-poi torni nel loop
+nomini  
+poi torni nel loop  
 
 Nomina crea spazio.
 
 Poi devi usarlo:
 
-[interrompere-il-pilota-automatico](/mindfulness-ironica/interrompere-il-pilota-automatico/)
-[agisci-per-interrompere-il-loop](/mindfulness-ironica/agisci-per-interrompere-il-loop/)
+[interrompere il pilota automatico](/mindfulness-ironica/interrompere-il-pilota-automatico/)  
+[agire per interrompere il loop](/mindfulness-ironica/agisci-per-interrompere-il-loop/)
 
 ---
 
@@ -203,13 +221,15 @@ non cercare di capirla meglio
 
 fai questo:
 
-→ dai un nome
-→ smetti lì
-→ non reagire subito
+→ dai un nome  
+→ smetti lì  
+→ non reagire subito  
 
-Non serve terapia.
+Non serve fare tutto perfetto.
 
-**Serve evitare di prendere decisioni peggiori mentre sei attivato.**
+Serve evitare di peggiorare la situazione mentre sei attivato.
+
+---
 
 {% include faq.html %}
 {% include howto.html %}

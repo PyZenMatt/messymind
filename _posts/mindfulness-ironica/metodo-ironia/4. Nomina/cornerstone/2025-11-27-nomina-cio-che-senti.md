@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Nomina: dare un nome a ciò che senti per riprendere il controllo"
-description: "Perché dare un nome preciso alle emozioni riduce l’attivazione e apre una distanza operativa."
+title: "Stai per reagire? Dare un nome a ciò che senti ti ferma"
 seo_title: "Nomina le emozioni: come non reagire sotto pressione"
-seo_description: "Come nominare ciò che senti per evitare reazioni automatiche e prendere decisioni più lucide sotto pressione."
+description: "Senti qualcosa salire e stai per reagire? Dare un nome a ciò che senti ti evita decisioni impulsive e crea spazio."
+seo_description: "Stai per reagire e senti attivazione? Dare un nome a ciò che senti riduce la reattività e ti evita errori sotto pressione."
 
 date: 2026-02-15
-last_modified_at: 2026-04-12
+last_modified_at: 2026-04-25
 
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -14,176 +14,176 @@ subcluster: "metodo-ironia"
 tags:
   - overthinking
   - ruminazione mentale
+  - reattività
   - decisioni impulsive
-  - controllo mentale
-  - emozioni
+  - controllo emotivo
 
-is_cornerstone: true
+is_cornerstone: false
 
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1764262284/nomina_d7tn9d.jpg"
 lcp_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1764262284/nomina_d7tn9d.jpg"
 background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1764262284/nomina_d7tn9d.jpg"
 og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1764262284/nomina_d7tn9d.jpg"
 
-image_author: "cottonbro"
-image_author_url: "https://www.pexels.com/it-it/@cottonbro/"
-
 faqs:
-  - question: "Perché nominare un’emozione riduce l’attivazione?"
-    answer: "Perché attiva aree prefrontali che modulano l’amigdala. Tradotto: l’emozione passa da allarme indistinto a fenomeno osservabile."
-  - question: "E se non so che nome dare?"
-    answer: "Scegli la parola più vicina. Non serve precisione clinica, serve interrompere l’automatismo."
-  - question: "Posso sbagliare nome?"
-    answer: "Sì. Lo scopo non è essere accurati ma creare distanza."
-  - question: "Nominare rischia di farmi rimuginare?"
-    answer: "Solo se continui ad analizzare. Dai un nome una volta e passa oltre."
+  - question: "Perché nominare un’emozione aiuta?"
+    answer: "Perché trasforma qualcosa di vago in qualcosa di osservabile, riducendo la reazione automatica."
+  - question: "E se sbaglio nome?"
+    answer: "Non importa. Serve essere abbastanza precisi da non reagire a caso, non perfetti."
+  - question: "Basta nominare?"
+    answer: "No. Devi usare quello spazio per interrompere o agire."
+  - question: "Quando usarlo?"
+    answer: "Prima di reagire, non dopo."
 
 howto:
   name: "Come nominare un’emozione in 20 secondi"
-  description: "Procedura pratica per dare un nome a ciò che senti e ridurre la reattività prima di reagire."
+  description: "Procedura pratica per ridurre la reattività prima di reagire."
   totalTime: "PT20S"
   step:
     - name: "Fermati"
-      text: "Interrompi l’azione automatica per pochi secondi senza cercare di calmarti."
+      text: "Interrompi l’impulso per pochi secondi."
     - name: "Osserva il corpo"
-      text: "Individua dove senti l’attivazione fisica (petto, stomaco, mascella)."
-    - name: "Scegli una categoria"
-      text: "Associa l’esperienza a una famiglia emotiva semplice: paura, rabbia, tensione, imbarazzo, tristezza o frustrazione."
+      text: "Individua dove senti attivazione."
     - name: "Nomina"
-      text: "Formula una frase breve: 'Sto provando ___'. Una volta sola, senza analizzare."
+      text: "Formula 'sto provando ___'. Una volta."
     - name: "Procedi"
-      text: "Usa lo spazio creato per non reagire automaticamente e passare all’azione consapevole."
+      text: "Non analizzare. Passa all’azione."
 ---
 
-**Nomina non serve a capirti meglio.
-Serve a non reagire mentre sei attivato.**
+# Stai per reagire? Dare un nome a ciò che senti ti ferma
 
-Quando qualcosa ti agita e dici:
-“Boh, sto male.”
+Senti qualcosa salire.
 
-non hai un’emozione.
-Hai una nuvola.
+Stai per rispondere.  
+Per dire qualcosa.  
+Per fare una scelta veloce.
 
-E una nuvola guida le tue azioni senza che tu te ne accorga.
+E sei già mezzo dentro.
 
----
+Non è ancora successo niente.
 
-## Il problema non è l’emozione. È quando guida le tue decisioni
-
-Sotto pressione, il cervello interpreta qualsiasi attivazione come segnale da usare per decidere.
-
-Mail ambigua? → “Ansia → meglio controllare”
-Telefonata da fare? → “Ansia → meglio rimandare”
-Feedback neutro? → “Ansia → meglio difendersi”
-
-Il problema non è quello che senti.
-È che lo stai usando per reagire.
-
-Nomina serve a interrompere questo passaggio:
-
-**attivazione → decisione automatica**
-
-Non per calmarti.
-Per separare.
-
-Se non fai questo passaggio, succede sempre la stessa cosa:
-
-→ reagisci
-→ giustifichi
-→ peggiori la situazione
-
-Se vuoi vedere l’errore alla base, è qui:
-[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
+Ma stai per reagire.
 
 ---
 
-## Segnale di attivazione (punto in cui intervenire)
+## Il problema non è l’emozione
 
-Se noti:
+È quando guida la decisione.
 
-* tensione fisica ma pensieri confusi
-* voglia di reagire senza sapere esattamente perché
-* bisogno di difenderti ma senza attacco reale
-* urgenza di fare qualcosa subito
+Mail ambigua → reagisci  
+Messaggio breve → interpreti  
+Silenzio → immagini  
 
-sei nel punto critico:
+Non perché vuoi.
 
-**prima della reazione**
+Perché stai usando qualcosa di vago per decidere.
 
-È qui che Nomina serve.
+Se vuoi vedere cosa succede quando non lo fai, è lo stesso schema dell’[overthinking](/filosofia-pratica/overthinking/).
 
 ---
 
-## Protocollo operativo (20 secondi reali)
+## Quando non nomini, reagisci
 
-Durata: meno di mezzo minuto.
+Se non dai un nome:
 
-### 1️⃣ Micro-pausa (3 secondi)
+→ senti qualcosa  
+→ lo chiami “ansia”  
+→ reagisci  
 
-Non respirazione profonda.
-Solo rallenta l’impulso.
+Errore.
 
-### 2️⃣ Guarda il corpo
+Stai reagendo a qualcosa di indistinto.
+
+È lo stesso meccanismo dei [bias cognitivi](/filosofia-pratica/bias-cognitivi/): interpreti prima di capire.
+
+---
+
+## Nomina serve a una cosa sola
+
+Non a capirti meglio.
+
+A **non reagire mentre sei attivato.**
+
+Interrompe questo passaggio:
+
+attivazione → decisione automatica
+
+---
+
+## Il punto in cui usarlo
+
+Se senti:
+
+- tensione fisica  
+- urgenza  
+- bisogno di reagire subito  
+
+sei nel punto giusto.
+
+Prima della reazione.
+
+È lì che funziona.
+
+---
+
+## Protocollo rapido
+
+### 1. Fermati
+
+Non calmarti.
+
+Solo rallenta.
+
+---
+
+### 2. Guarda il corpo
 
 Dove senti attivazione?
-Petto? Stomaco? Mascella?
 
-### 3️⃣ Scegli una famiglia emotiva
+Petto  
+Stomaco  
+Mascella  
 
-* Paura
-* Rabbia
-* Tensione
-* Imbarazzo
-* Tristezza
-* Frustrazione
+---
 
-### 4️⃣ Formula la frase
+### 3. Nomina
 
-> “Sto provando ___.”
+> “Sto provando ___”
 
-Una volta sola.
+Una parola.
 
 Stop.
 
-Non analizzare.
-Non spiegare.
-Non migliorare la frase.
+---
 
-Se inizi a rifinire il nome, stai già tornando nel loop.
+### 4. Non analizzare
 
-Se vuoi usarlo nel momento giusto (non dopo), vai qui:
-[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/)
+Se inizi a spiegarti, sei di nuovo dentro.
 
 ---
 
-## Esempio concreto (decisione reale)
+## Esempio reale
 
-Ricevi un messaggio:
+Messaggio:
 
 > “Ne parliamo dopo.”
 
-Stato interno:
-agitazione + pensieri veloci.
+Testa:
 
-Errore tipico:
-→ controlli
-→ immagini scenari
-→ cambi comportamento
+“C’è qualcosa che non va.”
+
+Errore:
+
+→ immagini  
+→ reagisci  
 
 Nomina:
 
 > “Sto provando tensione.”
 
-Effetto:
+Non risolve.
 
-non elimina l’attivazione
-ma la separa dalla decisione
-
-Ora non stai più reagendo a “qualcosa di vago”.
-
-Stai osservando **tensione presente**.
-
-Questo cambia la prossima azione.
+Ma crea spazio.
 
 ---
 
@@ -191,115 +191,68 @@ Questo cambia la prossima azione.
 
 Cercare il nome perfetto.
 
-Se stai pensando:
-“È ansia o è anticipazione?”
+“È ansia o stress?”
 
-sei già fuori strada.
+Non serve.
 
-Nomina non serve a essere accurato.
-Serve a essere **sufficientemente preciso da non reagire a caso**.
+Serve questo:
 
-Altro errore:
-
-usare parole sbagliate che amplificano.
-
-Esempio:
-
-* “panico”
-* “disastro”
-* “sono bloccato”
-
-Queste non sono emozioni.
-Sono etichette che peggiorano il loop.
-
-Qui le smonti:
-[quando-la-parola-ti-frega](/mindfulness-ironica/metodo-ironia/quando-la-parola-ti-frega/)
+**abbastanza preciso per non reagire a caso**
 
 ---
 
-## Nome giusto → azione diversa
+## Nome → azione
 
-Se chiami tutto “ansia”:
+Se chiami tutto ansia:
 
-→ eviti
-→ controlli
-→ reagisci male
+→ eviti  
+→ controlli  
 
 Se nomini meglio:
 
-→ scegli cosa fare
+→ scegli  
 
 Esempio:
 
-* “ansia” → evito
-* “imbarazzo” → posso espormi
-* “tensione” → posso agire lo stesso
+- “ansia” → evito  
+- “imbarazzo” → agisco  
+- “tensione” → continuo  
 
-Questo è il punto chiave:
-
-**il nome che scegli cambia il comportamento che segue**
-
-Approfondimento qui:
-[nome-giusto-azione-giusta](/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/)
+Il nome cambia la risposta.
 
 ---
 
-## Come capire se ha funzionato
-
-Dopo aver nominato, controlla:
-
-* Il corpo è leggermente meno contratto?
-* L’urgenza è scesa anche solo di 1 punto?
-
-Se sì → hai creato spazio
-
-Se no → non insistere
-
-Passa alla fase successiva:
-
-[interrompere-il-pilota-automatico](/mindfulness-ironica/interrompere-il-pilota-automatico/)
-
----
-
-## Sequenza reale (non teorica)
-
-**Pausa → Nome → Interrompi → Azione**
-
-Nomina da sola non basta.
+## Nomina non basta
 
 Se ti fermi qui:
 
-→ torni nel loop
-→ ricominci da capo
+→ torni nel loop  
 
-Per chiudere il ciclo devi usare quello spazio.
+Devi usare quello spazio:
 
-Qui:
-[agisci-per-interrompere-il-loop](/mindfulness-ironica/agisci-per-interrompere-il-loop/)
+→ [interrompere il pilota automatico](/mindfulness-ironica/interrompere-il-pilota-automatico/)  
+→ [agire per interrompere il loop](/mindfulness-ironica/agisci-per-interrompere-il-loop/)  
 
 ---
 
 ## E allora?
 
-La prossima volta che senti attivazione:
+La prossima volta:
 
-→ non cercare di capirla meglio
-→ non cercare di calmarla
+non capire meglio  
+non calmarti  
 
 Fai questo:
 
-→ dai un nome plausibile
-→ smetti lì
-→ usa quello spazio per non reagire automaticamente
+→ dai un nome  
+→ smetti lì  
+→ non reagire subito  
 
-Nomina non risolve.
+Non è soluzione.
 
-**Evita che tu peggiori le cose mentre sei sotto pressione.**
+È prevenzione.
 
 ---
 
 {% include howto.html %}
-
-### FAQ
-
 {% include faq.html %}

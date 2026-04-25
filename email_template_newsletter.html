@@ -1,0 +1,334 @@
+<!--
+MessyMind Newsletter Email Template
+====================================
+
+Email-safe HTML template using email_theme.py design tokens.
+All styles are inline and email-client compatible.
+
+Usage in Django:
+    context = {
+        'email_theme': EmailTheme,
+        'newsletter': newsletter_obj,
+        'subscriber': subscriber_obj,
+        'cta_url': '/article/123',
+        'cta_text': 'Leggi articolo completo',
+    }
+    html = render_to_string('emails/newsletter.html', context)
+
+Color reference:
+    - Primary: #4F8A8B (headings, links)
+    - CTA: #F97F51 (button background)
+    - Text: #2E3D49 (body text)
+    - Muted: #6B7280 (helper text)
+    - Border: #D1D5DB (dividers)
+-->
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ newsletter.subject }}</title>
+    
+    <style type="text/css">
+        /* Reset for email clients */
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #2E3D49;
+        }
+        
+        /* Main container */
+        .email-wrapper {
+            background-color: #ffffff;
+            width: 100%;
+        }
+        
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            color: #4F8A8B;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 16px;
+        }
+        
+        h2 {
+            font-size: 24px;
+        }
+        
+        h3 {
+            font-size: 20px;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            color: #2E3D49;
+        }
+        
+        a {
+            color: #4F8A8B;
+            text-decoration: underline;
+        }
+        
+        /* Sections */
+        .section {
+            padding: 0 20px 24px 20px;
+        }
+        
+        .section:first-child {
+            padding-top: 20px;
+        }
+        
+        /* CTA Button */
+        .cta-button {
+            background-color: #F97F51;
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 700;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .cta-button-wrapper {
+            text-align: center;
+            padding: 24px 20px;
+        }
+        
+        /* Divider */
+        .divider {
+            border: none;
+            border-top: 1px solid #D1D5DB;
+            height: 1px;
+            margin: 24px 20px;
+        }
+        
+        /* Footer */
+        .footer {
+            padding: 20px;
+            border-top: 1px solid #D1D5DB;
+            font-size: 12px;
+            color: #6B7280;
+            text-align: center;
+            line-height: 1.6;
+        }
+        
+        .footer p {
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+        
+        .footer a {
+            color: #4F8A8B;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Help text */
+        .help-text {
+            font-size: 14px;
+            color: #6B7280;
+            margin-top: 12px;
+        }
+        
+        /* Blockquote */
+        .blockquote {
+            background-color: #F7F3EA;
+            border-left: 4px solid #F97F51;
+            padding: 12px 16px;
+            margin: 16px 0;
+            font-style: italic;
+        }
+        
+        /* Code block */
+        .code-block {
+            background-color: #f8f9fa;
+            border: 1px solid #D1D5DB;
+            border-radius: 6px;
+            padding: 12px;
+            font-family: Courier, monospace;
+            font-size: 13px;
+            overflow-x: auto;
+        }
+        
+        /* Media query for mobile */
+        @media (max-width: 480px) {
+            .email-container {
+                width: 100% !important;
+            }
+            
+            .section {
+                padding: 0 16px 20px 16px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            h3 {
+                font-size: 18px;
+            }
+            
+            p {
+                font-size: 15px;
+            }
+            
+            .cta-button {
+                display: block;
+                width: 100%;
+                padding: 14px 12px;
+                text-align: center;
+            }
+            
+            .divider {
+                margin: 20px 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" 
+           width="100%" style="background-color: #ffffff;">
+        <tr>
+            <td align="center" style="padding: 0;">
+                
+                <!-- Main email container -->
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0" 
+                       width="100%" style="max-width: 600px; margin: 0 auto; background-color: #ffffff;">
+                    
+                    <!-- Header with branding (optional) -->
+                    <tr>
+                        <td style="padding: 20px; text-align: center; border-bottom: 1px solid #D1D5DB;">
+                            <h1 style="font-size: 24px; color: #4F8A8B; margin: 0;">
+                                MessyMind
+                            </h1>
+                            <p style="font-size: 12px; color: #6B7280; margin: 4px 0 0 0;">
+                                Filosofia pratica per la mente
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Newsletter title -->
+                    <tr>
+                        <td style="padding: 20px 20px 0 20px;">
+                            <h2 style="margin: 0 0 8px 0; font-size: 24px; color: #4F8A8B;">
+                                {{ newsletter.title }}
+                            </h2>
+                            <p style="font-size: 12px; color: #6B7280; margin: 0;">
+                                Settimana del {{ newsletter.date | date:"j F Y" }}
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Greeting -->
+                    <tr>
+                        <td style="padding: 0 20px 16px 20px;">
+                            <p style="margin: 0; color: #2E3D49;">
+                                Ciao {% if subscriber.first_name %}{{ subscriber.first_name }}{% else %}lettore{% endif %},
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Main content -->
+                    <tr>
+                        <td style="padding: 0 20px; color: #2E3D49; font-size: 16px; line-height: 1.6;">
+                            {{ newsletter.content | safe }}
+                        </td>
+                    </tr>
+                    
+                    <!-- CTA Button -->
+                    <tr>
+                        <td style="padding: 24px 20px; text-align: center;">
+                            <a href="{{ cta_url }}" 
+                               class="cta-button" 
+                               style="background-color: #F97F51; 
+                                      color: #ffffff; 
+                                      padding: 12px 24px; 
+                                      border-radius: 6px; 
+                                      text-decoration: none; 
+                                      display: inline-block; 
+                                      font-weight: bold; 
+                                      font-family: Arial, Helvetica, sans-serif; 
+                                      font-size: 16px; 
+                                      border: none;">
+                                {{ cta_text | default:"Leggi articolo completo" }}
+                            </a>
+                            <p class="help-text" style="margin: 12px 0 0 0; font-size: 12px; color: #6B7280;">
+                                Oppure copia questo link nel browser:
+                                <br>
+                                <span style="word-break: break-all; font-size: 11px;">{{ cta_url }}</span>
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Divider -->
+                    <tr>
+                        <td style="height: 1px; background-color: #D1D5DB;"></td>
+                    </tr>
+                    
+                    <!-- Footer -->
+                    <tr>
+                        <td class="footer" style="padding: 20px; border-top: 1px solid #D1D5DB; 
+                                                font-size: 12px; color: #6B7280; text-align: center;">
+                            <p style="margin: 0 0 8px 0; font-size: 12px;">
+                                Una email a settimana • 
+                                <a href="{{ unsubscribe_url }}" 
+                                   style="color: #4F8A8B; text-decoration: none;">
+                                    Cancella iscrizione
+                                </a>
+                            </p>
+                            <p style="margin: 0 0 8px 0; font-size: 12px;">
+                                <a href="{{ preferences_url }}" 
+                                   style="color: #4F8A8B; text-decoration: none;">
+                                    Gestisci preferenze
+                                </a> • 
+                                <a href="https://messymind.it" 
+                                   style="color: #4F8A8B; text-decoration: none;">
+                                    Visita il sito
+                                </a>
+                            </p>
+                            <p style="margin: 8px 0 0 0; font-size: 11px;">
+                                © {{ current_year }} MessyMind. Tutti i diritti riservati.<br>
+                                <a href="https://messymind.it/legal" 
+                                   style="color: #4F8A8B; text-decoration: none;">
+                                    Informativa Privacy
+                                </a> • 
+                                <a href="https://messymind.it/terms" 
+                                   style="color: #4F8A8B; text-decoration: none;">
+                                    Termini di servizio
+                                </a>
+                            </p>
+                        </td>
+                    </tr>
+                    
+                </table>
+                
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

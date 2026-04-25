@@ -1,0 +1,234 @@
+# MessyMind Design Tokens
+# Extracted from actual CSS/SCSS source code
+# Source files: _sass/_messymind-variables.scss, _sass/components/_newsletter-form.scss
+# Last updated: April 2026
+
+colors:
+  # Primary Brand Color - Teal
+  primary: "#4F8A8B"
+  primary_hover: "#3a6d6e"  # Darkened for button hover
+  primary_light: "#5A9C9E"  # Dark mode variant
+  
+  # Accent Color - Orange (CTAs, highlights)
+  accent: "#F97F51"
+  accent_hover: "#e66a3c"  # Darkened for button hover
+  
+  # Secondary Color - Pale Yellow (backgrounds)
+  secondary: "#F8D49D"
+  
+  # Neutral/Background - Warm off-white
+  background: "#F7F3EA"
+  
+  # Text & Contrast - Dark slate
+  foreground: "#2E3D49"
+  text: "#2E3D49"
+  
+  # Form elements
+  input_background: "#ffffff"
+  input_text: "#1F2937"
+  input_placeholder: "#6B7280"
+  input_border: "#D1D5DB"
+  input_border_focus: "#4F8A8B"
+  input_border_error: "#dc3545"
+  
+  # Muted/Secondary text
+  muted: "#6B7280"
+  
+  # Borders
+  border: "rgba(46, 61, 73, 0.1)"
+  
+  # Feedback colors
+  success_background: "rgba(79, 138, 139, 0.08)"
+  success_text: "#2E5656"
+  success_border: "rgba(79, 138, 139, 0.2)"
+  
+  error_background: "rgba(220, 53, 69, 0.08)"
+  error_text: "#8B2323"
+  error_border: "rgba(220, 53, 69, 0.2)"
+  
+  # White
+  card: "#ffffff"
+
+typography:
+  font_body: "'Merriweather', Georgia, serif"
+  font_heading: "'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+  font_accent: "'Caveat', cursive"
+  font_monospace: "Courier New, monospace"
+  font_system: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+  
+  # Font weights
+  weight_normal: 400
+  weight_medium: 500
+  weight_semibold: 600
+  weight_bold: 700
+  
+  # Base size
+  base_size: "16px"
+  base_size_rem: "1rem"
+  line_height_body: 1.6
+  line_height_heading: 1.3
+  line_height_relaxed: 1.75
+  
+  # Sizes scale (rem)
+  size_xs: "0.75rem"      # 12px
+  size_sm: "0.875rem"     # 14px
+  size_base: "1rem"       # 16px
+  size_lg: "1.125rem"     # 18px
+  size_xl: "1.25rem"      # 20px
+  size_2xl: "1.5rem"      # 24px
+  size_3xl: "1.875rem"    # 30px
+  size_4xl: "2.25rem"     # 36px
+
+spacing:
+  # Container
+  container_width: "1140px"
+  container_padding_x: "15px"  # Left/right padding
+  
+  # Standard gaps & margins
+  gap_xs: "0.5rem"        # 8px
+  gap_sm: "0.625rem"      # 10px
+  gap_base: "0.875rem"    # 14px
+  gap_md: "1rem"          # 16px
+  gap_lg: "1.25rem"       # 20px
+  gap_xl: "1.5rem"        # 24px
+  gap_2xl: "2rem"         # 32px
+  
+  # Margins
+  margin_paragraph: "1.25rem"
+  margin_heading_h1: "1.5rem"
+  margin_heading_h2: "2rem"
+  margin_heading_h3: "1.5rem"
+  
+  # Padding
+  padding_input: "0.875rem 1rem"
+  padding_button_newsletter: "0.875rem 1.5rem"
+  padding_button_contact: "12px 0"
+  padding_card: "1.5rem"
+  padding_blockquote: "1rem 1.5rem"
+  padding_code_block: "1rem"
+  
+  # Mobile responsive
+  mobile_breakpoint: "576px"
+  tablet_breakpoint: "768px"
+  desktop_breakpoint: "992px"
+
+components:
+  button:
+    border_radius: "0.625rem"      # 6px
+    font_weight: "600"
+    font_size: "1rem"
+    padding: "0.875rem 1.5rem"
+    transition: "0.25s cubic-bezier(0.4, 0, 0.2, 1)"
+    
+  button_newsletter:
+    border_radius: "0.625rem"
+    font_weight: "600"
+    font_size: "1rem"
+    padding: "0.875rem 1.5rem"
+    background: "linear-gradient(135deg, #F97F51 0%, #e66a3c 100%)"
+    color: "#ffffff"
+    shadow: "0 2px 8px rgba(249, 127, 81, 0.2)"
+    shadow_hover: "0 4px 16px rgba(249, 127, 81, 0.3)"
+    mobile_padding: "0.8125rem 1.25rem"
+    mobile_font_size: "0.95rem"
+    
+  input:
+    border_radius: "0.625rem"
+    border_width: "2px"
+    padding: "0.875rem 1rem"
+    font_size: "1rem"
+    font_weight: "500"
+    background: "#ffffff"
+    color: "#1F2937"
+    transition: "border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1)"
+    focus_shadow: "0 0 0 3px rgba(79, 138, 139, 0.15)"
+    
+  input_newsletter:
+    border_radius: "0.625rem"
+    padding: "0.875rem 1rem"
+    font_size: "1rem"
+    mobile_padding: "0.8125rem 0.875rem"
+    mobile_font_size: "0.95rem"
+    
+  card:
+    border_radius: "0.625rem"
+    padding: "1.5rem"
+    border: "1px solid rgba(46, 61, 73, 0.1)"
+    shadow: "0 1px 2px 0 rgba(0, 0, 0, 0.05)"
+    shadow_hover: "0 4px 6px -1px rgba(0, 0, 0, 0.1)"
+    
+  message:
+    border_radius: "0.625rem"
+    padding: "0.875rem 1rem"
+    font_size: "0.95rem"
+    line_height: "1.5"
+    border: "1px solid"
+    
+  code_block:
+    border_radius: "0.625rem"
+    padding: "1rem"
+    font_size: "0.85rem"
+    mobile_padding: "0.75rem"
+    mobile_font_size: "0.8rem"
+
+shadows:
+  sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)"
+  md: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)"
+  lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)"
+
+# Dark mode overrides (system preference & manual toggle)
+dark_mode:
+  primary: "#5A9C9E"
+  input_background: "#1F2937"
+  input_text: "#F3F4F6"
+  input_placeholder: "rgba(243, 244, 246, 0.5)"
+  input_border: "rgba(255, 255, 255, 0.1)"
+  help_text: "rgba(243, 244, 246, 0.85)"
+  success_text: "#86CECC"
+  error_text: "#FF6B6B"
+
+# Source references (for documentation)
+source_references:
+  - file: "_sass/_messymind-variables.scss"
+    description: "Primary color system, typography, spacing scale"
+    
+  - file: "_sass/components/_newsletter-form.scss"
+    description: "Newsletter form colors, button styles, input styles, dark mode"
+    
+  - file: "_sass/bootstrap-purged.scss"
+    description: "Container width (1140px), base body font size"
+    
+  - file: "_sass/_messymind-base.scss"
+    description: "Typography hierarchy, heading sizes, link colors"
+    
+  - file: "_sass/_messymind-components.scss"
+    description: "Button variants, card styles, table styling"
+    
+  - file: "_includes/newsletter-form.html"
+    description: "Newsletter form structure and JavaScript validation"
+
+# Notes
+notes:
+  - key: "Color consistency"
+    value: "Primary teal (#4F8A8B) is used throughout for headings, links, and primary actions. Accent orange (#F97F51) is reserved for CTAs and hover states."
+    
+  - key: "Newsletter CTA styling"
+    value: "Button uses linear gradient background with shadow effects. Mobile breakpoint (576px) switches input/button to stacked layout."
+    
+  - key: "Typography hierarchy"
+    value: "Merriweather serif for body text ensures readability. Poppins sans-serif for headings provides modern contrast. System font fallback for forms."
+    
+  - key: "Spacing scale"
+    value: "Based on 0.625rem (10px) unit. All spacings are multiples of this base to maintain rhythm. Container width 1140px with 15px side padding."
+    
+  - key: "Dark mode support"
+    value: "Implemented via CSS variables and prefers-color-scheme media query. Manual override via html[data-theme] attribute."
+    
+  - key: "Email compatibility note"
+    value: "Use system font stack for emails (avoid Merriweather). Inline critical colors in email templates. Keep shadows minimal. Test gradient support in email clients."
+    
+  - key: "Button hover states"
+    value: "Primary button: darkens to #3a6d6e. Accent button: darkens to #e66a3c. Newsletter button uses transform: translateY(-2px) on hover."
+    
+  - key: "Form validation"
+    value: "Error state uses #dc3545 (red). Success feedback uses primary color with 8% opacity background. Box-shadow used for focus indicator."
