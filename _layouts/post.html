@@ -56,20 +56,9 @@ layout: default
   </header>
 
   {%- comment -%}
-    BlogPosting JSON-LD: rendered only for post pages via the include.
-    `_includes/schema-blogposting.html` already guards rendering by checking
-    `page.layout`, `page.collection` or `page.schema_type`.
-    We set a transient flag here so other includes or custom templates can
-    detect that BlogPosting has been emitted and avoid rendering it again.
+    BlogPosting, FAQPage e HowTo JSON-LD sono generati centralmente da
+    `_includes/schema-markup.html` (incluso da head.html). Non duplicare qui.
   {%- endcomment -%}
-  {% include schema-blogposting.html %}
-  {%- assign page._blogposting_rendered = true -%}
-  {%- comment -%} FAQ structured data: render if `faqs` front matter exists (array of {question, answer}). Centralizes FAQ JSON-LD.
-  {%- endcomment -%}
-  {%- comment -%} FAQ JSON-LD is emitted centrally from `_includes/schema.html` {%- endcomment -%}
-  {%- comment -%} HowTo structured data: render if `howto` front matter exists (object with name, description, totalTime, step[]).
-  {%- endcomment -%}
-  {% include schema-howto.html %}
 
   <div class="container">
     <!-- Breadcrumb Navigation -->
