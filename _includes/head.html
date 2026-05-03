@@ -13,10 +13,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- SEO: use `jekyll-seo-tag` to render title, meta description, OpenGraph and Twitter cards.
+  <!-- SEO: jekyll-seo-tag renders title, meta description, OpenGraph and Twitter cards.
+       Its JSON-LD block is stripped here; all structured data comes from _includes/schema-markup.html.
        Set `page.seo_title`, `page.seo_description`, `page.og_image`, etc. in front matter to override. -->
   <!-- SEO-TAG-START -->
-  {% seo %}
+  {%- capture _seo_out -%}{% seo %}{%- endcapture -%}
+  {%- comment -%} Strip the JSON-LD script block that jekyll-seo-tag appends.
+    schema-markup.html is the single source for all structured data on this site. {%- endcomment -%}
+  {%- assign _seo_parts = _seo_out | split: '<script type="application/ld+json">' -%}
+  {{ _seo_parts[0] }}
+  {%- if _seo_parts.size > 1 -%}
+    {%- assign _seo_after = _seo_parts[1] | split: '</script>' -%}
+    {%- for _seo_part in _seo_after offset: 1 -%}{{ _seo_part }}{%- endfor -%}
+  {%- endif -%}
   <!-- SEO-TAG-END -->
   
   <!-- Homepage-specific Open Graph & Twitter Card overrides (for homepage consistency) -->
