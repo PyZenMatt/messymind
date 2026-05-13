@@ -19,11 +19,15 @@ tags:
   - non stacco dal lavoro
   - urgenza mentale
 
-image:
-background:
-lcp_image:
-image_alt:
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1778647695/pexels-karola-g-5241048_fegkfm.jpg
 
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1778647695/pexels-karola-g-5241048_fegkfm.jpg
+
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1778647695/pexels-karola-g-5241048_fegkfm.jpg
+
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1778647695/pexels-karola-g-5241048_fegkfm.jpg
+
+image_alt: "donna di spalle che si fa la doccia"
 faqs:
   - question: "Perché continuo a pensare al lavoro anche nei momenti liberi?"
     answer: "Perché alcuni loop mentali restano aperti anche dopo la fine della giornata lavorativa."
