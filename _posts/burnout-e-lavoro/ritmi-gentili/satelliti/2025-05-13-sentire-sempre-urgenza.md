@@ -19,10 +19,11 @@ tags:
   - recupero mentale
   - lavoro mentale
 
-image:
-background:
-lcp_image:
-image_alt:
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1775995916/pexels-eduraw-35982162_ysjirg.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1775995916/pexels-eduraw-35982162_ysjirg.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1775995916/pexels-eduraw-35982162_ysjirg.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1775995916/pexels-eduraw-35982162_ysjirg.jpg
+image_alt: "esplosione di una bomba"
 
 faqs:
   - question: "Perché mi sento sempre in urgenza?"
