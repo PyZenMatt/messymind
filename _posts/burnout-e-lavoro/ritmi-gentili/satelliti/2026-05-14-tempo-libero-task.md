@@ -20,10 +20,10 @@ tags:
   - ottimizzazione continua
   - urgenza mentale
 
-image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/vXXXXXXXXXX/nome-immagine.jpg
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/vXXXXXXXXXX/nome-immagine.jpg
-lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/vXXXXXXXXXX/nome-immagine.jpg
-og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/vXXXXXXXXXX/nome-immagine.jpg
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1779725197/pexels-mart-production-7718755_ofhczn.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1779725197/pexels-mart-production-7718755_ofhczn.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1779725197/pexels-mart-production-7718755_ofhczn.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1779725197/pexels-mart-production-7718755_ofhczn.jpg
 image_alt:
 
 faqs:

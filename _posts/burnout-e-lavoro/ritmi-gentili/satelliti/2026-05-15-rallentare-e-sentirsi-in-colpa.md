@@ -19,10 +19,13 @@ tags:
   - riposo
   - non riesco a staccare
 
-image:
-background:
-lcp_image:
-image_alt:
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/v1779725087/pexels-song-kaiyue-1051966-2029478_lzqpc5.jpg
+
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_3:2,w_600/v1779725087/pexels-song-kaiyue-1051966-2029478_lzqpc5.jpg
+
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1779725087/pexels-song-kaiyue-1051966-2029478_lzqpc5.jpg
+
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,g_auto,ar_1.91:1,w_1200/v1779725087/pexels-song-kaiyue-1051966-2029478_lzqpc5.jpg
 
 faqs:
   - question: "Perché mi sento in colpa quando rallento?"
