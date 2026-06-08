@@ -15,6 +15,7 @@ subcluster: metodo-ironia
 
 tags:
 
+- cornerstone
 - metodo-ironia
 - overthinking
 - controllo
