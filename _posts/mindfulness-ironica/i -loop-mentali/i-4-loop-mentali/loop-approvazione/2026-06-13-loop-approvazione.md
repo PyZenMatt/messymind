@@ -1032,7 +1032,7 @@ Per capire la mappa completa:
 
 Per capire il sintomo trasversale:
 
-👉 [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking/)
+👉 [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking-vero-problema/)
 
 Per applicare il metodo operativo:
 

@@ -298,7 +298,7 @@ L'overthinking diventa una forma di monitoraggio sociale.
 
 Approfondimento:
 
-👉 [Il Loop dell'Approvazione](/mindfulness-ironica/loop-dell-approvazione/)
+👉 [Il Loop dell'Approvazione](/mindfulness-ironica/loop-approvazione/)
 
 ## Perché persone diverse manifestano lo stesso overthinking
 
@@ -560,7 +560,7 @@ Per capire quale loop sta alimentando il tuo overthinking:
 
 👉 [Il Loop dell'Evitamento](/mindfulness-ironica/loop-dell-evitamento/)
 
-👉 [Il Loop dell'Approvazione](/mindfulness-ironica/loop-dell-approvazione/)
+👉 [Il Loop dell'Approvazione](/mindfulness-ironica/loop-approvazione/)
 
 Per vedere la mappa completa:
 

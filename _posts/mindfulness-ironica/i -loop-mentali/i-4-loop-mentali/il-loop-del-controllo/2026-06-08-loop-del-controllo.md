@@ -1103,7 +1103,7 @@ Gli altri sono:
 
 * [Il Loop del Giudizio](/mindfulness-ironica/loop-del-giudizio/)
 * [Il Loop dell'Evitamento](/mindfulness-ironica/loop-dell-evitamento/)
-* [Il Loop dell'Approvazione](/mindfulness-ironica/loop-dell-approvazione/)
+* [Il Loop dell'Approvazione](/mindfulness-ironica/loop-approvazione/)
 
 Per capire la mappa completa:
 
@@ -1111,7 +1111,7 @@ Per capire la mappa completa:
 
 Per capire il sintomo trasversale:
 
-👉 [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking/)
+👉 [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking-vero-problema/)
 
 Per applicare il metodo operativo:
 
