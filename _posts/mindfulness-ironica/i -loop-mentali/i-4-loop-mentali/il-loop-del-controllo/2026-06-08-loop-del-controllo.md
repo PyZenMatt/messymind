@@ -1093,65 +1093,7 @@ E ciò che diventa visibile può finalmente essere scelto.
 
 ## Domande frequenti sul Loop del Controllo
 
-### Come faccio a capire se sto controllando troppo?
-
-Una domanda utile è:
-
-**Sto ottenendo nuove informazioni oppure sto cercando di sentirmi meglio?**
-
-Se non emergono informazioni nuove, probabilmente il controllo sta diventando rassicurazione.
-
-### Il Loop del Controllo è una forma di overthinking?
-
-Non esattamente.
-
-Il Loop del Controllo può generare overthinking.
-
-Il loop è il meccanismo di base: cercare sicurezza attraverso controllo e verifiche.
-
-L'overthinking è il sintomo cognitivo: pensare, analizzare e rivalutare continuamente nel tentativo di ottenere certezza.
-
-### Perché continuo a controllare una mail già inviata?
-
-Perché il cervello cerca sollievo.
-
-Controllare riduce temporaneamente il dubbio.
-
-Il problema è che il sollievo dura poco e tende ad alimentare nuovi controlli.
-
-Approfondimento:
-
-👉 [Perché continui a controllare una mail già inviata](/mindfulness-ironica/mail-importante/)
-
-### Cercare rassicurazioni è sempre sbagliato?
-
-No.
-
-Chiedere consiglio è normale.
-
-Il problema nasce quando la rassicurazione diventa necessaria per procedere.
-
-In quel caso non stai più cercando un confronto.
-
-Stai cercando una stampella contro l'incertezza.
-
-### È possibile eliminare completamente il bisogno di controllo?
-
-Probabilmente no.
-
-E non è nemmeno necessario.
-
-L'obiettivo non è eliminare ogni bisogno di controllo.
-
-L'obiettivo è riconoscere quando il controllo smette di essere utile e inizia ad alimentare il loop.
-
-### Il Loop del Controllo riguarda solo il lavoro?
-
-No.
-
-Può comparire nel lavoro, nelle relazioni, nello studio, nei messaggi, nelle decisioni quotidiane e nei progetti personali.
-
-Nel contesto professionale diventa però particolarmente visibile, perché si traveste facilmente da precisione, responsabilità e produttività.
+{% include faq.html %}
 
 ## Dove andare adesso
 
