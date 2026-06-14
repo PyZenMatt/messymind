@@ -213,7 +213,7 @@ Ogni rinvio produce sollievo temporaneo.
 
 E rinforza il loop.
 
-👉 Approfondisci: [Loop dell'Evitamento: perché continui a rimandare anche quando sai cosa fare](/mindfulness-ironica/loop-dellevitamento/)
+👉 Approfondisci: [Loop dell'Evitamento: perché continui a rimandare anche quando sai cosa fare](/mindfulness-ironica/loop-dell-evitamento/)
 
 ---
 
@@ -236,7 +236,7 @@ L'obiettivo è ottenere approvazione.
 
 Il risultato spesso è perdere autonomia decisionale.
 
-👉 Approfondisci: [Loop dell'Approvazione: quando il bisogno di essere accettato guida le tue scelte](/mindfulness-ironica/loop-dellapprovazione/)
+👉 Approfondisci: [Loop dell'Approvazione: quando il bisogno di essere accettato guida le tue scelte](/mindfulness-ironica/loop-approvazione/)
 
 ---
 

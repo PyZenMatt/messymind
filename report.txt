@@ -1,0 +1,3209 @@
+Running 3 checks (Images, Links, Scripts) in ["./_site"] on *.html files ...
+
+
+{"time":"2026-06-14T15:50:34+02:00","severity":"warn","process_id":19700,"fiber_id":2980,"pid":19700,"subject":"Async::Task","object_id":3000,"message":"Task may have ended with unhandled exception.","event":{"type":"failure","root":"/home/teo/Progetti/messymind","class":"NoMethodError","message":"\u001b[1mundefined method `filename' for an instance of String (\u001b[1;4mNoMethodError\u001b[m\u001b[1m)\u001b[m\n\n\u001b[1m      @external_urls[url_string] << { filename: url.filename, line: element.line, element: element }\u001b[m\n\u001b[1m                                                   ^^^^^^^^^\u001b[m","backtrace":["/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check.rb:64:in `add_to_external_urls'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:33:in `block (2 levels) in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:237:in `block in each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `upto'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:9:in `run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:134:in `block in check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:117:in `load_file'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:108:in `block (3 levels) in process_files'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:224:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:521:in `block in schedule'"]}}
+{"time":"2026-06-14T15:50:34+02:00","severity":"warn","process_id":19700,"fiber_id":3020,"pid":19700,"subject":"Async::Task","object_id":3040,"message":"Task may have ended with unhandled exception.","event":{"type":"failure","root":"/home/teo/Progetti/messymind","class":"NoMethodError","message":"\u001b[1mundefined method `filename' for an instance of String (\u001b[1;4mNoMethodError\u001b[m\u001b[1m)\u001b[m\n\n\u001b[1m      @external_urls[url_string] << { filename: url.filename, line: element.line, element: element }\u001b[m\n\u001b[1m                                                   ^^^^^^^^^\u001b[m","backtrace":["/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check.rb:64:in `add_to_external_urls'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:33:in `block (2 levels) in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:237:in `block in each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `upto'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:9:in `run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:134:in `block in check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:117:in `load_file'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:108:in `block (3 levels) in process_files'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:224:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:521:in `block in schedule'"]}}
+{"time":"2026-06-14T15:50:34+02:00","severity":"warn","process_id":19700,"fiber_id":3060,"pid":19700,"subject":"Async::Task","object_id":3080,"message":"Task may have ended with unhandled exception.","event":{"type":"failure","root":"/home/teo/Progetti/messymind","class":"NoMethodError","message":"\u001b[1mundefined method `filename' for an instance of String (\u001b[1;4mNoMethodError\u001b[m\u001b[1m)\u001b[m\n\n\u001b[1m      @external_urls[url_string] << { filename: url.filename, line: element.line, element: element }\u001b[m\n\u001b[1m                                                   ^^^^^^^^^\u001b[m","backtrace":["/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check.rb:64:in `add_to_external_urls'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:33:in `block (2 levels) in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:237:in `block in each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `upto'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:9:in `run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:134:in `block in check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:117:in `load_file'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:108:in `block (3 levels) in process_files'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:224:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:521:in `block in schedule'"]}}
+{"time":"2026-06-14T15:50:34+02:00","severity":"warn","process_id":19700,"fiber_id":3100,"pid":19700,"subject":"Async::Task","object_id":3120,"message":"Task may have ended with unhandled exception.","event":{"type":"failure","root":"/home/teo/Progetti/messymind","class":"NoMethodError","message":"\u001b[1mundefined method `filename' for an instance of String (\u001b[1;4mNoMethodError\u001b[m\u001b[1m)\u001b[m\n\n\u001b[1m      @external_urls[url_string] << { filename: url.filename, line: element.line, element: element }\u001b[m\n\u001b[1m                                                   ^^^^^^^^^\u001b[m","backtrace":["/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check.rb:64:in `add_to_external_urls'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:33:in `block (2 levels) in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:237:in `block in each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `upto'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:9:in `run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:134:in `block in check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:117:in `load_file'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:108:in `block (3 levels) in process_files'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:224:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:521:in `block in schedule'"]}}
+{"time":"2026-06-14T15:50:34+02:00","severity":"warn","process_id":19700,"fiber_id":3140,"pid":19700,"subject":"Async::Task","object_id":3160,"message":"Task may have ended with unhandled exception.","event":{"type":"failure","root":"/home/teo/Progetti/messymind","class":"NoMethodError","message":"\u001b[1mundefined method `filename' for an instance of String (\u001b[1;4mNoMethodError\u001b[m\u001b[1m)\u001b[m\n\n\u001b[1m      @external_urls[url_string] << { filename: url.filename, line: element.line, element: element }\u001b[m\n\u001b[1m                                                   ^^^^^^^^^\u001b[m","backtrace":["/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check.rb:64:in `add_to_external_urls'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:33:in `block (2 levels) in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:24:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:237:in `block in each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `upto'","/home/teo/.local/share/gem/ruby/3.3.0/gems/nokogiri-1.19.3-x86_64-linux-gnu/lib/nokogiri/xml/node_set.rb:236:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/check/images.rb:9:in `run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:134:in `block in check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `each'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:125:in `check_parsed'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:117:in `load_file'","/home/teo/.local/share/gem/ruby/3.3.0/gems/html-proofer-5.2.1/lib/html_proofer/runner.rb:108:in `block (3 levels) in process_files'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:224:in `block in run'","/home/teo/.local/share/gem/ruby/3.3.0/gems/async-2.39.0/lib/async/task.rb:521:in `block in schedule'"]}}
+Checking 351 internal links
+Checking internal link hashes in 20 files
+Ran on 259 files!
+
+
+For the Images check, the following failures were found:
+
+* At ./_site/archivio/index.html:1066:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1107:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1148:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1189:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1271:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1312:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1353:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1394:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1436:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1477:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1518:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1559:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1600:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1641:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:1723:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:2297:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:5074:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:6038:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:6072:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/archivio/index.html:6371:
+
+  internal image /assets/images/default-post.jpg does not exist
+
+* At ./_site/articoli/index.html:748:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:786:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:824:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:862:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:937:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:974:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1011:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1048:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1085:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1122:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1159:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1196:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1233:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1270:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1344:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:1862:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:4379:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:5271:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:5309:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/articoli/index.html:5601:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:1037:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:1086:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:1135:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:1184:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:1233:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:1282:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/confini-e-priorita/index.html:532:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/categorie/filosofia-pratica/decisioni-e-bias/index.html:628:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/crescita-personale-anti-guru/la-felicita-e-un-viaggio/index.html:573:
+
+  internal image /img/posts/2/crescita.png does not exist
+
+* At ./_site/mindfulness-ironica/equilibrio-interiore-guida-pratica/index.html:565:
+
+  internal image /img/simbolo-equilibrio.jpg does not exist
+
+* At ./_site/pages/categories/sub_cluster/mindfulness-ironica/micro-pratiche/index.html:553:
+
+  internal image /img/og-default.jpg does not exist
+
+* At ./_site/pages/categories/sub_cluster/mindfulness-ironica/micro-pratiche/index.html:895:
+
+  internal image /img/og-default.jpg does not exist
+
+For the Links check, the following failures were found:
+
+* At ./_site/filosofia-pratica/pensiero-catastrofico/index.html:542:
+
+  'a' tag is missing a reference
+
+For the Links > Internal check, the following failures were found:
+
+* At ./_site/404.html:367:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/404.html:511:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/404.html:536:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/ISSUE-NEWSLETTER-API/index.html:386:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/ISSUE-NEWSLETTER-API/index.html:807:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/ISSUE-NEWSLETTER-API/index.html:832:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/about/index.html:402:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/about/index.html:768:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/about/index.html:793:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/archivio/index.html:367:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/archivio/index.html:7015:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/archivio/index.html:7040:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/articoli/index.html:367:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/articoli/index.html:6024:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/articoli/index.html:6049:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/benefici-reali-mindfulness/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/benefici-reali-mindfulness/index.html:709:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/benefici-reali-mindfulness/index.html:734:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/ansia-da-produttivita/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/ansia-da-produttivita/index.html:1066:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/ansia-da-produttivita/index.html:1091:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/aprire-il-telefono/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/aprire-il-telefono/index.html:620:
+
+  internally linking to /burnout-e-lavoro/perche-senti-urgenza-anche-quando-non-ce-urgenza/, which does not exist
+
+* At ./_site/burnout-e-lavoro/aprire-il-telefono/index.html:683:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/aprire-il-telefono/index.html:1034:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/aprire-il-telefono/index.html:1059:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/autenticita-e-lavoro/index.html:468:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/autenticita-e-lavoro/index.html:752:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/autenticita-e-lavoro/index.html:1191:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/autenticita-e-lavoro/index.html:1216:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/burnout-cos-e-davvero/index.html:468:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/burnout-cos-e-davvero/index.html:760:
+
+  internally linking to /burnout-e-lavoro/perche-ti-senti-in-colpa-quando-rallenti/, which does not exist
+
+* At ./_site/burnout-e-lavoro/burnout-cos-e-davvero/index.html:786:
+
+  internally linking to /burnout-e-lavoro/perche-ti-senti-in-colpa-quando-rallenti/, which does not exist
+
+* At ./_site/burnout-e-lavoro/burnout-cos-e-davvero/index.html:1192:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/burnout-cos-e-davvero/index.html:1217:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/burnout-e-segnali/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/burnout-e-segnali/index.html:997:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/burnout-e-segnali/index.html:1022:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/censurarsi-in-riunione/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/censurarsi-in-riunione/index.html:630:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/stanchezza-sembrare-sempre-professionale/, which does not exist
+
+* At ./_site/burnout-e-lavoro/censurarsi-in-riunione/index.html:1039:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/censurarsi-in-riunione/index.html:1064:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:464:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:628:
+
+  internally linking to /burnout-e-lavoro/dici-sempre-si-lavoro/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:629:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:703:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:792:
+
+  internally linking to /burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:802:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:805:
+
+  internally linking to /burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:806:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:1094:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/compiacenza-lavorativa/index.html:1119:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/controllare-mentalmente/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/controllare-mentalmente/index.html:612:
+
+  internally linking to /burnout-e-lavoro/perche-senti-urgenza-anche-quando-non-ce-urgenza/, which does not exist
+
+* At ./_site/burnout-e-lavoro/controllare-mentalmente/index.html:612:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/controllare-mentalmente/index.html:636:
+
+  internally linking to /burnout-e-lavoro/perche-non-riesci-a-ignorare-le-notifiche/, which does not exist
+
+* At ./_site/burnout-e-lavoro/controllare-mentalmente/index.html:636:
+
+  internally linking to /burnout-e-lavoro/perche-apri-il-telefono-appena-hai-un-secondo-libero/, which does not exist
+
+* At ./_site/burnout-e-lavoro/controllare-mentalmente/index.html:668:
+
+  internally linking to /burnout-e-lavoro/perche-anche-il-tempo-libero-sembra-un-task/, which does not exist
+
+* At ./_site/burnout-e-lavoro/controllare-mentalmente/index.html:1009:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/controllare-mentalmente/index.html:1034:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-no-lavoro-senza-problemi/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-no-lavoro-senza-problemi/index.html:616:
+
+  internally linking to /burnout-e-lavoro/dici-sempre-si-lavoro/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-no-lavoro-senza-problemi/index.html:795:
+
+  internally linking to /filosofia-pratica/compiacenza-lavorativa/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-no-lavoro-senza-problemi/index.html:852:
+
+  internally linking to /burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-no-lavoro-senza-problemi/index.html:1131:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-no-lavoro-senza-problemi/index.html:1156:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-sempre-si/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-sempre-si/index.html:641:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/lavoro-diventa-performance-sociale/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-sempre-si/index.html:679:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/paura-sembrare-incompetente-lavoro/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-sempre-si/index.html:737:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/stanchezza-sembrare-sempre-professionale/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-sempre-si/index.html:1024:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/dire-sempre-si/index.html:1049:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/fare-le-cose-con-calma/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/fare-le-cose-con-calma/index.html:611:
+
+  internally linking to /burnout-e-lavoro/perche-senti-urgenza-anche-quando-non-ce-urgenza/, which does not exist
+
+* At ./_site/burnout-e-lavoro/fare-le-cose-con-calma/index.html:611:
+
+  internally linking to /burnout-e-lavoro/perche-ti-senti-in-ritardo-anche-quando-sei-in-anticipo/, which does not exist
+
+* At ./_site/burnout-e-lavoro/fare-le-cose-con-calma/index.html:638:
+
+  internally linking to /burnout-e-lavoro/perche-anche-il-tempo-libero-sembra-un-task/, which does not exist
+
+* At ./_site/burnout-e-lavoro/fare-le-cose-con-calma/index.html:667:
+
+  internally linking to /burnout-e-lavoro/perche-non-riesci-a-ignorare-le-notifiche/, which does not exist
+
+* At ./_site/burnout-e-lavoro/fare-le-cose-con-calma/index.html:667:
+
+  internally linking to /burnout-e-lavoro/perche-apri-il-telefono-appena-hai-un-secondo-libero/, which does not exist
+
+* At ./_site/burnout-e-lavoro/fare-le-cose-con-calma/index.html:1002:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/fare-le-cose-con-calma/index.html:1027:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/ignorare-le-notifiche/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/ignorare-le-notifiche/index.html:611:
+
+  internally linking to /burnout-e-lavoro/perche-senti-urgenza-anche-quando-non-ce-urgenza/, which does not exist
+
+* At ./_site/burnout-e-lavoro/ignorare-le-notifiche/index.html:611:
+
+  internally linking to /burnout-e-lavoro/perche-apri-il-telefono-appena-hai-un-secondo-libero/, which does not exist
+
+* At ./_site/burnout-e-lavoro/ignorare-le-notifiche/index.html:635:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/ignorare-le-notifiche/index.html:635:
+
+  internally linking to /burnout-e-lavoro/perche-controlli-le-mail-anche-fuori-orario/, which does not exist
+
+* At ./_site/burnout-e-lavoro/ignorare-le-notifiche/index.html:1009:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/ignorare-le-notifiche/index.html:1034:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/lavoro-performance-sociale/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/lavoro-performance-sociale/index.html:660:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/stanchezza-sembrare-sempre-professionale/, which does not exist
+
+* At ./_site/burnout-e-lavoro/lavoro-performance-sociale/index.html:1033:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/lavoro-performance-sociale/index.html:1058:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:464:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:617:
+
+  internally linking to /burnout-e-lavoro/dici-sempre-si-lavoro/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:618:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:674:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:725:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:727:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:764:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:815:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:1100:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/maschera-lavorativa/index.html:1125:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-riesci-a-rilassarti/index.html:438:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-riesci-a-rilassarti/index.html:936:
+
+  internally linking to /burnout-e-lavoro/perche-ti-senti-in-colpa-quando-rallenti/, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-riesci-a-rilassarti/index.html:1217:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-riesci-a-rilassarti/index.html:1242:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-stacchi-mai-davvero/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-stacchi-mai-davvero/index.html:626:
+
+  internally linking to /burnout-e-lavoro/dici-sempre-si-lavoro/, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-stacchi-mai-davvero/index.html:678:
+
+  internally linking to /burnout-e-lavoro/dici-sempre-si-lavoro/, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-stacchi-mai-davvero/index.html:1080:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/non-stacchi-mai-davvero/index.html:1105:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/paura-incompetenza-lavorativa/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/paura-incompetenza-lavorativa/index.html:634:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/ti-censuri-sempre-riunioni/, which does not exist
+
+* At ./_site/burnout-e-lavoro/paura-incompetenza-lavorativa/index.html:676:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/stanchezza-sembrare-sempre-professionale/, which does not exist
+
+* At ./_site/burnout-e-lavoro/paura-incompetenza-lavorativa/index.html:1031:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/paura-incompetenza-lavorativa/index.html:1056:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-controlli-email/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-controlli-email/index.html:1127:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-controlli-email/index.html:1152:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/index.html:864:
+
+  internally linking to /burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/index.html:1265:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/index.html:1290:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-il-lavoro-ti-resta-in-testa/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-il-lavoro-ti-resta-in-testa/index.html:617:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-il-lavoro-ti-resta-in-testa/index.html:617:
+
+  internally linking to /burnout-e-lavoro/controlli-mail-fuori-orario/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-il-lavoro-ti-resta-in-testa/index.html:948:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-il-lavoro-ti-resta-in-testa/index.html:973:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-ti-senti-in-colpa-quando-stacchi/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-ti-senti-in-colpa-quando-stacchi/index.html:989:
+
+  internally linking to /mindfulness-ironica/nomina-il-loop/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-ti-senti-in-colpa-quando-stacchi/index.html:1320:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-ti-senti-in-colpa-quando-stacchi/index.html:1345:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-ti-senti-sempre-reperebile/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-ti-senti-sempre-reperebile/index.html:683:
+
+  internally linking to /burnout-e-lavoro/perche-controlli-mail-fuori-orario/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-ti-senti-sempre-reperebile/index.html:906:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/perche-ti-senti-sempre-reperebile/index.html:931:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/prevenzione-e-cura-burnout/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/prevenzione-e-cura-burnout/index.html:714:
+
+  internally linking to /burnout-e-lavoro/perche-non-riesci-a-ignorare-le-notifiche/, which does not exist
+
+* At ./_site/burnout-e-lavoro/prevenzione-e-cura-burnout/index.html:725:
+
+  internally linking to /burnout-e-lavoro/perche-apri-il-telefono-appena-hai-un-secondo-libero/, which does not exist
+
+* At ./_site/burnout-e-lavoro/prevenzione-e-cura-burnout/index.html:741:
+
+  internally linking to /burnout-e-lavoro/perche-il-silenzio-ti-mette-a-disagio/, which does not exist
+
+* At ./_site/burnout-e-lavoro/prevenzione-e-cura-burnout/index.html:754:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/prevenzione-e-cura-burnout/index.html:771:
+
+  internally linking to /burnout-e-lavoro/perche-anche-il-tempo-libero-sembra-un-task/, which does not exist
+
+* At ./_site/burnout-e-lavoro/prevenzione-e-cura-burnout/index.html:1083:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/prevenzione-e-cura-burnout/index.html:1108:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/rallentare-e-sentirsi-in-colpa/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/rallentare-e-sentirsi-in-colpa/index.html:1001:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/rallentare-e-sentirsi-in-colpa/index.html:1026:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sembrare-professionali/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/sembrare-professionali/index.html:1058:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sembrare-professionali/index.html:1083:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sempre-in-ritardo/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/sempre-in-ritardo/index.html:609:
+
+  internally linking to /burnout-e-lavoro/perche-senti-urgenza-anche-quando-non-ce-urgenza/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sempre-in-ritardo/index.html:633:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sempre-in-ritardo/index.html:633:
+
+  internally linking to /burnout-e-lavoro/perche-non-riesci-a-ignorare-le-notifiche/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sempre-in-ritardo/index.html:669:
+
+  internally linking to /burnout-e-lavoro/perche-apri-il-telefono-appena-hai-un-secondo-libero/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sempre-in-ritardo/index.html:669:
+
+  internally linking to /burnout-e-lavoro/perche-il-silenzio-ti-mette-a-disagio/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sempre-in-ritardo/index.html:1008:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sempre-in-ritardo/index.html:1033:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sentire-sempre-urgenza/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/sentire-sempre-urgenza/index.html:621:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sentire-sempre-urgenza/index.html:621:
+
+  internally linking to /burnout-e-lavoro/perche-controlli-le-mail-anche-fuori-orario/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sentire-sempre-urgenza/index.html:647:
+
+  internally linking to /burnout-e-lavoro/perche-ti-senti-in-colpa-quando-rallenti/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sentire-sempre-urgenza/index.html:987:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/sentire-sempre-urgenza/index.html:1012:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/silenzio-e-disagio/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/silenzio-e-disagio/index.html:611:
+
+  internally linking to /burnout-e-lavoro/perche-senti-urgenza-anche-quando-non-ce-urgenza/, which does not exist
+
+* At ./_site/burnout-e-lavoro/silenzio-e-disagio/index.html:611:
+
+  internally linking to /burnout-e-lavoro/perche-apri-il-telefono-appena-hai-un-secondo-libero/, which does not exist
+
+* At ./_site/burnout-e-lavoro/silenzio-e-disagio/index.html:662:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/silenzio-e-disagio/index.html:999:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/silenzio-e-disagio/index.html:1024:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/stanco-ma-disponibile/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/stanco-ma-disponibile/index.html:647:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/stanchezza-sembrare-sempre-professionale/, which does not exist
+
+* At ./_site/burnout-e-lavoro/stanco-ma-disponibile/index.html:699:
+
+  internally linking to /burnout-e-lavoro/autenticita-in-ufficio/lavoro-diventa-performance-sociale/, which does not exist
+
+* At ./_site/burnout-e-lavoro/stanco-ma-disponibile/index.html:1001:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/stanco-ma-disponibile/index.html:1026:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/stress-correlato/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/stress-correlato/index.html:1060:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/stress-correlato/index.html:1085:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/tempo-libero-task/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/burnout-e-lavoro/tempo-libero-task/index.html:608:
+
+  internally linking to /burnout-e-lavoro/perche-ti-senti-in-ritardo-anche-quando-sei-in-anticipo/, which does not exist
+
+* At ./_site/burnout-e-lavoro/tempo-libero-task/index.html:644:
+
+  internally linking to /burnout-e-lavoro/perche-il-silenzio-ti-mette-a-disagio/, which does not exist
+
+* At ./_site/burnout-e-lavoro/tempo-libero-task/index.html:681:
+
+  internally linking to /burnout-e-lavoro/ti-senti-sempre-reperibile/, which does not exist
+
+* At ./_site/burnout-e-lavoro/tempo-libero-task/index.html:705:
+
+  internally linking to /burnout-e-lavoro/perche-senti-urgenza-anche-quando-non-ce-urgenza/, which does not exist
+
+* At ./_site/burnout-e-lavoro/tempo-libero-task/index.html:1013:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/burnout-e-lavoro/tempo-libero-task/index.html:1038:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:483:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:1647:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/autenticita-in-ufficio/index.html:1672:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/ritmi-gentili/index.html:546:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/ritmi-gentili/index.html:1788:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/burnout-e-lavoro/ritmi-gentili/index.html:1813:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/confini-e-priorita/index.html:413:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/confini-e-priorita/index.html:518:
+
+  internally linking to #cornerstone-heading; the file exists, but the hash 'cornerstone-heading' does not
+
+* At ./_site/categorie/crescita-personale-anti-guru/confini-e-priorita/index.html:581:
+
+  internally linking to /categorie/crescita-personale-anti-guru/scopo-e-confini/, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/confini-e-priorita/index.html:1074:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/confini-e-priorita/index.html:1099:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/desiderio-e-automatismi/index.html:413:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/desiderio-e-automatismi/index.html:518:
+
+  internally linking to #cornerstone-heading; the file exists, but the hash 'cornerstone-heading' does not
+
+* At ./_site/categorie/crescita-personale-anti-guru/desiderio-e-automatismi/index.html:1074:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/desiderio-e-automatismi/index.html:1099:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/perfezionismo-e-procrastinazione/index.html:413:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/perfezionismo-e-procrastinazione/index.html:1120:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/crescita-personale-anti-guru/perfezionismo-e-procrastinazione/index.html:1145:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/coscienza-e-ai/index.html:427:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/coscienza-e-ai/index.html:1316:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/coscienza-e-ai/index.html:1341:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/decisioni-e-bias/index.html:509:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/decisioni-e-bias/index.html:1623:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/decisioni-e-bias/index.html:1648:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/scienza-e-metodo/index.html:420:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/scienza-e-metodo/index.html:525:
+
+  internally linking to #cornerstone-heading; the file exists, but the hash 'cornerstone-heading' does not
+
+* At ./_site/categorie/filosofia-pratica/scienza-e-metodo/index.html:1202:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/filosofia-pratica/scienza-e-metodo/index.html:1227:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/index.html:367:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/index.html:625:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/index.html:650:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/mindfulness-ironica/metodo-ironia/index.html:546:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/mindfulness-ironica/metodo-ironia/index.html:651:
+
+  internally linking to #cornerstone-heading; the file exists, but the hash 'cornerstone-heading' does not
+
+* At ./_site/categorie/mindfulness-ironica/metodo-ironia/index.html:1621:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/mindfulness-ironica/metodo-ironia/index.html:1646:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/mindfulness-ironica/spiritualita-prudente/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/categorie/mindfulness-ironica/spiritualita-prudente/index.html:539:
+
+  internally linking to #cornerstone-heading; the file exists, but the hash 'cornerstone-heading' does not
+
+* At ./_site/categorie/mindfulness-ironica/spiritualita-prudente/index.html:1290:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/categorie/mindfulness-ironica/spiritualita-prudente/index.html:1315:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/come-chiudere-un-loop-mentale-con-unazione/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/come-chiudere-un-loop-mentale-con-unazione/index.html:859:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/come-chiudere-un-loop-mentale-con-unazione/index.html:884:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/come-ritrovare-contatto-materia-oggetti-quotidiani/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/come-ritrovare-contatto-materia-oggetti-quotidiani/index.html:707:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/come-ritrovare-contatto-materia-oggetti-quotidiani/index.html:732:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/contact/index.html:370:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/contact/index.html:553:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/contact/index.html:578:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/cookie-policy/index.html:367:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/cookie-policy/index.html:676:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/cookie-policy/index.html:701:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/autoconsapevolezza-e-felicita/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/autoconsapevolezza-e-felicita/index.html:526:
+
+  internally linking to /categorie/crescita-personale-anti-guru/felicita-realistica/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/autoconsapevolezza-e-felicita/index.html:624:
+
+  internally linking to /categorie/crescita-personale-anti-guru/felicita-realistica/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/autoconsapevolezza-e-felicita/index.html:803:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/autoconsapevolezza-e-felicita/index.html:828:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-controllo/index.html:448:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-controllo/index.html:566:
+
+  internally linking to /categorie/crescita-personale-anti-guru/scopo-e-confini/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-controllo/index.html:844:
+
+  internally linking to /categorie/crescita-personale-anti-guru/scopo-e-confini/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-controllo/index.html:899:
+
+  internally linking to /categorie/crescita-personale-anti-guru/scopo-e-confini/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-controllo/index.html:1083:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-controllo/index.html:1108:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-risveglio-interiore/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-risveglio-interiore/index.html:526:
+
+  internally linking to /categorie/crescita-personale-anti-guru/desiderio-e-rinuncia/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-risveglio-interiore/index.html:605:
+
+  internally linking to /categorie/crescita-personale-anti-guru/desiderio-e-rinuncia/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-risveglio-interiore/index.html:789:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/il-risveglio-interiore/index.html:814:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/iniziare-male-migliorare/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/iniziare-male-migliorare/index.html:1129:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/iniziare-male-migliorare/index.html:1154:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/la-felicita-e-un-viaggio/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/la-felicita-e-un-viaggio/index.html:526:
+
+  internally linking to /categorie/crescita-personale-anti-guru/felicita-realistica/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/la-felicita-e-un-viaggio/index.html:643:
+
+  internally linking to /categorie/crescita-personale-anti-guru/felicita-realistica/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/la-felicita-e-un-viaggio/index.html:827:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/la-felicita-e-un-viaggio/index.html:852:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/le-fondamenta-della-felicita/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/le-fondamenta-della-felicita/index.html:526:
+
+  internally linking to /categorie/crescita-personale-anti-guru/felicita-realistica/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/le-fondamenta-della-felicita/index.html:614:
+
+  internally linking to /categorie/crescita-personale-anti-guru/felicita-realistica/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/le-fondamenta-della-felicita/index.html:798:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/le-fondamenta-della-felicita/index.html:823:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/pornografia-rumore-bianco/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/pornografia-rumore-bianco/index.html:867:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/crescita-personale-anti-guru/pornografia-rumore-bianco/index.html:892:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/cuore-e-mente-in-armonia/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/cuore-e-mente-in-armonia/index.html:719:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/cuore-e-mente-in-armonia/index.html:744:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/e-mc2-spiritualita-verita-scomoda/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/e-mc2-spiritualita-verita-scomoda/index.html:937:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/e-mc2-spiritualita-verita-scomoda/index.html:962:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/email_template_newsletter.html:265:
+
+  internally linking to {{ cta_url }}, which does not exist
+
+* At ./_site/email_template_newsletter.html:298:
+
+  internally linking to {{ unsubscribe_url }}, which does not exist
+
+* At ./_site/email_template_newsletter.html:304:
+
+  internally linking to {{ preferences_url }}, which does not exist
+
+* At ./_site/fallimento-arte/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/fallimento-arte/index.html:703:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/fallimento-arte/index.html:728:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/bias-cognitivi/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/bias-cognitivi/index.html:1068:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/bias-cognitivi/index.html:1093:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/costellazioni/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/costellazioni/index.html:602:
+
+  internally linking to /burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/, which does not exist
+
+* At ./_site/filosofia-pratica/costellazioni/index.html:838:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/costellazioni/index.html:863:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/faggin-coscienza-ironia-router/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/faggin-coscienza-ironia-router/index.html:1028:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/faggin-coscienza-ironia-router/index.html:1053:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/faggin-ia-non-cosciente/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/faggin-ia-non-cosciente/index.html:916:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/faggin-ia-non-cosciente/index.html:941:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-nousym-piante-coscienti/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-nousym-piante-coscienti/index.html:671:
+
+  internally linking to /filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-nousym-piante-coscienti/index.html:889:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-nousym-piante-coscienti/index.html:914:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-qip-seita/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-qip-seita/index.html:562:
+
+  internally linking to /filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-qip-seita/index.html:703:
+
+  internally linking to /filosofia-pratica/ia-cosciente-per-faggin-e-unillusione-2025/, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-qip-seita/index.html:923:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/federico-faggin-qip-seita/index.html:948:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/libero-arbitrio/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/libero-arbitrio/index.html:624:
+
+  internally linking to /filosofia-pratica/cervello-vs-buddha/, which does not exist
+
+* At ./_site/filosofia-pratica/libero-arbitrio/index.html:749:
+
+  internally linking to /filosofia-pratica/cervello-vs-buddha/, which does not exist
+
+* At ./_site/filosofia-pratica/libero-arbitrio/index.html:970:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/libero-arbitrio/index.html:995:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/neuroscienze-e-buddismo/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/neuroscienze-e-buddismo/index.html:1072:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/neuroscienze-e-buddismo/index.html:1097:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/overthinking/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/overthinking/index.html:1056:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/overthinking/index.html:1081:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/pensiero-catastrofico/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/pensiero-catastrofico/index.html:1011:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/pensiero-catastrofico/index.html:1036:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/index.html:1033:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/index.html:1058:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/post-colloquio/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/post-colloquio/index.html:745:
+
+  internally linking to /filosofia-pratica/ripensare-email-ore/, which does not exist
+
+* At ./_site/filosofia-pratica/post-colloquio/index.html:1013:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/post-colloquio/index.html:1038:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/riduzionismo/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/riduzionismo/index.html:660:
+
+  internally linking to /illusioni-cognitive/, which does not exist
+
+* At ./_site/filosofia-pratica/riduzionismo/index.html:864:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/riduzionismo/index.html:889:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-mail-ore/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-mail-ore/index.html:634:
+
+  internally linking to /mindfulness-ironica/chiami-ansia-tutto-quello-che-senti/, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-mail-ore/index.html:977:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-mail-ore/index.html:1002:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-vocali-ore/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-vocali-ore/index.html:974:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-vocali-ore/index.html:999:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-whatsapp-ore/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-whatsapp-ore/index.html:978:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/filosofia-pratica/ripensare-whatsapp-ore/index.html:1003:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/il-desiderio/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/il-desiderio/index.html:680:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/il-desiderio/index.html:705:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/la-legge-del-ritmo/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/la-legge-del-ritmo/index.html:739:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/la-legge-del-ritmo/index.html:764:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/abbassare-il-rumore-mentale/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/abbassare-il-rumore-mentale/index.html:548:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/mindfulness-ironica/abbassare-il-rumore-mentale/index.html:665:
+
+  internally linking to /mindfulness-ironica/tornare-presente, which does not exist
+
+* At ./_site/mindfulness-ironica/abbassare-il-rumore-mentale/index.html:808:
+
+  internally linking to /mindfulness-ironica/tornare-presente/, which does not exist
+
+* At ./_site/mindfulness-ironica/abbassare-il-rumore-mentale/index.html:809:
+
+  internally linking to /mindfulness-ironica/respira-prima-di-rovinare-tutto/, which does not exist
+
+* At ./_site/mindfulness-ironica/abbassare-il-rumore-mentale/index.html:843:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/mindfulness-ironica/abbassare-il-rumore-mentale/index.html:1027:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/abbassare-il-rumore-mentale/index.html:1052:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/affect-labeling/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/affect-labeling/index.html:656:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/affect-labeling/index.html:740:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/, which does not exist
+
+* At ./_site/mindfulness-ironica/affect-labeling/index.html:1109:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/affect-labeling/index.html:1134:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/agire-sotto-ansia-senza-aspettare-di-calmarti/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/agire-sotto-ansia-senza-aspettare-di-calmarti/index.html:1198:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/agire-sotto-ansia-senza-aspettare-di-calmarti/index.html:1223:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/agisci-per-interrompere-il-loop/index.html:446:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/agisci-per-interrompere-il-loop/index.html:867:
+
+  internally linking to /mindfulness-ironica/loop-dellevitamento/, which does not exist
+
+* At ./_site/mindfulness-ironica/agisci-per-interrompere-il-loop/index.html:901:
+
+  internally linking to /mindfulness-ironica/loop-dellapprovazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/agisci-per-interrompere-il-loop/index.html:1513:
+
+  internally linking to /mindfulness-ironica/come-chiudere-un-loop-mentale-con-unazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/agisci-per-interrompere-il-loop/index.html:1871:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/agisci-per-interrompere-il-loop/index.html:1896:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/allenare-il-ridimensionamento/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/allenare-il-ridimensionamento/index.html:1024:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/allenare-il-ridimensionamento/index.html:1049:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/behavioral-activation/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/behavioral-activation/index.html:726:
+
+  internally linking to /mindfulness-ironica/la-trappola-dellazione-perfetta-errori/, which does not exist
+
+* At ./_site/mindfulness-ironica/behavioral-activation/index.html:1083:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/behavioral-activation/index.html:1108:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/blocchi-decisionali-quando-rimandi-anche-cose-semplici/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/blocchi-decisionali-quando-rimandi-anche-cose-semplici/index.html:1105:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/blocchi-decisionali-quando-rimandi-anche-cose-semplici/index.html:1130:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/cervello-escalation/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/cervello-escalation/index.html:621:
+
+  internally linking to /mindfulness-ironica/corpo-capisce-loop-prima-testa/, which does not exist
+
+* At ./_site/mindfulness-ironica/cervello-escalation/index.html:1110:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/cervello-escalation/index.html:1135:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/come-fermarti-prima-di-rispondere-male/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/come-fermarti-prima-di-rispondere-male/index.html:682:
+
+  internally linking to /mindfulness-ironica/come-fermarti-prima-di-reagire/, which does not exist
+
+* At ./_site/mindfulness-ironica/come-fermarti-prima-di-rispondere-male/index.html:1092:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/come-fermarti-prima-di-rispondere-male/index.html:1117:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-non-serve/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-non-serve/index.html:629:
+
+  internally linking to /mindfulness-ironica/cervello-entra-escalation-velocemente/, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-non-serve/index.html:696:
+
+  internally linking to /mindfulness-ironica/corpo-capisce-loop-prima-testa/, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-non-serve/index.html:1093:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-non-serve/index.html:1118:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-sempre-il-telefono/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-sempre-il-telefono/index.html:544:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-sempre-il-telefono/index.html:856:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-sempre-il-telefono/index.html:1040:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/controllare-sempre-il-telefono/index.html:1065:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/defusione-cognitiva/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/defusione-cognitiva/index.html:977:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/defusione-cognitiva/index.html:1002:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/equilibrio-interiore-guida-pratica/index.html:400:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/equilibrio-interiore-guida-pratica/index.html:804:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/equilibrio-interiore-guida-pratica/index.html:829:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-che-sabotano/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-che-sabotano/index.html:1080:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-che-sabotano/index.html:1105:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-identificazione-emozioni/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-identificazione-emozioni/index.html:1153:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-identificazione-emozioni/index.html:1178:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-osservare-sotto-pressione/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-osservare-sotto-pressione/index.html:703:
+
+  internally linking to /mindfulness-ironica/ansia-improvvisa-segnali-fisici/, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-osservare-sotto-pressione/index.html:1138:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/errori-osservare-sotto-pressione/index.html:1163:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:615:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:671:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:671:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini-e-insonnia/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:677:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini-e-ansia/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:750:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/interrompi/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:764:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/ridimensiona/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:799:
+
+  internally linking to /mindfulness-ironica/micro-pratiche/respira-prima-di-peggiorare-tutto/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:841:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:842:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini-e-ansia/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:843:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini-e-insonnia/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:844:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/cosa-evitare-in-fase-di-attivazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:846:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/interrompi/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:847:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/ridimensiona/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:848:
+
+  internally linking to /mindfulness-ironica/micro-pratiche/respira-prima-di-peggiorare-tutto/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:1048:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/esperienza-destabilizzante/index.html:1073:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/i-4-loop-mentali/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/i-4-loop-mentali/index.html:1484:
+
+  internally linking to /mindfulness-ironica/loop-evitamento/, which does not exist
+
+* At ./_site/mindfulness-ironica/i-4-loop-mentali/index.html:1775:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/i-4-loop-mentali/index.html:1800:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/i-sabotatori/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/i-sabotatori/index.html:1127:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/i-sabotatori/index.html:1152:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/identificare-cosa-accade-dentro-te/index.html:438:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/identificare-cosa-accade-dentro-te/index.html:877:
+
+  internally linking to /mindfulness-ironica/loop-dell-approvazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/identificare-cosa-accade-dentro-te/index.html:1548:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/identificare-cosa-accade-dentro-te/index.html:1573:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-corpo-capisce-prima/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/il-corpo-capisce-prima/index.html:1078:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-corpo-capisce-prima/index.html:1103:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-corpo-parla-in-anticipo/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/il-corpo-parla-in-anticipo/index.html:1035:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-corpo-parla-in-anticipo/index.html:1060:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-metodo-dei-120-secondi/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/il-metodo-dei-120-secondi/index.html:695:
+
+  internally linking to /mindfulness-ironica/come-chiudere-un-loop-mentale-con-unazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-metodo-dei-120-secondi/index.html:1089:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-metodo-dei-120-secondi/index.html:1114:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-momento-in-cui-perdi-il-controllo/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/il-momento-in-cui-perdi-il-controllo/index.html:516:
+
+  internally linking to www.kaboompics.com, which does not exist
+
+* At ./_site/mindfulness-ironica/il-momento-in-cui-perdi-il-controllo/index.html:1353:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-momento-in-cui-perdi-il-controllo/index.html:1378:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-pre-impulso/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/il-pre-impulso/index.html:1064:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/il-pre-impulso/index.html:1089:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/impulso-bisogno-abitudine/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/impulso-bisogno-abitudine/index.html:1035:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/impulso-bisogno-abitudine/index.html:1060:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/interrompere-il-pilota-automatico/index.html:446:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/interrompere-il-pilota-automatico/index.html:923:
+
+  internally linking to /mindfulness-ironica/loop-dellevitamento/, which does not exist
+
+* At ./_site/mindfulness-ironica/interrompere-il-pilota-automatico/index.html:958:
+
+  internally linking to /mindfulness-ironica/loop-dellapprovazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/interrompere-il-pilota-automatico/index.html:1913:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/interrompere-il-pilota-automatico/index.html:1938:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/interrompere-non-basta-cosa-fare-dopo/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/interrompere-non-basta-cosa-fare-dopo/index.html:1100:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/interrompere-non-basta-cosa-fare-dopo/index.html:1125:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:611:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:643:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/ridimensiona/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:643:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:769:
+
+  internally linking to /mindfulness-ironica/micro-pratiche/respira-prima-di-peggiorare-tutto/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:818:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:819:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini-e-insonnia/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:820:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/esperienza-spirituale-destabilizzante/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:821:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/cosa-evitare-in-fase-di-attivazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:823:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:824:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/ridimensiona/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:1024:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-ansia/index.html:1049:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:611:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:644:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/ridimensiona/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:644:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:677:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/interrompi/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:741:
+
+  internally linking to /mindfulness-ironica/micro-pratiche/respira-prima-di-peggiorare-tutto/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:808:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:809:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/kundalini-e-ansia/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:810:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/esperienza-spirituale-destabilizzante/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:811:
+
+  internally linking to /mindfulness-ironica/spiritualita-prudente/cosa-evitare-in-fase-di-attivazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:813:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:814:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/ridimensiona/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:815:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/interrompi/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:816:
+
+  internally linking to /mindfulness-ironica/micro-pratiche/respira-prima-di-peggiorare-tutto/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:1016:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini-e-insonnia/index.html:1041:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini/index.html:968:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/kundalini/index.html:993:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-approvazione/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-approvazione/index.html:1622:
+
+  internally linking to /mindfulness-ironica/come-chiudere-un-loop-mentale-con-unazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-approvazione/index.html:1900:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-approvazione/index.html:1925:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-che-sembrano-produttivi/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-che-sembrano-produttivi/index.html:1165:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-che-sembrano-produttivi/index.html:1190:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-del-controllo/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-del-controllo/index.html:1998:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-del-controllo/index.html:2023:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-del-giudizio/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-del-giudizio/index.html:1950:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-del-giudizio/index.html:1975:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-dell-evitamento/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-dell-evitamento/index.html:890:
+
+  internally linking to /mindfulness-ironica/perche-procrastini-anche-quando-sai-cosa-fare/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-dell-evitamento/index.html:1648:
+
+  internally linking to /mindfulness-ironica/perche-procrastini-anche-quando-sai-cosa-fare/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-dell-evitamento/index.html:1657:
+
+  internally linking to /mindfulness-ironica/come-chiudere-un-loop-mentale-con-unazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-dell-evitamento/index.html:1944:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/loop-dell-evitamento/index.html:1969:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/mail-importante/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/mail-importante/index.html:1011:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/mail-importante/index.html:1036:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia-perche-lironia-e-una-forma-di-consapevolezza/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia-perche-lironia-e-una-forma-di-consapevolezza/index.html:1090:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia-perche-lironia-e-una-forma-di-consapevolezza/index.html:1115:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/capire-cosa-provi-decisioni-sotto-pressione/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/capire-cosa-provi-decisioni-sotto-pressione/index.html:759:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/capire-cosa-provi-decisioni-sotto-pressione/index.html:762:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/capire-cosa-provi-decisioni-sotto-pressione/index.html:1089:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/capire-cosa-provi-decisioni-sotto-pressione/index.html:1114:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/index.html:592:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/mail-importante/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/index.html:614:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/index.html:664:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/index.html:687:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/quando-la-parola-ti-frega/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/index.html:1062:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/index.html:1087:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/come-nominare-emozione-5-secondi/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/come-nominare-emozione-5-secondi/index.html:679:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/come-nominare-emozione-5-secondi/index.html:1110:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/come-nominare-emozione-5-secondi/index.html:1135:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/index.html:742:
+
+  internally linking to /mindfulness-ironica/loop-dellevitamento/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/index.html:767:
+
+  internally linking to /mindfulness-ironica/loop-dellapprovazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/index.html:1262:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/index.html:1287:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/index.html:709:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/index.html:733:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/index.html:1092:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/index.html:1117:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/non-e-ansia-evitare-scelta/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/non-e-ansia-evitare-scelta/index.html:700:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/non-e-ansia-evitare-scelta/index.html:1138:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/non-e-ansia-evitare-scelta/index.html:1163:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/segnali-nome-sbagliato-loop/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/segnali-nome-sbagliato-loop/index.html:714:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/segnali-nome-sbagliato-loop/index.html:1117:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/metodo-ironia/segnali-nome-sbagliato-loop/index.html:1142:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/micro-azioni-per-sbloccarti/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/micro-azioni-per-sbloccarti/index.html:967:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/micro-azioni-per-sbloccarti/index.html:992:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/micro-interruzioni/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/micro-interruzioni/index.html:731:
+
+  internally linking to /mindfulness-ironica/interrompere-non-basta/, which does not exist
+
+* At ./_site/mindfulness-ironica/micro-interruzioni/index.html:1061:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/micro-interruzioni/index.html:1086:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/momento-esatto-interrompersi/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/momento-esatto-interrompersi/index.html:1057:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/momento-esatto-interrompersi/index.html:1082:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/naming-sul-campo/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/naming-sul-campo/index.html:610:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/naming-sul-campo/index.html:723:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/quando-la-parola-ti-frega/, which does not exist
+
+* At ./_site/mindfulness-ironica/naming-sul-campo/index.html:1097:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/naming-sul-campo/index.html:1122:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/nome-emozione-sbagliato/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/nome-emozione-sbagliato/index.html:1073:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/nome-emozione-sbagliato/index.html:1098:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/nomina-cio-che-senti/index.html:446:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/nomina-cio-che-senti/index.html:983:
+
+  internally linking to /mindfulness-ironica/loop-dellevitamento/, which does not exist
+
+* At ./_site/mindfulness-ironica/nomina-cio-che-senti/index.html:1025:
+
+  internally linking to /mindfulness-ironica/loop-dellapprovazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/nomina-cio-che-senti/index.html:1806:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/nomina-cio-che-senti/index.html:1831:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/non-riesci-a-fermarti/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/non-riesci-a-fermarti/index.html:1091:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/non-riesci-a-fermarti/index.html:1116:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/non-riesci-a-iniziare-cosa-fare-nei-primi-10-secondi/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/non-riesci-a-iniziare-cosa-fare-nei-primi-10-secondi/index.html:1120:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/non-riesci-a-iniziare-cosa-fare-nei-primi-10-secondi/index.html:1145:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservando-troppo-bloccato/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/osservando-troppo-bloccato/index.html:1217:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservando-troppo-bloccato/index.html:1242:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-non-basta-interrompi/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-non-basta-interrompi/index.html:1198:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-non-basta-interrompi/index.html:1223:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-o-alimentare/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-o-alimentare/index.html:1078:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-o-alimentare/index.html:1103:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-senza-interpretare/index.html:446:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-senza-interpretare/index.html:1258:
+
+  internally linking to /mindfulness-ironica/loop-dellevitamento/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-senza-interpretare/index.html:1282:
+
+  internally linking to /mindfulness-ironica/loop-dellapprovazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-senza-interpretare/index.html:1803:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-senza-interpretare/index.html:1828:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-senza-sorvegliare/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-senza-sorvegliare/index.html:1068:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservare-senza-sorvegliare/index.html:1093:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservatore-e-osservato/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/osservatore-e-osservato/index.html:1093:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservatore-e-osservato/index.html:1118:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservazione-selvaggia/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/osservazione-selvaggia/index.html:1039:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/osservazione-selvaggia/index.html:1064:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/overthinking-vero-problema/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/overthinking-vero-problema/index.html:1374:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/overthinking-vero-problema/index.html:1399:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/pensiero-vs-reazione/index.html:438:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/pensiero-vs-reazione/index.html:556:
+
+  internally linking to /categorie/mindfulness-ironica/vipassana-urbana/, which does not exist
+
+* At ./_site/mindfulness-ironica/pensiero-vs-reazione/index.html:1045:
+
+  internally linking to /categorie/mindfulness-ironica/vipassana-urbana/, which does not exist
+
+* At ./_site/mindfulness-ironica/pensiero-vs-reazione/index.html:1229:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/pensiero-vs-reazione/index.html:1254:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-la-testa-distorce/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-la-testa-distorce/index.html:962:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-la-testa-distorce/index.html:987:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-non-ti-accorgi-del-loop/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-non-ti-accorgi-del-loop/index.html:1111:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-non-ti-accorgi-del-loop/index.html:1136:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-reagisci-subito/index.html:452:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-reagisci-subito/index.html:729:
+
+  internally linking to /mindfulness-ironica/come-fermarti-prima-di-reagire/, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-reagisci-subito/index.html:1108:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/perche-reagisci-subito/index.html:1133:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/pratiche-per-non-reagire/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/pratiche-per-non-reagire/index.html:578:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/mindfulness-ironica/pratiche-per-non-reagire/index.html:667:
+
+  internally linking to /mindfulness-ironica/tornare-presente/, which does not exist
+
+* At ./_site/mindfulness-ironica/pratiche-per-non-reagire/index.html:814:
+
+  internally linking to /mindfulness-ironica/tornare-presente/, which does not exist
+
+* At ./_site/mindfulness-ironica/pratiche-per-non-reagire/index.html:880:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/mindfulness-ironica/pratiche-per-non-reagire/index.html:1064:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/pratiche-per-non-reagire/index.html:1089:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/produttivita-o-ruminazione/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/produttivita-o-ruminazione/index.html:1069:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/produttivita-o-ruminazione/index.html:1094:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-la-parola-ti-frega/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-la-parola-ti-frega/index.html:701:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-la-parola-ti-frega/index.html:741:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-la-parola-ti-frega/index.html:1114:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-la-parola-ti-frega/index.html:1139:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-non-fidarti-dei-tuoi-pensieri/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-non-fidarti-dei-tuoi-pensieri/index.html:720:
+
+  internally linking to /mindfulness-ironica/ridimensionare-ansia/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-non-fidarti-dei-tuoi-pensieri/index.html:1112:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-non-fidarti-dei-tuoi-pensieri/index.html:1137:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-sai-cosa-fare-ma-non-lo-fai/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-sai-cosa-fare-ma-non-lo-fai/index.html:780:
+
+  internally linking to /mindfulness-ironica/come-chiudere-un-loop-mentale-con-unazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-sai-cosa-fare-ma-non-lo-fai/index.html:1128:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/quando-sai-cosa-fare-ma-non-lo-fai/index.html:1153:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/respira-prima-di-peggiorare-tutto/index.html:430:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/respira-prima-di-peggiorare-tutto/index.html:548:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/mindfulness-ironica/respira-prima-di-peggiorare-tutto/index.html:766:
+
+  internally linking to /mindfulness-ironica/tornare-presente/, which does not exist
+
+* At ./_site/mindfulness-ironica/respira-prima-di-peggiorare-tutto/index.html:790:
+
+  internally linking to /mindfulness-ironica/tornare-presente/, which does not exist
+
+* At ./_site/mindfulness-ironica/respira-prima-di-peggiorare-tutto/index.html:792:
+
+  internally linking to /mindfulness-ironica/metodo-ironia/interrompere-il-pilota-automatico/, which does not exist
+
+* At ./_site/mindfulness-ironica/respira-prima-di-peggiorare-tutto/index.html:819:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/mindfulness-ironica/respira-prima-di-peggiorare-tutto/index.html:1003:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/respira-prima-di-peggiorare-tutto/index.html:1028:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-distorsioni-cognitive/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-distorsioni-cognitive/index.html:749:
+
+  internally linking to /mindfulness-ironica/identifica-cosa-accade-dentro-te, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-distorsioni-cognitive/index.html:1031:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-distorsioni-cognitive/index.html:1056:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-il-pilota-automatico/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-il-pilota-automatico/index.html:1087:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-il-pilota-automatico/index.html:1112:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-loop-mentale-subito/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-loop-mentale-subito/index.html:1126:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/riconoscere-loop-mentale-subito/index.html:1151:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensiona-il-dramma-mentale/index.html:446:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensiona-il-dramma-mentale/index.html:1341:
+
+  internally linking to /mindfulness-ironica/loop-dell-approvazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensiona-il-dramma-mentale/index.html:1846:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensiona-il-dramma-mentale/index.html:1871:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensionare-sotto-pressione/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensionare-sotto-pressione/index.html:1107:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensionare-sotto-pressione/index.html:1132:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensionare-vs-minimizzare/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensionare-vs-minimizzare/index.html:1092:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridimensionare-vs-minimizzare/index.html:1117:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridurre-reattivita/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/ridurre-reattivita/index.html:1058:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/ridurre-reattivita/index.html:1083:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/segnali-che-stai-ingigantendo-un-problema/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/segnali-che-stai-ingigantendo-un-problema/index.html:1114:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/segnali-che-stai-ingigantendo-un-problema/index.html:1139:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/segnali-che-stai-per-reagire-male/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/segnali-che-stai-per-reagire-male/index.html:1080:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/segnali-che-stai-per-reagire-male/index.html:1105:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/stai-per-reagire-segnali/index.html:456:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/stai-per-reagire-segnali/index.html:694:
+
+  internally linking to /mindfulness-ironica/ansia-improvvisa-segnali-fisici/, which does not exist
+
+* At ./_site/mindfulness-ironica/stai-per-reagire-segnali/index.html:1198:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/stai-per-reagire-segnali/index.html:1223:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/trappola-azione-perfetta/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/trappola-azione-perfetta/index.html:724:
+
+  internally linking to /mindfulness-ironica/come-chiudere-un-loop-mentale-con-unazione/, which does not exist
+
+* At ./_site/mindfulness-ironica/trappola-azione-perfetta/index.html:1029:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/trappola-azione-perfetta/index.html:1054:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/trasformare-dettaglio-in-disastro/index.html:426:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/trasformare-dettaglio-in-disastro/index.html:1070:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/trasformare-dettaglio-in-disastro/index.html:1095:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/vipassana-urbana/index.html:408:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/mindfulness-ironica/vipassana-urbana/index.html:526:
+
+  internally linking to /categorie/mindfulness-ironica/pratiche-quotidiane-urbane/, which does not exist
+
+* At ./_site/mindfulness-ironica/vipassana-urbana/index.html:674:
+
+  internally linking to /categorie/mindfulness-ironica/pratiche-quotidiane-urbane/, which does not exist
+
+* At ./_site/mindfulness-ironica/vipassana-urbana/index.html:858:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/mindfulness-ironica/vipassana-urbana/index.html:883:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/newsletter/index.html:372:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/newsletter/index.html:610:
+
+  internally linking to /privacy-policy, which does not exist
+
+* At ./_site/newsletter/index.html:672:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/newsletter/index.html:697:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/offline/index.html:367:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/offline/index.html:772:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/offline/index.html:797:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/pages/categories/sub_cluster/mindfulness-ironica/micro-pratiche/index.html:434:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/pages/categories/sub_cluster/mindfulness-ironica/micro-pratiche/index.html:602:
+
+  internally linking to /categorie/mindfulness-ironica/micro-pratiche/, which does not exist
+
+* At ./_site/pages/categories/sub_cluster/mindfulness-ironica/micro-pratiche/index.html:1347:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/pages/categories/sub_cluster/mindfulness-ironica/micro-pratiche/index.html:1372:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/preview/617/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/preview/617/index.html:578:
+
+  internally linking to /categorie/mindfulness-ironica/pratiche-quotidiane-urbane/, which does not exist
+
+* At ./_site/preview/617/index.html:719:
+
+  internally linking to /c/mindfulness-ironica/, which does not exist
+
+* At ./_site/preview/617/index.html:720:
+
+  internally linking to /c/mindfulness-ironica/pratiche-quotidiane-urbane/, which does not exist
+
+* At ./_site/preview/617/index.html:721:
+
+  internally linking to /mindfulness-ironica/benefici-reali-mindfulness/, which does not exist
+
+* At ./_site/preview/617/index.html:722:
+
+  internally linking to /mindfulness-ironica/sabotatori-meditazione/, which does not exist
+
+* At ./_site/preview/617/index.html:771:
+
+  internally linking to /categorie/mindfulness-ironica/pratiche-quotidiane-urbane/, which does not exist
+
+* At ./_site/preview/617/index.html:945:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/preview/617/index.html:970:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/preview/625/index.html:454:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/preview/625/index.html:862:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/preview/625/index.html:887:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/preview/627/index.html:460:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/preview/627/index.html:604:
+
+  internally linking to /faggin-coscienza-ironia-router, which does not exist
+
+* At ./_site/preview/627/index.html:609:
+
+  internally linking to /riduzionismo, which does not exist
+
+* At ./_site/preview/627/index.html:650:
+
+  internally linking to /bias-cognitivi, which does not exist
+
+* At ./_site/preview/627/index.html:666:
+
+  internally linking to /pensiero-catastrofico, which does not exist
+
+* At ./_site/preview/627/index.html:682:
+
+  internally linking to /metodo-ironia, which does not exist
+
+* At ./_site/preview/627/index.html:688:
+
+  internally linking to /bias-cognitivi, which does not exist
+
+* At ./_site/preview/627/index.html:913:
+
+  internally linking to /filosofia-pratica/metodo-ironia-faggin-router/, which does not exist
+
+* At ./_site/preview/627/index.html:915:
+
+  internally linking to /mindfulness-ironica/applicare-metodo-ironia/, which does not exist
+
+* At ./_site/preview/627/index.html:1033:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/preview/627/index.html:1058:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/ridimensionare-ansia/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/ridimensionare-ansia/index.html:876:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/ridimensionare-ansia/index.html:901:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/scopo-motivazione-arte-del-no/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/scopo-motivazione-arte-del-no/index.html:1033:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/scopo-motivazione-arte-del-no/index.html:1058:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/tornare-presente/index.html:392:
+
+  internally linking to /assets/images/logo/favicon-32.png?v=1781444783, which does not exist
+
+* At ./_site/tornare-presente/index.html:963:
+
+  internally linking to /privacy-policy/, which does not exist
+
+* At ./_site/tornare-presente/index.html:988:
+
+  internally linking to /privacy-policy/, which does not exist
+
+
+HTML-Proofer found 797 failures!

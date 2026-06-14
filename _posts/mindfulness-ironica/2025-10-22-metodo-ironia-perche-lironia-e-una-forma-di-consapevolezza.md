@@ -23,10 +23,10 @@ tags:
 
 is_cornerstone: false
 
-image: [https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg]
-lcp_image: [https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg]
-background: [https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg]
-og_image: [https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg]
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 
 faqs:
 

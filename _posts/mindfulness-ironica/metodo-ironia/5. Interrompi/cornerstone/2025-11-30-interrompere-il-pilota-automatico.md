@@ -327,7 +327,7 @@ Devi evitare di lasciare che quella paura decida al posto tuo.
 
 ## Loop dell’Evitamento
 
-Il [Loop dell’Evitamento](/mindfulness-ironica/loop-dellevitamento/) spinge a rimandare per non sentire disagio.
+Il [Loop dell’Evitamento](/mindfulness-ironica/loop-dell-evitamento/) spinge a rimandare per non sentire disagio.
 
 Impulso tipico:
 
@@ -356,7 +356,7 @@ Nel Loop dell’Evitamento, spesso la vera interruzione è iniziare.
 
 ## Loop dell’Approvazione
 
-Il [Loop dell’Approvazione](/mindfulness-ironica/loop-dellapprovazione/) spinge a compiacere, dire sì, evitare conflitti e cercare conferme.
+Il [Loop dell’Approvazione](/mindfulness-ironica/loop-approvazione/) spinge a compiacere, dire sì, evitare conflitti e cercare conferme.
 
 Impulso tipico:
 

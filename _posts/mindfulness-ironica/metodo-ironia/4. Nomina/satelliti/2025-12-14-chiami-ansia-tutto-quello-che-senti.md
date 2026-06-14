@@ -59,7 +59,7 @@ Se chiami tutto ansia:
 → peggiori il loop
 
 Se vuoi vedere il loop in azione, è qui:
-[dopo-aver-inviato-una-mail-importante](/mindfulness-ironica/metodo-ironia/mail-importante/)
+[dopo-aver-inviato-una-mail-importante](/mindfulness-ironica/mail-importante/)
 
 ---
 
@@ -81,7 +81,7 @@ stai già reagendo
 
 Qui entra la fase chiave:
 
-👉 [nomina-cio-che-senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+👉 [nomina-cio-che-senti](/mindfulness-ironica/nomina-cio-che-senti/)
 
 Nomina serve a fare una cosa sola:
 
@@ -106,7 +106,7 @@ Non è teoria.
 **Nome diverso → azione diversa**
 
 Qui lo vedi chiaramente:
-[nome-giusto-azione-giusta](/mindfulness-ironica/metodo-ironia/nome-giusto-azione-giusta/)
+[nome-giusto-azione-giusta](/mindfulness-ironica/nome-giusto-azione-giusta/)
 
 ---
 
@@ -127,7 +127,7 @@ Nomina funziona solo qui:
 Nel punto in cui senti l’urgenza.
 
 Se vuoi usarla nel momento giusto:
-[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/)
+[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/come-nominare-unemozione-mentre-stai-per-reagire/)
 
 ---
 
@@ -148,7 +148,7 @@ Queste parole non descrivono.
 E lo fanno nella direzione sbagliata.
 
 Qui le smonti:
-[quando-la-parola-ti-frega](/mindfulness-ironica/metodo-ironia/quando-la-parola-ti-frega/)
+[quando-la-parola-ti-frega](/mindfulness-ironica/quando-la-parola-ti-frega/)
 
 ---
 

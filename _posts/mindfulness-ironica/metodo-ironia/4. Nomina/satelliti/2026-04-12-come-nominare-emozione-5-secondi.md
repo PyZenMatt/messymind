@@ -138,7 +138,7 @@ Quando dai un nome, quello che senti smette di essere “te”.
 Diventa qualcosa che puoi vedere.
 
 Qui il passaggio completo:
-[nomina-cio-che-senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+[nomina-cio-che-senti](/mindfulness-ironica/nomina-cio-che-senti/)
 
 ---
 

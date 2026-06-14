@@ -67,7 +67,7 @@ Se nomini dopo, è inutile.
 Se nomini prima, cambia tutto.
 
 Questo è il punto della fase:
-[nomina-cio-che-senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+[nomina-cio-che-senti](/mindfulness-ironica/nomina-cio-che-senti/)
 
 ## Il problema reale: stai reagendo a una parola sbagliata
 
@@ -82,7 +82,7 @@ Errore.
 Lo stai già usando per decidere.
 
 Qui nasce:
-[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
+[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/chiami-ansia-tutto-quello-che-senti/)
 
 ## 12 scene reali (e cosa cambia quando nomini bene)
 
@@ -180,7 +180,7 @@ Se aumenta urgenza → sbagliata
 Se crea spazio → utile
 
 Qui sta l’errore:
-[quando-la-parola-ti-frega](/mindfulness-ironica/metodo-ironia/quando-la-parola-ti-frega/)
+[quando-la-parola-ti-frega](/mindfulness-ironica/quando-la-parola-ti-frega/)
 
 ---
 

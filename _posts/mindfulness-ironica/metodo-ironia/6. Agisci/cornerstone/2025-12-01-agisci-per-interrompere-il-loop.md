@@ -307,7 +307,7 @@ Qui Agisci serve a uscire dalla preparazione infinita.
 
 ## Loop dell’Evitamento
 
-Il [Loop dell’Evitamento](/mindfulness-ironica/loop-dellevitamento/) ti spinge a rimandare ciò che produce disagio.
+Il [Loop dell’Evitamento](/mindfulness-ironica/loop-dell-evitamento/) ti spinge a rimandare ciò che produce disagio.
 
 La mente dice:
 
@@ -335,7 +335,7 @@ Nel Loop dell’Evitamento, il passo utile non è pensare meglio.
 
 ## Loop dell’Approvazione
 
-Il [Loop dell’Approvazione](/mindfulness-ironica/loop-dellapprovazione/) ti spinge a compiacere, dire sì o evitare conflitti.
+Il [Loop dell’Approvazione](/mindfulness-ironica/loop-approvazione/) ti spinge a compiacere, dire sì o evitare conflitti.
 
 La mente dice:
 

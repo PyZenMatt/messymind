@@ -327,7 +327,7 @@ Qui il loop non cerca controllo tecnico.
 
 Cerca approvazione.
 
-È il territorio del [Loop dell'Approvazione](/mindfulness-ironica/loop-dell-approvazione/).
+È il territorio del [Loop dell'Approvazione](/mindfulness-ironica/loop-approvazione/).
 
 ---
 

@@ -116,7 +116,7 @@ Risultato:
 E la cosa paradossale è questa: pensi di proteggerti, ma stai solo allungando il problema.
 
 Qui nasce l’errore base:
-[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
+[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/chiami-ansia-tutto-quello-che-senti/)
 
 E allora?
 
@@ -157,7 +157,7 @@ Qui ho capito che il punto non è “sentire meglio”.
 È **riconoscere cosa guida l’evitamento**.
 
 Per farlo nel modo corretto:
-[nomina-cio-che-senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+[nomina-cio-che-senti](/mindfulness-ironica/nomina-cio-che-senti/)
 
 E allora?
 

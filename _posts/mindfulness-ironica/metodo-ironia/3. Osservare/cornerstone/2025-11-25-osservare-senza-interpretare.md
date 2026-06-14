@@ -630,7 +630,7 @@ Osserva chiede:
 
 Approfondisci:
 
-→ [Loop dell’Evitamento](/mindfulness-ironica/loop-dellevitamento/)
+→ [Loop dell’Evitamento](/mindfulness-ironica/loop-dell-evitamento/)
 
 ---
 
@@ -648,7 +648,7 @@ Osserva chiede:
 
 Approfondisci:
 
-→ [Loop dell’Approvazione](/mindfulness-ironica/loop-dellapprovazione/)
+→ [Loop dell’Approvazione](/mindfulness-ironica/loop-approvazione/)
 
 ---
 

@@ -134,7 +134,7 @@ Se chiami tutto “ansia”, eviti troppo.
 Se chiami tutto “attacco”, reagisci troppo.
 
 Qui nasce l’errore base:
-[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
+[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/chiami-ansia-tutto-quello-che-senti/)
 
 E allora?
 
@@ -170,7 +170,7 @@ Non serve precisione perfetta.
 Serve precisione minima.
 
 Se vuoi allenarlo:
-[nomina-cio-che-senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+[nomina-cio-che-senti](/mindfulness-ironica/nomina-cio-che-senti/)
 
 ---
 
@@ -192,7 +192,7 @@ Nominare non serve a capire.
 Serve a **interrompere l’automatismo**.
 
 Se vuoi usarlo nel momento giusto:
-[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/)
+[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/come-nominare-unemozione-mentre-stai-per-reagire/)
 
 ---
 

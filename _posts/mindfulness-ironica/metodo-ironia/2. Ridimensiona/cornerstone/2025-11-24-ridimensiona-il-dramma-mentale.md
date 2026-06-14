@@ -678,7 +678,7 @@ Ridimensiona chiede:
 
 Approfondisci:
 
-👉 [Loop dell'Approvazione](/mindfulness-ironica/loop-dell-approvazione/)
+👉 [Loop dell'Approvazione](/mindfulness-ironica/loop-approvazione/)
 
 ---
 

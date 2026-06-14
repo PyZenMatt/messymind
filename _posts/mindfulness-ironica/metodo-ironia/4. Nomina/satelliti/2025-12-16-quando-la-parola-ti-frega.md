@@ -153,7 +153,7 @@ Se crea spazio → utile
 
 Questo è il punto della fase:
 
-[nomina-cio-che-senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+[nomina-cio-che-senti](/mindfulness-ironica/nomina-cio-che-senti/)
 
 ---
 

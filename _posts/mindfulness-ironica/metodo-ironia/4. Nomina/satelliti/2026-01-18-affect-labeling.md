@@ -111,7 +111,7 @@ Quando lo fai:
 → si crea spazio  
 
 Questo è il punto della fase:  
-[nomina ciò che senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+[nomina ciò che senti](/mindfulness-ironica/nomina-cio-che-senti/)
 
 ---
 

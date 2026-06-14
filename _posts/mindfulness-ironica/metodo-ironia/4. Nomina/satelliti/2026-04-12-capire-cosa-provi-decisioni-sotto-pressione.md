@@ -125,7 +125,7 @@ Questo è il punto:
 **stai usando l’emozione come input decisionale, non come stato da gestire**.
 
 Se vuoi vedere l’errore alla base:
-[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
+[chiami-ansia-tutto-quello-che-senti](/mindfulness-ironica/chiami-ansia-tutto-quello-che-senti/)
 
 ---
 
@@ -205,10 +205,10 @@ Fine.
 Nel mio quotidiano funziona proprio perché è grezzo. Se provo a essere preciso, torno nel loop.
 
 Questo è il passaggio chiave:
-[nomina-cio-che-senti](/mindfulness-ironica/metodo-ironia/nomina-cio-che-senti/)
+[nomina-cio-che-senti](/mindfulness-ironica/nomina-cio-che-senti/)
 
 Se vuoi usarlo nel momento giusto:
-[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/metodo-ironia/come-nominare-unemozione-mentre-stai-per-reagire/)
+[come-nominare-unemozione-mentre-stai-per-reagire](/mindfulness-ironica/come-nominare-unemozione-mentre-stai-per-reagire/)
 
 Non serve avere ragione.
 Serve **interrompere l’automatismo**.
