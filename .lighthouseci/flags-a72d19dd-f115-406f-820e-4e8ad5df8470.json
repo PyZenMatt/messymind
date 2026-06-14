@@ -1,1 +1,0 @@
-{"preset":"desktop","chromeFlags":"--headless=new --no-sandbox --disable-gpu --headless=new","maxWaitForFcp":30000,"maxWaitForLoad":45000,"skipAudits":["uses-http2"]}

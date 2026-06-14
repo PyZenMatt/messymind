@@ -33,19 +33,18 @@ lcp_image_alt: "Persona che osserva i propri pensieri prima di reagire"
 
 faqs:
 
-* question: "Identifica serve a calmarmi?"
+- question: "Identifica serve a calmarmi?"
   answer: "No. Identifica non serve a calmarti. Serve ad accorgerti che sei entrato in una sequenza automatica prima che guidi le tue azioni."
-* question: "Qual è la differenza tra Identifica e Nomina?"
+- question: "Qual è la differenza tra Identifica e Nomina?"
   answer: "Identifica riconosce che qualcosa si è attivato. Nomina dà un nome preciso a ciò che stai vivendo."
-* question: "Come faccio a capire se sono in un loop mentale?"
+- question: "Come faccio a capire se sono in un loop mentale?"
   answer: "Se controlli, simuli scenari, prepari risposte o correggi mentalmente eventi già conclusi, probabilmente il loop è già attivo."
-* question: "Quanto tempo richiede la fase Identifica?"
+- question: "Quanto tempo richiede la fase Identifica?"
   answer: "Da pochi secondi a circa trenta secondi. Se stai analizzando per minuti, non sei più nella fase Identifica."
-* question: "Identifica funziona anche al lavoro?"
+- question: "Identifica funziona anche al lavoro?"
   answer: "Sì. È progettata per contesti reali: email, riunioni, messaggi, decisioni e situazioni sotto pressione."
-* question: "Identifica da sola basta?"
+- question: "Identifica da sola basta?"
   answer: "No. Identifica apre lo spazio. Le fasi successive del Metodo I.R.O.N.I.A. servono a ridimensionare, osservare, nominare, interrompere e agire."
-
 ---
 
 # Identifica: accorgerti del loop prima di reagire

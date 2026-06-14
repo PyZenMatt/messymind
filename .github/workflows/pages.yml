@@ -1,4 +1,5 @@
 name: Deploy Jekyll to Pages
+
 on:
   push:
     branches: [ main ]
@@ -10,44 +11,38 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: pages
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      # Se usi jekyll-compress-images o simili, servono questi pacchetti:
-      - name: Install system deps (images compression)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick jpegoptim optipng gifsicle
-          # opzionale per SVG:
-          # sudo npm -g install svgo
-
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'        # oppure .ruby-version
+          ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Build Jekyll (production)
+      - name: Build Jekyll
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --trace
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: ./_site
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
