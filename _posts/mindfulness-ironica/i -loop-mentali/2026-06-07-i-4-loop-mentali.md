@@ -615,7 +615,7 @@ Spesso la risposta chiarisce il problema.
 
 Per approfondire:
 
-* [Il Loop dell'Evitamento: perché continui a rimandare anche ciò che sai essere importante](/mindfulness-ironica/loop-evitamento/)
+* [Il Loop dell'Evitamento: perché continui a rimandare anche ciò che sai essere importante](/mindfulness-ironica/loop-dell-evitamento/)
 * [Quando sai cosa fare ma non lo fai](/mindfulness-ironica/quando-sai-cosa-fare-ma-non-lo-fai/)
 * [Blocchi decisionali: quando rimandi anche cose semplici](/mindfulness-ironica/blocchi-decisionali-quando-rimandi-anche-cose-semplici/)
 * [Non riesci a iniziare: cosa fare nei primi 10 secondi](/mindfulness-ironica/non-riesci-a-iniziare-cosa-fare-nei-primi-10-secondi/)

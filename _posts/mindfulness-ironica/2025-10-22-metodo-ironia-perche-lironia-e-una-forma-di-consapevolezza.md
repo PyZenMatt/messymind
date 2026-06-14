@@ -244,8 +244,8 @@ Chiediti prima:
 ## Approfondimenti
 
 * [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
-* [I 4 loop mentali che alimentano overthinking e autosabotaggio]()
-* [Overthinking: il sintomo comune dei loop mentali]()
+* [I 4 loop mentali che alimentano overthinking e autosabotaggio](/mindfulness-ironica/i-4-loop-mentali)
+* [Overthinking: il sintomo comune dei loop mentali](/mindfulness-ironica/overthinking-vero-problema)
 
 ---
 

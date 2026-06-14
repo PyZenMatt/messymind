@@ -1,5 +1,3 @@
-Ho corretto anche il front matter: le `faqs` erano strutturate male, mancavano i trattini `-`. Questo va tenuto come **cornerstone di fase**, perché “Identifica” è una delle 6 lettere centrali del Metodo I.R.O.N.I.A.
-
 ---
 
 layout: post
@@ -15,22 +13,22 @@ subcluster: "metodo-ironia"
 
 tags:
 
-* cornerstone
-* metodo-ironia
-* identifica
-* loop mentale
-* overthinking
-* ruminazione mentale
-* pilota automatico
-* ansia da performance
-* reattività
+- cornerstone
+- metodo-ironia
+- identifica
+- loop mentale
+- overthinking
+- ruminazione mentale
+- pilota automatico
+- ansia da performance
+- reattività
 
 is_cornerstone: true
 
-image: [https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1763892993/hero-identifica_ov3zrl.jpg](https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1763892993/hero-identifica_ov3zrl.jpg)
-background: [https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1763892993/hero-identifica_ov3zrl.jpg](https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1763892993/hero-identifica_ov3zrl.jpg)
-lcp_image: [https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1763892993/hero-identifica_ov3zrl.jpg](https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1763892993/hero-identifica_ov3zrl.jpg)
-og_image: [https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1763892993/hero-identifica_ov3zrl.jpg](https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1763892993/hero-identifica_ov3zrl.jpg)
+image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1763892993/hero-identifica_ov3zrl.jpg]
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1763892993/hero-identifica_ov3zrl.jpg
+lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1763892993/hero-identifica_ov3zrl.jpg
+og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1763892993/hero-identifica_ov3zrl.jpg
 lcp_image_alt: "Persona che osserva i propri pensieri prima di reagire"
 
 faqs:
@@ -310,7 +308,7 @@ Non perché non sai cosa fare.
 
 Ma perché vuoi evitare la sensazione che accompagna quell'azione.
 
-Questo è spesso il [Loop dell'Evitamento](/mindfulness-ironica/loop-dellevitamento/).
+Questo è spesso il [Loop dell'Evitamento](/mindfulness-ironica/loop-dell-evitamento/).
 
 ---
 
@@ -330,7 +328,7 @@ Qui il loop non cerca controllo tecnico.
 
 Cerca approvazione.
 
-È il territorio del [Loop dell'Approvazione](/mindfulness-ironica/loop-dellapprovazione/).
+È il territorio del [Loop dell'Approvazione](/mindfulness-ironica/loop-dell-approvazione/).
 
 ---
 
