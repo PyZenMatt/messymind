@@ -266,9 +266,9 @@ Dove andare adesso
 
 Se questo comportamento ti è familiare, potresti ritrovarti anche in questi articoli:
 
-- "Perché aspetti una risposta e non riesci a concentrarti" (/filosofia-pratica/perche-aspetti-una-risposta-e-non-riesci-a-concentrarti/)
-- "Perché controlli le spunte WhatsApp" (/filosofia-pratica/perche-controlli-le-spunte-whatsapp/)
-- "Perché controlli continuamente la mail di lavoro" (/filosofia-pratica/perche-controlli-continuamente-la-mail-di-lavoro/)
+- ["Perché aspetti una risposta e non riesci a concentrarti"](/filosofia-pratica/perche-aspetti-una-risposta-e-non-riesci-a-concentrarti/)
+- ["Perché controlli le spunte WhatsApp" (/filosofia-pratica/perche-controlli-le-spunte-whatsapp/)]
+- ["Perché controlli continuamente la mail di lavoro" (/filosofia-pratica/perche-controlli-continuamente-la-mail-di-lavoro/)]
 - "Perché continui a controllare una mail già inviata" (/filosofia-pratica/controllare-mail-gia-inviata/)
 - "Perché ripensi a quello che hai scritto o detto" (/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 
