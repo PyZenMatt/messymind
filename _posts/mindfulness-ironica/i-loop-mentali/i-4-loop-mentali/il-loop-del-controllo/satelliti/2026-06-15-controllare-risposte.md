@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Perché controlli continuamente se qualcuno ha risposto"
 
@@ -47,7 +46,6 @@ faqs:
 
 - question: "Controllare le notifiche aiuta davvero?"
   answer: "No. Produce un sollievo momentaneo ma rinforza il bisogno di controllare ancora."
-
 ---
 
 Hai inviato un messaggio.

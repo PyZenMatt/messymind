@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Perché aspetti una risposta e non riesci a concentrarti"
 
@@ -47,7 +46,6 @@ faqs:
 
 - question: "Controllare continuamente le notifiche aiuta?"
   answer: "No. Riduce temporaneamente l'ansia ma rinforza il bisogno di controllare ancora."
-
 ---
 
 Hai inviato un messaggio.
