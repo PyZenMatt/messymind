@@ -278,4 +278,4 @@ E se vuoi capire il meccanismo completo:
 
 ##FAQ 
 
-{% include faqs.html %}
+{% include faq.html %}
