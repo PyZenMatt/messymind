@@ -141,3 +141,5 @@ _site_integration/
 _site_main_merged/
 # Generated pagination pages
 pages/pagination/
+.obsidian/
+_posts/.obsidian/
