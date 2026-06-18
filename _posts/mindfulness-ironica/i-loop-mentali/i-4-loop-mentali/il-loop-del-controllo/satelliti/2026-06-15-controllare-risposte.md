@@ -85,9 +85,9 @@ Il problema non è il telefono.
 
 Il problema è il significato che attribuisci al silenzio.
 
-Il Loop del Controllo funziona così
+## Il Loop del Controllo funziona così
 
-Il comportamento appartiene al "Loop del Controllo" (/filosofia-pratica/loop-del-controllo/).
+Il comportamento appartiene al [Loop del Controllo" (/filosofia-pratica/loop-del-controllo/).
 
 La domanda implicita è semplice:
 
@@ -135,11 +135,11 @@ Più la considera importante, più aumenta il bisogno di controllare.
 
 È un circolo vizioso.
 
-Per questo l'"overthinking" (/filosofia-pratica/overthinking/) non è la causa.
+Per questo [l'overthinking](/filosofia-pratica/overthinking/) non è la causa.
 
 È il sintomo del loop.
 
-I bias cognitivi che alimentano il controllo
+## I bias cognitivi che alimentano il controllo
 
 Alcuni meccanismi mentali rendono questo comportamento ancora più intenso.
 
@@ -149,21 +149,21 @@ Hai la sensazione che controllare spesso possa influenzare il risultato.
 
 Ma verificare una notifica non accelera la risposta.
 
-Intolleranza dell'incertezza
+## Intolleranza dell'incertezza
 
 La mente preferisce una risposta negativa a nessuna risposta.
 
 L'incertezza viene percepita come una minaccia.
 
-Bias di conferma
+## Bias di conferma
 
 Se temi di essere ignorato, inizierai a cercare segnali che confermino questa ipotesi.
 
-Negativity bias
+## Negativity bias
 
 Tra tutte le possibili spiegazioni, il cervello seleziona automaticamente le più preoccupanti.
 
-Come il comportamento rinforza il loop
+## Come il comportamento rinforza il loop
 
 Controllare continuamente produce tre effetti.
 
@@ -177,13 +177,13 @@ Anche se non funziona.
 
 Il risultato è che diventa sempre più difficile aspettare.
 
-Come usare il Metodo I.R.O.N.I.A.
+## Come usare il Metodo I.R.O.N.I.A.
 
 Il punto non è resistere con forza di volontà.
 
 Il punto è intercettare il loop prima che diventi automatico.
 
-I — Identifica
+### I — Identifica
 
 Accorgiti del momento esatto in cui nasce l'impulso.
 
@@ -197,11 +197,11 @@ Chiediti:
 
 Approfondisci:
 
-- "Identificare cosa accade dentro di te" (/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
-- "Perché non ti accorgi del loop" (/mindfulness-ironica/perche-non-ti-accorgi-del-loop/)
-- "Riconoscere un loop mentale subito" (/mindfulness-ironica/riconoscere-loop-mentale-subito/)
+- [Identificare cosa accade dentro di te](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
+- [Perché non ti accorgi del loop](/mindfulness-ironica/perche-non-ti-accorgi-del-loop/)
+- [Riconoscere un loop mentale subito](/mindfulness-ironica/riconoscere-loop-mentale-subito/)
 
-R — Ridimensiona
+### R — Ridimensiona
 
 Il ritardo di una risposta raramente contiene tutte le conclusioni che stai immaginando.
 
@@ -209,7 +209,7 @@ Il silenzio non è una prova.
 
 È solo mancanza di informazioni.
 
-O — Osserva
+### O — Osserva
 
 Nota cosa succede nel corpo.
 
@@ -221,7 +221,7 @@ Impulso a prendere il telefono.
 
 Osservare non significa obbedire.
 
-N — Nomina
+### N — Nomina
 
 Dai un nome preciso a ciò che senti.
 
@@ -233,7 +233,7 @@ Non è un problema da risolvere.
 
 È bisogno di controllo.
 
-I — Interrompi
+### I — Interrompi
 
 Aspetta sessanta secondi prima di controllare.
 
@@ -241,10 +241,10 @@ Poi torna intenzionalmente a ciò che stavi facendo.
 
 Approfondisci:
 
-- "Interrompere il pilota automatico" (/mindfulness-ironica/interrompere-il-pilota-automatico/)
-- "Micro interruzioni" (/mindfulness-ironica/micro-interruzioni/)
+- [Interrompere il pilota automatico](/mindfulness-ironica/interrompere-il-pilota-automatico/)
+- [Micro interruzioni](/mindfulness-ironica/micro-interruzioni/)
 
-A — Agisci
+### A — Agisci
 
 Fai qualcosa che non abbia nulla a che vedere con la risposta.
 
@@ -264,17 +264,17 @@ Dove andare adesso
 
 Se questo comportamento ti è familiare, potresti ritrovarti anche in questi articoli:
 
-- ["Perché aspetti una risposta e non riesci a concentrarti"](/filosofia-pratica/perche-aspetti-una-risposta-e-non-riesci-a-concentrarti/)
-- ["Perché controlli le spunte WhatsApp" (/filosofia-pratica/perche-controlli-le-spunte-whatsapp/)]
-- ["Perché controlli continuamente la mail di lavoro" (/filosofia-pratica/perche-controlli-continuamente-la-mail-di-lavoro/)]
-- "Perché continui a controllare una mail già inviata" (/filosofia-pratica/controllare-mail-gia-inviata/)
-- "Perché ripensi a quello che hai scritto o detto" (/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
+- [Perché aspetti una risposta e non riesci a concentrarti](/filosofia-pratica/perche-aspetti-una-risposta-e-non-riesci-a-concentrarti/)
+- [Perché controlli le spunte WhatsApp](/filosofia-pratica/perche-controlli-le-spunte-whatsapp/)]
+- [Perché controlli continuamente la mail di lavoro](/filosofia-pratica/perche-controlli-continuamente-la-mail-di-lavoro/)]
+- [Perché continui a controllare una mail già inviata](/filosofia-pratica/controllare-mail-gia-inviata/)
+- [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 
 E se vuoi capire il meccanismo completo:
 
-- "Metodo I.R.O.N.I.A." (/mindfulness-ironica/metodo-ironia/)
-- "Loop del Controllo" (/filosofia-pratica/loop-del-controllo/)
-- "Overthinking: cosa c'è davvero dietro il pensare troppo" (/filosofia-pratica/overthinking/)
+- [Metodo I.R.O.N.I.A." (/mindfulness-ironica/metodo-ironia/)
+- [Loop del Controllo" (/filosofia-pratica/loop-del-controllo/)
+- [Overthinking: cosa c'è davvero dietro il pensare troppo" (/filosofia-pratica/overthinking/)
 
 ##FAQ 
 

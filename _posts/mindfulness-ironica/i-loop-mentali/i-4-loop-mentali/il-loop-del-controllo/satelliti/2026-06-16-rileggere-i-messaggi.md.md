@@ -75,7 +75,7 @@ Non stai cercando il messaggio perfetto.
 
 Stai cercando la certezza di non sbagliare.
 
-Il problema non è il messaggio
+## Il problema non è il messaggio
 
 Quando rileggi continuamente ciò che hai scritto, il problema raramente è la qualità del testo.
 
@@ -94,9 +94,9 @@ Ma produce l'effetto opposto.
 
 Genera nuovi dubbi.
 
-Il Loop del Controllo funziona così
+## Il Loop del Controllo funziona così
 
-Questo comportamento appartiene al "Loop del Controllo" (/filosofia-pratica/loop-del-controllo/).
+Questo comportamento appartiene al [Loop del Controllo](/filosofia-pratica/loop-del-controllo/).
 
 La domanda implicita è:
 
@@ -126,9 +126,9 @@ Ogni controllo riduce l'ansia per pochi secondi.
 
 Poi la mente trova un nuovo dettaglio da correggere.
 
-Quando entra in gioco l'overthinking
+## Quando entra in gioco l'overthinking
 
-L'"overthinking" (/filosofia-pratica/overthinking/) inizia quando smetti di valutare il messaggio e inizi a immaginare scenari.
+[L'overthinking](/filosofia-pratica/overthinking/) inizia quando smetti di valutare il messaggio e inizi a immaginare scenari.
 
 Come reagirà?
 
@@ -142,9 +142,9 @@ Il problema non è la mancanza di informazioni.
 
 È il tentativo di eliminare completamente l'incertezza.
 
-I bias cognitivi che alimentano il comportamento
+## I bias cognitivi che alimentano il comportamento
 
-Illusione di controllo
+### Illusione di controllo
 
 Hai la sensazione che una rilettura in più possa eliminare ogni rischio.
 
@@ -154,15 +154,15 @@ Intolleranza dell'incertezza
 
 La mente fatica ad accettare che non puoi controllare la reazione dell'altra persona.
 
-Negativity bias
+### Negativity bias
 
 Tra tutte le possibili conseguenze, il cervello si concentra sulle peggiori.
 
-Spotlight effect
+### Spotlight effect
 
 Sovrastimi quanto gli altri noteranno piccoli errori o imperfezioni.
 
-Come il comportamento rinforza il loop
+### Come il comportamento rinforza il loop
 
 Ogni volta che rimandi l'invio:
 
@@ -174,13 +174,13 @@ Con il tempo non migliori la comunicazione.
 
 Peggiori il rapporto con l'incertezza.
 
-Come usare il Metodo I.R.O.N.I.A.
+## Come usare il Metodo I.R.O.N.I.A.
 
 L'obiettivo non è inviare messaggi perfetti.
 
 L'obiettivo è interrompere il loop.
 
-I — Identifica
+### I — Identifica
 
 Accorgiti del momento esatto in cui la rilettura smette di essere utile.
 
@@ -190,11 +190,11 @@ Chiediti:
 
 Approfondisci:
 
-- "Identificare cosa accade dentro di te" (/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
-- "Perché non ti accorgi del loop" (/mindfulness-ironica/perche-non-ti-accorgi-del-loop/)
-- "Riconoscere un loop mentale subito" (/mindfulness-ironica/riconoscere-loop-mentale-subito/)
+- [Identificare cosa accade dentro di te](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
+- [Perché non ti accorgi del loop](/mindfulness-ironica/perche-non-ti-accorgi-del-loop/)
+- [Riconoscere un loop mentale subito](/mindfulness-ironica/riconoscere-loop-mentale-subito/)
 
-R — Ridimensiona
+### R — Ridimensiona
 
 Qual è il costo reale di un piccolo errore?
 
@@ -202,9 +202,9 @@ Nella maggior parte dei casi, molto inferiore a quello che immagini.
 
 Approfondisci:
 
-- "Ridimensiona il dramma mentale" (/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
+- [Ridimensiona il dramma mentale](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
 
-O — Osserva
+### O — Osserva
 
 Nota cosa succede nel corpo.
 
@@ -216,7 +216,7 @@ Bisogno di controllare ancora.
 
 Osserva l'impulso senza seguirlo.
 
-N — Nomina
+### N — Nomina
 
 Non dire:
 
@@ -226,7 +226,7 @@ Prova a dire:
 
 "Sto cercando certezza."
 
-I — Interrompi
+### I — Interrompi
 
 Imposta una regola semplice.
 
@@ -240,9 +240,9 @@ Niente controlli aggiuntivi.
 
 Approfondisci:
 
-- "Interrompere il pilota automatico" (/mindfulness-ironica/interrompere-il-pilota-automatico/)
+- [Interrompere il pilota automatico](/mindfulness-ironica/interrompere-il-pilota-automatico/)
 
-A — Agisci
+### A — Agisci
 
 Premi invia.
 
@@ -263,16 +263,16 @@ Dove andare adesso
 
 Se ti riconosci in questo comportamento, potresti ritrovarti anche qui:
 
-- "Perché controlli continuamente se qualcuno ha risposto" (/filosofia-pratica/perche-controlli-continuamente-se-qualcuno-ha-risposto/)
-- "Perché aspetti una risposta e non riesci a concentrarti" (/filosofia-pratica/perche-aspetti-una-risposta-e-non-riesci-a-concentrarti/)
-- "Perché continui a controllare una mail già inviata" (/filosofia-pratica/controllare-mail-gia-inviata/)
-- "Perché ripensi a quello che hai scritto o detto" (/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
+- [Perché controlli continuamente se qualcuno ha risposto](/filosofia-pratica/perche-controlli-continuamente-se-qualcuno-ha-risposto/)
+- [Perché aspetti una risposta e non riesci a concentrarti](/filosofia-pratica/perche-aspetti-una-risposta-e-non-riesci-a-concentrarti/)
+- [Perché continui a controllare una mail già inviata](/filosofia-pratica/controllare-mail-gia-inviata/)
+- [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 
 Per comprendere il meccanismo completo:
 
-- "Loop del Controllo" (/filosofia-pratica/loop-del-controllo/)
-- "Metodo I.R.O.N.I.A." (/mindfulness-ironica/metodo-ironia/)
-- "Overthinking: cosa c'è davvero dietro il pensare troppo" (/filosofia-pratica/overthinking/)
+- [Loop del Controllo](/filosofia-pratica/loop-del-controllo/)
+- [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
+- [Overthinking: cosa c'è davvero dietro il pensare troppo](/filosofia-pratica/overthinking/)
 
 ##FAQ 
 

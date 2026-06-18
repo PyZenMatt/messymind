@@ -87,9 +87,9 @@ Ti chiedi:
 
 Più il risultato conta per te, più aumenta il bisogno di controllo.
 
-Il loop mentale sottostante
+## Il loop mentale sottostante
 
-Questo comportamento appartiene soprattutto al "Loop del Giudizio" (/filosofia-pratica/loop-del-giudizio/).
+Questo comportamento appartiene soprattutto al [Loop del Giudizio](/filosofia-pratica/loop-del-giudizio/).
 
 La domanda implicita è:
 
@@ -119,9 +119,9 @@ Nuovo dubbio.
 
 Nuovo controllo.
 
-Come nasce l'overthinking
+## Come nasce l'overthinking
 
-L'"overthinking" (/filosofia-pratica/overthinking/) non nasce dal messaggio.
+[L'overthinking](/filosofia-pratica/overthinking/) non nasce dal messaggio.
 
 Nasce dal tentativo di prevedere la reazione degli altri.
 
@@ -147,27 +147,27 @@ Il messaggio resta lì.
 
 E la prossima volta sarà ancora più difficile premere invia.
 
-I bias cognitivi coinvolti
+## I bias cognitivi coinvolti
 
-Spotlight effect
+### Spotlight effect
 
 Sovrastimi quanto gli altri noteranno i tuoi errori.
 
-Mind reading
+### Mind reading
 
 Pensi di sapere in anticipo cosa penseranno gli altri.
 
-Negativity bias
+### Negativity bias
 
 Tra tutte le possibili reazioni, immagini soprattutto quelle negative.
 
-Perfezionismo
+### Perfezionismo
 
 Cerchi il messaggio perfetto invece di inviare un messaggio sufficientemente chiaro.
 
 Come usare il Metodo I.R.O.N.I.A.
 
-I — Identifica
+## I — Identifica
 
 Accorgiti del momento esatto in cui smetti di migliorare il messaggio e inizi a proteggerti dal giudizio.
 
@@ -177,10 +177,10 @@ Chiediti:
 
 Approfondisci:
 
-- "Identificare cosa accade dentro di te" (/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
-- "Perché non ti accorgi del loop" (/mindfulness-ironica/perche-non-ti-accorgi-del-loop/)
+- [Identificare cosa accade dentro di te](/mindfulness-ironica/identificare-cosa-accade-dentro-te/)
+- [Perché non ti accorgi del loop](/mindfulness-ironica/perche-non-ti-accorgi-del-loop/)
 
-R — Ridimensiona
+## R — Ridimensiona
 
 Qual è il costo reale di un messaggio imperfetto?
 
@@ -190,9 +190,9 @@ Spesso il rischio che immagini è molto più grande di quello reale.
 
 Approfondisci:
 
-- "Ridimensiona il dramma mentale" (/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
+- [Ridimensiona il dramma mentale](/mindfulness-ironica/ridimensiona-il-dramma-mentale/)
 
-O — Osserva
+## O — Osserva
 
 Nota cosa succede nel corpo.
 
@@ -204,7 +204,7 @@ Bisogno di controllare ancora.
 
 Osserva senza correggere subito.
 
-N — Nomina
+## N — Nomina
 
 Non dire:
 
@@ -214,7 +214,7 @@ Prova a dire:
 
 "Sto cercando di evitare il giudizio."
 
-I — Interrompi
+## I — Interrompi
 
 Stabilisci un limite.
 
@@ -224,7 +224,7 @@ Non trenta.
 
 Quando raggiungi il limite, smetti di modificare.
 
-A — Agisci
+## A — Agisci
 
 Premi invia.
 
@@ -244,20 +244,20 @@ Errori da evitare
 - confondere chiarezza con perfezione
 - interpretare ogni dubbio come un segnale di pericolo
 
-Dove andare adesso
+## Dove andare adesso
 
 Se questo comportamento ti è familiare, potresti ritrovarti anche qui:
 
-- "Perché ripensi a quello che hai scritto o detto" (/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
-- "Perché rileggi le mail mille volte prima di inviarle" (/filosofia-pratica/ripensare-mail-ore/)
-- "Perché cancelli e riscrivi continuamente un messaggio" (/filosofia-pratica/cancelli-riscrivi-messaggio/)
-- "Perché hai paura di sembrare incompetente" (/filosofia-pratica/paura-di-sembrare-incompetente/)
+- [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
+- [Perché rileggi le mail mille volte prima di inviarle](/filosofia-pratica/ripensare-mail-ore/)
+- [Perché cancelli e riscrivi continuamente un messaggio](/filosofia-pratica/cancelli-riscrivi-messaggio/)
+- [Perché hai paura di sembrare incompetente](/filosofia-pratica/paura-di-sembrare-incompetente/)
 
 Per capire il meccanismo completo:
 
-- "Loop del Giudizio" (/filosofia-pratica/loop-del-giudizio/)
-- "Metodo I.R.O.N.I.A." (/mindfulness-ironica/metodo-ironia/)
-- "Overthinking: cosa c'è davvero dietro il pensare troppo" (/filosofia-pratica/overthinking/)
+- [Loop del Giudizio](/filosofia-pratica/loop-del-giudizio/)
+- [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
+- [Overthinking: cosa c'è davvero dietro il pensare troppo](/filosofia-pratica/overthinking/)
 ## FAQ 
 
 {% include faq.html %}
