@@ -87,7 +87,7 @@ Il problema è il significato che attribuisci al silenzio.
 
 ## Il Loop del Controllo funziona così
 
-Il comportamento appartiene al [Loop del Controllo" (/filosofia-pratica/loop-del-controllo/).
+Il comportamento appartiene al [Loop del Controllo](/mindfulness-ironica/loop-del-controllo/).
 
 La domanda implicita è semplice:
 
@@ -135,7 +135,7 @@ Più la considera importante, più aumenta il bisogno di controllare.
 
 È un circolo vizioso.
 
-Per questo [l'overthinking](/filosofia-pratica/overthinking/) non è la causa.
+Per questo [l'overthinking](/mindfulness-ironica/overthinking/) non è la causa.
 
 È il sintomo del loop.
 
@@ -264,7 +264,7 @@ Dove andare adesso
 
 Se questo comportamento ti è familiare, potresti ritrovarti anche in questi articoli:
 
-- [Perché aspetti una risposta e non riesci a concentrarti](/filosofia-pratica/perche-aspetti-una-risposta-e-non-riesci-a-concentrarti/)
+- [Perché aspetti una risposta e non riesci a concentrarti](/mindfulness-ironica/non-riesci-a-concentrarti/)
 - [Perché controlli le spunte WhatsApp](/filosofia-pratica/perche-controlli-le-spunte-whatsapp/)]
 - [Perché controlli continuamente la mail di lavoro](/filosofia-pratica/perche-controlli-continuamente-la-mail-di-lavoro/)]
 - [Perché continui a controllare una mail già inviata](/filosofia-pratica/controllare-mail-gia-inviata/)

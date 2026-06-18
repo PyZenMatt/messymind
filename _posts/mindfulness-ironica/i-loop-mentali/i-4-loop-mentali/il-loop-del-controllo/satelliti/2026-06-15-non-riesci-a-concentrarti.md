@@ -100,7 +100,7 @@ Più la risposta sembra importante, più il monitoraggio mentale aumenta.
 
 ## Il Loop del Controllo funziona così
 
-Questo comportamento appartiene al [Loop del Controllo](/filosofia-pratica/loop-del-controllo/).
+Questo comportamento appartiene al [Loop del Controllo](/mindfulness-ironica/loop-del-controllo/).
 
 La domanda implicita è:
 
@@ -148,7 +148,7 @@ Forse ho sbagliato qualcosa.
 
 Forse mi stanno ignorando.
 
-[L'overthinking](/filosofia-pratica/overthinking/) nasce proprio qui.
+[L'overthinking](/mindfulness-ironica/overthinking/) nasce proprio qui.
 
 Dal tentativo di trasformare l'incertezza in certezza.
 
@@ -281,9 +281,9 @@ Se questo articolo ti ha rispecchiato, potresti ritrovarti anche qui:
 
 Per capire il meccanismo completo:
 
-- [Loop del Controllo](/filosofia-pratica/loop-del-controllo/)
+- [Loop del Controllo](/mindufulness-i ronica/loop-del-controllo/)
 - [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
-- [Overthinking: cosa c'è davvero dietro il pensare troppo](/filosofia-pratica/overthinking/)
+- [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindufulness-ironica/overthinking/)
 
 ##FAQ 
 {% include faq.html %}

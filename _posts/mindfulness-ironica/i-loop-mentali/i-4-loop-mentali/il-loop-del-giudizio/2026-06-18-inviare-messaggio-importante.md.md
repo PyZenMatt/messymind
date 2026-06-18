@@ -89,7 +89,7 @@ Più il risultato conta per te, più aumenta il bisogno di controllo.
 
 ## Il loop mentale sottostante
 
-Questo comportamento appartiene soprattutto al [Loop del Giudizio](/filosofia-pratica/loop-del-giudizio/).
+Questo comportamento appartiene soprattutto al [Loop del Giudizio](/minduflnesse-ironica/loop-del-giudizio/).
 
 La domanda implicita è:
 

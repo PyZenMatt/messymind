@@ -96,7 +96,7 @@ Genera nuovi dubbi.
 
 ## Il Loop del Controllo funziona così
 
-Questo comportamento appartiene al [Loop del Controllo](/filosofia-pratica/loop-del-controllo/).
+Questo comportamento appartiene al [Loop del Controllo](/minduflness-ironica/loop-del-controllo/).
 
 La domanda implicita è:
 
@@ -263,16 +263,16 @@ Dove andare adesso
 
 Se ti riconosci in questo comportamento, potresti ritrovarti anche qui:
 
-- [Perché controlli continuamente se qualcuno ha risposto](/filosofia-pratica/perche-controlli-continuamente-se-qualcuno-ha-risposto/)
-- [Perché aspetti una risposta e non riesci a concentrarti](/filosofia-pratica/perche-aspetti-una-risposta-e-non-riesci-a-concentrarti/)
+- [Perché controlli continuamente se qualcuno ha risposto](/mindfulness-ironica/controllare-risooste/)
+- [Perché aspetti una risposta e non riesci a concentrarti](/mindfulness-ironica/non-riesci-a-concentrarti/)
 - [Perché continui a controllare una mail già inviata](/filosofia-pratica/controllare-mail-gia-inviata/)
 - [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 
 Per comprendere il meccanismo completo:
 
-- [Loop del Controllo](/filosofia-pratica/loop-del-controllo/)
+- [Loop del Controllo](/minduflness-ironica/loop-del-controllo/)
 - [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
-- [Overthinking: cosa c'è davvero dietro il pensare troppo](/filosofia-pratica/overthinking/)
+- [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking/)
 
 ##FAQ 
 
