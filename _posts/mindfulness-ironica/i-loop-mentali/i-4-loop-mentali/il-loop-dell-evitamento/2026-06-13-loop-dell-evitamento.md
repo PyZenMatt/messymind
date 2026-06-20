@@ -136,7 +136,7 @@ Più pressione
 Nuovo evitamento
 ```
 
-Il Loop dell'Evitamento non ti blocca perché sei senza forza di volontà.
+[Il Loop dell'Evitamento](/mindfulness-ironica/loop-dell-evitamento) non ti blocca perché sei senza forza di volontà.
 
 Ti blocca perché il cervello ha imparato una scorciatoia:
 
