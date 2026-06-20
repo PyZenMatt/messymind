@@ -37,8 +37,7 @@ Non è il compito.
 È l’inizio.
 
 Se sei in questo stato, il problema non è “cosa fare”, ma **partire**.
-Se non riesci nemmeno lì:
-→ /mindfulness-ironica/non-riesci-a-iniziare-cosa-fare-nei-primi-10-secondi/
+(Se non riesci nemmeno lì:)[/mindfulness-ironica/non-riesci-a-iniziare-cosa-fare-nei-primi-10-secondi/]
 
 Il punto operativo è semplice:
 
@@ -48,8 +47,7 @@ Quando fai un gesto minimo, la presa del loop cala.
 
 E da lì puoi muoverti.
 
-Se vuoi capire perché:
-→ /mindfulness-ironica/behavioral-activation/
+[Se vuoi capire perché:](/mindfulness-ironica/behavioral-activation/)
 
 ---
 
@@ -87,8 +85,7 @@ Non stai lavorando.
 
 Stai tornando operativo.
 
-Se invece ti blocchi anche qui, spesso è perché sai cosa fare ma non lo fai:
-→ /mindfulness-ironica/quando-sai-cosa-fare-ma-non-lo-fai/
+Se invece ti blocchi anche qui, spesso è perché (sai cosa fare ma non lo fai)[/mindfulness-ironica/quando-sai-cosa-fare-ma-non-lo-fai/]
 
 ---
 
@@ -126,8 +123,7 @@ Versione minima:
 * non “inizi” → apri il file
 * non “decidi” → scegli una opzione
 
-Se il problema è decisionale:
-→ /mindfulness-ironica/blocchi-decisionali-quando-rimandi-anche-cose-semplici/
+(Se il problema è decisionale:)[/mindfulness-ironica/blocchi-decisionali-quando-rimandi-anche-cose-semplici/]
 
 ---
 
@@ -140,11 +136,9 @@ Servono qui:
 👉 dopo Interrompi
 👉 prima di Agisci completo
 
-Se non chiudi con azione, il loop torna:
-→ /mindfulness-ironica/come-chiudere-un-loop-mentale-con-unazione/
+Se non chiudi con azione, il (loop torna)[/mindfulness-ironica/come-chiudere-un-loop-mentale-con-unazione/]
 
-Framework completo:
-→ /mindfulness-ironica/metodo-ironia/
+(Framework completo:)[/mindfulness-ironica/metodo-ironia/]
 
 ---
 
@@ -158,8 +152,7 @@ Falla subito.
 
 Poi continua.
 
-Se vuoi il passaggio completo:
-→ /mindfulness-ironica/agisci-per-interrompere-il-loop/
+Se vuoi il (passaggio completo:)[/mindfulness-ironica/agisci-per-interrompere-il-loop/]
 
 Il punto non è fare bene.
 

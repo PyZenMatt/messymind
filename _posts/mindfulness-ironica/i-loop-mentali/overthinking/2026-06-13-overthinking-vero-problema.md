@@ -7,7 +7,8 @@ description: "L'overthinking non è sempre il problema principale. Scopri perch�
 seo_description: "Controllo, giudizio, evitamento e approvazione possono alimentare l'overthinking. Scopri perché pensi troppo e come uscire dal ciclo mentale."
 date: 2026-06-13
 last_modified_at: 2026-06-13
-
+redirect_from:
+  - /filosofia-pratica/overthinking/
 categories:
 
 - mindfulness-ironica
