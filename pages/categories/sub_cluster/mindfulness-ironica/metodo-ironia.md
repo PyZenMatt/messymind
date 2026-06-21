@@ -25,26 +25,26 @@ hero_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr
 hero_alt: "Metodo I.R.O.N.I.A. per interrompere loop mentali e overthinking" 
 
 intro: |
-Il problema non è pensare troppo.
+  Il problema non è pensare troppo.
 
-L'overthinking è spesso il sintomo visibile di un loop mentale più profondo.
+  L'overthinking è spesso il sintomo visibile di un loop mentale più profondo.
 
-Controlli.
-Rimandi.
-Cerchi conferme.
-Ti prepari all'infinito.
+  Controlli.
+  Rimandi.
+  Cerchi conferme.
+  Ti prepari all'infinito.
 
-Ogni comportamento sembra diverso.
+  Ogni comportamento sembra diverso.
 
-In realtà segue sempre lo stesso schema:
+  In realtà segue sempre lo stesso schema:
 
-loop mentale → overthinking → comportamento automatico.
+  loop mentale → overthinking → comportamento automatico.
 
-Il Metodo I.R.O.N.I.A. serve a interrompere questo passaggio.
+  Il Metodo I.R.O.N.I.A. serve a interrompere questo passaggio.
 
-Non per stare meglio.
+  Non per stare meglio.
 
-Per evitare di peggiorare le cose quando sei sotto pressione.
+  Per evitare di peggiorare le cose quando sei sotto pressione.
 
 topics:
 
