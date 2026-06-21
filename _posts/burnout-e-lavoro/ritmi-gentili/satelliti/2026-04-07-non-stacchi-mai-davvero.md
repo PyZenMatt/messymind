@@ -132,7 +132,7 @@ Questo è il punto che molti saltano:
 Anche quando ti fermi, [la testa continua a lavorare.](/burnout-e-lavoro/non-riesci-a-rilassarti/)
 
 Se vuoi capire meglio questo meccanismo, leggi anche  
-[**Overthinking: perché la tua mente non si ferma**](/filosofia-pratica/overthinking/)
+[**Overthinking: perché la tua mente non si ferma**](/mindfulness-ironica/overthinking/)
 
 Questo stesso meccanismo lo ritrovi anche quando dici sì a tutto:  
 accumuli [lavoro senza scegliere davvero.](/burnout-e-lavoro/dici-sempre-si-lavoro/)

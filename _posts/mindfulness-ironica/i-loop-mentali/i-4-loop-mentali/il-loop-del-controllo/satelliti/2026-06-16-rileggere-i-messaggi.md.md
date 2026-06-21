@@ -128,7 +128,7 @@ Poi la mente trova un nuovo dettaglio da correggere.
 
 ## Quando entra in gioco l'overthinking
 
-[L'overthinking](/filosofia-pratica/overthinking/) inizia quando smetti di valutare il messaggio e inizi a immaginare scenari.
+[L'overthinking](/mindfulness-ironica/overthinking/) inizia quando smetti di valutare il messaggio e inizi a immaginare scenari.
 
 Come reagirà?
 

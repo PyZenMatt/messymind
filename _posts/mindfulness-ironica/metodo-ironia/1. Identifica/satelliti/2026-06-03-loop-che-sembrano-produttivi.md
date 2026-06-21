@@ -108,7 +108,7 @@ Per approfondire:
 * [Loop del Controllo](/mindfulness-ironica/loop-del-controllo/)
 * [Loop del Giudizio](/mindfulness-ironica/loop-del-giudizio/)
 * [Loop dell'Evitamento](/mindfulness-ironica/loop-dell-evitamento/)
-* [Overthinking: cosa c'è davvero dietro il pensare troppo](/filosofia-pratica/overthinking/)
+* [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking/)
 
 ## Perché i loop più pericolosi sembrano virtù
 
@@ -181,8 +181,8 @@ Questo comportamento appartiene soprattutto al Loop del Controllo.
 Per approfondire:
 
 * [Loop del Controllo](/mindfulness-ironica/loop-del-controllo/)
-* [Ripensare una mail per ore](/filosofia-pratica/ripensare-mail-ore/)
-* [Ripensare un messaggio WhatsApp per ore](/filosofia-pratica/ripensare-whatsapp-ore/)
+* [Ripensare una mail per ore](/mindfulness-ironica/ripensare-mail-ore/)
+* [Ripensare un messaggio WhatsApp per ore](/mindfulness-ironica/ripensare-whatsapp-ore/)
 * [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 
 ## Controllare continuamente mail e notifiche
@@ -209,7 +209,7 @@ Per approfondire:
 
 * [Loop del Controllo](/mindfulness-ironica/loop-del-controllo/)
 * [Mail importante](/mindfulness-ironica/mail-importante/)
-* [Ripensare una mail per ore](/filosofia-pratica/ripensare-mail-ore/)
+* [Ripensare una mail per ore](/mindfulness-ironica/ripensare-mail-ore/)
 
 ## Preparare ogni scenario possibile
 
@@ -321,7 +321,7 @@ Per approfondire:
 * [Loop del Giudizio](/mindfulness-ironica/loop-del-giudizio/)
 * [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 * [Ripensare i vocali per ore](/filosofia-pratica/ripensare-vocali-ore/)
-* [Ripensare un messaggio WhatsApp per ore](/filosofia-pratica/ripensare-whatsapp-ore/)
+* [Ripensare un messaggio WhatsApp per ore](/mindfulness-ironica/ripensare-whatsapp-ore/)
 
 ## L'overthinking è il sintomo, non la causa
 
@@ -359,7 +359,7 @@ Con meno pazienza.
 
 Per approfondire:
 
-* [Overthinking: cosa c'è davvero dietro il pensare troppo](/filosofia-pratica/overthinking/)
+* [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking/)
 
 ## Come questi comportamenti rinforzano il loop
 
@@ -509,7 +509,7 @@ Se continui a prepararti invece di iniziare:
 
 Per capire perché la mente continua a girare:
 
-* [Overthinking: cosa c'è davvero dietro il pensare troppo](/filosofia-pratica/overthinking/)
+* [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking/)
 
 Per interrompere il meccanismo:
 
@@ -517,8 +517,8 @@ Per interrompere il meccanismo:
 
 Se il problema riguarda messaggi, mail o comunicazioni già inviate:
 
-* [Ripensare una mail per ore](/filosofia-pratica/ripensare-mail-ore/)
-* [Ripensare un messaggio WhatsApp per ore](/filosofia-pratica/ripensare-whatsapp-ore/)
+* [Ripensare una mail per ore](/mindfulness-ironica/ripensare-mail-ore/)
+* [Ripensare un messaggio WhatsApp per ore](/mindfulness-ironica/ripensare-whatsapp-ore/)
 * [Ripensare i vocali per ore](/filosofia-pratica/ripensare-vocali-ore/)
 * [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
 

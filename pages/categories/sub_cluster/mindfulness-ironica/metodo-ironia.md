@@ -329,7 +329,7 @@ Serve a fare una cosa sola:
 ## Continua il percorso
 
 * [I 4 loop mentali che alimentano overthinking, procrastinazione e perfezionismo](/mindfulness-ironica/loop-mentali/)
-* [Overthinking: il sintomo che accomuna tutti i loop mentali](/filosofia-pratica/overthinking/)
+* [Overthinking: il sintomo che accomuna tutti i loop mentali](/mindfulness-ironica/overthinking/)
 * [Loop del Controllo](/mindfulness-ironica/loop-del-controllo/)
 * [Loop del Giudizio](/mindfulness-ironica/loop-del-giudizio/)
 * [Loop dell'Evitamento](/mindfulness-ironica/loop-dellevitamento/)

@@ -40,7 +40,7 @@ la decisione arriva prima, la spiegazione dopo.
 
 L’Io entra in scena solo per raccontarla.
 
-Quando questa narrazione prende il controllo e inizia a ripetersi, il risultato è [**overthinking**](/filosofia-pratica/overthinking/): non stai scegliendo, stai solo commentando.
+Quando questa narrazione prende il controllo e inizia a ripetersi, il risultato è [**overthinking**](/mindfulness-ironica/overthinking/): non stai scegliendo, stai solo commentando.
 
 ---
 
@@ -142,14 +142,14 @@ Nei micro-loop:
 
 Esempio reale:
 
-→ [**Perché controlli continuamente un messaggio su WhatsApp**](/filosofia-pratica/ripensare-whatsapp-ore/)
+→ [**Perché controlli continuamente un messaggio su WhatsApp**](/mindfulness-ironica/ripensare-whatsapp-ore/)
 
 ---
 
 ## Collegamenti pratici
 
 * [Bias cognitivi: cosa sono e come riconoscerli](/filosofia-pratica/bias-cognitivi/)
-* [Overthinking: perché pensiamo troppo](/filosofia-pratica/overthinking/)
+* [Overthinking: perché pensiamo troppo](/mindfulness-ironica/overthinking/)
 * [Pensiero catastrofico: come smontarlo](/filosofia-pratica/pensiero-catastrofico/)
 * [Riduzionismo: siamo solo chimica?](/filosofia-pratica/riduzionismo/)
 

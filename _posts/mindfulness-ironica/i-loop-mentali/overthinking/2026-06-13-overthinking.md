@@ -15,8 +15,11 @@ categories:
 
 subcluster: metodo-ironia
 
+is_cornerstone: true
+
 tags:
 
+- cornerstone
 - overthinking
 - pensare-troppo
 - rimuginazione
@@ -26,6 +29,13 @@ tags:
 - evitamento
 - approvazione
 - metodo-ironia
+
+slug: overthinking
+
+
+redirect_from:
+  - /filosofia-pratica/overthinking/
+  - /overthinking/
 
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1200/mm/overthinking
 

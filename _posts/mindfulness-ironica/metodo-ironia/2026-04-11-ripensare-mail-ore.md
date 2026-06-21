@@ -8,8 +8,8 @@ seo_description: "Hai mandato una mail e continui a ripensarci? Non è attenzion
 date: 2026-04-05
 last_modified_at: 2026-04-25
 
-categories: ["filosofia-pratica"]
-subcluster: "decisioni-e-bias"
+categories: ["mindfulness-ironica"]
+subcluster: "metodo-ironia"
 
 tags:
   - overthinking
@@ -65,7 +65,7 @@ Il punto è semplice:
 Non la stai rileggendo davvero.  
 La stai simulando.
 
-Stai entrando in un loop tipico dell’[overthinking](/filosofia-pratica/overthinking/).
+Stai entrando in un loop tipico dell’[overthinking](/mindfulness-ironica/overthinking/).
 
 E qui sta il primo errore: pensi di stare migliorando qualcosa.  
 In realtà stai solo lavorando mentalmente su qualcosa che non puoi più toccare.
@@ -198,7 +198,7 @@ Il punto non è calmarti.
 
 Questo stesso meccanismo si attiva anche quando:
 
-- ripensi a un [messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)  
+- ripensi a un [messaggio su WhatsApp](/mindfulness-ironica/ripensare-whatsapp-ore/)  
 - riascolti un [vocale dopo averlo inviato](/filosofia-pratica/ripensare-vocali-ore/)  
 - ripensi a un [colloquio](/filosofia-pratica/post-colloquio/)  
 

@@ -89,7 +89,7 @@ Lo tratti per quello che è:
 un contenuto mentale con troppa presa e troppo pochi dati.
 
 Se vuoi vedere meglio dove inizia questa torsione:
-[/filosofia-pratica/ripensare-whatsapp-ore/](/filosofia-pratica/ripensare-whatsapp-ore/)
+[/mindfulness-ironica/ripensare-whatsapp-ore/](/mindfulness-ironica/ripensare-whatsapp-ore/)
 
 ---
 
@@ -267,7 +267,7 @@ Il punto critico non è il pensiero.
 È la fiducia che gli dai troppo presto.
 
 Se vuoi capire come questa catena si mantiene nel tempo:
-[/filosofia-pratica/overthinking/](/filosofia-pratica/overthinking/)
+[/filosofia-pratica/overthinking/](/mindfulness-ironica/overthinking/)
 
 ---
 

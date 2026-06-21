@@ -1,4 +1,3 @@
-```yaml id="1m4kzr"
 ---
 layout: post
 title: "Smetti di rincorrere la motivazione: trova uno scopo e impara a dire no"
@@ -57,7 +56,6 @@ howto:
     - name: "Chiudi con una traccia"
       text: "Scrivi dove riprendere domani. Così non devi rinegoziare tutto da capo."
 ---
-```
 
 La motivazione è utile quando arriva.
 Il problema è che non resta.
@@ -79,7 +77,7 @@ I confini ancora di più.
 Questo articolo serve a una cosa precisa: smettere di rincorrere la carica e costruire una direzione minima che tenga anche nei giorni normali.
 
 Se vuoi il quadro del cluster:
-[**Crescita personale anti-guru**](/categorie/crescita-personale-anti-guru/)
+[Crescita personale anti-guru](/categorie/crescita-personale-anti-guru/)
 
 ## Il problema della motivazione
 
@@ -98,8 +96,52 @@ Se aspetti di sentirti “abbastanza motivato” prima di iniziare:
 Il risultato è semplice: fai solo quando ti senti bene, e smetti appena il clima mentale cambia.
 
 Se ti riconosci in questo schema, sei vicino anche al territorio del
-[**perfezionismo**](/crescita-personale-anti-guru/perfezionismo-e-procrastinazione/iniziare-male-migliorare/)
-e dell’[**overthinking**](/filosofia-pratica/overthinking/).
+[perfezionismo](/crescita-personale-anti-guru/perfezionismo-e-procrastinazione/iniziare-male-migliorare/)
+e dell’[overthinking](/mindfulness-ironica/overthinking/).
+
+Molte persone pensano di avere un problema di motivazione.
+
+Spesso hanno un problema di dispersione.
+
+La motivazione cala.
+
+È normale.
+
+Il punto è cosa succede quando cala.
+
+Se non hai uno scopo chiaro e confini sufficienti, la mente cerca sollievo immediato.
+
+Arrivano così:
+
+- notifiche
+- richieste degli altri
+- attività secondarie
+- perfezionismo
+- overthinking
+
+Sotto questi comportamenti agiscono spesso due loop mentali.
+
+**Loop dell'Approvazione**
+
+> Come faccio a non deludere nessuno?
+
+Dire sempre sì protegge dal disagio del conflitto.
+
+Ma consuma attenzione.
+
+→ [Loop dell'Approvazione](/mindfulness-ironica/loop-dell-approvazione/)
+
+**Loop dell'Evitamento**
+
+> Come faccio a non sentire questo disagio?
+
+Quando il compito diventa faticoso, la mente cerca distrazioni più semplici.
+
+→ [Loop dell'Evitamento](/mindfulness-ironica/loop-dell-evitamento/)
+
+L'overthinking è spesso il ponte tra questi loop e la perdita di direzione.
+
+→ [Perché l'overthinking non è il vero problema](/mindfulness-ironica/overthinking/)
 
 ## Lo scopo non deve ispirarti
 
@@ -202,7 +244,7 @@ Chiaro.
 Senza difenderti troppo.
 
 Se il nodo è il bisogno di controllare tutto o restare sempre disponibile, leggi anche:
-[**Vuoi controllare tutto? Ecco perché ti stai solo consumando**](/crescita-personale-anti-guru/il-controllo/)
+[Vuoi controllare tutto? Ecco perché ti stai solo consumando](/crescita-personale-anti-guru/il-controllo/)
 
 ## Il lavoro vero: togliere, non moderare
 
@@ -275,7 +317,7 @@ Non serve capire tutto.
 Serve evitare il solito automatismo.
 
 Per il framework completo:
-[**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/)
+[Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
 
 ## Protocollo minimo
 
@@ -292,12 +334,10 @@ Per il framework completo:
 
 ## Dove andare adesso
 
-* [**Perfezionismo: perché aspetti il momento giusto**](/crescita-personale-anti-guru/iniziare-male-migliorare)
-* [**Vuoi controllare tutto?**](/crescita-personale-anti-guru/il-controllo/)
-* [**Ansia da produttività**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/)
-* [**Metodo I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/)
+* [Perfezionismo: perché aspetti il momento giusto](/crescita-personale-anti-guru/iniziare-male-migliorare)
+* [Vuoi controllare tutto?](/crescita-personale-anti-guru/il-controllo/)
+* [Ansia da produttività](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/)
+* [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
 
 {% include disclaimer-ironia.html %}
 
-```
-```

@@ -373,8 +373,8 @@ Per approfondire:
 * [Il Loop del Controllo: perché la tua mente continua a verificare anche quando non serve più](/mindfulness-ironica/loop-del-controllo/)
 * [Perché continui a controllare una mail già inviata](/mindfulness-ironica/mail-importante/)
 * [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
-* [Ripensare una mail per ore](/filosofia-pratica/ripensare-mail-ore/)
-* [Ripensare un messaggio WhatsApp per ore](/filosofia-pratica/ripensare-whatsapp-ore/)
+* [Ripensare una mail per ore](/mindfulness-ironica/ripensare-mail-ore/)
+* [Ripensare un messaggio WhatsApp per ore](/mindfulness-ironica/ripensare-whatsapp-ore/)
 
 ## 2. Il Loop del Giudizio
 

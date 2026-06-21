@@ -7,9 +7,10 @@ seo_description: "Continui a controllare WhatsApp dopo aver inviato un messaggio
 
 date: 2026-04-05
 last_modified_at: 2026-04-05
-categories: ["filosofia-pratica"]
-subcluster: "decisioni-e-bias"
+categories: ["mindfulness-ironica"]
+subcluster: "metodo-ironia"
 tags:
+  - loop-del-controllo
   - overthinking
   - ruminazione
   - whatsapp
@@ -127,7 +128,7 @@ Allora compensi così:
 
 E nasce il loop.
 
-Succede identico anche quando mandi una [mail](/filosofia-pratica/ripensare-mail-ore/)
+Succede identico anche quando mandi una [mail](/mindfulness-ironica/ripensare-mail-ore/)
 
 
 ## Più controlli la chat, meno controlli la situazione
@@ -195,9 +196,9 @@ Poi basta.
 
 Questo stesso meccanismo si attiva anche quando:
 
-- ripensi a un [messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)
+- ripensi a un [messaggio su WhatsApp](/mindfulness-ironica/ripensare-whatsapp-ore/)
 - riascolti un [vocale dopo averlo inviato](/filosofia-pratica/ripensare-vocali-ore/)
-- analizzi una [mail già inviata](/filosofia-pratica/ripensare-mail-ore/)
+- analizzi una [mail già inviata](/mindfulness-ironica/ripensare-mail-ore/)
 - ripensi a un [colloquio](/filosofia-pratica/post-colloquio/)
 
 ## FAQ

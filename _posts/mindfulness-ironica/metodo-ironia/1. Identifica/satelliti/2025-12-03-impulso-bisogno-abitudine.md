@@ -84,7 +84,7 @@ Messaggio ambiguo → rispondi subito
 Critica → ti difendi  
 Silenzio → controlli  
 
-È lo stesso punto in cui nasce il loop dell’[overthinking](/filosofia-pratica/overthinking/), solo più veloce.
+È lo stesso punto in cui nasce il loop dell’[overthinking](/mindfulness-ironica/overthinking/), solo più veloce.
 
 ### Segnali
 
@@ -146,7 +146,7 @@ Non è bisogno.
 È ripetizione.
 
 È lo stesso schema che vedi quando  
-[ripensi a una mail già inviata](/filosofia-pratica/ripensare-mail-ore/)
+[ripensi a una mail già inviata](/mindfulness-ironica/ripensare-mail-ore/)
 
 Parte da solo.
 

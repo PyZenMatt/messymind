@@ -121,7 +121,7 @@ Nuovo controllo.
 
 ## Come nasce l'overthinking
 
-[L'overthinking](/filosofia-pratica/overthinking/) non nasce dal messaggio.
+[L'overthinking](/mindfulness-ironica/overthinking/) non nasce dal messaggio.
 
 Nasce dal tentativo di prevedere la reazione degli altri.
 
@@ -249,7 +249,7 @@ Errori da evitare
 Se questo comportamento ti è familiare, potresti ritrovarti anche qui:
 
 - [Perché ripensi a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
-- [Perché rileggi le mail mille volte prima di inviarle](/filosofia-pratica/ripensare-mail-ore/)
+- [Perché rileggi le mail mille volte prima di inviarle](/mindfulness-ironica/ripensare-mail-ore/)
 - [Perché cancelli e riscrivi continuamente un messaggio](/filosofia-pratica/cancelli-riscrivi-messaggio/)
 - [Perché hai paura di sembrare incompetente](/filosofia-pratica/paura-di-sembrare-incompetente/)
 
@@ -257,7 +257,7 @@ Per capire il meccanismo completo:
 
 - [Loop del Giudizio](/filosofia-pratica/loop-del-giudizio/)
 - [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
-- [Overthinking: cosa c'è davvero dietro il pensare troppo](/filosofia-pratica/overthinking/)
+- [Overthinking: cosa c'è davvero dietro il pensare troppo](/mindfulness-ironica/overthinking/)
 ## FAQ 
 
 {% include faq.html %}

@@ -80,7 +80,7 @@ Esempio tipico:
 → riparti  
 
 Approfondisci:  
-→ [**Perché ripensi a una mail per ore dopo averla inviata**](/filosofia-pratica/ripensare-mail-ore/)
+→ [**Perché ripensi a una mail per ore dopo averla inviata**](/mindfulness-ironica/ripensare-mail-ore/)
 
 ## Il meccanismo reale
 

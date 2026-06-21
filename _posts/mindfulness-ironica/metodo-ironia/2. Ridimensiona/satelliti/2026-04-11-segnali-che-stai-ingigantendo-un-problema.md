@@ -166,7 +166,7 @@ ripensi → rileggi → ripeti
 
 👉 non stai risolvendo
 
-→ [/filosofia-pratica/ripensare-whatsapp-ore/](/filosofia-pratica/ripensare-whatsapp-ore/)
+→ [/mindfulness-ironica/ripensare-whatsapp-ore/](/mindfulness-ironica/ripensare-whatsapp-ore/)
 
 ---
 

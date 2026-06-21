@@ -71,9 +71,9 @@ A quel punto non stai più comunicando.
 Stai ricostruendo.
 
 È lo stesso schema che trovi quando
-[ripensi a una mail per ore](/filosofia-pratica/ripensare-mail-ore/)
+[ripensi a una mail per ore](/mindfulness-ironica/ripensare-mail-ore/)
 o quando controlli un
-[messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/).
+[messaggio su WhatsApp](/mindfulness-ironica/ripensare-whatsapp-ore/).
 
 ---
 
@@ -99,7 +99,7 @@ Qui il punto chiave:
 Vuoto → interpretazione → simulazione
 
 E questo è esattamente
-l’[**overthinking**](/filosofia-pratica/overthinking/):
+l’[**overthinking**](/mindfulness-ironica/overthinking/):
 
 **non stai risolvendo, stai girando nello stesso circuito.**
 
@@ -114,9 +114,9 @@ Non il meccanismo.
 
 Succede qui:
 
-* [Ripensare a una mail](/filosofia-pratica/ripensare-mail-ore/)
+* [Ripensare a una mail](/mindfulness-ironica/ripensare-mail-ore/)
 * [Ripensare a un vocale](/filosofia-pratica/ripensare-vocali-ore/)
-* [Controllare WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)
+* [Controllare WhatsApp](/mindfulness-ironica/ripensare-whatsapp-ore/)
 * [Ripensare a un colloquio](/filosofia-pratica/post-colloquio/)
 
 Non sono problemi diversi.
@@ -233,7 +233,7 @@ Qui non è più episodio.
 È **abitudine mentale**
 
 Ed è lo stesso circuito dell’
-[**overthinking**](/filosofia-pratica/overthinking/)
+[**overthinking**](/mindfulness-ironica/overthinking/)
 
 ---
 

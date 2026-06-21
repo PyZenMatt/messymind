@@ -127,7 +127,7 @@ Errore.
 
 Stai reagendo a una parola vaga.
 
-È lo stesso meccanismo che succede quando, dopo un evento, continui a [ripensare a quello che hai detto in un colloquio](/filosofia-pratica/post-colloquio/) o quando [rivedi una mail per ore](/filosofia-pratica/ripensare-mail-ore/).
+È lo stesso meccanismo che succede quando, dopo un evento, continui a [ripensare a quello che hai detto in un colloquio](/filosofia-pratica/post-colloquio/) o quando [rivedi una mail per ore](/mindfulness-ironica/ripensare-mail-ore/).
 
 Qui nasce il loop:  
 [chiami ansia tutto quello che senti](/mindfulness-ironica/metodo-ironia/chiami-ansia-tutto-quello-che-senti/)
@@ -174,7 +174,7 @@ Una parola.
 
 Stop.
 
-Se diventa riflessione, sei di nuovo dentro il loop — lo stesso schema dell’[overthinking](/filosofia-pratica/overthinking/).
+Se diventa riflessione, sei di nuovo dentro il loop — lo stesso schema dell’[overthinking](/mindfulness-ironica/overthinking/).
 
 ---
 

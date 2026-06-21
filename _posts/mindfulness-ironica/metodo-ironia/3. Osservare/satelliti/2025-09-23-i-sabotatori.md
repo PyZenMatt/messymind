@@ -165,8 +165,8 @@ Non succede solo quando “ti fermi”.
 
 Succede già qui:
 
-- quando [ripensi a una mail che hai inviato](/filosofia-pratica/ripensare-mail-ore/)  
-- quando [controlli continuamente un messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)  
+- quando [ripensi a una mail che hai inviato](/mindfulness-ironica/ripensare-mail-ore/)  
+- quando [controlli continuamente un messaggio su WhatsApp](/mindfulness-ironica/ripensare-whatsapp-ore/)  
 - quando [ripensi a un vocale per ore](/filosofia-pratica/ripensare-vocali-ore/)  
 - quando resti bloccato dopo un [colloquio](/filosofia-pratica/post-colloquio/)  
 

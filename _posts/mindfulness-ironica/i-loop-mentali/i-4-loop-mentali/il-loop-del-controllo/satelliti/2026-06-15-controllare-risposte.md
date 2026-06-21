@@ -274,7 +274,7 @@ E se vuoi capire il meccanismo completo:
 
 - [Metodo I.R.O.N.I.A." (/mindfulness-ironica/metodo-ironia/)
 - [Loop del Controllo" (/filosofia-pratica/loop-del-controllo/)
-- [Overthinking: cosa c'è davvero dietro il pensare troppo" (/filosofia-pratica/overthinking/)
+- [Overthinking: cosa c'è davvero dietro il pensare troppo" (/mindfulness-ironica/overthinking/)
 
 ##FAQ 
 

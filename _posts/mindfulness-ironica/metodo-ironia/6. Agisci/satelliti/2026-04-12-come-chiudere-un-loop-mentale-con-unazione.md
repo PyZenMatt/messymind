@@ -37,7 +37,7 @@ riattivi lo stesso dubbio
 
 Interrompere senza altro è solo una pausa.
 
-È lo stesso schema che vedi quando entri in [overthinking](/filosofia-pratica/overthinking/): esci un attimo, poi rientri.
+È lo stesso schema che vedi quando entri in [overthinking](/mindfulness-ironica/overthinking/): esci un attimo, poi rientri.
 
 ---
 
@@ -139,7 +139,7 @@ Loop su decisione:
 → scegli una direzione minima  
 
 È lo stesso meccanismo che vedi qui:  
-[ripensare a una mail](/filosofia-pratica/ripensare-mail-ore/)  
+[ripensare a una mail](/mindfulness-ironica/ripensare-mail-ore/)  
 [ripensare a un colloquio](/filosofia-pratica/post-colloquio/)
 
 ---

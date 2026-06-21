@@ -6,8 +6,8 @@ seo_title: "Perché ripensi a un vocale inviato (e non riesci a lasciarlo andare
 seo_description: "Continui a ripensare a un vocale che hai mandato? Scopri perché succede e come uscire dal loop mentale."
 date: 2026-04-05
 last_modified_at: 2026-04-05
-categories: ["filosofia-pratica"]
-subcluster: "decisioni-e-bias"
+categories: ["minduflness-ironica"]
+subcluster: "metodo-ironia"
 tags:
   - overthinking
   - ruminazione
@@ -96,7 +96,7 @@ Qui il meccanismo:
 
 Stai costruendo una scena completa che non esiste.
 
-È lo stesso meccanismo che parte anche nei [messaggi](/filosofia-pratica/ripensare-whatsapp-ore/)
+È lo stesso meccanismo che parte anche nei [messaggi](/mindfulness-ironica/ripensare-whatsapp-ore/)
 
 Questo è lo stesso meccanismo spiegato qui:
 [Perché continui a ripensare a quello che hai scritto o detto](/filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/)
@@ -124,7 +124,7 @@ Allora compensi così:
 
 E nasce il loop.
 
-Succede identico anche quando mandi una [mail](/filosofia-pratica/ripensare-mail-ore/)
+Succede identico anche quando mandi una [mail](/mindfulness-ironica/ripensare-mail-ore/)
 
 ## Più lo riascolti, più peggiora
 
@@ -189,9 +189,9 @@ Poi basta.
 
 Questo stesso meccanismo si attiva anche quando:
 
-- ripensi a un [messaggio su WhatsApp](/filosofia-pratica/ripensare-whatsapp-ore/)
+- ripensi a un [messaggio su WhatsApp](/mindfulness-ironica/ripensare-whatsapp-ore/)
 - riascolti un [vocale dopo averlo inviato](/filosofia-pratica/ripensare-vocali-ore/)
-- analizzi una [mail già inviata](/filosofia-pratica/ripensare-mail-ore/)
+- analizzi una [mail già inviata](/mindfulness-ironica/ripensare-mail-ore/)
 - ripensi a un [colloquio](/filosofia-pratica/post-colloquio/)
 
 ## FAQ

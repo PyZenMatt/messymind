@@ -56,7 +56,7 @@ Non è questa la domanda utile.
 
 Il corpo si attiva → la mente interpreta → il loop parte
 
-Questo è lo stesso meccanismo dell’[overthinking](/filosofia-pratica/overthinking/)
+Questo è lo stesso meccanismo dell’[overthinking](/mindfulness-ironica/overthinking/)
 
 Non cambia il tema. Cambia la storia.
 
@@ -206,7 +206,7 @@ sale
 Se senti attivazione:
 
 → lavora su questo  
-[overthinking](/filosofia-pratica/overthinking/)
+[overthinking](/mindfulness-ironica/overthinking/)
 
 Se vuoi capire perché la mente amplifica:
 
