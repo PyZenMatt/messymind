@@ -16,7 +16,7 @@ is_cornerstone: true
 
 image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
-background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg]
+background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 og_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1756045412/pexels-enginakyurt-2174625_1_ttwvvz.jpg
 faqs:
 
@@ -30,22 +30,22 @@ faqs:
   answer: "Sì. Il metodo è stato progettato per essere utilizzato nei momenti di pressione, urgenza e forte attivazione mentale."
 
 howto:
-name: "Metodo I.R.O.N.I.A. per interrompere un loop mentale"
-description: "Framework operativo in 6 step per interrompere overthinking, ruminazione e comportamenti automatici."
-totalTime: "PT5M"
-step:
-  - name: "Identifica"
-    text: "Riconosci che il loop mentale è partito."
-  - name: "Ridimensiona"
-    text: "Separa fatti e interpretazioni."
-  - name: "Osserva"
-    text: "Nota il tuo stato fisico e mentale."
-  - name: "Nomina"
-    text: "Dai un nome preciso a ciò che senti."
-  - name: "Interrompi"
-    text: "Blocca la reazione automatica."
-  - name: "Agisci"
-    text: "Esegui una micro-azione concreta."
+  name: "Metodo I.R.O.N.I.A. per interrompere un loop mentale"
+  description: "Framework operativo in 6 step per interrompere overthinking, ruminazione e comportamenti automatici."
+  totalTime: "PT5M"
+  step:
+    - name: "Identifica"
+      text: "Riconosci che il loop mentale è partito."
+    - name: "Ridimensiona"
+      text: "Separa fatti e interpretazioni."
+    - name: "Osserva"
+      text: "Nota il tuo stato fisico e mentale."
+    - name: "Nomina"
+      text: "Dai un nome preciso a ciò che senti."
+    - name: "Interrompi"
+      text: "Blocca la reazione automatica."
+    - name: "Agisci"
+      text: "Esegui una micro-azione concreta."
 ---
 
 ## Come interrompere un loop mentale prima che diventi comportamento
