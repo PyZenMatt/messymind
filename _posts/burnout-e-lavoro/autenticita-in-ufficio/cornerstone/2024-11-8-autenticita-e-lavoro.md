@@ -106,6 +106,46 @@ Molto spesso il problema non è neppure il capo tossico o il collega invadente m
 
 Quel prezzo si vede dopo quando sentiamo più stanchezza mentale, più irritazione ; meno qualità attentiva; più ruminazione a fine giornata e infine più sensazione di essere “fuori asse”. Ma la lista è ancora più lunga
 
+## Quando l'adattamento diventa un loop
+
+All'inizio sembra professionalità.
+
+Poi diventa automatismo.
+
+Il meccanismo spesso funziona così:
+
+Paura del conflitto.
+
+↓
+
+Bisogno di approvazione.
+
+↓
+
+Dici sì anche quando vorresti dire no.
+
+↓
+
+Accumuli sovraccarico.
+
+↓
+
+Ti senti irritato, stanco o svuotato.
+
+↓
+
+Cerchi di compensare diventando ancora più disponibile.
+
+Questo è il [Loop dell'Approvazione](/minduflness-ironica/loop-dell-approvazione)
+
+L'obiettivo nascosto non è collaborare meglio.
+
+È evitare il disagio di deludere qualcuno.
+
+Il problema è che ogni sì automatico riduce energia, lucidità e qualità del lavoro.
+
+E il loop si rinforza.
+
 ## I segnali che stai recitando troppo
 
 Non sempre te ne accorgi subito. La maschera professionale raramente si presenta dicendo: “Ciao, sono una strategia che ti consumerà lentamente”.
@@ -155,7 +195,7 @@ Esempio:
 Non stai fingendo meno per diventare aggressivo.  
 Stai fingendo meno per lavorare meglio.
 
-## Il costo cognitivo di dire sempre sì
+## Il costo cognitivo del Loop dell'Approvazione
 
 C’è una forma di esaurimento che non nasce solo dal carico.  
 Nasce dalla **compiacenza cronica**.
@@ -174,10 +214,18 @@ Più sei competente, più rischi di diventare il contenitore delle urgenze altru
 Il punto non è diventare rigido.  
 Il punto è smettere di essere disponibile in automatico.
 
-Per il lato del carico e della saturazione mentale, il subcluster di riferimento è [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/).  
-Per il lato identità, confini e ruolo, questo articolo è la guida madre del subcluster [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/), dedicato a maschera professionale, compiacenza, confini e costo mentale del fingere.
+Più cerchi approvazione, meno ascolti i tuoi limiti.
 
-Se vuoi entrare nei tre meccanismi più tipici di questo subcluster, continua da qui:
+Più ignori i tuoi limiti, più aumentano sovraccarico e risentimento.
+
+Il paradosso è che la strategia usata per mantenere relazioni positive spesso peggiora proprio la qualità delle relazioni.
+
+Perché prima o poi l'energia finisce.
+
+Per il lato del carico e della saturazione mentale, la pagina di riferimento è [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/).  
+Per il lato identità, confini e ruolo, questo articolo è la guida madre qui: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/), dedicato a maschera professionale, compiacenza, confini e costo mentale del fingere.
+
+Se vuoi entrare nei tre meccanismi più tipici di questa categoria, continua da qui:
 
 - [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
 - [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
@@ -257,6 +305,38 @@ Se il tuo schema ricorrente è più legato all’urgenza continua, alla colpa qu
 
 Se invece il tuo schema è meno legato all’urgenza e più al bisogno di evitare attrito, vai su [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/).
 
+Puoi usare il Metodo I.R.O.N.I.A. nel momento esatto in cui senti l'impulso di dire sì.
+
+**Identifica**
+
+"Sto per accettare per evitare disagio."
+
+**Ridimensiona**
+
+"Dire no a una richiesta non significa rifiutare una persona."
+
+**Osserva**
+
+Cosa succede nel corpo?
+
+Tensione?
+
+Colpa?
+
+Paura?
+
+**Nomina**
+
+"Sto cercando approvazione."
+
+**Interrompi**
+
+Prenditi dieci minuti prima di rispondere.
+
+**Agisci**
+
+Formula un confine chiaro e concreto.
+
 ## Quando conviene andare per gradi
 
 Non tutti gli ambienti permettono lo stesso grado di autenticità.  
@@ -289,6 +369,7 @@ Se il tuo problema principale è:
 - mettere confini senza sembrare difficile → [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-lavoro-senza-problemi/)
 - dire sì troppo spesso e ritrovarti svuotato → [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
 - sentirti stanco soprattutto per la recitazione professionale → [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/)
+- Se ti riconosci nel bisogno di piacere a tutti e fatichi a mettere confini: → [Loop dell'Approvazione](/mindfulness-ironica/loop-dell-approvazione/)
 
 ## Conclusione
 
