@@ -81,6 +81,48 @@ Non stai scegliendo davvero: stai solo evitando l’attrito di [dire no al lavor
 
 Per la guida madre di questo argomento, parti anche da [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
+## Il Loop dell'Approvazione nascosto dietro il sì automatico
+
+Molte persone pensano che la compiacenza lavorativa nasca dalla gentilezza.
+
+In realtà spesso nasce da qualcosa di diverso.
+
+Dal bisogno di evitare il disagio di deludere qualcuno.
+
+Il meccanismo è questo:
+
+Paura del conflitto.
+
+↓
+
+Bisogno di approvazione.
+
+↓
+
+Dici sì automaticamente.
+
+↓
+
+Accumuli carico.
+
+↓
+
+Ti senti invaso o irritato.
+
+↓
+
+Cerchi di recuperare approvazione diventando ancora più disponibile.
+
+Questo è il [Loop dell'Approvazione.](/mindfulness-ironica/loop-dell-approvazione)
+
+L'obiettivo nascosto non è collaborare meglio.
+
+È evitare il disagio immediato di sembrare poco disponibile.
+
+Il problema è che il costo arriva dopo.
+
+E quasi sempre lo paghi tu.
+
 ## Questo è il meccanismo centrale
 
 La compiacenza lavorativa è il punto di partenza.
@@ -111,7 +153,7 @@ Sul lavoro viene premiata una cosa molto subdola: non chi protegge il lavoro, ma
 
 La compiacenza, quindi, non è un tratto morale. Non vuol dire che sei “troppo buono”. Vuol dire che hai imparato una strategia di breve periodo: evitare il piccolo attrito subito, anche se poi il costo ti torna addosso con gli interessi.
 
-## Perché dire sì ti fa sentire al sicuro nel breve
+## ## Perché il sì automatico viene premiato dal cervello
 
 Il sì automatico funziona. Almeno all’inizio.
 
@@ -263,6 +305,8 @@ Se ti sei riconosciuto in questo schema, la direzione non è diventare duro. È 
 
 Per continuare:
 
+
+- [**Loop dell'Approvazione**](/mindfulness-ironica/loop-dell-approvazione/)
 - [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
 - [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
 - [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
