@@ -74,13 +74,47 @@ Il punto non è che dovresti dire tutto quello che pensi. Sarebbe infantile, non
 
 Qui non si parla di sincerità assoluta, né di spontaneità selvaggia da scambiare per coraggio. Si parla del costo mentale della maschera professionale quando da filtro occasionale diventa sistema operativo. E il costo, di solito, si vede tardi: più stanchezza, più autocensura, più compiacenza, meno presenza, lavoro peggiore.
 
-Per la guida madre del subcluster, parti anche da [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
+Per capire il contesto generale di questo comportamento: [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
 
 Questo comportamento spesso nasce da qui:
 
 → [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
-→ [Dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/dici-sempre-si-lavoro/)
+→ [Dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/)
 → [Dire no al lavoro senza sembrare problematico](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
+
+## Il loop mentale dietro la maschera professionale
+
+La maschera professionale raramente nasce dal desiderio di mentire.
+
+Più spesso nasce dal bisogno di evitare disapprovazione, conflitto o giudizi negativi.
+
+Per questo motivo appartiene spesso [Loop dell'Approvazione](/mindfulness-ironica/i-4-loop-mentali/loop-dell-approvazione/)
+
+La domanda implicita del loop è:
+
+> Come posso restare accettato senza creare attrito?
+
+Quando il loop si attiva compare l'overthinking.
+
+Valuti continuamente come apparire.
+
+Addolcisci frasi.
+
+Eviti dissensi.
+
+Nascondi perplessità.
+
+E alla fine costruisci una versione professionale di te che consuma attenzione.
+
+Il problema non è la maschera.
+
+Il problema è il costo cognitivo necessario per mantenerla attiva.
+
+Da fuori questo comportamento può sembrare semplice professionalità.
+
+Da dentro spesso genera overthinking, compiacenza, difficoltà a dire no e paura di esporsi.
+
+Per questo la maschera professionale raramente è un problema isolato. Di solito fa parte di un sistema più ampio di comportamenti che si rinforzano a vicenda.
 
 ## La maschera professionale non è sempre un problema
 
@@ -170,6 +204,44 @@ Quindi no: non fingi perché sei falso. Molto spesso fingi perché il contesto r
 
 Poi però quella levigatura diventa abitudine. E l’abitudine diventa stile relazionale. E lo stile relazionale, se non lo guardi, si mangia una quota sempre più grande di presenza.
 
+Se vuoi capire perché questo comportamento continua a ripresentarsi anche quando sai che ti sta consumando, il passaggio fondamentale è qui:
+
+→ [Overthinking: il vero problema non è pensare troppo](/filosofia-pratica/overthinking-vero-problema/)
+
+## Come la maschera rinforza il loop
+
+Il meccanismo spesso funziona così:
+
+Paura della disapprovazione
+
+↓
+
+Overthinking
+
+↓
+
+Maschera professionale
+
+↓
+
+Sollievo immediato
+
+↓
+
+Meno chiarezza e meno confini
+
+↓
+
+Più distanza da ciò che pensi davvero
+
+↓
+
+Nuovo bisogno di approvazione
+
+↓
+
+Nuova maschera
+
 ## La maschera e i suoi effetti collaterali
 
 La maschera da sola raramente resta da sola.
@@ -226,6 +298,10 @@ Se vuoi lavorare sul lato più pratico del bordo, il satellite da leggere dopo �
 
 ## Una micro-sequenza I.R.O.N.I.A.
 
+La maschera professionale non si interrompe combattendo la maschera.
+
+Si interrompe intercettando il Loop dell'Approvazione prima che produca il comportamento.
+
 Anche qui il metodo può aiutare, ma senza farne una religione da tazza motivazionale. Più come manutenzione rapida.
 
 **I — Identifica** quando stai gestendo il personaggio invece del lavoro.  
@@ -264,22 +340,28 @@ Per allargare il quadro, il pezzo madre resta [**Autenticità al lavoro: il cost
 
 Se questa pressione si traduce soprattutto in tensione continua, recupero scarso e sensazione di lavorare sempre in allerta, il ponte naturale è [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
 
-## Cosa leggere dopo
+### Dove andare adesso
 
-Se ti sei riconosciuto, la direzione non è “finalmente essere te stesso” come in una brutta caption LinkedIn. La direzione è più terrestre: smettere di sprecare attenzione a gestire il personaggio quando dovrebbe stare sul lavoro.
+Se ti riconosci nella maschera professionale:
 
-Per continuare:
+→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
 
-- [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
-- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
-- [**Dire no al lavoro senza sembrare problematico**](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
-- [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
-- [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
-- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita/)
-- Hub del subcluster: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/)
-- Correlato utile: [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
+→ [Perché dici sempre sì al lavoro](/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/)
 
-La sintesi è questa: la maschera professionale non ti consuma perché sei falso. Ti consuma perché una parte della tua attenzione smette di lavorare sul compito e si mette a gestire il personaggio.
+→ [Dire no al lavoro senza sembrare problematico](/burnout-e-lavoro/dire-no-al-lavoro-senza-problemi/)
+
+Se vuoi capire il meccanismo cognitivo che alimenta questi comportamenti:
+
+→ [Overthinking: il vero problema non è pensare troppo](/filosofia-pratica/overthinking-vero-problema/)
+
+→ [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
+
+Per il contesto completo:
+
+→ [Autenticità al lavoro](/burnout-e-lavoro/autenticita-e-lavoro/)
+
+→ [Hub Autenticità in ufficio](/categorie/burnout-e-lavoro/autenticita-in-ufficio/)
+
 
 {% include howto.html %}
 

@@ -69,257 +69,347 @@ Ti scrivono alle 16:47.
 
 “Ti rubo solo dieci minuti.”
 
-Di solito quei dieci minuti hanno la stessa struttura delle ristrutturazioni in Italia: partono piccoli, finiscono a mangiarsi mezza giornata. Tu lo sai. Hai già una priorità aperta, una consegna da chiudere, un pezzo delicato che richiede testa lucida. Però rispondi quasi subito: “Sì, certo”.
+Di solito quei dieci minuti hanno la stessa struttura delle ristrutturazioni in Italia: partono piccoli, finiscono a mangiarsi mezza giornata.
 
-Due minuti dopo senti già la frizione. La concentrazione si rompe. La tua task importante scivola più in là. Ti resta addosso quella miscela poco elegante di irritazione, fretta e senso del dovere. E il punto non è che “non sai farti rispettare”. Il punto è più semplice e più costoso: stai peggiorando il lavoro dicendo sì a tutto.
+Tu lo sai.
 
-Qui non si parla di diventare duri, teatrali o “assertivi” da manualetto. Si parla di una competenza più sobria: smettere di pagare con focus, lucidità e qualità il prezzo del sì automatico.
+Hai già una priorità aperta.
 
-Per il quadro più ampio del subcluster, parti anche da [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/).
+Una consegna da chiudere.
 
-Questo è solo un pezzo del problema.
+Un'attività che richiede attenzione vera.
+
+Eppure rispondi:
+
+"Sì, certo."
+
+Due minuti dopo senti già la frizione.
+
+La concentrazione si rompe.
+
+La tua priorità scivola più in là.
+
+Ti resta addosso quella miscela poco elegante di irritazione, fretta e senso del dovere.
+
+Molti pensano che il problema sia non saper dire no.
+
+Spesso il problema è diverso.
+
+Il problema è che il tuo cervello ha già detto sì prima ancora che tu abbia valutato la richiesta.
+
+Ed è qui che inizia il loop.
+
+Per il quadro più ampio del subcluster puoi partire da:
+
+→ [Autenticità al lavoro: il costo mentale di fingere tutto il giorno](/burnout-e-lavoro/autenticita-e-lavoro/)
+
+## Il loop mentale che c'è dietro il sì automatico
+
+Dire sempre sì raramente nasce dalla generosità pura.
+
+Più spesso nasce da qualcosa di molto meno nobile e molto più umano:
+
+la paura della disapprovazione.
+
+Paura di sembrare difficile.
+
+Paura di sembrare poco collaborativo.
+
+Paura di deludere qualcuno.
+
+Paura di creare attrito.
+
+Nel framework di MessyMind questo schema appartiene al **Loop dell'Approvazione**.
+
+La domanda implicita del loop è:
+
+> Come posso evitare che qualcuno abbia una cattiva impressione di me?
+
+Quando il loop si attiva, compare l'overthinking.
+
+Cominci a valutare scenari.
+
+Come reagirà?
+
+Penseranno che non sono disponibile?
+
+Sembrerò poco professionale?
+
+E alla fine arriva il comportamento:
+
+dici sì.
+
+Non perché sia la scelta migliore.
+
+Perché è la scelta che riduce il disagio immediato.
+
+Se questo schema ti è familiare, approfondisci qui:
 
 → [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
-→ [Dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/dici-sempre-si-lavoro/)
-→ [Maschera professionale: il costo mentale di fingere tutto il giorno](/burnout-e-lavoro/maschera-lavorativa/)
 
-## Perché dire no al lavoro sembra più rischioso di quanto sia
+→ [Dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/)
 
-Nel lavoro, dire no sembra sempre più grave di quello che è davvero. Soprattutto se sei una persona affidabile, una di quelle che consegna, risponde, sistema, tiene insieme i pezzi quando gli altri iniziano a fare archeologia nel caos.
+## Perché dire no sembra più rischioso di quanto sia
 
-Il problema è che questo tipo di affidabilità viene premiato nel breve. Dici sì, sei collaborativo. Dici sì, sei flessibile. Dici sì, “meno male che ci sei tu”. Il cervello registra il vantaggio immediato: attrito evitato, reputazione salva, fastidio rinviato.
+Nel breve periodo il sì sembra conveniente.
 
-Poi arriva il conto.
+Eviti una conversazione scomoda.
 
-Sembra sempre una questione di carattere: o sei forte e sai dire no, oppure sei debole e ti fai caricare addosso tutto. Non funziona così. Spesso il sì automatico non nasce da fragilità. Nasce da una lettura professionale sbagliata: confondere disponibilità con competenza.
+Eviti una possibile delusione.
 
-Essere disponibili ogni volta non ti rende più professionale. Ti rende più accessibile all’interruzione. E non sono la stessa cosa.
+Eviti una tensione sociale.
 
-Molti dicono sì non per paura esplicita, ma per micro-timore sociale ben più banale: sembrare poco collaborativi, difficili, rigidi, lenti, poco “team player”. Il lessico aziendale, quando vuole, sa fare terrorismo con un sorriso.
+Il cervello registra il sollievo.
 
-Il punto da tenere fermo è questo: la professionalità non coincide con l’assorbire ogni richiesta senza filtro. Coincide con il saper proteggere ciò che conta, anche quando qualcuno ti mette addosso un’urgenza con il tono di chi ha già deciso per te.
+Il problema è che registra molto meno il costo.
 
-Se [dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/), non è un caso. È un pattern stabile.
+Perché il costo arriva dopo.
 
+Arriva quando il focus si spezza.
+
+Arriva quando accumuli attività.
+
+Arriva quando la tua giornata diventa una successione di urgenze altrui.
+
+E soprattutto arriva quando inizi a lavorare costantemente sotto il tuo livello reale di qualità.
+
+Essere sempre disponibili non significa essere professionali.
+
+Significa essere facilmente interrompibili.
+
+Sono due cose molto diverse.
+
+## Perché dire sempre sì peggiora il problema
+
+Qui il punto importante non è il no.
+
+È il meccanismo che si rinforza ogni volta che dici sì in automatico.
+
+Funziona più o meno così:
+
+Paura della disapprovazione
+
+↓
+
+Overthinking
+
+↓
+
+Dici sì
+
+↓
+
+Sollievo immediato
+
+↓
+
+Perdi confini e priorità
+
+↓
+
+Ti senti sovraccarico
+
+↓
+
+Cerchi ancora più approvazione
+
+↓
+
+Nuovo sì automatico
+
+Il problema è che ogni sì non interrompe il loop.
+
+Lo conferma.
+
+E più lo conferma, più il comportamento diventa automatico.
+
+È esattamente lo stesso meccanismo che trovi nella:
+
+→ [Compiacenza lavorativa](/burnout-e-lavoro/compiacenza-lavorativa/)
 
 ## Il vero problema non è il no. È il sì automatico
 
-Il no viene vissuto come il problema visibile. In realtà il problema vero è il sì riflesso, quello che esce prima ancora che tu abbia guardato agenda, carico, priorità e margine mentale.
+Il no viene percepito come il problema visibile.
 
-Perché quel sì non chiude nulla. Apre.
+In realtà il problema è il sì riflesso.
 
-Apre tab mentali. Apre micro-debiti cognitivi. Apre una frammentazione del focus che poi ti trascini dietro per ore. Il lavoro più importante viene spostato di lato. Le priorità smettono di essere tue e diventano la somma degli ingressi più recenti. È il trionfo della bacheca notifiche applicato alla giornata lavorativa.
+Quello che esce prima ancora che tu abbia controllato:
 
-Non ti senti travolto da una singola richiesta enorme. Ti senti peggiorato da una sequenza di richieste piccole accettate senza pensare. Nessuna, presa da sola, sembra un dramma. Insieme, ti rubano profondità.
+* priorità
+* carico di lavoro
+* energia disponibile
+* costo reale della richiesta
 
-Ed è qui che il sì automatico si rivela per quello che è: non un gesto gentile, ma una tassa sulla qualità.
+Quel sì apre una serie di micro-debiti cognitivi.
 
-Quando lavori sempre in risposta agli altri, succedono almeno quattro cose:
+Piccole interruzioni.
 
-- il focus si spezza;
-- le priorità si spostano per inerzia, non per scelta;
-- l’irritazione non sparisce, si accumula in ritardo;
-- inizi a sentire urgenza anche dove c’è solo cattiva organizzazione.
+Piccoli cambi di contesto.
 
-Il no fatto bene non crea questo problema. Il sì automatico sì.
+Piccole deviazioni.
 
-Se questa rincorsa continua ti suona familiare, leggi anche [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/ansia-da-produttivita/).
+Nessuna sembra importante.
+
+Insieme distruggono profondità e concentrazione.
+
+È una tassa invisibile sulla qualità del lavoro.
+
+Se questa dinamica ti porta a rincorrere continuamente il tempo, può esserti utile anche:
+
+→ [Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/)
 
 ## Quando dire sì ti costa più di quanto ti protegga
 
-C’è un momento preciso in cui il sì smette di essere collaborazione e diventa autosabotaggio professionale. Di solito non arriva con una sirena. Arriva con segnali minimi, molto riconoscibili.
+Ci sono segnali molto semplici.
 
-Dici sì e ti penti subito dopo. Non dopo tre giorni. Subito. Hai già la sensazione di averti venduto mezz’ora, un’ora, o una porzione di testa che ti serviva altrove.
+Dici sì e ti penti immediatamente.
 
-Rimandi le tue priorità “solo un attimo”, e quell’attimo si allarga. Intanto il lavoro importante resta aperto, più sporco, più nervoso, più difficile da riprendere.
+Rimandi qualcosa che per te era importante.
 
-Ti irriti in ritardo. Sul momento fai la persona ragionevole. Poi, due ore dopo, ti accorgi che stai rispondendo male a una mail o stai stringendo i denti per una richiesta che in teoria avevi “accettato serenamente”.
+Ti ritrovi irritato qualche ora dopo.
 
-Tieni tutto aperto. Nessun no netto, nessun sì davvero sostenibile, solo un mucchio di cose in sospeso che ti consumano in background come le app lasciate aperte sul telefono.
+Accumuli attività aperte.
 
-E soprattutto: ti senti bravo ma svuotato. Questa è la parte più subdola. Funzioni. Consegni. Reggi. Da fuori sembri uno affidabile. Da dentro, però, lavori sempre un gradino sotto la tua qualità reale.
+Continui a sentirti disponibile ma sempre più saturo.
 
-Qui il problema non è la fatica in sé. Il lavoro stanca, fine. Il problema è la fatica inutile: quella che nasce dal non filtrare.
+Da fuori sembri efficiente.
 
-Se continui a evitare il conflitto, inizi a lavorare dentro [una versione filtrata di te stesso](/burnout-e-lavoro/maschera-lavorativa/).
+Da dentro ti senti trascinato.
 
-Se oltre a questo senti anche irritabilità, recupero scarso e tensione costante, può aiutarti leggere [**Stress lavoro-correlato: cos’è davvero e come non lasciarlo peggiorare**](/burnout-e-lavoro/stress-correlato/).
+In molti casi questo non è un problema di organizzazione.
+
+È un problema di confini.
+
+E spesso nasce dal bisogno di evitare disapprovazione.
 
 ## Come dire no senza sembrare ingestibile
 
-La buona notizia è che non serve trasformarti in una versione teatrale di te stesso. Non devi fare il duro. Non devi fare il discorso sui confini. Non devi produrre un TED Talk ogni volta che qualcuno ti scarica addosso una richiesta improvvisa.
+Non serve diventare aggressivi.
 
-Serve fare meno. Ma meglio.
+Non serve fare il guru dell'assertività.
 
-### 1. Non giustificarti troppo
+Serve inserire un piccolo spazio tra richiesta e risposta.
 
-Più ti giustifichi, più comunichi che il tuo no è negoziabile. Le spiegazioni lunghe invitano l’altro a trovare una contro-soluzione, un incastro, un “ma allora anche solo cinque minuti”.
+### Non giustificarti troppo
 
-Un no professionale non è aggressivo. È pulito.
+Più spieghi, più comunichi che il tuo no è negoziabile.
 
-Meglio: “Oggi non riesco a prenderlo.”  
-Peggio: “Guarda, in realtà avrei tante cose, poi devo anche finire quell’altra attività, e stamattina è successo questo, quindi forse…”
+Meglio:
 
-La seconda versione non è più gentile. È solo più perforabile.
+"Non riesco a prenderlo oggi."
 
-### 2. Temporalizza
+Peggio:
 
-Un sacco di richieste non vanno negate in assoluto. Vanno spostate in un tempo sostenibile.
+"Guarda, in realtà ho tante cose, poi devo finire quell'altro progetto, e..."
 
-Dire “non ora” è spesso molto più utile che dire “mai”. Ti toglie dal riflesso del sì e rimette il tema dentro un perimetro.
+### Temporalizza
 
-“In questo momento sono su una priorità. Possiamo riprenderlo domani alle 11?”
+Molte richieste non vanno rifiutate.
 
-Questa frase fa una cosa molto sana: riconosce la richiesta senza buttare a mare quello che stai già facendo.
+Vanno spostate.
 
-### 3. Offri un perimetro
+"In questo momento sono su una priorità. Possiamo riprenderlo domani?"
 
-Non devi sempre rifiutare il compito. A volte basta rifiutare la forma vaga, invadente o immediata con cui ti viene consegnato.
+### Offri un perimetro
 
-“Posso guardarlo, ma solo per darti un feedback rapido.”  
-“Posso aiutarti per 15 minuti, non per prenderlo in carico tutto.”  
-“Posso entrare sul punto X, non rifare l’intero documento.”
+"Posso guardarlo per dieci minuti."
 
-Non si tratta di “esprimere te stesso”, ma di delimitare il lavoro. E il lavoro senza perimetro diventa sempre un favore.
+"Posso aiutarti su questo punto specifico."
 
-### 4. Proponi alternativa o priorità
+"Posso darti un feedback rapido."
 
-Quando la richiesta arriva da un capo o da qualcuno che decide il carico, il punto non è difenderti. Il punto è riallineare.
+Un confine chiaro protegge tutti.
 
-“Se questa entra ora, sposto X. Va bene così?”  
-“Per farlo bene mi serve più tempo. Preferisci qualità o velocità?”  
-“Posso prenderla in carico, ma allora va ridefinita la priorità di quello che sto già chiudendo.”
+### Riallinea le priorità
 
-Qui non stai opponendo resistenza. Stai rimettendo il costo dove deve stare: nella scelta.
+Se la richiesta arriva da chi assegna il lavoro:
 
-### 5. Distingui urgenza reale da urgenza riflessa
+"Se questa entra ora, slitta X. Va bene così?"
 
-Non tutto ciò che arriva con tono agitato è urgente. A volte è solo mal gestito, mal pianificato o mal distribuito.
+Non è opposizione.
 
-Questa distinzione cambia tutto. Perché se non la fai, erediti il panico degli altri come se fosse una responsabilità tua.
+È chiarezza.
 
-L’urgenza reale ha impatto, scadenza chiara, conseguenza concreta. L’urgenza riflessa ha fretta, pressione e vaghezza. Sono due specie diverse. Trattarle allo stesso modo è un errore organizzativo prima ancora che relazionale.
+### Distingui urgenza reale da urgenza percepita
 
-### Frasi utili da usare davvero
+Non tutto ciò che arriva con fretta è urgente.
 
-Ecco formule semplici, non brillanti, ma usabili. Che è meglio.
+A volte è semplicemente cattiva pianificazione.
 
-- “In questo momento sono su una priorità. Possiamo riprenderlo domani alle 11?”
-- “Posso aiutarti, ma non oggi.”
-- “Per farlo bene mi serve più tempo. Preferisci qualità o velocità?”
-- “Se questa entra ora, devo spostare [X]. Va bene?”
-- “Posso prenderla in carico, ma non con questa scadenza.”
-- “Prima devo chiudere [priorità]. Poi torno su questo.”
-- “Ti posso dare un riscontro rapido, ma non seguirlo per intero.”
-- “Ho margine da domani, non adesso.”
+Ereditare il panico degli altri non è una responsabilità professionale.
 
-Non devono suonare potenti. Devono suonare normali. Più sono normali, più funzionano.
+## Applicare il Metodo I.R.O.N.I.A. quando stai per dire sì
 
-## Dire no al capo, ai colleghi, ai clienti: non è la stessa cosa
+Questo è il punto in cui il Metodo I.R.O.N.I.A. diventa utile.
 
-Qui molti sbagliano perché cercano una formula universale. Non c’è. Il no cambia in base a chi hai davanti, perché cambia il tipo di relazione e cambia il tipo di leva.
+→ [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
 
-### Al capo: riallineamento delle priorità
+Quando senti l'impulso di accettare subito:
 
-Con il capo, il no secco spesso è la forma meno intelligente. Quello che serve è rendere visibile il trade-off.
+### Identifica
 
-Non: “Non posso.”  
-Meglio: “Posso farlo, ma allora slitta X. Quale teniamo come priorità?”
+Sto davvero aiutando?
 
-Il punto non è proteggere il tuo spazio personale in astratto. Il punto è evitare che ti vengano assegnate priorità incompatibili senza che nessuno se ne prenda la responsabilità.
+O sto cercando di evitare attrito?
 
-### Ai colleghi: perimetro e tempo
+### Ridimensiona
 
-Con i colleghi, il rischio tipico è il favore elastico: “mi dai una mano un secondo?” che poi ti lascia in gestione mezza complessità.
+Dire "non oggi" non è una catastrofe professionale.
 
-Qui servono tempo e bordo.
+### Osserva
 
-“Ti aiuto volentieri, ma ho 10 minuti.”  
-“Posso guardare il punto specifico, non tutto.”  
-“Oggi no, domani sì.”
+Nota la fretta.
 
-Se non dai un contenitore, finisci assorbito dal bisogno organizzativo altrui.
+La tensione.
 
-### Ai clienti: scope, tempi, qualità
+Il bisogno di rispondere immediatamente.
 
-Con i clienti, dire sì a tutto è spesso mascherato da disponibilità commerciale. In realtà può diventare un modo rapido per erodere margine, chiarezza e qualità.
+### Nomina
 
-Qui il no va tradotto in perimetro operativo:
+Questo è bisogno di approvazione.
 
-“Questa richiesta non era nel perimetro iniziale, ma posso quotarla a parte.”  
-“Si può fare, ma con una scadenza diversa.”  
-“Se aggiungiamo questo, va rivisto il tempo di consegna.”
+Non disponibilità.
 
-Non è durezza. È evitare che il lavoro si deformi senza revisione del contesto.
+### Interrompi
 
-## Quando il problema non è il confine, ma la compiacenza
+Non rispondere subito.
 
-A un certo punto bisogna dirlo pulito: non sempre il problema è che “gli altri chiedono troppo”. A volte il problema è che tu dici sì per evitare attrito, disagio, micro-delusione altrui o l’idea di sembrare difficile.
+Dieci secondi bastano.
 
-Questa è [compiacenza lavorativa](/filosofia-pratica/compiacenza-lavorativa/). E no, non è una colpa morale. È una strategia di breve periodo che spesso funziona abbastanza da diventare automatica.
+### Agisci
 
-Il guaio è che il costo non sparisce. Lo sposti su di te.
+Proponi un confine.
 
-Lo paghi in saturazione mentale.  
-Lo paghi in rimuginazione.  
-Lo paghi in qualità abbassata.  
-Lo paghi nel rapporto con il lavoro, che diventa una continua manutenzione dell’altrui urgenza.
+Una scadenza.
 
-Qui ho capito una cosa semplice: finché dici sì per non creare attrito, non stai proteggendo il lavoro. Stai solo scegliendo che il conflitto avvenga dentro di te invece che fuori, in forma civile e gestibile.
+Un perimetro.
 
-Ed è una pessima sede.
+Una priorità.
 
-Questo articolo si aggancia direttamente a [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/), perché il punto è simile: quando il tuo funzionamento esterno regge a costo di una frizione interna costante, il prezzo arriva comunque. Solo più tardi.
+Non serve fare di più.
 
-Se il tuo schema non è solo “non riesco a dire no”, ma proprio dire sì in automatico per evitare attrito, il pezzo gemello è [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/).
+## Dove andare adesso
 
-Se questo schema è il tuo, il passo successivo naturale è il metodo [**I.R.O.N.I.A.**](/mindfulness-ironica/metodo-ironia/): prima identifichi il loop, poi lo ridimensioni, lo interrompi e rispondi in modo meno automatico.
+Se il tuo problema principale è dire sempre sì:
 
-## Una micro-pratica per smettere di rispondere in automatico
+→ [Compiacenza lavorativa: quando dire sempre sì ti svuota](/burnout-e-lavoro/compiacenza-lavorativa/)
 
-Non serve rifondare la personalità. Serve inserire attrito buono tra richiesta e risposta.
+→ [Dici sempre sì anche quando sei già pieno di lavoro](/burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/)
 
-Una micro-sequenza utile è questa:
+Se il problema è la paura di sembrare difficile:
 
-Qui il punto non è sembrare più forte, ma [identificare cosa accade dentro di te](/mindfulness-ironica/identificare-cosa-accade-dentro-te/) prima che la risposta parta da sola.
+→ [Maschera professionale: il costo mentale di fingere tutto il giorno](/burnout-e-lavoro/maschera-lavorativa/)
 
-**1. Nota l’impulso a dire sì.**  
-Non il pensiero raffinato. L’impulso. Quello che ti fa rispondere subito per chiudere il disagio.
+→ [Autenticità al lavoro: il costo mentale di fingere tutto il giorno](/burnout-e-lavoro/autenticita-e-lavoro/)
 
-**2. Fermati 10 secondi.**  
-Dieci secondi non sono una tecnica spirituale. Sono una diga minima contro l’automatismo.
+Se vuoi capire il meccanismo cognitivo che alimenta tutto questo:
 
-È esattamente il tipo di micro-taglio che trovi in [Interrompi: uscire dal loop prima che diventi comportamento](/mindfulness-ironica/interrompere-il-pilota-automatico/).
+→ [Overthinking: il vero problema non è pensare troppo](/filosofia-pratica/overthinking-vero-problema/)
 
-**3. Chiarisci la priorità.**  
-Chiediti: cosa sto spostando se accetto? Cosa peggioro? Cosa apro?
+→ [Metodo I.R.O.N.I.A.](/mindfulness-ironica/metodo-ironia/)
 
-**4. Rispondi con un confine minimo.**  
-Non un muro. Un bordo. Un tempo, una scadenza, un perimetro, una priorità esplicitata.
+La sintesi è semplice.
 
-Fine.
+Dire no non è il problema.
 
-È una pratica poco glamour, quindi utile. Funziona soprattutto perché interrompe il passaggio diretto tra richiesta esterna e disponibilità riflessa.
-
-## Cosa leggere dopo
-
-Se questo tema ti tocca, non leggerlo come un galateo del rifiuto. Leggilo come un pezzo di igiene cognitiva sul lavoro.
-
-Per allargare il quadro:
-
-- [**Autenticità al lavoro: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/autenticita-e-lavoro/)
-- [**Compiacenza lavorativa: quando dire sempre sì ti svuota**](/burnout-e-lavoro/compiacenza-lavorativa/)
-- [**Maschera professionale: il costo mentale di fingere tutto il giorno**](/burnout-e-lavoro/maschera-lavorativa/)
-- [**Burnout: cos’è davvero**](/burnout-e-lavoro/burnout-cos-e-davvero/)
-- [**Stress lavoro-correlato**](/burnout-e-lavoro/stress-correlato/)
-- [**Ansia da produttività: quando inseguire il tempo ti peggiora il lavoro**](/burnout-e-lavoro/come-ho-smesso-di-inseguire-il-tempo/)
-- Hub del subcluster: [**Autenticità in ufficio**](/categorie/burnout-e-lavoro/autenticita-in-ufficio/)
-- Correlato utile: [**Ritmi gentili**](/categorie/burnout-e-lavoro/ritmi-gentili/)
-
-La sintesi è questa: dire no bene non è diventare duro. È smettere di pagare con lucidità, focus e qualità il prezzo del sì automatico.
-
-{% include howto.html %}
-
-## FAQ
-
-{% include faq.html %}
+Il problema è dire sì per evitare un disagio che poi ti porti dietro per ore.
