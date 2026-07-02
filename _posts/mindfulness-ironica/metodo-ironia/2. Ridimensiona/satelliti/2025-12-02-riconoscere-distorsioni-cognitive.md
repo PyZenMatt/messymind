@@ -9,6 +9,7 @@ subcluster: "metodo-ironia"
 tags: ["distorsioni cognitive","overthinking","catastrofizzazione","mindfulness cognitiva"]
 is_cornerstone: "false"
 date: 2025-12-02
+permalink: /mindfulness-ironica/riconoscere-distorsioni-cognitive/
 image_author_url: https://www.pexels.com/it-it/foto/34991369/
 image_author: Landiva  Weber
 lcp_image_alt: immagine di distorsione. un'immagine distorta

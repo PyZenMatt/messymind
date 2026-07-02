@@ -5,6 +5,7 @@ seo_title: "Non riesci a rilassarti? Perché resti attivo anche quando non lavor
 description: "Se anche quando smetti di lavorare non riesci a rilassarti, il problema non è il tempo ma lo stato interno. Ecco cosa sta succedendo davvero."
 seo_description: "Non riesci a rilassarti nemmeno quando non lavori? Scopri perché il tuo sistema resta attivo e cosa impedisce il vero recupero mentale."
 date: 2026-04-08
+permalink: /burnout-e-lavoro/non-riesci-a-rilassarti/
 last_modified_at: 2026-04-08
 categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"

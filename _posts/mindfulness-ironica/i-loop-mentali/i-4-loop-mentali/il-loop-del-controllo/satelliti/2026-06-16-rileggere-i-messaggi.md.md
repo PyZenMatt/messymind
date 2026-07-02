@@ -9,6 +9,7 @@ description: "Rileggi continuamente messaggi ed email prima di inviarli? Scopri 
 seo_description: "Se rileggi più volte messaggi ed email prima di inviarli, potresti essere intrappolato nel Loop del Controllo. Scopri come interromperlo."
 
 date: 2026-06-17
+permalink: /filosofia-pratica/rileggere-i-messaggi/
 last_modified_at: 2026-06-17
 
 categories:
@@ -48,7 +49,6 @@ faqs:
 
 - question: "Controllare più volte il messaggio aiuta davvero?"
   answer: "Dopo una rapida revisione iniziale, ulteriori controlli raramente migliorano il contenuto e spesso alimentano il loop."
-
 ---
 
 Hai scritto il messaggio.

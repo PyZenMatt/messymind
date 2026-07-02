@@ -5,6 +5,7 @@ seo_title: "Perché apri il telefono appena hai un momento libero"
 description: "Hai qualche secondo vuoto e automaticamente prendi il telefono? Non è solo abitudine: spesso è difficoltà a restare senza stimoli."
 seo_description: "Perché apri il telefono automaticamente appena hai un attimo libero? Scopri il meccanismo mentale dietro il controllo compulsivo degli stimoli."
 date: 2026-05-12
+permalink: /burnout-e-lavoro/aprire-il-telefono/
 last_modified_at: 2026-05-12
 
 categories: ["burnout-e-lavoro"]

@@ -9,6 +9,7 @@ description: "Ti viene un'idea ma non riesci a dirla? Dietro l'autocensura nelle
 seo_description: "Perché ti blocchi nelle riunioni di lavoro anche quando sai cosa dire? Scopri il loop del giudizio che alimenta overthinking e autocensura."
 
 date: 2026-05-17
+permalink: /burnout-e-lavoro/censurarsi-in-riunione/
 last_modified_at: 2026-06-26
 
 categories:

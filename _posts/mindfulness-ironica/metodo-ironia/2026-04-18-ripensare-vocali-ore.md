@@ -5,6 +5,7 @@ description: "Hai inviato un messaggio vocale e continui a riascoltarlo nella te
 seo_title: "Perché ripensi a un vocale inviato (e non riesci a lasciarlo andare)"
 seo_description: "Continui a ripensare a un vocale che hai mandato? Scopri perché succede e come uscire dal loop mentale."
 date: 2026-04-05
+permalink: /minduflness-ironica/ripensare-vocali-ore/
 last_modified_at: 2026-04-05
 categories: ["minduflness-ironica"]
 subcluster: "metodo-ironia"

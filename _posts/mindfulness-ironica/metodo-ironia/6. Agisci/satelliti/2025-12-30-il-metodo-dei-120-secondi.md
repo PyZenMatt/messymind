@@ -5,6 +5,7 @@ seo_title: "Metodo dei 120 secondi: come agire subito anche senza voglia"
 description: "Un protocollo in 4 passi per agire entro 120 secondi anche quando sei bloccato. Niente motivazione, solo movimento."
 seo_description: "Bloccato? Il metodo dei 120 secondi ti permette di agire subito senza aspettare motivazione. Protocollo semplice e ripetibile."
 date: 2025-12-30
+permalink: /mindfulness-ironica/il-metodo-dei-120-secondi/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

@@ -7,6 +7,7 @@ description: "La motivazione è instabile. Scopo e confini, invece, reggono megl
 categories: ["crescita-personale-anti-guru"]
 subcluster: "scopo-e-confini"
 date: 2025-08-23
+permalink: /crescita-personale-anti-guru/scopo-motivazione-arte-del-no/
 last_modified_at: 2026-04-06
 
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1755954730/motivane_1600_cd7kp8.webp

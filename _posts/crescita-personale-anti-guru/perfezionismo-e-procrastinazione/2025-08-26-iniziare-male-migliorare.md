@@ -22,6 +22,7 @@ tags:
   - paura-del-giudizio
 
 date: "2025-08-26"
+permalink: /crescita-personale-anti-guru/iniziare-male-migliorare/
 last_modified_at: "2026-06-21"
 
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756192777/radici_1920_etnsz5.webp

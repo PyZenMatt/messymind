@@ -9,6 +9,7 @@ subcluster: "metodo-ironia"
 tags: ["ansia", "sensazioni-fisiche", "overthinking", "somatizzazione", "osservazione"]
 is_cornerstone: false
 date: 2025-12-12
+permalink: /mindfulness-ironica/osservazione-selvaggia/
 last_modified_at: 2026-04-12
 
 

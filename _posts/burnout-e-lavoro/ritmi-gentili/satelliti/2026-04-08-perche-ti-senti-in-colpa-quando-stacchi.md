@@ -5,6 +5,7 @@ seo_title: "Perché ti senti in colpa quando rallenti (anche senza motivo)"
 description: "Ti senti in colpa quando rallenti o ti fermi? Non è disciplina: è un’identità legata alla produttività che ti tiene sempre attivo."
 seo_description: "Ti senti in colpa quando rallenti? Scopri perché succede, cosa c’entra l’identità e come smettere di vivere la pausa come errore."
 date: 2026-04-08
+permalink: /burnout-e-lavoro/perche-ti-senti-in-colpa-quando-stacchi/
 last_modified_at: 2026-04-08
 categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"

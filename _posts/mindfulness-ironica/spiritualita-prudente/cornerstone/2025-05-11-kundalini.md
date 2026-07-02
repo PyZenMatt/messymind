@@ -12,6 +12,7 @@ redirect_from:
 
 
 date: 2025-05-11
+permalink: /mindfulness-ironica/kundalini/
 last_modified_at: 2026-06-21
 
 title: "Sintomi Kundalini o ansia? Come distinguere senza alimentare il loop"
@@ -53,7 +54,6 @@ faqs:
 
 - question: "Cosa fare quando sento energia, tensione o agitazione?"
   answer: "Nomina la sensazione, interrompi la ricerca di significati immediati e riporta l'attenzione al corpo e all'ambiente circostante."
-
 ---
 
 # Sintomi Kundalini o ansia? Come distinguere senza alimentare il loop

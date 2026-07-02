@@ -20,6 +20,7 @@ background: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr
 og_image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_jpg,q_auto,c_fill,ar_1.91:1,w_1200/v1762330002/cervello_pnyicx.webp"
 image_alt: "la radiografia di un cervello che analizza i processi mentali"
 date: 2025-09-20
+permalink: /filosofia-pratica/neuroscienze-e-buddismo/
 last_modified_at: 2026-04-06
 faq: true
 faq_items:

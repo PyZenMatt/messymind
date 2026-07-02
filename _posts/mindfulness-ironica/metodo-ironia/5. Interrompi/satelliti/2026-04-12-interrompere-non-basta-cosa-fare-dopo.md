@@ -6,6 +6,7 @@ description: "Ti fermi ma torni subito nel loop? Interrompere crea spazio, ma se
 seo_description: "Interrompere il loop non basta: scopri cosa fare subito dopo per evitare di rientrare nel pensiero e chiudere davvero il ciclo."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/interrompere-non-basta-cosa-fare-dopo/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

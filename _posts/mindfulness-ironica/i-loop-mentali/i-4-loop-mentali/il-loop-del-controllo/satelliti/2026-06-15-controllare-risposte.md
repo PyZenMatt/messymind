@@ -9,6 +9,7 @@ description: "Controlli WhatsApp, email o notifiche anche pochi secondi dopo ave
 seo_description: "Controllare continuamente se qualcuno ha risposto è un tentativo di ridurre l'incertezza. Scopri come il Loop del Controllo alimenta l'overthinking."
 
 date: 2026-06-15
+permalink: /filosofia-pratica/controllare-risposte/
 last_modified_at: 2026-06-15
 
 categories:

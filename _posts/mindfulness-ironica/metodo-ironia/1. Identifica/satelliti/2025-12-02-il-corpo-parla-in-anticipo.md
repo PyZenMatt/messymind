@@ -5,6 +5,7 @@ seo_title: "Loop mentale: i segnali del corpo da riconoscere subito"
 description: "Petto, gola, mandibola e pancia: i segnali del corpo anticipano il loop mentale. Impara a riconoscerli prima che parta la reazione."
 seo_description: "Il corpo reagisce prima della mente. Riconosci i micro-segnali del loop mentale e crea spazio prima della reazione automatica."
 date: 2025-12-02
+permalink: /mindfulness-ironica/il-corpo-parla-in-anticipo/
 last_modified_at: 2026-04-11
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"

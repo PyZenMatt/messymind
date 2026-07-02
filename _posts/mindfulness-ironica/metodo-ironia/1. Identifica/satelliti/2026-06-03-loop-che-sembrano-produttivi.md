@@ -10,6 +10,7 @@ description: "Alcuni loop mentali si nascondono dietro precisione, responsabilit
 seo_description: "Rileggi mail, controlli dettagli o prepari ogni scenario possibile? Potresti essere dentro un loop mentale travestito da efficienza."
 
 date: 2026-06-03
+permalink: /mindfulness-ironica/loop-che-sembrano-produttivi/
 last_modified_at: 2026-06-20
 
 categories:

@@ -6,6 +6,7 @@ seo_title: "Overthinking: perché continui a pensare troppo e come interrompere 
 description: "L'overthinking non è sempre il problema principale. Scopri perché continui a pensare troppo, quali loop mentali lo alimentano e come interrompere il ciclo."
 seo_description: "Controllo, giudizio, evitamento e approvazione possono alimentare l'overthinking. Scopri perché pensi troppo e come uscire dal ciclo mentale."
 date: 2026-06-13
+permalink: /mindfulness-ironica/overthinking/
 last_modified_at: 2026-06-13
 redirect_from:
   - /filosofia-pratica/overthinking/
@@ -60,7 +61,6 @@ faqs:
 
 - question: "Come si interrompe l'overthinking?"
   answer: "Più che combattere i pensieri, è utile identificare il loop mentale che li sta alimentando e intervenire su quello."
-
 ---
 
 # Perché l'overthinking non è il vero problema

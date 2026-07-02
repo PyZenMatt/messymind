@@ -7,6 +7,7 @@ seo_description: "Cinque micro-pratiche rapide e concrete per ridurre reattivit√
 categories: ["mindfulness-ironica"]
 subcluster: "micro-pratiche"
 date: 2024-10-13
+permalink: /mindfulness-ironica/pratiche-per-non-reagire/
 last_modified_at: 2026-04-06
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1756044484/social_1600_nrkirb.webp
 featured_post: true

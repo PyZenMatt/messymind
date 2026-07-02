@@ -5,6 +5,7 @@ seo_title: "Micro-azioni per sbloccarti subito: 30 esempi pratici"
 description: "30 micro-azioni pratiche per uscire da un blocco mentale e iniziare subito. Azioni minime, concrete, senza motivazione."
 seo_description: "Bloccato? Scopri 30 micro-azioni concrete per iniziare subito e uscire dal loop mentale senza aspettare motivazione."
 date: 2025-12-26
+permalink: /mindfulness-ironica/micro-azioni-per-sbloccarti/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

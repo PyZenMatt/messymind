@@ -5,6 +5,7 @@ seo_title: "Stai ingigantendo un problema? 7 segnali da riconoscere subito"
 description: "Ti sembra tutto più grande del necessario? Ecco i segnali pratici per accorgerti quando stai amplificando un problema prima di reagire."
 seo_description: "Scopri i segnali che indicano che stai ingigantendo un problema. Impara a riconoscerli in tempo reale per evitare reazioni impulsive e decisioni sbagliate."
 date: 2026-04-11
+permalink: /mindfulness-ironica/segnali-che-stai-ingigantendo-un-problema/
 last_modified_at: 2026-04-11
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"

@@ -5,6 +5,7 @@ seo_title: "Perché appena ti fermi la mente accelera"
 description: "Appena provi a fermarti partono irrequietezza, torpore, dubbio e fastidio. Non stai sbagliando: stai vedendo i sabotatori dell’osservazione."
 seo_description: "Perché appena ti fermi la mente accelera? I 5 sabotatori dell’osservazione spiegati in modo pratico, senza spiritualità."
 date: 2025-09-22T10:30:00+02:00
+permalink: /mindfulness-ironica/i-sabotatori/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

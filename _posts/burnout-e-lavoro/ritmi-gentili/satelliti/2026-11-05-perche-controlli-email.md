@@ -5,6 +5,7 @@ seo_title: "Perché controlli le mail anche fuori orario anche se non serve"
 description: "Continui a controllare mail e notifiche anche fuori lavoro? Non è solo abitudine: è un loop mentale legato a controllo, urgenza e recupero mancato."
 seo_description: "Perché continui a controllare le mail anche fuori orario? Scopri il meccanismo mentale dietro il bisogno di controllo e come interrompere il loop."
 date: 2026-05-11
+permalink: /burnout-e-lavoro/perche-controlli-email/
 last_modified_at: 2026-05-11
 categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"

@@ -5,6 +5,7 @@ seo_title: "Perché il cervello continua a controllare tutto continuamente"
 description: "Anche quando non ci sono problemi reali continui a ricontrollare, anticipare o monitorare mentalmente tutto? Potresti essere bloccato in uno stato di ipercontrollo cognitivo."
 seo_description: "Perché continui a controllare mentalmente tutto anche quando è tutto sotto controllo? Scopri cosa succede quando il cervello resta in modalità monitoraggio continuo."
 date: 2026-05-14
+permalink: /burnout-e-lavoro/controllare-mentalmente/
 last_modified_at: 2026-05-14
 
 categories: ["burnout-e-lavoro"]

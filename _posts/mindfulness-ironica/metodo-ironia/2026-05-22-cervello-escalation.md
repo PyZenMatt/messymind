@@ -5,6 +5,7 @@ seo_title: "Perché il cervello trasforma subito tutto in urgenza"
 description: "A volte basta una notifica, una frase o un piccolo dubbio perché il cervello entri immediatamente in modalità allarme. Il problema non è solo il pensiero: è l’escalation automatica."
 seo_description: "Perché il cervello entra subito in escalation mentale? Scopri come nascono urgenza, overthinking e reazioni automatiche sotto pressione."
 date: 2026-05-19
+permalink: /mindfulness-ironica/cervello-escalation/
 last_modified_at: 2026-05-19
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -31,7 +32,6 @@ faqs:
     answer: "È il passaggio rapido da un piccolo trigger a una sequenza automatica di tensione, interpretazioni e reazioni cognitive."
   - question: "Come si interrompe l’escalation mentale?"
     answer: "Il primo passo è riconoscere il momento iniziale in cui il cervello passa da osservazione a reazione automatica."
-
 ---
 
 A volte basta pochissimo.

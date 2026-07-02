@@ -5,6 +5,7 @@ seo_title: "Perché ti senti in colpa quando rallenti o ti fermi"
 description: "Rallenti cinque minuti e subito arriva il senso di colpa? Non è sempre pigrizia: spesso è un automatismo mentale legato a prestazione, controllo e paura di perdere terreno."
 seo_description: "Perché ti senti in colpa quando rallenti, ti fermi o non produci? Scopri il meccanismo mentale dietro la colpa da pausa e come interromperlo."
 date: 2026-05-15
+permalink: /burnout-e-lavoro/rallentare-e-sentirsi-in-colpa/
 last_modified_at: 2026-05-15
 categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"

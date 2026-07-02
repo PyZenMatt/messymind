@@ -5,6 +5,7 @@ seo_title: "Segnali fisici del loop mentale e dell’overthinking"
 description: "Molti loop mentali iniziano nel corpo prima ancora che nei pensieri. Tensione, urgenza e agitazione spesso arrivano prima della narrazione mentale."
 seo_description: "Come riconoscere i segnali fisici dell’overthinking e del loop mentale prima che il cervello entri in escalation automatica."
 date: 2026-05-19
+permalink: /mindfulness-ironica/il-corpo-capisce-prima/
 last_modified_at: 2026-05-19
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -31,7 +32,6 @@ faqs:
     answer: "Perché il sistema nervoso reagisce rapidamente ai segnali percepiti come minaccia o pressione, ancora prima che il cervello costruisca una narrazione completa."
   - question: "Come riconoscere un loop mentale in anticipo?"
     answer: "Osservando micro-segnali fisici e comportamentali: controllo compulsivo, tensione muscolare, urgenza improvvisa e bisogno immediato di reagire."
-
 ---
 
 Molte persone pensano che l’overthinking inizi nei pensieri.

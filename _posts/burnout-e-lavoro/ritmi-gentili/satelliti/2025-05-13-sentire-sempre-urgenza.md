@@ -5,6 +5,7 @@ seo_title: "Perché senti urgenza continua anche senza emergenze reali"
 description: "Ti senti sempre in ritardo, sempre sotto pressione, anche quando non ci sono vere emergenze? Potresti essere bloccato in uno stato di urgenza cronica."
 seo_description: "Perché senti urgenza continua anche quando non c’è nulla di davvero urgente? Scopri cosa succede quando il cervello resta in modalità allarme."
 date: 2026-05-12
+permalink: /burnout-e-lavoro/sentire-sempre-urgenza/
 last_modified_at: 2026-05-12
 
 categories: ["burnout-e-lavoro"]

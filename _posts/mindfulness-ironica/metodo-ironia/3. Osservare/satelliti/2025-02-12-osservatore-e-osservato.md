@@ -5,6 +5,7 @@ seo_title: "Non sei ogni pensiero che ti passa in testa"
 description: "Come osservare un pensiero senza obbedirgli subito: un satellite pratico della fase O — Osserva del Metodo I.R.O.N.I.A."
 seo_description: "Non sei ogni pensiero che ti passa in testa: come osservare il rumore mentale senza identificarti subito con ansia, giudizi e storie automatiche."
 date: 2025-02-12
+permalink: /mindfulness-ironica/osservatore-e-osservato/
 last_modified_at: 2026-04-12 
 categories: ["mindfulness-ironica"]
 subcluster: metodo-ironia

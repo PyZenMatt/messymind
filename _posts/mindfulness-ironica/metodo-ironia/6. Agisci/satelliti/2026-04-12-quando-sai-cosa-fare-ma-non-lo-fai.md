@@ -5,6 +5,7 @@ seo_title: "Sai cosa fare ma non lo fai? Il blocco che non stai vedendo"
 description: "Sai perfettamente cosa fare ma resti fermo? Non è procrastinazione: è un conflitto interno tra azione e protezione."
 seo_description: "Non è pigrizia: è evitamento lucido. Scopri perché sai cosa fare ma non lo fai e come sbloccarti subito."
 date: 2026-04-12
+permalink: /mindfulness-ironica/quando-sai-cosa-fare-ma-non-lo-fai/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

@@ -6,6 +6,7 @@ description: "Hai già risposto male e te ne accorgi dopo? Ecco cosa fare subito
 seo_description: "Non riesci a fermarti? Scopri cosa fare quando hai già reagito male e come evitare escalation nei secondi successivi."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/non-riesci-a-fermarti/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

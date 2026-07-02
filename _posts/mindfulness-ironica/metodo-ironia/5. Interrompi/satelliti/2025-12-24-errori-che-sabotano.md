@@ -6,6 +6,7 @@ description: "Stai per rispondere o reagire e sai che dovresti fermarti, ma non 
 seo_description: "Stai per reagire e sai che dovresti fermarti, ma non ci riesci? Non è forza di volontà: sono errori specifici che sabotano l’interruzione."
 
 date: 2025-12-24
+permalink: /mindfulness-ironica/errori-che-sabotano/
 last_modified_at: 2026-04-25
 
 categories: ["mindfulness-ironica"]

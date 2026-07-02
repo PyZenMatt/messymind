@@ -6,6 +6,7 @@ seo_title: "Naming sul campo: esempi reali per non reagire sotto pressione"
 seo_description: "Esempi concreti per nominare le emozioni nel momento giusto ed evitare reazioni automatiche sotto pressione."
 
 date: 2025-12-18
+permalink: /mindfulness-ironica/naming-sul-campo/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

@@ -6,6 +6,7 @@ description: "Reagisci prima ancora di pensarci? Non è mancanza di controllo: �
 seo_description: "Perché reagisci subito: spiegazione pratica del pre-impulso e di cosa succede nei secondi prima della reazione automatica."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/perche-reagisci-subito/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

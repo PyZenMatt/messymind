@@ -5,6 +5,7 @@ seo_title: "Loop mentale: come accorgerti subito (prima di reagire)"
 description: "Ti accorgi del loop troppo tardi? Ecco come riconoscerlo nei primi 3 secondi e non reagire in automatico."
 seo_description: "Scopri come intercettare un loop mentale nei primi secondi. Una tecnica pratica per evitare reazioni automatiche e recuperare controllo subito."
 date: 2026-04-10
+permalink: /mindfulness-ironica/riconoscere-loop-mentale-subito/
 last_modified_at: 2026-04-10
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"

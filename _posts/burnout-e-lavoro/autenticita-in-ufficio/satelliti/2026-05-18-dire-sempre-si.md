@@ -5,6 +5,7 @@ seo_title: "Perché dici sempre sì al lavoro anche quando sei già pieno"
 description: "Molte persone continuano ad accettare task, richieste e favori anche quando sono già saturate. Non sempre è gentilezza: spesso è gestione della paura sociale."
 seo_description: "Perché dici sempre sì al lavoro anche quando sei già pieno? Scopri il loop mentale dietro people pleasing, ipercontrollo e paura del giudizio."
 date: 2026-05-18
+permalink: /burnout-e-lavoro/dire-sempre-si/
 last_modified_at: 2026-05-18
 categories: ["burnout-e-lavoro"]
 subcluster: "autenticita-in-ufficio"
@@ -31,7 +32,6 @@ faqs:
     answer: "Sì. Accettare continuamente richieste ignorando saturazione e limiti personali aumenta stress, sovraccarico mentale e senso di esaurimento."
   - question: "Come smetto di accettare tutto automaticamente?"
     answer: "Il primo passo è accorgerti del momento preciso in cui stai rispondendo per evitare disagio sociale invece che per scelta reale."
-
 ---
 
 “Puoi occupartene tu?”

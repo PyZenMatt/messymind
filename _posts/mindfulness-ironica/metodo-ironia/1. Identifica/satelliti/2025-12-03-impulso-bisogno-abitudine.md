@@ -6,6 +6,7 @@ description: "Stai per fare qualcosa e non sai perché? Distinguere impulso, bis
 seo_description: "Impulso, bisogno o abitudine: capire cosa si è attivato evita decisioni impulsive e loop mentali."
 
 date: 2025-12-03
+permalink: /mindfulness-ironica/impulso-bisogno-abitudine/
 last_modified_at: 2026-04-25
 
 categories: ["mindfulness-ironica"]

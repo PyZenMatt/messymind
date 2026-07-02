@@ -6,6 +6,7 @@ description: "I bias cognitivi sono scorciatoie mentali che influenzano decision
 seo_description: "Scopri cosa sono i bias cognitivi, quali influenzano le tue decisioni e come riconoscerli prima che alimentino loop mentali e overthinking."
 
 date: "2025-09-09"
+permalink: /filosofia-pratica/bias-cognitivi/
 last_modified_at: 2026-06-21
 
 categories: [filosofia-pratica]

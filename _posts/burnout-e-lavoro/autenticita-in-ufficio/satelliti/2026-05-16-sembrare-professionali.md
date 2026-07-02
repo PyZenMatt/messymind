@@ -10,6 +10,7 @@ description: "A volte non è il lavoro a consumarti. È il monitoraggio continuo
 seo_description: "Ti senti esausto dopo giornate normali? Potresti stare spendendo energia nel controllare continuamente come appari agli altri."
 
 date: 2026-05-17
+permalink: /burnout-e-lavoro/sembrare-professionali/
 last_modified_at: 2026-06-24
 
 categories: ["burnout-e-lavoro"]
@@ -39,7 +40,6 @@ faqs:
   answer: "È l'abitudine a controllare continuamente il proprio comportamento, il tono, le parole e le reazioni per evitare giudizi negativi o disapprovazione."
 - question: "Questo comportamento è collegato all'overthinking?"
   answer: "Spesso sì. Una parte dell'overthinking nasce proprio dal tentativo di controllare continuamente come si viene percepiti dagli altri."
-
 ---
 
 # Perché ti senti esausto dopo aver controllato te stesso tutto il giorno

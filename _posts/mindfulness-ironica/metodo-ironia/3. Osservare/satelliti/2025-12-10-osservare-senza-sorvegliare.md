@@ -9,6 +9,7 @@ subcluster: "metodo-ironia"
 tags: ["mindfulness", "ansia", "ipercontrollo-mentale", "overmonitoring", "osservazione"]
 
 date: 2025-12-10
+permalink: /mindfulness-ironica/osservare-senza-sorvegliare/
 last_modified_at: 2026-04-12
 
 image: "https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_16:9,w_1600/v1764100210/osservare_xpwph1.jpg"

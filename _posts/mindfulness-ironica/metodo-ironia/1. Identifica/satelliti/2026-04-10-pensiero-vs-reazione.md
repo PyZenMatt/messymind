@@ -5,6 +5,7 @@ seo_title: "Come interrompere un loop mentale subito (anche quando sei già dent
 description: "Sei già dentro un loop mentale e non riesci a fermarti? Scopri cosa fare subito per interrompere la sequenza e uscire dal pilota automatico."
 seo_description: "Come interrompere un loop mentale quando sei già dentro: metodo pratico per bloccare il pilota automatico e uscire dalla ruminazione."
 date: 2026-04-10
+permalink: /mindfulness-ironica/pensiero-vs-reazione/
 last_modified_at: 2026-04-10
 categories: ["mindfulness-ironica"]
 subcluster: "vipassana-urbana"

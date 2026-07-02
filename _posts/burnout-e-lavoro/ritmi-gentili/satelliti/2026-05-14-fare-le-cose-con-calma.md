@@ -5,6 +5,7 @@ seo_title: "Perché fai tutto di fretta anche quando non serve"
 description: "Anche quando non ci sono vere emergenze senti il bisogno di accelerare, anticipare o finire subito? Potresti essere bloccato in uno stato di attivazione continua."
 seo_description: "Perché fai tutto velocemente anche quando non serve? Scopri cosa succede quando il cervello resta troppo abituato a urgenza e pressione."
 date: 2026-05-14
+permalink: /burnout-e-lavoro/fare-le-cose-con-calma/
 last_modified_at: 2026-05-14
 
 categories: ["burnout-e-lavoro"]

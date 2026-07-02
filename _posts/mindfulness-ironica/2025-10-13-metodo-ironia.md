@@ -6,6 +6,7 @@ seo_title: "Come fermare overthinking e ruminazione: il Metodo I.R.O.N.I.A."
 description: "Il framework operativo di MessyMind per interrompere loop mentali, overthinking e comportamenti automatici quando sei sotto pressione."
 seo_description: "Scopri il Metodo I.R.O.N.I.A., il sistema in 6 step per interrompere loop mentali, overthinking e comportamenti automatici."
 date: 2026-02-15
+permalink: /mindfulness-ironica/metodo-ironia/
 last_modified_at: 2026-06-13
 
 categories: ["mindfulness-ironica"]

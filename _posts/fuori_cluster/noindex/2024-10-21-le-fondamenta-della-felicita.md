@@ -6,6 +6,7 @@ seo_title: La felicità? Quella che cerchi scrollando Instagram mentre mangi un 
 description: 'Dai diari della gratitudine ai gatti che sabotano la meditazione: come trovare la felicità senza prendersi troppo sul serio.'
 seo_description: 'Dai diari della gratitudine ai gatti che sabotano la meditazione: come trovare la felicità senza prendersi troppo sul serio.'
 date: 21-10-2024
+permalink: /crescita-personale-anti-guru/le-fondamenta-della-felicita/
 categories: crescita-personale-anti-guru
 subcluster: felicita-realistica
 tags: ["cornerstone", "felicita", "benessere", "autorealizzazione", "crescita personale"]

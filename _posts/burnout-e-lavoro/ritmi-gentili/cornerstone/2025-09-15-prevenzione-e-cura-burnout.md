@@ -5,6 +5,7 @@ seo_title: "Perché ti senti in colpa quando rallenti (anche senza motivo)"
 description: "Ti senti in colpa quando rallenti o ti fermi? Non è disciplina: spesso è un sistema mentale che associa valore, controllo e produttività."
 seo_description: "Perché ti senti in colpa quando rallenti? Scopri il legame tra produttività, controllo mentale e recupero mancato."
 date: 2026-05-25
+permalink: /burnout-e-lavoro/prevenzione-e-cura-burnout/
 last_modified_at: 2026-05-25
 
 categories: ["burnout-e-lavoro"]
@@ -62,7 +63,6 @@ howto:
 
     - name: "Lascia esistere il vuoto"
       text: "Resta qualche secondo senza riempire immediatamente lo spazio mentale."
-
 ---
 
 ## Ti fermi. E subito compare tensione

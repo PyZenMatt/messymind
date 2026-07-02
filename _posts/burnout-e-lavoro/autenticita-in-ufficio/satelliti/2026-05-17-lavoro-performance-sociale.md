@@ -5,6 +5,7 @@ seo_title: "Perché al lavoro ti senti sempre giudicato (anche quando nessuno ti
 description: "Quando lavori più per proteggere la tua immagine che per svolgere il tuo lavoro, il Loop del Giudizio può trasformare ogni giornata in una continua performance sociale."
 seo_description: "Scopri come il Loop del Giudizio trasforma il lavoro in una performance sociale, alimenta overthinking e ansia da performance e come interromperlo con il Metodo I.R.O.N.I.A."
 date: 2026-05-17
+permalink: /burnout-e-lavoro/lavoro-performance-sociale/
 last_modified_at: 2026-06-30
 
 categories: ["burnout-e-lavoro"]

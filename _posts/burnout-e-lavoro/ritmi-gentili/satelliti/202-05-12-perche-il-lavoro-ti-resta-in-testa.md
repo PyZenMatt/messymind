@@ -5,6 +5,7 @@ seo_title: "Perché il lavoro ti resta in testa anche quando non lavori"
 description: "Hai finito di lavorare ma continui a ripensare a task, mail e problemi anche nei momenti di pausa? Non è relax mancato: è un loop mentale ancora aperto."
 seo_description: "Perché continui a pensare al lavoro anche sotto la doccia, mentre mangi o prima di dormire? Scopri il meccanismo mentale dietro il trascinamento cognitivo."
 date: 2026-05-12
+permalink: /burnout-e-lavoro/202-05-12-perche-il-lavoro-ti-resta-in-testa/
 last_modified_at: 2026-05-12
 categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"

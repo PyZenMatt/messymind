@@ -5,6 +5,7 @@ description: "MBSR, MBCT e mindfulness clinica spiegate senza spiritualismi: cos
 seo_title: "Mindfulness Scientifica: Cos’è MBSR e MBCT (Guida Chiara)"
 seo_description: "La mindfulness clinica non serve a calmare la mente ma a ridurre la reattività automatica. Cos’è davvero MBSR e MBCT e come si integra nel Metodo I.R.O.N.I.A."
 date: 2026-01-01
+permalink: /mindfulness-ironica/ridurre-reattivita/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

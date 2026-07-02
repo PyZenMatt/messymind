@@ -5,6 +5,7 @@ seo_title: "Perché sorridi anche quando sei esausto al lavoro"
 description: "Molte persone continuano a sembrare tranquille, disponibili e operative anche quando sono mentalmente scariche. Non sempre è equilibrio: a volte è adattamento automatico."
 seo_description: "Perché continui a sorridere e sembrare operativo anche quando sei esausto? Scopri il costo mentale del controllo emotivo continuo al lavoro."
 date: 2026-05-17
+permalink: /burnout-e-lavoro/stanco-ma-disponibile/
 last_modified_at: 2026-05-17
 categories: ["burnout-e-lavoro"]
 subcluster: "autenticita-in-ufficio"
@@ -31,7 +32,6 @@ faqs:
     answer: "Sì. Controllare continuamente emozioni ed espressioni richiede energia mentale reale, soprattutto sotto pressione."
   - question: "Come capisco se sto facendo masking lavorativo?"
     answer: "Un segnale tipico è sentirti completamente svuotato appena resti solo, dopo aver passato ore a sembrare stabile e tranquillo."
-
 ---
 
 “Come va?”

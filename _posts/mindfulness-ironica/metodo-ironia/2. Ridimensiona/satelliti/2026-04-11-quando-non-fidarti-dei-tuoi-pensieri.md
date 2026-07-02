@@ -6,6 +6,7 @@ description: "Ci sono momenti in cui i tuoi pensieri sembrano logici ma non sono
 seo_description: "Quando non fidarti dei tuoi pensieri: segnali pratici per riconoscere distorsioni e bloccare decisioni impulsive prima che diventino problemi."
 
 date: 2026-04-11
+permalink: /mindfulness-ironica/quando-non-fidarti-dei-tuoi-pensieri/
 last_modified_at: 2026-04-11
 
 categories: ["mindfulness-ironica"]

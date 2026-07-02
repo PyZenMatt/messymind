@@ -5,6 +5,7 @@ seo_title: "Ansia da produttività: quando inseguire il tempo ti peggiora il lav
 description: "L’ansia da produttività non è solo sentirsi in ritardo. È l’urgenza cronica che peggiora focus, decisioni e recupero. Ecco segnali reali e prime mosse utili."
 seo_description: "L’ansia da produttività non è solo sentirsi in ritardo. È l’urgenza cronica che peggiora focus, decisioni e recupero. Ecco segnali reali e prime mosse utili."
 date: 2025-02-25
+permalink: /burnout-e-lavoro/ansia-da-produttivita/
 last_modified_at: 2026-04-06
 
 categories: ["burnout-e-lavoro"]

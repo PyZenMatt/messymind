@@ -5,6 +5,7 @@ seo_title: "Perché hai paura di sembrare incompetente al lavoro"
 description: "Molte persone competenti vivono il lavoro come una continua gestione del rischio sociale. Non lavorano soltanto: cercano costantemente di non sembrare sbagliate."
 seo_description: "Hai paura di sembrare incompetente al lavoro anche quando sai quello che fai? Scopri il loop mentale dietro l’ipercontrollo professionale."
 date: 2026-05-17
+permalink: /burnout-e-lavoro/paura-incompetenza-lavorativa/
 last_modified_at: 2026-05-17
 categories: ["burnout-e-lavoro"]
 subcluster: "autenticita-in-ufficio"
@@ -31,7 +32,6 @@ faqs:
     answer: "Sì. Molte persone non lavorano solo per fare bene, ma per evitare di apparire insufficienti o sbagliate davanti agli altri."
   - question: "Come si riduce il bisogno di sembrare sempre perfetti al lavoro?"
     answer: "Il primo passo è distinguere il lavorare bene dal monitorare continuamente la propria immagine professionale."
-
 ---
 
 Ci sono persone incompetenti molto rilassate.

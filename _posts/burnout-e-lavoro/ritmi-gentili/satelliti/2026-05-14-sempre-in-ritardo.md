@@ -5,6 +5,7 @@ seo_title: "Perché ti senti sempre in ritardo anche quando non lo sei"
 description: "Arrivi in anticipo ma continui a sentirti in rincorsa? Potresti essere bloccato in uno stato di urgenza mentale continua."
 seo_description: "Perché ti senti sempre in ritardo anche quando sei in anticipo? Scopri cosa succede quando il cervello resta in modalità pressione continua."
 date: 2026-05-14
+permalink: /burnout-e-lavoro/sempre-in-ritardo/
 last_modified_at: 2026-05-14
 
 categories: ["burnout-e-lavoro"]

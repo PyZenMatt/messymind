@@ -8,6 +8,7 @@ seo_description: "Scopri come ho imparato a trovare la felicità sbagliando stra
 categories: [crescita-personale-anti-guru]
 subcluster: "felicita-realistica"
 date: 2024-10-18
+permalink: /crescita-personale-anti-guru/la-felicita-e-un-viaggio/
 tags: [benessere, meditazione, autoconsapevolezza, umorismo, fallimenti, storie personali, esercizi pratici, autenticità] 
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042406/vita_bxb3tp.webp
 lcp_image_alt: donna affacciata su un belvedere di montagna in quota

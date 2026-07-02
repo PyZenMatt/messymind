@@ -6,6 +6,7 @@ description: "Vedi tutto ma reagisci lo stesso? Scopri quando l’osservazione n
 seo_description: "Osservare non basta sempre. Scopri quando passare a Interrompi per bloccare impulsi, evitare reazioni automatiche e uscire dal loop mentale."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/osservare-non-basta-interrompi/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

@@ -9,6 +9,7 @@ subcluster: "metodo-ironia"
 tags: ["ridimensionare","esercizi mentali","overthinking","defusione","micro-abitudini"]
 is_cornerstone: "false"
 date: 2025-12-06
+permalink: /mindfulness-ironica/allenare-il-ridimensionamento/
 last_modified_at: 2026-04-11
 image_author_url: https://www.pexels.com/it-it/foto/salutare-soleggiato-donna-acqua-5068920/
 image_author: Anna Shvets

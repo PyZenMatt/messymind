@@ -5,6 +5,7 @@ seo_title: "5 micro-pratiche per abbassare il rumore mentale senza sparire dal m
 description: "Cinque micro-pratiche semplici per ridurre rumore mentale, notifiche, reattività e saturazione senza trasformare la giornata in un rituale."
 seo_description: "Cinque micro-pratiche concrete per abbassare il rumore mentale: notifiche, cuffie, scroll, respiro e pause brevi per tornare più lucido."
 date: 2025-02-15
+permalink: /mindfulness-ironica/abbassare-il-rumore-mentale/
 last_modified_at: 2026-03-27 16:45:00 +0100
 categories: ["mindfulness-ironica"]
 subcluster: "micro-pratiche"

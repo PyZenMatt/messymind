@@ -4,6 +4,7 @@ title: "Stai osservando o stai solo alimentando il loop?"
 seo_title: "Quando osservare troppo peggiora overthinking e ruminazione"
 seo_description: "Osservare i propri pensieri può aiutare. Ma sotto pressione può anche diventare un altro modo elegante per restare bloccati."
 date: 2026-05-28
+permalink: /mindfulness-ironica/osservare-o-alimentare/
 last_modified_at: 2026-05-28
 categories: [mindfulness-ironica]
 subcluster: metodo-ironia

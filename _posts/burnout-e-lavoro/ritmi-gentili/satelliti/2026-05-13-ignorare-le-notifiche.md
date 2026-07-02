@@ -5,6 +5,7 @@ seo_title: "Perché non riesci a ignorare notifiche e messaggi"
 description: "Anche quando sai che non è importante, senti il bisogno di controllare subito notifiche e messaggi? Il problema spesso non è il telefono ma lo stato di allerta continua."
 seo_description: "Perché non riesci a ignorare notifiche e messaggi? Scopri cosa succede quando il cervello resta sempre in modalità monitoraggio."
 date: 2026-05-12
+permalink: /burnout-e-lavoro/ignorare-le-notifiche/
 last_modified_at: 2026-05-12
 
 categories: ["burnout-e-lavoro"]

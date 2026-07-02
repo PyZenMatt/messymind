@@ -7,6 +7,7 @@ subcluster: "ritmi-gentili"
 seo_title: "Stress lavoro-correlato: cos’è, segnali e prime mosse utili"
 seo_description: "Lo stress lavoro-correlato non è solo una giornata pesante. Ecco cos’è davvero, come distinguerlo dal burnout e quali prime mosse hanno senso."
 date: "2025-09-29"
+permalink: /burnout-e-lavoro/stress-correlato/
 last_modified_at: "2026-04-06"
 faqs:
   - question: "Cos'è lo stress lavoro-correlato in parole semplici?"

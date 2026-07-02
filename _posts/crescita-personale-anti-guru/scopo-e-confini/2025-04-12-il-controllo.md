@@ -20,6 +20,7 @@ tags:
   - overthinking
   - lasciare andare
 date: "2025-08-24"
+permalink: /crescita-personale-anti-guru/il-controllo/
 last_modified_at: "2026-04-06"
 
 lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,g_auto,ar_16:9,w_1600/v1756042381/caos_thuw8i.webp

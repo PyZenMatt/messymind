@@ -5,6 +5,7 @@ seo_title: "Azione perfetta: 9 errori che ti tengono fermo"
 description: "Cerchi sempre l’azione giusta, il momento giusto o la condizione giusta? Ecco 9 errori che bloccano l’azione e rinforzano il loop."
 seo_description: "La trappola dell’azione perfetta: 9 errori che ti tengono fermo e come sbloccare l’azione senza aspettare condizioni ideali."
 date: 2025-12-28
+permalink: /mindfulness-ironica/trappola-azione-perfetta/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

@@ -5,6 +5,7 @@ seo_title: "Agire sotto ansia: cosa fare senza aspettare di calmarti"
 description: "Aspetti di calmarti prima di agire? È lì che ti blocchi. Scopri come muoverti anche sotto ansia senza restare fermo."
 seo_description: "Agire sotto ansia senza aspettare di calmarti: metodo pratico per uscire dal blocco e muoverti anche sotto pressione."
 date: 2026-04-12
+permalink: /mindfulness-ironica/agire-sotto-ansia-senza-aspettare-di-calmarti/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

@@ -5,6 +5,7 @@ description: "Come nominare il loop di controllo post-email prima che diventi co
 seo_title: "Ruminazione post-email: come smettere di controllare la posta con Nomina"
 seo_description: "Dopo una mail importante rimugini e controlli la inbox? Non è ansia: è un loop di controllo. Come nominarlo per ridurne la presa e tornare al lavoro."
 date: 2026-02-09
+permalink: /mindfulness-ironica/mail-importante/
 last_modified_at: 2026-02-09
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -27,7 +28,6 @@ faqs:
 
   - question: "La sessione 1-to-1 è terapia o coaching?"
     answer: "No. È un intervento cognitivo su un loop specifico e attivo, non un percorso terapeutico né motivazionale."
-
 ---
 
 ## Il momento preciso in cui perdi il controllo

@@ -9,6 +9,7 @@ seo_title: "Ripensare a un colloquio per ore: perché succede e come fermare il 
 seo_description: "Continui a ripensare a un colloquio di lavoro? Scopri perché il replay mentale si attiva e come interrompere il loop del controllo."
 
 date: 2026-04-03
+permalink: /mindfulness-ironica/post-colloquio/
 last_modified_at: 2026-06-21
 
 categories:

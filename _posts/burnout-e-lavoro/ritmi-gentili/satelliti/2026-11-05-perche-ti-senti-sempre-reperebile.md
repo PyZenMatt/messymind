@@ -5,6 +5,7 @@ seo_title: "Perché ti senti sempre reperibile anche fuori lavoro"
 description: "Anche quando hai finito di lavorare continui a sentirti mentalmente disponibile? Non è solo abitudine: è reperibilità interna."
 seo_description: "Ti senti sempre reperibile anche fuori orario? Scopri perché il cervello resta in attesa e come interrompere la disponibilità mentale continua."
 date: 2026-05-11
+permalink: /burnout-e-lavoro/perche-ti-senti-sempre-reperebile/
 last_modified_at: 2026-05-11
 categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"
@@ -31,7 +32,6 @@ faqs:
     answer: "Se succede continuamente sì, perché impedisce recupero reale e mantiene alta l’attivazione."
   - question: "Come smettere di sentirsi sempre disponibili?"
     answer: "Serve creare confini reali e interrompere il controllo automatico di mail, notifiche e task mentali."
-
 ---
 
 ## Hai finito di lavorare. Ma resti disponibile

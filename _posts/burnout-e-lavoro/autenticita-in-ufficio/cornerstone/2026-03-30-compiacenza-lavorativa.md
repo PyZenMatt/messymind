@@ -5,6 +5,7 @@ description: "La compiacenza lavorativa non è gentilezza: è un sì automatico 
 seo_title: "Compiacenza lavorativa: quando dire sempre sì ti svuota"
 seo_description: "Cos’è la compiacenza lavorativa, perché dici sempre sì al lavoro e come interrompere il riflesso che ti svuota lucidità, focus e qualità."
 date: 2026-03-30
+permalink: /burnout-e-lavoro/compiacenza-lavorativa/
 last_modified_at: 2026-03-30
 categories: ["burnout-e-lavoro"]
 subcluster: "autenticita-in-ufficio"

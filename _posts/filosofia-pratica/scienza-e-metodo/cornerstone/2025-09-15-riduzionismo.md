@@ -24,6 +24,7 @@ question: "Qual è la differenza tra riduzionismo e olismo?"
 answer: "Il riduzionismo studia le parti separatamente; l’olismo guarda al sistema nel suo insieme e ai pattern di interazione."
 question: "Cosa sono le proprietà emergenti?"
 answer: "Caratteristiche che compaiono quando le parti interagiscono (es. traffico, stormi, cultura) e non esistono nei componenti isolati."
+permalink: /filosofia-pratica/riduzionismo/
 ---
 
 **In breve** — Il riduzionismo spiega bene le macchine e spesso male le persone. Funziona quando il sistema è lineare e stabile; va in crisi con mente, team e città (sistemi complessi). L'olismo guarda all'insieme; l'emergentismo mostra proprietà nuove (es. stormi, traffico, cultura) che non sono nei singoli pezzi. Qui trovi definizioni rapide, differenze chiare e 5 esempi pratici per scegliere lo strumento giusto senza cadere nel "tutto è semplice".

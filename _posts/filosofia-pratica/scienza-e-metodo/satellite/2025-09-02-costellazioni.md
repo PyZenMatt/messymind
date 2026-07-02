@@ -7,6 +7,7 @@ seo_description: "Opinioni sulle costellazioni familiari: esperienze vere, pro e
 categories: ["filosofia-pratica"]
 subcluster: "scienza-e-metodo"
 date: 2025-09-02
+permalink: /filosofia-pratica/costellazioni/
 featured: 'true'
 image_author: pixabay
 image_author_url: https://pixabay.com

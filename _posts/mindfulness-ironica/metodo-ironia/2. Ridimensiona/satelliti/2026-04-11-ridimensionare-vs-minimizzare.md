@@ -5,6 +5,7 @@ seo_title: "Ridimensionare non è minimizzare: differenza (critica) da capire su
 description: "Stai cercando di ridimensionare ma non funziona? Probabilmente stai minimizzando. Ecco la differenza pratica che cambia tutto."
 seo_description: "Ridimensionare non è minimizzare. Scopri la differenza operativa per evitare errori che mantengono il loop mentale attivo."
 date: 2026-04-11
+permalink: /mindfulness-ironica/ridimensionare-vs-minimizzare/
 last_modified_at: 2026-04-11
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"

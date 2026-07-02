@@ -10,6 +10,7 @@ description: "Rileggi continuamente una mail o un messaggio importante senza riu
 seo_description: "Se fai fatica a inviare un messaggio importante, il problema non è il testo. È la paura del giudizio che alimenta l'overthinking."
 
 date: 2026-06-18
+permalink: /filosofia-pratica/inviare-messaggio-importante/
 last_modified_at: 2026-06-18
 
 categories:
@@ -49,7 +50,6 @@ faqs:
 
 - question: "Aspettare il momento giusto aiuta davvero?"
   answer: "Di solito no. Rimandare offre sollievo momentaneo ma aumenta la pressione percepita."
-
 ---
 
 Hai già scritto tutto. Ma non riesci a premere invia.

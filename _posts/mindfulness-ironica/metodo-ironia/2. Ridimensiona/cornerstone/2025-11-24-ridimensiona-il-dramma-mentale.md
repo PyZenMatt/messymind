@@ -5,6 +5,7 @@ seo_title: "Ridimensionare i pensieri: come fermare il dramma mentale"
 seo_description: "Ridimensiona è la seconda fase del Metodo I.R.O.N.I.A.: separare fatti e interpretazioni per interrompere overthinking, catastrofizzazione e reazioni automatiche."
 
 date: 2026-02-15
+permalink: /mindfulness-ironica/ridimensiona-il-dramma-mentale/
 last_modified_at: 2026-06-13
 
 categories: ["mindfulness-ironica"]
@@ -49,7 +50,6 @@ faqs:
   answer: "No. Significa pensare in modo più preciso, non più ottimista."
 - question: "Quanto tempo richiede?"
   answer: "Da 10 a 30 secondi. L'obiettivo è correggere la scala del problema prima che diventi comportamento automatico."
-
 ---
 
 # Ridimensiona: riportare un pensiero alla sua scala reale

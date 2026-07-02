@@ -6,6 +6,7 @@ description: "Quando provi a osservare sotto pressione, spesso sbagli in modo pr
 seo_description: "I 3 errori più comuni quando provi a osservare sotto pressione: controllo, analisi eccessiva e attesa passiva. Come evitarli prima di reagire peggio."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/errori-osservare-sotto-pressione/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

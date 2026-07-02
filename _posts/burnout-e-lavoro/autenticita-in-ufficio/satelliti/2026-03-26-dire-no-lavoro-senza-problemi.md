@@ -5,6 +5,7 @@ description: "Dire sempre sì al lavoro sembra professionale, finché non ti man
 seo_title: "Dire no al lavoro senza sembrare problematico"
 seo_description: "Come dire no al lavoro con professionalità, senza sembrare difficile: frasi utili, confini pratici e meno sì automatici."
 date: 2026-03-26 12:00:00 +0100
+permalink: /burnout-e-lavoro/dire-no-lavoro-senza-problemi/
 last_modified_at: 2026-03-26 12:00:00 +0100
 categories: ["burnout-e-lavoro"]
 subcluster: "autenticita-in-ufficio"

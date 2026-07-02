@@ -11,6 +11,7 @@ description: "Sai esattamente cosa dovresti fare, ma continui a rimandare. Il pr
 seo_description: "Se continui a rimandare attività importanti anche quando sai cosa fare, potresti essere dentro un loop dell'evitamento. Scopri come interromperlo."
 
 date: 2026-06-20
+permalink: /mindfulness-ironica/perche-procrastini-quando-sai-cosa-fare/
 
 last_modified_at: 2026-06-20
 
@@ -57,7 +58,6 @@ faqs:
 
 - question: "Come posso interrompere il loop?"
   answer: "Riduci la distanza tra intenzione e azione. Concentrati sul primo passo concreto invece che sull'intero compito."
-
 ---
 
 Sai cosa devi fare.

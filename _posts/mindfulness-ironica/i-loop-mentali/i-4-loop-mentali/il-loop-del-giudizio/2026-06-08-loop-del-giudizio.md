@@ -6,6 +6,7 @@ seo_title: "Loop del Giudizio: paura di sbagliare, esporsi e essere criticati"
 description: "Paura di sembrare incompetente, sbagliare, esporsi o ricevere critiche? Ecco come funziona il Loop del Giudizio e perché può alimentare overthinking, perfezionismo ed evitamento."
 seo_description: "Il Loop del Giudizio alimenta paura di sbagliare, perfezionismo, paura di esporsi e bisogno di approvazione. Scopri come riconoscerlo e interromperlo."
 date: 2026-06-08
+permalink: /mindfulness-ironica/loop-del-giudizio/
 last_modified_at: 2026-06-13
 
 categories:
@@ -47,7 +48,6 @@ faqs:
 
 - question: "Come si interrompe il Loop del Giudizio?"
   answer: "Il primo passo è riconoscere quando le tue scelte sono guidate dalla paura della valutazione invece che dai tuoi obiettivi reali. Da lì puoi usare il Metodo I.R.O.N.I.A. per interrompere l'automatismo."
-
 ---
 
 # Il Loop del Giudizio: perché la paura della valutazione condiziona le tue scelte

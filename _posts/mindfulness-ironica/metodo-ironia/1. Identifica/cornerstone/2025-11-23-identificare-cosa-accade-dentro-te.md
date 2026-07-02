@@ -6,6 +6,7 @@ seo_title: "Overthinking e ruminazione: come accorgerti del loop prima di reagir
 seo_description: "Identifica è la prima fase del Metodo I.R.O.N.I.A.: riconoscere un loop mentale prima che diventi comportamento automatico."
 
 date: 2026-02-16
+permalink: /mindfulness-ironica/identificare-cosa-accade-dentro-te/
 last_modified_at: 2026-06-13
 
 categories: ["mindfulness-ironica"]

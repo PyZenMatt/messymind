@@ -5,6 +5,7 @@ description: "Mandibola serrata, respiro corto, nodo allo stomaco: i segnali fis
 seo_title: "Ansia improvvisa: segnali fisici prima della reazione"
 seo_description: "Come riconoscere i segnali corporei che anticipano ansia e reattività nei primi secondi. Intervenire prima che parta la ruminazione."
 date: 2025-12-08
+permalink: /mindfulness-ironica/riconoscere-il-pilota-automatico/
 last_modified_at: 2026-04-06
 
 categories: ["mindfulness-ironica"]

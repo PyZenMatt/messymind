@@ -4,6 +4,7 @@ title: "Il momento esatto in cui devi interromperti"
 seo_title: "Come interrompere un loop mentale prima di reagire male"
 seo_description: "Esiste un momento preciso in cui puoi ancora fermare una reazione automatica. Se lo riconosci in tempo, cambi completamente direzione."
 date: 2026-05-27
+permalink: /mindfulness-ironica/momento-esatto-interrompersi/
 last_modified_at: 2026-05-27
 categories: [mindfulness-ironica]
 subcluster: metodo-ironia

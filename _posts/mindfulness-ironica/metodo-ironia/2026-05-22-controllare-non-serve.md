@@ -5,6 +5,7 @@ seo_title: "Perché controlli continuamente tutto anche senza necessità"
 description: "Mail, notifiche, task, conversazioni, dettagli. A volte il cervello continua a controllare non perché serva davvero, ma perché il controllo riduce temporaneamente tensione e incertezza."
 seo_description: "Perché senti il bisogno di controllare continuamente tutto? Scopri il loop mentale dietro controllo compulsivo, urgenza e overthinking."
 date: 2026-05-22
+permalink: /mindfulness-ironica/controllare-non-serve/
 last_modified_at: 2026-05-22
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -31,7 +32,6 @@ faqs:
     answer: "Molto spesso sì. Il cervello usa il controllo come strategia rapida per cercare sicurezza e prevedibilità."
   - question: "Come si interrompe il controllo compulsivo?"
     answer: "Il primo passo è riconoscere il momento preciso in cui il cervello passa da attenzione utile a ricerca automatica di rassicurazione."
-
 ---
 
 Controlli la mail.

@@ -9,6 +9,7 @@ description: "Aspettare una risposta può occupare tutta la tua attenzione. Scop
 seo_description: "Se non riesci a concentrarti mentre aspetti una risposta, il problema non è il telefono ma il bisogno di eliminare l'incertezza."
 
 date: 2026-06-15
+permalink: /filosofia-pratica/non-riesci-a-concentrarti/
 last_modified_at: 2026-06-15
 
 categories:

@@ -6,6 +6,7 @@ description: "Ci sono segnali precisi nei secondi prima di una reazione impulsiv
 seo_description: "Come accorgerti che stai per reagire: segnali fisici e mentali nei primi secondi per bloccare decisioni impulsive e loop mentali."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/stai-per-reagire-segnali/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]
@@ -57,7 +58,6 @@ howto:
       text: "Nomina mentalmente cosa stai per fare: rispondere, controllare o giustificarti."
     - name: "Non reagire subito"
       text: "Aspetta qualche secondo prima di agire."
-
 ---
 
 ## Come accorgerti che stai per reagire (prima di farlo)

@@ -10,6 +10,7 @@ description: "Perché secondo Federico Faggin l'intelligenza artificiale non pot
 seo_description: "Sintassi contro significato, QIP, seità e coscienza: ecco perché Federico Faggin sostiene che l'IA non potrà mai essere cosciente."
 
 date: 2025-09-10
+permalink: /filosofia-pratica/faggin-ia-non-cosciente/
 last_modified_at: 2026-06-21
 
 categories:
@@ -54,7 +55,6 @@ faqs:
 
 - question: "L'IA è pericolosa anche se non è cosciente?"
   answer: "Sì. Un sistema molto potente non ha bisogno di essere cosciente per produrre conseguenze dannose se riceve obiettivi errati o viene usato in modo irresponsabile."
-
 ---
 
 *Aggiornato il 21 giugno 2026 · Lettura: ~9 minuti*

@@ -6,6 +6,7 @@ description: "Sotto pressione reagisci di impulso? Ecco come ridimensionare in t
 seo_description: "Scopri come ridimensionare sotto pressione in contesti reali come lavoro, messaggi ed email. Metodo pratico per evitare reazioni impulsive e migliorare le decisioni."
 
 date: 2026-04-11
+permalink: /mindfulness-ironica/ridimensionare-sotto-pressione/
 last_modified_at: 2026-04-11
 
 categories: ["mindfulness-ironica"]

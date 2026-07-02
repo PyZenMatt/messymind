@@ -5,6 +5,7 @@ description: "I bias cognitivi spiegati con CBT e MCT: perché sembrano logici, 
 seo_title: "Bias Cognitivi: CBT e MCT spiegati senza psicologese"
 seo_description: "Cosa sono i bias cognitivi secondo CBT e MCT, perché distorcono la realtà e come usarli nella fase R – Ridimensiona del Metodo I.R.O.N.I.A."
 date: 2026-01-06
+permalink: /mindfulness-ironica/perche-la-testa-distorce/
 last_modified_at: 2026-04-11
 
 categories: ["mindfulness-ironica"]

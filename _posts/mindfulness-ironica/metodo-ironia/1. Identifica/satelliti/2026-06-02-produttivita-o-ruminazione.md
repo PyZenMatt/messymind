@@ -6,6 +6,7 @@ seo_title: "Ruminazione mentale o riflessione? Come capire la differenza"
 description: "Non tutto il pensiero è utile. A volte quello che chiami riflessione è solo un loop mentale che consuma energia e lucidità."
 seo_description: "Come distinguere una riflessione utile dalla ruminazione mentale. Impara a riconoscere quando stai pensando e quando stai girando in tondo."
 date: 2026-06-02
+permalink: /mindfulness-ironica/produttivita-o-ruminazione/
 last_modified_at: 2026-06-02
 
 categories: ["mindfulness-ironica"]
@@ -41,7 +42,6 @@ faqs:
 
 - question: "Questo articolo fa parte del Metodo I.R.O.N.I.A?"
   answer: "Sì. Aiuta a rafforzare la fase Identifica, distinguendo un pensiero utile da un loop mentale."
-
 ---
 
 C'è un motivo per cui molti loop mentali sono difficili da vedere.

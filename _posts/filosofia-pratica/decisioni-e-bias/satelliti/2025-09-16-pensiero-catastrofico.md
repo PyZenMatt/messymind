@@ -10,6 +10,7 @@ categories:
 subcluster: decisioni-e-bias
 
 date: 2025-09-15
+permalink: /filosofia-pratica/pensiero-catastrofico/
 last_modified_at: 2026-06-21
 
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1758091305/catastrofe-600_yoozux.webp

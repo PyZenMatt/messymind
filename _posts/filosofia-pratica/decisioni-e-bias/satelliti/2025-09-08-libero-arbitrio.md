@@ -23,6 +23,7 @@ tags:
   - overthinking
 
 date: 2025-09-08
+permalink: /filosofia-pratica/libero-arbitrio/
 last_modified_at: 2026-06-21
 
 image_author: cottonbro
@@ -53,7 +54,6 @@ faqs:
 
   - question: "Se tutto è determinato siamo responsabili delle nostre azioni?"
     answer: "Secondo il compatibilismo sì. Anche se le azioni hanno cause antecedenti, possiamo comunque considerarle nostre quando riflettono valori, intenzioni e ragioni."
-
 ---
 
 **Definizione rapida:** il *libero arbitrio* è la capacità di deliberare e agire secondo ragioni proprie. Il *determinismo* sostiene che ogni evento, incluse le nostre scelte, abbia cause antecedenti.

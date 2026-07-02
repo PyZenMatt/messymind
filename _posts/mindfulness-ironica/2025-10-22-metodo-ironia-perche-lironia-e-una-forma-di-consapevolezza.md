@@ -5,6 +5,7 @@ seo_title: "Perché l’ironia riduce overthinking e ruminazione mentale"
 seo_description: "L'ironia crea distanza dai pensieri e interrompe i loop mentali che alimentano overthinking e ruminazione. Scopri perché funziona."
 
 date: 2025-10-22
+permalink: /mindfulness-ironica/metodo-ironia-perche-lironia-e-una-forma-di-consapevolezza/
 last_modified_at: 2026-06-13
 
 categories:
@@ -36,7 +37,6 @@ faqs:
   answer: "No. L'ironia non elimina i pensieri. Riduce il potere che hanno sulle tue decisioni e sui tuoi comportamenti."
 - question: "Cos'è la defusione cognitiva?"
   answer: "È la capacità di osservare un pensiero senza identificarvisi completamente e senza reagire automaticamente."
-
 ---
 
 # Perché l’ironia riduce overthinking e ruminazione

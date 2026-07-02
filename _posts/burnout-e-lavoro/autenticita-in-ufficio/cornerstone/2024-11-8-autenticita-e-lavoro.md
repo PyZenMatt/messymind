@@ -4,6 +4,7 @@ title: "Autenticità al lavoro: il costo mentale di fingere tutto il giorno"
 seo_title: "Autenticità al lavoro: il costo mentale di fingere sempre"
 seo_description: "Essere autentici al lavoro non vuol dire dire tutto. Vuol dire ridurre il costo mentale della maschera professionale, mettere confini chiari e lavorare con più lucidità."
 date: 2024-11-8
+permalink: /burnout-e-lavoro/autenticita-e-lavoro/
 last_modified_at: 2026-03-26
 categories: ["burnout-e-lavoro"]
 subcluster: autenticita-in-ufficio

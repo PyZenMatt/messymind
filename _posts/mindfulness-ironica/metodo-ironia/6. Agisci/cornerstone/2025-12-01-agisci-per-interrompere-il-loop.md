@@ -7,6 +7,7 @@ seo_description: "Agisci è l'ultima fase del Metodo I.R.O.N.I.A.: trasformare l
 description: "Identificare, ridimensionare, osservare, nominare e interrompere servono a una cosa: tornare ad agire. Nessun loop si risolve restando fermo."
 
 date: 2026-02-15
+permalink: /mindfulness-ironica/agisci-per-interrompere-il-loop/
 last_modified_at: 2026-06-13
 
 categories: ["mindfulness-ironica"]
@@ -54,7 +55,6 @@ faqs:
   answer: "No. Serve a muoversi anche quando motivazione, chiarezza o sicurezza sono incomplete."
 - question: "Quando è il momento di passare ad Agisci?"
   answer: "Quando hai recuperato abbastanza lucidità da poter scegliere il comportamento successivo invece di reagire automaticamente."
-
 ---
 
 # Agisci: tornare alla realtà prima che il loop riparta

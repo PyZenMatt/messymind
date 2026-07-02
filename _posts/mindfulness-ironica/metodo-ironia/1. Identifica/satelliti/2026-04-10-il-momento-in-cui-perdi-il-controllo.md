@@ -5,6 +5,7 @@ seo_title: "Quando perdi il controllo del loop mentale (il punto preciso)"
 description: "C’è un momento preciso in cui il loop mentale prende il controllo. Scopri quando succede e perché lì perdi distanza."
 seo_description: "Quando perdi il controllo del loop mentale? Non è casuale: esiste un punto preciso in cui smetti di osservare e inizi a reagire."
 date: 2026-04-10
+permalink: /mindfulness-ironica/il-momento-in-cui-perdi-il-controllo/
 last_modified_at: 2026-04-10
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"

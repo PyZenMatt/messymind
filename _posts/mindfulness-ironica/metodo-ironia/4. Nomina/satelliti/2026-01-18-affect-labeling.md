@@ -6,6 +6,7 @@ description: "Stai per rispondere o reagire e senti salire qualcosa? Dare un nom
 seo_description: "Stai per reagire e senti salire qualcosa? Dare un nome a ciò che senti riduce la reattività e ti evita decisioni impulsive."
 
 date: 2026-01-18
+permalink: /mindfulness-ironica/affect-labeling/
 last_modified_at: 2026-04-25
 
 categories: ["mindfulness-ironica"]

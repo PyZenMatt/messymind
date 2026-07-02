@@ -8,6 +8,7 @@ categories: ["mindfulness-ironica"]
 subcluster: "micro-pratiche"
 tags: ["micro-pratiche", "respiro", "reattività", "rumore-mentale", "interrompi"]
 date: 2025-09-22T12:45:00+02:00
+permalink: /mindfulness-ironica/respira-prima-di-peggiorare-tutto/
 last_modified_at: 2026-03-27 16:35:00 +0100
 image_author:
 image:

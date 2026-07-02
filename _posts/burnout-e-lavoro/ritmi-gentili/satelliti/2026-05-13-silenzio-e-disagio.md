@@ -5,6 +5,7 @@ seo_title: "Perché il silenzio ti mette a disagio quando ti fermi"
 description: "Appena tutto si calma senti il bisogno di prendere il telefono, accendere qualcosa o distrarti? Il problema potrebbe non essere il silenzio ma ciò che emerge quando arriva."
 seo_description: "Perché il silenzio ti mette a disagio? Scopri cosa succede quando il cervello resta troppo abituato a stimoli, urgenza e attivazione continua."
 date: 2026-05-12
+permalink: /burnout-e-lavoro/silenzio-e-disagio/
 last_modified_at: 2026-05-12
 
 categories: ["burnout-e-lavoro"]

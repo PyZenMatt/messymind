@@ -5,6 +5,7 @@ seo_title: "Burnout al lavoro: 7 segnali che stai sottovalutando"
 description: "Stanchezza che non passa, cinismo e nebbia mentale: ecco 7 segnali reali del burnout al lavoro e le prime micro-azioni utili per non peggiorare la situazione."
 seo_description: "Stanchezza che non passa, cinismo e nebbia mentale: ecco 7 segnali reali del burnout al lavoro e le prime micro-azioni utili per non peggiorare la situazione."
 date: "2025-09-12"
+permalink: /burnout-e-lavoro/burnout-e-segnali/
 last_modified_at: "2026-03-26"
 categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"

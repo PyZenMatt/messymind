@@ -10,6 +10,7 @@ description: "Cos'è il QIP di Federico Faggin? Coscienza fondamentale, séità,
 seo_description: "Scopri il QIP di Federico Faggin: coscienza fondamentale, séità, basi quantistiche, critiche e cosa ci insegna sul bisogno umano di trovare significati assoluti."
 
 date: 2025-09-12
+permalink: /filosofia-pratica/federico-faggin-qip-seita/
 last_modified_at: 2026-06-21
 
 categories:
@@ -51,7 +52,6 @@ faqs:
 
 - question: "Il QIP è accettato dalla comunità scientifica?"
   answer: "No. Il QIP è una teoria filosofica e scientifica minoritaria. Molti ricercatori ritengono che manchino ancora verifiche empiriche decisive."
-
 ---
 
 *Aggiornato il 21 giugno 2026 · Lettura: ~9 minuti*

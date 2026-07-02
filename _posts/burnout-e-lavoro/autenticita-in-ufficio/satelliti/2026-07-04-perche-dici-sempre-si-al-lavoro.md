@@ -5,6 +5,7 @@ seo_title: "Perché dici sempre sì al lavoro anche quando sei saturo"
 description: "Accetti nuove richieste anche quando sei già pieno di lavoro? Non è solo disponibilità: è un meccanismo automatico che ti svuota lucidità e margine."
 seo_description: "Perché dici sempre sì al lavoro anche quando sei saturo? Scopri il meccanismo, il costo nascosto e come interrompere l’automatismo senza sembrare difficile."
 date: 2026-04-07
+permalink: /burnout-e-lavoro/perche-dici-sempre-si-al-lavoro/
 last_modified_at: 2026-04-07
 categories: ["burnout-e-lavoro"]
 subcluster: "autenticita-in-ufficio"

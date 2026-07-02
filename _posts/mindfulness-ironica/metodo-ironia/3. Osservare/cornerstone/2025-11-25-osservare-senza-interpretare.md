@@ -9,6 +9,7 @@ seo_description: "Osserva è la fase del Metodo I.R.O.N.I.A. che crea spazio tra
 description: "Non serve calmarti. Serve vedere cosa sta succedendo prima di parlare, rispondere, spiegarti o fare danni."
 
 date: 2026-02-15
+permalink: /mindfulness-ironica/osservare-senza-interpretare/
 last_modified_at: 2026-06-01
 
 categories: ["mindfulness-ironica"]

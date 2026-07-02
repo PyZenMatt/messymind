@@ -6,6 +6,7 @@ seo_description: "Defusione cognitiva spiegata in modo pratico: come smettere di
 seo_title: "Defusione Cognitiva (ACT) — Smettere di Discutere con la Testa"
 
 date: 2026-01-03
+permalink: /mindfulness-ironica/defusione-cognitiva/
 last_modified_at: 2026-04-11
 
 categories: ["mindfulness-ironica"]

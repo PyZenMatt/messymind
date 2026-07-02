@@ -5,6 +5,7 @@ seo_title: "Non riesci a staccare dal lavoro? Perché la mente resta attiva"
 description: "Hai finito di lavorare ma continui a pensarci? Non è stress: è un loop mentale aperto. Ecco perché succede e come chiuderlo davvero."
 seo_description: "Non riesci a staccare dal lavoro anche quando hai finito? Scopri perché la mente resta attiva e come interrompere il loop mentale in pochi minuti."
 date: 2026-04-07
+permalink: /burnout-e-lavoro/non-stacchi-mai-davvero/
 last_modified_at: 2026-04-07
 categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"
@@ -50,7 +51,6 @@ faqs:
     answer: "Non sempre. Ma se succede ogni giorno e si accompagna a stanchezza e calo di lucidità, può essere un segnale precoce."
   - question: "Rilassarsi basta per staccare davvero?"
     answer: "No. Se i task restano aperti, la mente continua a lavorarci. Serve chiusura mentale, non solo relax."
-
 ---
 
 ## Hai finito di lavorare. Ma non hai davvero staccato

@@ -6,6 +6,7 @@ seo_title: "Pornografia, stanchezza e stress: quando il desiderio diventa aneste
 seo_description: "Scopri perché la pornografia può trasformarsi in una strategia automatica per evitare stanchezza, noia o emozioni difficili."
 
 date: 2026-02-09
+permalink: /mindfulness-ironica/pornografia-rumore-bianco/
 last_modified_at: 2026-06-21
 
 categories:
@@ -41,7 +42,6 @@ faqs:
 
   - question: "Come interrompere un comportamento automatico?"
     answer: "Il primo passo non è combattere l'impulso, ma riconoscere il bisogno che sta cercando di soddisfare."
-
 ---
 
 # Perché guardi pornografia quando sei stanco o stressato

@@ -5,6 +5,7 @@ seo_title: "Perché controlli il telefono continuamente senza motivo"
 description: "Apri il telefono ogni pochi minuti anche senza notifiche reali? Non è solo abitudine: spesso è un tentativo automatico di ridurre tensione mentale e incertezza."
 seo_description: "Perché controlli il telefono continuamente anche senza notifiche? Scopri il loop mentale dietro il controllo compulsivo dello smartphone."
 date: 2026-05-15
+permalink: /mindfulness-ironica/controllare-sempre-il-telefono/
 last_modified_at: 2026-05-15
 categories: ["mindfulness-ironica"]
 subcluster: "micro-pratiche"
@@ -31,7 +32,6 @@ faqs:
     answer: "A volte sì, ma molto spesso è un automatismo di regolazione mentale: il cervello cerca micro-stimoli per evitare vuoti, attesa o disagio cognitivo."
   - question: "Come smetto di controllare continuamente il telefono?"
     answer: "Il primo passo non è vietartelo, ma accorgerti del momento preciso in cui nasce l’impulso. Lì puoi interrompere il pilota automatico."
-
 ---
 
 Prendi il telefono.

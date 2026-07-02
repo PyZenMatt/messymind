@@ -10,6 +10,7 @@ lcp_image: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_a
 background: https://res.cloudinary.com/dkoc4knvv/image/upload/f_auto,q_auto,dpr_auto,c_fill,ar_3:2,w_600/v1757328498/meditazione_yoga_600_igow0o.webp
 categories: mindfulness-ironica
 date: 2025-09-08 
+permalink: /mindfulness-ironica/vipassana-urbana/
 featured: 'true'
 image_alt: foto in bianco e nero di una Persona che medita seduta sotto un palazzo vicino una fontana con dei palazzi intorno
 image_author: pixabay
@@ -20,7 +21,6 @@ redirect_from:
 robots: index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1
 subcluster: pratiche-quotidiane-urbane
 tags: ["cornerstone", "Vipassana", "Mindfulness Antiguru", "Città"]
-
 ---
 # Vipassana Urbana: come meditare in città (senza ritiri e senza incenso)
 

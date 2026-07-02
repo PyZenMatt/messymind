@@ -6,6 +6,7 @@ seo_title: "Perché controlli un messaggio WhatsApp (e non riesci a smettere)"
 seo_description: "Continui a controllare WhatsApp dopo aver inviato un messaggio? Scopri perché succede e come uscire dal loop mentale."
 
 date: 2026-04-05
+permalink: /mindfulness-ironica/ripensare-whatsapp-ore/
 last_modified_at: 2026-04-05
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -33,7 +34,6 @@ faqs:
     answer: "Sì, può succedere. Diventa un loop quando il controllo della chat sostituisce la realtà e inizi a costruire scenari mentali sempre più pesanti."
   - question: "Come smettere di controllare un messaggio su WhatsApp?"
     answer: "Chiudi fisicamente la chat, nomina il meccanismo e sposta l’attenzione su un’azione reale. Il punto non è capire di più, ma interrompere il replay."
-
 ---
 
 ## Hai già inviato il messaggio. Ma la tua testa no

@@ -5,6 +5,7 @@ seo_title: "Behavioral Activation: perché l’azione viene prima della motivazi
 description: "Aspettare la motivazione mantiene il blocco. Scopri come l’azione minima rompe l’evitamento e riattiva il sistema."
 seo_description: "Behavioral activation spiegata in modo pratico: perché agire prima di stare meglio riduce il blocco e come usarla nel Metodo I.R.O.N.I.A."
 date: 2026-02-01
+permalink: /mindfulness-ironica/behavioral-activation/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

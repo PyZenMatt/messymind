@@ -5,6 +5,7 @@ seo_title: "Perché il tempo libero sembra diventare un altro lavoro"
 description: "Anche quando finalmente hai tempo libero senti il bisogno di ottimizzarlo, riempirlo o usarlo bene? Il problema potrebbe non essere il tempo ma il modo in cui il cervello vive la pausa."
 seo_description: "Perché il tempo libero sembra un task da gestire? Scopri cosa succede quando produttività e recupero iniziano a confondersi."
 date: 2026-05-14
+permalink: /burnout-e-lavoro/tempo-libero-task/
 last_modified_at: 2026-05-14
 
 categories: ["burnout-e-lavoro"]

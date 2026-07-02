@@ -11,6 +11,7 @@ description: "Analizzi ogni dettaglio ma non arrivi mai a una decisione? Il prob
 seo_description: "Rileggi messaggi, ripensi alle conversazioni e analizzi ogni scenario? Scopri perché il bisogno di controllo alimenta l'overthinking."
 
 date: 2025-10-18
+permalink: /filosofia-pratica/faggin-coscienza-ironia-router/
 last_modified_at: 2026-06-21
 
 categories:
@@ -68,7 +69,6 @@ howto:
 
   name: "Agisci"
   text: "Fai una piccola azione concreta che ti faccia avanzare."
-
 ---
 
 **In breve:** non analizzi tutto perché sei più razionale degli altri. Spesso analizzi tutto perché il tuo cervello sta cercando di eliminare l'incertezza.

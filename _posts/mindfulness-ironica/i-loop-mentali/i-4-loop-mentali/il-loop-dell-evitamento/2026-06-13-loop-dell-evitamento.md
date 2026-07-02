@@ -6,6 +6,7 @@ seo_title: "Loop dell'Evitamento: perché procrastini, rimandi e non inizi"
 description: "Rimandi decisioni, risposte, conversazioni o progetti anche quando sai cosa fare? Scopri come funziona il Loop dell'Evitamento e perché il sollievo immediato alimenta procrastinazione e blocco."
 seo_description: "Il Loop dell'Evitamento alimenta procrastinazione, blocco decisionale, rinvio e paura di iniziare. Scopri come riconoscerlo e interromperlo."
 date: 2026-06-13
+permalink: /mindfulness-ironica/loop-dell-evitamento/
 last_modified_at: 2026-06-13
 
 categories:
@@ -47,7 +48,6 @@ faqs:
 
 - question: "Come si interrompe il Loop dell'Evitamento?"
   answer: "Il primo passo è riconoscere quando stai rimandando per evitare una sensazione scomoda. Poi puoi usare il Metodo I.R.O.N.I.A. per trasformare il blocco in una micro-azione concreta."
-
 ---
 
 # Il Loop dell'Evitamento: perché rimandi anche quando sai cosa fare

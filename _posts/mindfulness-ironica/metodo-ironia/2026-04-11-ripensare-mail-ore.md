@@ -6,6 +6,7 @@ description: "Hai inviato una mail e continui a rivederla nella testa? Non è pr
 seo_description: "Hai mandato una mail e continui a ripensarci? Non è attenzione ai dettagli: è un loop mentale. Ecco cosa sta succedendo."
 
 date: 2026-04-05
+permalink: /mindfulness-ironica/ripensare-mail-ore/
 last_modified_at: 2026-04-25
 
 categories: ["mindfulness-ironica"]

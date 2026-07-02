@@ -5,6 +5,7 @@ seo_title: "Pre-impulso: perché reagisci prima di pensarci"
 description: "Il corpo si attiva prima della mente. Capire il pre-impulso ti permette di intercettare una reazione prima che parta."
 seo_description: "Pre-impulso: cosa succede nei secondi prima della reazione automatica e come riconoscerlo per applicare Interrompi."
 date: 2025-12-20
+permalink: /mindfulness-ironica/il-pre-impulso/
 last_modified_at: 2026-04-12
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"

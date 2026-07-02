@@ -5,6 +5,7 @@ seo_title: "Blocchi decisionali: perché rimandi anche decisioni semplici"
 description: "Rimandi anche decisioni piccole e concrete? Non è indecisione: è evitamento decisionale sotto pressione."
 seo_description: "Blocchi decisionali: scopri perché rimandi anche cose semplici e come uscire dal loop mentale senza restare fermo."
 date: 2026-04-12
+permalink: /mindfulness-ironica/blocchi-decisionali-quando-rimandi-anche-cose-semplici/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

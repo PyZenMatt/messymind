@@ -6,6 +6,7 @@ description: "Stai per rispondere male a un messaggio? Ecco il protocollo minimo
 seo_description: "Come fermarti prima di rispondere male: guida pratica in 30 secondi per bloccare una risposta impulsiva e guadagnare tempo."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/come-fermarti-prima-di-rispondere-male/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

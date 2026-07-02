@@ -6,6 +6,7 @@ description: "Ti accorgi di aver reagito male solo dopo? Ecco i segnali fisici e
 seo_description: "Segnali che stai per reagire male: guida pratica per riconoscere urgenza, tensione e trigger prima della reazione automatica."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/segnali-che-stai-per-reagire-male/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

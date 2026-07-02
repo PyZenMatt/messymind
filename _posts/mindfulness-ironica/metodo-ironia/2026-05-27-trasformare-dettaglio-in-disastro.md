@@ -4,6 +4,7 @@ title: "Quando il cervello trasforma un dettaglio in un disastro"
 seo_title: "Quando il cervello ingigantisce un problema: cosa fare subito"
 seo_description: "Perché la mente trasforma un dettaglio in un disastro e come ridimensionare il loop prima che diventi una reazione automatica."
 date: 2026-05-27
+permalink: /mindfulness-ironica/trasformare-dettaglio-in-disastro/
 last_modified_at: 2026-05-27
 categories: [mindfulness-ironica]
 subcluster: metodo-ironia

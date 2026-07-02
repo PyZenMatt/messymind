@@ -7,6 +7,7 @@ seo_title: "I 4 loop mentali dietro overthinking, procrastinazione e perfezionis
 description: "Controllo, giudizio, evitamento e approvazione: i quattro loop mentali che generano overthinking, procrastinazione, perfezionismo e autosabotaggio."
 seo_description: "Scopri i 4 loop mentali che influenzano decisioni, produttività e relazioni. Una mappa pratica per riconoscere ciò che alimenta overthinking e comportamenti automatici."
 date: 2026-06-07
+permalink: /mindfulness-ironica/i-4-loop-mentali/
 last_modified_at: 2026-06-13
 
 categories:
@@ -56,7 +57,6 @@ faqs:
 
 redirect_from:
   - /mindfulness-ironica/i-5-loop-mentali/
-
 ---
 
 Hai inviato una mail importante.

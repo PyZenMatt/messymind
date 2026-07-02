@@ -6,6 +6,7 @@ description: "Quando osservare diventa controllo, non stai più uscendo dal loop
 seo_description: "Stai osservando troppo? Segnali di ipercontrollo mentale e cosa fare quando l’osservazione diventa un loop invece di creare spazio."
 
 date: 2026-04-12
+permalink: /mindfulness-ironica/osservando-troppo-bloccato/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

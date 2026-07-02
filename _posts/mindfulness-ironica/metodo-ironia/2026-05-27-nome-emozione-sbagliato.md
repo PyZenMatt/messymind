@@ -4,6 +4,7 @@ title: "Quando dai il nome sbagliato a quello che senti"
 seo_title: "Perché dare il nome sbagliato alle emozioni peggiora il loop mentale"
 seo_description: "Molte volte non è ansia. È vergogna, pressione, evitamento o paura del giudizio. Capire cosa senti cambia le tue decisioni."
 date: 2026-05-27
+permalink: /mindfulness-ironica/nome-emozione-sbagliato/
 last_modified_at: 2026-05-27
 categories: [mindfulness-ironica]
 subcluster: metodo-ironia

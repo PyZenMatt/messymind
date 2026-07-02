@@ -6,6 +6,7 @@ seo_title: "Loop dell'Approvazione: bisogno di conferme, people pleasing e paura
 description: "Cerchi conferme, dici sì quando vorresti dire no o temi di deludere gli altri? Ecco come funziona il Loop dell'Approvazione e perché può guidare le tue scelte."
 seo_description: "Il Loop dell'Approvazione alimenta people pleasing, paura di deludere, bisogno di conferme e difficoltà a dire no. Scopri come riconoscerlo e interromperlo."
 date: 2026-06-13
+permalink: /mindfulness-ironica/loop-approvazione/
 last_modified_at: 2026-06-13
 
 categories:
@@ -47,7 +48,6 @@ faqs:
 
 - question: "Come si interrompe il Loop         dell'Approvazione?"
   answer: "Il primo passo è riconoscere quando stai cercando conferma invece di scegliere con lucidità. Poi puoi usare il Metodo I.R.O.N.I.A. per interrompere l'automatismo e agire in modo più coerente."
-
 ---
 
 # Il Loop dell'Approvazione: perché cerchi conferme anche quando sai cosa vuoi

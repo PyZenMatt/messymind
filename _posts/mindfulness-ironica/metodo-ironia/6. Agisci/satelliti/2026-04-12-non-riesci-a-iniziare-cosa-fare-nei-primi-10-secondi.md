@@ -5,6 +5,7 @@ seo_title: "Non riesco a iniziare: cosa fare subito (nei primi 10 secondi)"
 description: "Sai cosa fare ma resti fermo? Scopri come sbloccare l’inizio con un gesto minimo nei primi 10 secondi."
 seo_description: "Non riesci a iniziare? Scopri cosa fare nei primi 10 secondi per sbloccare il blocco mentale e uscire dal loop subito."
 date: 2026-04-12
+permalink: /mindfulness-ironica/non-riesci-a-iniziare-cosa-fare-nei-primi-10-secondi/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

@@ -9,6 +9,7 @@ description: "Hai scritto o detto qualcosa e continui a ripensarci? Non è atten
 seo_description: "Perché continui a ripensare a un messaggio o a una conversazione? Scopri il meccanismo del Loop del Controllo e come interromperlo."
 
 date: 2026-04-07
+permalink: /filosofia-pratica/perche-ripensi-a-quello-che-hai-scritto-o-detto/
 last_modified_at: 2026-06-21
 
 categories:
@@ -49,7 +50,6 @@ faqs:
 
 - question: "Perché il silenzio dell'altra persona mi manda in crisi?"
   answer: "Perché il cervello riempie l'incertezza con interpretazioni e scenari immaginari."
-
 ---
 
 # Perché continui a ripensare a quello che hai scritto o detto

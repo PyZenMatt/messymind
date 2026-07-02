@@ -6,6 +6,7 @@ seo_title: "Parole sbagliate: perché aumentano l’ansia e ti fanno reagire mal
 seo_description: "Le parole che usi influenzano le tue reazioni. Scopri come evitare etichette che amplificano il loop mentale e prendere decisioni più lucide."
 
 date: 2025-12-16
+permalink: /mindfulness-ironica/quando-la-parola-ti-frega/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

@@ -6,6 +6,7 @@ description: "Esempi concreti di micro-interruzioni per bloccare una reazione su
 seo_description: "Micro-interruzioni pratiche: azioni semplici e immediate per fermare una reazione automatica e interrompere il loop mentale."
 
 date: 2025-12-22
+permalink: /mindfulness-ironica/micro-interruzioni/
 last_modified_at: 2026-04-12
 
 categories: ["mindfulness-ironica"]

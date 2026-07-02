@@ -1,10 +1,11 @@
---- 
+---
 layout: post 
 title: "Interrompi: spezzare il loop prima che diventi comportamento" 
 seo_title: "Come interrompere un loop mentale prima di reagire" 
 seo_description: "Interrompi è la fase del Metodo I.R.O.N.I.A. che spezza la sequenza automatica tra impulso e comportamento. Non serve calmarsi: serve interrompere." 
 description: "Quando hai già identificato, ridimensionato, osservato e nominato il loop, serve un ultimo passaggio: smettere di alimentarlo. Interrompi crea distanza tra impulso e azione."
 date: 2026-02-15 
+permalink: /mindfulness-ironica/interrompere-il-pilota-automatico/
 last_modified_at: 2026-06-01 
 categories: ["mindfulness-ironica"] 
 subcluster: "metodo-ironia" 
@@ -48,7 +49,6 @@ faqs:
   answer: "No. L'evitamento scappa dal problema. Interrompi serve a recuperare libertà di scelta prima di affrontarlo." 
 - question: "Quando devo usare Interrompi?" 
   answer: "Quando senti che l'impulso è già forte e stai per trasformarlo in comportamento automatico." 
-
 ---
 
 Arriva dopo Identifica, Ridimensiona, Osserva e Nomina.

@@ -6,6 +6,7 @@ seo_title: "Loop del Controllo: perché controlli mail, telefono e decisioni"
 description: "Controlli continuamente mail, telefono, decisioni o conversazioni? Ecco come funziona il Loop del Controllo e perché cercare più sicurezza può alimentare overthinking e dubbi."
 seo_description: "Il Loop del Controllo alimenta mail ricontrollate, rassicurazioni, pianificazione eccessiva e dubbi continui. Scopri come riconoscerlo e interromperlo."
 date: 2026-06-08
+permalink: /mindfulness-ironica/loop-del-controllo/
 last_modified_at: 2026-06-13
 
 categories:
@@ -46,7 +47,6 @@ faqs:
 
 - question: "Come si interrompe il Loop del Controllo?"
   answer: "Il primo passo è riconoscere quando il controllo non serve più a risolvere un problema ma viene usato per calmare l'incertezza. Da lì puoi usare il Metodo I.R.O.N.I.A. per interrompere l'automatismo."
-
 ---
 
 # Il Loop del Controllo: perché continui a verificare anche quando non serve più

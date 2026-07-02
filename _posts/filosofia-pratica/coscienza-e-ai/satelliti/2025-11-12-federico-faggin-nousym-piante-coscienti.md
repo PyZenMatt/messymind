@@ -10,6 +10,7 @@ description: "La teoria Nousym di Federico Faggin: coscienza fondamentale, piant
 seo_description: "Cos'è Nousym? Scopri la teoria di Federico Faggin sulla coscienza fondamentale, le ipotesi sulle piante coscienti e i limiti dell'intelligenza artificiale."
 
 date: 2025-11-12
+permalink: /filosofia-pratica/federico-faggin-nousym-piante-coscienti/
 last_modified_at: 2026-06-21
 
 categories:
@@ -50,7 +51,6 @@ faqs:
 
 - question: "Le piante sono davvero coscienti?"
   answer: "Secondo Faggin è un'ipotesi possibile. Al momento, però, non esistono prove sperimentali condivise che confermino questa idea."
-
 ---
 
 *Aggiornato il 21 giugno 2026 · Lettura: ~8 minuti*

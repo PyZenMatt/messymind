@@ -8,6 +8,7 @@ seo_description: "Nomina è la quarta fase del Metodo I.R.O.N.I.A.: dare un nome
 description: "Se chiami tutto ansia, reagirai sempre allo stesso modo. Nomina serve a scegliere parole più precise prima che il pilota automatico prenda il controllo."
 
 date: 2026-02-15
+permalink: /mindfulness-ironica/nomina-cio-che-senti/
 last_modified_at: 2026-06-13
 
 categories: ["mindfulness-ironica"]
@@ -55,7 +56,6 @@ faqs:
   answer: "No. Nomina rende visibile il processo. Se l'impulso resta forte, serve passare alla fase Interrompi."
 - question: "Qual è l'errore più comune?"
   answer: "Trasformare Nomina in una lunga analisi invece di scegliere una parola utile e fermarsi lì."
-
 ---
 
 # Nomina: il nome che dai a un’esperienza cambia quello che fai dopo

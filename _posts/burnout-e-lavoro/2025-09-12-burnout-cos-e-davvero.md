@@ -8,6 +8,7 @@ categories: ["burnout-e-lavoro"]
 subcluster: "ritmi-gentili"
 tags: ["cornerstone", "burnout", "stress-lavoro-correlato", "ritmi-gentili", "ansia-da-performance", "overthinking", "lavoro"]
 date: "2025-09-12"
+permalink: /burnout-e-lavoro/burnout-cos-e-davvero/
 last_modified_at: "2026-04-06"
 
 is_cornerstone: true

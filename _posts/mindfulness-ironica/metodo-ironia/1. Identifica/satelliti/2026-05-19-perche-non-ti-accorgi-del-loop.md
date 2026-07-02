@@ -5,6 +5,7 @@ seo_title: "Perché non ti accorgi del loop mentale subito"
 description: "Molti loop mentali non iniziano con pensieri evidenti, ma con micro-reazioni automatiche. Quando te ne accorgi, spesso sei già dentro."
 seo_description: "Perché ti accorgi dell’overthinking solo quando sei già dentro? Scopri come riconoscere il loop mentale prima che prenda il controllo."
 date: 2026-05-18
+permalink: /mindfulness-ironica/perche-non-ti-accorgi-del-loop/
 last_modified_at: 2026-05-18
 categories: ["mindfulness-ironica"]
 subcluster: "metodo-ironia"
@@ -31,7 +32,6 @@ faqs:
     answer: "È una sequenza automatica di pensieri, tensioni e reazioni che si autoalimenta consumando attenzione e lucidità."
   - question: "Come faccio a riconoscere un loop mentale prima?"
     answer: "Osservando i micro-segnali iniziali: tensione, impulso, urgenza improvvisa, bisogno di controllare o reagire subito."
-
 ---
 
 Non inizi a pensare:

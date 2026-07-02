@@ -5,6 +5,7 @@ description: "Kundalini e insonnia: cosa fare quando il corpo non si spegne, la 
 seo_title: "Kundalini e insonnia: cosa fare quando il corpo non si spegne"
 seo_description: "Kundalini e insonnia: cosa fare quando il corpo non si spegne, la mente amplifica e la notte diventa un loop. Guida prudente, concreta, senza misticismo."
 date: 2026-04-08 
+permalink: /mindfulness-ironica/kundalini-e-insonnia/
 categories: ["mindfulness-ironica"]
 subcluster: "spiritualita-prudente"
 tags: ["kundalini", "insonnia", "attivazione", "spiritualita-prudente", "iper-vigilanza", "regolazione"]

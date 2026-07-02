@@ -9,6 +9,7 @@ seo_title: "Esperienza spirituale destabilizzante: cosa fare quando peggiora le 
 seo_description: "Quando una pratica spirituale aumenta ansia, insonnia e confusione, la priorità non è interpretare: è interrompere il loop e ritrovare stabilità."
 
 date: 2026-04-08
+permalink: /mindfulness-ironica/esperienza-destabilizzante/
 last_modified_at: 2026-06-21
 
 categories:
@@ -41,7 +42,6 @@ faqs:
 redirect_from:
 
 - /esperienza-spirituale-destabilizzante/
-
 ---
 
 # Quando un’esperienza spirituale ti destabilizza invece di aiutarti
